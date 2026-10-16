@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="emerald_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="dark_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Voxel Cube Emblem -->
+  <g transform="translate(30, 30)">
+    <!-- Top Face -->
+    <path d="M0,-20 L18,-10 L0,0 L-18,-10 Z" fill="#34d399" />
+    <!-- Left Face -->
+    <path d="M-18,-10 L0,0 L0,20 L-18,10 Z" fill="#059669" />
+    <!-- Right Face -->
+    <path d="M0,0 L18,-10 L18,10 L0,20 Z" fill="#047857" />
+    <!-- Internal Glow Diamond -->
+    <path d="M0,-12 L8,-7 L0,-2 L-8,-7 Z" fill="#ffffff" opacity="0.6" />
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="64" y="38" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" letter-spacing="-0.5">
+    BLOCK<tspan fill="#10b981">HUB</tspan>
+  </text>
+  <rect x="208" y="22" width="60" height="20" rx="4" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1" />
+  <text x="238" y="36" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.5">.GAMES</text>
+</svg>
