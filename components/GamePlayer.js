@@ -52,15 +52,27 @@ export default function GamePlayer({ game }) {
     setReloadKey((prev) => prev + 1);
   };
 
+  // Calculate responsive aspect ratio based on game's native resolution
+  const isPortrait = game.orientation === "portrait" || (game.height && game.width && game.height > game.width);
+  // Default aspect ratio or custom aspect ratio based on feed dimensions
+  const aspectRatioStyle = isPortrait
+    ? { aspectRatio: `${game.width || 9} / ${game.height || 16}`, maxHeight: "78vh" }
+    : { aspectRatio: "16 / 9" };
+
   return (
     <div
       ref={containerRef}
       className={`relative w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl transition-all duration-300 ${
-        isTheater ? "max-w-6xl mx-auto" : "w-full"
+        isTheater ? "max-w-6xl mx-auto" : isPortrait ? "max-w-md mx-auto" : "w-full"
       }`}
     >
-      {/* 16:9 Responsive Aspect Container */}
-      <div className="relative aspect-16-9 w-full bg-slate-950 flex items-center justify-center">
+      {/* Smartphone adaptive canvas container */}
+      <div
+        style={aspectRatioStyle}
+        className={`relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
+          isPortrait ? "min-h-[460px] xs:min-h-[520px] sm:min-h-[580px]" : "min-h-[220px] sm:min-h-[360px]"
+        }`}
+      >
         {isPlaceholderUrl ? (
           // Developer & Demo Embed Window when URL is not yet swapped
           <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 voxel-grid-bg">
@@ -70,7 +82,7 @@ export default function GamePlayer({ game }) {
 
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 mb-2">
               <Sparkles className="h-3 w-3" />
-              Game Embed Ready • 16:9 Responsive Canvas
+              Game Embed Ready • {isPortrait ? "Portrait Mobile Canvas" : "16:9 Responsive Canvas"}
             </span>
 
             <h3 className="text-xl sm:text-2xl font-black text-white max-w-lg mb-2">
@@ -95,16 +107,17 @@ export default function GamePlayer({ game }) {
             </div>
           </div>
         ) : (
-          // Production Iframe Window
+          // Production Iframe Window with Mobile-first touch viewport
           <iframe
             key={reloadKey}
             ref={iframeRef}
             src={game.iframeUrl}
             title={game.title}
-            className="w-full h-full border-0 select-none"
-            allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock"
+            className="w-full h-full border-0 select-none block"
+            allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock; accelerometer; gyroscope"
             allowFullScreen
-            loading="lazy"
+            loading="eager"
+            scrolling="no"
           />
         )}
       </div>

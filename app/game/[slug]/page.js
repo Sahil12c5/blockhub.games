@@ -147,19 +147,28 @@ export default async function GamePage({ params }) {
         </div>
 
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
-            <Star className="h-4 w-4 fill-amber-400 text-amber-400" />
+          <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
+            <Star className="h-3.5 sm:h-4 w-3.5 sm:w-4 fill-amber-400 text-amber-400" />
             <span className="font-bold text-white">{game.rating}</span>
             <span className="text-slate-400 text-[11px]">/ 5</span>
           </div>
 
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300">
-            <Eye className="h-4 w-4 text-emerald-400" />
+          <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300">
+            <Eye className="h-3.5 sm:h-4 w-3.5 sm:w-4 text-emerald-400" />
             <span className="font-bold text-white">{game.plays}</span>
-            <span className="text-slate-400 text-[11px]">plays</span>
+            <span className="text-slate-400 text-[11px] hidden xs:inline">plays</span>
           </div>
         </div>
       </div>
+
+      {/* Smartphone Landscape Hint banner (visible only on mobile for landscape games) */}
+      {!game.orientation || game.orientation === "landscape" ? (
+        <div className="sm:hidden flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-900/90 border border-slate-800 text-[11px] text-slate-300">
+          <span className="flex items-center gap-1.5">
+            📱 <span>Rotate phone horizontally or tap <strong>Fullscreen</strong> for best controls</span>
+          </span>
+        </div>
+      ) : null}
 
       {/* Game Player & Sidebar Ads Layout */}
       {/* 

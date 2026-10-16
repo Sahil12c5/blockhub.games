@@ -99,6 +99,10 @@ async function run() {
     const playsNumber = (Math.random() * (450 - 50) + 50).toFixed(1);
     const ratingNumber = (Math.random() * (5.0 - 4.5) + 4.5).toFixed(1);
 
+    const width = parseInt(item.width, 10) || 800;
+    const height = parseInt(item.height, 10) || 600;
+    const orientation = height > width ? "portrait" : "landscape";
+
     const gameObj = {
       slug,
       title: item.title.trim(),
@@ -108,6 +112,9 @@ async function run() {
       plays: `${playsNumber}K`,
       thumbnail: item.thumb.trim(),
       iframeUrl: item.url.trim(),
+      width,
+      height,
+      orientation,
       description: cleanDesc,
       howToPlay: cleanInstructions,
       controls: [
