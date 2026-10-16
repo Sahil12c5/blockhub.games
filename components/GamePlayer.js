@@ -52,25 +52,32 @@ export default function GamePlayer({ game }) {
     setReloadKey((prev) => prev + 1);
   };
 
-  // Calculate responsive aspect ratio based on game's native resolution
-  const isPortrait = game.orientation === "portrait" || (game.height && game.width && game.height > game.width);
-  // Default aspect ratio or custom aspect ratio based on feed dimensions
-  const aspectRatioStyle = isPortrait
-    ? { aspectRatio: `${game.width || 9} / ${game.height || 16}`, maxHeight: "78vh" }
-    : { aspectRatio: "16 / 9" };
+  // Allow user to manually toggle aspect ratio if a game plays better vertically on their phone
+  const defaultIsPortrait =
+    game.orientation === "portrait" ||
+    (game.height && game.width && game.height > game.width);
+
+  const [aspectMode, setAspectMode] = useState(
+    defaultIsPortrait ? "portrait" : "standard"
+  );
 
   return (
     <div
       ref={containerRef}
       className={`relative w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl transition-all duration-300 ${
-        isTheater ? "max-w-6xl mx-auto" : isPortrait ? "max-w-md mx-auto" : "w-full"
+        isTheater
+          ? "max-w-6xl mx-auto"
+          : aspectMode === "portrait"
+          ? "max-w-md mx-auto"
+          : "w-full"
       }`}
     >
       {/* Smartphone adaptive canvas container */}
       <div
-        style={aspectRatioStyle}
         className={`relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
-          isPortrait ? "min-h-[460px] xs:min-h-[520px] sm:min-h-[580px]" : "min-h-[220px] sm:min-h-[360px]"
+          aspectMode === "portrait"
+            ? "h-[540px] xs:h-[580px] sm:h-[620px] max-h-[82vh]"
+            : "aspect-16-9 min-h-[240px] sm:min-h-[380px]"
         }`}
       >
         {isPlaceholderUrl ? (
@@ -82,7 +89,7 @@ export default function GamePlayer({ game }) {
 
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 mb-2">
               <Sparkles className="h-3 w-3" />
-              Game Embed Ready • {isPortrait ? "Portrait Mobile Canvas" : "16:9 Responsive Canvas"}
+              Game Embed Ready • {aspectMode === "portrait" ? "Vertical Phone Canvas" : "16:9 Canvas"}
             </span>
 
             <h3 className="text-xl sm:text-2xl font-black text-white max-w-lg mb-2">
@@ -135,6 +142,22 @@ export default function GamePlayer({ game }) {
         </div>
 
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+          {/* Quick Fit Toggle Button (Phone screen switcher) */}
+          <button
+            onClick={() =>
+              setAspectMode(aspectMode === "portrait" ? "standard" : "portrait")
+            }
+            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
+            title={
+              aspectMode === "portrait"
+                ? "Switch to Wide / 16:9 Screen"
+                : "Switch to Vertical / Phone Screen"
+            }
+            aria-label="Toggle Fit Mode"
+          >
+            <span>{aspectMode === "portrait" ? "↔️ Wide" : "↕️ Vertical"}</span>
+          </button>
+
           {/* Reload Game Button */}
           <button
             onClick={handleReloadGame}
