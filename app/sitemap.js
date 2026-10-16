@@ -1,6 +1,8 @@
 import { getAllGames } from "@/data/games";
 import { categories } from "@/data/categories";
 
+export const dynamic = "force-static";
+
 export default async function sitemap() {
   const baseUrl = "https://blockhub.games";
   const currentDate = "2026-10-15T00:00:00.000Z";
