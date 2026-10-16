@@ -122,23 +122,23 @@ export default function Header() {
         </div>
 
         {/* Search Bar & Actions */}
-        <div className="flex items-center gap-3">
-          {/* Search Box */}
-          <div className="relative w-44 sm:w-64 md:w-72">
+        <div className="flex items-center gap-2 sm:gap-3">
+          {/* Search Box - Expands smoothly on mobile */}
+          <div className="relative w-36 xs:w-44 sm:w-64 md:w-72">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400 pointer-events-none" />
+              <Search className="absolute left-2.5 sm:left-3 top-1/2 -translate-y-1/2 h-3.5 sm:h-4 w-3.5 sm:w-4 text-slate-400 pointer-events-none" />
               <input
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search all online games..."
-                className="w-full rounded-full bg-slate-900 border border-slate-700/80 pl-9 pr-8 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
+                placeholder="Search games..."
+                className="w-full rounded-full bg-slate-900 border border-slate-700/80 pl-8 sm:pl-9 pr-7 sm:pr-8 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                 aria-label="Search games"
               />
               {searchQuery && (
                 <button
                   onClick={() => setSearchQuery("")}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+                  className="absolute right-2 sm:right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-1"
                   aria-label="Clear search"
                 >
                   <X className="h-3.5 w-3.5" />
@@ -146,12 +146,17 @@ export default function Header() {
               )}
             </div>
 
-            {/* Instant Search Results Dropdown */}
+            {/* Instant Search Results Dropdown - Full width on phone screens */}
             {showSearchDropdown && (
-              <div className="absolute right-0 left-0 sm:left-auto sm:w-80 mt-2 bg-slate-900/95 border border-slate-700/90 rounded-xl shadow-2xl backdrop-blur-xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                <div className="p-2 border-b border-slate-800 flex justify-between items-center text-[11px] text-slate-400">
-                  <span>Games found ({searchResults.length})</span>
-                  <span className="text-[10px] text-emerald-400 font-medium">Instant Filter</span>
+              <div className="fixed inset-x-2 sm:absolute sm:inset-x-auto sm:right-0 sm:left-auto sm:w-80 top-16 sm:top-auto sm:mt-2 bg-slate-900/98 border border-slate-700/90 rounded-2xl shadow-2xl backdrop-blur-2xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                <div className="p-3 border-b border-slate-800 flex justify-between items-center text-[11px] text-slate-400">
+                  <span className="font-semibold text-slate-200">Results ({searchResults.length})</span>
+                  <button
+                    onClick={() => setShowSearchDropdown(false)}
+                    className="text-xs text-emerald-400 font-bold hover:underline"
+                  >
+                    Close
+                  </button>
                 </div>
                 {searchResults.length > 0 ? (
                   <div className="max-h-80 overflow-y-auto divide-y divide-slate-800/60">

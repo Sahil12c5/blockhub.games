@@ -64,18 +64,18 @@ export default function GameCard({ game }) {
       </div>
 
       {/* Card Body */}
-      <div className="flex flex-1 flex-col p-3.5">
-        <h3 className="text-sm font-bold text-white tracking-tight line-clamp-1 group-hover:text-emerald-400 transition-colors">
+      <div className="flex flex-1 flex-col p-2.5 sm:p-3.5">
+        <h3 className="text-xs sm:text-sm font-bold text-white tracking-tight line-clamp-1 group-hover:text-emerald-400 transition-colors">
           {game.title}
         </h3>
 
-        <div className="mt-2 flex items-center justify-between text-[11px] text-slate-400">
-          <div className="flex items-center gap-1.5">
-            <Eye className="h-3 w-3 text-slate-400" />
-            <span>{game.plays} plays</span>
+        <div className="mt-1.5 sm:mt-2 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400">
+          <div className="flex items-center gap-1 sm:gap-1.5">
+            <Eye className="h-2.5 sm:h-3 w-2.5 sm:w-3 text-slate-400" />
+            <span className="truncate">{game.plays}</span>
           </div>
-          <span className="font-semibold text-emerald-400 group-hover:translate-x-0.5 transition-transform">
-            Play Now →
+          <span className="font-semibold text-emerald-400 group-hover:translate-x-0.5 transition-transform text-[10px] sm:text-xs">
+            Play →
           </span>
         </div>
       </div>

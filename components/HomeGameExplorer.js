@@ -114,19 +114,19 @@ export default function HomeGameExplorer({ allGames }) {
         </div>
 
         {/* Sorting Dropdown & In-Grid Search */}
-        <div className="flex items-center gap-2.5 self-end md:self-auto">
-          <div className="relative">
+        <div className="flex items-center gap-2 w-full md:w-auto justify-between md:justify-end">
+          <div className="relative flex-1 md:flex-initial">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-slate-400" />
             <input
               type="text"
               value={searchFilter}
               onChange={(e) => setSearchFilter(e.target.value)}
               placeholder="Filter by title..."
-              className="w-40 sm:w-48 rounded-lg bg-slate-900 border border-slate-800 pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500"
+              className="w-full md:w-48 rounded-lg bg-slate-900 border border-slate-800 pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500"
             />
           </div>
 
-          <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5">
+          <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 shrink-0">
             <SlidersHorizontal className="h-3.5 w-3.5 text-slate-400" />
             <select
               value={sortBy}
@@ -140,16 +140,16 @@ export default function HomeGameExplorer({ allGames }) {
                 Top Rated
               </option>
               <option value="name" className="bg-slate-900 text-white">
-                Alphabetical
+                A-Z
               </option>
             </select>
           </div>
         </div>
       </div>
 
-      {/* Grid of Games */}
+      {/* Grid of Games: 2 columns on phones, 3 on tablets, 4 on desktop for optimal density */}
       {filteredGames.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
           {filteredGames.map((game) => (
             <GameCard key={game.slug} game={game} />
           ))}
