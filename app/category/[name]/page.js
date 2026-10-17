@@ -5,6 +5,7 @@ import { getGamesByCategory } from "@/data/games";
 import GameCard from "@/components/GameCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdSlot from "@/components/AdSlot";
+import { BreadcrumbJsonLd, CategoryJsonLd } from "@/components/JsonLd";
 import {
   Swords,
   Car,
@@ -29,11 +30,11 @@ export async function generateMetadata({ params }) {
 
   if (!category) {
     return {
-      title: "Category Not Found - BlockHub.games",
+      title: "Category Not Found",
     };
   }
 
-  const title = `Free ${category.name} Games Online - Play Now | BlockHub.games`;
+  const title = `Free ${category.name} Games Online`;
   const description = `Play the best free ${category.name} games unblocked in your browser. Fast 60 FPS HTML5 web games with zero downloads.`;
 
   return {
@@ -75,6 +76,17 @@ export default async function CategoryPage({ params }) {
 
   return (
     <div className="space-y-8">
+      {/* Schema.org Structured Data */}
+      <BreadcrumbJsonLd
+        items={[
+          {
+            label: `${category.name} Games`,
+            href: `/category/${category.slug}`,
+          },
+        ]}
+      />
+      <CategoryJsonLd category={category} />
+
       {/* Breadcrumb Navigation */}
       <Breadcrumbs items={[{ label: `${category.name} Games` }]} />
 
@@ -155,7 +167,7 @@ export default async function CategoryPage({ params }) {
       <section className="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
         <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300 mb-4 flex items-center gap-2">
           <Sparkles className="h-4 w-4 text-emerald-400" />
-          Explore Other Voxel Categories
+          Explore Other Game Categories
         </h3>
         <div className="flex flex-wrap gap-2.5">
           {categories

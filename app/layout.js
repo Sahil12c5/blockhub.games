@@ -92,6 +92,12 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
 
+        {/* Resource Preconnects for CDN & Game Iframes to improve LCP & Core Web Vitals */}
+        <link rel="preconnect" href="https://img.gamemonetize.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://html5.gamemonetize.co" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://img.gamemonetize.com" />
+        <link rel="dns-prefetch" href="https://html5.gamemonetize.co" />
+
         {/* Google AdSense Script (only injected when real publisher ID is registered) */}
         {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
           <Script

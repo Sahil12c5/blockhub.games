@@ -2,7 +2,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { FileText, CheckCircle2, AlertCircle } from "lucide-react";
 
 export const metadata = {
-  title: "Terms of Service | BlockHub.games",
+  title: "Terms of Service",
   description:
     "Terms of Service governing the use of the BlockHub.games web portal and free online browser game library.",
 };

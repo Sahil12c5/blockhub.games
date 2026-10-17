@@ -2,7 +2,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { ShieldCheck, Lock, Cookie, Eye } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy & Cookies Disclosure | BlockHub.games",
+  title: "Privacy Policy & Cookies Disclosure",
   description:
     "Privacy Policy for BlockHub.games, detailing data collection, cookie usage, and Google AdSense advertising compliance disclosures.",
 };

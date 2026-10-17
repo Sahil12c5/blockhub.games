@@ -10,11 +10,13 @@ import {
   Code2,
   Gamepad2,
   Tv,
+  Play,
 } from "lucide-react";
 
 export default function GamePlayer({ game }) {
   const containerRef = useRef(null);
   const iframeRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isTheater, setIsTheater] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
@@ -46,6 +48,9 @@ export default function GamePlayer({ game }) {
         document.msFullscreenElement;
 
       if (!isFs) {
+        if (!isPlaying) {
+          setIsPlaying(true);
+        }
         if (el.requestFullscreen) {
           await el.requestFullscreen();
         } else if (el.webkitRequestFullscreen) {
@@ -85,6 +90,7 @@ export default function GamePlayer({ game }) {
   };
 
   const handleReloadGame = () => {
+    setIsPlaying(true);
     setReloadKey((prev) => prev + 1);
   };
 
@@ -144,7 +150,60 @@ export default function GamePlayer({ game }) {
             : undefined
         }
       >
-        {isPlaceholderUrl ? (
+        {!isPlaying ? (
+          /* Click-to-Play Facade (Core Web Vitals & LCP Optimizer) */
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center select-none overflow-hidden group">
+            {/* Background Thumbnail Image with Gradient Backdrop */}
+            {game.thumbnail ? (
+              <div className="absolute inset-0 -z-10 overflow-hidden bg-slate-950">
+                <img
+                  src={game.thumbnail}
+                  alt={game.title}
+                  className="w-full h-full object-cover scale-105 filter blur-[2px] brightness-[0.35] group-hover:scale-110 group-hover:brightness-[0.45] transition-all duration-700 ease-out"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/60" />
+              </div>
+            ) : (
+              <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 voxel-grid-bg" />
+            )}
+
+            {/* Click to Play Center Overlay */}
+            <div className="relative z-10 flex flex-col items-center justify-center max-w-md mx-auto">
+              <button
+                type="button"
+                onClick={() => setIsPlaying(true)}
+                id="play-game-button"
+                className="group/btn relative flex items-center justify-center h-20 w-20 sm:h-24 sm:w-24 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 shadow-2xl shadow-emerald-500/40 hover:scale-110 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-emerald-400/50 mb-4 cursor-pointer"
+                aria-label={`Play ${game.title} Now`}
+              >
+                <span className="absolute -inset-2 rounded-full bg-emerald-500/30 animate-ping opacity-60 pointer-events-none" />
+                <Play className="h-10 w-10 sm:h-11 sm:w-11 fill-slate-950 ml-1 transition-transform group-hover/btn:scale-110" />
+              </button>
+
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 mb-2 backdrop-blur-md">
+                <Sparkles className="h-3 w-3" />
+                Ready to Play • 60 FPS HTML5
+              </span>
+
+              <h3 className="text-xl sm:text-2xl font-black text-white max-w-lg mb-2 drop-shadow-md">
+                {game.title}
+              </h3>
+
+              <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs">
+                <span className="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 backdrop-blur-sm">
+                  ⚡ Zero Downloads
+                </span>
+                <span className="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300 backdrop-blur-sm">
+                  🎮 Touch &amp; Keyboard
+                </span>
+                <span className="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-800 text-emerald-400 font-bold backdrop-blur-sm">
+                  100% Free
+                </span>
+              </div>
+            </div>
+          </div>
+        ) : isPlaceholderUrl ? (
           // Developer & Demo Embed Window when URL is not yet swapped
           <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 voxel-grid-bg">
             <div className="h-16 w-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-4 shadow-lg shadow-emerald-500/10">
@@ -180,17 +239,17 @@ export default function GamePlayer({ game }) {
         ) : (
           /* Production Iframe Window with Mobile-first touch viewport */
           <iframe
-          key={reloadKey}
-          ref={iframeRef}
-          id="gamemonetize-game"
-          src={game.iframeUrl}
-          title={game.title}
-          className="w-full h-full border-0 select-none block inset-0 touch-none"
-          allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock; accelerometer; gyroscope"
-          allowFullScreen
-          loading="eager"
-          scrolling="no"
-        />
+            key={reloadKey}
+            ref={iframeRef}
+            id="gamemonetize-game"
+            src={game.iframeUrl}
+            title={game.title}
+            className="w-full h-full border-0 select-none block inset-0 touch-none"
+            allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock; accelerometer; gyroscope"
+            allowFullScreen
+            loading="lazy"
+            scrolling="no"
+          />
         )}
         {/* Floating Exit Fullscreen Button (Appears only during fullscreen on hover/tap) */}
         {isFullscreen && (

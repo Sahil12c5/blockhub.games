@@ -17,7 +17,7 @@ const staticPages = [
 
 function escapeXml(unsafe) {
   if (!unsafe) return "";
-  return unsafe
+  return String(unsafe)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -25,14 +25,33 @@ function escapeXml(unsafe) {
     .replace(/'/g, "&apos;");
 }
 
-let xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-`;
+const publicDir = path.join(__dirname, "../public");
 
-// Static core portal routes
+// 1. Generate Sitemap Index (public/sitemap.xml)
+const sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${BASE_URL}/sitemap-pages.xml</loc>
+    <lastmod>${TODAY}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${BASE_URL}/sitemap-categories.xml</loc>
+    <lastmod>${TODAY}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${BASE_URL}/sitemap-games.xml</loc>
+    <lastmod>${TODAY}</lastmod>
+  </sitemap>
+</sitemapindex>
+`;
+fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapIndexXml, "utf8");
+
+// 2. Generate Static Pages Sitemap (public/sitemap-pages.xml)
+let pagesXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+`;
 for (const p of staticPages) {
-  xml += `  <url>
+  pagesXml += `  <url>
     <loc>${BASE_URL}${p.url}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>${p.changefreq}</changefreq>
@@ -40,43 +59,54 @@ for (const p of staticPages) {
   </url>
 `;
 }
+pagesXml += `</urlset>\n`;
+fs.writeFileSync(path.join(publicDir, "sitemap-pages.xml"), pagesXml, "utf8");
 
-// Category archive routes
+// 3. Generate Categories Sitemap (public/sitemap-categories.xml)
+let categoriesXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+`;
 for (const cat of categories) {
-  xml += `  <url>
+  categoriesXml += `  <url>
     <loc>${BASE_URL}/category/${cat.slug}</loc>
     <lastmod>${TODAY}</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 `;
 }
+categoriesXml += `</urlset>\n`;
+fs.writeFileSync(path.join(publicDir, "sitemap-categories.xml"), categoriesXml, "utf8");
 
-// All 1,600 game detail routes with Google Image metadata
+// 4. Generate Games Sitemap with Google Image Metadata (public/sitemap-games.xml)
+let gamesXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+`;
 for (const g of games) {
-  xml += `  <url>
+  gamesXml += `  <url>
     <loc>${BASE_URL}/game/${g.slug}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>`;
+    <priority>0.6</priority>`;
 
   if (g.thumbnail) {
-    xml += `
+    gamesXml += `
     <image:image>
       <image:loc>${escapeXml(g.thumbnail)}</image:loc>
       <image:title>${escapeXml(g.title)}</image:title>
     </image:image>`;
   }
 
-  xml += `
+  gamesXml += `
   </url>
 `;
 }
+gamesXml += `</urlset>\n`;
+fs.writeFileSync(path.join(publicDir, "sitemap-games.xml"), gamesXml, "utf8");
 
-xml += `</urlset>\n`;
-
-const targetFile = path.join(__dirname, "../public/sitemap.xml");
-fs.writeFileSync(targetFile, xml, "utf8");
-
-const totalUrls = staticPages.length + categories.length + games.length;
-console.log(`Generated ${targetFile} successfully with ${totalUrls} total URLs (${games.length} games)!`);
+console.log("Successfully generated sitemap index and 3 sub-sitemaps:");
+console.log(`- sitemap.xml (index)`);
+console.log(`- sitemap-pages.xml (${staticPages.length} pages)`);
+console.log(`- sitemap-categories.xml (${categories.length} categories)`);
+console.log(`- sitemap-games.xml (${games.length} games with image tags)`);

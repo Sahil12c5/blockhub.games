@@ -127,3 +127,26 @@ export function BreadcrumbJsonLd({ items = [], baseUrl = "https://blockhub.games
     />
   );
 }
+
+export function CategoryJsonLd({ category, baseUrl = "https://blockhub.games" }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Free ${category.name} Games Online - BlockHub.games`,
+    description: category.description,
+    url: `${baseUrl}/category/${category.slug}`,
+    inLanguage: "en",
+    about: {
+      "@type": "Thing",
+      name: `${category.name} Games`,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+

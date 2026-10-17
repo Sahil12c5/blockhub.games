@@ -11,7 +11,7 @@ import GameCard from "@/components/GameCard";
 import AdSlot from "@/components/AdSlot";
 import GameWalkthrough from "@/components/GameWalkthrough";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import { GameJsonLd } from "@/components/JsonLd";
+import { GameJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import {
   Star,
   Eye,
@@ -43,15 +43,12 @@ export async function generateMetadata({ params }) {
 
   if (!game) {
     return {
-      title: "Game Not Found - BlockHub.games",
+      title: "Game Not Found",
     };
   }
 
-  const title = `Play ${game.title} Online for Free | BlockHub.games`;
-  const description = `${game.title} - Play unblocked in your browser. ${game.description.slice(
-    0,
-    140
-  )}... Free HTML5 voxel game.`;
+  const title = `${game.title} - Play Free Online`;
+  const description = `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
 
   return {
     title,
@@ -108,6 +105,15 @@ export default async function GamePage({ params }) {
     <div className="space-y-6">
       {/* JSON-LD Schema for VideoGame & FAQPage */}
       <GameJsonLd game={game} />
+      <BreadcrumbJsonLd
+        items={[
+          {
+            label: `${game.category} Games`,
+            href: `/category/${game.category.toLowerCase()}`,
+          },
+          { label: game.title, href: `/game/${game.slug}` },
+        ]}
+      />
 
       {/* Breadcrumb Navigation */}
       <Breadcrumbs

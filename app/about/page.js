@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Sparkles, Gamepad2, ShieldCheck, Zap, Heart, Trophy } from "lucide-react";
 
 export const metadata = {
-  title: "About Us - The Home of Free Voxel Browser Games | BlockHub.games",
+  title: "About Us - Free Online Browser Games",
   description:
-    "Learn about BlockHub.games, our mission, curation standards, and dedication to providing fast, safe, and free voxel and sandbox browser entertainment.",
+    "Learn about BlockHub.games, our mission, curation standards, and dedication to providing fast, safe, and free HTML5 browser entertainment.",
 };
 
 export default function AboutPage() {

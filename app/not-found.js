@@ -9,15 +9,15 @@ export default function NotFound() {
       </div>
 
       <span className="text-xs font-mono font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full mb-3">
-        404 ERROR - VOXEL NOT FOUND
+        404 ERROR - PAGE NOT FOUND
       </span>
 
       <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-3">
-        Lost in the Void?
+        Lost in the Game Void?
       </h1>
 
       <p className="text-xs sm:text-sm text-slate-400 max-w-md mb-8 leading-relaxed">
-        The block or stage you were looking for doesn&apos;t exist or has been moved to another coordinate.
+        The game or page you were looking for doesn&apos;t exist, was removed, or has been moved to another URL.
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-3">
@@ -29,11 +29,11 @@ export default function NotFound() {
           Back to Homepage
         </Link>
         <Link
-          href="/category/survival"
+          href="/category/action"
           className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-200 text-xs font-bold hover:bg-slate-800 transition-colors"
         >
           <Compass className="h-4 w-4 text-emerald-400" />
-          Explore Survival
+          Explore Action Games
         </Link>
       </div>
     </div>
