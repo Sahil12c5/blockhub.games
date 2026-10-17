@@ -84,14 +84,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark h-full antialiased">
       <head>
-        {/* Explicit Favicon links strictly following Google Search Favicon Guidelines */}
-        <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-
         {/* Resource Preconnects for CDN & Game Iframes to improve LCP & Core Web Vitals */}
         <link rel="preconnect" href="https://img.gamemonetize.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://html5.gamemonetize.co" crossOrigin="anonymous" />
