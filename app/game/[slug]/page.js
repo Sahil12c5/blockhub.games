@@ -9,6 +9,7 @@ import {
 import GamePlayer from "@/components/GamePlayer";
 import GameCard from "@/components/GameCard";
 import AdSlot from "@/components/AdSlot";
+import GameWalkthrough from "@/components/GameWalkthrough";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { GameJsonLd } from "@/components/JsonLd";
 import {
@@ -243,6 +244,9 @@ export default async function GamePage({ params }) {
               {game.howToPlay}
             </p>
           </section>
+
+          {/* Official GameMonetize Video Walkthrough & Tutorial */}
+          <GameWalkthrough game={game} getAds="true" />
 
           {/* Keyboard Controls Table */}
           <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
