@@ -65,14 +65,17 @@ export const metadata = {
       "Play popular online games across Racing, Shooting, Action, Puzzle, Sports, and Adventure for free.",
     images: ["/logo.svg"],
   },
+  manifest: "/manifest.json",
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "48x48 32x32 16x16", type: "image/x-icon" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon.svg", type: "image/svg+xml", sizes: "64x64" },
     ],
-    shortcut: "/favicon.svg",
+    shortcut: "/favicon.ico",
     apple: [
-      { url: "/apple-icon.svg", sizes: "180x180", type: "image/svg+xml" },
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
 };
@@ -81,10 +84,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark h-full antialiased">
       <head>
-        {/* Explicit Favicon links for Google Search & Chrome Tab Cache */}
+        {/* Explicit Favicon links strictly following Google Search Favicon Guidelines */}
+        <link rel="icon" href="/favicon.ico" sizes="48x48 32x32 16x16" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="alternate icon" href="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/apple-icon.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
 
         {/* Google AdSense Script (only injected when real publisher ID is registered) */}
         {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
