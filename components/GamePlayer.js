@@ -36,12 +36,48 @@ export default function GamePlayer({ game }) {
   }, []);
 
   const handleToggleFullscreen = async () => {
-    if (!containerRef.current) return;
+    const el = containerRef.current;
+    if (!el) return;
     try {
-      if (!document.fullscreenElement) {
-        await containerRef.current.requestFullscreen();
+      const isFs =
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement;
+
+      if (!isFs) {
+        if (el.requestFullscreen) {
+          await el.requestFullscreen();
+        } else if (el.webkitRequestFullscreen) {
+          await el.webkitRequestFullscreen();
+        } else if (el.msRequestFullscreen) {
+          await el.msRequestFullscreen();
+        }
+
+        // On mobile devices, attempt to lock to landscape for horizontal games if supported
+        if (
+          typeof screen !== "undefined" &&
+          screen.orientation &&
+          screen.orientation.lock &&
+          aspectMode === "standard"
+        ) {
+          screen.orientation.lock("landscape").catch(() => {});
+        }
       } else {
-        await document.exitFullscreen();
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          await document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+          await document.msExitFullscreen();
+        }
+        if (
+          typeof screen !== "undefined" &&
+          screen.orientation &&
+          screen.orientation.unlock
+        ) {
+          screen.orientation.unlock();
+        }
       }
     } catch (err) {
       console.error("Fullscreen API error:", err);
@@ -96,13 +132,15 @@ export default function GamePlayer({ game }) {
       {/* Smartphone adaptive canvas container */}
       <div
         className={`game-canvas-area relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
-          aspectMode === "portrait"
+          isFullscreen
+            ? "w-full h-full"
+            : aspectMode === "portrait"
             ? "h-[540px] xs:h-[580px] sm:h-[620px] max-h-[82vh]"
-            : "w-full aspect-16-9 min-h-[260px] xs:min-h-[300px] sm:min-h-[420px] max-h-[88vh]"
+            : "w-full aspect-16-9 min-h-[220px] xs:min-h-[260px] sm:min-h-[420px] max-h-[85vh]"
         }`}
         style={
-          isHorizontalGame && deviceOrientation === "landscape" && !isFullscreen
-            ? { height: "calc(100svh - 90px)", maxHeight: "100svh" }
+          !isFullscreen && isHorizontalGame && deviceOrientation === "landscape"
+            ? { height: "calc(100svh - 120px)", maxHeight: "calc(100svh - 120px)" }
             : undefined
         }
       >
