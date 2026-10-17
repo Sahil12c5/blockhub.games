@@ -1,5 +1,7 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { getAllGames, getFeaturedGames } from "@/data/games";
+import { hubs } from "@/data/hubs";
 import HeroFeatured from "@/components/HeroFeatured";
 import HomeGameExplorer from "@/components/HomeGameExplorer";
 import AdSlot from "@/components/AdSlot";
@@ -26,6 +28,31 @@ export default function HomePage() {
       {/* Hero Strip with Featured Games */}
       <HeroFeatured featuredGames={featuredGames} />
 
+      {/* Trending Game Hubs Quick Links */}
+      <section className="rounded-2xl border border-slate-800 bg-slate-900/40 p-4">
+        <div className="flex items-center justify-between mb-3">
+          <span className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
+            <Sparkles className="h-3.5 w-3.5 text-emerald-400" />
+            Trending Game Hubs
+          </span>
+          <span className="text-[11px] text-slate-400 hidden sm:inline">
+            Curated high-intent collections
+          </span>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {hubs.map((hub) => (
+            <Link
+              key={hub.slug}
+              href={`/tag/${hub.slug}`}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-950/80 border border-slate-800 hover:border-emerald-500/50 hover:bg-emerald-500/10 text-slate-300 hover:text-emerald-400 text-xs font-medium transition-all group"
+            >
+              <span className="text-emerald-400 font-bold group-hover:scale-110 transition-transform">•</span>
+              <span>{hub.name} Games</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Section Divider & Heading */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-2 border-t border-slate-800/80">
         <div>
@@ -38,6 +65,7 @@ export default function HomePage() {
           </p>
         </div>
       </div>
+
 
       {/* Category Chips & Filterable Paginated Game Grid */}
       <Suspense fallback={<div className="h-96 flex items-center justify-center text-slate-500 text-xs">Loading games...</div>}>

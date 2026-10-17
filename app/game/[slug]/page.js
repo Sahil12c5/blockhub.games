@@ -7,7 +7,9 @@ import {
   getRelatedGames,
   getMoreCategoryGames,
 } from "@/data/games";
+import { getHubsForGame, hubs } from "@/data/hubs";
 import GamePlayer from "@/components/GamePlayer";
+
 import GameCard from "@/components/GameCard";
 import AdSlot from "@/components/AdSlot";
 import GameWalkthrough from "@/components/GameWalkthrough";
@@ -110,6 +112,8 @@ export default async function GamePage({ params }) {
   // 8 Related Games + 8 More Category Games for deep contextual internal linking
   const relatedGames = getRelatedGames(game.slug, game.category, 8);
   const moreCategoryGames = getMoreCategoryGames(game.slug, game.category, 8);
+  const matchedHubs = getHubsForGame(game);
+  const displayHubs = matchedHubs.length > 0 ? matchedHubs : hubs.slice(0, 3);
 
   const categoryIcons = {
     action: Swords,
@@ -156,10 +160,10 @@ export default async function GamePage({ params }) {
         label="Top Game Leaderboard Ad"
       />
 
-      {/* 2. Header with Category Badge and H1: {Game Name} - Play Free Online */}
+      {/* 2. Header with Category Badge, Hub Tags, and H1: {Game Name} - Play Free Online */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-2 border-b border-slate-800">
         <div>
-          <div className="flex items-center gap-2 mb-1.5">
+          <div className="flex flex-wrap items-center gap-2 mb-1.5">
             <Link
               href={`/category/${game.category.toLowerCase()}`}
               className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/25 transition-colors"
@@ -167,6 +171,15 @@ export default async function GamePage({ params }) {
               <CategoryIcon className="h-3 w-3" />
               {game.category}
             </Link>
+            {matchedHubs.slice(0, 2).map((hub) => (
+              <Link
+                key={hub.slug}
+                href={`/tag/${hub.slug}`}
+                className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-900 text-slate-300 border border-slate-700/80 hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
+              >
+                <span># {hub.name}</span>
+              </Link>
+            ))}
             <span className="text-xs text-slate-400">• Free HTML5 Browser Game</span>
           </div>
 
@@ -174,6 +187,7 @@ export default async function GamePage({ params }) {
             {game.title} - Play Free Online
           </h1>
         </div>
+
 
         <div className="flex items-center gap-2">
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-emerald-400">
@@ -381,11 +395,26 @@ export default async function GamePage({ params }) {
                 {game.content_ready ? "Verified & Ready" : "Catalog Release"}
               </span>
             </div>
-            <div className="flex justify-between items-center py-1.5 text-xs">
+            <div className="flex justify-between items-center py-1.5 border-b border-slate-800 text-xs">
               <span className="text-slate-400">Distributor</span>
               <span className="font-semibold text-slate-300">GameMonetize / GameDistribution</span>
             </div>
+            <div className="pt-2 text-xs">
+              <span className="text-slate-400 block mb-1.5 font-medium">Explore Topic Hubs</span>
+              <div className="flex flex-wrap gap-1.5">
+                {displayHubs.map((hub) => (
+                  <Link
+                    key={hub.slug}
+                    href={`/tag/${hub.slug}`}
+                    className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20 text-[11px] font-semibold transition-colors"
+                  >
+                    <span>{hub.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
+
 
           {/* Sidebar Advertisement */}
           <AdSlot

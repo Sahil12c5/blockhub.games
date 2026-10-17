@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { games } = require("../data/games.js");
 const { categories } = require("../data/categories.js");
+const { hubs } = require("../data/hubs.js");
 
 const BASE_URL = "https://blockhub.games";
 const TODAY = new Date().toISOString().split("T")[0];
@@ -36,6 +37,10 @@ const sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>
   </sitemap>
   <sitemap>
     <loc>${BASE_URL}/sitemap-categories.xml</loc>
+    <lastmod>${TODAY}</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>${BASE_URL}/sitemap-hubs.xml</loc>
     <lastmod>${TODAY}</lastmod>
   </sitemap>
   <sitemap>
@@ -78,7 +83,23 @@ for (const cat of categories) {
 categoriesXml += `</urlset>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap-categories.xml"), categoriesXml, "utf8");
 
-// 4. Generate Games Sitemap with Google Image Metadata (public/sitemap-games.xml)
+// 4. Generate Topic Hubs Sitemap (public/sitemap-hubs.xml)
+let hubsXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+`;
+for (const h of hubs) {
+  hubsXml += `  <url>
+    <loc>${BASE_URL}/tag/${h.slug}</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+`;
+}
+hubsXml += `</urlset>\n`;
+fs.writeFileSync(path.join(publicDir, "sitemap-hubs.xml"), hubsXml, "utf8");
+
+// 5. Generate Games Sitemap with Google Image Metadata (public/sitemap-games.xml)
 // Only include indexable games with unique content (content_ready: true) to prevent thin-content penalties
 const indexableGames = games.filter((g) => g.content_ready);
 
@@ -108,9 +129,9 @@ for (const g of indexableGames) {
 gamesXml += `</urlset>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap-games.xml"), gamesXml, "utf8");
 
-console.log("Successfully generated sitemap index and 3 sub-sitemaps:");
+console.log("Successfully generated sitemap index and 4 sub-sitemaps:");
 console.log(`- sitemap.xml (index)`);
 console.log(`- sitemap-pages.xml (${staticPages.length} pages)`);
 console.log(`- sitemap-categories.xml (${categories.length} categories)`);
+console.log(`- sitemap-hubs.xml (${hubs.length} topic hubs)`);
 console.log(`- sitemap-games.xml (${indexableGames.length} indexed games with image tags)`);
-

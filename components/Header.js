@@ -15,17 +15,22 @@ import {
   Trophy,
   Users,
   Gamepad2,
+  ChevronDown,
+  Sparkles,
 } from "lucide-react";
 import { categories } from "@/data/categories";
 import { games } from "@/data/games";
+import { hubs } from "@/data/hubs";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
+  const [showHubsDropdown, setShowHubsDropdown] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+
 
   // Handle client-side search filtering
   useEffect(() => {
@@ -45,9 +50,10 @@ export default function Header() {
     }
   }, [searchQuery]);
 
-  // Close dropdown on route change
+  // Close dropdowns on route change
   useEffect(() => {
     setShowSearchDropdown(false);
+    setShowHubsDropdown(false);
     setMobileMenuOpen(false);
   }, [pathname]);
 
@@ -88,7 +94,7 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Desktop Navigation Category Links */}
+          {/* Desktop Navigation Category & Hubs Links */}
           <nav className="hidden xl:flex items-center gap-1 ml-4" aria-label="Main Navigation">
             <Link
               href="/"
@@ -100,7 +106,7 @@ export default function Header() {
             >
               All
             </Link>
-            {categories.slice(0, 6).map((cat) => {
+            {categories.slice(0, 5).map((cat) => {
               const Icon = categoryIcons[cat.slug] || Compass;
               const isActive = pathname === `/category/${cat.slug}`;
               return (
@@ -118,8 +124,43 @@ export default function Header() {
                 </Link>
               );
             })}
+
+            {/* Hubs Dropdown Menu */}
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setShowHubsDropdown(!showHubsDropdown)}
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold rounded-lg transition-all ${
+                  pathname.startsWith("/tag/")
+                    ? "bg-emerald-500/15 text-emerald-400 border border-emerald-500/30"
+                    : "text-slate-300 hover:text-white hover:bg-slate-800/60"
+                }`}
+                aria-expanded={showHubsDropdown}
+                aria-haspopup="true"
+              >
+                <Sparkles className="h-3.5 w-3.5 text-emerald-400" />
+                <span>Hubs</span>
+                <ChevronDown className="h-3 w-3 text-slate-400" />
+              </button>
+
+              {showHubsDropdown && (
+                <div className="absolute left-0 mt-2 w-64 rounded-2xl bg-slate-900/98 border border-slate-700/90 shadow-2xl backdrop-blur-2xl p-2 z-50 grid grid-cols-2 gap-1 animate-in fade-in slide-in-from-top-2 duration-150">
+                  {hubs.map((hub) => (
+                    <Link
+                      key={hub.slug}
+                      href={`/tag/${hub.slug}`}
+                      onClick={() => setShowHubsDropdown(false)}
+                      className="px-2.5 py-2 text-xs font-medium rounded-lg text-slate-300 hover:text-emerald-400 hover:bg-slate-800/80 transition-colors"
+                    >
+                      {hub.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           </nav>
         </div>
+
 
         {/* Search Bar & Actions */}
         <div className="flex items-center gap-2 sm:gap-3">
@@ -252,7 +293,29 @@ export default function Header() {
             })}
           </div>
 
+          {/* Popular Game Hubs in Mobile Drawer */}
+          <div className="pt-2 border-t border-slate-800/80 space-y-2">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block px-1 flex items-center gap-1.5">
+              <Sparkles className="h-3 w-3 text-emerald-400" />
+              Popular Game Hubs
+            </span>
+            <div className="grid grid-cols-2 gap-1.5">
+              {hubs.map((hub) => (
+                <Link
+                  key={hub.slug}
+                  href={`/tag/${hub.slug}`}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-slate-900/60 border border-slate-800/80 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors"
+                >
+                  <span className="text-emerald-400 font-bold">•</span>
+                  <span>{hub.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+
             <Link href="/about" className="hover:text-emerald-400 transition-colors">
               About
             </Link>

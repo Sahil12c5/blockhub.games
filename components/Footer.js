@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { ShieldCheck, Heart, Sparkles } from "lucide-react";
+import { ShieldCheck, Heart, Sparkles, Gamepad2 } from "lucide-react";
+import { hubs } from "@/data/hubs";
 
 export default function Footer() {
   const currentYear = 2026;
@@ -9,7 +10,8 @@ export default function Footer() {
   return (
     <footer className="mt-auto border-t border-slate-800/80 bg-slate-950/90 text-slate-400">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+
           {/* Brand Info */}
           <div className="md:col-span-1 space-y-3">
             <Link href="/" className="flex items-center gap-2 group">
@@ -70,7 +72,28 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Popular Game Hubs & Topics */}
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-white mb-3 flex items-center gap-1.5">
+              <Gamepad2 className="h-3.5 w-3.5 text-emerald-400" />
+              Popular Game Hubs
+            </h3>
+            <ul className="space-y-2 text-xs">
+              {hubs.map((hub) => (
+                <li key={hub.slug}>
+                  <Link
+                    href={`/tag/${hub.slug}`}
+                    className="hover:text-emerald-400 transition-colors flex items-center gap-1"
+                  >
+                    <span>{hub.name} Games</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Legal & Compliance (AdSense Critical) */}
+
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-white mb-3">
               Legal & Trust
