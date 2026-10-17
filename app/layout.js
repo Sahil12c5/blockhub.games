@@ -66,9 +66,14 @@ export const metadata = {
     images: ["/logo.svg"],
   },
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml", sizes: "64x64" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: [
+      { url: "/apple-icon.svg", sizes: "180x180", type: "image/svg+xml" },
+    ],
   },
 };
 
@@ -76,6 +81,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark h-full antialiased">
       <head>
+        {/* Explicit Favicon links for Google Search & Chrome Tab Cache */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/apple-icon.svg" />
+
         {/* Google AdSense Script (only injected when real publisher ID is registered) */}
         {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
           <Script
