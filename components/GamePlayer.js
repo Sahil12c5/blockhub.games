@@ -85,7 +85,7 @@ export default function GamePlayer({ game }) {
   return (
     <div
       ref={containerRef}
-      className={`relative w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl transition-all duration-300 ${
+      className={`game-player-fullscreen relative w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl transition-all duration-300 ${
         isTheater
           ? "max-w-6xl mx-auto"
           : aspectMode === "portrait"
@@ -95,13 +95,13 @@ export default function GamePlayer({ game }) {
     >
       {/* Smartphone adaptive canvas container */}
       <div
-        className={`relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
+        className={`game-canvas-area relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
           aspectMode === "portrait"
             ? "h-[540px] xs:h-[580px] sm:h-[620px] max-h-[82vh]"
             : "w-full aspect-16-9 min-h-[260px] xs:min-h-[300px] sm:min-h-[420px] max-h-[88vh]"
         }`}
         style={
-          isHorizontalGame && deviceOrientation === "landscape"
+          isHorizontalGame && deviceOrientation === "landscape" && !isFullscreen
             ? { height: "calc(100svh - 90px)", maxHeight: "100svh" }
             : undefined
         }
