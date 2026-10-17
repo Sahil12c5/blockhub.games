@@ -154,81 +154,86 @@ export default function GamePlayer({ game }) {
           scrolling="no"
         />
         )}
-      </div>
-
-      {/* Control Bar Below Game Window */}
-      <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-slate-900 border-t border-slate-800">
-        <div className="flex items-center gap-2 min-w-0 pr-2">
-          <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-          <span className="text-xs font-bold text-slate-300 truncate">
-            {game.title}
-          </span>
-          <span className="text-[10px] text-slate-400 hidden md:inline shrink-0">
-            • 1080p WebGL
-          </span>
-        </div>
-
-        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-          {/* Quick Fit Toggle Button (Phone screen switcher) */}
-          <button
-            onClick={() =>
-              setAspectMode(aspectMode === "portrait" ? "standard" : "portrait")
-            }
-            className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
-            title={
-              aspectMode === "portrait"
-                ? "Switch to Wide / 16:9 Screen"
-                : "Switch to Vertical / Phone Screen"
-            }
-            aria-label="Toggle Fit Mode"
-          >
-            <span>{aspectMode === "portrait" ? "↔️ Wide" : "↕️ Vertical"}</span>
-          </button>
-
-          {/* Reload Game Button */}
-          <button
-            onClick={handleReloadGame}
-            className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
-            title="Reload game iframe"
-            id="reload-game-button"
-            aria-label="Reload Game"
-          >
-            <RotateCcw className="h-3.5 w-3.5 text-slate-400" />
-            <span className="hidden xs:inline sm:inline">Reload</span>
-          </button>
-
-          {/* Theater Mode Toggle (Desktop only) */}
-          <button
-            onClick={() => setIsTheater(!isTheater)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none hidden md:flex"
-            title="Toggle Theater Mode"
-          >
-            <Tv className="h-3.5 w-3.5 text-slate-400" />
-            <span>Theater</span>
-          </button>
-
-          {/* Fullscreen Button */}
+        {/* Floating Exit Fullscreen Button (Appears only during fullscreen on hover/tap) */}
+        {isFullscreen && (
           <button
             onClick={handleToggleFullscreen}
-            className="flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 text-xs font-bold transition-all shadow-md shadow-emerald-500/20 focus:outline-none"
-            title="Enter Fullscreen"
-            id="fullscreen-game-button"
-            aria-label="Fullscreen"
+            className="absolute top-3 right-3 z-50 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900/80 hover:bg-slate-900 text-white text-xs font-bold border border-slate-700/80 backdrop-blur-md shadow-lg transition-all active:scale-95 group focus:outline-none"
+            title="Exit Fullscreen (or press Esc)"
+            aria-label="Exit Fullscreen"
           >
-            {isFullscreen ? (
-              <>
-                <Minimize className="h-3.5 w-3.5" />
-                <span>Exit</span>
-              </>
-            ) : (
-              <>
-                <Maximize className="h-3.5 w-3.5" />
-                <span>Fullscreen</span>
-              </>
-            )}
+            <Minimize className="h-4 w-4 text-emerald-400 group-hover:scale-110 transition-transform" />
+            <span className="text-[11px] font-semibold">Exit Fullscreen</span>
           </button>
-        </div>
+        )}
       </div>
+
+      {/* Control Bar Below Game Window (Hidden completely in Fullscreen mode) */}
+      {!isFullscreen && (
+        <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-slate-900 border-t border-slate-800">
+          <div className="flex items-center gap-2 min-w-0 pr-2">
+            <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
+            <span className="text-xs font-bold text-slate-300 truncate">
+              {game.title}
+            </span>
+            <span className="text-[10px] text-slate-400 hidden md:inline shrink-0">
+              • 1080p WebGL
+            </span>
+          </div>
+
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            {/* Quick Fit Toggle Button (Phone screen switcher) */}
+            <button
+              onClick={() =>
+                setAspectMode(aspectMode === "portrait" ? "standard" : "portrait")
+              }
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
+              title={
+                aspectMode === "portrait"
+                  ? "Switch to Wide / 16:9 Screen"
+                  : "Switch to Vertical / Phone Screen"
+              }
+              aria-label="Toggle Fit Mode"
+            >
+              <span>{aspectMode === "portrait" ? "↔️ Wide" : "↕️ Vertical"}</span>
+            </button>
+
+            {/* Reload Game Button */}
+            <button
+              onClick={handleReloadGame}
+              className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
+              title="Reload game iframe"
+              id="reload-game-button"
+              aria-label="Reload Game"
+            >
+              <RotateCcw className="h-3.5 w-3.5 text-slate-400" />
+              <span className="hidden xs:inline sm:inline">Reload</span>
+            </button>
+
+            {/* Theater Mode Toggle (Desktop only) */}
+            <button
+              onClick={() => setIsTheater(!isTheater)}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none hidden md:flex"
+              title="Toggle Theater Mode"
+            >
+              <Tv className="h-3.5 w-3.5 text-slate-400" />
+              <span>Theater</span>
+            </button>
+
+            {/* Fullscreen Button */}
+            <button
+              onClick={handleToggleFullscreen}
+              className="flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 text-xs font-bold transition-all shadow-md shadow-emerald-500/20 focus:outline-none"
+              title="Enter Fullscreen"
+              id="fullscreen-game-button"
+              aria-label="Fullscreen"
+            >
+              <Maximize className="h-3.5 w-3.5" />
+              <span>Fullscreen</span>
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
