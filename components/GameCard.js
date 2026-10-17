@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Play, Star, Eye } from "lucide-react";
+import { Play, Sparkles } from "lucide-react";
 
 export default function GameCard({ game }) {
   const categoryColors = {
@@ -28,9 +28,9 @@ export default function GameCard({ game }) {
       <div className="relative aspect-16-9 w-full overflow-hidden bg-slate-950">
         <Image
           src={game.thumbnail}
-          alt={`${game.title} thumbnail`}
+          alt={`Play ${game.title} online`}
           fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           className="object-cover transition-transform duration-300 ease-out group-hover:scale-105"
           loading="lazy"
         />
@@ -53,14 +53,6 @@ export default function GameCard({ game }) {
             {game.category}
           </span>
         </div>
-
-        {/* Star Rating Badge */}
-        <div className="absolute top-2.5 right-2.5 z-10">
-          <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-slate-950/80 text-amber-300 border border-amber-500/30 backdrop-blur-md">
-            <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-            {game.rating}
-          </span>
-        </div>
       </div>
 
       {/* Card Body */}
@@ -70,10 +62,9 @@ export default function GameCard({ game }) {
         </h3>
 
         <div className="mt-1.5 sm:mt-2 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400">
-          <div className="flex items-center gap-1 sm:gap-1.5">
-            <Eye className="h-2.5 sm:h-3 w-2.5 sm:w-3 text-slate-400" />
-            <span className="truncate">{game.plays}</span>
-          </div>
+          <span className="text-slate-400 text-[10px] uppercase font-semibold tracking-wider">
+            Free Game
+          </span>
           <span className="font-semibold text-emerald-400 group-hover:translate-x-0.5 transition-transform text-[10px] sm:text-xs">
             Play →
           </span>

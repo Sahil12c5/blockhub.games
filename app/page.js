@@ -1,8 +1,9 @@
+import { Suspense } from "react";
 import { getAllGames, getFeaturedGames } from "@/data/games";
 import HeroFeatured from "@/components/HeroFeatured";
 import HomeGameExplorer from "@/components/HomeGameExplorer";
 import AdSlot from "@/components/AdSlot";
-import { WebsiteJsonLd } from "@/components/JsonLd";
+import { WebsiteJsonLd, OrganizationJsonLd } from "@/components/JsonLd";
 import { Sparkles, Gamepad2, Zap, ShieldCheck, Cpu } from "lucide-react";
 
 export default function HomePage() {
@@ -12,6 +13,7 @@ export default function HomePage() {
   return (
     <div className="space-y-8">
       <WebsiteJsonLd />
+      <OrganizationJsonLd />
 
       {/* Top Banner AdSense Slot */}
       <AdSlot
@@ -37,8 +39,10 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Category Chips & Filterable 16 Game Grid */}
-      <HomeGameExplorer allGames={allGames} />
+      {/* Category Chips & Filterable Paginated Game Grid */}
+      <Suspense fallback={<div className="h-96 flex items-center justify-center text-slate-500 text-xs">Loading games...</div>}>
+        <HomeGameExplorer allGames={allGames} />
+      </Suspense>
 
       {/* Middle Banner AdSense Slot */}
       <AdSlot
@@ -66,7 +70,7 @@ export default function HomePage() {
             Welcome to <strong>BlockHub.games</strong>, your ultimate destination for unblocked, instant-play HTML5 and WebGL web games. We curate the highest-quality collection of online games across all popular genres—including high-speed 3D car racing, tactical first-person shooters, real-time multiplayer arenas, challenging brain-teaser puzzles, competitive sports tournaments, and immersive open-world adventure sandboxes. You will never encounter mandatory desktop installers, paywalls, or laggy plugins. Every title in our library loads instantly on desktop PCs, laptops, Chromebooks, and tablets.
           </p>
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mt-3">
-            Whether burning rubber through neon street corners in <em>Cyber Drift City 3D</em>, outsmarting tactical enemy patrols in <em>Shadow Strike Ops FPS</em>, competing in penalty shootouts in <em>Super Kick Soccer Champions</em>, or conquering spatial block puzzles in <em>Neon Puzzle Block Master</em>, BlockHub.games brings high-framerate arcade entertainment directly to your fingertips. Bookmark BlockHub today and experience non-stop gaming excitement.
+            Whether testing your precision in <em>Euro Truck Parking</em>, surviving fierce battles in <em>Ragdoll Survivor</em>, scoring curling goals in <em>Curve Free Kick</em>, or solving mechanical brain-teasers in <em>Screw Nuts Snap Puzzle</em>, BlockHub.games brings high-framerate arcade entertainment directly to your browser. Explore our catalog today and enjoy seamless, non-stop gaming.
           </p>
         </div>
 
@@ -101,9 +105,9 @@ export default function HomePage() {
               <ShieldCheck className="h-4 w-4" />
             </div>
             <div>
-              <h3 className="text-xs font-bold text-white mb-0.5">AdSense Safe & Family Friendly</h3>
+              <h3 className="text-xs font-bold text-white mb-0.5">Family Friendly & Secure</h3>
               <p className="text-[11px] text-slate-400 leading-normal">
-                Clean, family-friendly gaming experience free of deceptive popups, redirects, or forced wait screens.
+                Enjoy a clean, responsive gaming experience free of deceptive downloads, redirects, or forced wait screens.
               </p>
             </div>
           </div>

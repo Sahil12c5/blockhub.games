@@ -9,11 +9,11 @@ const ADSENSE_CLIENT_ID =
 export const metadata = {
   metadataBase: new URL("https://blockhub.games"),
   title: {
-    default: "BlockHub.games - Free Online HTML5 Browser Games (Poki & CrazyGames Style)",
+    default: "BlockHub.games - Play Free Online Browser Games",
     template: "%s | BlockHub.games",
   },
   description:
-    "Play thousands of free online games unblocked at BlockHub.games. Featuring 3D car racing, tactical FPS shooting, sports, brain puzzles, action battles, and adventure games. Zero downloads.",
+    "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
   keywords: [
     "free online games",
     "html5 games",
@@ -23,8 +23,8 @@ export const metadata = {
     "sports games online",
     "puzzle games",
     "unblocked games",
-    "poki games",
-    "crazy games",
+    "online games free",
+    "action games",
     "blockhub games",
   ],
   authors: [{ name: "BlockHub Games" }],
@@ -46,9 +46,9 @@ export const metadata = {
     locale: "en_US",
     url: "https://blockhub.games",
     siteName: "BlockHub.games",
-    title: "BlockHub.games - Play Free Online HTML5 Browser Games",
+    title: "BlockHub.games - Play Free Online Browser Games",
     description:
-      "Play popular online games across Racing, Shooting, Action, Puzzle, Sports, and Adventure for free. Instant play, ad-friendly, zero downloads.",
+      "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
     images: [
       {
         url: "/logo.svg",
@@ -60,9 +60,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BlockHub.games - Free Online Browser Games",
+    title: "BlockHub.games - Play Free Online Browser Games",
     description:
-      "Play popular online games across Racing, Shooting, Action, Puzzle, Sports, and Adventure for free.",
+      "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
     images: ["/logo.svg"],
   },
   manifest: "/manifest.json",

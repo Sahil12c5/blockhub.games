@@ -183,8 +183,8 @@ export default function Header() {
                             <span className="text-[10px] text-slate-400 font-medium">
                               {game.category}
                             </span>
-                            <span className="text-[10px] text-amber-400 font-semibold">
-                              ★ {game.rating}
+                            <span className="text-[10px] text-emerald-400 font-semibold">
+                              Free
                             </span>
                           </div>
                         </div>

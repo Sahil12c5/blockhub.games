@@ -1,13 +1,17 @@
 export function GameJsonLd({ game, baseUrl = "https://blockhub.games" }) {
+  const imageUrl = game.thumbnail?.startsWith("http")
+    ? game.thumbnail
+    : `${baseUrl}${game.thumbnail}`;
+
   const gameSchema = {
     "@context": "https://schema.org",
     "@type": "VideoGame",
     name: game.title,
     description: game.description,
     url: `${baseUrl}/game/${game.slug}`,
-    image: `${baseUrl}${game.thumbnail}`,
+    image: imageUrl,
     genre: [game.category, "Online Game", "HTML5", "Browser Game"],
-    gamePlatform: ["Web Browser", "PC", "Mac", "Chromebook"],
+    gamePlatform: ["Web browser", "PC", "Mac", "Chromebook", "Mobile"],
     applicationCategory: "Game",
     operatingSystem: "Any",
     playMode: "MultiPlayer, SinglePlayer",
@@ -17,13 +21,6 @@ export function GameJsonLd({ game, baseUrl = "https://blockhub.games" }) {
       price: "0",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: game.rating,
-      bestRating: "5",
-      worstRating: "1",
-      ratingCount: "1250",
     },
   };
 
@@ -64,12 +61,63 @@ export function WebsiteJsonLd({ baseUrl = "https://blockhub.games" }) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "BlockHub Games",
+    alternateName: "BlockHub.games",
     url: baseUrl,
     potentialAction: {
       "@type": "SearchAction",
       target: `${baseUrl}/?q={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function OrganizationJsonLd({ baseUrl = "https://blockhub.games" }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "BlockHub Games",
+    url: baseUrl,
+    logo: `${baseUrl}/logo.svg`,
+    sameAs: [],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function BreadcrumbJsonLd({ items = [], baseUrl = "https://blockhub.games" }) {
+  if (!items || items.length === 0) return null;
+
+  const itemListElement = [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: baseUrl,
+    },
+    ...items.map((item, idx) => ({
+      "@type": "ListItem",
+      position: idx + 2,
+      name: item.label,
+      item: item.href ? (item.href.startsWith("http") ? item.href : `${baseUrl}${item.href}`) : undefined,
+    })),
+  ];
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement,
   };
 
   return (

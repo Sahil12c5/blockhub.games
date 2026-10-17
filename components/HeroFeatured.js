@@ -27,9 +27,8 @@ export default function HeroFeatured({ featuredGames = [] }) {
                 <Flame className="h-3.5 w-3.5 fill-emerald-400 text-emerald-400 animate-pulse" />
                 FEATURED SPOTLIGHT
               </span>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500/10 text-amber-300 border border-amber-500/20">
-                <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                {current.rating} Rating
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">
+                100% Free HTML5
               </span>
             </div>
 
@@ -47,10 +46,10 @@ export default function HeroFeatured({ featuredGames = [] }) {
                 🎮 {current.category}
               </span>
               <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md bg-slate-800 text-slate-300 font-medium">
-                ⚡ 60 FPS
+                ⚡ 60 FPS WebGL
               </span>
               <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md bg-slate-800 text-slate-300 font-medium">
-                👥 {current.plays}
+                🚀 Instant Play
               </span>
             </div>
           </div>
