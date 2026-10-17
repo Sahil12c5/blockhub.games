@@ -79,16 +79,19 @@ categoriesXml += `</urlset>\n`;
 fs.writeFileSync(path.join(publicDir, "sitemap-categories.xml"), categoriesXml, "utf8");
 
 // 4. Generate Games Sitemap with Google Image Metadata (public/sitemap-games.xml)
+// Only include indexable games with unique content (content_ready: true) to prevent thin-content penalties
+const indexableGames = games.filter((g) => g.content_ready);
+
 let gamesXml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 `;
-for (const g of games) {
+for (const g of indexableGames) {
   gamesXml += `  <url>
     <loc>${BASE_URL}/game/${g.slug}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>`;
+    <priority>0.9</priority>`;
 
   if (g.thumbnail) {
     gamesXml += `
@@ -109,4 +112,5 @@ console.log("Successfully generated sitemap index and 3 sub-sitemaps:");
 console.log(`- sitemap.xml (index)`);
 console.log(`- sitemap-pages.xml (${staticPages.length} pages)`);
 console.log(`- sitemap-categories.xml (${categories.length} categories)`);
-console.log(`- sitemap-games.xml (${games.length} games with image tags)`);
+console.log(`- sitemap-games.xml (${indexableGames.length} indexed games with image tags)`);
+

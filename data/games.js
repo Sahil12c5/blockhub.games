@@ -4,8 +4,9 @@
  * Synchronized with GameMonetize Feed
  * ============================================================================
  */
+import { topGamesContent } from "./top-games-content.js";
 
-export const games = [
+const rawGames = [
   {
     "slug": "ragdoll-survivor",
     "title": "Ragdoll Survivor",
@@ -78408,6 +78409,24 @@ export const games = [
   }
 ];
 
+function enrichGame(game) {
+  if (!game) return null;
+  const enriched = topGamesContent[game.slug];
+  if (enriched) {
+    return {
+      ...game,
+      ...enriched,
+      content_ready: true,
+    };
+  }
+  return {
+    ...game,
+    content_ready: false,
+  };
+}
+
+export const games = rawGames.map(enrichGame);
+
 export function getAllGames() {
   return games;
 }
@@ -78426,7 +78445,7 @@ export function getGamesByCategory(category) {
   );
 }
 
-export function getRelatedGames(currentSlug, category, limit = 4) {
+export function getRelatedGames(currentSlug, category, limit = 8) {
   return games
     .filter(
       (game) =>
@@ -78435,3 +78454,14 @@ export function getRelatedGames(currentSlug, category, limit = 4) {
     )
     .slice(0, limit);
 }
+
+export function getMoreCategoryGames(currentSlug, category, limit = 8) {
+  return games
+    .filter(
+      (game) =>
+        game.category.toLowerCase() === category.toLowerCase() &&
+        game.slug.toLowerCase() !== currentSlug.toLowerCase()
+    )
+    .slice(limit, limit * 2);
+}
+
