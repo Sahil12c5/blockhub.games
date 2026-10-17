@@ -28,7 +28,7 @@ const CATEGORY_MAP = {
 };
 
 // Target count of top games per category to keep static export fast, high quality and well-balanced
-const TARGET_PER_CATEGORY = 12;
+const TARGET_PER_CATEGORY = 200;
 
 function slugify(text) {
   return text
@@ -53,11 +53,38 @@ function cleanHtml(text) {
     .trim();
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function fetchPageWithRetry(page, maxRetries = 4) {
+  const url = `https://gamemonetize.com/feed.php?format=0&page=${page}`;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          "User-Agent": "BlockHubGames/1.0 (+https://blockhub.games)",
+        },
+      });
+      if (response.status === 429) {
+        console.warn(`[Page ${page}] Rate limited (429). Retrying in 4s... (attempt ${attempt}/${maxRetries})`);
+        await sleep(4000);
+        continue;
+      }
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status} ${response.statusText}`);
+      }
+      const data = await response.json();
+      return data;
+    } catch (err) {
+      if (attempt === maxRetries) throw err;
+      console.warn(`[Page ${page}] Fetch failed (${err.message}). Retrying in 3s...`);
+      await sleep(3000);
+    }
+  }
+  return [];
+}
+
 async function run() {
-  console.log("Fetching GameMonetize feed from:", FEED_URL);
-  const response = await fetch(FEED_URL);
-  const rawGames = await response.json();
-  console.log(`Fetched ${rawGames.length} raw games from feed.`);
+  console.log(`Starting import: targeting ${TARGET_PER_CATEGORY} games per category (Total: ${TARGET_PER_CATEGORY * 8})...`);
 
   const categoryBuckets = {
     Action: [],
@@ -71,23 +98,76 @@ async function run() {
   };
 
   const usedSlugs = new Set();
+  let page = 1;
+  const maxPages = 15;
 
-  for (const item of rawGames) {
-    if (!item.title || !item.url || !item.thumb) continue;
-
-    const mappedCategory = CATEGORY_MAP[item.category] || "Arcade";
-    if (!categoryBuckets[mappedCategory]) continue;
-
-    if (categoryBuckets[mappedCategory].length >= TARGET_PER_CATEGORY) {
-      continue;
+  while (page <= maxPages) {
+    const isCompleted = Object.values(categoryBuckets).every(
+      (bucket) => bucket.length >= TARGET_PER_CATEGORY
+    );
+    if (isCompleted) {
+      console.log("All categories reached their target count!");
+      break;
     }
 
-    let slug = slugify(item.title);
-    if (!slug) slug = `game-${item.id}`;
-    if (usedSlugs.has(slug)) {
-      slug = `${slug}-${item.id}`;
+    console.log(`Fetching feed page ${page}...`);
+    let rawGames = [];
+    try {
+      rawGames = await fetchPageWithRetry(page);
+    } catch (e) {
+      console.error(`Failed to fetch page ${page}:`, e.message);
+      break;
     }
-    usedSlugs.add(slug);
+
+    if (!Array.isArray(rawGames) || rawGames.length === 0) {
+      console.log(`No more games found on page ${page}. Ending fetch.`);
+      break;
+    }
+
+    console.log(`Page ${page}: received ${rawGames.length} games. Filtering and categorizing...`);
+
+    for (const item of rawGames) {
+      if (!item.title || !item.url || !item.thumb) continue;
+
+      let mappedCategory = CATEGORY_MAP[item.category];
+      const tags = (item.tags || "").toLowerCase();
+
+      // Tag-based fallback/refinement
+      if (!mappedCategory) {
+        if (tags.includes("multiplayer") || tags.includes("2 player") || tags.includes(".io") || tags.includes("io games") || tags.includes("pvp")) {
+          mappedCategory = "Multiplayer";
+        } else if (tags.includes("racing") || tags.includes("driving") || tags.includes("car")) {
+          mappedCategory = "Racing";
+        } else if (tags.includes("shooting") || tags.includes("gun") || tags.includes("sniper")) {
+          mappedCategory = "Shooting";
+        } else if (tags.includes("sports") || tags.includes("football") || tags.includes("soccer") || tags.includes("basketball")) {
+          mappedCategory = "Sports";
+        } else if (tags.includes("adventure") || tags.includes("rpg")) {
+          mappedCategory = "Adventure";
+        } else if (tags.includes("puzzle") || tags.includes("match 3") || tags.includes("brain")) {
+          mappedCategory = "Puzzle";
+        } else if (tags.includes("action") || tags.includes("fighting")) {
+          mappedCategory = "Action";
+        } else {
+          mappedCategory = "Arcade";
+        }
+      } else if (
+        mappedCategory !== "Multiplayer" &&
+        categoryBuckets["Multiplayer"].length < TARGET_PER_CATEGORY &&
+        (tags.includes("multiplayer") || tags.includes("2 player") || tags.includes("2-player") || tags.includes(".io") || tags.includes("io games") || tags.includes("pvp") || tags.includes("co-op"))
+      ) {
+        mappedCategory = "Multiplayer";
+      }
+
+      if (!categoryBuckets[mappedCategory]) continue;
+      if (categoryBuckets[mappedCategory].length >= TARGET_PER_CATEGORY) continue;
+
+      let slug = slugify(item.title);
+      if (!slug) slug = `game-${item.id}`;
+      if (usedSlugs.has(slug)) {
+        slug = `${slug}-${item.id}`;
+      }
+      usedSlugs.add(slug);
 
     let cleanDesc = cleanHtml(item.description);
     if (!cleanDesc || cleanDesc.length < 50) {
@@ -145,6 +225,17 @@ async function run() {
     };
 
     categoryBuckets[mappedCategory].push(gameObj);
+  }
+
+    console.log(
+      `Current progress: ` +
+        Object.keys(categoryBuckets)
+          .map((k) => `${k}: ${categoryBuckets[k].length}/${TARGET_PER_CATEGORY}`)
+          .join(", ")
+    );
+
+    page++;
+    await sleep(1500); // 1.5s delay to be gentle with rate limits
   }
 
   // Combine into single array
