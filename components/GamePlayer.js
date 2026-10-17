@@ -60,6 +60,27 @@ export default function GamePlayer({ game }) {
   const [aspectMode, setAspectMode] = useState(
     defaultIsPortrait ? "portrait" : "standard"
   );
+  const [deviceOrientation, setDeviceOrientation] = useState("portrait");
+
+  // Track window/device orientation on smartphones
+  useEffect(() => {
+    const checkOrientation = () => {
+      if (typeof window !== "undefined") {
+        const isLandscape = window.innerWidth > window.innerHeight;
+        setDeviceOrientation(isLandscape ? "landscape" : "portrait");
+      }
+    };
+    checkOrientation();
+    window.addEventListener("resize", checkOrientation);
+    window.addEventListener("orientationchange", checkOrientation);
+    return () => {
+      window.removeEventListener("resize", checkOrientation);
+      window.removeEventListener("orientationchange", checkOrientation);
+    };
+  }, []);
+
+  // Compute container height/aspect classes based on game type and screen size
+  const isHorizontalGame = aspectMode === "standard";
 
   return (
     <div
@@ -77,8 +98,13 @@ export default function GamePlayer({ game }) {
         className={`relative w-full bg-slate-950 flex items-center justify-center overflow-hidden transition-all ${
           aspectMode === "portrait"
             ? "h-[540px] xs:h-[580px] sm:h-[620px] max-h-[82vh]"
-            : "aspect-16-9 min-h-[240px] sm:min-h-[380px]"
+            : "w-full aspect-16-9 min-h-[260px] xs:min-h-[300px] sm:min-h-[420px] max-h-[88vh]"
         }`}
+        style={
+          isHorizontalGame && deviceOrientation === "landscape"
+            ? { height: "calc(100svh - 90px)", maxHeight: "100svh" }
+            : undefined
+        }
       >
         {isPlaceholderUrl ? (
           // Developer & Demo Embed Window when URL is not yet swapped
@@ -114,18 +140,19 @@ export default function GamePlayer({ game }) {
             </div>
           </div>
         ) : (
-          // Production Iframe Window with Mobile-first touch viewport
+          /* Production Iframe Window with Mobile-first touch viewport */
           <iframe
-            key={reloadKey}
-            ref={iframeRef}
-            src={game.iframeUrl}
-            title={game.title}
-            className="w-full h-full border-0 select-none block"
-            allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock; accelerometer; gyroscope"
-            allowFullScreen
-            loading="eager"
-            scrolling="no"
-          />
+          key={reloadKey}
+          ref={iframeRef}
+          id="gamemonetize-game"
+          src={game.iframeUrl}
+          title={game.title}
+          className="w-full h-full border-0 select-none block inset-0 touch-none"
+          allow="autoplay; fullscreen; keyboard; gamepad; screen-wake-lock; accelerometer; gyroscope"
+          allowFullScreen
+          loading="eager"
+          scrolling="no"
+        />
         )}
       </div>
 
