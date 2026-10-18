@@ -409,6 +409,39 @@ function main() {
   notPassedMd += `\n*See \`reports/not-passed-games.csv\` for the complete list of ${failed.length} games pending enrichment.*\n`;
   fs.writeFileSync(path.join(REPORTS_DIR, "not-passed-games.md"), notPassedMd, "utf8");
 
+  // 5. Generate Indexable Games CSV (games live & indexable right now)
+  const indexableHeader = "slug,title,url,category,word_count,in_sitemap,robots_status";
+  const indexableRows = currentlyIndexable.map(r => {
+    const url = `https://blockhub.games/game/${r.slug}`;
+    return `"${r.slug}","${(r.title || "").replace(/"/g, '""')}","${url}","${r.category}",${r.wordCount || 0},true,"index, follow"`;
+  });
+  const indexableCsvContent = [indexableHeader, ...indexableRows].join("\n");
+  const indexableCsvPath = path.join(REPORTS_DIR, "indexable-games.csv");
+  fs.writeFileSync(indexableCsvPath, indexableCsvContent, "utf8");
+
+  // 6. Generate Indexable Games Markdown Report
+  const indexableCategories = {};
+  for (const idxGame of currentlyIndexable) {
+    indexableCategories[idxGame.category] = (indexableCategories[idxGame.category] || 0) + 1;
+  }
+  let indexableMd = `# Indexable Games Report (Live & Indexed)\n\n`;
+  indexableMd += `**Total Currently Indexable Games**: ${currentlyIndexable.length}\n`;
+  indexableMd += `**Date Generated**: ${new Date().toISOString().split("T")[0]}\n`;
+  indexableMd += `**Indexing Status**: Live in \`public/sitemap-games.xml\` with \`robots: index, follow\`\n`;
+  indexableMd += `**Quality Standards**: 100% Passed Quality Gates (150-300 words unique content, 0 banned phrases, curated controls, tips, FAQs, and metadata)\n\n`;
+  indexableMd += `## Category Distribution of Indexable Games\n\n`;
+  indexableMd += `| Category | Indexable Games |\n|---|---|\n`;
+  for (const [cat, cnt] of Object.entries(indexableCategories).sort((a,b) => b[1] - a[1])) {
+    indexableMd += `| ${cat} | ${cnt} |\n`;
+  }
+  indexableMd += `\n## All ${currentlyIndexable.length} Indexable Games\n\n`;
+  indexableMd += `| # | Title | Slug | Category | Word Count | Canonical URL |\n|---|---|---|---|---|---|\n`;
+  currentlyIndexable.forEach((g, idx) => {
+    indexableMd += `| ${idx + 1} | [${g.title}](https://blockhub.games/game/${g.slug}) | \`${g.slug}\` | ${g.category} | ${g.wordCount || 0} | \`https://blockhub.games/game/${g.slug}\` |\n`;
+  });
+  indexableMd += `\n*See \`reports/indexable-games.csv\` for the CSV export of these ${currentlyIndexable.length} games.*\n`;
+  fs.writeFileSync(path.join(REPORTS_DIR, "indexable-games.md"), indexableMd, "utf8");
+
   // Print summary
   console.log("========================================");
   console.log("          AUDIT SUMMARY");
@@ -500,6 +533,7 @@ function main() {
 
   console.log(`\n✅ Passed games report saved to: ${passedCsvPath}`);
   console.log(`✅ Not passed games report saved to: ${notPassedCsvPath}`);
+  console.log(`✅ Indexable games report saved to: ${indexableCsvPath}`);
   
   return { passed, failed, noContent, hasContentButFailed, currentlyIndexable, results, sitemapAuditPassed };
 }
