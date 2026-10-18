@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "node scripts/generate-top-games-content.js && node scripts/generate-search-index.js && node scripts/generate-sitemap.js && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "batch:index-all": "node scripts/batch-index-all.js"
   },
   "dependencies": {
     "lucide-react": "^1.57.0",

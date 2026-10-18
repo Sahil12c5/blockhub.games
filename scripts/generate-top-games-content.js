@@ -242,18 +242,20 @@ const avgWords = Math.round(wordCountTotal / processedCount);
 console.log(`Successfully generated content for ${processedCount} top games! Average description length: ${avgWords} words.`);
 
 const targetFile = path.join(__dirname, "../data/top-games-content.json");
-fs.writeFileSync(targetFile, JSON.stringify(topGamesContent, null, 2), "utf8");
+const existingJson = fs.existsSync(targetFile) ? JSON.parse(fs.readFileSync(targetFile, "utf8")) : {};
+const mergedContent = { ...topGamesContent, ...existingJson };
+fs.writeFileSync(targetFile, JSON.stringify(mergedContent, null, 2), "utf8");
 
 const targetJsFile = path.join(__dirname, "../data/top-games-content.js");
 const jsContent = `/**
- * BLOCKHUB.GAMES - ENRICHED CONTENT FOR TOP 150 GAMES
+ * BLOCKHUB.GAMES - ENRICHED CONTENT FOR GAMES
  * Auto-generated rich guides with unique 150-300 word descriptions,
  * device-specific controls, strategic tips, and FAQs.
  */
 
-export const topGamesContent = ${JSON.stringify(topGamesContent, null, 2)};
+export const topGamesContent = ${JSON.stringify(mergedContent, null, 2)};
 `;
 fs.writeFileSync(targetJsFile, jsContent, "utf8");
 
-console.log(`Saved enriched game guides to ${targetFile} and ${targetJsFile}`);
+console.log(`Saved ${Object.keys(mergedContent).length} enriched game guides to ${targetFile} and ${targetJsFile}`);
 

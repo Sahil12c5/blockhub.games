@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getCategoryBySlug } from "@/data/categories";
 import { getGamesByCategory } from "@/data/games";
-import GameCard from "@/components/GameCard";
+import CategoryGameExplorer from "@/components/CategoryGameExplorer";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdSlot from "@/components/AdSlot";
 import { BreadcrumbJsonLd, CategoryJsonLd } from "@/components/JsonLd";
@@ -131,7 +131,7 @@ export default async function CategoryPage({ params }) {
         </div>
       </section>
 
-      {/* Games Grid for This Category */}
+      {/* Games Grid for This Category with Crawlable Pagination */}
       <section className="space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-black text-white">
@@ -143,11 +143,11 @@ export default async function CategoryPage({ params }) {
         </div>
 
         {categoryGames.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
-            {categoryGames.map((game) => (
-              <GameCard key={game.slug} game={game} />
-            ))}
-          </div>
+          <CategoryGameExplorer
+            categoryGames={categoryGames}
+            categorySlug={category.slug}
+            categoryName={category.name}
+          />
         ) : (
           <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-8 text-center text-slate-400 text-xs">
             No games found in this category yet. Check back soon!

@@ -49,8 +49,13 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${game.title} - Play Free Online`;
-  const description = `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
+  const title = game.meta_title
+    ? { absolute: game.meta_title }
+    : `${game.title} - Play Free Online`;
+  const description =
+    game.meta_description ||
+    `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
+  const plainTitle = typeof title === "object" ? title.absolute : title;
 
   return {
     title,
@@ -79,7 +84,7 @@ export async function generateMetadata({ params }) {
       canonical: `https://blockhub.games/game/${game.slug}`,
     },
     openGraph: {
-      title,
+      title: plainTitle,
       description,
       url: `https://blockhub.games/game/${game.slug}`,
       type: "website",
@@ -94,7 +99,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: plainTitle,
       description,
       images: [game.thumbnail],
     },
@@ -110,7 +115,10 @@ export default async function GamePage({ params }) {
   }
 
   // 8 Related Games + 8 More Category Games for deep contextual internal linking
-  const relatedGames = getRelatedGames(game.slug, game.category, 8);
+  const relatedGames =
+    game.related && game.related.length === 8
+      ? game.related.map((s) => getGameBySlug(s)).filter(Boolean)
+      : getRelatedGames(game.slug, game.category, 8);
   const moreCategoryGames = getMoreCategoryGames(game.slug, game.category, 8);
   const matchedHubs = getHubsForGame(game);
   const displayHubs = matchedHubs.length > 0 ? matchedHubs : hubs.slice(0, 3);
