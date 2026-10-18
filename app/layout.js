@@ -84,20 +84,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark h-full antialiased">
       <head>
-        {/* Resource Preconnects for CDN & Game Iframes to improve LCP & Core Web Vitals */}
+        {/* Resource Preconnect ONLY for above-the-fold image host to optimize LCP */}
         <link rel="preconnect" href="https://img.gamemonetize.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://html5.gamemonetize.co" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://img.gamemonetize.com" />
-        <link rel="dns-prefetch" href="https://html5.gamemonetize.co" />
 
-        {/* Google AdSense Script (only injected when real publisher ID is registered) */}
+        {/* Google AdSense Script (lazy-loaded after page is fully interactive) */}
         {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
           <Script
             id="adsense-init"
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
             crossOrigin="anonymous"
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
         )}
       </head>

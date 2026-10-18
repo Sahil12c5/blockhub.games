@@ -78465,3 +78465,24 @@ export function getMoreCategoryGames(currentSlug, category, limit = 8) {
     .slice(limit, limit * 2);
 }
 
+export function getLightweightGameCards() {
+  return rawGames.map((g) => ({
+    slug: g.slug,
+    title: g.title,
+    category: g.category,
+    thumbnail: g.thumbnail,
+    featured: Boolean(g.featured),
+  }));
+}
+
+export function getInitialHomePageCards(limit = 36) {
+  const sorted = [...rawGames].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+  return sorted.slice(0, limit).map((g) => ({
+    slug: g.slug,
+    title: g.title,
+    category: g.category,
+    thumbnail: g.thumbnail,
+    featured: Boolean(g.featured),
+  }));
+}
+

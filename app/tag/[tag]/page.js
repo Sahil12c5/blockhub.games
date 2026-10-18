@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { hubs, getAllHubs, getHubBySlug, getGamesForHub } from "@/data/hubs";
+import { getAllGames } from "@/data/games";
 import GameCard from "@/components/GameCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdSlot from "@/components/AdSlot";
@@ -66,7 +67,8 @@ export default async function TagHubPage({ params }) {
     notFound();
   }
 
-  const hubGames = getGamesForHub(hub.slug, 60);
+  const allGames = getAllGames();
+  const hubGames = getGamesForHub(hub.slug, allGames, 60);
 
   const iconMap = {
     "car-parking": Car,

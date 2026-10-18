@@ -286,8 +286,6 @@ Wrap yourself in holiday spirit anytime on BlockHub.games. Every Christmas title
   },
 ];
 
-import { games } from "./games.js";
-
 export function getAllHubs() {
   return hubs;
 }
@@ -296,12 +294,12 @@ export function getHubBySlug(slug) {
   return hubs.find((h) => h.slug.toLowerCase() === slug.toLowerCase());
 }
 
-export function getGamesForHub(hubSlug, limit = 48) {
+export function getGamesForHub(hubSlug, gamesList = [], limit = 48) {
   const hub = getHubBySlug(hubSlug);
   if (!hub) return [];
   const kws = hub.keywords.map((k) => k.toLowerCase());
 
-  return games
+  return (gamesList || [])
     .filter((g) => {
       const titleLower = g.title.toLowerCase();
       const descLower = (g.description || "").toLowerCase();

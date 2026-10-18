@@ -1,6 +1,6 @@
-import { Suspense } from "react";
 import Link from "next/link";
-import { getAllGames, getFeaturedGames } from "@/data/games";
+import { getAllGames, getFeaturedGames, getInitialHomePageCards } from "@/data/games";
+import { categories } from "@/data/categories";
 import { hubs } from "@/data/hubs";
 import HeroFeatured from "@/components/HeroFeatured";
 import HomeGameExplorer from "@/components/HomeGameExplorer";
@@ -10,7 +10,21 @@ import { Sparkles, Gamepad2, Zap, ShieldCheck, Cpu } from "lucide-react";
 
 export default function HomePage() {
   const allGames = getAllGames();
-  const featuredGames = getFeaturedGames();
+  const featuredGames = getFeaturedGames().map((g) => ({
+    slug: g.slug,
+    title: g.title,
+    category: g.category,
+    thumbnail: g.thumbnail,
+    description: g.description?.slice(0, 200) || "",
+  }));
+  const initialCards = getInitialHomePageCards(36);
+
+  const categoryCounts = { all: allGames.length };
+  for (const cat of categories) {
+    categoryCounts[cat.slug] = allGames.filter(
+      (g) => g.category.toLowerCase() === cat.slug.toLowerCase()
+    ).length;
+  }
 
   return (
     <div className="space-y-8">
@@ -68,9 +82,11 @@ export default function HomePage() {
 
 
       {/* Category Chips & Filterable Paginated Game Grid */}
-      <Suspense fallback={<div className="h-96 flex items-center justify-center text-slate-500 text-xs">Loading games...</div>}>
-        <HomeGameExplorer allGames={allGames} />
-      </Suspense>
+      <HomeGameExplorer
+        initialGames={initialCards}
+        categoryCounts={categoryCounts}
+        totalGamesCount={allGames.length}
+      />
 
       {/* Middle Banner AdSense Slot */}
       <AdSlot

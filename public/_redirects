@@ -1,0 +1,4 @@
+# Canonical 1-hop redirects from www and http to apex https://blockhub.games
+https://www.blockhub.games/* https://blockhub.games/:splat 301!
+http://www.blockhub.games/* https://blockhub.games/:splat 301!
+http://blockhub.games/* https://blockhub.games/:splat 301!

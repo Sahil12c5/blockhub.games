@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import GameCard from "./GameCard";
@@ -20,24 +20,61 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-const GAMES_PER_PAGE = 48;
+const GAMES_PER_PAGE = 36;
 
-export default function HomeGameExplorer({ allGames }) {
+let fullCatalogCache = null;
+async function fetchFullCatalog() {
+  if (fullCatalogCache) return fullCatalogCache;
+  try {
+    const res = await fetch("/search-index.json");
+    if (res.ok) {
+      fullCatalogCache = await res.json();
+      return fullCatalogCache;
+    }
+  } catch (err) {
+    console.error("Failed to fetch full catalog:", err);
+  }
+  return [];
+}
+
+// Isolated SearchParams listener inside its own Suspense so main grid is pre-rendered in static HTML
+function SearchParamsWatcher({ onPageChange }) {
   const searchParams = useSearchParams();
   const pageParam = parseInt(searchParams?.get("page") || "1", 10);
-  const initialPage = isNaN(pageParam) || pageParam < 1 ? 1 : pageParam;
+  useEffect(() => {
+    if (pageParam && !isNaN(pageParam) && pageParam > 1) {
+      onPageChange(pageParam);
+    }
+  }, [pageParam, onPageChange]);
+  return null;
+}
 
+export default function HomeGameExplorer({
+  initialGames = [],
+  categoryCounts = {},
+  totalGamesCount = 1600,
+}) {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchFilter, setSearchFilter] = useState("");
   const [sortBy, setSortBy] = useState("popular");
-  const [currentPage, setCurrentPage] = useState(initialPage);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [catalog, setCatalog] = useState(null);
 
-  // Sync state if URL search param changes
-  useEffect(() => {
-    if (pageParam && pageParam !== currentPage) {
-      setCurrentPage(pageParam);
+  const loadCatalogIfNeeded = useCallback(() => {
+    if (!catalog && !fullCatalogCache) {
+      fetchFullCatalog().then((data) => setCatalog(data));
+    } else if (fullCatalogCache && !catalog) {
+      setCatalog(fullCatalogCache);
     }
-  }, [pageParam]);
+  }, [catalog]);
+
+  const handlePageParamChange = useCallback(
+    (page) => {
+      setCurrentPage(page);
+      loadCatalogIfNeeded();
+    },
+    [loadCatalogIfNeeded]
+  );
 
   const categoriesList = [
     { id: "all", name: "All Games", icon: Layers, href: "/" },
@@ -51,13 +88,25 @@ export default function HomeGameExplorer({ allGames }) {
     { id: "arcade", name: "Arcade", icon: Gamepad2, href: "/category/arcade" },
   ];
 
+  const isInitialDefaultView =
+    selectedCategory === "all" &&
+    !searchFilter &&
+    sortBy === "popular" &&
+    currentPage === 1 &&
+    !catalog;
+
   const filteredGames = useMemo(() => {
-    let list = [...allGames];
+    if (isInitialDefaultView) {
+      return initialGames;
+    }
+
+    const dataSource = catalog || initialGames;
+    let list = [...dataSource];
 
     // Filter by category
     if (selectedCategory !== "all") {
       list = list.filter(
-        (g) => g.category.toLowerCase() === selectedCategory.toLowerCase()
+        (g) => g.category?.toLowerCase() === selectedCategory.toLowerCase()
       );
     }
 
@@ -66,9 +115,8 @@ export default function HomeGameExplorer({ allGames }) {
       const q = searchFilter.toLowerCase();
       list = list.filter(
         (g) =>
-          g.title.toLowerCase().includes(q) ||
-          g.category.toLowerCase().includes(q) ||
-          g.description.toLowerCase().includes(q)
+          g.title?.toLowerCase().includes(q) ||
+          g.category?.toLowerCase().includes(q)
       );
     }
 
@@ -76,28 +124,34 @@ export default function HomeGameExplorer({ allGames }) {
     if (sortBy === "name") {
       list.sort((a, b) => a.title.localeCompare(b.title));
     } else {
-      // Default: featured first, then standard order
+      // Default: featured first
       list.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
     }
 
     return list;
-  }, [allGames, selectedCategory, searchFilter, sortBy]);
+  }, [catalog, initialGames, isInitialDefaultView, selectedCategory, searchFilter, sortBy]);
 
   // Calculate pagination
-  const totalPages = Math.max(1, Math.ceil(filteredGames.length / GAMES_PER_PAGE));
+  const totalCount = catalog ? filteredGames.length : totalGamesCount;
+  const totalPages = Math.max(1, Math.ceil((catalog ? filteredGames.length : totalGamesCount) / GAMES_PER_PAGE));
   const validPage = Math.min(Math.max(1, currentPage), totalPages);
 
   const paginatedGames = useMemo(() => {
+    if (isInitialDefaultView) {
+      return initialGames.slice(0, GAMES_PER_PAGE);
+    }
     const start = (validPage - 1) * GAMES_PER_PAGE;
     return filteredGames.slice(start, start + GAMES_PER_PAGE);
-  }, [filteredGames, validPage]);
+  }, [filteredGames, initialGames, isInitialDefaultView, validPage]);
 
   const handleCategoryChange = (catId) => {
+    loadCatalogIfNeeded();
     setSelectedCategory(catId);
     setCurrentPage(1);
   };
 
   const handleSearchChange = (value) => {
+    loadCatalogIfNeeded();
     setSearchFilter(value);
     setCurrentPage(1);
   };
@@ -121,6 +175,11 @@ export default function HomeGameExplorer({ allGames }) {
 
   return (
     <section className="space-y-6">
+      {/* SearchParams listener inside isolated Suspense boundary */}
+      <Suspense fallback={null}>
+        <SearchParamsWatcher onPageChange={handlePageParamChange} />
+      </Suspense>
+
       {/* Category Chips Bar & Controls */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         {/* Category Filter Chips */}
@@ -129,16 +188,14 @@ export default function HomeGameExplorer({ allGames }) {
             const Icon = cat.icon;
             const isSelected = selectedCategory === cat.id;
             const count =
-              cat.id === "all"
-                ? allGames.length
-                : allGames.filter(
-                    (g) => g.category.toLowerCase() === cat.id.toLowerCase()
-                  ).length;
+              categoryCounts[cat.id] ??
+              (cat.id === "all" ? totalGamesCount : 200);
 
             return (
               <button
                 key={cat.id}
                 onClick={() => handleCategoryChange(cat.id)}
+                onMouseEnter={loadCatalogIfNeeded}
                 className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
                   isSelected
                     ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20"
@@ -173,6 +230,7 @@ export default function HomeGameExplorer({ allGames }) {
               type="text"
               value={searchFilter}
               onChange={(e) => handleSearchChange(e.target.value)}
+              onFocus={loadCatalogIfNeeded}
               placeholder="Filter by title..."
               className="w-full md:w-48 rounded-lg bg-slate-900 border border-slate-800 pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500"
             />
@@ -183,6 +241,7 @@ export default function HomeGameExplorer({ allGames }) {
             <select
               value={sortBy}
               onChange={(e) => {
+                loadCatalogIfNeeded();
                 setSortBy(e.target.value);
                 setCurrentPage(1);
               }}
@@ -202,7 +261,7 @@ export default function HomeGameExplorer({ allGames }) {
       {/* Results Header Info */}
       <div className="flex items-center justify-between text-xs text-slate-400 px-1">
         <span>
-          Showing <strong className="text-white">{(validPage - 1) * GAMES_PER_PAGE + 1}–{Math.min(validPage * GAMES_PER_PAGE, filteredGames.length)}</strong> of <strong className="text-white">{filteredGames.length}</strong> games
+          Showing <strong className="text-white">{(validPage - 1) * GAMES_PER_PAGE + 1}–{Math.min(validPage * GAMES_PER_PAGE, totalCount)}</strong> of <strong className="text-white">{totalCount}</strong> games
         </span>
         {totalPages > 1 && (
           <span>
@@ -211,7 +270,7 @@ export default function HomeGameExplorer({ allGames }) {
         )}
       </div>
 
-      {/* Grid of Games (48 per page for optimal DOM size and performance) */}
+      {/* Grid of Games (36 per page for optimal DOM size and Core Web Vitals) */}
       {paginatedGames.length > 0 ? (
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
           {paginatedGames.map((game) => (
@@ -245,86 +304,63 @@ export default function HomeGameExplorer({ allGames }) {
           {validPage > 1 ? (
             <Link
               href={validPage === 2 ? "/" : `/?page=${validPage - 1}`}
-              onClick={() => setCurrentPage(validPage - 1)}
+              onClick={() => {
+                loadCatalogIfNeeded();
+                setCurrentPage(validPage - 1);
+              }}
               className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
               aria-label="Previous page"
             >
               <ChevronLeft className="h-4 w-4" />
-              <span className="hidden sm:inline">Previous</span>
+              <span>Prev</span>
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-950/60 border border-slate-900 text-xs font-semibold text-slate-600 cursor-not-allowed">
+            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
               <ChevronLeft className="h-4 w-4" />
-              <span className="hidden sm:inline">Previous</span>
+              <span>Prev</span>
             </span>
           )}
 
-          {/* First page link if skipped */}
-          {getPageNumbers()[0] > 1 && (
-            <>
-              <Link
-                href="/"
-                onClick={() => setCurrentPage(1)}
-                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-900 text-slate-300 border border-slate-800 hover:text-white hover:border-slate-700 transition-colors"
-              >
-                1
-              </Link>
-              {getPageNumbers()[0] > 2 && (
-                <span className="px-1 text-slate-500 text-xs">…</span>
-              )}
-            </>
-          )}
-
-          {/* Numbered Page Buttons */}
-          {getPageNumbers().map((pageNum) => {
-            const isCurrent = pageNum === validPage;
-            const href = pageNum === 1 ? "/" : `/?page=${pageNum}`;
-            return (
-              <Link
-                key={pageNum}
-                href={href}
-                onClick={() => setCurrentPage(pageNum)}
-                aria-current={isCurrent ? "page" : undefined}
-                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all border ${
-                  isCurrent
-                    ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20 font-black"
-                    : "bg-slate-900 text-slate-300 border-slate-800 hover:text-white hover:border-slate-700"
-                }`}
-              >
-                {pageNum}
-              </Link>
-            );
-          })}
-
-          {/* Last page link if skipped */}
-          {getPageNumbers()[getPageNumbers().length - 1] < totalPages && (
-            <>
-              {getPageNumbers()[getPageNumbers().length - 1] < totalPages - 1 && (
-                <span className="px-1 text-slate-500 text-xs">…</span>
-              )}
-              <Link
-                href={`/?page=${totalPages}`}
-                onClick={() => setCurrentPage(totalPages)}
-                className="px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-900 text-slate-300 border border-slate-800 hover:text-white hover:border-slate-700 transition-colors"
-              >
-                {totalPages}
-              </Link>
-            </>
-          )}
+          <div className="flex items-center gap-1">
+            {getPageNumbers().map((num) => {
+              const isCurrent = num === validPage;
+              return (
+                <Link
+                  key={num}
+                  href={num === 1 ? "/" : `/?page=${num}`}
+                  onClick={() => {
+                    loadCatalogIfNeeded();
+                    setCurrentPage(num);
+                  }}
+                  className={`flex h-9 w-9 items-center justify-center rounded-xl text-xs font-bold transition-all border ${
+                    isCurrent
+                      ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20"
+                      : "bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700"
+                  }`}
+                  aria-current={isCurrent ? "page" : undefined}
+                >
+                  {num}
+                </Link>
+              );
+            })}
+          </div>
 
           {validPage < totalPages ? (
             <Link
               href={`/?page=${validPage + 1}`}
-              onClick={() => setCurrentPage(validPage + 1)}
+              onClick={() => {
+                loadCatalogIfNeeded();
+                setCurrentPage(validPage + 1);
+              }}
               className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
               aria-label="Next page"
             >
-              <span className="hidden sm:inline">Next</span>
+              <span>Next</span>
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-950/60 border border-slate-900 text-xs font-semibold text-slate-600 cursor-not-allowed">
-              <span className="hidden sm:inline">Next</span>
+            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
+              <span>Next</span>
               <ChevronRight className="h-4 w-4" />
             </span>
           )}

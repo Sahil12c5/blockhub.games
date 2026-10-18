@@ -41,16 +41,30 @@ export default function AdSlot({
   const clientId =
     process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXXXX";
 
-  const minHeightClass =
-    format === "vertical"
-      ? "min-h-[600px]"
-      : format === "rectangle"
-      ? "min-h-[250px]"
-      : "min-h-[90px]";
+  const heightConfig = {
+    horizontal: {
+      className: "h-[100px] min-h-[100px]",
+      intrinsic: "auto 100px",
+    },
+    rectangle: {
+      className: "h-[280px] min-h-[280px]",
+      intrinsic: "auto 280px",
+    },
+    vertical: {
+      className: "h-[600px] min-h-[600px]",
+      intrinsic: "auto 600px",
+    },
+  };
+
+  const currentHeight = heightConfig[format] || heightConfig.horizontal;
 
   return (
     <div
-      className={`my-4 flex flex-col items-center justify-center overflow-hidden transition-all duration-200 ${minHeightClass} ${className}`}
+      className={`my-4 flex flex-col items-center justify-center overflow-hidden transition-all duration-200 ${currentHeight.className} ${className}`}
+      style={{
+        contain: "layout-size",
+        containIntrinsicSize: currentHeight.intrinsic,
+      }}
     >
       <div className="w-full text-center">
         <span className="text-[10px] uppercase tracking-widest text-slate-500 font-semibold mb-1 block">
@@ -60,7 +74,7 @@ export default function AdSlot({
 
       {isDevOrPlaceholder ? (
         // Preview placeholder for development & before publisher ID is inserted
-        <div className={`w-full ${minHeightClass} border border-dashed border-emerald-900/60 bg-slate-900/40 rounded-lg p-3 flex flex-col items-center justify-center text-center text-slate-400 group hover:border-emerald-500/50 transition-colors`}>
+        <div className={`w-full ${currentHeight.className} border border-dashed border-emerald-900/60 bg-slate-900/40 rounded-lg p-3 flex flex-col items-center justify-center text-center text-slate-400 group hover:border-emerald-500/50 transition-colors`}>
 
           <div className="flex items-center gap-2 mb-1">
             <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>

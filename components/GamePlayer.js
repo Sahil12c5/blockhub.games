@@ -159,8 +159,12 @@ export default function GamePlayer({ game }) {
                 <img
                   src={game.thumbnail}
                   alt={game.title}
-                  className="w-full h-full object-cover scale-105 filter blur-[2px] brightness-[0.35] group-hover:scale-110 group-hover:brightness-[0.45] transition-all duration-700 ease-out"
+                  width="960"
+                  height="540"
                   loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  className="w-full h-full object-cover scale-105 filter blur-[2px] brightness-[0.35] group-hover:scale-110 group-hover:brightness-[0.45] transition-all duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-slate-950/60" />
               </div>

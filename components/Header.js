@@ -19,8 +19,36 @@ import {
   Sparkles,
 } from "lucide-react";
 import { categories } from "@/data/categories";
-import { games } from "@/data/games";
 import { hubs } from "@/data/hubs";
+
+// Fallback top game slugs for instant Random button
+const POPULAR_RANDOM_SLUGS = [
+  "ragdoll-survivor",
+  "euro-truck-parking",
+  "curve-free-kick",
+  "screw-nuts-snap-puzzle",
+  "stickman-bow-clash",
+  "funny-gummy-characters",
+  "block-craft-survival",
+  "drift-boss",
+  "highway-traffic-racer-pro",
+  "subway-surfers",
+];
+
+let cachedSearchIndex = null;
+async function fetchSearchIndex() {
+  if (cachedSearchIndex) return cachedSearchIndex;
+  try {
+    const res = await fetch("/search-index.json");
+    if (res.ok) {
+      cachedSearchIndex = await res.json();
+      return cachedSearchIndex;
+    }
+  } catch (err) {
+    console.error("Search index fetch error:", err);
+  }
+  return [];
+}
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,23 +59,28 @@ export default function Header() {
   const pathname = usePathname();
   const router = useRouter();
 
-
-  // Handle client-side search filtering
+  // Handle client-side search filtering on demand
   useEffect(() => {
+    let isMounted = true;
     if (searchQuery.trim().length > 0) {
       const q = searchQuery.toLowerCase();
-      const filtered = games.filter(
-        (g) =>
-          g.title.toLowerCase().includes(q) ||
-          g.category.toLowerCase().includes(q) ||
-          g.description.toLowerCase().includes(q)
-      );
-      setSearchResults(filtered.slice(0, 6));
-      setShowSearchDropdown(true);
+      fetchSearchIndex().then((index) => {
+        if (!isMounted) return;
+        const filtered = index.filter(
+          (g) =>
+            g.title.toLowerCase().includes(q) ||
+            g.category.toLowerCase().includes(q)
+        );
+        setSearchResults(filtered.slice(0, 6));
+        setShowSearchDropdown(true);
+      });
     } else {
       setSearchResults([]);
       setShowSearchDropdown(false);
     }
+    return () => {
+      isMounted = false;
+    };
   }, [searchQuery]);
 
   // Close dropdowns on route change
@@ -172,6 +205,7 @@ export default function Header() {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
+                onFocus={fetchSearchIndex}
                 placeholder="Search games..."
                 className="w-full rounded-full bg-slate-900 border border-slate-700/80 pl-8 sm:pl-9 pr-7 sm:pr-8 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                 aria-label="Search games"
@@ -244,8 +278,13 @@ export default function Header() {
           {/* Random Game Quick Launch Button */}
           <button
             onClick={() => {
-              const randomIndex = Math.floor(Math.random() * games.length);
-              router.push(`/game/${games[randomIndex].slug}`);
+              if (cachedSearchIndex && cachedSearchIndex.length > 0) {
+                const randomIndex = Math.floor(Math.random() * cachedSearchIndex.length);
+                router.push(`/game/${cachedSearchIndex[randomIndex].slug}`);
+              } else {
+                const randomIndex = Math.floor(Math.random() * POPULAR_RANDOM_SLUGS.length);
+                router.push(`/game/${POPULAR_RANDOM_SLUGS[randomIndex]}`);
+              }
             }}
             className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 hover:text-emerald-300 text-xs font-semibold transition-all shadow-xs"
             title="Play a Random Game"

@@ -76,17 +76,21 @@ export default function HeroFeatured({ featuredGames = [] }) {
 
         {/* Right Column: Hero Visual Showcase & Selector Cards */}
         <div className="lg:col-span-5 flex flex-col gap-3">
-          {/* Main Visual Display */}
+          {/* Main Visual Display (LCP candidate with high priority) */}
           <div className="relative aspect-16-9 w-full rounded-xl overflow-hidden border border-slate-700/80 shadow-2xl group">
             <Image
               src={current.thumbnail}
               alt={current.title}
-              fill
+              width={640}
+              height={360}
               priority
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
               sizes="(max-width: 1024px) 100vw, 40vw"
-              className="object-cover"
+              className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
             <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
               <span className="text-xs font-bold text-white bg-slate-900/90 px-2.5 py-1 rounded-md border border-slate-700">
                 {current.category}
@@ -116,9 +120,11 @@ export default function HeroFeatured({ featuredGames = [] }) {
                   <Image
                     src={game.thumbnail}
                     alt={game.title}
-                    fill
-                    sizes="80px"
-                    className="object-cover"
+                    width={80}
+                    height={45}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <span className="text-[10px] font-bold truncate w-full text-center">
