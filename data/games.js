@@ -117,7 +117,7 @@ const rawGames = [
     "width": 8854,
     "height": 480,
     "orientation": "landscape",
-    "description": "Get ready for some crazy, wobbly fun in Funny Gummy Characters! Grab your favorite funny characters and stretch, pull, squash, and twist them into the most hilarious shapes imaginable! Watch their faces and bodies wobble, bounce, and jiggle like real jelly with funny gummy physics. There are no rules, no limits, and no wrong moves &mdash; just endless laughter and ridiculous transformations!",
+    "description": "Get ready for some crazy, wobbly fun in Funny Gummy Characters! Grab your favorite funny characters and stretch, pull, squash, and twist them into the most hilarious shapes imaginable! Watch their faces and bodies wobble, bounce, and jiggle like real jelly with funny gummy physics. There are no rules, no limits, and no wrong moves - just endless laughter and ridiculous transformations!",
     "howToPlay": "Mouse to play",
     "controls": [
       {
@@ -313,7 +313,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Shadow Fist is a fast-paced kung fu stickman beat &rsquo;em up. You play Kai, the last disciple of Master Lin, and you must take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss at the end, and a golden key that opens the exit door. Climb ladders and ride elevators between rooms, from living rooms and kitchens to dojos and basements. Features: 5000 levels: 8 story levels with unique bosses, then thousands of generated levels with new enemy mixes and bosses Punch combos, kicks, air attacks, a spinning special move, blocking and a dash with brief invincibility SixShadow Fist is a fast-paced kung fu stickman beat em up. Play Kai, last disciple of Master Lin, and take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss, and a golden key that opens the exit door. Climb ladders and ride elevators from living rooms and kitchen",
+    "description": "Shadow Fist is a fast-paced kung fu stickman beat 'em up. You play Kai, the last disciple of Master Lin, and you must take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss at the end, and a golden key that opens the exit door. Climb ladders and ride elevators between rooms, from living rooms and kitchens to dojos and basements. Features: 5000 levels: 8 story levels with unique bosses, then thousands of generated levels with new enemy mixes and bosses Punch combos, kicks, air attacks, a spinning special move, blocking and a dash with brief invincibility SixShadow Fist is a fast-paced kung fu stickman beat em up. Play Kai, last disciple of Master Lin, and take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss, and a golden key that opens the exit door. Climb ladders and ride elevators from living rooms and kitchen",
     "howToPlay": "Move A D or Arrow keys the on-screen hints adapt to your keyboard layout Attack Space or Z press repeatedly to chain combos Special move X Block S or Down arrow Dash Shift Climb ladder or ride elevator W or Up arrow Exit door Enter Mobile us",
     "controls": [
       {
@@ -460,7 +460,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Enter a mysterious block-based world where survival is your only goal! Explore a dark and dangerous environment, gather resources, craft useful items, and build a safe place to survive. But be careful&mdash;strange creatures and unexpected dangers may appear when you least expect them. Explore abandoned areas, discover hidden secrets, and find a way to survive the night. Every decision matters as you search for resources and uncover the terrifying mystery surrounding this strange world. Are you brave enough to survive?",
+    "description": "Enter a mysterious block-based world where survival is your only goal! Explore a dark and dangerous environment, gather resources, craft useful items, and build a safe place to survive. But be careful-strange creatures and unexpected dangers may appear when you least expect them. Explore abandoned areas, discover hidden secrets, and find a way to survive the night. Every decision matters as you search for resources and uncover the terrifying mystery surrounding this strange world. Are you brave enough to survive?",
     "howToPlay": "Move using the WASD keys Use Left Mouse Click to attack with your sword Press Space to jump The game is also fully playable on mobile devices with mobile-friendly controls",
     "controls": [
       {
@@ -607,7 +607,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Archer Clash is a fast-paced io game where you guide a lone hero racing across a rolling, hill-like battle arena. You&rsquo;ll recruit allies, adapt your tactics, and face shifting challenges as you fight for control. Every decision shapes your path to victory, blending quick reflexes with smart strategy in a thrilling clash of skill and growth. At the start of each match, enemy armies spawn randomly across the terrain, creating unpredictable combat encounters. As you traverse the battlefield, you can collect powerful boosters like speed bursts and protective shields to gain an edge. Scattered throughout the land are neutral wanderers&mdash;free-ro",
+    "description": "Archer Clash is a fast-paced io game where you guide a lone hero racing across a rolling, hill-like battle arena. You'll recruit allies, adapt your tactics, and face shifting challenges as you fight for control. Every decision shapes your path to victory, blending quick reflexes with smart strategy in a thrilling clash of skill and growth. At the start of each match, enemy armies spawn randomly across the terrain, creating unpredictable combat encounters. As you traverse the battlefield, you can collect powerful boosters like speed bursts and protective shields to gain an edge. Scattered throughout the land are neutral wanderers-free-ro",
     "howToPlay": "Use WASD arrow keys mouse to move",
     "controls": [
       {
@@ -705,7 +705,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "URBAN JUMP is a fast-paced, gritty, and unforgiving arcade platformer where only one thing matters - climbing higher than everyone else. Jump across rooftops, balconies, and crumbling platforms, collect coins, avoid falling, and try to beat your high score. Every meter you climb brings greater risk, faster action, and less room for mistakes. Unlock new characters, earn coins, and keep pushing higher through the concrete urban jungle. One bad jump and you&rsquo;re going all the way down.",
+    "description": "URBAN JUMP is a fast-paced, gritty, and unforgiving arcade platformer where only one thing matters - climbing higher than everyone else. Jump across rooftops, balconies, and crumbling platforms, collect coins, avoid falling, and try to beat your high score. Every meter you climb brings greater risk, faster action, and less room for mistakes. Unlock new characters, earn coins, and keep pushing higher through the concrete urban jungle. One bad jump and you're going all the way down.",
     "howToPlay": "A D mdash Move Left Right SPACE mdash Jump",
     "controls": [
       {
@@ -1097,7 +1097,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for the cutest puzzle adventure in Kittys Way Home! Draw the perfect path and guide adorable kittens safely back to their cozy homes. Every level is packed with fun challenges that test your logic, creativity, and quick thinking. Welcome to a world of charming cats, clever draw puzzles, and relaxing gameplay. Your mission is simple&mdash;draw a line to help each kitty find the safest way home. Sounds easy? As you progress, tricky obstacles, moving hazards, and challenging layouts will put your puzzle-solving skills to the test.",
+    "description": "Get ready for the cutest puzzle adventure in Kittys Way Home! Draw the perfect path and guide adorable kittens safely back to their cozy homes. Every level is packed with fun challenges that test your logic, creativity, and quick thinking. Welcome to a world of charming cats, clever draw puzzles, and relaxing gameplay. Your mission is simple-draw a line to help each kitty find the safest way home. Sounds easy? As you progress, tricky obstacles, moving hazards, and challenging layouts will put your puzzle-solving skills to the test.",
     "howToPlay": "How to Play - Draw a line to create a safe path - Guide every kitty to the correct home - Avoid obstacles traps and collisions - Find the shortest and smartest route - Complete each level to unlock new challenges",
     "controls": [
       {
@@ -1146,7 +1146,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Age Evolution Run is a runner game that takes you on a wild sprint through the ages of humanity. You&rsquo;ll dash from primitive beginnings to futuristic glory, dodging obstacles and collecting power-ups along the way. Each era unlocks new abilities, letting you witness the incredible evolution of speed, strength, and survival in one nonstop race. Features Evolve through the ages: Collect points, level up, and unlock powerful forms as you progress through time. Dodge obstacles &amp; enemies: Avoid traps, break barriers, and defeat rivals on your way. Upgrade your hero: Discover new looks, weapons, and abilities as you evolve.",
+    "description": "Age Evolution Run is a runner game that takes you on a wild sprint through the ages of humanity. You'll dash from primitive beginnings to futuristic glory, dodging obstacles and collecting power-ups along the way. Each era unlocks new abilities, letting you witness the incredible evolution of speed, strength, and survival in one nonstop race. Features Evolve through the ages: Collect points, level up, and unlock powerful forms as you progress through time. Dodge obstacles & enemies: Avoid traps, break barriers, and defeat rivals on your way. Upgrade your hero: Discover new looks, weapons, and abilities as you evolve.",
     "howToPlay": "Use the left mouse button WASD arrow keys to move",
     "controls": [
       {
@@ -1538,7 +1538,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Forest Dash is a fast, colorful 3D endless runner. Sprint down a sunlit forest trail, switch lanes to dodge rocks and logs, and leap over obstacles while scooping up coins. The longer you run, the faster it gets &mdash; how far can you go? Spend the coins you collect on fun character skins, and use a revive to push your best distance even further. Simple one-tap-and-swipe controls make it instant to play, on desktop or mobile. Features: &bull; One-more-run 3D endless running with rising speed &bull; Swipe or arrow-key lane switching and jumping &bull; Collect coins, unlock character skins &bull; Revive and double-coin bonuses &bull; Distance high-score to beat",
+    "description": "Forest Dash is a fast, colorful 3D endless runner. Sprint down a sunlit forest trail, switch lanes to dodge rocks and logs, and leap over obstacles while scooping up coins. The longer you run, the faster it gets - how far can you go? Spend the coins you collect on fun character skins, and use a revive to push your best distance even further. Simple one-tap-and-swipe controls make it instant to play, on desktop or mobile. Features: &bull; One-more-run 3D endless running with rising speed &bull; Swipe or arrow-key lane switching and jumping &bull; Collect coins, unlock character skins &bull; Revive and double-coin bonuses &bull; Distance high-score to beat",
     "howToPlay": "Move left right swipe left-right or press the arrow keys or A D Jump swipe up or press the arrow or W Space On mobile you can also tap the left or right side of the screen to change lanes and tap upward to jump Grab coins and dodge th",
     "controls": [
       {
@@ -1636,7 +1636,7 @@ const rawGames = [
     "width": 720,
     "height": 1080,
     "orientation": "portrait",
-    "description": "Lead a crowd of adorable blue runners down the track! Drag left or right to pick your gate: &times;2 or +5? The right call depends on how many youve got &mdash; choose smart and your crowd snowballs into a stampede of hundreds! Red enemy mobs (and giant brutes worth 10!) block the road: crash into them and both sides melt away one-for-one in a wild brawl &mdash; bring more, win big. Made a bad pick? Rescue gates give you a comeback. Perfect runs feel glorious, a few mistakes still squeak through, careless runs get crushed. Reach the finish to win!",
+    "description": "Lead a crowd of adorable blue runners down the track! Drag left or right to pick your gate: x2 or +5? The right call depends on how many youve got - choose smart and your crowd snowballs into a stampede of hundreds! Red enemy mobs (and giant brutes worth 10!) block the road: crash into them and both sides melt away one-for-one in a wild brawl - bring more, win big. Made a bad pick? Rescue gates give you a comeback. Perfect runs feel glorious, a few mistakes still squeak through, careless runs get crushed. Reach the finish to win!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -1881,7 +1881,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Pilot a spaceship across 10 unique environments and blast through endless waves of alien chickens before they reach you. Destroy enemies to earn coins, collect power-ups mid-wave, and unleash your ship&rsquo;s special ability to survive. Every fifth wave brings a boss fight. There is no finish line &mdash; only a higher score. Ship Abilities Each ship is assigned a unique special ability, triggered by pressing Space (desktop) or the right-mouse button. Abilities are cooldown-based and recharge over time.",
+    "description": "Pilot a spaceship across 10 unique environments and blast through endless waves of alien chickens before they reach you. Destroy enemies to earn coins, collect power-ups mid-wave, and unleash your ship's special ability to survive. Every fifth wave brings a boss fight. There is no finish line - only a higher score. Ship Abilities Each ship is assigned a unique special ability, triggered by pressing Space (desktop) or the right-mouse button. Abilities are cooldown-based and recharge over time.",
     "howToPlay": "How to Play Open the lobby Select an environment and a ship from their respective grids Choose a difficulty setting in Settings Normal Hard or Insane Press Launch Mission On the Get Ready screen press Space or tap the canvas to begin Move the shi",
     "controls": [
       {
@@ -2175,7 +2175,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "SliceStorm &ndash; Fruit Slicing Action Game Slice, dice, and survive in this fast-paced fruit-slicing arcade game! Swipe across your screen to slice juicy fruits while avoiding deadly bombs. Each slice earns points and builds your combo multiplier for massive scores. Features &middot; 7 unique fruits &ndash; Watermelon, orange, lemon, apple, pineapple, strawberry, kiwi, and banana (each with special juice effects) &middot; Combo system &ndash; Chain slices to multiply your points &middot; 3 lives &ndash; One mistake could end your run &middot; Increasing difficulty &ndash; Fruits spawn faster as your score rises &middot; Rich 3D-style graphics &ndash; Each fruit features detailed cuts and halves &middot; Immersive audio &ndash; Satisfying slice sounds and juicy splats How to Play Swipe your finger (or mouse) across fruits to slice them. Miss too many or hit a bomb and you lose a life. Survive as long as possible and climb the leaderboard! Perfect for quick gaming sessions &ndash; easy to learn, hard to master. Can you beat your best score?",
+    "description": "SliceStorm - Fruit Slicing Action Game Slice, dice, and survive in this fast-paced fruit-slicing arcade game! Swipe across your screen to slice juicy fruits while avoiding deadly bombs. Each slice earns points and builds your combo multiplier for massive scores. Features &middot; 7 unique fruits - Watermelon, orange, lemon, apple, pineapple, strawberry, kiwi, and banana (each with special juice effects) &middot; Combo system - Chain slices to multiply your points &middot; 3 lives - One mistake could end your run &middot; Increasing difficulty - Fruits spawn faster as your score rises &middot; Rich 3D-style graphics - Each fruit features detailed cuts and halves &middot; Immersive audio - Satisfying slice sounds and juicy splats How to Play Swipe your finger (or mouse) across fruits to slice them. Miss too many or hit a bomb and you lose a life. Survive as long as possible and climb the leaderboard! Perfect for quick gaming sessions - easy to learn, hard to master. Can you beat your best score?",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -2420,7 +2420,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "In Crime Scene Cleaner: Mobile 3D, you&rsquo;re no longer just a bystander. You&rsquo;re a professional cleaner tasked with cleaning up the aftermath. Take your time handling every cleaning task with precision. Each mission unfolds in a detailed crime environment, delivered through an immersive simulator experience that focuses on hands-on interaction and task management.",
+    "description": "In Crime Scene Cleaner: Mobile 3D, you're no longer just a bystander. You're a professional cleaner tasked with cleaning up the aftermath. Take your time handling every cleaning task with precision. Each mission unfolds in a detailed crime environment, delivered through an immersive simulator experience that focuses on hands-on interaction and task management.",
     "howToPlay": "On PC WASD to move Space to jump F to shoot On Mobile Click the on-screen button to operate",
     "controls": [
       {
@@ -2469,7 +2469,7 @@ const rawGames = [
     "width": 1024,
     "height": 768,
     "orientation": "landscape",
-    "description": "Staris Races For Two Players is a fast-paced 1v1 hyper-casual game where two players race against each other to be the first to reach the top of their staircase.* Each player controls a colored stickman character (Blue for Player 1, Red for Player 2). The goal is simple: collect blocks of your own color scattered around the level, carry them to your staircase, and use them to build or paint the steps. The more blocks you collect, the higher you can climb. The first player to complete their staircase and reach the finish platform wins the match. But be careful &mdash; speed and strategy matter. Grab blocks efficiently, avoid mistakes, and race to",
+    "description": "Staris Races For Two Players is a fast-paced 1v1 hyper-casual game where two players race against each other to be the first to reach the top of their staircase.* Each player controls a colored stickman character (Blue for Player 1, Red for Player 2). The goal is simple: collect blocks of your own color scattered around the level, carry them to your staircase, and use them to build or paint the steps. The more blocks you collect, the higher you can climb. The first player to complete their staircase and reach the finish platform wins the match. But be careful - speed and strategy matter. Grab blocks efficiently, avoid mistakes, and race to",
     "howToPlay": "Player one blue moves with WASD keys or the touch screen joystick on the left Player two red moves with arrow keys or the touch screen joystick on the right",
     "controls": [
       {
@@ -2567,7 +2567,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Get ready for the ultimate tactical survival experience! The world has been invaded, and you are the last line of defense. Can you survive the hordes and become a legend? **WHAT AWAITS YOU:** **PREMIUM VISUALS** Explore a dystopian city with realistic asphalt and a breathtaking futuristic atmosphere. No more white or yellow lines&mdash;just you and the dark, clean road... Has anyone seen a chicken around here? **HOLOGRAPHIC ESSENCES** Collect glowing magical essences th",
+    "description": "Get ready for the ultimate tactical survival experience! The world has been invaded, and you are the last line of defense. Can you survive the hordes and become a legend? **WHAT AWAITS YOU:** **PREMIUM VISUALS** Explore a dystopian city with realistic asphalt and a breathtaking futuristic atmosphere. No more white or yellow lines-just you and the dark, clean road... Has anyone seen a chicken around here? **HOLOGRAPHIC ESSENCES** Collect glowing magical essences th",
     "howToPlay": "Game Controls Manual Movement amp Navigation W A S D Standard movement Forward Left Backward Right Spacebar Jump Left Shift Evasive Dash Quick burst of speed Combat amp Armory Mouse Move Look around",
     "controls": [
       {
@@ -2616,7 +2616,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Crazy Sea Battle is an exciting ocean-based battle royale where you compete against players from around the world. Sail across the sea to collect raft pieces, expand your territory, and grow your team. Choose your color, gather floating parts, and strengthen your raft as you prepare for combat. Once ready, face off against opponents in fast-paced battles and fight to dominate the ocean. Build, expand, and conquer&mdash;only the strongest raft survives!",
+    "description": "Crazy Sea Battle is an exciting ocean-based battle royale where you compete against players from around the world. Sail across the sea to collect raft pieces, expand your territory, and grow your team. Choose your color, gather floating parts, and strengthen your raft as you prepare for combat. Once ready, face off against opponents in fast-paced battles and fight to dominate the ocean. Build, expand, and conquer-only the strongest raft survives!",
     "howToPlay": "Drag to move your raft across the sea Collect floating raft pieces by moving into them Engage enemies automatically when in range Navigate strategically to expand and avoid threats",
     "controls": [
       {
@@ -2665,7 +2665,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Get ready with your arrows! Our Stickman Archer is the cleverest exciting stickman archer defense game. You are all alone, but your enemies aren&rsquo;t. In a creepy archer forest, a battle is going to begin. Let&rsquo;s see how you win these stickman vs. stickman fights. What&rsquo;s Inside + More than 35+ levels (more incoming) + 4 powerful boosters + Chance to earn tons of coins + Enjoyable graphics and gameplay + Exciting sound effects and easy controls + Interesting bow fights with stickmen and Boss Spend Coins to Get Powerful Boosters from the Shop + Shield + 3 Arrow Combos + Arrow Rain + Med Aid Destroy the Stickman Army Each level is full of bow",
+    "description": "Get ready with your arrows! Our Stickman Archer is the cleverest exciting stickman archer defense game. You are all alone, but your enemies aren't. In a creepy archer forest, a battle is going to begin. Let's see how you win these stickman vs. stickman fights. What's Inside + More than 35+ levels (more incoming) + 4 powerful boosters + Chance to earn tons of coins + Enjoyable graphics and gameplay + Exciting sound effects and easy controls + Interesting bow fights with stickmen and Boss Spend Coins to Get Powerful Boosters from the Shop + Shield + 3 Arrow Combos + Arrow Rain + Med Aid Destroy the Stickman Army Each level is full of bow",
     "howToPlay": "Mouse or tap to play",
     "controls": [
       {
@@ -2910,7 +2910,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Welcome to Toy Factory! Are you ready to build your own production empire? Produce &amp; Carry: Collect boxes, stack them up, and bring them to the drop-off area. Upgrade: Use your earnings to boost your speed and carrying capacity. Build Your Team: Hire workers to carry more boxes and expand your factory. Expand: Unlock new areas and become the leader of the toy world!",
+    "description": "Welcome to Toy Factory! Are you ready to build your own production empire? Produce & Carry: Collect boxes, stack them up, and bring them to the drop-off area. Upgrade: Use your earnings to boost your speed and carrying capacity. Build Your Team: Hire workers to carry more boxes and expand your factory. Expand: Unlock new areas and become the leader of the toy world!",
     "howToPlay": "Move Touch and drag the screen to direct your character Collect Walk over boxes to collect them automatically Drop Take the collected boxes to the drop-off area to earn money Upgrade Go to the upgrade zones to power up your character and workers",
     "controls": [
       {
@@ -3253,7 +3253,7 @@ const rawGames = [
     "width": 1024,
     "height": 768,
     "orientation": "landscape",
-    "description": "1v1 basketball showdown for two players on the same device. Jump, clash, and score in a minimalist arena where every second counts. Control your sphere&mdash;blue on the left, purple on the right&mdash;using a single button: tap to jump. Time your leap perfectly to send your ball into the central hoop before your rival does.",
+    "description": "1v1 basketball showdown for two players on the same device. Jump, clash, and score in a minimalist arena where every second counts. Control your sphere-blue on the left, purple on the right-using a single button: tap to jump. Time your leap perfectly to send your ball into the central hoop before your rival does.",
     "howToPlay": "Player 1 to jump press W or tap the screen Player 2 to jump press UP or tap the screen",
     "controls": [
       {
@@ -3400,7 +3400,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Game Objective The goal in Rooftop Runner is simple: run as far as you can without falling. As you move across rooftops, you must: Jump over gaps between buildings Avoid obstacles and hazards Collect coins scattered across rooftops Stay ahead of danger and survive as long as possible The longer you run, the higher your score becomes. How to Play Playing Rooftop Runner is easy to learn but challenging to master. Basic Controls Move Forward Automatically &ndash; Your character runs automatically. Jump &ndash; Tap or press the jump key to leap across rooftop gaps. Change Direction / Dodge &ndash; Move left or right to avoid obstacles. Collect Coins &ndash; Run through coins to increase your score and rewards. Timing your jumps correctly is important. If you jump too early or too late, you may fall between buildings. Collect Coins and Power-Ups Coins appear across rooftops and help you increase your score. In some versions of the game, coins can also be used to: Unlock new characters Buy",
+    "description": "Game Objective The goal in Rooftop Runner is simple: run as far as you can without falling. As you move across rooftops, you must: Jump over gaps between buildings Avoid obstacles and hazards Collect coins scattered across rooftops Stay ahead of danger and survive as long as possible The longer you run, the higher your score becomes. How to Play Playing Rooftop Runner is easy to learn but challenging to master. Basic Controls Move Forward Automatically - Your character runs automatically. Jump - Tap or press the jump key to leap across rooftop gaps. Change Direction / Dodge - Move left or right to avoid obstacles. Collect Coins - Run through coins to increase your score and rewards. Timing your jumps correctly is important. If you jump too early or too late, you may fall between buildings. Collect Coins and Power-Ups Coins appear across rooftops and help you increase your score. In some versions of the game, coins can also be used to: Unlock new characters Buy",
     "howToPlay": "Basic Controls Jump Tap the screen mobile or press Spacebar PC Use this to jump over gaps between rooftops and avoid obstacles Move Left Swipe left mobile or press Left Arrow A PC Helps avoid obstacles and position yourself for the next jum",
     "controls": [
       {
@@ -3449,7 +3449,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "You are a prisoner determined to break free. Dig tunnels with a spoon, shovel, or anything you can find. Discover valuables, trade with fellow inmates and even the guards, and earn the prison&rsquo;s top currency &mdash; toilet paper. Upgrade your digging and trading skills, unlock better tools, and speed up your escape. But be careful &mdash; plan your moves and avoid drawing attention, because freedom is the prize only for the most cunning.",
+    "description": "You are a prisoner determined to break free. Dig tunnels with a spoon, shovel, or anything you can find. Discover valuables, trade with fellow inmates and even the guards, and earn the prison's top currency - toilet paper. Upgrade your digging and trading skills, unlock better tools, and speed up your escape. But be careful - plan your moves and avoid drawing attention, because freedom is the prize only for the most cunning.",
     "howToPlay": "WASD mdash Move Space mdash Jump Rope underground Left Mouse Button mdash Dig ground Pick up resources E mdash Interact with garage elements X mdash Extra action where available Q mdash Open menu",
     "controls": [
       {
@@ -3498,7 +3498,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Take aim in mid-air and strike at the perfect moment! In Sniper Master, you jump, float, and fire while airborne&mdash;time your shots to eliminate targets with clean, satisfying hits. Stay calm, lead your aim, and master precision shooting across multiple levels. Earn rewards, improve your skills, and become the ultimate airborne marksman.",
+    "description": "Take aim in mid-air and strike at the perfect moment! In Sniper Master, you jump, float, and fire while airborne-time your shots to eliminate targets with clean, satisfying hits. Stay calm, lead your aim, and master precision shooting across multiple levels. Earn rewards, improve your skills, and become the ultimate airborne marksman.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -3547,7 +3547,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Merge identical stickmen to unlock powerful warriors and mages! Lead your squad to auto-battle against giant chickens, minotaurs, and hordes of demons. Unleash explosive skills, crush foes, and dominate in both story and endless modes. Simple merge mechanics and chaotic combat make it easy to pick up&mdash;blast through enemies and become the ultimate stickman hero!",
+    "description": "Merge identical stickmen to unlock powerful warriors and mages! Lead your squad to auto-battle against giant chickens, minotaurs, and hordes of demons. Unleash explosive skills, crush foes, and dominate in both story and endless modes. Simple merge mechanics and chaotic combat make it easy to pick up-blast through enemies and become the ultimate stickman hero!",
     "howToPlay": "Merge amp Deploy Drag identical stickmen together to merge them into stronger units then deploy them to auto-battle Tap to Activate Tap skill icons on the left to unleash powerful attacks and clear waves of enemies Restart amp Endless Use the me",
     "controls": [
       {
@@ -3596,7 +3596,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A dangerous predator is on the prowl, and you are the target! In this thrilling 3D runner, you&rsquo;ll need lightning-fast reflexes to escape the fangs of a hungry tiger. Dash along the endless railway, dodge obstacles, and make sure to pick up and drink the magic potion to boost your speed. Don&rsquo;t slow down, or the tiger will catch you!",
+    "description": "A dangerous predator is on the prowl, and you are the target! In this thrilling 3D runner, you'll need lightning-fast reflexes to escape the fangs of a hungry tiger. Dash along the endless railway, dodge obstacles, and make sure to pick up and drink the magic potion to boost your speed. Don't slow down, or the tiger will catch you!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -3743,7 +3743,7 @@ const rawGames = [
     "width": 720,
     "height": 1600,
     "orientation": "portrait",
-    "description": "Welcome to a chill-but-addictive idle roguelite loot grinder where your finger does the aiming and your builds do the bragging. You control a turret by dragging it left and right, lining up shots to fly through different gates: slip your bullets through Multiplier Gates to clone and amplify your firepower, or steer into Upgrade Reward Gates to pick a roguelite option and shape your run on the fly&mdash;more damage, wilder effects, crazier synergies, you name it. Then it&rsquo;s survival time: monsters rush in wave after wave, and your turret turns the battlefield into a bullet-powered factory. Hold the line, survive the swarm, you will win!",
+    "description": "Welcome to a chill-but-addictive idle roguelite loot grinder where your finger does the aiming and your builds do the bragging. You control a turret by dragging it left and right, lining up shots to fly through different gates: slip your bullets through Multiplier Gates to clone and amplify your firepower, or steer into Upgrade Reward Gates to pick a roguelite option and shape your run on the fly-more damage, wilder effects, crazier synergies, you name it. Then it's survival time: monsters rush in wave after wave, and your turret turns the battlefield into a bullet-powered factory. Hold the line, survive the swarm, you will win!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -3792,7 +3792,7 @@ const rawGames = [
     "width": 540,
     "height": 960,
     "orientation": "portrait",
-    "description": "Hold the line. Build deadly defenses. Survive the zombie rush. In this fast-paced tower defense game, waves of zombies never stop coming&mdash;and they get smarter, tougher, and faster every round. Place and upgrade your towers, combine different damage types, and adapt your layout to counter brute tanks, sprinting runners, and armored horrors. Earn resources from every victory, unlock new towers and power-ups, and create the ultimate kill zone with slows, splash damage, and high DPS combos. One wrong placement can break your defense&hellip; but a perfect strategy turns the battlefield into a zombie grinder.",
+    "description": "Hold the line. Build deadly defenses. Survive the zombie rush. In this fast-paced tower defense game, waves of zombies never stop coming-and they get smarter, tougher, and faster every round. Place and upgrade your towers, combine different damage types, and adapt your layout to counter brute tanks, sprinting runners, and armored horrors. Earn resources from every victory, unlock new towers and power-ups, and create the ultimate kill zone with slows, splash damage, and high DPS combos. One wrong placement can break your defense&hellip; but a perfect strategy turns the battlefield into a zombie grinder.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -3988,7 +3988,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Put on your badge and clean up the streets in Catch the Robber! In this fast-paced action game, you play as a fearless sheriff chasing down a gang of red-masked thieves. Watch out&mdash;they are armed with giant loot bottles and ready to run! Use stealth and strategy to corner them, knock them out, and protect the town. With vibrant 3D graphics and addictive gameplay, justice is in your hands!",
+    "description": "Put on your badge and clean up the streets in Catch the Robber! In this fast-paced action game, you play as a fearless sheriff chasing down a gang of red-masked thieves. Watch out-they are armed with giant loot bottles and ready to run! Use stealth and strategy to corner them, knock them out, and protect the town. With vibrant 3D graphics and addictive gameplay, justice is in your hands!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -4086,7 +4086,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Funny Crazy Watermelon &mdash; a platformer with physics. Play as a funny creature, which is a watermelon with a funny face. Jump over spikes, jump on platforms, push boxes &mdash; all in the classic platformer style. The game has more than 25 levels. The game also has 11 skins.",
+    "description": "Funny Crazy Watermelon - a platformer with physics. Play as a funny creature, which is a watermelon with a funny face. Jump over spikes, jump on platforms, push boxes - all in the classic platformer style. The game has more than 25 levels. The game also has 11 skins.",
     "howToPlay": "Controls arrows larr rarr uarr or WAD The game has a double jump The goal of the game is to get to the star",
     "controls": [
       {
@@ -4135,7 +4135,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Void Drop 3D is a fast-paced 3D action game where you fall endlessly into the unknown. Control a falling object, dodge rotating platforms, pass through tight gaps, and survive as the speed increases with every second. The deeper you fall, the harder it becomes. Obstacles appear faster, movement demands precision, and one small mistake ends the run. Simple controls combined with smooth 3D visuals create an addictive experience that&rsquo;s easy to learn but challenging to master. Designed for web play, Void Drop 3D delivers fluid performance, immersive depth, and intense reflex-based gameplay.",
+    "description": "Void Drop 3D is a fast-paced 3D action game where you fall endlessly into the unknown. Control a falling object, dodge rotating platforms, pass through tight gaps, and survive as the speed increases with every second. The deeper you fall, the harder it becomes. Obstacles appear faster, movement demands precision, and one small mistake ends the run. Simple controls combined with smooth 3D visuals create an addictive experience that's easy to learn but challenging to master. Designed for web play, Void Drop 3D delivers fluid performance, immersive depth, and intense reflex-based gameplay.",
     "howToPlay": "Move left or right to avoid obstacles while falling through an endless 3D void The speed increases over time mdash survive as long as possible and beat your high score",
     "controls": [
       {
@@ -4380,7 +4380,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Hatchling Heroes Arena is a fast and fun arena battle game where your fighters are born from eggs&mdash;and powered up through merging. On the home screen, collect and merge egg heroes to unlock stronger characters. Each hero comes with a unique skill, different stats, and its own playstyle.",
+    "description": "Hatchling Heroes Arena is a fast and fun arena battle game where your fighters are born from eggs-and powered up through merging. On the home screen, collect and merge egg heroes to unlock stronger characters. Each hero comes with a unique skill, different stats, and its own playstyle.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -4429,7 +4429,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Destroy the Robot Godzillas &ndash; 3D Space Shooter Game is an action-packed 3D space shooter that challenges your reflexes and focus. You control a spaceship and must destroy giant robot Godzillas rushing toward you at high speed. The game starts with only 1 life, and every enemy that passes your spaceship without being destroyed costs you a life. When your life reaches zero, the game ends.",
+    "description": "Destroy the Robot Godzillas - 3D Space Shooter Game is an action-packed 3D space shooter that challenges your reflexes and focus. You control a spaceship and must destroy giant robot Godzillas rushing toward you at high speed. The game starts with only 1 life, and every enemy that passes your spaceship without being destroyed costs you a life. When your life reaches zero, the game ends.",
     "howToPlay": "The player controls a spaceship and shoots robot Godzillas advancing toward them Every enemy that is not destroyed reduces the player rsquo s life by one When life reaches zero the game ends Destroyed enemies provide currency that can be used to upgra",
     "controls": [
       {
@@ -4478,7 +4478,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Flappy Bacchan is a hilarious action-arcade game where you guide the legendary &lsquo;Bacchan&rsquo; through crazy obstacles! Tap to fly, dodge pipes, beat high scores, and unlock epic stick-figure styles. With funny animations, catchy sound effects, and endless challenge, this game brings pure entertainment. Simple to play, hard to master &mdash; how far can you make Bacchan fly? Play, laugh, and compete with friends!",
+    "description": "Flappy Bacchan is a hilarious action-arcade game where you guide the legendary &lsquo;Bacchan' through crazy obstacles! Tap to fly, dodge pipes, beat high scores, and unlock epic stick-figure styles. With funny animations, catchy sound effects, and endless challenge, this game brings pure entertainment. Simple to play, hard to master - how far can you make Bacchan fly? Play, laugh, and compete with friends!",
     "howToPlay": "Desktop use mouse click Tap anywhere to jump Goal Fly through gaps avoid pipes and score points",
     "controls": [
       {
@@ -4527,7 +4527,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "When the rampage ends, you&rsquo;ll compete against other dinosaurs in the same arena and get ranked based on your destruction performance. Unlock many different dinosaur types, collect cool skins in the shop, and prove you&rsquo;re the ultimate king of chaos. Fast, satisfying, and perfect for stress relief&mdash;just stomp, smash, and climb the leaderboard!",
+    "description": "When the rampage ends, you'll compete against other dinosaurs in the same arena and get ranked based on your destruction performance. Unlock many different dinosaur types, collect cool skins in the shop, and prove you're the ultimate king of chaos. Fast, satisfying, and perfect for stress relief-just stomp, smash, and climb the leaderboard!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -4821,7 +4821,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Space Flash is a racing casual game on a platform. Race on a long ways to get the best score. Try to get more teabubble to increase you fuel for biker. In Space Flash, you control a bike that can defy gravity and jump over platforms road. But be careful, the space is full of surprises. You never know what you&rsquo;ll find in the next ways. Space Flash is a fun and addictive game that will keep you entertained for hours. You can customize your bike, unlock new levels and achievements, and compete with your friends online. Don&rsquo;t miss this opportunity to experience the thrill of space biking.",
+    "description": "Space Flash is a racing casual game on a platform. Race on a long ways to get the best score. Try to get more teabubble to increase you fuel for biker. In Space Flash, you control a bike that can defy gravity and jump over platforms road. But be careful, the space is full of surprises. You never know what you'll find in the next ways. Space Flash is a fun and addictive game that will keep you entertained for hours. You can customize your bike, unlock new levels and achievements, and compete with your friends online. Don't miss this opportunity to experience the thrill of space biking.",
     "howToPlay": "Using Up Down arrow keyboard to move biker forward backward Left Right arrow keyboard to control bike turbo support by touch screen control",
     "controls": [
       {
@@ -4919,7 +4919,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Crazy Revolution - Police Runner - Hyper Casual is a hyper-casual , fast-paced, addictive runner game! &zwj; Choose your side at the start: Police &zwj; or Revolutionary &zwj;? Each path gives a unique gameplay experience &mdash; your enemies depend on your side!",
+    "description": "Crazy Revolution - Police Runner - Hyper Casual is a hyper-casual , fast-paced, addictive runner game! &zwj; Choose your side at the start: Police &zwj; or Revolutionary &zwj;? Each path gives a unique gameplay experience - your enemies depend on your side!",
     "howToPlay": "At the start of the game you choose your side zwj zwj mdash ldquo Police rdquo or ldquo Revolutionary rdquo Your choice determines your enemies mdash if you choose police the revolutionaries become your foes and vice versa",
     "controls": [
       {
@@ -4968,7 +4968,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Wield hellfire, conquer darkness, and rise as the Prince of Demons in this epic RPG to break free from your cursed half-demon fate. Features: 1. Explosive Hack &amp; Slash Combat &ndash; Fast-paced action with dark magic and brutal powers. 2. Epic Boss Battles &ndash; Face monstrous demons and corrupted kings",
+    "description": "Wield hellfire, conquer darkness, and rise as the Prince of Demons in this epic RPG to break free from your cursed half-demon fate. Features: 1. Explosive Hack & Slash Combat - Fast-paced action with dark magic and brutal powers. 2. Epic Boss Battles - Face monstrous demons and corrupted kings",
     "howToPlay": "Arrow Keys rarr Move Z rarr Attack X rarr Fire Attack Space Bar rarr Jump Mouse Movement rarr Rotate Camera",
     "controls": [
       {
@@ -5066,7 +5066,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "TunTun Sahur: Super Runner Game &ndash; Ready to have fun running with TunTun Sahur? In this hyper-casual runner, race down an endless highway &zwj; with a single goal: reach the finish line alive! Endless Random Challenges Police &zwj; and cash appear completely at random every run. No two levels are ever the same&mdash;every step brings a new surprise! Powerful Upgrades Collect coins to enhance three core upgrades: Coin Earnings, Starting Health Points, and the +Health Multiplier Gate. Become stronger and faster with every run!",
+    "description": "TunTun Sahur: Super Runner Game - Ready to have fun running with TunTun Sahur? In this hyper-casual runner, race down an endless highway &zwj; with a single goal: reach the finish line alive! Endless Random Challenges Police &zwj; and cash appear completely at random every run. No two levels are ever the same-every step brings a new surprise! Powerful Upgrades Collect coins to enhance three core upgrades: Coin Earnings, Starting Health Points, and the +Health Multiplier Gate. Become stronger and faster with every run!",
     "howToPlay": "Survive to Reach the Finish Line If your health drops below 1 0 it rsquo s game over Dodge enemy attacks or take them out by colliding when necessary and make it to the finish line in one piece",
     "controls": [
       {
@@ -5115,7 +5115,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Runner Tomato: Hyper Casual &ndash; Are you ready to have fun running with a tomato? In this hyper-casual runner game, dash along an endless highway with a single goal &zwj;: reach the finish line alive! Endless Random Challenges Knives and cash appear completely at random in every run. No two levels are ever the same &mdash; every step brings a brand-new surprise!",
+    "description": "Runner Tomato: Hyper Casual - Are you ready to have fun running with a tomato? In this hyper-casual runner game, dash along an endless highway with a single goal &zwj;: reach the finish line alive! Endless Random Challenges Knives and cash appear completely at random in every run. No two levels are ever the same - every step brings a brand-new surprise!",
     "howToPlay": "Runner Tomato Hyper Casual ndash The Ultimate Running Game Sprint on a single straight track zwj At every level knives and coins appear completely at random mdash no memorization needed every run is a brand-new challenge Survive to Reach the F",
     "controls": [
       {
@@ -5164,7 +5164,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Escape from Dictatorship: Runner Game: Are you ready for a life-or-death sprint to freedom? In this hyper-casual runner, you&rsquo;ll race down an endless crimson highway &zwj; with just one goal&mdash;reach the finish line alive! Endless Random Challenges: Soldiers and red coins appear in completely random patterns every round. No two levels are ever the same&mdash;each step brings a fresh surprise! Powerful Upgrades: Collect red coins to boost three core upgrades&mdash;Red Coin Earnings, Starting Health Points, and the +Health Multiplier Gate&mdash;so every run gets stronger and faster!",
+    "description": "Escape from Dictatorship: Runner Game: Are you ready for a life-or-death sprint to freedom? In this hyper-casual runner, you'll race down an endless crimson highway &zwj; with just one goal-reach the finish line alive! Endless Random Challenges: Soldiers and red coins appear in completely random patterns every round. No two levels are ever the same-each step brings a fresh surprise! Powerful Upgrades: Collect red coins to boost three core upgrades-Red Coin Earnings, Starting Health Points, and the +Health Multiplier Gate-so every run gets stronger and faster!",
     "howToPlay": "Linear Path to Freedom Sprint along a single straight route zwj But in every level the soldiers and coins on the road spawn completely at random mdash no memorization every run is a brand-new challenge Reach the Finish Alive If your health drops",
     "controls": [
       {
@@ -5262,7 +5262,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Ready for a deadly sprint through the flames of hell? In this hyper-casual runner, you race down a scorching straight path &zwj; with just one goal: reach the finish line alive! On every level, the devils and shimmering coins on the track appear completely at random. No two runs are ever the same&mdash;every step brings a new surprise! Collect coins to upgrade three powerful boosts&mdash;Fire Coin Earnings, Starting Health Points, and + Health Multiplier Gate&mdash;and push your run even further! Unlock a total of 18 mysterious achievements : 9 earned by slaying devils and 9 by collecting huge point totals .",
+    "description": "Ready for a deadly sprint through the flames of hell? In this hyper-casual runner, you race down a scorching straight path &zwj; with just one goal: reach the finish line alive! On every level, the devils and shimmering coins on the track appear completely at random. No two runs are ever the same-every step brings a new surprise! Collect coins to upgrade three powerful boosts-Fire Coin Earnings, Starting Health Points, and + Health Multiplier Gate-and push your run even further! Unlock a total of 18 mysterious achievements : 9 earned by slaying devils and 9 by collecting huge point totals .",
     "howToPlay": "Straight Hell Run Dash along a single blazing road zwj where devils and coins spawn randomly each level No memorizing mdash every attempt is a fresh challenge Survive to the Finish If your health drops below 1 0 it rsquo s game over Dodge devil",
     "controls": [
       {
@@ -5703,7 +5703,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Men vs Gorilla &ndash; The Ultimate Evolution Battle! Step into the wild showdown of Man vs Gorilla! Upgrade your human&rsquo;s strength, damage, and health to survive the rising fury of the jungle&rsquo;s strongest beast. ? Each level brings a tougher gorilla, smarter attacks, and intense battles but also bigger rewards! Use your earnings to level up your power, evolve your fighter, and dominate every fight!",
+    "description": "Men vs Gorilla - The Ultimate Evolution Battle! Step into the wild showdown of Man vs Gorilla! Upgrade your human's strength, damage, and health to survive the rising fury of the jungle's strongest beast. ? Each level brings a tougher gorilla, smarter attacks, and intense battles but also bigger rewards! Use your earnings to level up your power, evolve your fighter, and dominate every fight!",
     "howToPlay": "Use the left mouse button to upgrade and deploy humans",
     "controls": [
       {
@@ -6046,7 +6046,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Rescue Escape is an action puzzle game where you control stick figures trying to escape from a prison filled with traps. Your mission: guide all the characters past dangerous obstacles and gather them safely at the escape point to open the way out. Each level presents a new challenge&mdash;spike traps, moving obstacles, narrow paths, and countless other dangers force you to move skillfully and calculate each step. If just one stick figure gets stuck, the whole group wont be able to escape!",
+    "description": "Rescue Escape is an action puzzle game where you control stick figures trying to escape from a prison filled with traps. Your mission: guide all the characters past dangerous obstacles and gather them safely at the escape point to open the way out. Each level presents a new challenge-spike traps, moving obstacles, narrow paths, and countless other dangers force you to move skillfully and calculate each step. If just one stick figure gets stuck, the whole group wont be able to escape!",
     "howToPlay": "Use mouse to play",
     "controls": [
       {
@@ -6095,7 +6095,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "StickJump is a high-speed reflex game where you control a stick figure running around an endless circle. But dont be complacent&mdash;obstacles appear continuously and completely unexpectedly, always trying to block your path! Your task is very simple: jump at the right moment, dodge accurately, and try to run for as long as possible. The longer you survive, the faster the speed increases and the challenges become harder, creating a thrilling experience in every moment.",
+    "description": "StickJump is a high-speed reflex game where you control a stick figure running around an endless circle. But dont be complacent-obstacles appear continuously and completely unexpectedly, always trying to block your path! Your task is very simple: jump at the right moment, dodge accurately, and try to run for as long as possible. The longer you survive, the faster the speed increases and the challenges become harder, creating a thrilling experience in every moment.",
     "howToPlay": "- Use W up arrow to change direction - Hold S down arrow to dash",
     "controls": [
       {
@@ -6193,7 +6193,7 @@ const rawGames = [
     "width": 20000,
     "height": 20000,
     "orientation": "landscape",
-    "description": "Welcome to Ultimate Car Race, the ultimate test of speed, reflex, and precision driving! Get behind the wheel of your high-performance race car and take on thrilling tracks, heart-pounding rivals, and intense challenges that push your skills to the limit. Whether you&rsquo;re a casual gamer looking for fast fun or a die-hard racing fan hungry for competition, Ultimate Car Race delivers nonstop excitement, gorgeous 2D visuals, and addictive gameplay designed for everyone. The roar of the engines, the screech of the tires, the smell of burning rubber it&rsquo;s all here. Your mission? Race through vibrant cities, scorching deserts, and twisting mountain",
+    "description": "Welcome to Ultimate Car Race, the ultimate test of speed, reflex, and precision driving! Get behind the wheel of your high-performance race car and take on thrilling tracks, heart-pounding rivals, and intense challenges that push your skills to the limit. Whether you're a casual gamer looking for fast fun or a die-hard racing fan hungry for competition, Ultimate Car Race delivers nonstop excitement, gorgeous 2D visuals, and addictive gameplay designed for everyone. The roar of the engines, the screech of the tires, the smell of burning rubber it's all here. Your mission? Race through vibrant cities, scorching deserts, and twisting mountain",
     "howToPlay": "Keyboard Controls - Home ndash Move Left - End ndash Move Right - Page Up ndash Move Up - Page Down ndash Move Down",
     "controls": [
       {
@@ -6389,7 +6389,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Are you ready for a tank battle? Team up with your friend and fight together. The fastest player wins the game. Don&rsquo;t forget to get the special Halloween skin for your tank! Join the red or blue team and destroy the enemy tank in front of you. Collect the power-ups scattered around the map &mdash; they&rsquo;ll make your tank invincible or boost your firepower. Be quick and shoot at the right moment to win the battle!",
+    "description": "Are you ready for a tank battle? Team up with your friend and fight together. The fastest player wins the game. Don't forget to get the special Halloween skin for your tank! Join the red or blue team and destroy the enemy tank in front of you. Collect the power-ups scattered around the map - they'll make your tank invincible or boost your firepower. Be quick and shoot at the right moment to win the battle!",
     "howToPlay": "Use the WASD and Arrow Keys to move Use the Q and P keys to fire the tank A never-ending tank battle game 4 different maps",
     "controls": [
       {
@@ -6585,7 +6585,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to Human Playground: Battle Arena! Carefully control your character to strike the right spots on your opponent&rsquo;s body. Attack strategically to destroy and crush your enemies. Earn gold coins to unlock new characters and upgrade your skills. Have fun and dominate the arena!",
+    "description": "Welcome to Human Playground: Battle Arena! Carefully control your character to strike the right spots on your opponent's body. Attack strategically to destroy and crush your enemies. Earn gold coins to unlock new characters and upgrade your skills. Have fun and dominate the arena!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -6830,7 +6830,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Dash through chaotic obstacle towers while Skibidi Toilets swarm&mdash;ragdoll physics, quick rounds, last one standing wins. Arcade party chaos with slippery floors, plungers as power-ups, and trap-filled courses. Solo or squad up online, unlock goofy skins, and yeet rivals off the map before the toilets get you.",
+    "description": "Dash through chaotic obstacle towers while Skibidi Toilets swarm-ragdoll physics, quick rounds, last one standing wins. Arcade party chaos with slippery floors, plungers as power-ups, and trap-filled courses. Solo or squad up online, unlock goofy skins, and yeet rivals off the map before the toilets get you.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -6928,7 +6928,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Body Drop is an exciting game with realistic physics and excellent three&mdash;dimensional graphics, in which you have to test the strength of the dummys body by dropping it from various structures!",
+    "description": "Body Drop is an exciting game with realistic physics and excellent three-dimensional graphics, in which you have to test the strength of the dummys body by dropping it from various structures!",
     "howToPlay": "You need to launch the balls at the dummy so as to inflict the greatest amount of damage to it Control is carried out with the mouse Left-click to launch the balls Right mouse button - camera rotation Mouse wheel - zoom in out of the camera",
     "controls": [
       {
@@ -7369,7 +7369,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Horror brainrot bots are on the hunt! Watch out, stay alive! Welcome to Tung Sahur Bots Chase Room &ndash; the ultimate brainrot meme horror escape game! Get ready for heart-pounding chases as you find yourself trapped in backroom full of unpredictable Tung Tung Tung Tung Sahur, Tralalero Tralala Bots and other viral meme creatures. Can you keep up with the chaos, dodge the brainrot traps, and make it out alive? Only the fastest runners will escape this nightmare.",
+    "description": "Horror brainrot bots are on the hunt! Watch out, stay alive! Welcome to Tung Sahur Bots Chase Room - the ultimate brainrot meme horror escape game! Get ready for heart-pounding chases as you find yourself trapped in backroom full of unpredictable Tung Tung Tung Tung Sahur, Tralalero Tralala Bots and other viral meme creatures. Can you keep up with the chaos, dodge the brainrot traps, and make it out alive? Only the fastest runners will escape this nightmare.",
     "howToPlay": "With Tung Tung Tung Tung Sahur Bombardiro Crocodilo and a whole bunch of internet rsquo s wildest memes on your tail survival is the only goal Can you outsmart them and escape the maze",
     "controls": [
       {
@@ -7565,7 +7565,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sandbox Squid Game - Create a Challenge &mdash; a game inspired by Squid Game. The game genre is a sandbox. Therefore, you can freely build whatever you want. The main task is to build a test that players will pass. You can help them, hinder them, or even kill them. When players pass the test, you get money. The game has: more than 5 maps, 4 blocks for construction, more than 5 players, 4 skins for the guard.",
+    "description": "Sandbox Squid Game - Create a Challenge - a game inspired by Squid Game. The game genre is a sandbox. Therefore, you can freely build whatever you want. The main task is to build a test that players will pass. You can help them, hinder them, or even kill them. When players pass the test, you get money. The game has: more than 5 maps, 4 blocks for construction, more than 5 players, 4 skins for the guard.",
     "howToPlay": "larr rarr or AD - Right Left uarr or W - Jump Q - Change block S - Place block F - Shoot with machine gun After you build the test dont forget to click on the green button in the upper left corner",
     "controls": [
       {
@@ -7761,7 +7761,7 @@ const rawGames = [
     "width": 480,
     "height": 800,
     "orientation": "portrait",
-    "description": "Swing, jump, flip and slide your stickman flip master body from one neon color shape to another to make them glow and light-it up. It&rsquo;s a dark world out there for a teeny little stickman flip master like you, and it&rsquo;s about time you light-it up and make the colors glow.",
+    "description": "Swing, jump, flip and slide your stickman flip master body from one neon color shape to another to make them glow and light-it up. It's a dark world out there for a teeny little stickman flip master like you, and it's about time you light-it up and make the colors glow.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -7957,7 +7957,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Mini SuperCars Racing Crashing is pure chaotic fun! Race tiny but mighty supercars on wild tracks filled with jumps, obstacles, and explosions. Smash into rivals, drift around tight corners, and cause epic crashes as you fight for victory. Fast, furious, and full of mayhem&mdash;this is mini racing madness!",
+    "description": "Mini SuperCars Racing Crashing is pure chaotic fun! Race tiny but mighty supercars on wild tracks filled with jumps, obstacles, and explosions. Smash into rivals, drift around tight corners, and cause epic crashes as you fight for victory. Fast, furious, and full of mayhem-this is mini racing madness!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -8006,7 +8006,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Classic Car Parking 2025 challenges your precision and driving skills with realistic parking missions! Take control of vintage cars and navigate tight spaces, narrow lanes, and tricky obstacles. Master each level by parking perfectly without crashes. Its not just a game&mdash;its a true test of patience and control!",
+    "description": "Classic Car Parking 2025 challenges your precision and driving skills with realistic parking missions! Take control of vintage cars and navigate tight spaces, narrow lanes, and tricky obstacles. Master each level by parking perfectly without crashes. Its not just a game-its a true test of patience and control!",
     "howToPlay": "WASD to drive the car",
     "controls": [
       {
@@ -8055,7 +8055,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Vehicle Stunts Sky Sim takes action to new heights&mdash;literally! Drive powerful cars, bikes, and trucks on insane sky-high tracks. Perform gravity-defying stunts, leap over gaps, and race through loops in mid-air. With thrilling challenges and breathtaking views, are you brave enough to conquer the skies?",
+    "description": "Vehicle Stunts Sky Sim takes action to new heights-literally! Drive powerful cars, bikes, and trucks on insane sky-high tracks. Perform gravity-defying stunts, leap over gaps, and race through loops in mid-air. With thrilling challenges and breathtaking views, are you brave enough to conquer the skies?",
     "howToPlay": "WASD to drive vehicle on stunts map",
     "controls": [
       {
@@ -8153,7 +8153,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Police Driving Vehicles Simulator puts you in the driver&rsquo;s seat of powerful law enforcement vehicles! Patrol the city, chase down criminals, and complete high-stakes missions across detailed urban and off-road environments. From fast-response cruisers to rugged SWAT trucks, master the controls of different police vehicles and show off your driving skills in this realistic simulator.",
+    "description": "Police Driving Vehicles Simulator puts you in the driver's seat of powerful law enforcement vehicles! Patrol the city, chase down criminals, and complete high-stakes missions across detailed urban and off-road environments. From fast-response cruisers to rugged SWAT trucks, master the controls of different police vehicles and show off your driving skills in this realistic simulator.",
     "howToPlay": "WASD to drive the police car",
     "controls": [
       {
@@ -8202,7 +8202,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Offroad Jeep Hills Driving offers an adventurous ride through rugged hills and dense fog. Drive a powerful jeep across challenging terrain, weaving between palm trees with realistic physics and immersive environments. Conquer nature&rsquo;s obstacles in this true offroad driving experience.",
+    "description": "Offroad Jeep Hills Driving offers an adventurous ride through rugged hills and dense fog. Drive a powerful jeep across challenging terrain, weaving between palm trees with realistic physics and immersive environments. Conquer nature's obstacles in this true offroad driving experience.",
     "howToPlay": "WASD to drive",
     "controls": [
       {
@@ -8496,7 +8496,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Cargo Truck Simulator 2025 puts you in the driver&rsquo;s seat of a powerful truck. Your mission: drive through challenging roads, pick up a stranded car, and deliver it safely to the destination. Navigate realistic terrain, avoid obstacles, and complete each level with precision. Can you handle the haul?",
+    "description": "Cargo Truck Simulator 2025 puts you in the driver's seat of a powerful truck. Your mission: drive through challenging roads, pick up a stranded car, and deliver it safely to the destination. Navigate realistic terrain, avoid obstacles, and complete each level with precision. Can you handle the haul?",
     "howToPlay": "WASD to drive",
     "controls": [
       {
@@ -9329,7 +9329,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Whack-a-Mole WebGL is a fun and fast-paced arcade game where your reflexes are put to the test! Moles randomly pop out of their holes, and it&rsquo;s your job to tap them as quickly as possible. The more moles you whack, the higher your score. As the game progresses, the speed increases, making it more challenging and exciting.",
+    "description": "Whack-a-Mole WebGL is a fun and fast-paced arcade game where your reflexes are put to the test! Moles randomly pop out of their holes, and it's your job to tap them as quickly as possible. The more moles you whack, the higher your score. As the game progresses, the speed increases, making it more challenging and exciting.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -10162,7 +10162,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Hit the road in Last Garage, a fast-paced 3D zombie survival driving game. Race through shifting districts&mdash;from city streets and suburbs to a forest highway&mdash;while dodging wrecks, fallen trees, barriers, and evacuation traffic. Fight walkers, armored brutes, and the towering Colossus with machine guns and rockets. Collect scrap, fuel, and ammo during each run, then use your haul to repair and upgrade your vehicle between runs. Choose from four vehicles and improve your armor, engine, weapons, and nitro. Complete challenges and achievements as you push deeper into the outbreak. One of three lanes is always open, but four crashes or an empty tan",
+    "description": "Hit the road in Last Garage, a fast-paced 3D zombie survival driving game. Race through shifting districts-from city streets and suburbs to a forest highway-while dodging wrecks, fallen trees, barriers, and evacuation traffic. Fight walkers, armored brutes, and the towering Colossus with machine guns and rockets. Collect scrap, fuel, and ammo during each run, then use your haul to repair and upgrade your vehicle between runs. Choose from four vehicles and improve your armor, engine, weapons, and nitro. Complete challenges and achievements as you push deeper into the outbreak. One of three lanes is always open, but four crashes or an empty tan",
     "howToPlay": "Desktop Use A D or the Left Right Arrow keys to steer Press SPACE for nitro and Q for shockwave Weapons fire automatically when available Mobile Use the on-screen buttons to steer activate nitro and trigger the shockwave",
     "controls": [
       {
@@ -10211,7 +10211,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Take the cockpit in Neo Traffic Rider Championship! Race seven rivals across six destinations, from coastal highways and rolling hills to city expressways and snowy mountain roads. Complete 18 championship events, tackle Rider Trials, and upgrade your sportbike&rsquo;s engine and tyres. Find your passing line, build slipstream for a slingshot, and unleash boost at the right moment. Photorealistic artwork, recorded sportbike audio, and winding roads bring every ride to life. Want to keep riding? Try Unlimited Run on any track. Navigate increasingly dense traffic, complete rotating contracts, replenish boost, and chase your personal distance record",
+    "description": "Take the cockpit in Neo Traffic Rider Championship! Race seven rivals across six destinations, from coastal highways and rolling hills to city expressways and snowy mountain roads. Complete 18 championship events, tackle Rider Trials, and upgrade your sportbike's engine and tyres. Find your passing line, build slipstream for a slingshot, and unleash boost at the right moment. Photorealistic artwork, recorded sportbike audio, and winding roads bring every ride to life. Want to keep riding? Try Unlimited Run on any track. Navigate increasingly dense traffic, complete rotating contracts, replenish boost, and chase your personal distance record",
     "howToPlay": "Controls bull A D or Left Right Arrow Steer bull W or Up Arrow Accelerate when Auto Throttle is off bull S or Down Arrow Brake bull Space or Shift Activate boost bull Esc or P Pause or resume bull Mobile Use the on-screen contr",
     "controls": [
       {
@@ -10505,7 +10505,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "An endless candy road that folds through a dream. Weave between lanes of candy traffic, leap striped barricades and void gaps, and hold tight when reality flips into loop-the-loops and reality folds. Three hearts per run &mdash; grab shields to soak a hit, snatch glowing shards for combo bonus points, and squeeze past traffic for near-miss bonuses. The road only gets faster. How far can the fat duck dream?",
+    "description": "An endless candy road that folds through a dream. Weave between lanes of candy traffic, leap striped barricades and void gaps, and hold tight when reality flips into loop-the-loops and reality folds. Three hearts per run - grab shields to soak a hit, snatch glowing shards for combo bonus points, and squeeze past traffic for near-miss bonuses. The road only gets faster. How far can the fat duck dream?",
     "howToPlay": "Keyboard mdash or A D steer between lanes SPACE W jump press twice for a double jump P or the on-screen pause button to pause any time even mid-stunt Touch mdash on-screen steer and jump buttons drag to steer swipe up to jump Auto-paus",
     "controls": [
       {
@@ -10690,8 +10690,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "bus-amp-subway-rush",
-    "title": "Bus &amp; Subway Rush",
+    "slug": "bus-and-subway-rush",
+    "title": "Bus & Subway Rush",
     "category": "Racing",
     "featured": false,
     "rating": 4.7,
@@ -10729,12 +10729,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Bus &amp; Subway Rush free to play on BlockHub.games?",
-        "a": "Yes, Bus &amp; Subway Rush is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Bus & Subway Rush free to play on BlockHub.games?",
+        "a": "Yes, Bus & Subway Rush is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Bus &amp; Subway Rush on mobile devices?",
-        "a": "Yes, Bus &amp; Subway Rush is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Bus & Subway Rush on mobile devices?",
+        "a": "Yes, Bus & Subway Rush is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -10897,7 +10897,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A side-scrolling kart racer starring ten cartoon animals &mdash; a crowned lion, a war-bonnet elephant, a rhino in a police cap and friends. Race 60 tracks across jungle, desert, south pole and volcano, double-jumping hazards and slamming boost pads to beat the pack to the line. Every finish earns stars and coins to unlock new racers and tune their speed and jump.",
+    "description": "A side-scrolling kart racer starring ten cartoon animals - a crowned lion, a war-bonnet elephant, a rhino in a police cap and friends. Race 60 tracks across jungle, desert, south pole and volcano, double-jumping hazards and slamming boost pads to beat the pack to the line. Every finish earns stars and coins to unlock new racers and tune their speed and jump.",
     "howToPlay": "Race to the front of the pack Finishing 1st earns three stars 2nd ndash 3rd earns two and 4th ndash 5th earns one plus a coin bonus that scales with your position Click tap or press Spacebar to jump mdash press again in mid-air for a double jump",
     "controls": [
       {
@@ -11387,7 +11387,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready to experience the exciting world of heavy truck driving with Euro Truck Driving Game! Step into the driver&rsquo;s seat of powerful European trucks, transport valuable cargo, complete challenging missions, and explore realistic roads and beautiful environments. Whether you enjoy long-distance deliveries, challenging driving routes, or simply love big trucks, this game gives you an immersive truck-driving experience where every journey comes with a new challenge.",
+    "description": "Get ready to experience the exciting world of heavy truck driving with Euro Truck Driving Game! Step into the driver's seat of powerful European trucks, transport valuable cargo, complete challenging missions, and explore realistic roads and beautiful environments. Whether you enjoy long-distance deliveries, challenging driving routes, or simply love big trucks, this game gives you an immersive truck-driving experience where every journey comes with a new challenge.",
     "howToPlay": "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse",
     "controls": [
       {
@@ -11632,7 +11632,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Monsters Wheels 2 is a monster truck game where every event asks something different. Race a packed grid to the finish line, flatten a row of parked cars, land the biggest backflip you can or beat the clock &mdash; 24 levels in total, spread across jungles, a beach, an amusement park and the Arizona desert. Three monster trucks are available, each with upgrades for engine, suspension, tyres and nitro. Prize money from every event goes straight into the garage.",
+    "description": "Monsters Wheels 2 is a monster truck game where every event asks something different. Race a packed grid to the finish line, flatten a row of parked cars, land the biggest backflip you can or beat the clock - 24 levels in total, spread across jungles, a beach, an amusement park and the Arizona desert. Three monster trucks are available, each with upgrades for engine, suspension, tyres and nitro. Prize money from every event goes straight into the garage.",
     "howToPlay": "PC Arrow Up W mdash accelerate Arrow Down S mdash brake and reverse Arrow Left Right mdash lean back and forward in the air Space X mdash nitro Mobile Acceleration - automatic Nitro button - Nitro Tilt buttons - rotate left right",
     "controls": [
       {
@@ -12710,7 +12710,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Looking for a game with gallons of nitro and adrenaline, tricked out sports cars, crazy crashes, and foot-to-the-floor action? Well, you&rsquo;d better keep looking, because Vehicle Masters is something a little different &ndash; a more relaxing simulator game that offers careful drivers the refined pleasures and simple satisfaction of accurately moving heavy vehicles through tight spaces while avoiding scrapes and collisions.",
+    "description": "Looking for a game with gallons of nitro and adrenaline, tricked out sports cars, crazy crashes, and foot-to-the-floor action? Well, you'd better keep looking, because Vehicle Masters is something a little different - a more relaxing simulator game that offers careful drivers the refined pleasures and simple satisfaction of accurately moving heavy vehicles through tight spaces while avoiding scrapes and collisions.",
     "howToPlay": "hold steering to play",
     "controls": [
       {
@@ -13298,7 +13298,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Upgrade the CARS is a 3D driving game where every gate you pass makes your ride better &mdash; or worse. Steer your car through the green plus gates to boost your engine, body and speed, and dodge the red minus ones that strip your upgrades away. Reach the end of the track with the strongest car you can build, then cash it in. Spend your earnings on new parking spots, unlock fresh cars in the garage, and repaint them in the texture shop. Every run funds the next one. Push far enough and the road stops being empty &mdash; giant kaiju block the way, and you will need weapons to clear them. Collect money on every lap",
+    "description": "Upgrade the CARS is a 3D driving game where every gate you pass makes your ride better - or worse. Steer your car through the green plus gates to boost your engine, body and speed, and dodge the red minus ones that strip your upgrades away. Reach the end of the track with the strongest car you can build, then cash it in. Spend your earnings on new parking spots, unlock fresh cars in the garage, and repaint them in the texture shop. Every run funds the next one. Push far enough and the road stops being empty - giant kaiju block the way, and you will need weapons to clear them. Collect money on every lap",
     "howToPlay": "Drag with the mouse or swipe on touch to steer your car left and right Drive through the plus gates to upgrade and avoid the minus gates Tap the on-screen buttons to buy upgrades sell cars and unlock new spots",
     "controls": [
       {
@@ -13445,7 +13445,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A adrenaline-fueled 3D vehicular combat and derby arena game where power, speed, and total destruction reign supreme! In Car Destruction King, take the wheel of heavily fortified vehicles, slam into rival cars, and tear through dynamic arenas packed with hazards and obstacles. Key Features: Intense Demolition Gameplay: Experience realistic physics, dynamic mesh deformation, and satisfying crash mechanics as parts fly and metals twist in real time. Diverse Vehicle Roster: Unlock and upgrade a wide variety of cars&mdash;from high-speed muscle cars and rugged pickup trucks to massive armored monster trucks.",
+    "description": "A adrenaline-fueled 3D vehicular combat and derby arena game where power, speed, and total destruction reign supreme! In Car Destruction King, take the wheel of heavily fortified vehicles, slam into rival cars, and tear through dynamic arenas packed with hazards and obstacles. Key Features: Intense Demolition Gameplay: Experience realistic physics, dynamic mesh deformation, and satisfying crash mechanics as parts fly and metals twist in real time. Diverse Vehicle Roster: Unlock and upgrade a wide variety of cars-from high-speed muscle cars and rugged pickup trucks to massive armored monster trucks.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -14376,7 +14376,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Get ready for the ultimate high-speed test of reflexes in Drive and Dodge: Car Racing 3D! Race against a ticking clock with smooth auto-acceleration. Hit Blue +5 panels to gain time, avoid Red -5 panels, and master sharp drifts to charge your Nitro and smash through obstacles. Unlock new cars and test your driving skills now! - Fast-Paced Action: Race against a ticking clock with smooth auto-acceleration. - Time Management: Hit Blue +5 panels to gain time and avoid Red -5 panels. - Nitro Boosts: Master sharp drifts to charge your Nitro and smash through obstacles. - Garage &amp; Upgrades: Unlock new cars with special pre-game advantages.",
+    "description": "Get ready for the ultimate high-speed test of reflexes in Drive and Dodge: Car Racing 3D! Race against a ticking clock with smooth auto-acceleration. Hit Blue +5 panels to gain time, avoid Red -5 panels, and master sharp drifts to charge your Nitro and smash through obstacles. Unlock new cars and test your driving skills now! - Fast-Paced Action: Race against a ticking clock with smooth auto-acceleration. - Time Management: Hit Blue +5 panels to gain time and avoid Red -5 panels. - Nitro Boosts: Master sharp drifts to charge your Nitro and smash through obstacles. - Garage & Upgrades: Unlock new cars with special pre-game advantages.",
     "howToPlay": "Acceleration Auto Brake Space Bar Time Boost E Life Boost Q Activate Nitro W Turn Left Right A D Buy Nitro T",
     "controls": [
       {
@@ -14817,7 +14817,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Car Evolution Pro : Math Gates turns math practice into a race! Drive down the road to the question gates. Each gate shows a math problem with two answer lanes &mdash; steer through the correct one. Answer enough correctly to pass the level and unlock a brand-new part for your car. Watch it evolve from a bare frame into a fully built machine, level by level.",
+    "description": "Car Evolution Pro : Math Gates turns math practice into a race! Drive down the road to the question gates. Each gate shows a math problem with two answer lanes - steer through the correct one. Answer enough correctly to pass the level and unlock a brand-new part for your car. Watch it evolve from a bare frame into a fully built machine, level by level.",
     "howToPlay": "bull Swipe left right or use the arrow keys to steer bull A math question appears above each gate mdash drive through the lane with the correct answer bull Answer enough questions correctly to pass the level bull Every level you pass unlock",
     "controls": [
       {
@@ -15160,7 +15160,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Draw a road is an addictive physics puzzle where you draw the road for a car to reach the finish line. The car cannot pass on its own &mdash; you have to draw bridges, ramps and paths to get it across pits, gaps and obstacles. The car drives exactly where you draw! Each level brings a new challenge: holes, cliffs, boxes and hills. Collect nitro along the way for a speed boost, upgrade your wheels and paint your car any color you like. Dozens of levels with rising difficulty keep things fun and tricky. Simple to start, hard to put down. Perfect for short breaks and great for training spatial thinking.",
+    "description": "Draw a road is an addictive physics puzzle where you draw the road for a car to reach the finish line. The car cannot pass on its own - you have to draw bridges, ramps and paths to get it across pits, gaps and obstacles. The car drives exactly where you draw! Each level brings a new challenge: holes, cliffs, boxes and hills. Collect nitro along the way for a speed boost, upgrade your wheels and paint your car any color you like. Dozens of levels with rising difficulty keep things fun and tricky. Simple to start, hard to put down. Perfect for short breaks and great for training spatial thinking.",
     "howToPlay": "Draw a road from the car to the finish flag with your mouse or finger The car drives automatically along the line you draw - Draw bridges over gaps and ramps to jump obstacles - Collect nitro and tap the button for a speed boost - Tap HINT to watch a he",
     "controls": [
       {
@@ -15209,7 +15209,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Vehicle Masters is a minimalist arcade parking challenge with over 40 increasingly difficult levels. Maneuver your car through tight spaces, avoid obstacles, and park perfectly in the marked spot. Each level introduces new layouts &mdash; narrow alleys, moving barriers, sharp corners, and crowded lots. What makes it unique? Simple controls with realistic physics: steering plus manual gear shifting (forward and reverse). On desktop you control gears manually with keys; on mobile you only steer &mdash; gears switch automatically for smooth gameplay. With clean visuals and progressive difficulty, this game tests precision and patience. Perfect for quick ses",
+    "description": "Vehicle Masters is a minimalist arcade parking challenge with over 40 increasingly difficult levels. Maneuver your car through tight spaces, avoid obstacles, and park perfectly in the marked spot. Each level introduces new layouts - narrow alleys, moving barriers, sharp corners, and crowded lots. What makes it unique? Simple controls with realistic physics: steering plus manual gear shifting (forward and reverse). On desktop you control gears manually with keys; on mobile you only steer - gears switch automatically for smooth gameplay. With clean visuals and progressive difficulty, this game tests precision and patience. Perfect for quick ses",
     "howToPlay": "Park inside the green zone without hitting walls or obstacles Complete each level to unlock the next Desktop ndash Arrow keys or WASD to steer R for reverse gear D for drive gear Spacebar for brake Mobile ndash Only steering mdash tap left rig",
     "controls": [
       {
@@ -15258,7 +15258,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Crazy Moto is a fast-paced motorcycle stunt racing game where physics and balance decide everything. Twist the throttle, fly off ramps and blast through 22 hand-crafted levels packed with loops, explosive barrels, spikes, collapsing platforms and deadly drops. Beat the clock to earn up to 3 stars on every level and chain insane mid-air tricks &mdash; Front Flip, Back Flip, Double Flip and Wheelie &mdash; to rack up a higher score and a faster best time. Spend your stars to unlock and ride powerful new bikes, including the Desert Racer, the Martian and the Firehead, each with its own look and feel.",
+    "description": "Crazy Moto is a fast-paced motorcycle stunt racing game where physics and balance decide everything. Twist the throttle, fly off ramps and blast through 22 hand-crafted levels packed with loops, explosive barrels, spikes, collapsing platforms and deadly drops. Beat the clock to earn up to 3 stars on every level and chain insane mid-air tricks - Front Flip, Back Flip, Double Flip and Wheelie - to rack up a higher score and a faster best time. Spend your stars to unlock and ride powerful new bikes, including the Desert Racer, the Martian and the Firehead, each with its own look and feel.",
     "howToPlay": "Desktop Arrow Up W accelerate Arrow Down S brake amp reverse Arrow Left-Right A-D lean and balance the rider in the air for flips Mobile On-screen gas and brake pedals tilt control with the brake gas buttons to balance and perform flip",
     "controls": [
       {
@@ -15307,7 +15307,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Monster Truck Offroad Racing Game is a rugged arcade racer where massive trucks tear through dirt, mud, and rocky terrain. Crush obstacles, jump over ravines, and smash through destructible objects as you race to the finish. The game features multiple monster trucks with unique stats &mdash; speed, crush power, and suspension. What makes it unique? Unlike standard racers, you earn points for crushing cars and destroying the environment. Bigger trucks can flatten smaller obstacles, while lighter ones climb steeper hills. With bumpy tracks, hidden shortcuts, and realistic weight physics, every race feels powerful and unpredictable. Perfect for deskto",
+    "description": "Monster Truck Offroad Racing Game is a rugged arcade racer where massive trucks tear through dirt, mud, and rocky terrain. Crush obstacles, jump over ravines, and smash through destructible objects as you race to the finish. The game features multiple monster trucks with unique stats - speed, crush power, and suspension. What makes it unique? Unlike standard racers, you earn points for crushing cars and destroying the environment. Bigger trucks can flatten smaller obstacles, while lighter ones climb steeper hills. With bumpy tracks, hidden shortcuts, and realistic weight physics, every race feels powerful and unpredictable. Perfect for deskto",
     "howToPlay": "Reach the finish line first or complete destruction goals Your truck handles rough terrain mdash use momentum to climb hills Desktop ndash Left right arrows to steer Up arrow to accelerate Down arrow to brake reverse Spacebar to crush jump Mobil",
     "controls": [
       {
@@ -15356,7 +15356,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Stylized Car Racing Game is a fast-paced arcade racer with a unique visual flair &mdash; think bold colors, cel-shaded graphics, and exaggerated speed effects. Zoom through winding tracks, drift around corners, and overtake rivals to reach the finish line first. The game features multiple cars to unlock, each with distinct handling. What makes it unique? The stylized art style combines cartoon aesthetics with smooth racing physics, creating a vibrant world that stands out from realistic racers. With responsive controls, boost pads, and tight cornering, every race feels exhilarating. Perfect for quick play sessions on desktop and mobile browsers. No",
+    "description": "Stylized Car Racing Game is a fast-paced arcade racer with a unique visual flair - think bold colors, cel-shaded graphics, and exaggerated speed effects. Zoom through winding tracks, drift around corners, and overtake rivals to reach the finish line first. The game features multiple cars to unlock, each with distinct handling. What makes it unique? The stylized art style combines cartoon aesthetics with smooth racing physics, creating a vibrant world that stands out from realistic racers. With responsive controls, boost pads, and tight cornering, every race feels exhilarating. Perfect for quick play sessions on desktop and mobile browsers. No",
     "howToPlay": "Beat rival cars to win races and unlock new tracks Your car accelerates automatically mdash focus on steering and drifting Desktop ndash Left right arrows to steer Spacebar for handbrake drift Down arrow to slow down Mobile ndash Tilt your devi",
     "controls": [
       {
@@ -15454,7 +15454,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Police Bus Simulation puts you behind the wheel of a heavy-duty police bus on a mission to catch criminals on the run. This fast-paced arcade chaser blends pursuit action with vehicle handling. Drive through city streets in both day and night themed levels, chase down thief cars, and ram them to make an arrest. What makes it unique? Youre not in a small police car &mdash; you control a massive bus that requires smart positioning and timing to trap speeding vehicles. Each level brings faster and more aggressive criminals.",
+    "description": "Police Bus Simulation puts you behind the wheel of a heavy-duty police bus on a mission to catch criminals on the run. This fast-paced arcade chaser blends pursuit action with vehicle handling. Drive through city streets in both day and night themed levels, chase down thief cars, and ram them to make an arrest. What makes it unique? Youre not in a small police car - you control a massive bus that requires smart positioning and timing to trap speeding vehicles. Each level brings faster and more aggressive criminals.",
     "howToPlay": "Your goal is simple catch all escaping vehicles in each level before time runs out Chase thief cars vans or any suspicious vehicle and make contact to arrest them Complete all chases in a level to advance As you progress criminals drive faster and",
     "controls": [
       {
@@ -15650,7 +15650,7 @@ const rawGames = [
     "width": 1280,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Ladderrex is a fast-paced racing game where timing and resource management decide the winner. Race side by side against a computer opponent while collecting logs along the track. Use those logs to build ladders over obstacles like raised platforms and spikes. Build too early or too long, and you&rsquo;ll waste valuable resources. Stay precise, manage your logs wisely, and outplay your opponent to win the race.",
+    "description": "Ladderrex is a fast-paced racing game where timing and resource management decide the winner. Race side by side against a computer opponent while collecting logs along the track. Use those logs to build ladders over obstacles like raised platforms and spikes. Build too early or too long, and you'll waste valuable resources. Stay precise, manage your logs wisely, and outplay your opponent to win the race.",
     "howToPlay": "Run amp collect logs scattered along the track When approaching an obstacle click and hold to build a ladder using logs Release at the right moment to stop building and save logs The player with the most logs remaining at the finish wins",
     "controls": [
       {
@@ -15797,7 +15797,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Stay sharp and react fast in Pass the Gate! Shift your shape at the right moment as you race forward through a series of incoming gates. Each gate requires a perfect match, switch between shapes like squares and circles to pass through safely. One wrong move and it&rsquo;s game over. As your score increases, the speed ramps up, turning a simple challenge into a true test of reflexes and focus. Easy to pick up but hard to master, every second counts. How many gates can you pass before it becomes too fast to handle?",
+    "description": "Stay sharp and react fast in Pass the Gate! Shift your shape at the right moment as you race forward through a series of incoming gates. Each gate requires a perfect match, switch between shapes like squares and circles to pass through safely. One wrong move and it's game over. As your score increases, the speed ramps up, turning a simple challenge into a true test of reflexes and focus. Easy to pick up but hard to master, every second counts. How many gates can you pass before it becomes too fast to handle?",
     "howToPlay": "Tap to change your shape Match your shape with the upcoming gate Pass gates to earn points Avoid mismatches or the run ends",
     "controls": [
       {
@@ -16140,7 +16140,7 @@ const rawGames = [
     "width": 350,
     "height": 600,
     "orientation": "portrait",
-    "description": "Ready to trade the asphalt for the ocean? Sling Drift Racing Games brings you the most intense water-drifting experience on mobile. Forget tires and tracks&mdash;it&rsquo;s all about the current, the wake, and the perfect sling! Hook, Sling, and Slide Master the art of the maritime drift. With simple, responsive one-tap controls, tap and hold to anchor your boat to the buoy and swing around sharp bends. Release to catch the straightaway and build up insane speed. Can you navigate the narrowest channels without a collision? Key Features: Realistic Water Physics Epic Fleet Collection Endless Oceanic Tracks Satisfying Combos",
+    "description": "Ready to trade the asphalt for the ocean? Sling Drift Racing Games brings you the most intense water-drifting experience on mobile. Forget tires and tracks-it's all about the current, the wake, and the perfect sling! Hook, Sling, and Slide Master the art of the maritime drift. With simple, responsive one-tap controls, tap and hold to anchor your boat to the buoy and swing around sharp bends. Release to catch the straightaway and build up insane speed. Can you navigate the narrowest channels without a collision? Key Features: Realistic Water Physics Epic Fleet Collection Endless Oceanic Tracks Satisfying Combos",
     "howToPlay": "If you love the thrill of Sling Drift style gameplay but want a fresh aquatic twist this is the game for you It rsquo s a minimalist high-speed arcade challenge that tests your reflexes timing and precision Whether you have 30 seconds or 30 minutes",
     "controls": [
       {
@@ -16385,7 +16385,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Wrong Side Driving is a fast-paced endless driving game where you take the ultimate risk &mdash; driving on the wrong side of the road! Dodge oncoming traffic, collect power-ups, and test your reflexes as the speed increases with every passing second. One mistake and it&rsquo;s game over with a big crash explosion! Perfect for both casual players and thrill-seekers, this game guarantees endless fun and excitement.",
+    "description": "Wrong Side Driving is a fast-paced endless driving game where you take the ultimate risk - driving on the wrong side of the road! Dodge oncoming traffic, collect power-ups, and test your reflexes as the speed increases with every passing second. One mistake and it's game over with a big crash explosion! Perfect for both casual players and thrill-seekers, this game guarantees endless fun and excitement.",
     "howToPlay": "Tap Let Right or Use Arrow Keys to control",
     "controls": [
       {
@@ -16826,7 +16826,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Morph Racers is a fast-paced racing game where speed alone isn&rsquo;t enough adaptation is key. Race against others across dynamic tracks that shift between roads, water, climbs, and obstacles. Instantly switch between forms like car, runner, boat, and helicopter to overcome each challenge. Choose the right form at the right time to stay ahead and claim victory.",
+    "description": "Morph Racers is a fast-paced racing game where speed alone isn't enough adaptation is key. Race against others across dynamic tracks that shift between roads, water, climbs, and obstacles. Instantly switch between forms like car, runner, boat, and helicopter to overcome each challenge. Choose the right form at the right time to stay ahead and claim victory.",
     "howToPlay": "Race against other players on parallel tracks Switch forms based on terrain car road runner climb boat water helicopter special obstacles Time your transformations to maintain speed Reach the finish line first to win",
     "controls": [
       {
@@ -16875,7 +16875,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Master the art of tractor drifting in Tractor Drift 3D! Experience a unique mix of heavy machinery and high-speed sideways action. Chain smooth drifts, master the physics, and chase high scores on precision-built tracks. Raw Physics: Test your timing and throttle control with heavy machines. Progress: Unlock different tractors and find the perfect handling for your style. Leaderboards: Dominate the ranks with massive combos and perfect lines. Addictive gameplay that&rsquo;s easy to learn but hard to master. Prove that tractors can drift just as hard as any race car!",
+    "description": "Master the art of tractor drifting in Tractor Drift 3D! Experience a unique mix of heavy machinery and high-speed sideways action. Chain smooth drifts, master the physics, and chase high scores on precision-built tracks. Raw Physics: Test your timing and throttle control with heavy machines. Progress: Unlock different tractors and find the perfect handling for your style. Leaderboards: Dominate the ranks with massive combos and perfect lines. Addictive gameplay that's easy to learn but hard to master. Prove that tractors can drift just as hard as any race car!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -16924,7 +16924,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Run, Sausage, run! Hot diggity dog, that&rsquo;s a fine lookin&rsquo; hot dog! You never sausage a sausage! (Get it? Saw such&hellip; sausage? Anyone?) Stop punning and start running! Play as the tasty sausage of your choice. Weisswurst or blutwurst, bacon or chocolate&hellip; even plumber or cowboy! Run through an endless path as you flex that hot-dog body and avoid getting sliced, chopped, burned or smashed!",
+    "description": "Run, Sausage, run! Hot diggity dog, that's a fine lookin' hot dog! You never sausage a sausage! (Get it? Saw such&hellip; sausage? Anyone?) Stop punning and start running! Play as the tasty sausage of your choice. Weisswurst or blutwurst, bacon or chocolate&hellip; even plumber or cowboy! Run through an endless path as you flex that hot-dog body and avoid getting sliced, chopped, burned or smashed!",
     "howToPlay": "Tons of juicy sausages to choose from tons of hot dog skins Collect coins as you run for your sweet or spicy life to buy buns of steel and other cool powerups",
     "controls": [
       {
@@ -16973,7 +16973,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Race, merge, and dominate in Everyday Racing &mdash; a fun and fast-paced merge racing game! In this exciting 2-in-1 racing challenge, you can combine two identical cars to upgrade them into stronger, faster rides. Build your dream garage, enter thrilling races, and win tons of rewards! During races, collect useful power-ups to boost your performance, outplay your rivals, and even snatch their cars to grow your collection even faster. Keep merging, keep racing, and become the ultimate road champion!",
+    "description": "Race, merge, and dominate in Everyday Racing - a fun and fast-paced merge racing game! In this exciting 2-in-1 racing challenge, you can combine two identical cars to upgrade them into stronger, faster rides. Build your dream garage, enter thrilling races, and win tons of rewards! During races, collect useful power-ups to boost your performance, outplay your rivals, and even snatch their cars to grow your collection even faster. Keep merging, keep racing, and become the ultimate road champion!",
     "howToPlay": "Mouse click or tap to play Use the wasd arrow keys to move",
     "controls": [
       {
@@ -17512,7 +17512,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Experience the life of a taxi driver in our latest taxi simulator game. Complete different types of driving missions as a taxi or private taxi driver and pick your favorite car from a selection of over 30 amazing vehicles, with more new cars being added weekly. Navigate around huge cities like New York, Miami, Rome or Los Angeles and adjust your driving style to different types of clients - some are in a hurry and don&rsquo;t care if you run a red light, while others are terrified of dangerous driving. We take taxi simulation games to a new level with VIP clients, undecided clients and various types of daily and lifetime milestones. Start your t",
+    "description": "Experience the life of a taxi driver in our latest taxi simulator game. Complete different types of driving missions as a taxi or private taxi driver and pick your favorite car from a selection of over 30 amazing vehicles, with more new cars being added weekly. Navigate around huge cities like New York, Miami, Rome or Los Angeles and adjust your driving style to different types of clients - some are in a hurry and don't care if you run a red light, while others are terrified of dangerous driving. We take taxi simulation games to a new level with VIP clients, undecided clients and various types of daily and lifetime milestones. Start your t",
     "howToPlay": "use arrows key for movement",
     "controls": [
       {
@@ -17561,7 +17561,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Experience the ultimate adrenaline rush with Turbo Street Racers &mdash; the most thrilling car racing game ever! Race through stunning cityscapes, deserts, and mountain roads while customizing your dream car with powerful upgrades and unique paint jobs. Compete against real players in online multiplayer mode or challenge yourself in the single-player career to become the King of the Road! Features: Realistic driving physics and smooth controls Dynamic weather and day/night cycles Dozens of cars to unlock, upgrade, and customize Global leaderboards and daily rewards Exciting missions and time-limited events Monetization: Unlock",
+    "description": "Experience the ultimate adrenaline rush with Turbo Street Racers - the most thrilling car racing game ever! Race through stunning cityscapes, deserts, and mountain roads while customizing your dream car with powerful upgrades and unique paint jobs. Compete against real players in online multiplayer mode or challenge yourself in the single-player career to become the King of the Road! Features: Realistic driving physics and smooth controls Dynamic weather and day/night cycles Dozens of cars to unlock, upgrade, and customize Global leaderboards and daily rewards Exciting missions and time-limited events Monetization: Unlock",
     "howToPlay": "Master your car and dominate every race with simple intuitive controls Accelerate Press and hold the Right Arrow rarr or the Gas Pedal button Brake Reverse Press the Left Arrow larr or the Brake button Steer Left Right Use the Arrow Keys",
     "controls": [
       {
@@ -18492,7 +18492,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Step into the world of law enforcement with the Police Game. The Ultimate Cop Simulator, the ultimate combination of police parking, racing, open-world exploration, and crime-fighting missions. Experience the life of a real officer from learning in the police training academy to chasing down dangerous criminals in the streets. This is not just a police simulator, it&rsquo;s a full city experience that gives you freedom, control, and thrill in every mode.",
+    "description": "Step into the world of law enforcement with the Police Game. The Ultimate Cop Simulator, the ultimate combination of police parking, racing, open-world exploration, and crime-fighting missions. Experience the life of a real officer from learning in the police training academy to chasing down dangerous criminals in the streets. This is not just a police simulator, it's a full city experience that gives you freedom, control, and thrill in every mode.",
     "howToPlay": "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse",
     "controls": [
       {
@@ -18590,7 +18590,7 @@ const rawGames = [
     "width": 854,
     "height": 480,
     "orientation": "landscape",
-    "description": "Experience high octane motorcycle action as you master daring wheelies and nail tight stunts on every level. Keep tapping the screen to sustain the wheelie, avoid crashing the front wheel, and race toward the finish line while racking up coins for extra challenges. Perfect balance and quick reflexes are essential for this fast?paced bike?riding adventure that blends classic platform thrills with modern mobile gameplay. Play now and prove you&rsquo;ve got the skill to dominate the ultimate wheelie challenge!",
+    "description": "Experience high octane motorcycle action as you master daring wheelies and nail tight stunts on every level. Keep tapping the screen to sustain the wheelie, avoid crashing the front wheel, and race toward the finish line while racking up coins for extra challenges. Perfect balance and quick reflexes are essential for this fast?paced bike?riding adventure that blends classic platform thrills with modern mobile gameplay. Play now and prove you've got the skill to dominate the ultimate wheelie challenge!",
     "howToPlay": "Mouse to play",
     "controls": [
       {
@@ -18884,7 +18884,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to drive new bus simulator games. Race opponents with advanced super bus driving game controls. Get ready for endless bus missions of picking passengers from one city to drop passengers in other city. Move bus on city highways with amazing bus controls. Be an expert bus driver just by playing new bus driving simulator game 2024 for free. Drive new story based bus parking &amp; simulation.",
+    "description": "Welcome to drive new bus simulator games. Race opponents with advanced super bus driving game controls. Get ready for endless bus missions of picking passengers from one city to drop passengers in other city. Move bus on city highways with amazing bus controls. Be an expert bus driver just by playing new bus driving simulator game 2024 for free. Drive new story based bus parking & simulation.",
     "howToPlay": "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse",
     "controls": [
       {
@@ -18933,7 +18933,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Float Boat is a fun and relaxing browser game where you guide a small boat across floating platforms and obstacles. With simple controls and smooth movement, players must stay balanced, avoid falling, and travel as far as possible. It&rsquo;s easy to play, enjoyable for all ages, and great for quick gaming sessions.",
+    "description": "Float Boat is a fun and relaxing browser game where you guide a small boat across floating platforms and obstacles. With simple controls and smooth movement, players must stay balanced, avoid falling, and travel as far as possible. It's easy to play, enjoyable for all ages, and great for quick gaming sessions.",
     "howToPlay": "Up Arrow and Down Arrow",
     "controls": [
       {
@@ -18982,7 +18982,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "ATV Quad Bike 3D Racing Games plus shooting game ensures to fulfill the ultimate traffic shooting extreme atv games in real quad drive ahead games. This is a complete and full featured ATV quad simulator, which gives you dual experience of ATV Quad Bike 3D Racing Games and best bike shooting games. Quad bike racing simulator will give you a taste of extreme quad racing city bike driving games and bike racing that offers no less than the real fun of atv kart racing games, real quad games &amp; quad bike games.",
+    "description": "ATV Quad Bike 3D Racing Games plus shooting game ensures to fulfill the ultimate traffic shooting extreme atv games in real quad drive ahead games. This is a complete and full featured ATV quad simulator, which gives you dual experience of ATV Quad Bike 3D Racing Games and best bike shooting games. Quad bike racing simulator will give you a taste of extreme quad racing city bike driving games and bike racing that offers no less than the real fun of atv kart racing games, real quad games & quad bike games.",
     "howToPlay": "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse",
     "controls": [
       {
@@ -19325,7 +19325,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for a thrilling gameplay experience in this emerging tricky bike stunt game. With a wide variety of bikes to choose from, youll embark on a stimulating journey through challenging tracks and exhilarating bike race. Show off your skills &amp; master the art of bike stunts in action-packed racing stunt games. While most levels are easy, it can be very hard to master the level and beat the top time. Whether you prefer the speed of a motorcycle or the agility of a stunt bike, this game has it all.",
+    "description": "Get ready for a thrilling gameplay experience in this emerging tricky bike stunt game. With a wide variety of bikes to choose from, youll embark on a stimulating journey through challenging tracks and exhilarating bike race. Show off your skills & master the art of bike stunts in action-packed racing stunt games. While most levels are easy, it can be very hard to master the level and beat the top time. Whether you prefer the speed of a motorcycle or the agility of a stunt bike, this game has it all.",
     "howToPlay": "Mouse click or tap to play Drive Right Arrow Break Left Arrow Front Flip Up Arrow Back Flip Down Arrow Jump Space Bar",
     "controls": [
       {
@@ -19521,7 +19521,7 @@ const rawGames = [
     "width": 600,
     "height": 800,
     "orientation": "portrait",
-    "description": "Time is key. The longer you ride, the more money you earn to unlock faster, stronger bikes. Feel the speed, upgrade your ride and become unstoppable. Every map is a new challenge &mdash; faster, harder and more dangerous.",
+    "description": "Time is key. The longer you ride, the more money you earn to unlock faster, stronger bikes. Feel the speed, upgrade your ride and become unstoppable. Every map is a new challenge - faster, harder and more dangerous.",
     "howToPlay": "Ride as fast and as far as you can without crashing Overtake vehicles to earn money unlock new bikes with unique speed handling and braking stats Explore different roads and push your limits on increasingly challenging routes",
     "controls": [
       {
@@ -19570,7 +19570,7 @@ const rawGames = [
     "width": 1334,
     "height": 750,
     "orientation": "landscape",
-    "description": "This is a simulation racing game. There are many modes in it. There are also nitrogen acceleration and various functions. Real simulation, don&rsquo;t crash.",
+    "description": "This is a simulation racing game. There are many modes in it. There are also nitrogen acceleration and various functions. Real simulation, don't crash.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -19804,8 +19804,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "catchfish-mdash-fishing-master",
-    "title": "CatchFish &mdash; Fishing Master",
+    "slug": "catchfish-fishing-master",
+    "title": "CatchFish - Fishing Master",
     "category": "Shooting",
     "featured": false,
     "rating": 4.7,
@@ -19815,7 +19815,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "CatchFish is a free arcade fishing game. Blast schools of fish with mighty cannons, hunt huge bosses, and upgrade your arsenal from a single barrel to devastating multi-shot weapons. Mode &amp; Levels: &bull; Level campaign: 100 handcrafted levels with rising difficulty &bull; Epic boss fights with huge gold bonuses Cannons (characters): &bull; 10+ upgradeable cannons: Classic, Hexforce, Mech Storm, Frost Fang, Golden Dragon &bull; From single barrel to devastating 4-shot multi-fire Gameplay: &bull; Dozens of fish species with different rewards and combo streak bonuses &bull; Progress is saved automatically in your browser &bull; Plays great on both desktop and mobile, no insta",
+    "description": "CatchFish is a free arcade fishing game. Blast schools of fish with mighty cannons, hunt huge bosses, and upgrade your arsenal from a single barrel to devastating multi-shot weapons. Mode & Levels: &bull; Level campaign: 100 handcrafted levels with rising difficulty &bull; Epic boss fights with huge gold bonuses Cannons (characters): &bull; 10+ upgradeable cannons: Classic, Hexforce, Mech Storm, Frost Fang, Golden Dragon &bull; From single barrel to devastating 4-shot multi-fire Gameplay: &bull; Dozens of fish species with different rewards and combo streak bonuses &bull; Progress is saved automatically in your browser &bull; Plays great on both desktop and mobile, no insta",
     "howToPlay": "Tap or click anywhere to fire at that spot mdash keep holding to fire rapidly and drag to keep aiming Hit fish to earn gold spend it on cannon upgrades",
     "controls": [
       {
@@ -19843,12 +19843,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is CatchFish &mdash; Fishing Master free to play on BlockHub.games?",
-        "a": "Yes, CatchFish &mdash; Fishing Master is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is CatchFish - Fishing Master free to play on BlockHub.games?",
+        "a": "Yes, CatchFish - Fishing Master is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play CatchFish &mdash; Fishing Master on mobile devices?",
-        "a": "Yes, CatchFish &mdash; Fishing Master is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play CatchFish - Fishing Master on mobile devices?",
+        "a": "Yes, CatchFish - Fishing Master is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -19913,7 +19913,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "FRAGBYTE is a fast-paced 3D first-person wave survival shooter that runs right in your browser. No downloads, 100% free. MODE: Offline single-player. Survive endless waves of enemies inside a hand-drawn ink arena. There is no final level &mdash; each wave hits harder than the last. How many waves can you survive? ENEMIES: Stickman soldiers, shield brutes, blade runners, laser snipers, and a brutal arena boss at the end of every run. ARSENAL: Assault rifle, pump shotgun, marksman sniper, katana, ink grenades, and a grapple hook. MOVEMENT: Wall-jumps, crouch-slides, and grapple-hook swings. Chain headshots to climb the score.",
+    "description": "FRAGBYTE is a fast-paced 3D first-person wave survival shooter that runs right in your browser. No downloads, 100% free. MODE: Offline single-player. Survive endless waves of enemies inside a hand-drawn ink arena. There is no final level - each wave hits harder than the last. How many waves can you survive? ENEMIES: Stickman soldiers, shield brutes, blade runners, laser snipers, and a brutal arena boss at the end of every run. ARSENAL: Assault rifle, pump shotgun, marksman sniper, katana, ink grenades, and a grapple hook. MOVEMENT: Wall-jumps, crouch-slides, and grapple-hook swings. Chain headshots to climb the score.",
     "howToPlay": "WASD Move Mouse Aim and shoot Right-click Aim down sight 1-4 Switch weapons G Ink grenade Q Grapple hook Space Jump double-jump Shift Sprint Ctrl C Crouch-slide Mobile Touch controls landscape",
     "controls": [
       {
@@ -20305,7 +20305,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "HOLLOW PASS is a desktop first-person aim trainer that fights like a live firefight: ninety seconds, one P-12 pistol, and up to four bots that move, take cover and shoot back. Clear them all and a new life starts instantly; die and you respawn with the pistol while your rifle stays where you dropped it. Rifles are picked up off the floor &mdash; the KR-76, the suppressed C-5 CARBINE, the scoped B-50 BOLT &mdash; or end a bot outright with the knife from behind. Pick 1&ndash;4 hostiles and one of four tiers, RECRUIT to NIGHTMARE, set your sensitivity, and click in &mdash; no buy menu, no grind. Every session ends in the AIM LOG (K/D, accuracy, head-hit rate, time to",
+    "description": "HOLLOW PASS is a desktop first-person aim trainer that fights like a live firefight: ninety seconds, one P-12 pistol, and up to four bots that move, take cover and shoot back. Clear them all and a new life starts instantly; die and you respawn with the pistol while your rifle stays where you dropped it. Rifles are picked up off the floor - the KR-76, the suppressed C-5 CARBINE, the scoped B-50 BOLT - or end a bot outright with the knife from behind. Pick 1-4 hostiles and one of four tiers, RECRUIT to NIGHTMARE, set your sensitivity, and click in - no buy menu, no grind. Every session ends in the AIM LOG (K/D, accuracy, head-hit rate, time to",
     "howToPlay": "Keyboard and mouse only mdash WASD move mouse aim LMB fire RMB scope suppressor R reload Shift walk C hold to crouch Space jump Space then C crouch-jump onto cover E pick up a floor gun 1 2 3 switch rifle pistol knife T quick knife I invert",
     "controls": [
       {
@@ -20599,7 +20599,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Greyhaven&rsquo;s service robots have seized the city. Play as Mara Vale in a 2D side-scrolling shooter across 20 missions, from a blackout depot to a hospital, foundry and more. Aim with your mouse, fire at approaching machines, jump over low shots, and use your EMP shove when enemies close in.",
+    "description": "Greyhaven's service robots have seized the city. Play as Mara Vale in a 2D side-scrolling shooter across 20 missions, from a blackout depot to a hospital, foundry and more. Aim with your mouse, fire at approaching machines, jump over low shots, and use your EMP shove when enemies close in.",
     "howToPlay": "PC controls A D or Left Right move forward and back W S or Up Down move between road lanes Space jumps move the mouse to aim and left-click to fire J also fires R reloads F uses the EMP shove E activates mission objectives Esc pauses or resumes t",
     "controls": [
       {
@@ -20638,7 +20638,7 @@ const rawGames = [
   },
   {
     "slug": "minecraft-times-counter-strike-25d-fps",
-    "title": "Minecraft &times; Counter Strike: 2.5D FPS",
+    "title": "Minecraft x Counter Strike: 2.5D FPS",
     "category": "Shooting",
     "featured": false,
     "rating": 4.8,
@@ -20676,12 +20676,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Minecraft &times; Counter Strike: 2.5D FPS free to play on BlockHub.games?",
-        "a": "Yes, Minecraft &times; Counter Strike: 2.5D FPS is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Minecraft x Counter Strike: 2.5D FPS free to play on BlockHub.games?",
+        "a": "Yes, Minecraft x Counter Strike: 2.5D FPS is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Minecraft &times; Counter Strike: 2.5D FPS on mobile devices?",
-        "a": "Yes, Minecraft &times; Counter Strike: 2.5D FPS is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Minecraft x Counter Strike: 2.5D FPS on mobile devices?",
+        "a": "Yes, Minecraft x Counter Strike: 2.5D FPS is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -20697,7 +20697,7 @@ const rawGames = [
     "width": 1600,
     "height": 900,
     "orientation": "landscape",
-    "description": "Underwater 2D is a browser-based 2D adventure set in the eerie depths of an alien ocean. Your mission is simple but dangerous: collect the required fish to complete the dive. But you can&rsquo;t stay under forever &mdash; your oxygen tank is always ticking down. Find refill zones scattered through the water before your air runs out. Meanwhile, dangerous fish and hazardous seaweed-like plants drift through the same currents, and one wrong touch can end your mission. Gather what you need, survive the unknown, and finish the dive.",
+    "description": "Underwater 2D is a browser-based 2D adventure set in the eerie depths of an alien ocean. Your mission is simple but dangerous: collect the required fish to complete the dive. But you can't stay under forever - your oxygen tank is always ticking down. Find refill zones scattered through the water before your air runs out. Meanwhile, dangerous fish and hazardous seaweed-like plants drift through the same currents, and one wrong touch can end your mission. Gather what you need, survive the unknown, and finish the dive.",
     "howToPlay": "W A S D Move Space Left Click Hook",
     "controls": [
       {
@@ -20795,7 +20795,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Stellar Bastion is an endless wave-survival shooter. You are the last gunner on a star-fortress flight deck, and the bugs only want one thing: you. Hold to move while your rifle auto-fires at the nearest bug &mdash; aiming is handled, so every decision is positioning. Waves escalate every 13 seconds, and every 5th wave a HIVE KING speeds up the whole swarm. Kills drop MGs, shotguns and rocket launchers with limited ammo; your MK-1 sidearm never runs dry. Level-ups offer 3-pick-1 perk cards from 22 upgrades without ever pausing the fight. How many waves will you bank?",
+    "description": "Stellar Bastion is an endless wave-survival shooter. You are the last gunner on a star-fortress flight deck, and the bugs only want one thing: you. Hold to move while your rifle auto-fires at the nearest bug - aiming is handled, so every decision is positioning. Waves escalate every 13 seconds, and every 5th wave a HIVE KING speeds up the whole swarm. Kills drop MGs, shotguns and rocket launchers with limited ammo; your MK-1 sidearm never runs dry. Level-ups offer 3-pick-1 perk cards from 22 upgrades without ever pausing the fight. How many waves will you bank?",
     "howToPlay": "Hold anywhere mouse touch mdash walk toward your pointer gun auto-fires Keyboard WASD arrows move 1-4 switch guns Shift combat roll On-screen pause END bank score mission brief music Auto-pauses when the tab is hidden",
     "controls": [
       {
@@ -21530,7 +21530,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Starship Ducks is a low-gravity lunar shooter where your own gun is your worst enemy &mdash; every shot shoves your fat duck paratrooper backward. Pick one of four jetpacks, drop by pod onto endless moon terrain, and survive escalating waves of drones, gunships, tanks and bug swarms. Between waves grab a 2-pick-1 systems upgrade; kills spill SMGs, shotguns, health packs and shields. How many waves can you survive?",
+    "description": "Starship Ducks is a low-gravity lunar shooter where your own gun is your worst enemy - every shot shoves your fat duck paratrooper backward. Pick one of four jetpacks, drop by pod onto endless moon terrain, and survive escalating waves of drones, gunships, tanks and bug swarms. Between waves grab a 2-pick-1 systems upgrade; kills spill SMGs, shotguns, health packs and shields. How many waves can you survive?",
     "howToPlay": "WASD mdash 4-direction thrust low gravity heavy drift Mouse mdash Aim hold Left Click to fire Space mdash Jetpack thrust profile depends on the chosen pack Esc on-screen Pause button mdash pause also auto-pauses when the tab is hidden",
     "controls": [
       {
@@ -21579,7 +21579,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "You start with three survivors and one road. Every gate is worth more the longer your squad shoots it &mdash; hold fire on a `+1` and watch it climb to `+20`. But gates come in pairs with a lethal pillar between them, so you have to pick a side: the `&times;3`, or the `+18`, and never the `&divide;5`. Break green crates to hit harder and blue ones to shoot faster, dodge everything solid, and kill what is coming down the lane. Every stage ends with a boss. Die, and it comes back weaker.",
+    "description": "You start with three survivors and one road. Every gate is worth more the longer your squad shoots it - hold fire on a `+1` and watch it climb to `+20`. But gates come in pairs with a lethal pillar between them, so you have to pick a side: the `x3`, or the `+18`, and never the `&divide;5`. Break green crates to hit harder and blue ones to shoot faster, dodge everything solid, and kill what is coming down the lane. Every stage ends with a boss. Die, and it comes back weaker.",
     "howToPlay": "Desktop Mouse left right move to move the players squad Mobile Press and drag left right to move squad",
     "controls": [
       {
@@ -22118,7 +22118,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "STORMHAWK is a vertical arcade shooter with 32 hand-built missions over the Pacific. Fly, dodge with a barrel roll, and chain kills to multiply your score. Land after each mission to spend what you earned in the hangar. Levels: 32 missions across 6 theatres, each ending in its own boss fight, plus mini-bosses along the way. Modes: campaign, endless, a daily mission everyone plays identically, a weekly challenge with mutators, ace mode and a boss rush against all 32 bosses back to back. Planes: 12 unlockable fighters, each with its own weapon pattern and handling &mdash; a fast light one, a slow heavy hitter, a three-engine hunter and more. Progres",
+    "description": "STORMHAWK is a vertical arcade shooter with 32 hand-built missions over the Pacific. Fly, dodge with a barrel roll, and chain kills to multiply your score. Land after each mission to spend what you earned in the hangar. Levels: 32 missions across 6 theatres, each ending in its own boss fight, plus mini-bosses along the way. Modes: campaign, endless, a daily mission everyone plays identically, a weekly challenge with mutators, ace mode and a boss rush against all 32 bosses back to back. Planes: 12 unlockable fighters, each with its own weapon pattern and handling - a fast light one, a slow heavy hitter, a three-engine hunter and more. Progres",
     "howToPlay": "Drag anywhere to fly mdash the plane follows your finger firing is automatic Tap with a second finger to barrel roll invincible for a moment and nearby bullets become points Hold that finger to slow down and tighten your shot Keyboard arrows or",
     "controls": [
       {
@@ -22314,7 +22314,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sniper Corps puts you in the crosshairs of battle as an elite marksman. Defend your nation from ruthless enemies, eliminate high-value targets, and prove your precision under pressure. Every shot counts &mdash; do you have what it takes to be the ultimate sniper?",
+    "description": "Sniper Corps puts you in the crosshairs of battle as an elite marksman. Defend your nation from ruthless enemies, eliminate high-value targets, and prove your precision under pressure. Every shot counts - do you have what it takes to be the ultimate sniper?",
     "howToPlay": "Controls Mouse How to Play Take out every enemy to secure the mission Aim carefully and take down alerted targets before they spot you Upgrade your rifle rsquo s zoom for better precision Extend mission time with upgrades",
     "controls": [
       {
@@ -22363,7 +22363,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "The city has fallen to the undead and youre the last line of defense. Move with the left stick, auto-fire when zombies get close, and punch through mutant hordes and towering zombie kings. Rescue trapped survivors to build your squad &mdash; a shield tank up front, a sharpshooter at your side, a medic in the back &mdash; and escort them to the safe zone. Kills drop medkits and bombs, bosses drop permanent upgrades, and 5 unlockable weapons grow with you. Fight across city streets, wild forests, and underground graveyards as the horde grows deadlier every level. How far can you survive?",
+    "description": "The city has fallen to the undead and youre the last line of defense. Move with the left stick, auto-fire when zombies get close, and punch through mutant hordes and towering zombie kings. Rescue trapped survivors to build your squad - a shield tank up front, a sharpshooter at your side, a medic in the back - and escort them to the safe zone. Kills drop medkits and bombs, bosses drop permanent upgrades, and 5 unlockable weapons grow with you. Fight across city streets, wild forests, and underground graveyards as the horde grows deadlier every level. How far can you survive?",
     "howToPlay": "Desktop WASD arrows to move middot auto-fire in range middot E bomb middot Shift dash Mobile Landscape only mdash left stick to move middot auto-fire in range middot tap buttons for bomb dash",
     "controls": [
       {
@@ -22755,7 +22755,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "YOUR CASTLE. YOUR RULES. THEIR MINDLESS ASSAULT! Brainrots are storming the gates &mdash; crazy, rhythmic, deranged creatures bent on turning your fortress to rubble. Grab your weapon, build your defense, and smash them back! WEAPONS &amp; SKINS GALORE Explosive, rapid-fire, tricky &mdash; pick your style and blast enemies away. Make every battle unique with 24 skins! 25 LEVELS OF PURE CHAOS From peaceful clearings to fiery volcanoes &mdash; each map is a new challenge. Hordes of enemies, your castle cracking, adrenaline through the roof. Hold the line or fall! FAST-PACED TACTICAL MAYHEM",
+    "description": "YOUR CASTLE. YOUR RULES. THEIR MINDLESS ASSAULT! Brainrots are storming the gates - crazy, rhythmic, deranged creatures bent on turning your fortress to rubble. Grab your weapon, build your defense, and smash them back! WEAPONS & SKINS GALORE Explosive, rapid-fire, tricky - pick your style and blast enemies away. Make every battle unique with 24 skins! 25 LEVELS OF PURE CHAOS From peaceful clearings to fiery volcanoes - each map is a new challenge. Hordes of enemies, your castle cracking, adrenaline through the roof. Hold the line or fall! FAST-PACED TACTICAL MAYHEM",
     "howToPlay": "On PC Left mouse button ndash shoot the Brainrots Right mouse button hold ndash look around the battlefield Mouse wheel ndash switch weapons On Mobile Swipe across the screen ndash look around your castle Fire button ndash unleash hell",
     "controls": [
       {
@@ -22902,7 +22902,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Zombie Quell is a fast-paced 3D top-down zombie survival shooter. The dead have risen &mdash; grab your gun and quell the endless horde! Battle through 15 increasingly brutal levels in arenas that grow bigger and deadlier. Survive relentless waves, then spend your hard-earned coins in the upgrade shop: boost health, damage, fire rate, reload, speed and magazine size. Loot abandoned houses for powerful new weapons, grab medkits, and snatch power-ups &mdash; rapid fire, freeze, shield and screen-clearing nukes. Face special infected: fast runners, sneaky crawlers, heavy brutes, and explosive zombies that blow up on contact &mdash; plus terrifying bosses. Smooth",
+    "description": "Zombie Quell is a fast-paced 3D top-down zombie survival shooter. The dead have risen - grab your gun and quell the endless horde! Battle through 15 increasingly brutal levels in arenas that grow bigger and deadlier. Survive relentless waves, then spend your hard-earned coins in the upgrade shop: boost health, damage, fire rate, reload, speed and magazine size. Loot abandoned houses for powerful new weapons, grab medkits, and snatch power-ups - rapid fire, freeze, shield and screen-clearing nukes. Face special infected: fast runners, sneaky crawlers, heavy brutes, and explosive zombies that blow up on contact - plus terrifying bosses. Smooth",
     "howToPlay": "DESKTOP WASD Arrow Keys - Move Mouse - Aim Left Click - Shoot R - Reload Q or Tab - Switch Weapon E - Pick Up Weapon Esc - Pause MOBILE TABLET Left Stick - Move Right Stick - Aim amp Fire Tap E - Pick Up Best played in landscape",
     "controls": [
       {
@@ -23038,8 +23038,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "good-guys-amp-bad-boys-zombie-survival-gui",
-    "title": "Good Guys &amp; Bad Boys Zombie Survival GUI",
+    "slug": "good-guys-and-bad-boys-zombie-survival-gui",
+    "title": "Good Guys & Bad Boys Zombie Survival GUI",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -23049,7 +23049,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Survive waves of zombies in Good Guys &amp; Bad Boys Zombie Survival GUI, a fast shooting game with action-packed Unity gameplay. Move with WASD, aim and shoot with the mouse, switch guns, jump, and stay alert as enemies close in. Test your reflexes, manage your weapons, and fight to stay alive in every intense round on the battlefield today online.",
+    "description": "Survive waves of zombies in Good Guys & Bad Boys Zombie Survival GUI, a fast shooting game with action-packed Unity gameplay. Move with WASD, aim and shoot with the mouse, switch guns, jump, and stay alert as enemies close in. Test your reflexes, manage your weapons, and fight to stay alive in every intense round on the battlefield today online.",
     "howToPlay": "wasd to move mouse to shooting aim and change gun tab for menu space for jump",
     "controls": [
       {
@@ -23077,12 +23077,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Good Guys &amp; Bad Boys Zombie Survival GUI free to play on BlockHub.games?",
-        "a": "Yes, Good Guys &amp; Bad Boys Zombie Survival GUI is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Good Guys & Bad Boys Zombie Survival GUI free to play on BlockHub.games?",
+        "a": "Yes, Good Guys & Bad Boys Zombie Survival GUI is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Good Guys &amp; Bad Boys Zombie Survival GUI on mobile devices?",
-        "a": "Yes, Good Guys &amp; Bad Boys Zombie Survival GUI is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Good Guys & Bad Boys Zombie Survival GUI on mobile devices?",
+        "a": "Yes, Good Guys & Bad Boys Zombie Survival GUI is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -23294,7 +23294,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Combat Guardian: Under Attack is a patriotic arcade shooter where you defend America across all 50 states &mdash; that means 50 unique levels. Battle through 8 different enemy types: street thugs, rogue agents, traitor soldiers, biker gangs, smugglers, corrupt cops, mercenaries, and powerful bosses. Each state features its own terrain, color palette, and enemy combinations. Start in Alabama and fight your way to Wyoming, liberating the nation one level at a time. What makes it unique? Enemies grow smarter and more aggressive as you progress. Unlock special attack power-ups and star-spangled finishers. With fast-paced combat, tight controls, and mas",
+    "description": "Combat Guardian: Under Attack is a patriotic arcade shooter where you defend America across all 50 states - that means 50 unique levels. Battle through 8 different enemy types: street thugs, rogue agents, traitor soldiers, biker gangs, smugglers, corrupt cops, mercenaries, and powerful bosses. Each state features its own terrain, color palette, and enemy combinations. Start in Alabama and fight your way to Wyoming, liberating the nation one level at a time. What makes it unique? Enemies grow smarter and more aggressive as you progress. Unlock special attack power-ups and star-spangled finishers. With fast-paced combat, tight controls, and mas",
     "howToPlay": "Defeat all enemies in each state to unlock the next Clear all 50 states to win Boss fights every 10 states Desktop ndash WASD or arrow keys to move Mouse to aim Left click to shoot F for special attack Mobile ndash Left joystick to move Tap en",
     "controls": [
       {
@@ -23441,7 +23441,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sniper Mode is a first-person precision shooter where you take down hostile military targets from a distance. Step into the scope of an elite marksman on a secret mission. Each level presents a new location &mdash; enemy compounds, convoy routes, or rooftop outlooks &mdash; with bad military operatives patrolling below. What makes it unique? Realistic ballistics matter: wind, distance, and bullet drop affect every shot. Hold your breath to steady the aim, target only confirmed hostiles, and avoid alerting others. With tense atmospheres, clean crosshair controls, and satisfying one-shot kills, every pull of the trigger counts. Perfect for quick missions o",
+    "description": "Sniper Mode is a first-person precision shooter where you take down hostile military targets from a distance. Step into the scope of an elite marksman on a secret mission. Each level presents a new location - enemy compounds, convoy routes, or rooftop outlooks - with bad military operatives patrolling below. What makes it unique? Realistic ballistics matter: wind, distance, and bullet drop affect every shot. Hold your breath to steady the aim, target only confirmed hostiles, and avoid alerting others. With tense atmospheres, clean crosshair controls, and satisfying one-shot kills, every pull of the trigger counts. Perfect for quick missions o",
     "howToPlay": "Eliminate all marked hostile military targets in each mission Do not shoot civilians or unarmed enemies mdash that fails the level Desktop ndash Mouse to aim Left click to shoot Right click to zoom scope Hold Shift to hold breath and steady aim",
     "controls": [
       {
@@ -23588,7 +23588,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Zombie Graveyard is a fast-paced arcade shooter set in a haunted cemetery. Fight the undead across two modes: Campaign &ndash; progress through increasingly difficult levels, or Survival &ndash; face endless waves until you fall. Armed with a pistol, shotgun, and power-ups, you must clear each level by killing every zombie. What makes it unique? The graveyard evolves as you play &mdash; tougher zombies rise from graves, and tombs break apart. With tight controls, eerie visuals, and two distinct ways to play, every match tests your reflexes. Compatible with desktop and mobile browsers.",
+    "description": "Zombie Graveyard is a fast-paced arcade shooter set in a haunted cemetery. Fight the undead across two modes: Campaign - progress through increasingly difficult levels, or Survival - face endless waves until you fall. Armed with a pistol, shotgun, and power-ups, you must clear each level by killing every zombie. What makes it unique? The graveyard evolves as you play - tougher zombies rise from graves, and tombs break apart. With tight controls, eerie visuals, and two distinct ways to play, every match tests your reflexes. Compatible with desktop and mobile browsers.",
     "howToPlay": "Kill all zombies to complete each level Campaign unlocks new levels as you win Survival tracks your highest wave survived Desktop ndash WASD or arrow keys to move Mouse to aim Left click to shoot R to reload Mobile ndash Left joystick to move",
     "controls": [
       {
@@ -23686,7 +23686,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Tank Force Battle Game is an action-packed modern tank shooter where your mission is to stop enemy army trucks advancing toward the battlefield. Take control of a powerful combat tank, aim carefully, and destroy hostile convoys before they cross your defense line. Enjoy fast-paced shooting, military vehicles, explosive effects, and smooth controls. Upgrade your tank&rsquo;s firepower, improve accuracy, and survive increasingly difficult waves of enemies. Test your reflexes, dominate the war zone, and prove your strength in this thrilling armored battle game.",
+    "description": "Tank Force Battle Game is an action-packed modern tank shooter where your mission is to stop enemy army trucks advancing toward the battlefield. Take control of a powerful combat tank, aim carefully, and destroy hostile convoys before they cross your defense line. Enjoy fast-paced shooting, military vehicles, explosive effects, and smooth controls. Upgrade your tank's firepower, improve accuracy, and survive increasingly difficult waves of enemies. Test your reflexes, dominate the war zone, and prove your strength in this thrilling armored battle game.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -23833,7 +23833,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "ApexCircuit is a fast-paced top-down tank battle game inspired by Brawl Stars. Choose from 6 unique tanks &mdash; Striker, Colossus, Phantom, Viper, Herald, and Titan &mdash; each with special abilities, different stats and playstyles. Modes: Team Deathmatch, Domination, Gem Grab, Capture the Flag, Knockout, and Solo Showdown (10 players, last one standing wins).",
+    "description": "ApexCircuit is a fast-paced top-down tank battle game inspired by Brawl Stars. Choose from 6 unique tanks - Striker, Colossus, Phantom, Viper, Herald, and Titan - each with special abilities, different stats and playstyles. Modes: Team Deathmatch, Domination, Gem Grab, Capture the Flag, Knockout, and Solo Showdown (10 players, last one standing wins).",
     "howToPlay": "WASD or Arrow Keys to move Mouse to aim and shoot Q for Special Ability R to reload Joystick support on mobile",
     "controls": [
       {
@@ -24029,7 +24029,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Enter a dangerous zombie-infested highway in Zombie Road Warrior. Drive through endless roads filled with undead enemies and survive as long as possible. Your car moves forward automatically, and it&rsquo;s up to you to dodge obstacles, avoid crashes, and shoot incoming zombies. Each hit damages your vehicle, and once your car&rsquo;s health reaches zero, the game is over. Stay sharp, keep moving, and fight your way through the apocalypse!",
+    "description": "Enter a dangerous zombie-infested highway in Zombie Road Warrior. Drive through endless roads filled with undead enemies and survive as long as possible. Your car moves forward automatically, and it's up to you to dodge obstacles, avoid crashes, and shoot incoming zombies. Each hit damages your vehicle, and once your car's health reaches zero, the game is over. Stay sharp, keep moving, and fight your way through the apocalypse!",
     "howToPlay": "Left Arrow Key ndash Move car left Right Arrow Key ndash Move car right Shoot zombies",
     "controls": [
       {
@@ -24127,7 +24127,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to Target Hit Shooting Range, a thrilling 3D world that blends firearms, shooting, puzzles, and collection elements into one realistic experience. Control your sharpshooter, aim with precision, and hit maximum targets using a limited number of bullets. Each level challenges your timing and strategy with clever puzzle designs and intense combat scenarios. Enjoy realistic shooting effects with sniper rifles and shotguns, all unlockable through in-game rewards&mdash;no in-app purchases required. Play offline anytime on your mobile device, with minimal storage usage and smooth performance. Test your skills and become the ultimate target hit.",
+    "description": "Welcome to Target Hit Shooting Range, a thrilling 3D world that blends firearms, shooting, puzzles, and collection elements into one realistic experience. Control your sharpshooter, aim with precision, and hit maximum targets using a limited number of bullets. Each level challenges your timing and strategy with clever puzzle designs and intense combat scenarios. Enjoy realistic shooting effects with sniper rifles and shotguns, all unlockable through in-game rewards-no in-app purchases required. Play offline anytime on your mobile device, with minimal storage usage and smooth performance. Test your skills and become the ultimate target hit.",
     "howToPlay": "Mouse click and swipe the mouse or tap to play",
     "controls": [
       {
@@ -24421,7 +24421,7 @@ const rawGames = [
     "width": 350,
     "height": 600,
     "orientation": "portrait",
-    "description": "Ready. Aim. Smash. Welcome to the most satisfying destruction game on the store. Fire Dots 3D takes the simple joy of shooting and turns it into a high-speed test of timing and nerves. You&rsquo;ve got a cannon, a stack of targets, and a whole lot of moving obstacles in your way. The Vibe: It&rsquo;s like popping bubble wrap, but with explosions. Whether you have 30 seconds or 30 minutes, Fire Dots 3D provides that perfect flow state where the world disappears and it&rsquo;s just you and the rhythm of the shot. The tower is waiting. The barriers are moving. Are you ready to fire? Download Fire Dots 3D now and start your smashing streak!",
+    "description": "Ready. Aim. Smash. Welcome to the most satisfying destruction game on the store. Fire Dots 3D takes the simple joy of shooting and turns it into a high-speed test of timing and nerves. You've got a cannon, a stack of targets, and a whole lot of moving obstacles in your way. The Vibe: It's like popping bubble wrap, but with explosions. Whether you have 30 seconds or 30 minutes, Fire Dots 3D provides that perfect flow state where the world disappears and it's just you and the rhythm of the shot. The tower is waiting. The barriers are moving. Are you ready to fire? Download Fire Dots 3D now and start your smashing streak!",
     "howToPlay": "Ready Aim Smash",
     "controls": [
       {
@@ -24911,7 +24911,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Color Bubble Shooter game is a classic arcade puzzle game that masterfully combines simplicity with deep, engaging strategy. Your mission is clear yet endlessly captivating : aim, match, and clear a cascading field of colorful bubbles before they overwhelm your screen. With a simple pull of the trigger, you&rsquo;ll launch your own bubbles from the bottom of the play area, skillfully banking shots off walls to create perfect clusters of three or more matching hues. Each successful match causes the bubbles to pop satisfyingly, clearing valuable space and earning you points.",
+    "description": "Color Bubble Shooter game is a classic arcade puzzle game that masterfully combines simplicity with deep, engaging strategy. Your mission is clear yet endlessly captivating : aim, match, and clear a cascading field of colorful bubbles before they overwhelm your screen. With a simple pull of the trigger, you'll launch your own bubbles from the bottom of the play area, skillfully banking shots off walls to create perfect clusters of three or more matching hues. Each successful match causes the bubbles to pop satisfyingly, clearing valuable space and earning you points.",
     "howToPlay": "Shoot bubbles to match 3 or more of the same color Matching bubbles pop and fall Clear all bubbles to win the level If bubbles reach the bottom game over",
     "controls": [
       {
@@ -25254,7 +25254,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Aim, shoot, and pop colorful bubbles to rescue the baby squirrels trapped in the forest! Match 3+ bubbles to clear the board, use rainbow and bomb power-ups to break through obstacles, and bounce shots off walls for tricky angles. With hundreds of fun levels and cute characters, this bubble adventure is easy to pick up and impossible to put down&mdash;start rescuing today!",
+    "description": "Aim, shoot, and pop colorful bubbles to rescue the baby squirrels trapped in the forest! Match 3+ bubbles to clear the board, use rainbow and bomb power-ups to break through obstacles, and bounce shots off walls for tricky angles. With hundreds of fun levels and cute characters, this bubble adventure is easy to pick up and impossible to put down-start rescuing today!",
     "howToPlay": "Aim amp Shoot Drag to aim release to fire bubbles Match 3 Connect same-colored bubbles to pop them Use Power-Ups Tap rainbow or bomb bubbles for big clears Bounce Shots Use walls to reach tricky bubbles Simple controls for endless fun",
     "controls": [
       {
@@ -25450,7 +25450,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Experience the pure joy of arcade gaming with Bubble Shooting Pro Fun! This addictive puzzle adventure offers endless entertainment for everyone. Aim your cannon, match colorful bubbles, and trigger satisfying pops to clear the board. With vibrant graphics, cheerful sounds, and intuitive controls, it&rsquo;s the perfect way to relax and challenge your brain.",
+    "description": "Experience the pure joy of arcade gaming with Bubble Shooting Pro Fun! This addictive puzzle adventure offers endless entertainment for everyone. Aim your cannon, match colorful bubbles, and trigger satisfying pops to clear the board. With vibrant graphics, cheerful sounds, and intuitive controls, it's the perfect way to relax and challenge your brain.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -25499,7 +25499,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Neon Strike is a fast-paced arcade space shooter inspired by classic Galaga-style gameplay, wrapped in a stunning neon cyberpunk aesthetic. Take control of a glowing fighter ship and battle through 33 waves of increasingly dangerous enemies, facing 11 unique bosses with distinct attack patterns and behaviors. Collect powerful upgrades mid-battle &mdash; rapid fire, double shot, triple shot, laser cannon, homing missiles, time slow, shields, and the devastating Flower spin attack &mdash; to survive the relentless alien onslaught. The campaign culminates in an epic showdown against NEMESIS, a massive geometric crab boss with multiple fire phases. Survive,",
+    "description": "Neon Strike is a fast-paced arcade space shooter inspired by classic Galaga-style gameplay, wrapped in a stunning neon cyberpunk aesthetic. Take control of a glowing fighter ship and battle through 33 waves of increasingly dangerous enemies, facing 11 unique bosses with distinct attack patterns and behaviors. Collect powerful upgrades mid-battle - rapid fire, double shot, triple shot, laser cannon, homing missiles, time slow, shields, and the devastating Flower spin attack - to survive the relentless alien onslaught. The campaign culminates in an epic showdown against NEMESIS, a massive geometric crab boss with multiple fire phases. Survive,",
     "howToPlay": "LEFT KEY MOVE LEFT RIGHT KEY MOVE RIGHT SPACEBAR FIRE",
     "controls": [
       {
@@ -25744,7 +25744,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "My Ball Escape is a fast and fun challenge that will keep your heart racing and your fingers ready. Trapped inside spinning orbit shapes, your ball is desperate to break free and only your timing can set it loose. Tap at the perfect moment to launch the ball through rotating barriers, dodge closing gaps, and escape the orbit before it&rsquo;s too late.",
+    "description": "My Ball Escape is a fast and fun challenge that will keep your heart racing and your fingers ready. Trapped inside spinning orbit shapes, your ball is desperate to break free and only your timing can set it loose. Tap at the perfect moment to launch the ball through rotating barriers, dodge closing gaps, and escape the orbit before it's too late.",
     "howToPlay": "Mouse Click Tap",
     "controls": [
       {
@@ -25842,7 +25842,7 @@ const rawGames = [
     "width": 640,
     "height": 960,
     "orientation": "portrait",
-    "description": "Build your defenses and hold the line against relentless waves of zombies! Choose from a wide arsenal of weapons and unlock tons of skins to match your style. Upgrade your fortifications, reinforce weak spots, and adapt your strategy as the horde grows stronger. Keep fighting, keep upgrading, and survive through the night&mdash;hold out until dawn!",
+    "description": "Build your defenses and hold the line against relentless waves of zombies! Choose from a wide arsenal of weapons and unlock tons of skins to match your style. Upgrade your fortifications, reinforce weak spots, and adapt your strategy as the horde grows stronger. Keep fighting, keep upgrading, and survive through the night-hold out until dawn!",
     "howToPlay": "Mouse click or tap to play Use the wasd arrow keys to move",
     "controls": [
       {
@@ -26087,7 +26087,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Survive a zombie-infested city in this fast-paced first-person shooter. Armed with modern weapons, you must fight off waves of aggressive zombies that chase you through narrow streets and abandoned areas. Aim carefully, manage your ammo, and react fast &mdash; the undead won&rsquo;t give you time to breathe. Each level tests your reflexes and accuracy as zombies become more dangerous the longer you survive. Keep moving, line up headshots, and eliminate as many enemies as possible to increase your kill count. Simple controls and intense close-combat encounters make every moment action-packed. How long can you survive against the horde? Features First-pers",
+    "description": "Survive a zombie-infested city in this fast-paced first-person shooter. Armed with modern weapons, you must fight off waves of aggressive zombies that chase you through narrow streets and abandoned areas. Aim carefully, manage your ammo, and react fast - the undead won't give you time to breathe. Each level tests your reflexes and accuracy as zombies become more dangerous the longer you survive. Keep moving, line up headshots, and eliminate as many enemies as possible to increase your kill count. Simple controls and intense close-combat encounters make every moment action-packed. How long can you survive against the horde? Features First-pers",
     "howToPlay": "WASD rarr Move Left Mouse Click rarr Shoot Right Mouse Click rarr Scope R rarr Reload Z rarr Lock cursor Middle Mouse rarr Switch Weapon ESC rarr Unlock cursor",
     "controls": [
       {
@@ -26528,7 +26528,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "HorrorLand Defense is a twisted tower-defense game where cute visuals collide with pure nightmare fuel. You must protect your last safe zone by placing strange, living defenders against relentless waves of grotesque monsters emerging from the darkness. Enemies behave unpredictably, triggering sudden scares and eerie moments. Colorful environments mask a disturbing atmosphere beneath. Careful strategy, smart resource management, and fast reactions are essential, because one mistake can let the horror overwhelm everything you&rsquo;re trying to save.",
+    "description": "HorrorLand Defense is a twisted tower-defense game where cute visuals collide with pure nightmare fuel. You must protect your last safe zone by placing strange, living defenders against relentless waves of grotesque monsters emerging from the darkness. Enemies behave unpredictably, triggering sudden scares and eerie moments. Colorful environments mask a disturbing atmosphere beneath. Careful strategy, smart resource management, and fast reactions are essential, because one mistake can let the horror overwhelm everything you're trying to save.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -26626,7 +26626,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Discover the ultimate arcade thrill with Bubble Shooter Pro 2026! Aim, match, and pop colorful bubbles in this addictive puzzle adventure. With dynamic random levels, realistic bouncing physics, and satisfying explosions, every shot counts. Strategy is key&mdash;clear the board before running out of ammo! Featuring vibrant graphics and immersive audio, it is perfect for all ages. Can you reach the top of the leaderboard?",
+    "description": "Discover the ultimate arcade thrill with Bubble Shooter Pro 2026! Aim, match, and pop colorful bubbles in this addictive puzzle adventure. With dynamic random levels, realistic bouncing physics, and satisfying explosions, every shot counts. Strategy is key-clear the board before running out of ammo! Featuring vibrant graphics and immersive audio, it is perfect for all ages. Can you reach the top of the leaderboard?",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -26773,7 +26773,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A fresh 3D take on classic 2048! Aim, shoot and merge numbered blocks (2&rarr;4&rarr;8&rarr;&hellip;&rarr;2048) for satisfying upgrades. Match numbers to merge, boost your score and clear space. Intuitive one-touch controls make it easy to learn, but strategize to avoid filling the board! Enjoy crisp 3D visuals and smooth animations as you chase 2048 (and beyond) in endless mode. Play offline anytime, train your brain, beat your high score&mdash;perfect for casual breaks and logic fans!",
+    "description": "A fresh 3D take on classic 2048! Aim, shoot and merge numbered blocks (2&rarr;4&rarr;8&rarr;&hellip;&rarr;2048) for satisfying upgrades. Match numbers to merge, boost your score and clear space. Intuitive one-touch controls make it easy to learn, but strategize to avoid filling the board! Enjoy crisp 3D visuals and smooth animations as you chase 2048 (and beyond) in endless mode. Play offline anytime, train your brain, beat your high score-perfect for casual breaks and logic fans!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -26822,7 +26822,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Keep Her Alive is a precision puzzle game where you don&rsquo;t fight enemies &mdash; you turn them against each other. Rotate the world, line up the angles, and let their own bullets do the work. One wrong degree and the girl dies. There are no second chances. Think slowly. Aim carefully. Keep Her Alive.",
+    "description": "Keep Her Alive is a precision puzzle game where you don't fight enemies - you turn them against each other. Rotate the world, line up the angles, and let their own bullets do the work. One wrong degree and the girl dies. There are no second chances. Think slowly. Aim carefully. Keep Her Alive.",
     "howToPlay": "Rotate objects using A and D or the Left and Right Arrow keys Shoot using the Left Mouse Button or the Space Bar",
     "controls": [
       {
@@ -26871,7 +26871,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A fast-paced casual sniper game! Take aim, fire, and clear levels by eliminating targets&mdash;ninjas, soldiers, boxers, and more. Use explosive barrels for quick takedowns, manage limited ammo, and conquer evolving city/desert scenes. With low-poly cartoon style and straightforward controls, it&rsquo;s perfect for quick, satisfying shooting fun. Race through levels, hit every mark, and master the trigger!",
+    "description": "A fast-paced casual sniper game! Take aim, fire, and clear levels by eliminating targets-ninjas, soldiers, boxers, and more. Use explosive barrels for quick takedowns, manage limited ammo, and conquer evolving city/desert scenes. With low-poly cartoon style and straightforward controls, it's perfect for quick, satisfying shooting fun. Race through levels, hit every mark, and master the trigger!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -26920,7 +26920,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Zombie Shooter Sniper Game is an engaging combination of thrilling and realistic FPS shooting game with massive sniper and multiplayer PvP modes in new 3D zombie themes. Get ready for fun and non-stop action in the free Sniper Zombie 3D gun shooting game and become the top zombie shooter in the sniper assassin arena. Experience one of the most engaging online &amp; offline FPS shooting and sniper zombie 3D games on mobiles. What makes this offline sniper zombie 3D game of shooting more attractive is to push yourself into a fun adventure of a sniper through incredible zombie concepts.",
+    "description": "Zombie Shooter Sniper Game is an engaging combination of thrilling and realistic FPS shooting game with massive sniper and multiplayer PvP modes in new 3D zombie themes. Get ready for fun and non-stop action in the free Sniper Zombie 3D gun shooting game and become the top zombie shooter in the sniper assassin arena. Experience one of the most engaging online & offline FPS shooting and sniper zombie 3D games on mobiles. What makes this offline sniper zombie 3D game of shooting more attractive is to push yourself into a fun adventure of a sniper through incredible zombie concepts.",
     "howToPlay": "Move---W Back---S left---A Right---D Fire---Left Mouse click Scope --- Right Mouse Click",
     "controls": [
       {
@@ -26969,7 +26969,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Gas Station Survival is a thrilling tower defense game where you must protect your station from relentless waves of enemies. Upgrade your tower, unlock new defenses, and strategically fend off attackers to survive as long as possible. Every upgrade makes your fortress stronger, but the enemies grow tougher too&mdash;only sharp tactics and quick decisions will keep your gas station standing.",
+    "description": "Gas Station Survival is a thrilling tower defense game where you must protect your station from relentless waves of enemies. Upgrade your tower, unlock new defenses, and strategically fend off attackers to survive as long as possible. Every upgrade makes your fortress stronger, but the enemies grow tougher too-only sharp tactics and quick decisions will keep your gas station standing.",
     "howToPlay": "Use the mouse to upgrade your tower and manage defenses with simple clicks Enemies approach automatically in waves so your focus is on upgrading positioning and timing your actions to keep the gas station safe",
     "controls": [
       {
@@ -27263,7 +27263,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Bubble Pop Fairyland is an exciting bubble shooter game that&rsquo;s very highly addictive! Aim, shoot &amp; pop all the color bubbles using epic blasters to clear the board and win coins! Bubble Pop Fairyland is a fun and relaxing puzzle game designed to keep your mind sharp at any age. It also is a perfect brain training and fast solution making game You will have hours of fun shooting &amp; matching the same colored bubbles! With thousands of challenging &amp; addictive unique levels, you simply won&rsquo;t put it down!",
+    "description": "Bubble Pop Fairyland is an exciting bubble shooter game that's very highly addictive! Aim, shoot & pop all the color bubbles using epic blasters to clear the board and win coins! Bubble Pop Fairyland is a fun and relaxing puzzle game designed to keep your mind sharp at any age. It also is a perfect brain training and fast solution making game You will have hours of fun shooting & matching the same colored bubbles! With thousands of challenging & addictive unique levels, you simply won't put it down!",
     "howToPlay": "Aim Move your mouse or swipe on mobile to point the shooter in the direction you want to fire Shoot Click or tap to launch the bubble When your bubble hits a group of at least three bubbles of the same color they pop and disappear",
     "controls": [
       {
@@ -27312,7 +27312,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for a juicy blast in Fruity Shoot! Test your precision and reflexes in this vibrant, fast-paced arcade shooter. Your mission is simple: aim and shoot a lot of fruits with your gun to create satisfying splashes. But be careful&mdash;if you miss too many fruits, your game will be over! To help you stay in the action, special gifts are awarded during gameplay to help you survive longer and reach higher scores. How long can you keep the fruit frenzy going?#Arcade #Fruit #Shooting #Hypercasual",
+    "description": "Get ready for a juicy blast in Fruity Shoot! Test your precision and reflexes in this vibrant, fast-paced arcade shooter. Your mission is simple: aim and shoot a lot of fruits with your gun to create satisfying splashes. But be careful-if you miss too many fruits, your game will be over! To help you stay in the action, special gifts are awarded during gameplay to help you survive longer and reach higher scores. How long can you keep the fruit frenzy going?#Arcade #Fruit #Shooting #Hypercasual",
     "howToPlay": "Game Controls For Mobile Users Aim amp Shoot Just Tap anywhere on the screen to fire your gun at the fruits Precision Use quick taps to catch the fast-moving fruits before they fall For PC Users Aim Move your Mouse cursor to track the fruits",
     "controls": [
       {
@@ -27361,7 +27361,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Paint Pop 3D is an one-tap hyper casual shooting game that will keep you hooked for hours! Tap to paint. Hold for more fun! Stay away from obstacles and paint all slices on the ring. Features: - More than 1000+ levels to experience game play. - A lot challenging missions. - Various characters &amp; themes. - Beautiful graphic.",
+    "description": "Paint Pop 3D is an one-tap hyper casual shooting game that will keep you hooked for hours! Tap to paint. Hold for more fun! Stay away from obstacles and paint all slices on the ring. Features: - More than 1000+ levels to experience game play. - A lot challenging missions. - Various characters & themes. - Beautiful graphic.",
     "howToPlay": "- Tap to paint - Paint all slices on the ring to complete a level - Be careful to the obstacles Game is over if hit an obstacle",
     "controls": [
       {
@@ -27459,7 +27459,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Dead Frequency is a unique tower defense game where survival depends on a single central tower. Waves of relentless enemies close in from all directions, and your lone tower must hold the line. Upgrade its abilities, unleash powerful attacks, and adapt your strategy to withstand the growing chaos. With only one tower to rely on, every decision counts &mdash; can you endure the frequency of death?",
+    "description": "Dead Frequency is a unique tower defense game where survival depends on a single central tower. Waves of relentless enemies close in from all directions, and your lone tower must hold the line. Upgrade its abilities, unleash powerful attacks, and adapt your strategy to withstand the growing chaos. With only one tower to rely on, every decision counts - can you endure the frequency of death?",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -27508,7 +27508,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Master the bow in this epic Action challenge! Aim, time your shots, and battle shifting winds in the ultimate Archery experience. Each level gets tougher&mdash;test your Hunting skills and become the legend of the forest",
+    "description": "Master the bow in this epic Action challenge! Aim, time your shots, and battle shifting winds in the ultimate Archery experience. Each level gets tougher-test your Hunting skills and become the legend of the forest",
     "howToPlay": "How to Play PC Mouse Aim amp Power Click and drag the mouse back to aim and set power Shoot Release the left mouse button to fire the arrow Mobile Touch Aim amp Power Touch and drag your finger on the screen to aim Shoot Lift your finger",
     "controls": [
       {
@@ -28047,7 +28047,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Tower Breaker is a physics-based destruction game where you throw different types of projectiles, collapse towers, break structures, and experiment with realistic physics. Pull the rope, aim, and release &mdash; each ball has unique properties and opens new ways to bring the entire city down.Spectacular destruction, falling debris, explosions, and endless chaos. Every level is different &mdash; sturdy towers, fragile constructions, ultra-tall buildings, bonus structures, and even randomly generated cities.",
+    "description": "Tower Breaker is a physics-based destruction game where you throw different types of projectiles, collapse towers, break structures, and experiment with realistic physics. Pull the rope, aim, and release - each ball has unique properties and opens new ways to bring the entire city down.Spectacular destruction, falling debris, explosions, and endless chaos. Every level is different - sturdy towers, fragile constructions, ultra-tall buildings, bonus structures, and even randomly generated cities.",
     "howToPlay": "Hold amp amp Drag ndash pull the ropeRelease ndash shoot the ballMove Cursor ndash aimClick Buttons ndash select ball type and use the menu",
     "controls": [
       {
@@ -28243,7 +28243,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Road Of Fury 4 is an explosive scroller shooter game set in a world of post-apocalypse. Team-up with other nomads, upgrade cars, guns and super-powers and use your skills to fight through 30 levels and 3 bosses. You&rsquo;ll face waves of enemies, battle three powerful bosses, and gear up with six unique cars. With a massive arsenal at your disposal, you must upgrade, adapt, and fight your way through relentless chaos to prove your survival skills.",
+    "description": "Road Of Fury 4 is an explosive scroller shooter game set in a world of post-apocalypse. Team-up with other nomads, upgrade cars, guns and super-powers and use your skills to fight through 30 levels and 3 bosses. You'll face waves of enemies, battle three powerful bosses, and gear up with six unique cars. With a massive arsenal at your disposal, you must upgrade, adapt, and fight your way through relentless chaos to prove your survival skills.",
     "howToPlay": "Use mouse finger to aim the guns 1 2 3 to activate super-powers",
     "controls": [
       {
@@ -28733,7 +28733,7 @@ const rawGames = [
     "width": 480,
     "height": 800,
     "orientation": "portrait",
-    "description": "Bulletman 3D is here &mdash; faster, sharper, and more explosive than ever! Dive into a world of action-packed missions, stunning 3D visuals, and epic slow-motion shots. Outsmart enemies, master every bullet, and prove you&rsquo;re the ultimate agent! Are you ready to become a legend?",
+    "description": "Bulletman 3D is here - faster, sharper, and more explosive than ever! Dive into a world of action-packed missions, stunning 3D visuals, and epic slow-motion shots. Outsmart enemies, master every bullet, and prove you're the ultimate agent! Are you ready to become a legend?",
     "howToPlay": "Use the mouse or touch to aim and shoot",
     "controls": [
       {
@@ -28782,7 +28782,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Overlook Tank War is an exciting top-down tank shooter where players control a powerful tank on a mission to clear out enemy forces. With automatic shooting, players can focus on strategic movements and positioning while battling waves of enemies. Take advantage of the battlefield terrain, outmaneuver opponents, and dominate the arena! Automatic Shooting: Let your tank fire automatically, so you can concentrate on movement and tactics. Strategic Gameplay: Plan your moves carefully, avoid enemy fire, and be the last tank standing. Top-Down View: Experience the game from a tactical bird&rsquo;s-eye view, perfect for controlling your tank&rsquo;s movem",
+    "description": "Overlook Tank War is an exciting top-down tank shooter where players control a powerful tank on a mission to clear out enemy forces. With automatic shooting, players can focus on strategic movements and positioning while battling waves of enemies. Take advantage of the battlefield terrain, outmaneuver opponents, and dominate the arena! Automatic Shooting: Let your tank fire automatically, so you can concentrate on movement and tactics. Strategic Gameplay: Plan your moves carefully, avoid enemy fire, and be the last tank standing. Top-Down View: Experience the game from a tactical bird's-eye view, perfect for controlling your tank's movem",
     "howToPlay": "keyboard WASD move and tap to play",
     "controls": [
       {
@@ -28880,7 +28880,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Overview Play as an elite commando in a modern war against terrorists. Fight across realistic terrains with AI enemies, complete missions, and experience smooth auto-shoot controls with HD graphics. Game Modes Campaign: Story-based terrorist takedown Survival: Endless enemy waves PVP (Offline): Practice vs AI enemies Zombie Mode: Survive undead attacks Tank Mode: Control tanks and destroy terrorist bases Defuse Mode: Disarm bombs strategically Features Auto-shoot &amp; swipe-to-aim controls Upgradable modern weapons and explosives Realistic HD graphics &amp; immersive sound",
+    "description": "Overview Play as an elite commando in a modern war against terrorists. Fight across realistic terrains with AI enemies, complete missions, and experience smooth auto-shoot controls with HD graphics. Game Modes Campaign: Story-based terrorist takedown Survival: Endless enemy waves PVP (Offline): Practice vs AI enemies Zombie Mode: Survive undead attacks Tank Mode: Control tanks and destroy terrorist bases Defuse Mode: Disarm bombs strategically Features Auto-shoot & swipe-to-aim controls Upgradable modern weapons and explosives Realistic HD graphics & immersive sound",
     "howToPlay": "Mouse click or tap to play W A S D for left right movement and left tap for shooting and right click for aim and R for reload",
     "controls": [
       {
@@ -28929,7 +28929,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "FNAF Strike Halloween is an intense first-person shooter set in a spooky Halloween-themed world inspired by the legendary Five Nights at Freddy&rsquo;s universe. Your mission is simple but terrifying &mdash; survive each level by blasting through waves of deadly FNAF animatronics and find your way to the exit before they catch you. Every level is packed with chilling decorations, haunted corridors, flickering lights, and eerie sounds that create the ultimate horror-shooter experience. As you advance, new challenges, hidden traps, and stronger animatronic enemies appear, testing your reflexes and accuracy.",
+    "description": "FNAF Strike Halloween is an intense first-person shooter set in a spooky Halloween-themed world inspired by the legendary Five Nights at Freddy's universe. Your mission is simple but terrifying - survive each level by blasting through waves of deadly FNAF animatronics and find your way to the exit before they catch you. Every level is packed with chilling decorations, haunted corridors, flickering lights, and eerie sounds that create the ultimate horror-shooter experience. As you advance, new challenges, hidden traps, and stronger animatronic enemies appear, testing your reflexes and accuracy.",
     "howToPlay": "WASD - Move LMB - Shoot RMB - Aim Flashlight R - Reload F - Use G - Grenade H - Melee C - Crouch M - Mute Space - Jump Shift - Run 1-9 - Select Weapon TAB - Pause",
     "controls": [
       {
@@ -29076,7 +29076,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Welcome to a world where crocodiles don&rsquo;t swim &mdash; they fly and shoot! You control a brainrot crocodile plane soaring through waves of enemies, power-ups, and pure chaos. The longer you survive, the more points, madness, and laughter you get. It&rsquo;s not just a shooter &mdash; it&rsquo;s a real test of reflexes, focus, and meme energy!",
+    "description": "Welcome to a world where crocodiles don't swim - they fly and shoot! You control a brainrot crocodile plane soaring through waves of enemies, power-ups, and pure chaos. The longer you survive, the more points, madness, and laughter you get. It's not just a shooter - it's a real test of reflexes, focus, and meme energy!",
     "howToPlay": "Control your crocodile plane mdash dodge bullets and destroy enemies Collect boosters to become even more chaotic Unlock new crocodile forms and skins Fight bosses and prove your brainrot is the strongest Share your scores and laugh at the mad",
     "controls": [
       {
@@ -29174,7 +29174,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to Token Strike &ndash; Fire Away and Smash the Crypto Targets! Lock, load, and aim your crypto cannon in this explosive arcade-style shooter where precision meets power! In Token Strike, your goal is simple: blast through waves of digital coins and crypto tokens with perfect aim and timing to rack up massive scores. How to Play: Aim your cannon at falling or floating crypto tokens. Tap to fire and smash tokens into bits to score points. Hit combos, chain explosions, and keep the coins from piling up.",
+    "description": "Welcome to Token Strike - Fire Away and Smash the Crypto Targets! Lock, load, and aim your crypto cannon in this explosive arcade-style shooter where precision meets power! In Token Strike, your goal is simple: blast through waves of digital coins and crypto tokens with perfect aim and timing to rack up massive scores. How to Play: Aim your cannon at falling or floating crypto tokens. Tap to fire and smash tokens into bits to score points. Hit combos, chain explosions, and keep the coins from piling up.",
     "howToPlay": "Achieve the score and go to next level Timeout kills you",
     "controls": [
       {
@@ -29664,7 +29664,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sky Jump &ndash; The Ultimate Sky Adventure! Get ready for an exciting 3D platformer adventure! Jump across floating islands, collect shiny coins, dodge tricky obstacles, and reach the top. Explore beautiful sky worlds, test your jumping skills, and challenge yourself with every level. Can you conquer every platform and become the ultimate Sky Jump champion? Jump. Collect. Explore. Conquer the Sky!",
+    "description": "Sky Jump - The Ultimate Sky Adventure! Get ready for an exciting 3D platformer adventure! Jump across floating islands, collect shiny coins, dodge tricky obstacles, and reach the top. Explore beautiful sky worlds, test your jumping skills, and challenge yourself with every level. Can you conquer every platform and become the ultimate Sky Jump champion? Jump. Collect. Explore. Conquer the Sky!",
     "howToPlay": "use WSAD to paly in pc Mouse click or tap to play in mobile",
     "controls": [
       {
@@ -29909,7 +29909,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Category Match Puzzle is a vibrant, fun sorting game for all ages. Observe scrambled picture tiles, match items into correct categories&mdash;like toys, food, and weather&mdash;and clear the board to sharpen your brain and relax!",
+    "description": "Category Match Puzzle is a vibrant, fun sorting game for all ages. Observe scrambled picture tiles, match items into correct categories-like toys, food, and weather-and clear the board to sharpen your brain and relax!",
     "howToPlay": "bull Identify Categories Check theme labels Toys Food etc bull Find amp Match Scan picture tiles and drag them to the right categories bull Clear the Board Group all items correctly to win the level bull Use Boosters Activate hints",
     "controls": [
       {
@@ -30889,7 +30889,7 @@ const rawGames = [
     "width": 960,
     "height": 580,
     "orientation": "landscape",
-    "description": "Escape the noise of daily life and embark on a peaceful journey through the world&rsquo;s most beautiful churches in Aberiel Church Jigsaw Puzzles Saga &mdash; Chapter 1. Explore stunning churches from around the world while solving relaxing jigsaw puzzles. Choose from 12, 20, or 42 pieces and rebuild each image at your own pace. Created with carefully retouched artwork, the game combines relaxing puzzle gameplay with a worldwide architectural journey. Complete each church to unlock the next and continue your journey from one remarkable place of worship to another.",
+    "description": "Escape the noise of daily life and embark on a peaceful journey through the world's most beautiful churches in Aberiel Church Jigsaw Puzzles Saga - Chapter 1. Explore stunning churches from around the world while solving relaxing jigsaw puzzles. Choose from 12, 20, or 42 pieces and rebuild each image at your own pace. Created with carefully retouched artwork, the game combines relaxing puzzle gameplay with a worldwide architectural journey. Complete each church to unlock the next and continue your journey from one remarkable place of worship to another.",
     "howToPlay": "Mouse click or tap to playMouse Click and drag puzzle pieces to move them Left Click Select and pick up a puzzle piece Release Drop the piece into position Touch Tap and drag pieces with your finger on supported devices",
     "controls": [
       {
@@ -30987,7 +30987,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "4 in a Blow is Connect 4 with power-ups. Everyone already knows the rules, so you can start playing immediately. Every turn charges up your power meter &mdash; spend it to block a column, swap two tokens, remove a token, or drop twice in a row. The one rule that keeps it fair: a power can never win the game on its own. It can only set up or defend a win, so the final move is always a normal drop. Play Classic for pure Connect 4 against AI or a friend, Blast for the full power-up experience, or Wakie for a fast 90-second score-attack mode with rotating powers and a Turbo Time finish. Simple to learn, hard to see coming.",
+    "description": "4 in a Blow is Connect 4 with power-ups. Everyone already knows the rules, so you can start playing immediately. Every turn charges up your power meter - spend it to block a column, swap two tokens, remove a token, or drop twice in a row. The one rule that keeps it fair: a power can never win the game on its own. It can only set up or defend a win, so the final move is always a normal drop. Play Classic for pure Connect 4 against AI or a friend, Blast for the full power-up experience, or Wakie for a fast 90-second score-attack mode with rotating powers and a Turbo Time finish. Simple to learn, hard to see coming.",
     "howToPlay": "Drop tokens into a column by clicking tapping it Tokens fall to the lowest open spot Connect 4 of your tokens in a row mdash horizontally vertically or diagonally mdash to win In Blast and Wakie modes every turn charges your power meter At full",
     "controls": [
       {
@@ -31183,7 +31183,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to Words Game 2026 &mdash; a relaxing and addictive crossword adventure! Travel through beautiful locations while improving your vocabulary, spelling, and brainpower. Connect letters in any direction to discover hidden words, solve challenging puzzles, and unlock stunning scenery as you progress through 1,000+ unique levels. From classic word searches to creative crossword challenges, every level offers a fun way to train your mind. Play at your own pace with no time limits, use hints or shuffle letters when youre stuck, and enjoy the game online or offline. Features - 1,000+ exciting word puzzle levels - Beautiful world-themed backgrounds",
+    "description": "Welcome to Words Game 2026 - a relaxing and addictive crossword adventure! Travel through beautiful locations while improving your vocabulary, spelling, and brainpower. Connect letters in any direction to discover hidden words, solve challenging puzzles, and unlock stunning scenery as you progress through 1,000+ unique levels. From classic word searches to creative crossword challenges, every level offers a fun way to train your mind. Play at your own pace with no time limits, use hints or shuffle letters when youre stuck, and enjoy the game online or offline. Features - 1,000+ exciting word puzzle levels - Beautiful world-themed backgrounds",
     "howToPlay": "Touch amp Drag ndash Drag your finger across connected letters to form words Letter Selection ndash Select the correct letters in the right sequence Swipe Control ndash Swipe smoothly between adjacent letters to create words",
     "controls": [
       {
@@ -31918,7 +31918,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Level Once Again is a story-driven puzzle platformer with 100 rooms, 4 worlds and 7 bosses. Kaal has kidnapped Tara &mdash; guide Veer through 100 trapped rooms to rescue her. Same room, same door, but a brand new trick every time: floors drop, spikes pop up, doors run away. Only the first 3 rooms are easy &mdash; after that, every room is a trap. Features: - 100 handcrafted rooms across 4 worlds (Dungeon, Workshop, Tower, The Rift) - 7 boss battles with unique patterns - Story scenes (skippable) &mdash; English and Hindi - Hint system: stuck? Watch a short video ad to see the full room solution - Progress auto-saves, with export/import backup - Keyboard, gam",
+    "description": "Level Once Again is a story-driven puzzle platformer with 100 rooms, 4 worlds and 7 bosses. Kaal has kidnapped Tara - guide Veer through 100 trapped rooms to rescue her. Same room, same door, but a brand new trick every time: floors drop, spikes pop up, doors run away. Only the first 3 rooms are easy - after that, every room is a trap. Features: - 100 handcrafted rooms across 4 worlds (Dungeon, Workshop, Tower, The Rift) - 7 boss battles with unique patterns - Story scenes (skippable) - English and Hindi - Hint system: stuck? Watch a short video ad to see the full room solution - Progress auto-saves, with export/import backup - Keyboard, gam",
     "howToPlay": "Move Left Right arrows or A D Jump Space W or Up Restart R Hint H Mute M Pause Esc or P Gamepad A jump Y hint Select restart Start pause Mobile on-screen buttons left right jump",
     "controls": [
       {
@@ -32016,7 +32016,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "33 card game variants in one collection. Play familiar solitaires, discover new rules and pick the difficulty &mdash; from a calm deal to a real puzzle. Modes include Klondike with draw one or three; Spider with one, two or four suits; FreeCell; Pyramid; Vegas; Yukon, Russian Solitaire and Alaska; Scorpion; Forty Thieves and Josephine; Tri Peaks; Golf; Eight Off; Double Klondike and Easthaven; Spiderette and Simple Simon; Memory on a normal or large board. Take daily challenges, journeys with quests, collect keys, postcards and achievements. Customize card faces, backs and backgrounds, enable dark mode and left-handed layout. Hints, undo and auto",
+    "description": "33 card game variants in one collection. Play familiar solitaires, discover new rules and pick the difficulty - from a calm deal to a real puzzle. Modes include Klondike with draw one or three; Spider with one, two or four suits; FreeCell; Pyramid; Vegas; Yukon, Russian Solitaire and Alaska; Scorpion; Forty Thieves and Josephine; Tri Peaks; Golf; Eight Off; Double Klondike and Easthaven; Spiderette and Simple Simon; Memory on a normal or large board. Take daily challenges, journeys with quests, collect keys, postcards and achievements. Customize card faces, backs and backgrounds, enable dark mode and left-handed layout. Hints, undo and auto",
     "howToPlay": "How to play - Pick a solitaire from the collection and a difficulty level - Lay out cards by the rules of the mode build sequences pairs or tableaus as required -In Klondike-style games build foundations by suit from ace up on the tableau build dow",
     "controls": [
       {
@@ -32838,8 +32838,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "ball-packing-master-puzzle-ndash-fill-box",
-    "title": "Ball Packing Master Puzzle &ndash; Fill Box",
+    "slug": "ball-packing-master-puzzle-fill-box",
+    "title": "Ball Packing Master Puzzle - Fill Box",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.7,
@@ -32849,7 +32849,7 @@ const rawGames = [
     "width": 800,
     "height": 1422,
     "orientation": "portrait",
-    "description": "Sort colorful balls, fill the correct boxes, and solve satisfying sorting puzzles! Plan your moves carefully, use helpful boosters, and complete challenging levels. Ball packing mastar &ndash; Fill Box is a fun and relaxing puzzle game with simple controls, colorful visuals, smooth gameplay, and increasingly challenging levels. Can you sort every ball and complete them all?",
+    "description": "Sort colorful balls, fill the correct boxes, and solve satisfying sorting puzzles! Plan your moves carefully, use helpful boosters, and complete challenging levels. Ball packing mastar - Fill Box is a fun and relaxing puzzle game with simple controls, colorful visuals, smooth gameplay, and increasingly challenging levels. Can you sort every ball and complete them all?",
     "howToPlay": "Mouse Click and drag to move the balls Touch Tap and drag the balls on mobile devices",
     "controls": [
       {
@@ -32877,12 +32877,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Ball Packing Master Puzzle &ndash; Fill Box free to play on BlockHub.games?",
-        "a": "Yes, Ball Packing Master Puzzle &ndash; Fill Box is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Ball Packing Master Puzzle - Fill Box free to play on BlockHub.games?",
+        "a": "Yes, Ball Packing Master Puzzle - Fill Box is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Ball Packing Master Puzzle &ndash; Fill Box on mobile devices?",
-        "a": "Yes, Ball Packing Master Puzzle &ndash; Fill Box is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Ball Packing Master Puzzle - Fill Box on mobile devices?",
+        "a": "Yes, Ball Packing Master Puzzle - Fill Box is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -33388,7 +33388,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Draw rails and pipes to guide the rolling ball to the goal. Use planks, springs, accelerators and bumpers to build your own physics track. A simple but tricky physics puzzle game &mdash; think like an engineer, draw like an artist. Easy to pick up, relaxing to play, perfect for short breaks. No time limit, no pressure, just pure ball rolling fun.",
+    "description": "Draw rails and pipes to guide the rolling ball to the goal. Use planks, springs, accelerators and bumpers to build your own physics track. A simple but tricky physics puzzle game - think like an engineer, draw like an artist. Easy to pick up, relaxing to play, perfect for short breaks. No time limit, no pressure, just pure ball rolling fun.",
     "howToPlay": "Drag props from the panel to place them on the scene Tap the start button to launch the ball Drag placed props to reposition Tap delete to remove props",
     "controls": [
       {
@@ -33867,8 +33867,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "snack-amp-warp",
-    "title": "SNACK &amp; WARP",
+    "slug": "snack-and-warp",
+    "title": "SNACK & WARP",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.9,
@@ -33878,7 +33878,7 @@ const rawGames = [
     "width": 960,
     "height": 720,
     "orientation": "landscape",
-    "description": "One more apple... but will your tail still fit? SNACK &amp; WARP is a colorful puzzle adventure with 67 levels. Eat apples to grow, climb over obstacles and balance across gaps. Lift crates with your head, send them through paired portals, and use buttons to open doors or change platforms. A blade apple splits your worm into two equal halves: switch between them to hold a button, support a crate or jam a saw while the other worm explores. Plan your bites, save room to turn, and collect every apple before reaching the purple exit. Undo mistakes freely and find clever solutions to earn three stars. No timer: take your time and experiment!",
+    "description": "One more apple... but will your tail still fit? SNACK & WARP is a colorful puzzle adventure with 67 levels. Eat apples to grow, climb over obstacles and balance across gaps. Lift crates with your head, send them through paired portals, and use buttons to open doors or change platforms. A blade apple splits your worm into two equal halves: switch between them to hold a button, support a crate or jam a saw while the other worm explores. Plan your bites, save room to turn, and collect every apple before reaching the purple exit. Undo mistakes freely and find clever solutions to earn three stars. No timer: take your time and experiment!",
     "howToPlay": "Arrow keys WASD move On mobile swipe or use the arrow buttons Q or 1 2 choose a worm you can also tap it Z undo R restart Esc menu Collect all apples and meet the switch crate goals then guide either worm to the purple exit",
     "controls": [
       {
@@ -33906,12 +33906,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is SNACK &amp; WARP free to play on BlockHub.games?",
-        "a": "Yes, SNACK &amp; WARP is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is SNACK & WARP free to play on BlockHub.games?",
+        "a": "Yes, SNACK & WARP is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play SNACK &amp; WARP on mobile devices?",
-        "a": "Yes, SNACK &amp; WARP is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play SNACK & WARP on mobile devices?",
+        "a": "Yes, SNACK & WARP is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -34123,7 +34123,7 @@ const rawGames = [
     "width": 600,
     "height": 800,
     "orientation": "portrait",
-    "description": "Aim your tennis balls at a tower of cubes on the table and knock the whole lot down. Stone, wood, ice, jelly... every cube falls differently! Objective Bring down the tower. Each level drops you in front of a stack of cubes built from different materials &mdash; stone, wood, ice, jelly, cardboard, puzzle pieces &mdash; and your job is to topple the whole thing using your cannon. You dont win by blasting everything; you win by figuring out which cube is critical to the structure and knocking it out from under the rest. Clear all 69 towers to finish the game, and keep an eye out for TNT blocks!",
+    "description": "Aim your tennis balls at a tower of cubes on the table and knock the whole lot down. Stone, wood, ice, jelly... every cube falls differently! Objective Bring down the tower. Each level drops you in front of a stack of cubes built from different materials - stone, wood, ice, jelly, cardboard, puzzle pieces - and your job is to topple the whole thing using your cannon. You dont win by blasting everything; you win by figuring out which cube is critical to the structure and knocking it out from under the rest. Clear all 69 towers to finish the game, and keep an eye out for TNT blocks!",
     "howToPlay": "Computer - Click and hold to pull back the cannon aim by dragging and release to fire Phone or tablet - Tap and drag to pull back and aim then lift your finger to fire",
     "controls": [
       {
@@ -34270,7 +34270,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Royal Jelly Jam is a cozy Color Block Jam&ndash;style puzzle: slide each colored jelly block into the gate of its own color to melt it away, and clear the whole board before the timer runs out.",
+    "description": "Royal Jelly Jam is a cozy Color Block Jam-style puzzle: slide each colored jelly block into the gate of its own color to melt it away, and clear the whole board before the timer runs out.",
     "howToPlay": "Drag a colored block toward the gate of the same color it slides across the board and melts through the matching gate Clear every block before time runs out to finish the level",
     "controls": [
       {
@@ -35250,7 +35250,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Goods Master is a relaxing sorting puzzle where your job is to tidy up the shelves. Jars, bottles and boxes are scattered across the store &mdash; drag them around until every shelf holds one matching set of goods. Complete a shelf and it clears away, making room for the next batch. You only get a limited number of moves per level, so think before you tap. Use boosters when you get stuck: shuffle the items, transform a good into another one, or merge them with the hammer tool. Over 20 hand-crafted levels with growing difficulty, colorful cartoon art and satisfying combo effects.",
+    "description": "Goods Master is a relaxing sorting puzzle where your job is to tidy up the shelves. Jars, bottles and boxes are scattered across the store - drag them around until every shelf holds one matching set of goods. Complete a shelf and it clears away, making room for the next batch. You only get a limited number of moves per level, so think before you tap. Use boosters when you get stuck: shuffle the items, transform a good into another one, or merge them with the hammer tool. Over 20 hand-crafted levels with growing difficulty, colorful cartoon art and satisfying combo effects.",
     "howToPlay": "Mouse touch only Tap or click a good to pick it up then tap the shelf slot where you want to place it Fill a shelf with matching goods to clear it Tap the booster icons at the bottom to shuffle transform or merge items Sound can be toggled with th",
     "controls": [
       {
@@ -35691,7 +35691,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "You are the night guard of Block 13 &mdash; a crumbling Soviet-era apartment block where something is very wrong. Every night, visitors appear at the window claiming to be residents. Some are telling the truth. Some are shapeshifters wearing stolen faces. One wrong decision &mdash; letting the wrong one in, or turning away someone real &mdash; ends the night, and the building remembers. Survive all 7 nights. Prove you belong in the block.",
+    "description": "You are the night guard of Block 13 - a crumbling Soviet-era apartment block where something is very wrong. Every night, visitors appear at the window claiming to be residents. Some are telling the truth. Some are shapeshifters wearing stolen faces. One wrong decision - letting the wrong one in, or turning away someone real - ends the night, and the building remembers. Survive all 7 nights. Prove you belong in the block.",
     "howToPlay": "WASD Move Mouse Look around E Interact Inspect items passport journal phone keys letter book receipt Green Button Let the visitor in Red Button Deny the visitor Esc Pause menu Shi",
     "controls": [
       {
@@ -35887,7 +35887,7 @@ const rawGames = [
     "width": 854,
     "height": 480,
     "orientation": "landscape",
-    "description": "Funny Putin Face is a lighthearted parody game where you can twist and stretch Putin&rsquo;s face into outrageous, cartoonish expressions. It&rsquo;s all about humor and creativity no scores, no competition, just pure fun. This game is meant for laughs only and should not be taken seriously. Jump in, experiment with silly distortions, and enjoy the absurd results!",
+    "description": "Funny Putin Face is a lighthearted parody game where you can twist and stretch Putin's face into outrageous, cartoonish expressions. It's all about humor and creativity no scores, no competition, just pure fun. This game is meant for laughs only and should not be taken seriously. Jump in, experiment with silly distortions, and enjoy the absurd results!",
     "howToPlay": "Mouse to play",
     "controls": [
       {
@@ -36132,7 +36132,7 @@ const rawGames = [
     "width": 350,
     "height": 700,
     "orientation": "portrait",
-    "description": "Can you find the path to the gold key? Welcome to Rolling Cubes, the ultimate 3D spatial puzzle game that challenges your logic, strategy, and problem-solving skills! Your mission is simple: control the cube, navigate through tricky grids, interact with mechanical hazards, and reach the final gold key to unlock the next level. Dual Control Options Play exactly how you want! Rolling Cubes features flexible controls tailored for your comfort: Swipe Mode: Smooth, intuitive swipes to roll the cube naturally. Arrow Mode: Classic on-screen directional buttons for pixel-perfect precision. How to Play &amp; Master Roll to Move: Guide your cube bloc",
+    "description": "Can you find the path to the gold key? Welcome to Rolling Cubes, the ultimate 3D spatial puzzle game that challenges your logic, strategy, and problem-solving skills! Your mission is simple: control the cube, navigate through tricky grids, interact with mechanical hazards, and reach the final gold key to unlock the next level. Dual Control Options Play exactly how you want! Rolling Cubes features flexible controls tailored for your comfort: Swipe Mode: Smooth, intuitive swipes to roll the cube naturally. Arrow Mode: Classic on-screen directional buttons for pixel-perfect precision. How to Play & Master Roll to Move: Guide your cube bloc",
     "howToPlay": "Mouse click or arrows to play",
     "controls": [
       {
@@ -36769,7 +36769,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Pinny Go Home is a fun 2D physics puzzle adventure where you help a cute penguin trapped inside a giant water bubble return to the icy land. Shoot small bubbles to create force, control Pinny&rsquo;s direction, avoid dangerous obstacles, and use underwater currents to your advantage. Master the perfect angle and timing to overcome challenging levels in this creative, addictive physics-based puzzle game!",
+    "description": "Pinny Go Home is a fun 2D physics puzzle adventure where you help a cute penguin trapped inside a giant water bubble return to the icy land. Shoot small bubbles to create force, control Pinny's direction, avoid dangerous obstacles, and use underwater currents to your advantage. Master the perfect angle and timing to overcome challenging levels in this creative, addictive physics-based puzzle game!",
     "howToPlay": "Use mouse to play",
     "controls": [
       {
@@ -36867,7 +36867,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sokoban Master is a challenging and addictive puzzle game inspired by the classic Sokoban experience. Your mission is simple: push every crate onto its target position. But be careful&mdash;crates can only be pushed, never pulled, so every move matters! Progress through multiple difficulty levels, from beginner-friendly puzzles to more challenging stages. Earn stars by completing levels efficiently, track your moves and progress, unlock achievements, and even create your own puzzles with the built-in Level Editor.",
+    "description": "Sokoban Master is a challenging and addictive puzzle game inspired by the classic Sokoban experience. Your mission is simple: push every crate onto its target position. But be careful-crates can only be pushed, never pulled, so every move matters! Progress through multiple difficulty levels, from beginner-friendly puzzles to more challenging stages. Earn stars by completing levels efficiently, track your moves and progress, unlock achievements, and even create your own puzzles with the built-in Level Editor.",
     "howToPlay": "Desktop Arrow Keys or WASD mdash Move Z mdash Undo move Mobile Touch click the game board to move Use the on-screen D-pad controls",
     "controls": [
       {
@@ -36916,7 +36916,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Cocoon Crossing 3D is a cozy 3D routing puzzle. Every caterpillar wants to reach the cocoon of its own colour &mdash; drag its head or tail and it crawls, tile by tile, across a sunlit garden board. The twist is over-and-under: two caterpillars cant share a tile on the same level, but at a crossing one climbs over a bridge while the other slips under a tunnel. Untangle the paths, work around rocks, mud, thorns, ice and one-way gates, and bring every worm home to hatch into a butterfly. 140 handcrafted levels, an endless Zen mode, a daily puzzle, and collectible butterflies.",
+    "description": "Cocoon Crossing 3D is a cozy 3D routing puzzle. Every caterpillar wants to reach the cocoon of its own colour - drag its head or tail and it crawls, tile by tile, across a sunlit garden board. The twist is over-and-under: two caterpillars cant share a tile on the same level, but at a crossing one climbs over a bridge while the other slips under a tunnel. Untangle the paths, work around rocks, mud, thorns, ice and one-way gates, and bring every worm home to hatch into a butterfly. 140 handcrafted levels, an endless Zen mode, a daily puzzle, and collectible butterflies.",
     "howToPlay": "Mouse or touch Drag a caterpillars head or tail to make it crawl toward its matching cocoon At a crossing route one worm over a bridge and the other under a tunnel",
     "controls": [
       {
@@ -37602,7 +37602,7 @@ const rawGames = [
     "width": 480,
     "height": 854,
     "orientation": "portrait",
-    "description": "Trump Wall Building is a fun and free online game for kids. The goal is to create the funniest face for our lovable president and watch him build the wall! This is a lighthearted parody game, so don&rsquo;t take it too seriously. Have fun and enjoy the game!",
+    "description": "Trump Wall Building is a fun and free online game for kids. The goal is to create the funniest face for our lovable president and watch him build the wall! This is a lighthearted parody game, so don't take it too seriously. Have fun and enjoy the game!",
     "howToPlay": "Mouse to play",
     "controls": [
       {
@@ -37651,7 +37651,7 @@ const rawGames = [
     "width": 800,
     "height": 450,
     "orientation": "landscape",
-    "description": "Every bird has its perfect trio&mdash;can you find them all? Match three identical bird tiles, reveal hidden layers, and clear beautifully crafted puzzle boards. Unlock achievements, earn high scores, and challenge your mind in a relaxing tile-matching adventure filled with vibrant bird artwork.",
+    "description": "Every bird has its perfect trio-can you find them all? Match three identical bird tiles, reveal hidden layers, and clear beautifully crafted puzzle boards. Unlock achievements, earn high scores, and challenge your mind in a relaxing tile-matching adventure filled with vibrant bird artwork.",
     "howToPlay": "Use a mouse or touchpad to select open tiles match three identical bird tiles and clear all the tiles to complete the level",
     "controls": [
       {
@@ -37994,7 +37994,7 @@ const rawGames = [
     "width": 480,
     "height": 850,
     "orientation": "portrait",
-    "description": "Welcome to PixelBlock, where classic block puzzle mechanics meet explosive, satisfying destruction! You dont just drop blocks and clear lines&mdash;you smash beautiful block art into pieces in a spectacular display of visual effects!",
+    "description": "Welcome to PixelBlock, where classic block puzzle mechanics meet explosive, satisfying destruction! You dont just drop blocks and clear lines-you smash beautiful block art into pieces in a spectacular display of visual effects!",
     "howToPlay": "Mouse Drag and Place",
     "controls": [
       {
@@ -38092,7 +38092,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Welcome to Transylvanias finest cocktail bar &mdash; where the plumbing runs red. Drop pipe pieces onto the grid and build a path from the barrel to the glass before the blood starts flowing. You have a few seconds of calm at the start of every level, then the pressure builds and the red tide begins to creep along your pipework. Stay ahead of it. Tap an empty tile to place the next piece from your queue. Tap a piece youve already placed to rotate it. But watch out: some pipes come bolted down with golden rivets and cant be turned at all, some tiles are dead stone that block the flow completely,",
+    "description": "Welcome to Transylvanias finest cocktail bar - where the plumbing runs red. Drop pipe pieces onto the grid and build a path from the barrel to the glass before the blood starts flowing. You have a few seconds of calm at the start of every level, then the pressure builds and the red tide begins to creep along your pipework. Stay ahead of it. Tap an empty tile to place the next piece from your queue. Tap a piece youve already placed to rotate it. But watch out: some pipes come bolted down with golden rivets and cant be turned at all, some tiles are dead stone that block the flow completely,",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -39170,7 +39170,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Enter the exciting world of Monster Bounce, a fun and addictive arcade game where timing, focus, and quick reflexes are the key to survival. Control your bouncing monster and guide it through challenging obstacles, tricky platforms, and endless levels filled with surprises. The goal is simple &ndash; keep bouncing, avoid dangers, and go as far as you can!",
+    "description": "Enter the exciting world of Monster Bounce, a fun and addictive arcade game where timing, focus, and quick reflexes are the key to survival. Control your bouncing monster and guide it through challenging obstacles, tricky platforms, and endless levels filled with surprises. The goal is simple - keep bouncing, avoid dangers, and go as far as you can!",
     "howToPlay": "- To click any button use mouse",
     "controls": [
       {
@@ -39513,7 +39513,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Last Call: Drunken Boxer drops you into a tactical 3D boxing game where unpredictable ragdoll knockdowns and dramatic ringside action define every bout. Four fighters, each carrying unique special moves, stand ready before you choose your path &mdash; a single opponent or a full tournament of 12 rivals. Several scenes show humanoid figures composed of simple oval limbs and sphere-shaped heads lining the ring perimeter.",
+    "description": "Last Call: Drunken Boxer drops you into a tactical 3D boxing game where unpredictable ragdoll knockdowns and dramatic ringside action define every bout. Four fighters, each carrying unique special moves, stand ready before you choose your path - a single opponent or a full tournament of 12 rivals. Several scenes show humanoid figures composed of simple oval limbs and sphere-shaped heads lining the ring perimeter.",
     "howToPlay": "Controls WASD Arrow Keys Move J Jab K Cross L Uppercut Space Block Shift Direction Dodge I Special Move O Feint Esc P Pause On-screen controls Mobile input",
     "controls": [
       {
@@ -39611,7 +39611,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Football Pinball is a pinball table shaped like a football pitch, seen from your own end. Two flippers are all you get. The ball rolls down at you, and whatever drains between them is a goal for the other side &mdash; there is a net down there too, so you get to watch it happen. Kick it back up the table, past three midfielders and a keeper who tracks it along his own line, and put it in the goal at the far end. Ninety seconds, more goals wins, level is a draw.",
+    "description": "Football Pinball is a pinball table shaped like a football pitch, seen from your own end. Two flippers are all you get. The ball rolls down at you, and whatever drains between them is a goal for the other side - there is a net down there too, so you get to watch it happen. Kick it back up the table, past three midfielders and a keeper who tracks it along his own line, and put it in the goal at the far end. Ninety seconds, more goals wins, level is a draw.",
     "howToPlay": "Left arrow A or Z works the left flipper right arrow D or works the right one Space works both On a phone or tablet tap the left half of the screen for the left flipper and the right half for the right one",
     "controls": [
       {
@@ -39660,7 +39660,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "One descent down a freshly dealt mountain &mdash; gravity is the engine, and your air rotation is the only resource you cant take back. Follow the speed signs, land on the back of every hill, hop the boulders, ride the logs like rails. One wipeout ends the run: finish for a star, ring every cone for two, beat par time for three. How fast can you get the duck down?",
+    "description": "One descent down a freshly dealt mountain - gravity is the engine, and your air rotation is the only resource you cant take back. Follow the speed signs, land on the back of every hill, hop the boulders, ride the logs like rails. One wipeout ends the run: finish for a star, ring every cone for two, beat par time for three. How fast can you get the duck down?",
     "howToPlay": "Keyboard mdash W uarr throttle S darr rear brake A larr and D rarr shift weight wheelie amp stoppie on the ground spin in the air Space hop P or Esc pause Enter R retry the same trail N deal a new trail M back to the title card Touc",
     "controls": [
       {
@@ -39807,7 +39807,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for an exciting Bike Racing 3D experience! Ride powerful motorcycles through busy highways, forests, deserts, snowy roads, and stunning city environments. Choose from multiple high-performance bikes, each with unique abilities and upgrades. Free Ride &ndash; Endless Gameplay: Race through traffic, avoid vehicles, perform near misses, and enjoy endless highway riding across different environments. Challenging Missions: Complete exciting objectives, master different tracks, earn rewards, and improve your riding skills. Time Trial: Race against the clock, reach the finish line before time runs out.",
+    "description": "Get ready for an exciting Bike Racing 3D experience! Ride powerful motorcycles through busy highways, forests, deserts, snowy roads, and stunning city environments. Choose from multiple high-performance bikes, each with unique abilities and upgrades. Free Ride - Endless Gameplay: Race through traffic, avoid vehicles, perform near misses, and enjoy endless highway riding across different environments. Challenging Missions: Complete exciting objectives, master different tracks, earn rewards, and improve your riding skills. Time Trial: Race against the clock, reach the finish line before time runs out.",
     "howToPlay": "Easy Controls Control your bike using simple and responsive controls Tap the Left and Right buttons to steer use the Accelerator to increase speed and press the Brake button to slow down You can also choose Tilt Controls to steer your motorcycle",
     "controls": [
       {
@@ -41130,7 +41130,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "STRESSED? PUNCH IT AWAY! Brainrot: Box Champion! &mdash; the 3D boxing game that turns your bad day into a knockout victory. Walk, dodge, and punch your way through 6 levels of brainrot madness. From sad Sahurs to the legendary Gigachad &mdash; every punch feels like relief. WHY YOU WILL LOVE IT: &bull; Release stress with every punch &mdash; satisfying, crunchy, and loud &bull; 6 difficulty levels &mdash; from Very Easy to Impossible &bull; 5 unique enemies &mdash; Sad Sahur, Angry Sahur, Fit Sahur, and more! &bull; Upgrade your Strength &amp; Health with every win &bull; Final goal: defeat Gigachad and win the Champion Cup!",
+    "description": "STRESSED? PUNCH IT AWAY! Brainrot: Box Champion! - the 3D boxing game that turns your bad day into a knockout victory. Walk, dodge, and punch your way through 6 levels of brainrot madness. From sad Sahurs to the legendary Gigachad - every punch feels like relief. WHY YOU WILL LOVE IT: &bull; Release stress with every punch - satisfying, crunchy, and loud &bull; 6 difficulty levels - from Very Easy to Impossible &bull; 5 unique enemies - Sad Sahur, Angry Sahur, Fit Sahur, and more! &bull; Upgrade your Strength & Health with every win &bull; Final goal: defeat Gigachad and win the Champion Cup!",
     "howToPlay": "CONTROLS PC WASD mdash Move Left Click mdash Punch Right Click hold mdash Look Tab - Pause MOBILE Joystick mdash Walk Swipe mdash Look PUNCH button mdash Punch",
     "controls": [
       {
@@ -41326,7 +41326,7 @@ const rawGames = [
     "width": 960,
     "height": 540,
     "orientation": "landscape",
-    "description": "Zoolympics is a fast, family-friendly Animal Olympics arcade game! Build a team of cartoon animal athletes &mdash; cheetah, gorilla, kangaroo, sloth, elephant and more &mdash; and mash the buttons to sprint, jump, throw, swim and lift your way to gold. Earn coins, win medals, train your roster and recruit stronger athletes. Climb the global leaderboards and challenge rivals in the Arena. Quick to pick up, hard to put down, with 15+ events across Running, Jumps, Throws, Strength, Water and Aim. Plays great in the browser on mobile (landscape) and desktop. Free to play &mdash; English &amp; Italian.",
+    "description": "Zoolympics is a fast, family-friendly Animal Olympics arcade game! Build a team of cartoon animal athletes - cheetah, gorilla, kangaroo, sloth, elephant and more - and mash the buttons to sprint, jump, throw, swim and lift your way to gold. Earn coins, win medals, train your roster and recruit stronger athletes. Climb the global leaderboards and challenge rivals in the Arena. Quick to pick up, hard to put down, with 15+ events across Running, Jumps, Throws, Strength, Water and Aim. Plays great in the browser on mobile (landscape) and desktop. Free to play - English & Italian.",
     "howToPlay": "Tap the LEFT and RIGHT zones alternately to build speed and power Use the central action button to jump release a throw or hit the timing window Follow the on-screen power timing bar to maximize your score Works with touch on mobile and mouse keyboar",
     "controls": [
       {
@@ -41571,7 +41571,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Lead your growing crowd of soccer balls down the pitch in this fast-paced football runner! Race through colorful gates &mdash; some multiply your team, others shrink it, so steer wisely to keep your crowd as big as possible. Dodge red-and-white traffic cones blocking your path, or youll lose balls on impact. The more balls you bring to the finish line, the bigger the victory tower you build and the higher your score! Race through 3 action-packed levels filled with gates, obstacles, and surprises. Controls are simple: just drag left or right to steer your crowd through the gaps &mdash; easy to learn, hard to put down. How many soccer balls can you bring",
+    "description": "Lead your growing crowd of soccer balls down the pitch in this fast-paced football runner! Race through colorful gates - some multiply your team, others shrink it, so steer wisely to keep your crowd as big as possible. Dodge red-and-white traffic cones blocking your path, or youll lose balls on impact. The more balls you bring to the finish line, the bigger the victory tower you build and the higher your score! Race through 3 action-packed levels filled with gates, obstacles, and surprises. Controls are simple: just drag left or right to steer your crowd through the gaps - easy to learn, hard to put down. How many soccer balls can you bring",
     "howToPlay": "Desktop Drag with your mouse or use the Left Right arrow keys to steer your crowd of soccer balls Press Space or double-click to jump Mobile Swipe left or right to steer double-tap to jump",
     "controls": [
       {
@@ -42159,7 +42159,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Bike Stunt Game is a thrilling 2.5D arcade racer where you perform insane tricks on a motorbike. Choose from three modes &ndash; Time Trial (beat the clock), Trick Challenge (earn style points), or Survival (avoid crashes at all costs). With a unique side-scrolling perspective that blends 2D gameplay with 3D depth, youll navigate ramps, loops, and obstacles across a handful of hand-crafted levels. What makes it unique? The 2.5D view gives you depth perception for landing perfect jumps while keeping simple side-scroller controls. Unlock new bikes as you master each level. Works flawlessly on desktop and mobile browsers.",
+    "description": "Bike Stunt Game is a thrilling 2.5D arcade racer where you perform insane tricks on a motorbike. Choose from three modes - Time Trial (beat the clock), Trick Challenge (earn style points), or Survival (avoid crashes at all costs). With a unique side-scrolling perspective that blends 2D gameplay with 3D depth, youll navigate ramps, loops, and obstacles across a handful of hand-crafted levels. What makes it unique? The 2.5D view gives you depth perception for landing perfect jumps while keeping simple side-scroller controls. Unlock new bikes as you master each level. Works flawlessly on desktop and mobile browsers.",
     "howToPlay": "Complete each level by reaching the finish line Your bike moves forward automatically mdash just control balance and tricks Desktop ndash Up down arrows to lean forward backward Spacebar to jump Hold down during jumps to perform tricks backflip",
     "controls": [
       {
@@ -42453,7 +42453,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Basket Fill is the most satisfying sports puzzle game youll play! Draw arrows to guide colorful sports balls &mdash; football, basketball, tennis ball and more &mdash; into their matching colored baskets. Navigate portals, magnets, spinning wheels and wall bumpers across 120 handcrafted levels. Master 5 special balls: ghost, heavy, bouncy, split and rainbow! Score multiple baskets simultaneously for SLAM DUNK combos. Three difficulty modes, 6 boss challenges, full progress saving!",
+    "description": "Basket Fill is the most satisfying sports puzzle game youll play! Draw arrows to guide colorful sports balls - football, basketball, tennis ball and more - into their matching colored baskets. Navigate portals, magnets, spinning wheels and wall bumpers across 120 handcrafted levels. Master 5 special balls: ghost, heavy, bouncy, split and rainbow! Score multiple baskets simultaneously for SLAM DUNK combos. Three difficulty modes, 6 boss challenges, full progress saving!",
     "howToPlay": "Draw arrows to guide colored sports balls into matching baskets Navigate obstacles use special balls chain simultaneous scores for slam dunks",
     "controls": [
       {
@@ -42551,7 +42551,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Start your adventure in Monster Demolish Mode, where you smash obstacles and destroy everything across 10 challenging levels. Switch to Monster Stunt Mode to perform crazy jumps and drive on impossible tracks with 10 exciting stunt levels. -Modes: Demolish &amp; Stunt -20 Levels (10 each mode) -Realistic monster vehicle controls -Rewind feature to retry anytime -Multiple camera views -Music and horn system -Smooth and engaging gameplay",
+    "description": "Start your adventure in Monster Demolish Mode, where you smash obstacles and destroy everything across 10 challenging levels. Switch to Monster Stunt Mode to perform crazy jumps and drive on impossible tracks with 10 exciting stunt levels. -Modes: Demolish & Stunt -20 Levels (10 each mode) -Realistic monster vehicle controls -Rewind feature to retry anytime -Multiple camera views -Music and horn system -Smooth and engaging gameplay",
     "howToPlay": "PC Use WASD or Arrow Keys to drive Mobile Use on-screen buttons to control the vehicle Use race button to accelerate and brake to stop",
     "controls": [
       {
@@ -42600,7 +42600,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Ball Chain Blast is the sweetest sports puzzle game ever! Draw chains connecting matching sports balls &mdash; football, basketball, tennis, volleyball and more &mdash; then blast them for massive points! Chain 8+ balls for LEGENDARY combos and epic score multipliers. Master 5 special balls: bombs, rainbows, multipliers, frozen balls and mega balls. Complete 100 levels, defeat 5 hilarious boss opponents, and collect power-ups. Three difficulty modes, full progress saving &mdash; chain your way to glory!",
+    "description": "Ball Chain Blast is the sweetest sports puzzle game ever! Draw chains connecting matching sports balls - football, basketball, tennis, volleyball and more - then blast them for massive points! Chain 8+ balls for LEGENDARY combos and epic score multipliers. Master 5 special balls: bombs, rainbows, multipliers, frozen balls and mega balls. Complete 100 levels, defeat 5 hilarious boss opponents, and collect power-ups. Three difficulty modes, full progress saving - chain your way to glory!",
     "howToPlay": "Draw chains connecting matching sports balls then release to blast them Chain longer for bigger scores Defeat bosses across 100 candy-sweet levels",
     "controls": [
       {
@@ -42747,7 +42747,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "16:12Birdie Bounce is a fun arcade golf game where you bounce your ball across platforms to reach the hole. Hold to charge your shot, aim carefully and release! 50 holes across 5 stunning courses &mdash; from the seaside to the jungle, all the way to outer space. The fewer shots you take, the more stars you earn. Can you score a hole in one? Easy to learn, tough to master!",
+    "description": "16:12Birdie Bounce is a fun arcade golf game where you bounce your ball across platforms to reach the hole. Hold to charge your shot, aim carefully and release! 50 holes across 5 stunning courses - from the seaside to the jungle, all the way to outer space. The fewer shots you take, the more stars you earn. Can you score a hole in one? Easy to learn, tough to master!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -42845,7 +42845,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for a fun and challenging football experience with Soccer Drop! This exciting physics-based puzzle game combines soccer action with brain-teasing gameplay, giving you a unique and addictive challenge. Your goal is simple &ndash; drop the soccer ball at the right time and guide it perfectly into the goal. But it&rsquo;s not as easy as it sounds! You&rsquo;ll need precise timing, smart thinking, and quick reactions to overcome obstacles and complete each level.",
+    "description": "Get ready for a fun and challenging football experience with Soccer Drop! This exciting physics-based puzzle game combines soccer action with brain-teasing gameplay, giving you a unique and addictive challenge. Your goal is simple - drop the soccer ball at the right time and guide it perfectly into the goal. But it's not as easy as it sounds! You'll need precise timing, smart thinking, and quick reactions to overcome obstacles and complete each level.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -42943,7 +42943,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Ultra Kick is the ultimate penalty shootout experience! Step up to the spot, read the goalkeeper, and fire into the top corners. Master 4 deadly shot types &mdash; normal, curve ball, power blast, and the cheeky chip shot. Chain goals for hat-trick bonuses, upgrade your skills in the Transfer Market, and face 3 legendary boss goalkeepers: The Wall, Lightning Hands, and the mysterious Oracle. Three difficulty modes. One question: can you score?",
+    "description": "Ultra Kick is the ultimate penalty shootout experience! Step up to the spot, read the goalkeeper, and fire into the top corners. Master 4 deadly shot types - normal, curve ball, power blast, and the cheeky chip shot. Chain goals for hat-trick bonuses, upgrade your skills in the Transfer Market, and face 3 legendary boss goalkeepers: The Wall, Lightning Hands, and the mysterious Oracle. Three difficulty modes. One question: can you score?",
     "howToPlay": "Aim with the moving cursor charge your power and shoot Chain goals for bonuses use 4 shot types and defeat legendary boss goalkeepers to win",
     "controls": [
       {
@@ -43237,7 +43237,7 @@ const rawGames = [
     "width": 480,
     "height": 720,
     "orientation": "portrait",
-    "description": "Step into the boots of a brave little farmer and outsmart the mischievous raccoons invading your fields! Runboy is a charming grid-based puzzle game that challenges your strategic thinking across dozens of hand-crafted levels. Navigate your farmer across an 8&times;10 tile board, collect scattered seeds, and avoid &mdash; or confront &mdash; the pesky raccoons lurking around every corner. Every move counts, so think carefully before you step!",
+    "description": "Step into the boots of a brave little farmer and outsmart the mischievous raccoons invading your fields! Runboy is a charming grid-based puzzle game that challenges your strategic thinking across dozens of hand-crafted levels. Navigate your farmer across an 8x10 tile board, collect scattered seeds, and avoid - or confront - the pesky raccoons lurking around every corner. Every move counts, so think carefully before you step!",
     "howToPlay": "The character can be controlled using the WASD keys on the keyboard",
     "controls": [
       {
@@ -43335,7 +43335,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Idle Sprint Race 3D is a fun and addictive track racing game where speed is everything&mdash;but control is just as important. Click rapidly to make your runner dash forward and leave opponents behind. But be careful: if you keep pushing past the critical limit, your character will lose balance and fall, costing you the race.",
+    "description": "Idle Sprint Race 3D is a fun and addictive track racing game where speed is everything-but control is just as important. Click rapidly to make your runner dash forward and leave opponents behind. But be careful: if you keep pushing past the critical limit, your character will lose balance and fall, costing you the race.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -44315,7 +44315,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Hoop Pair is a clean, skill-based basketball puzzler where you guide two balls at once into a single hoop. Instead of flicking or shooting, you draw a path&mdash;a simple guiding line&mdash;that both balls follow as they drop toward the basket. Each level challenges your timing, accuracy, and planning as obstacles, curves, and moving platforms come into play. Draw the right curve, angle, or bounce pattern to make sure both balls reach the hoop together. One perfect line can solve the entire puzzle&hellip; or send everything off course.",
+    "description": "Hoop Pair is a clean, skill-based basketball puzzler where you guide two balls at once into a single hoop. Instead of flicking or shooting, you draw a path-a simple guiding line-that both balls follow as they drop toward the basket. Each level challenges your timing, accuracy, and planning as obstacles, curves, and moving platforms come into play. Draw the right curve, angle, or bounce pattern to make sure both balls reach the hoop together. One perfect line can solve the entire puzzle&hellip; or send everything off course.",
     "howToPlay": "Put the ball fall in the basket",
     "controls": [
       {
@@ -44560,7 +44560,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Football Kick 3D is a fast-paced 3D soccer action game where you don&rsquo;t just dribble &mdash; you smash through defenders to claim the ball and score. Charge forward, knock enemies away with powerful tackles, steal possession, and push through the field toward the goal.",
+    "description": "Football Kick 3D is a fast-paced 3D soccer action game where you don't just dribble - you smash through defenders to claim the ball and score. Charge forward, knock enemies away with powerful tackles, steal possession, and push through the field toward the goal.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -44609,7 +44609,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for a heart-pounding motocross adventure in Stunt Bike Extreme &ndash; the ultimate physics-based bike racing game! Ride powerful stunt bikes through insane obstacle courses, master tricky terrain, and perform jaw-dropping flips, jumps, and tricks. Skill-Based Racing: Precision and timing matter! Only the best riders will conquer all stages. Extreme Tracks: Race across mountains, factories, and floating platforms. Insane Stunts: Defy gravity with backflips, air time, and near-impossible landings.",
+    "description": "Get ready for a heart-pounding motocross adventure in Stunt Bike Extreme - the ultimate physics-based bike racing game! Ride powerful stunt bikes through insane obstacle courses, master tricky terrain, and perform jaw-dropping flips, jumps, and tricks. Skill-Based Racing: Precision and timing matter! Only the best riders will conquer all stages. Extreme Tracks: Race across mountains, factories, and floating platforms. Insane Stunts: Defy gravity with backflips, air time, and near-impossible landings.",
     "howToPlay": "Right Arrow Drive Left Arrow Break Front Flip Up Arrow Back Flip Down Arrow 360 Jump Space bar",
     "controls": [
       {
@@ -44658,7 +44658,7 @@ const rawGames = [
     "width": 1024,
     "height": 600,
     "orientation": "landscape",
-    "description": "Just before Christmas night, zombies invade Santa&rsquo;s base and steal all the gifts! Guide Santa, launch him at the zombies, use physics to knock them down, clear every level and save Christmas! Full description A group of zombies attacks Santa&rsquo;s base and steals the presents meant for children. The elves are in shock &mdash; now it&rsquo;s up to you! Launch Santa Claus at the zombies, use physics to make them fall or crash, destroy all enemies and complete every level. Simple rules, fun physics, and a clear goal: recover the gifts and save Christmas! &zwj;",
+    "description": "Just before Christmas night, zombies invade Santa's base and steal all the gifts! Guide Santa, launch him at the zombies, use physics to knock them down, clear every level and save Christmas! Full description A group of zombies attacks Santa's base and steals the presents meant for children. The elves are in shock - now it's up to you! Launch Santa Claus at the zombies, use physics to make them fall or crash, destroy all enemies and complete every level. Simple rules, fun physics, and a clear goal: recover the gifts and save Christmas! &zwj;",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -44854,7 +44854,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready to dive into the electrifying world of football. Step into the thrilling world of football with the football champions game. Ultimate soccer game, the ultimate sports experience for fans of the beautiful football game. Whether you&rsquo;re a casual gamer or a hardcore football enthusiast, this game delivers realistic gameplay, immersive graphics, and strategic challenges that will keep you hooked for hours. Choose your favorite team and compete in intense matches where every pass, dribble, and goal matters in a football game.",
+    "description": "Get ready to dive into the electrifying world of football. Step into the thrilling world of football with the football champions game. Ultimate soccer game, the ultimate sports experience for fans of the beautiful football game. Whether you're a casual gamer or a hardcore football enthusiast, this game delivers realistic gameplay, immersive graphics, and strategic challenges that will keep you hooked for hours. Choose your favorite team and compete in intense matches where every pass, dribble, and goal matters in a football game.",
     "howToPlay": "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse Pass F Key Shoot Left Shift for power shots Tackle Left Ctrl for defensive nbsp actions",
     "controls": [
       {
@@ -44903,7 +44903,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Dunk Challenge is a skill game where you control a basketball, trying to get it into the hoop in the most skillful way possible. But its not that simple &mdash; unexpected obstacles always appear along the way, hindering your perfect shot. Adjust your direction, time your throws perfectly, and overcome all obstacles to score as many points as possible. Each basket scored is an exhilarating feeling, but each level presents a new challenge that requires finesse and quick reflexes.",
+    "description": "Dunk Challenge is a skill game where you control a basketball, trying to get it into the hoop in the most skillful way possible. But its not that simple - unexpected obstacles always appear along the way, hindering your perfect shot. Adjust your direction, time your throws perfectly, and overcome all obstacles to score as many points as possible. Each basket scored is an exhilarating feeling, but each level presents a new challenge that requires finesse and quick reflexes.",
     "howToPlay": "Use mouse to play",
     "controls": [
       {
@@ -45001,7 +45001,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Neon Mini Golf is a stylish HTML5 arcade mini-golf game featuring glowing neon graphics, realistic physics, and 39 handcrafted levels! Drag, aim, and release to shoot the ball toward the hole &mdash; but watch out for bumpers, walls, and teleporters that will challenge your aim and timing. Earn stars, unlock all levels, and experience a dazzling synthwave neon world full of color and precision. Features: - 39 unique and challenging levels - Realistic ball physics and smooth controls - Beautiful neon glow design - Works perfectly on desktop and mobile - Instant play, no download required",
+    "description": "Neon Mini Golf is a stylish HTML5 arcade mini-golf game featuring glowing neon graphics, realistic physics, and 39 handcrafted levels! Drag, aim, and release to shoot the ball toward the hole - but watch out for bumpers, walls, and teleporters that will challenge your aim and timing. Earn stars, unlock all levels, and experience a dazzling synthwave neon world full of color and precision. Features: - 39 unique and challenging levels - Realistic ball physics and smooth controls - Beautiful neon glow design - Works perfectly on desktop and mobile - Instant play, no download required",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -45050,7 +45050,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Finger Flick (a.k.a. Dedoball, Peg Game, or &ldquo;Peteleco&rdquo;) is a fast-paced physics game where you use your finger to flick a coin across the board, bounce off nails, and aim for goals. Known by many names around the world, this classic playground challenge now has a digital twist &mdash; smooth physics, satisfying collisions, and endless chances to test your skill!",
+    "description": "Finger Flick (a.k.a. Dedoball, Peg Game, or &ldquo;Peteleco&rdquo;) is a fast-paced physics game where you use your finger to flick a coin across the board, bounce off nails, and aim for goals. Known by many names around the world, this classic playground challenge now has a digital twist - smooth physics, satisfying collisions, and endless chances to test your skill!",
     "howToPlay": "You must click before the coin and flick to direction",
     "controls": [
       {
@@ -45344,7 +45344,7 @@ const rawGames = [
     "width": 750,
     "height": 1334,
     "orientation": "portrait",
-    "description": "Fast mini matches&mdash;pass, shoot, tackle, and challenge friends in local duels! Are you ready for a hearty football game? Probably maybe maybe... no referee.",
+    "description": "Fast mini matches-pass, shoot, tackle, and challenge friends in local duels! Are you ready for a hearty football game? Probably maybe maybe... no referee.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -45393,7 +45393,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Step into the fast-paced world of Pickle Ball Clash &mdash; a thrilling sports game where every match is a battle of skill, speed, and strategy. Customize your character, unlock powerful paddles, and climb the competitive ranks from backyard brawls to pro-level leagues. Whether youre smashing winners or pulling off trick shots, the court is yours to conquer. Are you ready to clash?",
+    "description": "Step into the fast-paced world of Pickle Ball Clash - a thrilling sports game where every match is a battle of skill, speed, and strategy. Customize your character, unlock powerful paddles, and climb the competitive ranks from backyard brawls to pro-level leagues. Whether youre smashing winners or pulling off trick shots, the court is yours to conquer. Are you ready to clash?",
     "howToPlay": "Swipe longer to hit the ball far Swipe short to hit the ball near",
     "controls": [
       {
@@ -45589,7 +45589,7 @@ const rawGames = [
     "width": 1024,
     "height": 600,
     "orientation": "landscape",
-    "description": "Super Basketball is a simple yet incredibly addictive game built on realistic physics! Just tap and slide the ball to adjust the angle and power, then shoot it straight into the hoop. With smooth physics and visual effects, every shot looks clear and exciting. It&rsquo;s an endless arcade challenge: score to advance through levels as the difficulty rises with four different random hoop movements. But be careful &mdash; you only have 3 shots to complete each level! HOW TO PLAY: Tap the screen. Drag the ball to adjust power and angle. Release to shoot!",
+    "description": "Super Basketball is a simple yet incredibly addictive game built on realistic physics! Just tap and slide the ball to adjust the angle and power, then shoot it straight into the hoop. With smooth physics and visual effects, every shot looks clear and exciting. It's an endless arcade challenge: score to advance through levels as the difficulty rises with four different random hoop movements. But be careful - you only have 3 shots to complete each level! HOW TO PLAY: Tap the screen. Drag the ball to adjust power and angle. Release to shoot!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -45638,7 +45638,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Engage your users with a fun and interactive Jigsaw Puzzle Game built with pure HTML5, CSS3, and JavaScript. This fully responsive game allows players to click or tap puzzle pieces, complete puzzles of different sizes, and enjoy a smooth, user-friendly experience. Perfect for websites, educational platforms, or entertainment apps, this game is easy to integrate and customize. Features include multiple puzzle sets, responsive design, timer &amp; move counter, and attractive animations to enhance gameplay.",
+    "description": "Engage your users with a fun and interactive Jigsaw Puzzle Game built with pure HTML5, CSS3, and JavaScript. This fully responsive game allows players to click or tap puzzle pieces, complete puzzles of different sizes, and enjoy a smooth, user-friendly experience. Perfect for websites, educational platforms, or entertainment apps, this game is easy to integrate and customize. Features include multiple puzzle sets, responsive design, timer & move counter, and attractive animations to enhance gameplay.",
     "howToPlay": "Drag amp drop puzzle pieces",
     "controls": [
       {
@@ -45687,7 +45687,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Doroppuboru 13 is a casual web-based puzzle game that involves falling objects, often in the form of balls or blocks, which the player needs to manage by positioning them correctly. The objective is typically to prevent the screen from filling up with objects by either clearing them or organizing them in specific patterns, similar to the mechanics of popular falling-block games like Tetris. As the game progresses, the difficulty increases, with faster speeds and more challenging patterns to manage. The game tests players&rsquo; quick thinking, reaction times, and ability to think ahead. With simple controls and an addictive gameplay loop,",
+    "description": "Doroppuboru 13 is a casual web-based puzzle game that involves falling objects, often in the form of balls or blocks, which the player needs to manage by positioning them correctly. The objective is typically to prevent the screen from filling up with objects by either clearing them or organizing them in specific patterns, similar to the mechanics of popular falling-block games like Tetris. As the game progresses, the difficulty increases, with faster speeds and more challenging patterns to manage. The game tests players' quick thinking, reaction times, and ability to think ahead. With simple controls and an addictive gameplay loop,",
     "howToPlay": "Keyboard Controls Arrow Keys Left Arrow Move the falling object ball to the left Right Arrow Move the falling object ball to the right Down Arrow Accelerate the falling speed of the object Quick drop Up Arrow Rotate or flip the object if rotati",
     "controls": [
       {
@@ -45834,7 +45834,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Goal.io &ndash; Score Big in This Free Football IO Game Online Looking for a fast-paced soccer game you can play right in your browser? Meet Goal.io &mdash; the ultimate free football io game online where reflexes, timing, and sharp shooting decide who rules the leaderboard. No downloads. No sign-ups. Just you, the ball, and 3 minutes to score big.",
+    "description": "Goal.io - Score Big in This Free Football IO Game Online Looking for a fast-paced soccer game you can play right in your browser? Meet Goal.io - the ultimate free football io game online where reflexes, timing, and sharp shooting decide who rules the leaderboard. No downloads. No sign-ups. Just you, the ball, and 3 minutes to score big.",
     "howToPlay": "WADS to move",
     "controls": [
       {
@@ -45883,7 +45883,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "&ldquo;Poker Online&rdquo; is a fun and easy way to enjoy classic Texas Holdem online. No real-money betting &mdash; just pure fun and strategy! Play against real players, feel the thrill, build strong hands, and become the best at the virtual table. With a user-friendly interface and quick matchmaking, it&rsquo;s everything you need for the perfect poker night. Features: Classic Texas Holdem rules Real-time matches with live opponents Colorful and intuitive interface",
+    "description": "&ldquo;Poker Online&rdquo; is a fun and easy way to enjoy classic Texas Holdem online. No real-money betting - just pure fun and strategy! Play against real players, feel the thrill, build strong hands, and become the best at the virtual table. With a user-friendly interface and quick matchmaking, it's everything you need for the perfect poker night. Features: Classic Texas Holdem rules Real-time matches with live opponents Colorful and intuitive interface",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -45932,7 +45932,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Foosball Pong: Arcade Soccer &amp; 2-Player Battles! The ultimate mix of foosball + Pong is here! Swipe, score, and defend in fast 2D matches vs AI or a friend (same-device multiplayer). Easy to learn, hard to master! Why Players Love It: 2-Player Mode &ndash; Battle friends on one device! (Perfect for duels!). Hybrid Gameplay &ndash; Foosball meets Pong in 5-minute arcade chaos! Realistic Physics &ndash; Every shot feels satisfying! Unlock Custom Kits &ndash; Personalize your team! Cup Tournaments &ndash; Win trophies vs AI! Challenge Your Friends! Download now and see who&rsquo;s the foosball champion!",
+    "description": "Foosball Pong: Arcade Soccer & 2-Player Battles! The ultimate mix of foosball + Pong is here! Swipe, score, and defend in fast 2D matches vs AI or a friend (same-device multiplayer). Easy to learn, hard to master! Why Players Love It: 2-Player Mode - Battle friends on one device! (Perfect for duels!). Hybrid Gameplay - Foosball meets Pong in 5-minute arcade chaos! Realistic Physics - Every shot feels satisfying! Unlock Custom Kits - Personalize your team! Cup Tournaments - Win trophies vs AI! Challenge Your Friends! Download now and see who's the foosball champion!",
     "howToPlay": "Swipe in mobile Arrow keyboard in PC",
     "controls": [
       {
@@ -46177,7 +46177,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Tennis Dash is a fast and fun game where a cute cat plays tennis like a pro! The tennis ball comes from different directions, and your job is to move the cat left and right to hit it. Be quick&mdash;if you miss the ball three times, the game is over! It&rsquo;s easy to play but really hard to master. Try to beat your own high score and keep the rally going!",
+    "description": "Tennis Dash is a fast and fun game where a cute cat plays tennis like a pro! The tennis ball comes from different directions, and your job is to move the cat left and right to hit it. Be quick-if you miss the ball three times, the game is over! It's easy to play but really hard to master. Try to beat your own high score and keep the rally going!",
     "howToPlay": "Desktop Click and Drag Left or Right Move the Cat bear Mobile Tap and drag Left or Right Move the Cat bear",
     "controls": [
       {
@@ -46226,7 +46226,7 @@ const rawGames = [
     "width": 600,
     "height": 1024,
     "orientation": "portrait",
-    "description": "Super Ball Juggling Remix is a fast-paced arcade game where you juggle a soccer ball without letting it drop &mdash; but with a twist! Travel across iconic locations like Paris, New York, Rome, Pisa, and Sydney, showcasing your freestyle skills in stunning backdrops. Simple to play, hard to master, and packed with global style &mdash; how long can you keep the ball in the air?",
+    "description": "Super Ball Juggling Remix is a fast-paced arcade game where you juggle a soccer ball without letting it drop - but with a twist! Travel across iconic locations like Paris, New York, Rome, Pisa, and Sydney, showcasing your freestyle skills in stunning backdrops. Simple to play, hard to master, and packed with global style - how long can you keep the ball in the air?",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -46373,7 +46373,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Underwater Aim dives deep into the classic 8-ball pool experience&mdash;now with a refreshing underwater twist! Challenge your skills in beautifully designed ocean-themed tables where every shot feels smooth and satisfying. Line up your cue, calculate the angles, and sink all your balls before your opponent in this immersive pool game. From shimmering jellyfish lights to coral-lined pockets, each level is bursting with aquatic charm. Play solo, challenge friends, or compete in underwater tournaments. Unlock cues, explore sea-themed arenas, and become the ultimate pool shark of the deep. Cue up and make a splash in Underwater Aim!",
+    "description": "Underwater Aim dives deep into the classic 8-ball pool experience-now with a refreshing underwater twist! Challenge your skills in beautifully designed ocean-themed tables where every shot feels smooth and satisfying. Line up your cue, calculate the angles, and sink all your balls before your opponent in this immersive pool game. From shimmering jellyfish lights to coral-lined pockets, each level is bursting with aquatic charm. Play solo, challenge friends, or compete in underwater tournaments. Unlock cues, explore sea-themed arenas, and become the ultimate pool shark of the deep. Cue up and make a splash in Underwater Aim!",
     "howToPlay": "Use mouse or touch scren for play game",
     "controls": [
       {
@@ -46520,7 +46520,7 @@ const rawGames = [
     "width": 1024,
     "height": 768,
     "orientation": "landscape",
-    "description": "Tiny Billiard is the ultimate mini pool game &ndash; fast, fun, and full of color! Dive into quick matches with smooth one-touch controls and challenge yourself with crazy trick shots. Unlock a variety of fun cues, each with its own style and effects. Whether youre a casual player or a billiard pro, Tiny Billiard offers addictive gameplay in a cute 2D cartoon world. Perfect for all ages!",
+    "description": "Tiny Billiard is the ultimate mini pool game - fast, fun, and full of color! Dive into quick matches with smooth one-touch controls and challenge yourself with crazy trick shots. Unlock a variety of fun cues, each with its own style and effects. Whether youre a casual player or a billiard pro, Tiny Billiard offers addictive gameplay in a cute 2D cartoon world. Perfect for all ages!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -46618,7 +46618,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Ring Master Legends is an action-packed boxing game that tests your speed, reflexes, and precision! Step into the ring and punch your way to victory by matching your gloves to the falling balls&mdash;use the Red glove for red balls and the Blue glove for blue balls. The more accurate your hits, the higher your score! With fast-paced gameplay, dynamic animations, and increasing difficulty, Ring Master Legends will keep you on your toes as you strive for the ultimate high score. Do you have what it takes to become a true legend of the ring? Step in, gear up, and start punching!",
+    "description": "Ring Master Legends is an action-packed boxing game that tests your speed, reflexes, and precision! Step into the ring and punch your way to victory by matching your gloves to the falling balls-use the Red glove for red balls and the Blue glove for blue balls. The more accurate your hits, the higher your score! With fast-paced gameplay, dynamic animations, and increasing difficulty, Ring Master Legends will keep you on your toes as you strive for the ultimate high score. Do you have what it takes to become a true legend of the ring? Step in, gear up, and start punching!",
     "howToPlay": "Click and break the balls",
     "controls": [
       {
@@ -46716,7 +46716,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for fast-paced, physics-driven air hockey action in Velocity Puck! Designed with Three.js for smooth 3D gameplay, this game brings intense one-on-one air hockey battles to life with dynamic puck physics, AI opponents, and character customization. Key Features: Realistic Physics &ndash; Experience high-speed gameplay with fluid puck movement and skill-based rebounds. Single &amp; Multiplayer (Coming Soon) &ndash; Challenge AI opponents or test your reflexes against real players. Customization &ndash; Choose from different characters and paddle colors to make your mark. Immersive Audio &amp; Visuals &ndash; Enjoy neon-lit arenas and satisfying sound",
+    "description": "Get ready for fast-paced, physics-driven air hockey action in Velocity Puck! Designed with Three.js for smooth 3D gameplay, this game brings intense one-on-one air hockey battles to life with dynamic puck physics, AI opponents, and character customization. Key Features: Realistic Physics - Experience high-speed gameplay with fluid puck movement and skill-based rebounds. Single & Multiplayer (Coming Soon) - Challenge AI opponents or test your reflexes against real players. Customization - Choose from different characters and paddle colors to make your mark. Immersive Audio & Visuals - Enjoy neon-lit arenas and satisfying sound",
     "howToPlay": "Basic Controls Move Paddle Mouse Touch Mouse Move your cursor to control the paddle Touchscreen Drag your finger to move the paddle Hit the Puck Simply move your paddle into the puck to strike it The force and angle determine the puck rsquo s m",
     "controls": [
       {
@@ -46814,7 +46814,7 @@ const rawGames = [
     "width": 800,
     "height": 500,
     "orientation": "landscape",
-    "description": "In this game, you will grab your favorite basketball and will try to score as many points as possible. All of the free throws will happen from different angles and distances. Pick your favorite team and try to be the best player around! There is a time limit, so you need to be quick. You have a total of 20 balls that you can use. It&rsquo;s no easy task, since you need to guess the angle and strength that you need to hit. How to play: - Pick up the ball over the table. - Press and hold left mouse button, when shooting, to increase the shooting force. Force will show on the right indicator. - Shoot and try to get the most score before time is over",
+    "description": "In this game, you will grab your favorite basketball and will try to score as many points as possible. All of the free throws will happen from different angles and distances. Pick your favorite team and try to be the best player around! There is a time limit, so you need to be quick. You have a total of 20 balls that you can use. It's no easy task, since you need to guess the angle and strength that you need to hit. How to play: - Pick up the ball over the table. - Press and hold left mouse button, when shooting, to increase the shooting force. Force will show on the right indicator. - Shoot and try to get the most score before time is over",
     "howToPlay": "WASD - Movement LMB - Shooting Space - Jump Aim - Mouse",
     "controls": [
       {
@@ -46912,7 +46912,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Become the Ultimate Archer in Bow Masters Arena! Are you ready to test your archery skills and compete against AI archers? Bow Masters Arena is the ultimate archery showdown where precision, strategy, and quick reflexes determine the champion. Train hard, master your shots, and enter thrilling battles against AI-controlled opponents to prove you are the best archer! How to Play? Train Your Skills &ndash; Perfect your aim and timing in practice mode. Compete in AI Tournaments &ndash; Face off against intelligent AI archers in high-stakes duels. Unlock Powerful Bows &ndash; Upgrade your weapons for more accuracy and strength.",
+    "description": "Become the Ultimate Archer in Bow Masters Arena! Are you ready to test your archery skills and compete against AI archers? Bow Masters Arena is the ultimate archery showdown where precision, strategy, and quick reflexes determine the champion. Train hard, master your shots, and enter thrilling battles against AI-controlled opponents to prove you are the best archer! How to Play? Train Your Skills - Perfect your aim and timing in practice mode. Compete in AI Tournaments - Face off against intelligent AI archers in high-stakes duels. Unlock Powerful Bows - Upgrade your weapons for more accuracy and strength.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -46961,7 +46961,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Baseball Star is a fun casual sports game that lets you feel the excitement and joy of playing baseball. As a star on the field. Swing the bat and hitting the ball. Hit the ball with precision. It&rsquo;s easy to start. But the challenges will get harder.",
+    "description": "Baseball Star is a fun casual sports game that lets you feel the excitement and joy of playing baseball. As a star on the field. Swing the bat and hitting the ball. Hit the ball with precision. It's easy to start. But the challenges will get harder.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47010,7 +47010,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Step onto the field and play football with your favorite cartoon stars in this action-packed, fun-filled game! Experience thrilling matches, show off your skills, and compete against other characters in exciting challenges. Whether you&rsquo;re scoring goals, making incredible passes, or defending your side, Football Stars offers endless entertainment for football fans of all ages. Join the fun and become a legend on the pitch!",
+    "description": "Step onto the field and play football with your favorite cartoon stars in this action-packed, fun-filled game! Experience thrilling matches, show off your skills, and compete against other characters in exciting challenges. Whether you're scoring goals, making incredible passes, or defending your side, Football Stars offers endless entertainment for football fans of all ages. Join the fun and become a legend on the pitch!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47255,7 +47255,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Are you ready for a tank battle with your friends? A tank battle with a soccer ball! Bring your friends and fight with tanks.Fill up your tanks&rsquo; ammunition and blow up all your friends&rsquo; tanks. While blowing up your friends&rsquo; tanks, don&rsquo;t forget to shoot the soccer ball. The player who gets the soccer ball to the goal wins. You need to score a goal to win. Team up with your friend in a 2vs2 game and work together to score a goal.",
+    "description": "Are you ready for a tank battle with your friends? A tank battle with a soccer ball! Bring your friends and fight with tanks.Fill up your tanks' ammunition and blow up all your friends' tanks. While blowing up your friends' tanks, don't forget to shoot the soccer ball. The player who gets the soccer ball to the goal wins. You need to score a goal to win. Team up with your friend in a 2vs2 game and work together to score a goal.",
     "howToPlay": "Green Tank Use WASD to move and Q to fire Blue Tank Use Arrow Keys to move and P to fire Yellow Tank Use UHJK to move and M to fire Red Tank Use FCVB to move and N to fire",
     "controls": [
       {
@@ -47304,7 +47304,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Welcome to Beach Volley Clash! This vibrant and energetic beach sports game takes you to a lively beach arena. You&rsquo;ll face off against powerful opponents. Use your skills and quick reflexes to hit the ball precisely and win every match!",
+    "description": "Welcome to Beach Volley Clash! This vibrant and energetic beach sports game takes you to a lively beach arena. You'll face off against powerful opponents. Use your skills and quick reflexes to hit the ball precisely and win every match!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47402,7 +47402,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Real GT Racing Simulator offers the ultimate driving experience for racing enthusiasts. Get behind the wheel of meticulously detailed cars and race on stunningly realistic tracks. Compete in high-speed circuits, fine-tune your vehicle for peak performance, and rise through the ranks to become a true racing legend. This game emphasizes authentic driving physics, customizable cars, and a variety of racing modes&mdash;from casual races to full championship tournaments. Perfect for players who crave a true motorsport challenge, Real GT Racing Simulator will test your skills and precision on every corner.",
+    "description": "Real GT Racing Simulator offers the ultimate driving experience for racing enthusiasts. Get behind the wheel of meticulously detailed cars and race on stunningly realistic tracks. Compete in high-speed circuits, fine-tune your vehicle for peak performance, and rise through the ranks to become a true racing legend. This game emphasizes authentic driving physics, customizable cars, and a variety of racing modes-from casual races to full championship tournaments. Perfect for players who crave a true motorsport challenge, Real GT Racing Simulator will test your skills and precision on every corner.",
     "howToPlay": "WASD - move esc - pause",
     "controls": [
       {
@@ -47500,7 +47500,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "best pool gaming with 3D graphics &amp; real-time 3D Zoom! So interesting, you can play like youre at a real pool table, cue in hand, aiming for a victorious shot!",
+    "description": "best pool gaming with 3D graphics & real-time 3D Zoom! So interesting, you can play like youre at a real pool table, cue in hand, aiming for a victorious shot!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47647,7 +47647,7 @@ const rawGames = [
     "width": 600,
     "height": 1024,
     "orientation": "portrait",
-    "description": "How many times can you juggle these two soccer balls? How to play: Tap the left side of the screen to kick the left football. Tap the right side of the screen to kick the right football. Don&rsquo;t let the balls fall! Warning: This game is highly addictive! Meet Sprunki - your quirky sidekick! Sprunki&rsquo;s always cheering you on with wild antics and funny comments as you juggle! The more you play, the crazier Sprunki gets, offering silly tips and goofy distractions that make the game even more fun. Keep those balls in the air... and see how long you can last before Sprunki cracks you up!",
+    "description": "How many times can you juggle these two soccer balls? How to play: Tap the left side of the screen to kick the left football. Tap the right side of the screen to kick the right football. Don't let the balls fall! Warning: This game is highly addictive! Meet Sprunki - your quirky sidekick! Sprunki's always cheering you on with wild antics and funny comments as you juggle! The more you play, the crazier Sprunki gets, offering silly tips and goofy distractions that make the game even more fun. Keep those balls in the air... and see how long you can last before Sprunki cracks you up!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47843,7 +47843,7 @@ const rawGames = [
     "width": 1336,
     "height": 640,
     "orientation": "landscape",
-    "description": "Want to begin a pixelated sports showdown like no other? In Drive Ahead! Sports, you&rsquo;ll be behind the wheel of amazing vehicles, engaging in exciting soccer matches! Enjoy the rush of driving and the fun of the game! Use your skills to kick the ball, attack the opponents goal, and aim for victory!",
+    "description": "Want to begin a pixelated sports showdown like no other? In Drive Ahead! Sports, you'll be behind the wheel of amazing vehicles, engaging in exciting soccer matches! Enjoy the rush of driving and the fun of the game! Use your skills to kick the ball, attack the opponents goal, and aim for victory!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -47892,7 +47892,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Drop the magical yellow Christmas Sphere into the festive Pachinko board and watch as it bounces through a dazzling winter wonderland! Navigate a maze of candy canes, sparkling ornaments, and jingling bells to rack up points. Aim for glowing snowflakes to unlock bonus rewards and hit the Santa Hat Zone for the ultimate Christmas jackpot! With every drop, you&rsquo;ll spread holiday cheer&mdash;can you score enough to top Santa&rsquo;s Nice List? Let the Xmas Plinkio fun begin - tap, drop, and win!",
+    "description": "Drop the magical yellow Christmas Sphere into the festive Pachinko board and watch as it bounces through a dazzling winter wonderland! Navigate a maze of candy canes, sparkling ornaments, and jingling bells to rack up points. Aim for glowing snowflakes to unlock bonus rewards and hit the Santa Hat Zone for the ultimate Christmas jackpot! With every drop, you'll spread holiday cheer-can you score enough to top Santa's Nice List? Let the Xmas Plinkio fun begin - tap, drop, and win!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -48088,7 +48088,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Embark on an exciting journey with Gravity Ball Adventures, a 2D physics-based puzzle game that puts you in control of a charming, bouncy ball. Your mission is to navigate through a series of challenging levels filled with intricate traps, obstacles, and pitfalls to reach the hoop at the end of each stage. Use your unique ability to manipulate gravity&mdash;turn it on and off&mdash;to overcome the obstacles in your path. Timing and precision are key as you flip gravity to avoid deadly spikes, dodge moving platforms, and slide past tricky barriers. Each level presents a new puzzle to solve, testing your reflexes and strategic thinking.",
+    "description": "Embark on an exciting journey with Gravity Ball Adventures, a 2D physics-based puzzle game that puts you in control of a charming, bouncy ball. Your mission is to navigate through a series of challenging levels filled with intricate traps, obstacles, and pitfalls to reach the hoop at the end of each stage. Use your unique ability to manipulate gravity-turn it on and off-to overcome the obstacles in your path. Timing and precision are key as you flip gravity to avoid deadly spikes, dodge moving platforms, and slide past tricky barriers. Each level presents a new puzzle to solve, testing your reflexes and strategic thinking.",
     "howToPlay": "W Gravity Off S Gravity On A Left D Right",
     "controls": [
       {
@@ -48186,7 +48186,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Are you ready to kick, bounce, and score? Bunny Goal combines the thrill of soccer with the fast-paced fun of pinball, creating a unique game that&rsquo;s perfect for all ages! Join our adorable bunny character on a journey to become a soccer superstar. Each level is packed with vibrant environments, challenging obstacles, and dynamic pinball action that requires quick reflexes and sharp strategy. Whether you&rsquo;re looking for a quick fun game to pass the time or aiming to beat every level and set a high score, Bunny Goal has something for everyone. Are you ready to take on the pinball soccer challenge and lead the bunny to victory?",
+    "description": "Are you ready to kick, bounce, and score? Bunny Goal combines the thrill of soccer with the fast-paced fun of pinball, creating a unique game that's perfect for all ages! Join our adorable bunny character on a journey to become a soccer superstar. Each level is packed with vibrant environments, challenging obstacles, and dynamic pinball action that requires quick reflexes and sharp strategy. Whether you're looking for a quick fun game to pass the time or aiming to beat every level and set a high score, Bunny Goal has something for everyone. Are you ready to take on the pinball soccer challenge and lead the bunny to victory?",
     "howToPlay": "Desktop Click hold and drag the mouse to aim the ball in the direction you want to shoot Release the mouse to launch the ball Mobile Simply tap and hold on the screen drag in the direction you want to aim and release to launch the ball",
     "controls": [
       {
@@ -48469,8 +48469,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "head-ball-championship_2",
-    "title": "Head ball championship_2",
+    "slug": "head-ball-championship-2",
+    "title": "Head Ball Championship 2",
     "category": "Sports",
     "featured": false,
     "rating": 4.9,
@@ -48529,7 +48529,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Step into the sandy arena of Crab Penalty, where you take on the challenge of scoring goals with an unlikely yet charming player&mdash; a crab! Set on a picturesque beach, this fun and engaging game combines the thrill of penalty shooting with the unique twist of controlling a crab. Aim carefully and use your skills to outsmart the goalie, ensuring your crab kicks the ball into the net. Crab Penalty offers endless entertainment and a delightful seaside adventure.",
+    "description": "Step into the sandy arena of Crab Penalty, where you take on the challenge of scoring goals with an unlikely yet charming player- a crab! Set on a picturesque beach, this fun and engaging game combines the thrill of penalty shooting with the unique twist of controlling a crab. Aim carefully and use your skills to outsmart the goalie, ensuring your crab kicks the ball into the net. Crab Penalty offers endless entertainment and a delightful seaside adventure.",
     "howToPlay": "Desktop Click the mouse left button and swipe the ball Mobile Swipe the ball into the goal",
     "controls": [
       {
@@ -48627,7 +48627,7 @@ const rawGames = [
     "width": 750,
     "height": 1624,
     "orientation": "portrait",
-    "description": "In Ping Pong: Table Tennis, you&rsquo;ll enter the exciting world of table tennis matches! This game allows you to enjoy the fun of sports! It&rsquo;s a perfect casual game for every Ping Pong enthusiast.The gameplay is simple and easy to play. Control the ping-pong racket, hit the ball accurately,and react quickly! In every game, use skill and tactics. Beat your opponent and fight for every point. Your opponents will get tougher, try to adjust your strategy and find their weaknesses!",
+    "description": "In Ping Pong: Table Tennis, you'll enter the exciting world of table tennis matches! This game allows you to enjoy the fun of sports! It's a perfect casual game for every Ping Pong enthusiast.The gameplay is simple and easy to play. Control the ping-pong racket, hit the ball accurately,and react quickly! In every game, use skill and tactics. Beat your opponent and fight for every point. Your opponents will get tougher, try to adjust your strategy and find their weaknesses!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -48872,7 +48872,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Step into the heat of Blaze Ball Showdown, a fiery sports arcade game where players battle it out in a high-speed, action-packed ball game. Set in a blazing arena, your goal is to outmaneuver your opponent, score goals, and defend your own net in intense 1v1 matches. With dynamic gameplay and hot visual effects, this game brings excitement to every shot and block. Whether playing solo or against a friend, the challenge is on &ndash; who will reign supreme in the fiery Blaze Ball arena? Key Features: Single-player and multiplayer modes Fast-paced, head-to-head gameplay Fiery arena with stunning animations Simple yet engaging controls.",
+    "description": "Step into the heat of Blaze Ball Showdown, a fiery sports arcade game where players battle it out in a high-speed, action-packed ball game. Set in a blazing arena, your goal is to outmaneuver your opponent, score goals, and defend your own net in intense 1v1 matches. With dynamic gameplay and hot visual effects, this game brings excitement to every shot and block. Whether playing solo or against a friend, the challenge is on - who will reign supreme in the fiery Blaze Ball arena? Key Features: Single-player and multiplayer modes Fast-paced, head-to-head gameplay Fiery arena with stunning animations Simple yet engaging controls.",
     "howToPlay": "Player 1 Movement Use W to move up and S to move down Player 2 Movement Use the Up Arrow to move up and the Down Arrow to move down",
     "controls": [
       {
@@ -49558,7 +49558,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Bolts and nuts online is a challenging puzzle game where you must use logic and careful planning to solve tricky mechanical puzzles. Remove, arrange, and manage bolts and nuts to complete each level and overcome increasingly difficult challenges. Test your problem-solving skills with simple controls and addictive gameplay. Play Bolts &amp; Nuts online for free on Gen30.online. Enjoy this fun HTML5 puzzle game on desktop, tablet, or mobile with no download required.",
+    "description": "Bolts and nuts online is a challenging puzzle game where you must use logic and careful planning to solve tricky mechanical puzzles. Remove, arrange, and manage bolts and nuts to complete each level and overcome increasingly difficult challenges. Test your problem-solving skills with simple controls and addictive gameplay. Play Bolts & Nuts online for free on Gen30.online. Enjoy this fun HTML5 puzzle game on desktop, tablet, or mobile with no download required.",
     "howToPlay": "Mouse click",
     "controls": [
       {
@@ -49754,7 +49754,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Noob vs Pro: Drift Tag &mdash; use your speed, drifting skills, and reflexes to pass the bomb to your opponents! The car holding the bomb must pass it to another player before the timer runs out. If you are caught with the bomb, your car explodes and you are eliminated. Drift through tight spaces, use ramps and obstacles, outsmart your rivals, and become the last driver standing! Race with different cars, compete with your friends, and rise from Noob to Pro!",
+    "description": "Noob vs Pro: Drift Tag - use your speed, drifting skills, and reflexes to pass the bomb to your opponents! The car holding the bomb must pass it to another player before the timer runs out. If you are caught with the bomb, your car explodes and you are eliminated. Drift through tight spaces, use ramps and obstacles, outsmart your rivals, and become the last driver standing! Race with different cars, compete with your friends, and rise from Noob to Pro!",
     "howToPlay": "Use WASD keys to move Press E to make your car jump The game can be played on both mobile and PC with touch controls available on mobile devices",
     "controls": [
       {
@@ -50195,7 +50195,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Jump high, hit hard, and rule the court in Volley Clash! Challenge the AI across five difficulty levels or face a friend in local two-player mode. Unlock 18 unique volleyball stars, upgrade their stats, and unleash blazing Fire Attacks! Enter a 16-player tournament, chase the championship, and earn coins to build your ultimate player. Play on desktop or mobile &mdash; one court, two rivals, one winner!",
+    "description": "Jump high, hit hard, and rule the court in Volley Clash! Challenge the AI across five difficulty levels or face a friend in local two-player mode. Unlock 18 unique volleyball stars, upgrade their stats, and unleash blazing Fire Attacks! Enter a 16-player tournament, chase the championship, and earn coins to build your ultimate player. Play on desktop or mobile - one court, two rivals, one winner!",
     "howToPlay": "Player 1 A D to move W to jump Space to hit Player 2 Arrow keys to move jump Enter to hit Double-tap Space Enter for a Fire Attack when charged 8-second cooldown Mobile Use on-screen buttons double-tap Attack for Fire Attack",
     "controls": [
       {
@@ -50478,8 +50478,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "best_buds",
-    "title": "Best_Buds",
+    "slug": "best-buds",
+    "title": "Best Buds",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -50489,7 +50489,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "tep into the colorful world of Best Buds, the ultimate dress-up game where you style two best friends for every occasion! Mix and match trendy outfits, cute accessories, stylish hairstyles, and fabulous shoes to create the perfect look for each bud. Whether it&rsquo;s a beach day, a magical party, or just hanging out in the park, you decide how your best buds express their personalities through fashion. Snap photos of your favorite looks and share them with your friends!",
+    "description": "tep into the colorful world of Best Buds, the ultimate dress-up game where you style two best friends for every occasion! Mix and match trendy outfits, cute accessories, stylish hairstyles, and fabulous shoes to create the perfect look for each bud. Whether it's a beach day, a magical party, or just hanging out in the park, you decide how your best buds express their personalities through fashion. Snap photos of your favorite looks and share them with your friends!",
     "howToPlay": "Features Hundreds of outfits hairstyles and accessories Customize each character rsquo s style from head to toe Beautiful themed backgrounds for each scene Photo mod",
     "controls": [
       {
@@ -50979,7 +50979,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Boom Cell is a strategic game where you grow from a single cell into a powerful cell brigade. Battle other cell armies, but stay vigilant&mdash;larger cell groups will overpower you. Navigate this microscopic world with skill and strategy to become the dominant cell force.",
+    "description": "Boom Cell is a strategic game where you grow from a single cell into a powerful cell brigade. Battle other cell armies, but stay vigilant-larger cell groups will overpower you. Navigate this microscopic world with skill and strategy to become the dominant cell force.",
     "howToPlay": "Use the left mouse button or WASD to play",
     "controls": [
       {
@@ -51077,7 +51077,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Obby Knife Duels &mdash; overcome challenging obstacle courses, battle your opponents, and try to be the last player standing! Use your speed, reflexes, and knife skills to conquer difficult obby sections. Dodge obstacles, attack at the right moment, and defeat your rivals. Improve your skills, become faster and stronger, and compete with your friends in colorful 3D environments. Join exciting duels, survive every challenge, and claim victory! Grab your knife and get ready for battle!",
+    "description": "Obby Knife Duels - overcome challenging obstacle courses, battle your opponents, and try to be the last player standing! Use your speed, reflexes, and knife skills to conquer difficult obby sections. Dodge obstacles, attack at the right moment, and defeat your rivals. Improve your skills, become faster and stronger, and compete with your friends in colorful 3D environments. Join exciting duels, survive every challenge, and claim victory! Grab your knife and get ready for battle!",
     "howToPlay": "Use WASD keys to move Use Left Mouse Click to attack with your knife The game can be played on both mobile and PC with touch controls available for mobile devices",
     "controls": [
       {
@@ -51322,7 +51322,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Jump, dash, and race against others in this fast-paced platformer! Conquer 10+ thrilling stages to earn Wins and unlock epic custom trails and skins&mdash;including the legendary Tung-Tung-Tung Sahur. Do you have what it takes to master the obby?",
+    "description": "Jump, dash, and race against others in this fast-paced platformer! Conquer 10+ thrilling stages to earn Wins and unlock epic custom trails and skins-including the legendary Tung-Tung-Tung Sahur. Do you have what it takes to master the obby?",
     "howToPlay": "Controls Use WASD to walk Space to jump and hold the Right Mouse Button to look around Jump for Wins Navigate floating platforms to reach the end of the stage and earn Wins Level Up Click or jump to gain XP Leveling up unlocks the Double Jump Cus",
     "controls": [
       {
@@ -51469,7 +51469,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Run from the tsunami in Obby Tsunami Runner &mdash; a multiplayer browser game where every wave brings new danger. Dodge, survive, and earn wins to unlock characters and trails. Play as the legendary Tung-Tung-Tung Sahur! Compete with friends, push your limits, and see how far you can go. No downloads, just survival. Run. Unlock. Survive.",
+    "description": "Run from the tsunami in Obby Tsunami Runner - a multiplayer browser game where every wave brings new danger. Dodge, survive, and earn wins to unlock characters and trails. Play as the legendary Tung-Tung-Tung Sahur! Compete with friends, push your limits, and see how far you can go. No downloads, just survival. Run. Unlock. Survive.",
     "howToPlay": "WASD - To move Holding Right Mouse Button - look around Space - Jump",
     "controls": [
       {
@@ -51616,7 +51616,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Mine Blade Online KitPvP is a fast-paced and exciting PvP battle game where players fight against each other to prove who is the strongest! Fight against other players! Earn money by defeating your opponents! Buy new costumes with your earnings! Try to become the strongest warrior! Enter the arena, equip your sword, and battle against your opponents. Every victory earns you money. Use your earnings to purchase different costumes and customize your character! Move quickly, time your attacks, and defeat your opponents! Mine Blade Online KitPvP &mdash; Equip your sword, win battles, earn money, and create your own style!",
+    "description": "Mine Blade Online KitPvP is a fast-paced and exciting PvP battle game where players fight against each other to prove who is the strongest! Fight against other players! Earn money by defeating your opponents! Buy new costumes with your earnings! Try to become the strongest warrior! Enter the arena, equip your sword, and battle against your opponents. Every victory earns you money. Use your earnings to purchase different costumes and customize your character! Move quickly, time your attacks, and defeat your opponents! Mine Blade Online KitPvP - Equip your sword, win battles, earn money, and create your own style!",
     "howToPlay": "WASD to move Space to jump Left Mouse Button to attack with your sword W W to sprint Playable on PC and mobile Mobile touch controls available",
     "controls": [
       {
@@ -51812,7 +51812,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "grab.io is a fast land-grab arcade game in the paper.io style, set on a round arena packed with hungry bots. Sneak out of your territory, draw a loop and slip back home to claim everything inside. Steal land from rivals, snatch stars for bonus points and dodge every trail &mdash; one touch is fatal. Outgrow the bots, top the board and wear the crown.",
+    "description": "grab.io is a fast land-grab arcade game in the paper.io style, set on a round arena packed with hungry bots. Sneak out of your territory, draw a loop and slip back home to claim everything inside. Steal land from rivals, snatch stars for bonus points and dodge every trail - one touch is fatal. Outgrow the bots, top the board and wear the crown.",
     "howToPlay": "Steer with your mouse mdash your head follows the cursor on touch drag anywhere to set the direction Leave your land trace a loop and return to your own color to capture the area inside it Touching any trail yours or an enemys ends the run instan",
     "controls": [
       {
@@ -51861,7 +51861,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Toy Soccer Cup is a fast, tabletop-style soccer game where you flick your little players to pass, shoot and score. Simple to pick up, tricky to master. Game modes: &bull; Quick Match &ndash; jump straight into a game against the CPU. &bull; Tournament &ndash; beat rival teams one by one and lift the cup. &bull; 2 Players &ndash; play against a friend on the same device. &bull; Online Multiplayer &ndash; challenge another player in real time. Customize your team in the shop: unlock kits, balls and pitches. Score three goals or lead when the clock runs out to win. Colorful 3D stadiums, a cheering crowd and satisfying goal celebrations bring every match to life.",
+    "description": "Toy Soccer Cup is a fast, tabletop-style soccer game where you flick your little players to pass, shoot and score. Simple to pick up, tricky to master. Game modes: &bull; Quick Match - jump straight into a game against the CPU. &bull; Tournament - beat rival teams one by one and lift the cup. &bull; 2 Players - play against a friend on the same device. &bull; Online Multiplayer - challenge another player in real time. Customize your team in the shop: unlock kits, balls and pitches. Score three goals or lead when the clock runs out to win. Colorful 3D stadiums, a cheering crowd and satisfying goal celebrations bring every match to life.",
     "howToPlay": "Drag back from your player and release to flick the ball ndash aim for your teammates or the goal The longer you drag the harder the shot On mobile tap and drag with your finger Take turns to move the ball up the pitch and score",
     "controls": [
       {
@@ -52302,7 +52302,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Swing one circle around the other, plant a leg to switch which ones spinning, and use momentum as your only weapon. Collect glowing pickups to fill your meters, smash through spike balls and rival spinners with a charged leg, and take down a boss bumper to unlock home decoration. Then head into the shared multiplayer world &mdash; paint your territory, duel other players, and chase a set of achievements as you go. Simple to pick up, with a genuinely different feel than anything else in the genre.",
+    "description": "Swing one circle around the other, plant a leg to switch which ones spinning, and use momentum as your only weapon. Collect glowing pickups to fill your meters, smash through spike balls and rival spinners with a charged leg, and take down a boss bumper to unlock home decoration. Then head into the shared multiplayer world - paint your territory, duel other players, and chase a set of achievements as you go. Simple to pick up, with a genuinely different feel than anything else in the genre.",
     "howToPlay": "- Tap click to swap which circle is planted pivot and which one swings around it Thats the whole control scheme - Swing over green pickups with your orbiting circle plant a leg on pink pickups with your standing one fill both meters then head h",
     "controls": [
       {
@@ -52694,7 +52694,7 @@ const rawGames = [
     "width": 1080,
     "height": 720,
     "orientation": "landscape",
-    "description": "Welcome to the cheesiest clicker on the internet! Tap the giant cheese wheel to earn cheese, then reinvest it into 33 upgrades &mdash; from a Tiny Mouse all the way to The Final Cheese itself. Hire farmers, build factories, mine ancient cheese, and eventually bend reality across the galaxy. Keep the clicks coming to build up a combo multiplier and trigger explosive critical hits. Watch for the golden cheese that floats across the screen &mdash; click it fast for a huge bonus! When youve earned enough, prestige to reset your run for permanent Moldy Cheese, which powers up everything forever and unlocks an exclusive shop of permanent upgrades!",
+    "description": "Welcome to the cheesiest clicker on the internet! Tap the giant cheese wheel to earn cheese, then reinvest it into 33 upgrades - from a Tiny Mouse all the way to The Final Cheese itself. Hire farmers, build factories, mine ancient cheese, and eventually bend reality across the galaxy. Keep the clicks coming to build up a combo multiplier and trigger explosive critical hits. Watch for the golden cheese that floats across the screen - click it fast for a huge bonus! When youve earned enough, prestige to reset your run for permanent Moldy Cheese, which powers up everything forever and unlocks an exclusive shop of permanent upgrades!",
     "howToPlay": "Left Click mdash Click the cheese wheel to earn cheese Spacebar mdash Alternate click great for fast combos Left Click the shop buttons on the right to buy upgrades Left Click the golden cheese when it flies across the screen for a big bonus Use th",
     "controls": [
       {
@@ -52939,7 +52939,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Ranch Empire &mdash; build a 3D ranch tycoon empire right in your browser. No download. Start with a bare patch and a dog. Plant fields, raise chickens and cows, breed horses, hire farmhands, and grow into a sprawling ranch with vehicles, a dock, and a marina. Then the wilds push back. Wolves circle the pen. Bears raid the henhouse. Blizzards roll in. Survive &mdash; or pay the price. FEATURES &bull; Open-world 3D ranch with tractors, ATVs, horses, and boats &bull; Live multiplayer boat racing &mdash; invite friends, climb the leaderboard &bull; Prone-sniper hunting mini-game (deer, stag, fox, hare) &bull; Wolf + bear attacks, blizzards, droughts, plague crisis",
+    "description": "Ranch Empire - build a 3D ranch tycoon empire right in your browser. No download. Start with a bare patch and a dog. Plant fields, raise chickens and cows, breed horses, hire farmhands, and grow into a sprawling ranch with vehicles, a dock, and a marina. Then the wilds push back. Wolves circle the pen. Bears raid the henhouse. Blizzards roll in. Survive - or pay the price. FEATURES &bull; Open-world 3D ranch with tractors, ATVs, horses, and boats &bull; Live multiplayer boat racing - invite friends, climb the leaderboard &bull; Prone-sniper hunting mini-game (deer, stag, fox, hare) &bull; Wolf + bear attacks, blizzards, droughts, plague crisis",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -52988,7 +52988,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Play League of Football, a fast-paced 2D soccer game! Pick your team, master fireball shots and teleport tricks, and battle through Quick Match, Tournament and 2-player modes. Score goals, win the championship and become a football legend. Easy to learn, hard to master &mdash; perfect for quick matches or full tournaments.",
+    "description": "Play League of Football, a fast-paced 2D soccer game! Pick your team, master fireball shots and teleport tricks, and battle through Quick Match, Tournament and 2-player modes. Score goals, win the championship and become a football legend. Easy to learn, hard to master - perfect for quick matches or full tournaments.",
     "howToPlay": "Player 1 WASD Arrow keys to move shoot and slide tackle Player 2 Arrow keys On mobile use on-screen buttons Tap to kick hold to charge powerful shots",
     "controls": [
       {
@@ -53184,7 +53184,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Battle Wheels is an explosive vehicle combat arcade where two armored cars smash into each other until one driver loses his head &mdash; literally! Win 3 rounds to claim victory and climb through five leagues: Bronze, Silver, Gold, Diamond and Obsidian. Earn coins from every win and spend them in the garage: buy faster cars, tougher wheels, and boost your Damage and Health stats. Customize your fighter with different heads, eyes, mouths and colors to build your perfect avatar. Play solo against 1000 unique AI opponents, or grab a friend for chaotic 2 Player local battles &mdash; red vs blue, last head standing wins. Simple to pick up, hard to put down.",
+    "description": "Battle Wheels is an explosive vehicle combat arcade where two armored cars smash into each other until one driver loses his head - literally! Win 3 rounds to claim victory and climb through five leagues: Bronze, Silver, Gold, Diamond and Obsidian. Earn coins from every win and spend them in the garage: buy faster cars, tougher wheels, and boost your Damage and Health stats. Customize your fighter with different heads, eyes, mouths and colors to build your perfect avatar. Play solo against 1000 unique AI opponents, or grab a friend for chaotic 2 Player local battles - red vs blue, last head standing wins. Simple to pick up, hard to put down.",
     "howToPlay": "Player 1 WASD or Arrow keys to move and balance your car On mobile use the on-screen buttons In 2 Player mode the second player uses the opposite side controls Smash your opponents head to win the round mdash first to 3 round wins takes the match",
     "controls": [
       {
@@ -53282,7 +53282,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A tsunami is coming, so be very careful! The entire world will be flooded. You and your friend must work together to rise high into the sky. Be careful not to fall down! Escape the tsunami alongside the Italian Brainrot characters and enjoy the endless journey upward through the sky. As you climb higher, watch out&mdash;many obstacles are waiting for you, and you must avoid them. Use the jump ramp to boost yourself upward and collect all the coins. Dont leave any coins behind!",
+    "description": "A tsunami is coming, so be very careful! The entire world will be flooded. You and your friend must work together to rise high into the sky. Be careful not to fall down! Escape the tsunami alongside the Italian Brainrot characters and enjoy the endless journey upward through the sky. As you climb higher, watch out-many obstacles are waiting for you, and you must avoid them. Use the jump ramp to boost yourself upward and collect all the coins. Dont leave any coins behind!",
     "howToPlay": "Use the WASD keys to move and jump in the game Use the Arrow Keys keys to move and jump in the game Mobile Control Available",
     "controls": [
       {
@@ -53429,7 +53429,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Truck Slam is a dynamic arcade game about arena truck battles featuring physics and destruction. Jump into the fight, accelerate, ram your opponent, and use a slam or swing to knock enemies off the platform. Complete levels and upgrade your stats &mdash; durability, power, jump, and speed &mdash; to conquer more difficult arenas! Features: Physics-based collisions and spectacular crashes Levels with different arenas and obstacles Stat upgrades after victories 1-player and 2-player modes on a single device Playable on both PC and mobile",
+    "description": "Truck Slam is a dynamic arcade game about arena truck battles featuring physics and destruction. Jump into the fight, accelerate, ram your opponent, and use a slam or swing to knock enemies off the platform. Complete levels and upgrade your stats - durability, power, jump, and speed - to conquer more difficult arenas! Features: Physics-based collisions and spectacular crashes Levels with different arenas and obstacles Stat upgrades after victories 1-player and 2-player modes on a single device Playable on both PC and mobile",
     "howToPlay": "Player 1 A D move W jump S swing Player 2 arrows Enter Mobile on-screen touch buttons",
     "controls": [
       {
@@ -53527,7 +53527,7 @@ const rawGames = [
     "width": 1080,
     "height": 1920,
     "orientation": "portrait",
-    "description": "Neck Stack Rush is a fun and addictive hyper-casual running game where you collect neck pieces, stack them up, and grow taller to overcome obstacles and reach the finish line. The higher your stack, the easier it becomes to cross walls, gaps, and tricky paths. But be careful&mdash;wrong moves can reduce your stack and make the journey harder! Test your timing, reflexes, and strategy as you run through exciting levels filled with challenges and surprises. Simple one-touch controls make it easy to play, but mastering the perfect run is the real challenge. Perfect for quick play sessions, Neck Stack Rush delivers nonstop fun, satisfying stacking mec",
+    "description": "Neck Stack Rush is a fun and addictive hyper-casual running game where you collect neck pieces, stack them up, and grow taller to overcome obstacles and reach the finish line. The higher your stack, the easier it becomes to cross walls, gaps, and tricky paths. But be careful-wrong moves can reduce your stack and make the journey harder! Test your timing, reflexes, and strategy as you run through exciting levels filled with challenges and surprises. Simple one-touch controls make it easy to play, but mastering the perfect run is the real challenge. Perfect for quick play sessions, Neck Stack Rush delivers nonstop fun, satisfying stacking mec",
     "howToPlay": "Mobile Touch Swipe PC Web Use Arrow Keys or WASD to move the player",
     "controls": [
       {
@@ -53723,7 +53723,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for the ultimate speed rush in 3D Formula Racing: Pro Edition, a fast-paced 3D arcade racing game designed for true adrenaline junkies! Step into the cockpit of a high-performance formula car and race across 20 challenging stages, from neon-lit cyberpunk cities to dusty desert canyons and Martian landscapes. The game features an intelligent progressive difficulty system&mdash;as you conquer levels, the AI rival bots become faster and much more aggressive, pushing your driving skills to the absolute limit. Master the art of drifting around sharp corners and smash the Nitro (NOS) button to leave your opponents in the dust! hnks for game mo",
+    "description": "Get ready for the ultimate speed rush in 3D Formula Racing: Pro Edition, a fast-paced 3D arcade racing game designed for true adrenaline junkies! Step into the cockpit of a high-performance formula car and race across 20 challenging stages, from neon-lit cyberpunk cities to dusty desert canyons and Martian landscapes. The game features an intelligent progressive difficulty system-as you conquer levels, the AI rival bots become faster and much more aggressive, pushing your driving skills to the absolute limit. Master the art of drifting around sharp corners and smash the Nitro (NOS) button to leave your opponents in the dust! hnks for game mo",
     "howToPlay": "Game Controls For PC Keyboard Player 1 W A S D - Accelerate Steer Left Right and Brake Left Shift - Nitro NOS Boost Player 2 Split-Screen Mode Arrow Keys - Accelerate Steer Left Right and Brake Enter - Nitro NOS Boost For Mobile Touch S",
     "controls": [
       {
@@ -53821,7 +53821,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Stickman Trivia Fall io takes your trivia skills to the next level! Challenge your brain and reflexes as you compete against friends and players worldwide. Test your knowledge in Solo Mode, progress through fun quests, and beat the Boss to earn rewards. Love multiplayer? Jump into the Arena to battle up to four players, climb leaderboards, and score big! Play Classic one-on-one matches, enjoy weekly and monthly special quizzes, and customize your stickman avatar. Hundreds of trivia questions across multiple categories make this the ultimate addictive quiz &amp; trivia game!",
+    "description": "Stickman Trivia Fall io takes your trivia skills to the next level! Challenge your brain and reflexes as you compete against friends and players worldwide. Test your knowledge in Solo Mode, progress through fun quests, and beat the Boss to earn rewards. Love multiplayer? Jump into the Arena to battle up to four players, climb leaderboards, and score big! Play Classic one-on-one matches, enjoy weekly and monthly special quizzes, and customize your stickman avatar. Hundreds of trivia questions across multiple categories make this the ultimate addictive quiz & trivia game!",
     "howToPlay": "Double left-click on the correct answer text to move your stickman there",
     "controls": [
       {
@@ -53968,7 +53968,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Step into the cockpit of a high-tech war machine in Tanks Of Liberty - Online, a tactical top-down shooter that blends nostalgic retro vibes with modern gameplay depth. Inspired by the classic Battle City, this game takes armored combat to a whole new level. No two missions are the same thanks to our procedural map generation system. Engage in fierce battles across dynamic environments, from urban ruins to dense forests. Protect your Eagle base at all costs&mdash;if it falls, the mission is over! Key Features: * Deep Progression: Use points earned in battle to buy permanent upgrades for your tank&rsquo;s speed, bullet velocity, and",
+    "description": "Step into the cockpit of a high-tech war machine in Tanks Of Liberty - Online, a tactical top-down shooter that blends nostalgic retro vibes with modern gameplay depth. Inspired by the classic Battle City, this game takes armored combat to a whole new level. No two missions are the same thanks to our procedural map generation system. Engage in fierce battles across dynamic environments, from urban ruins to dense forests. Protect your Eagle base at all costs-if it falls, the mission is over! Key Features: * Deep Progression: Use points earned in battle to buy permanent upgrades for your tank's speed, bullet velocity, and",
     "howToPlay": "Player 1 WASD Move Tank Space Fire Cannon Player 2 Local Co-op Arrow Keys Move Tank Enter Fire Cannon",
     "controls": [
       {
@@ -54017,7 +54017,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Guardz.io is a free medieval knight .io game with fast-paced multiplayer sword combat. Start as a humble Page and evolve through 12 ranks &mdash; Squire, Knight, Templar, Paladin &mdash; up to the Kings Champion. Slay enemies, collect XP orbs, and climb the global leaderboard. No download needed &mdash; play instantly in your browser and become the ultimate knight in this free-for-all deathmatch!",
+    "description": "Guardz.io is a free medieval knight .io game with fast-paced multiplayer sword combat. Start as a humble Page and evolve through 12 ranks - Squire, Knight, Templar, Paladin - up to the Kings Champion. Slay enemies, collect XP orbs, and climb the global leaderboard. No download needed - play instantly in your browser and become the ultimate knight in this free-for-all deathmatch!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -54066,7 +54066,7 @@ const rawGames = [
     "width": 600,
     "height": 350,
     "orientation": "landscape",
-    "description": "&zwj; Sea Kings &ndash; Clash of Pirates Rule the Waves. Crush the Competition. Become the King of the Sea! Set sail in Sea Kings &ndash; Clash of Pirates, the ultimate naval battle game where you command your own pirate ship and fight to dominate the high seas! Blast enemy ships with cannons, unlock powerful weapons, and upgrade your vessel to survive wave after wave of fierce battles. Intense Ship-to-Ship Battles Lock on, fire your cannons, and watch your enemies sink! Battle rival pirates in thrilling real-time combat packed with action and strategy. Upgrade Your Pirate Ship Improve your firepower, armor, speed, and special weapons.",
+    "description": "&zwj; Sea Kings - Clash of Pirates Rule the Waves. Crush the Competition. Become the King of the Sea! Set sail in Sea Kings - Clash of Pirates, the ultimate naval battle game where you command your own pirate ship and fight to dominate the high seas! Blast enemy ships with cannons, unlock powerful weapons, and upgrade your vessel to survive wave after wave of fierce battles. Intense Ship-to-Ship Battles Lock on, fire your cannons, and watch your enemies sink! Battle rival pirates in thrilling real-time combat packed with action and strategy. Upgrade Your Pirate Ship Improve your firepower, armor, speed, and special weapons.",
     "howToPlay": "Touch Mouse Keyboard",
     "controls": [
       {
@@ -54115,7 +54115,7 @@ const rawGames = [
     "width": 350,
     "height": 600,
     "orientation": "portrait",
-    "description": "Looking for a way to sharpen your mind and relax at the same time? Welcome to Fill: One Line Puzzle Game, the minimalist brain teaser that&rsquo;s taking the world by storm. The rules are simple: connect all the squares on the grid using a single, unbroken line. It sounds easy, but as the grids grow and the paths become more complex, you&rsquo;ll need every bit of logic and spatial reasoning to find the solution. Why You&rsquo;ll Love Fill: Thousands of Levels: From beginner-friendly 4x4 grids to expert-level challenges. Daily Brain Training Minimalist Design No Time Pressure Stuck? No Problem",
+    "description": "Looking for a way to sharpen your mind and relax at the same time? Welcome to Fill: One Line Puzzle Game, the minimalist brain teaser that's taking the world by storm. The rules are simple: connect all the squares on the grid using a single, unbroken line. It sounds easy, but as the grids grow and the paths become more complex, you'll need every bit of logic and spatial reasoning to find the solution. Why You'll Love Fill: Thousands of Levels: From beginner-friendly 4x4 grids to expert-level challenges. Daily Brain Training Minimalist Design No Time Pressure Stuck? No Problem",
     "howToPlay": "Start at the designated block Drag your finger to fill all the remaining blocks The Catch You cannot overlap lines or revisit a block you rsquo ve already filled",
     "controls": [
       {
@@ -54213,7 +54213,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Take control of your snake and feast to grow bigger and stronger. But watch out &mdash; other snakes are hunting too! Avoid their attacks, outmaneuver your rivals, and fight to become the largest snake in the arena.",
+    "description": "Take control of your snake and feast to grow bigger and stronger. But watch out - other snakes are hunting too! Avoid their attacks, outmaneuver your rivals, and fight to become the largest snake in the arena.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -54311,7 +54311,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Step into the traffic controller in Traffic Control. Your mission is to manage the bustling crossroad, ensuring smooth traffic flow and preventing accidents. With cars approaching from both directions, tap the screen to decide which side gets to go and which side has to wait. It&rsquo;s time to enjoy the real traffic signal control simulator game, play as traffic controller and show your good traffic conductor skills. if you are a traffic jam game lover, this traffic mania new game is for you. Traffic Control Games: Car Jam. Play with friends and regulate the city traffic as traffic police always do.",
+    "description": "Step into the traffic controller in Traffic Control. Your mission is to manage the bustling crossroad, ensuring smooth traffic flow and preventing accidents. With cars approaching from both directions, tap the screen to decide which side gets to go and which side has to wait. It's time to enjoy the real traffic signal control simulator game, play as traffic controller and show your good traffic conductor skills. if you are a traffic jam game lover, this traffic mania new game is for you. Traffic Control Games: Car Jam. Play with friends and regulate the city traffic as traffic police always do.",
     "howToPlay": "Left mouse click to start and stop cars",
     "controls": [
       {
@@ -54360,7 +54360,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Feather Dash - The ultimate bird-flying adventure! GAME MODES: Classic - Endless gameplay FEATURES: Smooth, responsive controls Colorful bird skins to unlock Earn coins and unlock cosmetics Mobile &amp; desktop optimized Atmospheric background music GAMEPLAY: Simple tap-to-jump mechanics with progressive difficulty. Avoid pipes, collect coins, and beat your personal best! Perfect for casual gaming sessions. No ads during gameplay!",
+    "description": "Feather Dash - The ultimate bird-flying adventure! GAME MODES: Classic - Endless gameplay FEATURES: Smooth, responsive controls Colorful bird skins to unlock Earn coins and unlock cosmetics Mobile & desktop optimized Atmospheric background music GAMEPLAY: Simple tap-to-jump mechanics with progressive difficulty. Avoid pipes, collect coins, and beat your personal best! Perfect for casual gaming sessions. No ads during gameplay!",
     "howToPlay": "DESKTOP Click your mouse to jump MOBILE Tap the screen to jump KEYBOARD Press Spacebar to jump",
     "controls": [
       {
@@ -54458,7 +54458,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Fire &amp; collect palm blast ! Fun&amp;crazy stickman clicker ever !! Eliminate enimes and colect hundreds of skins. Caution: Once you begin the game, you could hardly stop it....",
+    "description": "Fire & collect palm blast ! Fun&crazy stickman clicker ever !! Eliminate enimes and colect hundreds of skins. Caution: Once you begin the game, you could hardly stop it....",
     "howToPlay": "tap red item to play",
     "controls": [
       {
@@ -54507,7 +54507,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to Arrows &ndash; Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision.",
+    "description": "Welcome to Arrows - Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision.",
     "howToPlay": "tap on arrow",
     "controls": [
       {
@@ -54605,7 +54605,7 @@ const rawGames = [
     "width": 1000,
     "height": 800,
     "orientation": "landscape",
-    "description": "Fishy Feast is a fast-paced underwater survival game where you control a cartoon fish in a colorful ocean world. The rules are simple but addictive &mdash; eat fish smaller than you to grow, and dodge the bigger ones or its game over! Starting as a tiny little fish, your goal is to climb the food chain, grow as large as possible, and rack up the highest score you can before something bigger swallows you whole.",
+    "description": "Fishy Feast is a fast-paced underwater survival game where you control a cartoon fish in a colorful ocean world. The rules are simple but addictive - eat fish smaller than you to grow, and dodge the bigger ones or its game over! Starting as a tiny little fish, your goal is to climb the food chain, grow as large as possible, and rack up the highest score you can before something bigger swallows you whole.",
     "howToPlay": "Mouse MovementYour fish follows your cursorTouch DragOn mobile tap and drag to moveW A S DMove Up Left Down RightArrow KeysSame as WASDSpacebar or EscapePause Resume the game",
     "controls": [
       {
@@ -54654,7 +54654,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Test your reflexes and challenge your brain as you guide a bouncing ball through shrinking, rotating rings. Align the gaps, master the physics, and don&rsquo;t get crushed! With stunning visuals, dynamic obstacles, and a growing set of challenges, this game delivers nonstop action and satisfying gameplay.",
+    "description": "Test your reflexes and challenge your brain as you guide a bouncing ball through shrinking, rotating rings. Align the gaps, master the physics, and don't get crushed! With stunning visuals, dynamic obstacles, and a growing set of challenges, this game delivers nonstop action and satisfying gameplay.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -54692,8 +54692,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "ship-amp-fish",
-    "title": "Ship &amp; Fish",
+    "slug": "ship-and-fish",
+    "title": "Ship & Fish",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -54703,7 +54703,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Ship &amp; Fish is an exciting survival game where the player controls a ship and tries to stay alive by avoiding dangerous fish. The game requires fast reflexes and smart movement, as fish attack from all directions. The longer you survive, the higher your score grows and the more challenging the game becomes.",
+    "description": "Ship & Fish is an exciting survival game where the player controls a ship and tries to stay alive by avoiding dangerous fish. The game requires fast reflexes and smart movement, as fish attack from all directions. The longer you survive, the higher your score grows and the more challenging the game becomes.",
     "howToPlay": "Controls Left Arrow ndash Move Left Right Arrow ndash Move Right Up Arrow ndash Move Up Down Arrow ndash Move Down",
     "controls": [
       {
@@ -54731,12 +54731,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Ship &amp; Fish free to play on BlockHub.games?",
-        "a": "Yes, Ship &amp; Fish is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Ship & Fish free to play on BlockHub.games?",
+        "a": "Yes, Ship & Fish is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Ship &amp; Fish on mobile devices?",
-        "a": "Yes, Ship &amp; Fish is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Ship & Fish on mobile devices?",
+        "a": "Yes, Ship & Fish is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -54801,7 +54801,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Step into a world of calm. This game is designed to help you relax, focus, and find peace. Enjoy a wide variety of relaxing games.Do you need a break? Our fun mini games focus purely on relaxation games, not for competition. Theres no pressure to achieve perfection, just a peaceful environment where you can unwind through satisfying games &amp; get relaxation through stress buster games. This game is designed to help you unwind, relax, and clear your mind through a collection of simple and satisfying mini games. Whether youre feeling overwhelmed, bored, or just need a mental break, these calming games provide quick moments of peace and enjoyment.",
+    "description": "Step into a world of calm. This game is designed to help you relax, focus, and find peace. Enjoy a wide variety of relaxing games.Do you need a break? Our fun mini games focus purely on relaxation games, not for competition. Theres no pressure to achieve perfection, just a peaceful environment where you can unwind through satisfying games & get relaxation through stress buster games. This game is designed to help you unwind, relax, and clear your mind through a collection of simple and satisfying mini games. Whether youre feeling overwhelmed, bored, or just need a mental break, these calming games provide quick moments of peace and enjoyment.",
     "howToPlay": "use mouse and keyboard controls",
     "controls": [
       {
@@ -54997,7 +54997,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "What could be better than starting your morning by cutting down a whole clearing of trees and sending them off for processing? Play as a lumberjack on a tractor, chopping down different kinds of trees one by one, from firs to palms. Advance through levels, upgrade your tractor&rsquo;s saws, trunk capacity, and speed, and compete against other players!",
+    "description": "What could be better than starting your morning by cutting down a whole clearing of trees and sending them off for processing? Play as a lumberjack on a tractor, chopping down different kinds of trees one by one, from firs to palms. Advance through levels, upgrade your tractor's saws, trunk capacity, and speed, and compete against other players!",
     "howToPlay": "Use your mouse or finger to control the tractor and cut down trees You can switch to collecting mode to gather firewood Sell the wood and upgrade your tractor as you go",
     "controls": [
       {
@@ -55193,7 +55193,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Block Blast Puzzle is a fun and addictive puzzle game where you drag and drop colorful blocks onto a grid. Clear rows and columns by filling them completely to earn points. Plan your moves carefully &mdash; if theres no space left for the remaining blocks, the game is over!",
+    "description": "Block Blast Puzzle is a fun and addictive puzzle game where you drag and drop colorful blocks onto a grid. Clear rows and columns by filling them completely to earn points. Plan your moves carefully - if theres no space left for the remaining blocks, the game is over!",
     "howToPlay": "PC Controls Mouse Click Drag mdash Pick up a block and drag it onto the grid Mouse Release mdash Drop the block into position Mobile Controls Touch Drag mdash Press and hold a block then drag it onto the grid Release mdash Drop the block int",
     "controls": [
       {
@@ -55487,7 +55487,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for endless fun in this fastpaced taptojump arcade adventure! Simple Controls: Just tap to jump and keep moving. Endless Gameplay: Dodge obstacles, time your jumps, and see how far you can go. Clean &amp; Colorful Design: A smooth, minimalistic style that&rsquo;s easy on the eyes. Challenging &amp; Addictive: Difficulty ramps up as you progress&mdash;can you beat your high score? Compete &amp; Share: Show off your best runs to friends and climb the leaderboards. Whether you have a minute or an hour, this game is perfect for quick breaks and long play sessions alike. Master your timing, stay focused, and jump your way to the top! Ready to",
+    "description": "Get ready for endless fun in this fastpaced taptojump arcade adventure! Simple Controls: Just tap to jump and keep moving. Endless Gameplay: Dodge obstacles, time your jumps, and see how far you can go. Clean & Colorful Design: A smooth, minimalistic style that's easy on the eyes. Challenging & Addictive: Difficulty ramps up as you progress-can you beat your high score? Compete & Share: Show off your best runs to friends and climb the leaderboards. Whether you have a minute or an hour, this game is perfect for quick breaks and long play sessions alike. Master your timing, stay focused, and jump your way to the top! Ready to",
     "howToPlay": "Tap On Screen To Play",
     "controls": [
       {
@@ -55536,7 +55536,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Short Ride is a bikeriding action and survival game where you guide a very unlucky character through deadly obstacle courses. Instead of simply running, you now have to control a bicycle&rsquo;s speed, balance, and timing while avoiding sawblades, spikes, swinging traps, and other hazards. The goal is to reach the end of each level in one piece",
+    "description": "Short Ride is a bikeriding action and survival game where you guide a very unlucky character through deadly obstacle courses. Instead of simply running, you now have to control a bicycle's speed, balance, and timing while avoiding sawblades, spikes, swinging traps, and other hazards. The goal is to reach the end of each level in one piece",
     "howToPlay": "You use the Up Arrow to pedal forward the Down Arrow to brake or roll back while the Left and Right Arrows let you lean your rider to keep balance over bumps and avoid flipping the Spacebar is typically used to restart quickly after a crash and the mo",
     "controls": [
       {
@@ -55585,7 +55585,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Step into a world of calm. This game is designed to help you relax, focus, and find peace. Enjoy a wide variety of relaxing games.Do you need a break? Our fun mini games focus purely on relaxation games, not for competition. Theres no pressure to achieve perfection, just a peaceful environment where you can unwind through satisfying games &amp; get relaxation through stress buster games. This game is designed to help you unwind, relax, and clear your mind through a collection of simple and satisfying mini games. Whether youre feeling overwhelmed, bored, or just need a mental break, these calming games provide quick moments of peace and enjoyment. With smooth animations, soft sounds, and stress-free gameplay, it&rsquo;s the perfect way to relax you anytime, anywhere.",
+    "description": "Step into a world of calm. This game is designed to help you relax, focus, and find peace. Enjoy a wide variety of relaxing games.Do you need a break? Our fun mini games focus purely on relaxation games, not for competition. Theres no pressure to achieve perfection, just a peaceful environment where you can unwind through satisfying games & get relaxation through stress buster games. This game is designed to help you unwind, relax, and clear your mind through a collection of simple and satisfying mini games. Whether youre feeling overwhelmed, bored, or just need a mental break, these calming games provide quick moments of peace and enjoyment. With smooth animations, soft sounds, and stress-free gameplay, it's the perfect way to relax you anytime, anywhere.",
     "howToPlay": "use mouse and keyboard controls",
     "controls": [
       {
@@ -55683,7 +55683,7 @@ const rawGames = [
     "width": 640,
     "height": 360,
     "orientation": "landscape",
-    "description": "Find Your Way &ndash; 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don&rsquo;t be fooled by its simplicity&mdash;each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
+    "description": "Find Your Way - 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don't be fooled by its simplicity-each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
     "howToPlay": "Welcome to Find Your Way a 2D navigation and maze game designed for players of all ages where the goal is simple yet challenging reach the exit of each maze while using only mouse clicks to control your character This browser-based game offers a combi",
     "controls": [
       {
@@ -55830,7 +55830,7 @@ const rawGames = [
     "width": 1000,
     "height": 800,
     "orientation": "landscape",
-    "description": "A fun and addictive casual game where your goal is to catch falling candies using a bucket and score as many points as possible. Stay focused and react quickly &mdash; not everything falling from the sky is safe! Avoid dangerous bombs while collecting sweet candies to keep your game going. With colorful visuals, smooth gameplay, and increasing difficulty, every level challenges your speed and reflexes. How long can you survive and reach the highest score?",
+    "description": "A fun and addictive casual game where your goal is to catch falling candies using a bucket and score as many points as possible. Stay focused and react quickly - not everything falling from the sky is safe! Avoid dangerous bombs while collecting sweet candies to keep your game going. With colorful visuals, smooth gameplay, and increasing difficulty, every level challenges your speed and reflexes. How long can you survive and reach the highest score?",
     "howToPlay": "Move mouse or swipe to control basket Use arrow keys or A D to move",
     "controls": [
       {
@@ -55879,7 +55879,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Blockscape.io is a free browser-based voxel MMO. Mine ores, chop trees, fight monsters, and smith powerful weapons as you train 4 skills and level up. Collect rare gems, trade with other players, and explore a 3D multiplayer world &mdash; no download required.",
+    "description": "Blockscape.io is a free browser-based voxel MMO. Mine ores, chop trees, fight monsters, and smith powerful weapons as you train 4 skills and level up. Collect rare gems, trade with other players, and explore a 3D multiplayer world - no download required.",
     "howToPlay": "WASD - Move Space - Jump Left Click - Mine Attack V - Toggle camera perspective T - Open chat Tab - Open inventory 1-9 - Select hotbar slot E - Interact Sell Esc - Settings menu",
     "controls": [
       {
@@ -55977,7 +55977,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "A fastpaced runner game with both solo and 2player modes. Your goal is simple: keep moving and survive for as long as you can without falling. You start with 3 lives&mdash;lose them all, and it&rsquo;s game over. Play alone to test your skills or team up in 2player mode for a fun, competitive race to see who can make it farther.",
+    "description": "A fastpaced runner game with both solo and 2player modes. Your goal is simple: keep moving and survive for as long as you can without falling. You start with 3 lives-lose them all, and it's game over. Play alone to test your skills or team up in 2player mode for a fun, competitive race to see who can make it farther.",
     "howToPlay": "Use WASD keys and space bar key when playing as a solo press space bar key 2 times to double jump When playing 2 player mode use the solo keys and arrows keys to play for the second player to jump use the L key to jump press the L key 2 times to double f",
     "controls": [
       {
@@ -56222,7 +56222,7 @@ const rawGames = [
     "width": 640,
     "height": 360,
     "orientation": "landscape",
-    "description": "In a world once filled with harmony, a mysterious darkness began spreading across the lands. It didn&rsquo;t destroy&mdash;it confused. Mountains shifted, rivers twisted, and the stars rearranged themselves in the sky. Every living creature could feel the balance fading away, as if the very logic of the universe was being scrambled like a broken puzzle. You play as Liora, a young traveler gifted with a rare ability: she can see the patterns hidden inside chaos. One night, guided by a flickering lantern and a whispering wind, she finds the Temple of Reflections, an ancient place said to hold the key to restoring clarity to the world. But inside, nothing",
+    "description": "In a world once filled with harmony, a mysterious darkness began spreading across the lands. It didn't destroy-it confused. Mountains shifted, rivers twisted, and the stars rearranged themselves in the sky. Every living creature could feel the balance fading away, as if the very logic of the universe was being scrambled like a broken puzzle. You play as Liora, a young traveler gifted with a rare ability: she can see the patterns hidden inside chaos. One night, guided by a flickering lantern and a whispering wind, she finds the Temple of Reflections, an ancient place said to hold the key to restoring clarity to the world. But inside, nothing",
     "howToPlay": "Mouse Touch Tap or click on an arc to rotate it Drag Move pieces or connect arcs in the correct order Hold Press and hold to preview connections or reset a segment Hint Button Tap the light icon to reveal a clue limited use Menu Pause Press",
     "controls": [
       {
@@ -56271,7 +56271,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Get ready for a heart-pounding motocross adventure in Stunt Dirt Bikes Rally Extreme &ndash; the ultimate physics-based bike racing game! Ride powerful stunt bikes through insane obstacle courses, master tricky terrain, and perform jaw-dropping flips, jumps, and tricks. Skill-Based Racing: Precision and timing matter! Only the best riders will conquer all stages. Insane Stunts: Defy gravity with backflips, air time, and near-impossible landings. Challenge Yourself: Beat your ghost runs, collect medals, and unlock new bikes. Whether youre a fan of bike stunts or just love fast-paced offline racing games, Stunt Dirt Bike Extreme will test your skill",
+    "description": "Get ready for a heart-pounding motocross adventure in Stunt Dirt Bikes Rally Extreme - the ultimate physics-based bike racing game! Ride powerful stunt bikes through insane obstacle courses, master tricky terrain, and perform jaw-dropping flips, jumps, and tricks. Skill-Based Racing: Precision and timing matter! Only the best riders will conquer all stages. Insane Stunts: Defy gravity with backflips, air time, and near-impossible landings. Challenge Yourself: Beat your ghost runs, collect medals, and unlock new bikes. Whether youre a fan of bike stunts or just love fast-paced offline racing games, Stunt Dirt Bike Extreme will test your skill",
     "howToPlay": "Tab ndash Move forward Arrow Keys ndash Move left right",
     "controls": [
       {
@@ -56516,7 +56516,7 @@ const rawGames = [
     "width": 180,
     "height": 320,
     "orientation": "portrait",
-    "description": "Find Your Way &ndash; 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don&rsquo;t be fooled by its simplicity&mdash;each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
+    "description": "Find Your Way - 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don't be fooled by its simplicity-each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
     "howToPlay": "Step into the chaotic world of Boozy Berserker a fast-paced 2D action game controlled entirely with mouse clicks Click to swing your weapon dodge enemies and unleash powerful attacks as you survive through challenging arenas Simple controls make it e",
     "controls": [
       {
@@ -56565,7 +56565,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Dummy Speed Bridge is a fast-paced reflex game where timing is everything. Dash forward as bridges snap into place beneath your feet, then vanish just as quickly. One wrong step and it&rsquo;s a long fall down. Test your reaction speed, memory, and nerves as the pace ramps up with every level. Simple controls, brutal momentum, and zero mercy&mdash;only the quickest dummies make it across.",
+    "description": "Dummy Speed Bridge is a fast-paced reflex game where timing is everything. Dash forward as bridges snap into place beneath your feet, then vanish just as quickly. One wrong step and it's a long fall down. Test your reaction speed, memory, and nerves as the pace ramps up with every level. Simple controls, brutal momentum, and zero mercy-only the quickest dummies make it across.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -56614,7 +56614,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Quiz Runner.io &ndash; Trivia &amp; Multiplayer Quiz Battle Think fast, play smart, and rule the leaderboard in Quiz Runner.io, the ultimate online quiz game! Enjoy solo quiz mode to improve knowledge, custom quizzes to test your favorite topics, or upload your notes and PDFs to play interactive learning games. Join real-time multiplayer quiz battles, friend duels, and tournaments to compete globally. Track progress with levels, achievements, and power-ups. With daily quiz challenges, fast-paced timed games, smooth addictive gameplay, and support for 12+ languages, Quiz Runner.io is perfect for students, teachers, and trivia lovers worldwide!",
+    "description": "Quiz Runner.io - Trivia & Multiplayer Quiz Battle Think fast, play smart, and rule the leaderboard in Quiz Runner.io, the ultimate online quiz game! Enjoy solo quiz mode to improve knowledge, custom quizzes to test your favorite topics, or upload your notes and PDFs to play interactive learning games. Join real-time multiplayer quiz battles, friend duels, and tournaments to compete globally. Track progress with levels, achievements, and power-ups. With daily quiz challenges, fast-paced timed games, smooth addictive gameplay, and support for 12+ languages, Quiz Runner.io is perfect for students, teachers, and trivia lovers worldwide!",
     "howToPlay": "W rarr Move Forward A rarr Move Left D rarr Move Right Double Left-Click Mouse rarr Move left or right",
     "controls": [
       {
@@ -56712,7 +56712,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Players start as small crewmates in a crowded space station. The goal is to collect items scattered across the map to grow in size and strength. As your crewmates grow, you can consume smaller crewmates and absorb their crewmates, becoming even larger and more powerful. Strategic growth and hiding are key&mdash;avoid larger crewmates while planning to eat weaker ones.",
+    "description": "Players start as small crewmates in a crowded space station. The goal is to collect items scattered across the map to grow in size and strength. As your crewmates grow, you can consume smaller crewmates and absorb their crewmates, becoming even larger and more powerful. Strategic growth and hiding are key-avoid larger crewmates while planning to eat weaker ones.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -56761,7 +56761,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Sudoku Puzzle Game Sudoku is a classic logic-based puzzle game designed to challenge your brain and improve your concentration. The goal is simple: fill the 9&times;9 grid so that every row, column, and 3&times;3 sub-grid contains all numbers from 1 to 9 without repetition. This game features multiple difficulty levels, making it perfect for both beginners and experienced Sudoku players. Use hints when you get stuck, check your progress for mistakes, or solve the puzzle instantly if you want to learn the solution. The game is fully responsive and works smoothly on desktop and mobile devices. Advertisements are seamlessly integrated and automatically p",
+    "description": "Sudoku Puzzle Game Sudoku is a classic logic-based puzzle game designed to challenge your brain and improve your concentration. The goal is simple: fill the 9x9 grid so that every row, column, and 3x3 sub-grid contains all numbers from 1 to 9 without repetition. This game features multiple difficulty levels, making it perfect for both beginners and experienced Sudoku players. Use hints when you get stuck, check your progress for mistakes, or solve the puzzle instantly if you want to learn the solution. The game is fully responsive and works smoothly on desktop and mobile devices. Advertisements are seamlessly integrated and automatically p",
     "howToPlay": "Mouse Touch Click or tap on any empty cell to select it Keyboard 1 ndash 9 Type a number from 1 to 9 to fill the selected cell Backspace Delete Remove the number from the selected cell Hint Button Watch an advertisement to receive a correct h",
     "controls": [
       {
@@ -56859,7 +56859,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Chill Tic Tac Toe is a relaxing version of the classic tic-tac-toe game, designed to be played solo or with friends. Simple, fast, and pressure-free, it&rsquo;s perfect for passing the time, training your logic, or enjoying casual matches anytime.",
+    "description": "Chill Tic Tac Toe is a relaxing version of the classic tic-tac-toe game, designed to be played solo or with friends. Simple, fast, and pressure-free, it's perfect for passing the time, training your logic, or enjoying casual matches anytime.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -56957,7 +56957,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "2048 is a simple yet incredibly addictive puzzle game that challenges your logic, planning, and reflexes. The goal is straightforward: slide numbered tiles across a 4&times;4 grid to combine matching numbers and create increasingly larger values. When two tiles with the same number collide, they merge into a new tile with double the value &mdash; 2 becomes 4, 4 becomes 8, 8 becomes 16, and so on. Your ultimate mission is to reach the legendary 2048 tile, but the real challenge is keeping the board from filling up before you get there. Every move shifts all tiles in the chosen direction, creating new opportunities but also new obstacles. A single swipe",
+    "description": "2048 is a simple yet incredibly addictive puzzle game that challenges your logic, planning, and reflexes. The goal is straightforward: slide numbered tiles across a 4x4 grid to combine matching numbers and create increasingly larger values. When two tiles with the same number collide, they merge into a new tile with double the value - 2 becomes 4, 4 becomes 8, 8 becomes 16, and so on. Your ultimate mission is to reach the legendary 2048 tile, but the real challenge is keeping the board from filling up before you get there. Every move shifts all tiles in the chosen direction, creating new opportunities but also new obstacles. A single swipe",
     "howToPlay": "How to Play 2048 ndash Controls Arrow Keys on keyboard or Swipe Gestures on mobile Up Slide all tiles upward Down Slide all tiles downward Left Slide all tiles to the left Right Slide all tiles to the right Each move pushes all tiles in that d",
     "controls": [
       {
@@ -57006,7 +57006,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Pentablocks is an intense bullet-hell dodging game channeling Slopes infamous red blocks and Undertale-style battle evasion. Maneuver your dot with precise WASD controls through endless barrages of sharp pentagonal red obstacles in a neon void. Survive escalating patterns, chain perfect dodges, unlock modes, and hunt high scores in this pure skill-based, addictive browser reflex tester&mdash;no shooting, just survival.",
+    "description": "Pentablocks is an intense bullet-hell dodging game channeling Slopes infamous red blocks and Undertale-style battle evasion. Maneuver your dot with precise WASD controls through endless barrages of sharp pentagonal red obstacles in a neon void. Survive escalating patterns, chain perfect dodges, unlock modes, and hunt high scores in this pure skill-based, addictive browser reflex tester-no shooting, just survival.",
     "howToPlay": "WASD Arrow Keys - Dodge Move in all directions R - Restart level",
     "controls": [
       {
@@ -57055,7 +57055,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Bubble War &ndash; The Ultimate Bubble Shooting Battle! Get ready for an exhilarating bubble-popping experience in Bubble War, the ultimate multiplayer and single-player bubble shooting game! Whether you&rsquo;re looking to challenge yourself in solo mode or compete against players worldwide in real-time battles, Bubble War delivers non-stop action, strategy, and fun! Two Exciting Game Modes: Single-Player Mode: Embark on an adventure through hundreds of challenging levels, each designed to test your accuracy and strategy. Match three or more bubbles of the same color to clear the board and earn powerful boosters. As you progress, you&rsquo;ll encoun",
+    "description": "Bubble War - The Ultimate Bubble Shooting Battle! Get ready for an exhilarating bubble-popping experience in Bubble War, the ultimate multiplayer and single-player bubble shooting game! Whether you're looking to challenge yourself in solo mode or compete against players worldwide in real-time battles, Bubble War delivers non-stop action, strategy, and fun! Two Exciting Game Modes: Single-Player Mode: Embark on an adventure through hundreds of challenging levels, each designed to test your accuracy and strategy. Match three or more bubbles of the same color to clear the board and earn powerful boosters. As you progress, you'll encoun",
     "howToPlay": "Press hold and drag to aim and release to shoot",
     "controls": [
       {
@@ -57104,7 +57104,7 @@ const rawGames = [
     "width": 1728,
     "height": 1084,
     "orientation": "landscape",
-    "description": "EpicShooter3D is built with one simple goal: to be fast, smooth, simple, and fun &mdash; no installs, no logins, no waiting. Just open the game and start shooting. This game will always be free. No downloads. No accounts. Just pure browser FPS action. Even though I created this game, its not just my game anymore. A lot of the features you see today came directly from player feedback, and I genuinely value every suggestion. I promise to keep listening and improving the game with the community in mind. At its heart, EpicShooter3D is meant to be a stress-buster &mdash; but also a place where friends and total strangers can compete, climb the leaderboard.",
+    "description": "EpicShooter3D is built with one simple goal: to be fast, smooth, simple, and fun - no installs, no logins, no waiting. Just open the game and start shooting. This game will always be free. No downloads. No accounts. Just pure browser FPS action. Even though I created this game, its not just my game anymore. A lot of the features you see today came directly from player feedback, and I genuinely value every suggestion. I promise to keep listening and improving the game with the community in mind. At its heart, EpicShooter3D is meant to be a stress-buster - but also a place where friends and total strangers can compete, climb the leaderboard.",
     "howToPlay": "PC Controls W A S D - Move your character Mouse - Aim Look around Left Click Shoot Space Jump ESC Pause Game Release Cursor Mobile Controls The game automatically detects mobile devices and enables touch controls Left Joystick Drag to move your char",
     "controls": [
       {
@@ -57202,7 +57202,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Play an addictive evolution game where you control an Italian Brainrot creature in a fast-paced arena. Walk around, eat food to gain experience, and grow bigger with every level. As you evolve, your creature becomes stronger, faster, and more chaotic. Eat weaker Brainrot creatures instantly, avoid stronger enemies, and survive as long as possible. There are no complex attacks &mdash; victory depends on movement, positioning, and level advantage. Short sessions, simple mechanics, and constant action make this eat-and-grow Brainrot game highly replayable and perfect for quick fun.",
+    "description": "Play an addictive evolution game where you control an Italian Brainrot creature in a fast-paced arena. Walk around, eat food to gain experience, and grow bigger with every level. As you evolve, your creature becomes stronger, faster, and more chaotic. Eat weaker Brainrot creatures instantly, avoid stronger enemies, and survive as long as possible. There are no complex attacks - victory depends on movement, positioning, and level advantage. Short sessions, simple mechanics, and constant action make this eat-and-grow Brainrot game highly replayable and perfect for quick fun.",
     "howToPlay": "PC WSAD MOVE MOBILE JOYSTICK MOVE",
     "controls": [
       {
@@ -57300,7 +57300,7 @@ const rawGames = [
     "width": 512,
     "height": 288,
     "orientation": "landscape",
-    "description": "Find Your Way &ndash; 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don&rsquo;t be fooled by its simplicity&mdash;each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
+    "description": "Find Your Way - 2D Navigation Adventure Game Welcome to Find Your Way, a captivating 2D navigation and maze game that challenges your mind, reflexes, and sense of direction. In this unique browser-based experience, your goal is simple: guide your character through intricate mazes, avoid dead ends, and reach the exit as quickly as possible. But don't be fooled by its simplicity-each level is designed to test your problem-solving skills, patience, and strategic thinking. The world of Find Your Way is full of twists, turns, and surprises. As you progress through each level, the mazes become more complex, introducing new challenges and obstacle",
     "howToPlay": "Experience survival in Edge of Survival a simple 2D game you can play entirely with mouse clicks Your goal is to stay alive as long as possible while navigating a small but dangerous world filled with obstacles enemies and hidden items No complicated",
     "controls": [
       {
@@ -57349,7 +57349,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Dive deep into the ocean in Splashy Sub, a fun and challenging underwater adventure! Control your tiny yellow submarine and navigate through dangerous underwater caves filled with obstacles, mines, and sea creatures. Tap or press the right keys to stay afloat &mdash; every move counts! Avoid crashing, collect coins, and survive as long as you can beneath the waves. Easy to play but hard to master, Splashy Sub combines simple controls with addictive arcade action. How far can you go before the ocean swallows you whole? Features: Flappy-style underwater gameplay Simple one-touch or keyboard control",
+    "description": "Dive deep into the ocean in Splashy Sub, a fun and challenging underwater adventure! Control your tiny yellow submarine and navigate through dangerous underwater caves filled with obstacles, mines, and sea creatures. Tap or press the right keys to stay afloat - every move counts! Avoid crashing, collect coins, and survive as long as you can beneath the waves. Easy to play but hard to master, Splashy Sub combines simple controls with addictive arcade action. How far can you go before the ocean swallows you whole? Features: Flappy-style underwater gameplay Simple one-touch or keyboard control",
     "howToPlay": "Tap Click to move the submarine upward",
     "controls": [
       {
@@ -57447,7 +57447,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Dive into the Deep Blue! Niche Shift is a deceptively simple strategy puzzle that challenges you to build a thriving ocean ecosystem. It starts with a simple swipe: merge Plankton to create Krill, merge Krill to create Fish, and evolve your way up the food chain to the legendary Leviathan. But the ocean is a dangerous place. Unlike standard merging games, your creatures have needs. The Twist: Hunger &amp; Balance High-level predators (Level 3+) arent just tiles&mdash;they are living creatures. Every time you move, they get hungrier. You must merge them to feed them, or they will starve and turn into Bones&mdash;useless obstacles that clog your re",
+    "description": "Dive into the Deep Blue! Niche Shift is a deceptively simple strategy puzzle that challenges you to build a thriving ocean ecosystem. It starts with a simple swipe: merge Plankton to create Krill, merge Krill to create Fish, and evolve your way up the food chain to the legendary Leviathan. But the ocean is a dangerous place. Unlike standard merging games, your creatures have needs. The Twist: Hunger & Balance High-level predators (Level 3+) arent just tiles-they are living creatures. Every time you move, they get hungrier. You must merge them to feed them, or they will starve and turn into Bones-useless obstacles that clog your re",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -57594,7 +57594,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to an exciting underwater world! In this 2D game, you begin your journey as a small fish, exploring the depths of the ocean and feeding on smaller fish to grow. With each level, your fish becomes bigger, unlocking new opportunities &mdash; hunt larger prey and dominate the underwater world. Enjoy unique levels, dynamic gameplay, and engaging mechanics. Play, grow, and become the true king of the ocean!",
+    "description": "Welcome to an exciting underwater world! In this 2D game, you begin your journey as a small fish, exploring the depths of the ocean and feeding on smaller fish to grow. With each level, your fish becomes bigger, unlocking new opportunities - hunt larger prey and dominate the underwater world. Enjoy unique levels, dynamic gameplay, and engaging mechanics. Play, grow, and become the true king of the ocean!",
     "howToPlay": "PC Controls The fish moves relative to the mouse position from the center of the screen bull Space or Left Mouse Button LMB mdash boost speed up Mobile Controls The fish is controlled using a standard virtual joystick bull Tap the lightning i",
     "controls": [
       {
@@ -57692,7 +57692,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Grow your dragon and take it to the peak of evolution! Eat fruits, defeat other players, and become the most powerful creature in this world. Choose your playstyle &mdash; will you be a fast and aggressive hunter, or a careful strategist who defends their territory? Dive into an exciting growth and evolution journey, upgrade your dragon&rsquo;s abilities, and adapt to a constantly changing world. Explore new areas and become a true legend among dragons! Features: &bull; Eat, fight, and survive in fast-paced battles &bull; Evolve and reach new stages of evolution &bull; Unlock and explore new territories &bull; Become the strongest dragon in the game!",
+    "description": "Grow your dragon and take it to the peak of evolution! Eat fruits, defeat other players, and become the most powerful creature in this world. Choose your playstyle - will you be a fast and aggressive hunter, or a careful strategist who defends their territory? Dive into an exciting growth and evolution journey, upgrade your dragon's abilities, and adapt to a constantly changing world. Explore new areas and become a true legend among dragons! Features: &bull; Eat, fight, and survive in fast-paced battles &bull; Evolve and reach new stages of evolution &bull; Unlock and explore new territories &bull; Become the strongest dragon in the game!",
     "howToPlay": "On PC bull WASD mdash movement control On mobile bull Swipe on the screen mdash movement",
     "controls": [
       {
@@ -57790,7 +57790,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "This game is an exciting combination of the classic Snake mechanics and the popular 2048 puzzle. Your goal is to control the snake and absorb cubes with a smaller or equal value. Each absorbed cube increases your mass, making the snake longer and stronger. But be careful &mdash; colliding with a larger cube will result in defeat. The game offers a unique gameplay experience that blends fast-paced action with strategic thinking. You must plan your path carefully, avoid dangerous cubes, survive as long as possible, and score the highest number of points. The controls are simple and intuitive: on PC, the snake follows your cursor, while on mobile de",
+    "description": "This game is an exciting combination of the classic Snake mechanics and the popular 2048 puzzle. Your goal is to control the snake and absorb cubes with a smaller or equal value. Each absorbed cube increases your mass, making the snake longer and stronger. But be careful - colliding with a larger cube will result in defeat. The game offers a unique gameplay experience that blends fast-paced action with strategic thinking. You must plan your path carefully, avoid dangerous cubes, survive as long as possible, and score the highest number of points. The controls are simple and intuitive: on PC, the snake follows your cursor, while on mobile de",
     "howToPlay": "Absorb cubes that are smaller than or equal to your current mass Colliding with a larger cube will result in defeat For PC The snake moves by following your mouse cursor For mobile devices Control the snake rsquo s direction using a virtual joystick",
     "controls": [
       {
@@ -57839,7 +57839,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "The city is on the brink of destruction&mdash;a giant tsunami is gaining speed and sweeping away everything in its path. Only you can survive and save the inhabitants! In this dynamic running game, youll need to increase your speed, improve your heros abilities, and reach the finish line faster than the destructive wave catches up with you. The higher your speed, the more chances you have to break ahead and win. Explore different worlds, from modern city streets to fantastical locations. Each world brings new challenges, obstacles, and visual effects. Collect pets that give you unique bonuses: acceleration, extra speed, auto-boosts, and wave pro",
+    "description": "The city is on the brink of destruction-a giant tsunami is gaining speed and sweeping away everything in its path. Only you can survive and save the inhabitants! In this dynamic running game, youll need to increase your speed, improve your heros abilities, and reach the finish line faster than the destructive wave catches up with you. The higher your speed, the more chances you have to break ahead and win. Explore different worlds, from modern city streets to fantastical locations. Each world brings new challenges, obstacles, and visual effects. Collect pets that give you unique bonuses: acceleration, extra speed, auto-boosts, and wave pro",
     "howToPlay": "On PC WASD ndash Move Mouse ndash Camera control Space ndash Jump On Mobile Use the game interface Drag anywhere on the screen ndash Camera control",
     "controls": [
       {
@@ -57986,7 +57986,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Ocean Catcher Fun is a fast-paced arcade hyper-casual game set in a vibrant underwater world where players test their reflexes and timing. Dive into the ocean, catch a variety of fish, avoid dangerous sea creatures, and score as high as possible. Each run is quick, skill-based, and easy to learn but challenging to master. Gameplay &bull; Tap or click to cast your net &bull; Catch safe fish to earn points and combos &bull; Avoid dangerous creatures like sharks and jellyfish &bull; Manage your energy and build high-score streaks Progress &amp; Challenges &bull; Level-based progression with increasing difficulty &bull; Daily missions and objectives &bull; Combo system that reward",
+    "description": "Ocean Catcher Fun is a fast-paced arcade hyper-casual game set in a vibrant underwater world where players test their reflexes and timing. Dive into the ocean, catch a variety of fish, avoid dangerous sea creatures, and score as high as possible. Each run is quick, skill-based, and easy to learn but challenging to master. Gameplay &bull; Tap or click to cast your net &bull; Catch safe fish to earn points and combos &bull; Avoid dangerous creatures like sharks and jellyfish &bull; Manage your energy and build high-score streaks Progress & Challenges &bull; Level-based progression with increasing difficulty &bull; Daily missions and objectives &bull; Combo system that reward",
     "howToPlay": "Game Controls Mouse Touch Click or Tap anywhere to cast your net Net Selector Switch between Small Low Cost Medium and Large High Cost nets depending on the situation",
     "controls": [
       {
@@ -58084,7 +58084,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Magical Tic Tac Toe is a fresh and modern version of the classic game! Play against a smart computer with multiple difficulty levels or challenge a friend on the same device. Earn coins, unlock beautiful gradient themes, and enjoy smooth animations with a clean premium UI. Perfect for all ages &mdash; simple to play, fun to master, and fully responsive on mobile &amp; desktop. Can you outsmart the computer?",
+    "description": "Magical Tic Tac Toe is a fresh and modern version of the classic game! Play against a smart computer with multiple difficulty levels or challenge a friend on the same device. Earn coins, unlock beautiful gradient themes, and enjoy smooth animations with a clean premium UI. Perfect for all ages - simple to play, fun to master, and fully responsive on mobile & desktop. Can you outsmart the computer?",
     "howToPlay": "Mouse Touch Controls bull Tap or click on any square to place X or O bull Use Pause to stop the game anytime bull Press Home to return to the main menu bull Select themes and difficulties using on-screen buttons bull Earn coins automatically",
     "controls": [
       {
@@ -58182,7 +58182,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Dive into the most addictive number puzzle experience with 2048 Clean. Slide the tiles to merge matching numbers: 2+2 becomes 4, 4+4 becomes 8, and so on. Your goal is to reach the legendary 2048 tile without running out of moves! Key Features: - Brain Training: Improve your logic and math skills. - Mobile Optimized: Smooth gameplay on all devices (Android, iOS, PC). - Fast &amp; Clean: Minimalist design for zero distractions. - High Score: Challenge your friends and beat your best score. Whether you are a fan of classic math puzzles or looking for a relaxing brain teaser, 2048 Clean is the perfect choice. Play now for free!",
+    "description": "Dive into the most addictive number puzzle experience with 2048 Clean. Slide the tiles to merge matching numbers: 2+2 becomes 4, 4+4 becomes 8, and so on. Your goal is to reach the legendary 2048 tile without running out of moves! Key Features: - Brain Training: Improve your logic and math skills. - Mobile Optimized: Smooth gameplay on all devices (Android, iOS, PC). - Fast & Clean: Minimalist design for zero distractions. - High Score: Challenge your friends and beat your best score. Whether you are a fan of classic math puzzles or looking for a relaxing brain teaser, 2048 Clean is the perfect choice. Play now for free!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -58280,7 +58280,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Gunship Shooting Attack Game 3D is the most immersive and realistic 3D helicopter battle action game available on Google Play. Launch the attack on the most dangerous terrorists now! Gunship Strike puts you in the gunner seat of the most powerful combat helicopters. Strategically fire your powerful machines guns and devastating missiles to slay hordes of enemies across the world. Guide with precision your combat helicopter and demolish the enemy military bases in the world&rsquo;s greatest combat experience! The Gunship Helicopter shooting is the best unique tool to train your mind, that how to battle against the strongest enemy.",
+    "description": "Gunship Shooting Attack Game 3D is the most immersive and realistic 3D helicopter battle action game available on Google Play. Launch the attack on the most dangerous terrorists now! Gunship Strike puts you in the gunner seat of the most powerful combat helicopters. Strategically fire your powerful machines guns and devastating missiles to slay hordes of enemies across the world. Guide with precision your combat helicopter and demolish the enemy military bases in the world's greatest combat experience! The Gunship Helicopter shooting is the best unique tool to train your mind, that how to battle against the strongest enemy.",
     "howToPlay": "Left Mouse Click",
     "controls": [
       {
@@ -58476,7 +58476,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Animal Racing: Idle Park is an addictive racing animal transform game that will keep you playing for hours. In this game, you&rsquo;ll train multiple animal racers such as lions, eagles, orangutans, dolphins, and more!",
+    "description": "Animal Racing: Idle Park is an addictive racing animal transform game that will keep you playing for hours. In this game, you'll train multiple animal racers such as lions, eagles, orangutans, dolphins, and more!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -58525,7 +58525,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Have you ever skateboarded across the rooftops of buildings at Christmas? Skate on the rooftops and be very careful&mdash;if you fall from a great height, you lose. You must be very careful to avoid falling from high places. Pass over the buildings and reach the finish line by jumping over the objects in the sky.",
+    "description": "Have you ever skateboarded across the rooftops of buildings at Christmas? Skate on the rooftops and be very careful-if you fall from a great height, you lose. You must be very careful to avoid falling from high places. Pass over the buildings and reach the finish line by jumping over the objects in the sky.",
     "howToPlay": "You can move using the WASD keys and jump with the lsquo W rsquo key Playable on both mobile and PC Mobile touch controls available",
     "controls": [
       {
@@ -58623,7 +58623,7 @@ const rawGames = [
     "width": 1334,
     "height": 750,
     "orientation": "landscape",
-    "description": "This is not just a simple running and racing game. It&rsquo;s a brainrot-style 3D battle where speed and strategy collide! Your goal is to collect as many bananas as possible while sprinting through hilarious obstacle courses. Collect more bananas to evolve your form.",
+    "description": "This is not just a simple running and racing game. It's a brainrot-style 3D battle where speed and strategy collide! Your goal is to collect as many bananas as possible while sprinting through hilarious obstacle courses. Collect more bananas to evolve your form.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -58672,7 +58672,7 @@ const rawGames = [
     "width": 800,
     "height": 450,
     "orientation": "landscape",
-    "description": "Gravity Pulse is a minimalist arcade survival game where the player navigates a small arena, balancing risk and reward. The game is built around Attractor Fields &mdash; invisible forces that guide player behavior, creating flow, tension, and emergent mastery. Core Fun: Discover invariants in a chaotic system while being subtly guided by invisible attractor fields. Player Goal: Survive as long as possible and collect points.",
+    "description": "Gravity Pulse is a minimalist arcade survival game where the player navigates a small arena, balancing risk and reward. The game is built around Attractor Fields - invisible forces that guide player behavior, creating flow, tension, and emergent mastery. Core Fun: Discover invariants in a chaotic system while being subtly guided by invisible attractor fields. Player Goal: Survive as long as possible and collect points.",
     "howToPlay": "Move WASD Arrows Mouse Touch Dash Space L-Click Button Pause ESC Button",
     "controls": [
       {
@@ -58721,7 +58721,7 @@ const rawGames = [
     "width": 800,
     "height": 450,
     "orientation": "landscape",
-    "description": "Ice Dash is a fun and frosty adventure where you draw icy lines to guide Santa through exciting levels. Help him slide across your custom paths, avoid icy traps, ride moving platforms, and collect yummy cookies along the way! Watch out for obstacles and keep your balance &ndash; the challenge gets harder as you go. Can you get every cookie and make Santa dash to victory?",
+    "description": "Ice Dash is a fun and frosty adventure where you draw icy lines to guide Santa through exciting levels. Help him slide across your custom paths, avoid icy traps, ride moving platforms, and collect yummy cookies along the way! Watch out for obstacles and keep your balance - the challenge gets harder as you go. Can you get every cookie and make Santa dash to victory?",
     "howToPlay": "Controls Draw Ice Line Tap and drag Mobile Click and drag PC Move Santa Santa slides automatically on the lines you draw Pause Game Tap the pause button",
     "controls": [
       {
@@ -59064,7 +59064,7 @@ const rawGames = [
     "width": 900,
     "height": 600,
     "orientation": "landscape",
-    "description": "Take command of a customizable battle tank in 10 action-packed missions. Ambush enemy convoys, capture uplinks, defend a relay, escort an evacuation vehicle, recover classified intel, and escape devastating artillery strikes. Battle two powerful bosses, including the three-phase Dreadnought. Use buildings as cover, track enemies and objectives on the minimap, and collect salvage to upgrade your armor, firepower, and mobility. Switch between four weapons and customize your tank&rsquo;s appearance.",
+    "description": "Take command of a customizable battle tank in 10 action-packed missions. Ambush enemy convoys, capture uplinks, defend a relay, escort an evacuation vehicle, recover classified intel, and escape devastating artillery strikes. Battle two powerful bosses, including the three-phase Dreadnought. Use buildings as cover, track enemies and objectives on the minimap, and collect salvage to upgrade your armor, firepower, and mobility. Switch between four weapons and customize your tank's appearance.",
     "howToPlay": "CONTROLS bull WASD mdash Move bull Mouse mdash Aim the turret bull Left Mouse Button mdash Fire hold for continuous fire bull 1 ndash 4 mdash Switch unlocked weapons bull Space mdash Dash bull G mdash Open the garage for upgrades",
     "controls": [
       {
@@ -59162,7 +59162,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Raise the sails and fight for the richest hold on the reef! Block Ship Battle is a fast pirate brawler with real broadside combat: your cannons fire to the side, so every fight is a dance of turning, timing and reloading until your guns bear on the enemy &mdash; then KABOOM. Sink ships, scoop up floating treasure and carry your gold to a harbour &mdash; only banked gold counts, and a fat hold makes you the target everyone is hunting. Hunt the Treasure Galleon, sail into storms for the treasure they wash up, and level up during the match: every level fits your ship with a new upgrade you can see, up to your captains ultimate. Six ships and captains, each with two abilities and an ultimate. Five modes, from Plunder Brawl to Last Ship Afloat, a sixteen-ship battle royale inside a closing storm. Your progress is saved: unlock new ships, sails and paint as you play.",
+    "description": "Raise the sails and fight for the richest hold on the reef! Block Ship Battle is a fast pirate brawler with real broadside combat: your cannons fire to the side, so every fight is a dance of turning, timing and reloading until your guns bear on the enemy - then KABOOM. Sink ships, scoop up floating treasure and carry your gold to a harbour - only banked gold counts, and a fat hold makes you the target everyone is hunting. Hunt the Treasure Galleon, sail into storms for the treasure they wash up, and level up during the match: every level fits your ship with a new upgrade you can see, up to your captains ultimate. Six ships and captains, each with two abilities and an ultimate. Five modes, from Plunder Brawl to Last Ship Afloat, a sixteen-ship battle royale inside a closing storm. Your progress is saved: unlock new ships, sails and paint as you play.",
     "howToPlay": "Keyboard and mouse W S raise and lower sail A D steer mouse to look Hold right mouse to aim your broadside left mouse to fire X switches broadside Shift E use abilities Q the ultimate from level 5 Tab scoreboard Esc pause Touch left stick to",
     "controls": [
       {
@@ -59456,7 +59456,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "An infinite sandbox world powered by hyper-realistic graphics and advanced physics. Explore lifelike biomes, gather resources, build without limits, and survive a harsh, dynamic environment. Key Features: Next-gen visuals: HD textures, dynamic weather, and real-time lighting. Survival &amp; Crafting: Resource management, advanced crafting, and building. Total freedom: A fully destructible, infinite world to explore solo or with friends. Ready to experience the ultimate survival sandbox?",
+    "description": "An infinite sandbox world powered by hyper-realistic graphics and advanced physics. Explore lifelike biomes, gather resources, build without limits, and survive a harsh, dynamic environment. Key Features: Next-gen visuals: HD textures, dynamic weather, and real-time lighting. Survival & Crafting: Resource management, advanced crafting, and building. Total freedom: A fully destructible, infinite world to explore solo or with friends. Ready to experience the ultimate survival sandbox?",
     "howToPlay": "Movement WASD Sprint Shift Jump Space Actions Left Click Mine Attack Right Click Place Interact Inventory amp Hotbar E 1 ndash 9 Scroll Wheel",
     "controls": [
       {
@@ -59652,7 +59652,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Princess Elira is sheltering inside the kingdom&rsquo;s last keep, surrounded by an endless siege. Control the guardian, defend the castle against waves of enemies, and survive for as long as you can. Fight eight enemy types and powerful bosses, then choose a roguelike perk after each wave: unleash arrow volleys, chain lightning, a flaming blade, or a dodge roll. Earn coins in battle to unlock permanent upgrades and new armor skins. The story unfolds across 20 waves, with a boss and a new cinematic chapter every five waves. How long can you hold the last line?",
+    "description": "Princess Elira is sheltering inside the kingdom's last keep, surrounded by an endless siege. Control the guardian, defend the castle against waves of enemies, and survive for as long as you can. Fight eight enemy types and powerful bosses, then choose a roguelike perk after each wave: unleash arrow volleys, chain lightning, a flaming blade, or a dodge roll. Earn coins in battle to unlock permanent upgrades and new armor skins. The story unfolds across 20 waves, with a boss and a new cinematic chapter every five waves. How long can you hold the last line?",
     "howToPlay": "Move WASD or Arrow Keys You can also hold the mouse button on the battlefield to move in that direction On mobile drag on the screen The guardian attacks nearby enemies automatically Space Storm Strike After unlocking perks Q Flaming Blade Shif",
     "controls": [
       {
@@ -60289,7 +60289,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Game Overview Gun Theif Auto is an open-world voxel action game featuring a 6x6 urban grid. Explore freely, complete mission contracts, and evade police in sandbox or mission modes. Key Features Modes: Sandbox free roam and structured missions with a dynamic police wanted system. World: A massive 6x6 city grid with accessible rooftops and diverse districts. Vehicles &amp; Arsenal: Over 15 vehicle classes (sports cars, police cruisers) and weapons including handguns and RPGs. Characters: Over 100 dynamic NPC types, including civilians, police, and rival gangs.",
+    "description": "Game Overview Gun Theif Auto is an open-world voxel action game featuring a 6x6 urban grid. Explore freely, complete mission contracts, and evade police in sandbox or mission modes. Key Features Modes: Sandbox free roam and structured missions with a dynamic police wanted system. World: A massive 6x6 city grid with accessible rooftops and diverse districts. Vehicles & Arsenal: Over 15 vehicle classes (sports cars, police cruisers) and weapons including handguns and RPGs. Characters: Over 100 dynamic NPC types, including civilians, police, and rival gangs.",
     "howToPlay": "Game Controls Movement WASD or Arrow Keys Sprint Left Shift Jump Spacebar Interact Enter Vehicle F Attack Shoot Left Mouse Click Aim Right Mouse Click Weapon Switch Number Keys 1-3 or Mouse Scroll Pause Menu Escape Key",
     "controls": [
       {
@@ -61220,7 +61220,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Wolfoos Town Dream City is a bright, friendly pretend-play world for young children! Roam a cheerful town with Wolfoo and pals, then tap the places you love to play inside them. Visit THE MALL to shop, the SCHOOL to learn and create, the HOSPITAL to care for patients, the THEATER for a show, and the amusement park for happy rides. Every building opens a new little activity &mdash; decorate rooms, try outfits, play mini games and explore at your own pace. Activities: town-map exploration, shopping mall, school, hospital care, theater, playground and amusement park.",
+    "description": "Wolfoos Town Dream City is a bright, friendly pretend-play world for young children! Roam a cheerful town with Wolfoo and pals, then tap the places you love to play inside them. Visit THE MALL to shop, the SCHOOL to learn and create, the HOSPITAL to care for patients, the THEATER for a show, and the amusement park for happy rides. Every building opens a new little activity - decorate rooms, try outfits, play mini games and explore at your own pace. Activities: town-map exploration, shopping mall, school, hospital care, theater, playground and amusement park.",
     "howToPlay": "Tap or click a building on the town map to enter and play Drag or swipe to move around the map",
     "controls": [
       {
@@ -61307,8 +61307,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "balloon-pop-pop-amp-blast",
-    "title": "Balloon Pop: Pop &amp; Blast",
+    "slug": "balloon-pop-pop-and-blast",
+    "title": "Balloon Pop: Pop & Blast",
     "category": "Adventure",
     "featured": false,
     "rating": 5,
@@ -61318,7 +61318,7 @@ const rawGames = [
     "width": 600,
     "height": 960,
     "orientation": "portrait",
-    "description": "Balloon Pop: Pop &amp; Blast Get ready for a colorful and addictive balloon popping challenge! Tap, click, and pop balloons as quickly as you can while testing your speed, accuracy, and reflexes. Pop as many balloons as possible, chase high scores, and enjoy simple, satisfying gameplay that is easy to learn but fun to master. Keep your eyes sharp and your fingers quick because every balloon is another chance to beat your best score! Perfect for players looking for a quick and entertaining hypercasual game. Play, pop, score, and try again! Keywords: Balloon Pop, Balloon Game, Pop Balloons, Balloon Blast, Pop Game, Hypercasual Game, Casual G",
+    "description": "Balloon Pop: Pop & Blast Get ready for a colorful and addictive balloon popping challenge! Tap, click, and pop balloons as quickly as you can while testing your speed, accuracy, and reflexes. Pop as many balloons as possible, chase high scores, and enjoy simple, satisfying gameplay that is easy to learn but fun to master. Keep your eyes sharp and your fingers quick because every balloon is another chance to beat your best score! Perfect for players looking for a quick and entertaining hypercasual game. Play, pop, score, and try again! Keywords: Balloon Pop, Balloon Game, Pop Balloons, Balloon Blast, Pop Game, Hypercasual Game, Casual G",
     "howToPlay": "Mouse Left Click Pop balloons Touch Tap balloons to pop them Move Use your mouse or finger to target balloons Goal Pop as many balloons as possible and achieve a high score",
     "controls": [
       {
@@ -61346,12 +61346,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Balloon Pop: Pop &amp; Blast free to play on BlockHub.games?",
-        "a": "Yes, Balloon Pop: Pop &amp; Blast is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Balloon Pop: Pop & Blast free to play on BlockHub.games?",
+        "a": "Yes, Balloon Pop: Pop & Blast is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Balloon Pop: Pop &amp; Blast on mobile devices?",
-        "a": "Yes, Balloon Pop: Pop &amp; Blast is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Balloon Pop: Pop & Blast on mobile devices?",
+        "a": "Yes, Balloon Pop: Pop & Blast is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -61552,8 +61552,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "snake-run-eat-amp-grow",
-    "title": "Snake Run: Eat &amp; Grow",
+    "slug": "snake-run-eat-and-grow",
+    "title": "Snake Run: Eat & Grow",
     "category": "Adventure",
     "featured": false,
     "rating": 4.9,
@@ -61591,12 +61591,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Snake Run: Eat &amp; Grow free to play on BlockHub.games?",
-        "a": "Yes, Snake Run: Eat &amp; Grow is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Snake Run: Eat & Grow free to play on BlockHub.games?",
+        "a": "Yes, Snake Run: Eat & Grow is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Snake Run: Eat &amp; Grow on mobile devices?",
-        "a": "Yes, Snake Run: Eat &amp; Grow is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Snake Run: Eat & Grow on mobile devices?",
+        "a": "Yes, Snake Run: Eat & Grow is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -61612,7 +61612,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Ready to climb as high as you can? In OBBY Climb and Jump Tower, overcome challenging obstacles, jump from platform to platform, and try to reach the top of the tower! Get your wings and fly! Collect cute pets! Climb higher and try to become the best player! Each level brings you more challenging obstacles and new adventures. Jump, climb, move forward, and reach the top without falling! Use your wings to gain an advantage, discover different pets, and climb as high as possible! Can you reach the top? OBBY Climb and Jump Tower &mdash; Climb, jump, spread your wings, and reach the highest point of the tower!",
+    "description": "Ready to climb as high as you can? In OBBY Climb and Jump Tower, overcome challenging obstacles, jump from platform to platform, and try to reach the top of the tower! Get your wings and fly! Collect cute pets! Climb higher and try to become the best player! Each level brings you more challenging obstacles and new adventures. Jump, climb, move forward, and reach the top without falling! Use your wings to gain an advantage, discover different pets, and climb as high as possible! Can you reach the top? OBBY Climb and Jump Tower - Climb, jump, spread your wings, and reach the highest point of the tower!",
     "howToPlay": "Move with WASD and jump with Space Playable on both mobile and PC Mobile touch controls available",
     "controls": [
       {
@@ -61906,7 +61906,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Grab the vines and climb as high as you can! In Jungle Climber, you control a small monkey fighting his way relentlessly upward while danger rains down from above &mdash; rocks, icicles, fireballs, and more, depending on which world youre climbing through. Jungle, lava caves, snowy peaks, mushroom forests, and many more locations are waiting to be scaled. Grab bananas for a second chance, snag a hot chili for a rocket boost upwardChoose between several monkeys with their own unique abilities &mdash; each with their own strengths and weaknesses. How high can you get before it gets too fast?",
+    "description": "Grab the vines and climb as high as you can! In Jungle Climber, you control a small monkey fighting his way relentlessly upward while danger rains down from above - rocks, icicles, fireballs, and more, depending on which world youre climbing through. Jungle, lava caves, snowy peaks, mushroom forests, and many more locations are waiting to be scaled. Grab bananas for a second chance, snag a hot chili for a rocket boost upwardChoose between several monkeys with their own unique abilities - each with their own strengths and weaknesses. How high can you get before it gets too fast?",
     "howToPlay": "Move with A left and D right",
     "controls": [
       {
@@ -63131,7 +63131,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Kim Jong Un Backrooms is a suspense-filled horror adventure where you must escape an endless maze of eerie yellow hallways. Trapped inside the mysterious Backrooms, every corridor looks the same&mdash;but something is always watching. Explore dark passages, search for keys, solve puzzles, and avoid terrifying encounters as you fight to survive. Stay quiet, think fast, and find the exit before its too late.",
+    "description": "Kim Jong Un Backrooms is a suspense-filled horror adventure where you must escape an endless maze of eerie yellow hallways. Trapped inside the mysterious Backrooms, every corridor looks the same-but something is always watching. Explore dark passages, search for keys, solve puzzles, and avoid terrifying encounters as you fight to survive. Stay quiet, think fast, and find the exit before its too late.",
     "howToPlay": "WASD to move",
     "controls": [
       {
@@ -63218,8 +63218,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "merge-plants-ndash-defense-zombies",
-    "title": "Merge Plants &ndash; Defense Zombies",
+    "slug": "merge-plants-defense-zombies",
+    "title": "Merge Plants - Defense Zombies",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -63229,7 +63229,7 @@ const rawGames = [
     "width": 1136,
     "height": 640,
     "orientation": "landscape",
-    "description": "Merge Plants &ndash; Defense Zombies is a fun strategy tower defense game where you combine powerful plants, unlock new mutations, and defend your farm against waves of zombies. Place plants on the battlefield, merge identical units to create stronger versions, and build the perfect defense for every level. Different zombies have unique abilities, so you will need to choose your plants carefully and adjust your strategy as the battle becomes more difficult. Keep merging, evolve your plants, defeat the zombie army, and protect your farm! Features: Merge identical plants to unlock powerful upgrades Discover different mutant plants and special abi",
+    "description": "Merge Plants - Defense Zombies is a fun strategy tower defense game where you combine powerful plants, unlock new mutations, and defend your farm against waves of zombies. Place plants on the battlefield, merge identical units to create stronger versions, and build the perfect defense for every level. Different zombies have unique abilities, so you will need to choose your plants carefully and adjust your strategy as the battle becomes more difficult. Keep merging, evolve your plants, defeat the zombie army, and protect your farm! Features: Merge identical plants to unlock powerful upgrades Discover different mutant plants and special abi",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -63257,12 +63257,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Merge Plants &ndash; Defense Zombies free to play on BlockHub.games?",
-        "a": "Yes, Merge Plants &ndash; Defense Zombies is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Merge Plants - Defense Zombies free to play on BlockHub.games?",
+        "a": "Yes, Merge Plants - Defense Zombies is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Merge Plants &ndash; Defense Zombies on mobile devices?",
-        "a": "Yes, Merge Plants &ndash; Defense Zombies is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Merge Plants - Defense Zombies on mobile devices?",
+        "a": "Yes, Merge Plants - Defense Zombies is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -63278,7 +63278,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Turn trash into treasure with Master Scavenger! Dive into massive scrap piles with your trusty magnet and collect the most valuable items before time runs out. Hoard your loot to unlock brand-new areas, from abandoned train yards and desolate deserts to bustling cities and mysterious forests. Time is ticking&mdash;can you become the ultimate scavenger?",
+    "description": "Turn trash into treasure with Master Scavenger! Dive into massive scrap piles with your trusty magnet and collect the most valuable items before time runs out. Hoard your loot to unlock brand-new areas, from abandoned train yards and desolate deserts to bustling cities and mysterious forests. Time is ticking-can you become the ultimate scavenger?",
     "howToPlay": "Movement Was Or Arrows Or Mouse Swipe Interactable Mouse Click Or Touch",
     "controls": [
       {
@@ -63414,8 +63414,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "win-magic-amp-devil",
-    "title": "Win Magic &amp; Devil",
+    "slug": "win-magic-and-devil",
+    "title": "Win Magic & Devil",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -63425,7 +63425,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Win Magic &amp; Devil is an exciting magical action game where you wield magical powers to battle against hordes of demons. Aim precisely, unleash powerful magical projectiles, and dodge dangerous attacks to survive. Each level presents new challenges with increasingly formidable enemies. Featuring fast-paced gameplay and spectacular, dramatic combat effects, it is perfect for fans of magic and adventure games!",
+    "description": "Win Magic & Devil is an exciting magical action game where you wield magical powers to battle against hordes of demons. Aim precisely, unleash powerful magical projectiles, and dodge dangerous attacks to survive. Each level presents new challenges with increasingly formidable enemies. Featuring fast-paced gameplay and spectacular, dramatic combat effects, it is perfect for fans of magic and adventure games!",
     "howToPlay": "A S W D to move Space to shoot",
     "controls": [
       {
@@ -63453,12 +63453,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Win Magic &amp; Devil free to play on BlockHub.games?",
-        "a": "Yes, Win Magic &amp; Devil is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Win Magic & Devil free to play on BlockHub.games?",
+        "a": "Yes, Win Magic & Devil is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Win Magic &amp; Devil on mobile devices?",
-        "a": "Yes, Win Magic &amp; Devil is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Win Magic & Devil on mobile devices?",
+        "a": "Yes, Win Magic & Devil is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -63915,7 +63915,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to the world of commando rush shooting games &mdash; an intense first-person shooter where only the bravest commandos survive! Prepare yourself for explosive missions, heart-pounding encounters, and thrilling action across four unique battle gun modes. Whether you&rsquo;re eliminating terrorists, defusing bombs, planting explosives, or rescuing hostages, every mission tests your skill, strategy, and courage in this gun game.",
+    "description": "Welcome to the world of commando rush shooting games - an intense first-person shooter where only the bravest commandos survive! Prepare yourself for explosive missions, heart-pounding encounters, and thrilling action across four unique battle gun modes. Whether you're eliminating terrorists, defusing bombs, planting explosives, or rescuing hostages, every mission tests your skill, strategy, and courage in this gun game.",
     "howToPlay": "- To click any button use mouse",
     "controls": [
       {
@@ -64062,7 +64062,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Get ready for an exciting adventure in Frog Leap 3D: Parkour Runner! You play as a nimble frog trying to navigate through challenging floating islands. Show off your parkour skills by leaping across tricky platforms, avoiding deadly traps, and collecting shiny coins along the way. Features: - Character: Play as a fun, agile frog with precise jumping mechanics. - Levels &amp; Worlds: Conquer 15 challenging levels spread across 3 unique worlds (The Grove, The Deep Forest, and The Volcano). - Mode: Single-player 3D Obby (Obstacle Course) platformer. - Gameplay: Timing is everything! Calculate your jumps, find checkpoints, collect coins, and reach the final platform without falling into the void. Can you beat all the worlds and prove you are the ultimate jumping master?",
+    "description": "Get ready for an exciting adventure in Frog Leap 3D: Parkour Runner! You play as a nimble frog trying to navigate through challenging floating islands. Show off your parkour skills by leaping across tricky platforms, avoiding deadly traps, and collecting shiny coins along the way. Features: - Character: Play as a fun, agile frog with precise jumping mechanics. - Levels & Worlds: Conquer 15 challenging levels spread across 3 unique worlds (The Grove, The Deep Forest, and The Volcano). - Mode: Single-player 3D Obby (Obstacle Course) platformer. - Gameplay: Timing is everything! Calculate your jumps, find checkpoints, collect coins, and reach the final platform without falling into the void. Can you beat all the worlds and prove you are the ultimate jumping master?",
     "howToPlay": "Desktop Controls - W A S D or Arrow Keys to move - Spacebar to jump - Mouse to look around rotate camera if applicable Mobile Controls - Left side of the screen Virtual Joystick to move - Right side of the screen Tap the Jump Button - Drag on t",
     "controls": [
       {
@@ -64797,7 +64797,7 @@ const rawGames = [
     "width": 1334,
     "height": 750,
     "orientation": "landscape",
-    "description": "Roblox World Builder provides a free-form exploration and building experience&mdash;you&rsquo;re not just an adventurer, but a world-builder! Inspired by Roblox-style gameplay, it includes fun minigames and interactive systems to keep moments engaging. You can collect wood, ore and fruits worldwide, construct armor and weapon shops, craft weapons to fight monsters, interact with NPCs to build relationships, complete guild missions for valuable rewards, and upgrade gear to enhance combat and survival.",
+    "description": "Roblox World Builder provides a free-form exploration and building experience-you're not just an adventurer, but a world-builder! Inspired by Roblox-style gameplay, it includes fun minigames and interactive systems to keep moments engaging. You can collect wood, ore and fruits worldwide, construct armor and weapon shops, craft weapons to fight monsters, interact with NPCs to build relationships, complete guild missions for valuable rewards, and upgrade gear to enhance combat and survival.",
     "howToPlay": "On PC WASD to move Shift to run G to fly Space to jump F to attack Z to enter the car C to collect X to chat R to build On Mobile Click the on-screen button to operate",
     "controls": [
       {
@@ -65483,7 +65483,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Passenger Airplane: Flight 3D Experience the most realistic passenger flight simulation! 2 Exciting Modes: World Map Mode &ndash; Fly real passenger routes across the globe Flight Training Mode &ndash; Learn essential pilot skills Key Features: Realistic joystick controls Speed control: 1x, 2x, 3x 6 Camera Modes &ndash; cockpit, external, wing, and more 3 Weather Conditions &ndash; sunny, rain, storm No Fuel System &ndash; unlimited flying fun Smooth 3D graphics Take off, switch cameras, change weather, and fly like a pro! Download now and rule the skies!",
+    "description": "Passenger Airplane: Flight 3D Experience the most realistic passenger flight simulation! 2 Exciting Modes: World Map Mode - Fly real passenger routes across the globe Flight Training Mode - Learn essential pilot skills Key Features: Realistic joystick controls Speed control: 1x, 2x, 3x 6 Camera Modes - cockpit, external, wing, and more 3 Weather Conditions - sunny, rain, storm No Fuel System - unlimited flying fun Smooth 3D graphics Take off, switch cameras, change weather, and fly like a pro! Download now and rule the skies!",
     "howToPlay": "Default Joystick ndash Easy and smooth flying Arrow Keys ndash Selectable from Settings Slider Throttle ndash For race-style speed control",
     "controls": [
       {
@@ -65532,7 +65532,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Are you prepared to build the sweetest empire ever? Donut Please puts you in charge of your very own donut shop, where you&rsquo;ll be rolling dough, frying donuts, and serving up happiness one delicious treat at a time. So, get ready to cook and serve donuts. Build your donut empire in donut please idle tycoon simulator game. No empire is built alone! Hire talented bakers and staff members, then level them up to improve their efficiency. Train your employees to whip up donuts faster, serve customers quicker, and help your donut business in shop games thrive.",
+    "description": "Are you prepared to build the sweetest empire ever? Donut Please puts you in charge of your very own donut shop, where you'll be rolling dough, frying donuts, and serving up happiness one delicious treat at a time. So, get ready to cook and serve donuts. Build your donut empire in donut please idle tycoon simulator game. No empire is built alone! Hire talented bakers and staff members, then level them up to improve their efficiency. Train your employees to whip up donuts faster, serve customers quicker, and help your donut business in shop games thrive.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -65777,7 +65777,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "No download required! Play instantly in your browser, build your defenses, and show the zombie horde who rules the apocalypse! Key Features: Action Defense: Get max XP by shooting zombies yourself; defense kills yield less XP. Free Upgrades: Fences auto-upgrade Max HP &amp; Regen every round. Dynamic Threat: Zombie damage scales with survived days. Whats New? Hero Cloning: Fallen in battle? You can now spend Gold to clone and revive your hero to keep fighting! Boss Countdown: Track days left until the big fight! New Maps: 2 fresh Day &amp; Night maps. More: New soundtracks, rebalanced difficulty, diverse zombie stats, and bug fixes.",
+    "description": "No download required! Play instantly in your browser, build your defenses, and show the zombie horde who rules the apocalypse! Key Features: Action Defense: Get max XP by shooting zombies yourself; defense kills yield less XP. Free Upgrades: Fences auto-upgrade Max HP & Regen every round. Dynamic Threat: Zombie damage scales with survived days. Whats New? Hero Cloning: Fallen in battle? You can now spend Gold to clone and revive your hero to keep fighting! Boss Countdown: Track days left until the big fight! New Maps: 2 fresh Day & Night maps. More: New soundtracks, rebalanced difficulty, diverse zombie stats, and bug fixes.",
     "howToPlay": "WASD or Arrow Keys Move Left Click Shoot Select and Place Towers P Pause Game amp Save Menu",
     "controls": [
       {
@@ -65875,7 +65875,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Crazy Runner &ndash; is a classic and cool is never ending runner game where you have to run on the beautiful road, jumping over cars, bombs, tires, and collect cool coins, and food on the road! Be careful not to get under the car, and do not jump on the bomb! The main goal of the game to go as far as possible at the same time gaining the greatest number of points!",
+    "description": "Crazy Runner - is a classic and cool is never ending runner game where you have to run on the beautiful road, jumping over cars, bombs, tires, and collect cool coins, and food on the road! Be careful not to get under the car, and do not jump on the bomb! The main goal of the game to go as far as possible at the same time gaining the greatest number of points!",
     "howToPlay": "PC Control only the mouse and control for mobile one-touch",
     "controls": [
       {
@@ -66022,7 +66022,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Space Rover is an exciting 3D space exploration racing game where you pilot a six-wheeled rover across 6 different planets and moons of our solar system. Navigate through realistic alien terrains, dodge rocks and obstacles, and reach the landing zone as fast as possible!Levels: 6 Planets Earth &mdash; Pacific Highlands (1500m Course) Moon &mdash; Sea of Tranquility, Crater Fields Mars &mdash; Valles Marineris, Red Desert Venus &mdash; Ishtar Terra, Volcanic Hellscape Jupiter &mdash; IO, Volcanic Moon, Sulfur Plains Saturn &mdash; Titan, Methane Lakes, Orange Haze",
+    "description": "Space Rover is an exciting 3D space exploration racing game where you pilot a six-wheeled rover across 6 different planets and moons of our solar system. Navigate through realistic alien terrains, dodge rocks and obstacles, and reach the landing zone as fast as possible!Levels: 6 Planets Earth - Pacific Highlands (1500m Course) Moon - Sea of Tranquility, Crater Fields Mars - Valles Marineris, Red Desert Venus - Ishtar Terra, Volcanic Hellscape Jupiter - IO, Volcanic Moon, Sulfur Plains Saturn - Titan, Methane Lakes, Orange Haze",
     "howToPlay": "W Arrow Up mdash Drive S Arrow Down mdash Brake Reverse A D mdash Steer Left Right SHIFT mdash Boost Nitro SPACE mdash Brake Lock C mdash Switch Camera R mdash Reset Rover",
     "controls": [
       {
@@ -66169,7 +66169,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Usarobo Crystal is a fast-paced 2D shooter! Control a flying robotic bunny, auto-fire at enemies, and swap between Light &amp; Shadow dimensions to dodge! Collect coins to upgrade your stats and beat all 5 epic stages!",
+    "description": "Usarobo Crystal is a fast-paced 2D shooter! Control a flying robotic bunny, auto-fire at enemies, and swap between Light & Shadow dimensions to dodge! Collect coins to upgrade your stats and beat all 5 epic stages!",
     "howToPlay": "PC Move WASD Arrows Switch World SPACE Auto-Shoot Mobile Move Touch amp Drag Switch World Tap SWITCH Auto-Shoot",
     "controls": [
       {
@@ -66904,7 +66904,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Pixel Art Stealer is a wonderful pixel art game combining numbers, pixels, and pictures in a relaxing color by number experience. Enjoy coloring games with flowers, unicorn, capybara pictures, anime art characters, and detailed 2D &amp; 3D objects. This paint by number game offers regular updates with new puzzles on a daily basis. Use the pixel art camera to upload pictures, adjust difficulty, pixelize, and paint by numbers. Unlock Seasonal Events like Christmas, Halloween, and Thanksgiving to earn rewards and bonuses. With coloring boosters, time-lapse coloring videos, quick sharing, no time limit, and smooth gradients, relax, relieve stress, an",
+    "description": "Pixel Art Stealer is a wonderful pixel art game combining numbers, pixels, and pictures in a relaxing color by number experience. Enjoy coloring games with flowers, unicorn, capybara pictures, anime art characters, and detailed 2D & 3D objects. This paint by number game offers regular updates with new puzzles on a daily basis. Use the pixel art camera to upload pictures, adjust difficulty, pixelize, and paint by numbers. Unlock Seasonal Events like Christmas, Halloween, and Thanksgiving to earn rewards and bonuses. With coloring boosters, time-lapse coloring videos, quick sharing, no time limit, and smooth gradients, relax, relieve stress, an",
     "howToPlay": "Mouse swap or tap to play",
     "controls": [
       {
@@ -67002,7 +67002,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Space Destroyer is an top down shot em&rsquo;up html5 game, alien ship attack, your mission is to save the galaxy from destruction, there are 3 stages that must be completed, destroy all enemy ship and get as many points as possible, in each stage there are 3 bosses that must be defeated.",
+    "description": "Space Destroyer is an top down shot em'up html5 game, alien ship attack, your mission is to save the galaxy from destruction, there are 3 stages that must be completed, destroy all enemy ship and get as many points as possible, in each stage there are 3 bosses that must be defeated.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -67051,7 +67051,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Endless, an idle incremental RPG where your hero automatically fights waves of enemies, gathers loot and gold, equips gear, unlocks upgrades &mdash; and the adventure never really ends. current version: 0.9.0",
+    "description": "Endless, an idle incremental RPG where your hero automatically fights waves of enemies, gathers loot and gold, equips gear, unlocks upgrades - and the adventure never really ends. current version: 0.9.0",
     "howToPlay": "Mouse click",
     "controls": [
       {
@@ -67149,7 +67149,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Reach for the stars in **Jump Master - Sky High**, an addictive and visually stunning vertical platformer! Guide your character through 50 increasingly difficult levels, mastering the art of the jump to climb higher and higher. Experience a world that evolves as you ascend&mdash;starting from a sunny Spring meadow, rising through the heat of Summer, drifting into Autumns falling leaves, and finally conquering the icy challenges of Winter at the highest peaks. ## Key Features - **Dynamic Seasons**: Watch the world change around you! The background, sky, and weather effects transition seamlessly from Spring to Winter as you climb higher. - **50 Challenging Levels**: Face a variety of platforms including Moving, Disappearing, and Red Danger zones that test your reflexes. - **Realistic Character**: Play as a fully animated character with realistic jute shoes, dynamic clothing colors, and expressive face reactions. - **Global Leaderboard**: Compete with players worldwide! Can you make it to t",
+    "description": "Reach for the stars in **Jump Master - Sky High**, an addictive and visually stunning vertical platformer! Guide your character through 50 increasingly difficult levels, mastering the art of the jump to climb higher and higher. Experience a world that evolves as you ascend-starting from a sunny Spring meadow, rising through the heat of Summer, drifting into Autumns falling leaves, and finally conquering the icy challenges of Winter at the highest peaks. ## Key Features - **Dynamic Seasons**: Watch the world change around you! The background, sky, and weather effects transition seamlessly from Spring to Winter as you climb higher. - **50 Challenging Levels**: Face a variety of platforms including Moving, Disappearing, and Red Danger zones that test your reflexes. - **Realistic Character**: Play as a fully animated character with realistic jute shoes, dynamic clothing colors, and expressive face reactions. - **Global Leaderboard**: Compete with players worldwide! Can you make it to t",
     "howToPlay": "- PC Use Left Right Arrow Keys or A D to move - Mobile Tap the Left or Right side of the screen to guide your character - Objective Jump on platforms to climb up Avoid falling off the screen or touching the Red Danger pla",
     "controls": [
       {
@@ -67198,7 +67198,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Lifebuoy Planing is an arcade-style action game where you become a flying lifebuoy. You slide through fast, twisting slides, build speed, and launch into open water at the end. Momentum, angles, and timing decide how far and how well you fly across the waves. Perform daring launches, avoid obstacles, and master each slide&rsquo;s layout. Simple controls meet skill-based physics, creating satisfying runs that reward precision, speed, and perfect launches every time. Push limits, chase distance records, and refine every run.",
+    "description": "Lifebuoy Planing is an arcade-style action game where you become a flying lifebuoy. You slide through fast, twisting slides, build speed, and launch into open water at the end. Momentum, angles, and timing decide how far and how well you fly across the waves. Perform daring launches, avoid obstacles, and master each slide's layout. Simple controls meet skill-based physics, creating satisfying runs that reward precision, speed, and perfect launches every time. Push limits, chase distance records, and refine every run.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -67296,7 +67296,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Merge Monster Fight &ndash; Fun Merge &amp; Strategy Battles! Step into Merge Monster Fight, a thrilling merge and strategy adventure! Combine and evolve adorable monsters to build unstoppable armies. Outsmart powerful bosses with clever tactics and enjoy exciting 3D battles full of surprises. Every merge, upgrade, and battle decision matters &mdash; plan smartly and watch your monster army grow stronger. Relax, strategize, and experience the joy of merging, battling, and conquering in this casual monster strategy game!",
+    "description": "Merge Monster Fight - Fun Merge & Strategy Battles! Step into Merge Monster Fight, a thrilling merge and strategy adventure! Combine and evolve adorable monsters to build unstoppable armies. Outsmart powerful bosses with clever tactics and enjoy exciting 3D battles full of surprises. Every merge, upgrade, and battle decision matters - plan smartly and watch your monster army grow stronger. Relax, strategize, and experience the joy of merging, battling, and conquering in this casual monster strategy game!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -67688,7 +67688,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Super World Adventure is a Platform &ndash; Adventure game where you will help the little hero rescue the princess in a fantasy world. Travel through many levels, collect coins, use power-ups, and defeat enemies to reach every castle. Enjoy this fantastic adventure, overcome obstacles, and become a hero.",
+    "description": "Super World Adventure is a Platform - Adventure game where you will help the little hero rescue the princess in a fantasy world. Travel through many levels, collect coins, use power-ups, and defeat enemies to reach every castle. Enjoy this fantastic adventure, overcome obstacles, and become a hero.",
     "howToPlay": "Desktop and Mobile Support",
     "controls": [
       {
@@ -67737,7 +67737,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "This is a game about real survival, where every night becomes more dangerous. You will have to gather resources, build shelters, build campfires, and defend yourself from wild animals and enemies. During the day, you can explore the forest, search for food and materials, and at night, prepare for a real test &mdash; enemies become stronger, and only your skills will help you survive. Can you endure all 99 nights and prove that you are a true survivor?",
+    "description": "This is a game about real survival, where every night becomes more dangerous. You will have to gather resources, build shelters, build campfires, and defend yourself from wild animals and enemies. During the day, you can explore the forest, search for food and materials, and at night, prepare for a real test - enemies become stronger, and only your skills will help you survive. Can you endure all 99 nights and prove that you are a true survivor?",
     "howToPlay": "PC W A S D - movement E - pick up item F - put in bag G - drop item from inventory bag LMB - drag or shoot Mobile device Left joystick - movement Right side of the screen - camera rotation and buttons",
     "controls": [
       {
@@ -68031,7 +68031,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Run away from the hungry lion with little Hunter! An addictive endless runner that can be played offline whenever you want! Race through endless gorgeous locations, dodge obstacles, jump over chasms on a rope, and pick delicious strawberries! Explore breathtaking landscapes, track elusive animals, and hone your shooting skills in this action-packed game. Whether you&rsquo;re a seasoned hunter or a novice, this game offers a realistic and immersive hunting adventure that will keep you on the edge of your seat. Enjoy seamless hunting with no breaks in the action, all in portrait mode. Progress through the game by winning events, unlocking new tours.",
+    "description": "Run away from the hungry lion with little Hunter! An addictive endless runner that can be played offline whenever you want! Race through endless gorgeous locations, dodge obstacles, jump over chasms on a rope, and pick delicious strawberries! Explore breathtaking landscapes, track elusive animals, and hone your shooting skills in this action-packed game. Whether you're a seasoned hunter or a novice, this game offers a realistic and immersive hunting adventure that will keep you on the edge of your seat. Enjoy seamless hunting with no breaks in the action, all in portrait mode. Progress through the game by winning events, unlocking new tours.",
     "howToPlay": "Forword --- Up Arrow Or W Back --- Down Arrow Or S Left --- Left Arrow Or A Right --- Right Arrow OR D",
     "controls": [
       {
@@ -68227,7 +68227,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Welcome to Anomaly Content Record, a terrifying horror adventure where your only goal is to escape and survive. You&rsquo;re a field investigator sent to explore a restricted research facility that went silent overnight.",
+    "description": "Welcome to Anomaly Content Record, a terrifying horror adventure where your only goal is to escape and survive. You're a field investigator sent to explore a restricted research facility that went silent overnight.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -68423,7 +68423,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Idle Cave Story is an idle simulation and strategy game set in a primitive caveman village. Build and expand your settlement, assign workers, and manage your resources as your tribe grows stronger. Hire new villagers with different roles, upgrade your buildings, and unlock new areas to explore. Send your warriors into battle to clear dangerous caves, defeat enemies, and bring back valuable loot for the village. Balance your economy and army to keep your tribe safe and thriving. Whether you&rsquo;re actively managing every click or letting your village progress on its own, Idle Cave Story offers a relaxing yet strategic idle experience.",
+    "description": "Idle Cave Story is an idle simulation and strategy game set in a primitive caveman village. Build and expand your settlement, assign workers, and manage your resources as your tribe grows stronger. Hire new villagers with different roles, upgrade your buildings, and unlock new areas to explore. Send your warriors into battle to clear dangerous caves, defeat enemies, and bring back valuable loot for the village. Balance your economy and army to keep your tribe safe and thriving. Whether you're actively managing every click or letting your village progress on its own, Idle Cave Story offers a relaxing yet strategic idle experience.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -68570,7 +68570,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to the world of prime ball games. Are you ready to embark on a thrilling journey filled with brain-teasing challenges and strategic gameplay? Get ready to challenge your brain with prime balls game. Pull the pin ball game where mind meets fun and logic creates beauty. This prime ball game is the perfect combination of challenging brain teasers, rewarding gameplay, and soothing antistress vibes. Its not just a prime ball game it&rsquo;s a test of skill, a workout for your mind, and a vibrant, rewarding journey.",
+    "description": "Welcome to the world of prime ball games. Are you ready to embark on a thrilling journey filled with brain-teasing challenges and strategic gameplay? Get ready to challenge your brain with prime balls game. Pull the pin ball game where mind meets fun and logic creates beauty. This prime ball game is the perfect combination of challenging brain teasers, rewarding gameplay, and soothing antistress vibes. Its not just a prime ball game it's a test of skill, a workout for your mind, and a vibrant, rewarding journey.",
     "howToPlay": "- To click any button use mouse",
     "controls": [
       {
@@ -68815,7 +68815,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Something is crawling across the picnic blanket, and you are the shoe. Drag to move your foot, tap for a quick stomp, hold for a ground-shaking SLAM. Squish fast to build a Splat Chain &mdash; the multiplier climbs to &times;50 and the music speeds up with it. Fill the Juice vial and unleash SPLAT FEVER: ten seconds of a giant golden boot that flattens everything it touches. 40 levels, 4 worlds, 10 bugs, 4 bosses and 6 shoes to unlock. No reading required, just tap.",
+    "description": "Something is crawling across the picnic blanket, and you are the shoe. Drag to move your foot, tap for a quick stomp, hold for a ground-shaking SLAM. Squish fast to build a Splat Chain - the multiplier climbs to x50 and the music speeds up with it. Fill the Juice vial and unleash SPLAT FEVER: ten seconds of a giant golden boot that flattens everything it touches. 40 levels, 4 worlds, 10 bugs, 4 bosses and 6 shoes to unlock. No reading required, just tap.",
     "howToPlay": "press and release to charge attack click tap to stomp fast",
     "controls": [
       {
@@ -69109,7 +69109,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Upgrade your towers, outsmart tricky enemies, and claim every stronghold on the battlefield! Strategy meets intense conquest in Impostor Dominion&mdash;deploy troops, capture rival outposts, and expand your territory until total victory is yours. Can you build the ultimate empire and dominate the map?",
+    "description": "Upgrade your towers, outsmart tricky enemies, and claim every stronghold on the battlefield! Strategy meets intense conquest in Impostor Dominion-deploy troops, capture rival outposts, and expand your territory until total victory is yours. Can you build the ultimate empire and dominate the map?",
     "howToPlay": "Click to interact",
     "controls": [
       {
@@ -69158,7 +69158,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Muscle Run is a fast-paced runner where every choice makes you stronger&mdash;or weaker! Race through colorful tracks, choose the best multiplier gates, collect protein and avoid junk food. Train at gym stations, lift weights, fight rivals and dodge dangerous obstacles. At the finish line, swing your hammer to send the puck up a towering high striker and win rewards. Unlock outfits, customize your hero, upgrade your strength, collect diamonds and conquer 100 challenging levels across five worlds!",
+    "description": "Muscle Run is a fast-paced runner where every choice makes you stronger-or weaker! Race through colorful tracks, choose the best multiplier gates, collect protein and avoid junk food. Train at gym stations, lift weights, fight rivals and dodge dangerous obstacles. At the finish line, swing your hammer to send the puck up a towering high striker and win rewards. Unlock outfits, customize your hero, upgrade your strength, collect diamonds and conquer 100 challenging levels across five worlds!",
     "howToPlay": "Mobile touch hold and drag to steer Tap to punch during fights and to swing the hammer Desktop Mouse drag or Left Right arrow keys or A D to steer Click or press Space Enter to punch and to swing the hammer",
     "controls": [
       {
@@ -69354,7 +69354,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Cake Stack is a fun and addictive hyper-casual game! Guide your cute yellow character as it runs along the track and stacks delicious layers of cake. Tap or click to play: dodge obstacles, collect golden coins and build your cake tower higher and higher. The game features many exciting levels, unlockable characters and skins, and a shop where you can spend your coins. Run out of moves? Watch a video to revive and keep playing! Simple one-touch controls make it perfect for players of all ages. Easy to learn, hard to master &mdash; can you build the tallest cake and set a new high score? Play Cake Stack now!",
+    "description": "Cake Stack is a fun and addictive hyper-casual game! Guide your cute yellow character as it runs along the track and stacks delicious layers of cake. Tap or click to play: dodge obstacles, collect golden coins and build your cake tower higher and higher. The game features many exciting levels, unlockable characters and skins, and a shop where you can spend your coins. Run out of moves? Watch a video to revive and keep playing! Simple one-touch controls make it perfect for players of all ages. Easy to learn, hard to master - can you build the tallest cake and set a new high score? Play Cake Stack now!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -70432,7 +70432,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "A little fashion, a little adventure, and one big day! Join Jenni and her kitty Bubbles in a colourful dress-up story. Choose her replies, pick from four complete looks, and help her get ready for whatever comes next&mdash;from everyday outings to spotlight moments. A cheerful, all-ages remake of the original 2014 Flash game, Jenni Styles.",
+    "description": "A little fashion, a little adventure, and one big day! Join Jenni and her kitty Bubbles in a colourful dress-up story. Choose her replies, pick from four complete looks, and help her get ready for whatever comes next-from everyday outings to spotlight moments. A cheerful, all-ages remake of the original 2014 Flash game, Jenni Styles.",
     "howToPlay": "Mouse or touch Tap or click a reply to answer Jenni Swipe the Looks cards or click a card to choose an outfit then press Complete look and Continue the story Sound On Off toggles audio the download button saves a picture of the current screen Play a",
     "controls": [
       {
@@ -70579,7 +70579,7 @@ const rawGames = [
     "width": 600,
     "height": 800,
     "orientation": "portrait",
-    "description": "Elemental Barrage is a casual volley shooter. Monsters march down the board row by row &mdash; drag back, aim and release a barrage of elemental balls that bounce through them. Grab +1 pickups: when your ball tray overflows, twin balls merge into mightier elementals with burn, freeze, chain lightning and more. Every 10 rows a boss enrages; beat it to set a checkpoint. Buy the glowing upgrade, collect launchers and ball skins, and chase the Daily Barrage.",
+    "description": "Elemental Barrage is a casual volley shooter. Monsters march down the board row by row - drag back, aim and release a barrage of elemental balls that bounce through them. Grab +1 pickups: when your ball tray overflows, twin balls merge into mightier elementals with burn, freeze, chain lightning and more. Every 10 rows a boss enrages; beat it to set a checkpoint. Buy the glowing upgrade, collect launchers and ball skins, and chase the Daily Barrage.",
     "howToPlay": "1 Aim and release Your volley streams out and ricochets off walls and monsters Every hit deals damage the launcher moves to where your first ball lands 2 Stop the march After each turn every monster steps one row closer If one reaches your",
     "controls": [
       {
@@ -71657,7 +71657,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "GTA VI: Beat Em Up &mdash; a fan-made HTML5 arcade beat &rsquo;em up with illustrated sprite sheets. Fight through Vice City with Lucia or Jason.",
+    "description": "GTA VI: Beat Em Up - a fan-made HTML5 arcade beat 'em up with illustrated sprite sheets. Fight through Vice City with Lucia or Jason.",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -72098,7 +72098,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Ice Cream Vendor is a fast-paced browser game that puts you behind the counter of a busy ice cream stand. Pick the right cone, layer on the flavors, and add chocolates and toppings to match each customer&rsquo;s order. Every level raises the stakes with new combinations and quicker customers, so only the sharpest vendor can keep up. How many orders can you get right before the rush melts you down?",
+    "description": "Ice Cream Vendor is a fast-paced browser game that puts you behind the counter of a busy ice cream stand. Pick the right cone, layer on the flavors, and add chocolates and toppings to match each customer's order. Every level raises the stakes with new combinations and quicker customers, so only the sharpest vendor can keep up. How many orders can you get right before the rush melts you down?",
     "howToPlay": "Just click the buttons",
     "controls": [
       {
@@ -72577,8 +72577,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "crazy-aunty-slap-amp-punch",
-    "title": "Crazy Aunty: Slap &amp; Punch",
+    "slug": "crazy-aunty-slap-and-punch",
+    "title": "Crazy Aunty: Slap & Punch",
     "category": "Arcade",
     "featured": false,
     "rating": 4.9,
@@ -72588,7 +72588,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Had a long day and need to blow off some steam? Meet Crazy Aunty, the hilarious anti-stress punch game packed with silly chaos and endless fun! Step into a crazy family gathering where Aunty wont stop with her annoying advice about your dating life, diet, and wasted potential. Its time to fight back with fun! Punch, Kick &amp; Slap Smash &amp; Destroy Throw Eggs &amp; Tomatoes Splash Water Balloons Launch Flying Chappals Shoot Paintballs Unlock Power-Ups &amp; Costumes Whether youre relaxing after work or simply looking for a funny casual game, Crazy Aunty is your perfect stress-busting escape.",
+    "description": "Had a long day and need to blow off some steam? Meet Crazy Aunty, the hilarious anti-stress punch game packed with silly chaos and endless fun! Step into a crazy family gathering where Aunty wont stop with her annoying advice about your dating life, diet, and wasted potential. Its time to fight back with fun! Punch, Kick & Slap Smash & Destroy Throw Eggs & Tomatoes Splash Water Balloons Launch Flying Chappals Shoot Paintballs Unlock Power-Ups & Costumes Whether youre relaxing after work or simply looking for a funny casual game, Crazy Aunty is your perfect stress-busting escape.",
     "howToPlay": "bull Tap to punch bull Simple one-touch gameplay bull Easy to learn fun to master bull Smooth controls for quick action",
     "controls": [
       {
@@ -72616,12 +72616,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Crazy Aunty: Slap &amp; Punch free to play on BlockHub.games?",
-        "a": "Yes, Crazy Aunty: Slap &amp; Punch is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Crazy Aunty: Slap & Punch free to play on BlockHub.games?",
+        "a": "Yes, Crazy Aunty: Slap & Punch is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Crazy Aunty: Slap &amp; Punch on mobile devices?",
-        "a": "Yes, Crazy Aunty: Slap &amp; Punch is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Crazy Aunty: Slap & Punch on mobile devices?",
+        "a": "Yes, Crazy Aunty: Slap & Punch is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -73225,7 +73225,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "NovaBrick Rush is a fast-paced arcade brick breaker game set in a futuristic space world. Break colorful bricks, keep the ball in play, collect powerful power-ups, and complete challenging levels. Features: Multiple challenging levels Different brick types Exciting power-ups Extra Life &amp; Bottom Shield Expand &amp; Shrink Paddle Slow Ball &amp; Multi-Ball Smooth mobile touch controls Keyboard controls for desktop Score and lives system Futuristic neon visuals How to Play: Break all the bricks to complete each level. Keep the ball from falling, collect power-ups, and unlock new levels as you progress.",
+    "description": "NovaBrick Rush is a fast-paced arcade brick breaker game set in a futuristic space world. Break colorful bricks, keep the ball in play, collect powerful power-ups, and complete challenging levels. Features: Multiple challenging levels Different brick types Exciting power-ups Extra Life & Bottom Shield Expand & Shrink Paddle Slow Ball & Multi-Ball Smooth mobile touch controls Keyboard controls for desktop Score and lives system Futuristic neon visuals How to Play: Break all the bricks to complete each level. Keep the ball from falling, collect power-ups, and unlock new levels as you progress.",
     "howToPlay": "Desktop A D or Left Right Arrow Keys Mobile Touch and drag the paddle Launch Ball Space Tap Screen",
     "controls": [
       {
@@ -73274,7 +73274,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Fly through a warm, bustling caf&eacute;, sip delicious nectar from coffee cups and treats resting on tables, and carry your loot to the hive outside. But stay on your toes&mdash;the giant caf&eacute; owner is always listening! Buzzing too loud will alert him, sending him on a hunt to swat you right out of the sky. Land on table surfaces to rest, lower your noise level, and plan your next move. Collect enough nectar, unlock powerful abilities, and complete 5 hive deposits to win!",
+    "description": "Fly through a warm, bustling caf&eacute;, sip delicious nectar from coffee cups and treats resting on tables, and carry your loot to the hive outside. But stay on your toes-the giant caf&eacute; owner is always listening! Buzzing too loud will alert him, sending him on a hunt to swat you right out of the sky. Land on table surfaces to rest, lower your noise level, and plan your next move. Collect enough nectar, unlock powerful abilities, and complete 5 hive deposits to win!",
     "howToPlay": "Desktop Keyboard Controls W or uarr Arrow Up Climb S or darr Arrow Down Descend A or larr Arrow Left Turn Left D or rarr Arrow Right Turn Right Space hold Fly Forward mdash release to hold still in place 1 Q or Shift Activat",
     "controls": [
       {
@@ -73470,7 +73470,7 @@ const rawGames = [
     "width": 350,
     "height": 600,
     "orientation": "portrait",
-    "description": "Slice, fry, and season your way to snack empire glory! Run a full potato chip factory&mdash;wash raw potatoes, slice them ultra-thin, fry to golden perfection, and toss with mouthwatering seasonings. Bag your crispy creations and sell them to hungry customers in this addictive culinary simulator!",
+    "description": "Slice, fry, and season your way to snack empire glory! Run a full potato chip factory-wash raw potatoes, slice them ultra-thin, fry to golden perfection, and toss with mouthwatering seasonings. Bag your crispy creations and sell them to hungry customers in this addictive culinary simulator!",
     "howToPlay": "Mouse click or tap to play",
     "controls": [
       {
@@ -73813,7 +73813,7 @@ const rawGames = [
     "width": 540,
     "height": 960,
     "orientation": "portrait",
-    "description": "YAOGUARD is a tower defense game rooted in the myths of the ancient Shan Hai world. Command legendary guardians &mdash; Yan Xiaotian, Bing Le, Sen Sen and more &mdash; to defend the Wall against endless waves of beasts and demons.",
+    "description": "YAOGUARD is a tower defense game rooted in the myths of the ancient Shan Hai world. Command legendary guardians - Yan Xiaotian, Bing Le, Sen Sen and more - to defend the Wall against endless waves of beasts and demons.",
     "howToPlay": "Touch Mouse tap the on-screen buttons to navigate pick a hero then tap the map to deploy use the buttons for pause speed and hero skills",
     "controls": [
       {
@@ -73862,7 +73862,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Forest Fortune is a cozy 3D leaf-collecting simulator set in a charming hand-painted cartoon woodland. Walk through a lush forest filled with oak trees, wooden fences, vegetable beds, a rustic cabin, and a cozy picnic area. Aim your crosshair at leaves and fruits scattered across the ground, click to pick them up, and carry them to the compost pen to sell for coins. Spend your coins on upgrades &mdash; a bigger basket, faster hands, the ability to grab multiple leaves at once, or premium compost for higher sell prices. Unlock a wheelbarrow to carry massive loads, a leaf blower for automatic collection, and even a car for",
+    "description": "Forest Fortune is a cozy 3D leaf-collecting simulator set in a charming hand-painted cartoon woodland. Walk through a lush forest filled with oak trees, wooden fences, vegetable beds, a rustic cabin, and a cozy picnic area. Aim your crosshair at leaves and fruits scattered across the ground, click to pick them up, and carry them to the compost pen to sell for coins. Spend your coins on upgrades - a bigger basket, faster hands, the ability to grab multiple leaves at once, or premium compost for higher sell prices. Unlock a wheelbarrow to carry massive loads, a leaf blower for automatic collection, and even a car for",
     "howToPlay": "Desktop W uarr Move forward S darr Move backward A larr Move left D rarr Move right Mouse Look around Left Click Pick up leaves fruits aim crosshair E",
     "controls": [
       {
@@ -73998,8 +73998,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "giant-crusher-destroy-amp-grow",
-    "title": "Giant Crusher: Destroy &amp; Grow",
+    "slug": "giant-crusher-destroy-and-grow",
+    "title": "Giant Crusher: Destroy & Grow",
     "category": "Arcade",
     "featured": false,
     "rating": 5,
@@ -74037,12 +74037,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Giant Crusher: Destroy &amp; Grow free to play on BlockHub.games?",
-        "a": "Yes, Giant Crusher: Destroy &amp; Grow is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Giant Crusher: Destroy & Grow free to play on BlockHub.games?",
+        "a": "Yes, Giant Crusher: Destroy & Grow is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Giant Crusher: Destroy &amp; Grow on mobile devices?",
-        "a": "Yes, Giant Crusher: Destroy &amp; Grow is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Giant Crusher: Destroy & Grow on mobile devices?",
+        "a": "Yes, Giant Crusher: Destroy & Grow is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -74058,7 +74058,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Build a tower out of the blocks you are dealt, then defend it. Between waves you get a hand of four shapes &mdash; walls, archers, cannons, mortars, tesla coils &mdash; and a short window to place them. Then the horde arrives: goblins, boar-beasts, burning hounds, bone knights and siege engines that out-range everything you own. Blocks that lose their support fall, and falling rubble crushes whatever is underneath. Spend wood, stone and gold, unlock the tech tree, and see how deep you can get.",
+    "description": "Build a tower out of the blocks you are dealt, then defend it. Between waves you get a hand of four shapes - walls, archers, cannons, mortars, tesla coils - and a short window to place them. Then the horde arrives: goblins, boar-beasts, burning hounds, bone knights and siege engines that out-range everything you own. Blocks that lose their support fall, and falling rubble crushes whatever is underneath. Spend wood, stone and gold, unlock the tech tree, and see how deep you can get.",
     "howToPlay": "Everything is playable with one hand on a phone or with a mouse on desktop",
     "controls": [
       {
@@ -74450,7 +74450,7 @@ const rawGames = [
     "width": 1920,
     "height": 1080,
     "orientation": "landscape",
-    "description": "Magnet Sort is a fast-paced industrial arcade game where you control a powerful magnetic crane above a moving factory conveyor. Time each drop carefully, collect valuable components, build combos, and avoid dangerous batteries and explosive canisters. Take on 40 increasingly challenging contracts in Career mode. Contracts are grouped into series and feature different combinations of target components, strict time limits, and valuable rewards. Lives carry over between contracts, so every mistake matters. Complete shifts to earn credits and purchase permanent upgrades for cable speed, magnet range, protective armor, and credit income. In Endless mode, there is no final objective. Survive the accelerating conveyor, collect rare components, build massive combos, and compete for the highest score on the leaderboard. Master the magnet, upgrade your equipment, complete every contract, and become the factory&rsquo;s best scrap sorter!",
+    "description": "Magnet Sort is a fast-paced industrial arcade game where you control a powerful magnetic crane above a moving factory conveyor. Time each drop carefully, collect valuable components, build combos, and avoid dangerous batteries and explosive canisters. Take on 40 increasingly challenging contracts in Career mode. Contracts are grouped into series and feature different combinations of target components, strict time limits, and valuable rewards. Lives carry over between contracts, so every mistake matters. Complete shifts to earn credits and purchase permanent upgrades for cable speed, magnet range, protective armor, and credit income. In Endless mode, there is no final objective. Survive the accelerating conveyor, collect rare components, build massive combos, and compete for the highest score on the leaderboard. Master the magnet, upgrade your equipment, complete every contract, and become the factory's best scrap sorter!",
     "howToPlay": "Desktop Hold the left mouse button or Space to lower the magnet Release it to raise the magnet Press P or Escape to pause or resume the game Mobile Touch and hold the screen to lower the magnet Release your finger to raise it Use the Pause button t",
     "controls": [
       {
@@ -74940,7 +74940,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Dive into an addictive underwater adventure in Golden Fish! Control your fishs jump, choose the right power, and land safely in the next aquarium. Every jump is a test of timing, precision, and skill &mdash; go too far and youll miss, but dont jump far enough and you wont make it! Explore colorful underwater worlds, discover new aquariums, and see how far you can go. Can you master the perfect jump?",
+    "description": "Dive into an addictive underwater adventure in Golden Fish! Control your fishs jump, choose the right power, and land safely in the next aquarium. Every jump is a test of timing, precision, and skill - go too far and youll miss, but dont jump far enough and you wont make it! Explore colorful underwater worlds, discover new aquariums, and see how far you can go. Can you master the perfect jump?",
     "howToPlay": "Desktop Hold Left Mouse Button mdash Charge your jump Release Left Mouse Button mdash Jump Mobile Touch and hold the screen mdash Charge your jump Release mdash Jump",
     "controls": [
       {
@@ -75136,7 +75136,7 @@ const rawGames = [
     "width": 720,
     "height": 1280,
     "orientation": "portrait",
-    "description": "Jump, bait, and trap the rabbits in this fun timing-based puzzle game! Click and hold to lower the carrot and tempt the rabbits toward it. As soon as they jump to grab the carrot, release at the perfect moment to catch them in the hole. Every level comes with a different mission to complete, and the challenge gets harder as you progress. Unlock new levels, meet smarter rabbits, and watch out for clever and tricky ones that use different behaviors to catch the carrot. Master your timing, learn each rabbit&rsquo;s movement, and see how many levels you can complete!",
+    "description": "Jump, bait, and trap the rabbits in this fun timing-based puzzle game! Click and hold to lower the carrot and tempt the rabbits toward it. As soon as they jump to grab the carrot, release at the perfect moment to catch them in the hole. Every level comes with a different mission to complete, and the challenge gets harder as you progress. Unlock new levels, meet smarter rabbits, and watch out for clever and tricky ones that use different behaviors to catch the carrot. Master your timing, learn each rabbit's movement, and see how many levels you can complete!",
     "howToPlay": "Tap or mouse click to play",
     "controls": [
       {
@@ -75185,7 +75185,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Merge Beast Arena is an idle merge game and auto-battler in one. Start with a tiny mouse and tap it for coins &mdash; then drag two identical animals together to merge them into something bigger. Rabbit, cat, fox, wolf, bear, gorilla, lion, tiger, elephant, rhino, crocodile, shark, orca, whale, T-Rex, dragon: 19 beasts climb the food chain, each one visibly larger and far stronger than the last. And if you merge two dragons, you awaken the magma boss &mdash; a tier-20 monster that one-shots anything it touches.",
+    "description": "Merge Beast Arena is an idle merge game and auto-battler in one. Start with a tiny mouse and tap it for coins - then drag two identical animals together to merge them into something bigger. Rabbit, cat, fox, wolf, bear, gorilla, lion, tiger, elephant, rhino, crocodile, shark, orca, whale, T-Rex, dragon: 19 beasts climb the food chain, each one visibly larger and far stronger than the last. And if you merge two dragons, you awaken the magma boss - a tier-20 monster that one-shots anything it touches.",
     "howToPlay": "TAP your animals to earn coins mdash tap fast to build a combo up to x5 for far bigger payouts Bigger beasts pay more per tap MERGE by dragging one animal on top of another of the SAME kind They fuse into the next beast up the ladder That is the who",
     "controls": [
       {
@@ -75528,7 +75528,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Going Up Rooftop is a 3D parkour adventure across the rooftops of a sprawling city. Climb walls, leap between ledges, crawl through gaps, slide, roll and ride ziplines as you make your way higher and higher above the streets. Ladders, poles and scaffolding all become part of the route &mdash; the only rule is to keep moving up. Three ways to play: follow the Story, take on pure Parkour runs, or test yourself in Climb and Jump mode. Watch your stamina, hit the checkpoints and grab coins along the way to unlock new outfits for your character. Weather changes as you climb, with rain, snow and wind making the higher floors trickier.",
+    "description": "Going Up Rooftop is a 3D parkour adventure across the rooftops of a sprawling city. Climb walls, leap between ledges, crawl through gaps, slide, roll and ride ziplines as you make your way higher and higher above the streets. Ladders, poles and scaffolding all become part of the route - the only rule is to keep moving up. Three ways to play: follow the Story, take on pure Parkour runs, or test yourself in Climb and Jump mode. Watch your stamina, hit the checkpoints and grab coins along the way to unlock new outfits for your character. Weather changes as you climb, with rain, snow and wind making the higher floors trickier.",
     "howToPlay": "Move with WASD or the arrow keys Space to jump and to grab the next ledge Shift to sprint Ctrl to crouch and crawl Hold the climb key to move faster on ladders and poles Move the mouse to look around and steer the camera On touch devices use the on-",
     "controls": [
       {
@@ -75762,8 +75762,8 @@ const rawGames = [
     ]
   },
   {
-    "slug": "heaven-amp-hell-idle",
-    "title": "Heaven &amp; Hell Idle",
+    "slug": "heaven-and-hell-idle",
+    "title": "Heaven & Hell Idle",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -75773,7 +75773,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Heaven &amp; Hell Idle is a fun 3D idle arcade management game where you build and expand two very different worlds. Welcome visitors, earn money, unlock new attractions, upgrade your facilities, and hire helpers to automate your growing empire. Explore heavenly cloud attractions and fiery hell areas, improve your character and businesses, increase your income, and keep expanding. Manage both sides efficiently and turn Heaven and Hell into the ultimate idle entertainment empire!",
+    "description": "Heaven & Hell Idle is a fun 3D idle arcade management game where you build and expand two very different worlds. Welcome visitors, earn money, unlock new attractions, upgrade your facilities, and hire helpers to automate your growing empire. Explore heavenly cloud attractions and fiery hell areas, improve your character and businesses, increase your income, and keep expanding. Manage both sides efficiently and turn Heaven and Hell into the ultimate idle entertainment empire!",
     "howToPlay": "WASD or Arrow Keys ndash Move Mouse ndash Interact with buttons and menus",
     "controls": [
       {
@@ -75801,12 +75801,12 @@ const rawGames = [
     ],
     "faq": [
       {
-        "q": "Is Heaven &amp; Hell Idle free to play on BlockHub.games?",
-        "a": "Yes, Heaven &amp; Hell Idle is 100% free to play directly in your web browser with no downloads or installation."
+        "q": "Is Heaven & Hell Idle free to play on BlockHub.games?",
+        "a": "Yes, Heaven & Hell Idle is 100% free to play directly in your web browser with no downloads or installation."
       },
       {
-        "q": "Can I play Heaven &amp; Hell Idle on mobile devices?",
-        "a": "Yes, Heaven &amp; Hell Idle is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
+        "q": "Can I play Heaven & Hell Idle on mobile devices?",
+        "a": "Yes, Heaven & Hell Idle is designed with responsive HTML5 technology and runs on desktop, tablets, and mobile phones."
       }
     ]
   },
@@ -75871,7 +75871,7 @@ const rawGames = [
     "width": 1600,
     "height": 900,
     "orientation": "landscape",
-    "description": "Only Up Obby: Tower Climb is a 3D parkour obby where the only way is up! Climb a giant sky tower through 30 challenging levels packed with springs, hammers, crushers, conveyors, wind zones, cannons, collapsing platforms and vanishing bridges. One wrong jump and you fall &mdash; how high can you get? Start in the Training Hall to learn every trap safely, then begin your climb to the top. Collect coins and diamonds on your way, unlock cool skins &mdash; Noob, Cat, Dog, Frog, Capybara, Spider and more &mdash; and skip tricky levels if you need a shortcut. Simple controls, colorful graphics and pure obby fun. Play on PC with keyboard and mouse or on mobile with",
+    "description": "Only Up Obby: Tower Climb is a 3D parkour obby where the only way is up! Climb a giant sky tower through 30 challenging levels packed with springs, hammers, crushers, conveyors, wind zones, cannons, collapsing platforms and vanishing bridges. One wrong jump and you fall - how high can you get? Start in the Training Hall to learn every trap safely, then begin your climb to the top. Collect coins and diamonds on your way, unlock cool skins - Noob, Cat, Dog, Frog, Capybara, Spider and more - and skip tricky levels if you need a shortcut. Simple controls, colorful graphics and pure obby fun. Play on PC with keyboard and mouse or on mobile with",
     "howToPlay": "PC WASD or arrow keys mdash move Mouse mdash look around Space mdash jump Shift mdash sprint Mobile left joystick mdash move swipe right side of the screen mdash look on-screen buttons mdash jump and sprint",
     "controls": [
       {
@@ -76655,7 +76655,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Games2Fun Pop it now is a sensory fidget game. It helps you keep your attention, relieve stress. You now don&rsquo;t need to feel anxious or worried about anything. Just breathe and breathe. Get relieved of everything, just by touching on your screen. Peaceful game.",
+    "description": "Games2Fun Pop it now is a sensory fidget game. It helps you keep your attention, relieve stress. You now don't need to feel anxious or worried about anything. Just breathe and breathe. Get relieved of everything, just by touching on your screen. Peaceful game.",
     "howToPlay": "- To click any button use mouse",
     "controls": [
       {
@@ -76851,7 +76851,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Deep Drill Idle is a mining idle game that plays itself. There is no home screen: the page loads and the bit is already turning. Every metre it cuts pays ore, ore is the only thing you spend, and there is no timer, no lives and no way to lose &mdash; the well keeps producing while you read the panel, and it keeps paying while the tab is closed. Twelve rig tracks are what you spend it on: a bigger bit for speed, coolant to cut the rocks hardness, a wider hopper for richness, a night shift that makes coming back tomorrow worth more.",
+    "description": "Deep Drill Idle is a mining idle game that plays itself. There is no home screen: the page loads and the bit is already turning. Every metre it cuts pays ore, ore is the only thing you spend, and there is no timer, no lives and no way to lose - the well keeps producing while you read the panel, and it keeps paying while the tab is closed. Twelve rig tracks are what you spend it on: a bigger bit for speed, coolant to cut the rocks hardness, a wider hopper for richness, a night shift that makes coming back tomorrow worth more.",
     "howToPlay": "Mouse or touch mdash the drill descends by itself so every input is a purchase Rig press a rows price key to buy a level the mode key switches between Buy x1 and Buy max which spends the whole affordable ladder at once Cores spend the cores a sea",
     "controls": [
       {
@@ -76900,7 +76900,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Ember Carnival is a game where a fire-toch shuttles up &amp; down and it must not hit the moving fire-crackers otherwise there is an explosion and game end. The torch can collect cookies while shuttling and that increases the score further. Have fun :)",
+    "description": "Ember Carnival is a game where a fire-toch shuttles up & down and it must not hit the moving fire-crackers otherwise there is an explosion and game end. The torch can collect cookies while shuttling and that increases the score further. Have fun :)",
     "howToPlay": "Make no hit to fire-crackers while torch is going up and down Click to move torch",
     "controls": [
       {
@@ -77635,7 +77635,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to **Treat Catch** &mdash; a colorful arcade game starring an adorable Labrador puppy who loves treats! Move the bowl and catch tasty goodies falling from the sky: bones, steaks, cheese, chicken and more. But watch out &mdash; socks, bombs and other bad items are falling too! Build combos, score points and earn **Bronze, Silver, Gold, Platinum and Diamond medals**. The better you play, the faster and harder the game becomes. Can you reach Diamond? With cute graphics, simple controls and exciting endless gameplay, **Treat Catch** is easy to learn and fun to master. Catch the treats, avoid the trouble and beat your high score!",
+    "description": "Welcome to **Treat Catch** - a colorful arcade game starring an adorable Labrador puppy who loves treats! Move the bowl and catch tasty goodies falling from the sky: bones, steaks, cheese, chicken and more. But watch out - socks, bombs and other bad items are falling too! Build combos, score points and earn **Bronze, Silver, Gold, Platinum and Diamond medals**. The better you play, the faster and harder the game becomes. Can you reach Diamond? With cute graphics, simple controls and exciting endless gameplay, **Treat Catch** is easy to learn and fun to master. Catch the treats, avoid the trouble and beat your high score!",
     "howToPlay": "Mouse Touch drag left-right to move the bowl Keyboard Arrow keys or A D",
     "controls": [
       {
@@ -77684,7 +77684,7 @@ const rawGames = [
     "width": 540,
     "height": 960,
     "orientation": "portrait",
-    "description": "Race down a snowy mountain, dodge dangerous obstacles, and see how far you can go! Control your snowboarder, react quickly, and survive as the speed keeps increasing. Every run is a new challenge&mdash;beat your best distance and push your skills to the limit.",
+    "description": "Race down a snowy mountain, dodge dangerous obstacles, and see how far you can go! Control your snowboarder, react quickly, and survive as the speed keeps increasing. Every run is a new challenge-beat your best distance and push your skills to the limit.",
     "howToPlay": "A D to move Or touch screen",
     "controls": [
       {
@@ -77782,7 +77782,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Welcome to My Mini Mart 3D, the ultimate supermarket management and shopping simulation game! Start with a small mini market and transform it into a thriving supermarket empire. Grow fresh crops, stock shelves, serve customers, earn profits, and unlock exciting new sections as your business expands. Take control of every part of your store&mdash;from farming and harvesting to managing inventory and satisfying customers. Upgrade your market, hire helpers, and become the best supermarket tycoon in town!",
+    "description": "Welcome to My Mini Mart 3D, the ultimate supermarket management and shopping simulation game! Start with a small mini market and transform it into a thriving supermarket empire. Grow fresh crops, stock shelves, serve customers, earn profits, and unlock exciting new sections as your business expands. Take control of every part of your store-from farming and harvesting to managing inventory and satisfying customers. Upgrade your market, hire helpers, and become the best supermarket tycoon in town!",
     "howToPlay": "To Play Game Use Mouse To Play Game Use Keyboard",
     "controls": [
       {
@@ -78370,7 +78370,7 @@ const rawGames = [
     "width": 1280,
     "height": 720,
     "orientation": "landscape",
-    "description": "Car Wash Simulator is a relaxing simulator where you scrub, hose, dry and polish cars to perfection. Work through a daily lineup of customers, cleaning each car through four stages: hose, sponge, polish, towel. Complete all four to finish a car and move to the next, including rarer, higher-value vehicles. Spend your earnings on four upgrades: Cash Multiplier, Cars Per Day, Cleaning Speed, and Rare Car Chance. Simple, tap-friendly gameplay for quick sessions or longer relaxing runs. Age rating: PEGI 3 &mdash; no violence, fear content, bad language, gambling or sexual content.",
+    "description": "Car Wash Simulator is a relaxing simulator where you scrub, hose, dry and polish cars to perfection. Work through a daily lineup of customers, cleaning each car through four stages: hose, sponge, polish, towel. Complete all four to finish a car and move to the next, including rarer, higher-value vehicles. Spend your earnings on four upgrades: Cash Multiplier, Cars Per Day, Cleaning Speed, and Rare Car Chance. Simple, tap-friendly gameplay for quick sessions or longer relaxing runs. Age rating: PEGI 3 - no violence, fear content, bad language, gambling or sexual content.",
     "howToPlay": "Select a tool click tap hose sponge polish towel Clean the car click tap and drag over dirty spots",
     "controls": [
       {
@@ -78413,15 +78413,19 @@ function enrichGame(game) {
   if (!game) return null;
   const enriched = topGamesContent[game.slug];
   if (enriched) {
+    const { features, ...cleanGame } = game;
     return {
-      ...game,
+      ...cleanGame,
       ...enriched,
       content_ready: true,
+      indexable: Boolean(enriched.indexable),
     };
   }
+  const { features, ...cleanGame } = game;
   return {
-    ...game,
+    ...cleanGame,
     content_ready: false,
+    indexable: false,
   };
 }
 
@@ -78446,13 +78450,56 @@ export function getGamesByCategory(category) {
 }
 
 export function getRelatedGames(currentSlug, category, limit = 8) {
-  return games
-    .filter(
-      (game) =>
-        game.category.toLowerCase() === category.toLowerCase() &&
-        game.slug.toLowerCase() !== currentSlug.toLowerCase()
-    )
+  const current = games.find(g => g.slug.toLowerCase() === currentSlug.toLowerCase());
+  if (!current) {
+    return games.filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase()).slice(0, limit);
+  }
+
+  // Extract meaningful keywords from the current game's title (3+ chars, skip stop words)
+  const stopWords = new Set(["the","and","for","with","from","into","game","play","free","online","this","that","your"]);
+  const titleWords = (current.title || "").toLowerCase().split(/[\s\-_:]+/)
+    .filter(w => w.length >= 3 && !stopWords.has(w));
+
+  // Score each candidate by relevance
+  const candidates = games
+    .filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase())
+    .map(g => {
+      let score = 0;
+      const gTitle = (g.title || "").toLowerCase();
+      const gDesc = (g.description || "").toLowerCase();
+
+      // +3 for each shared title keyword in the candidate's title
+      for (const kw of titleWords) {
+        if (gTitle.includes(kw)) score += 3;
+      }
+
+      // +2 for same category
+      if (g.category.toLowerCase() === category.toLowerCase()) score += 2;
+
+      // +1 for each shared title keyword in candidate's description
+      for (const kw of titleWords) {
+        if (gDesc.includes(kw)) score += 1;
+      }
+
+      // +1 bonus for content_ready games (prefer indexable related)
+      if (g.content_ready) score += 1;
+
+      return { game: g, score };
+    })
+    .filter(c => c.score > 0)
+    .sort((a, b) => b.score - a.score)
     .slice(0, limit);
+
+  // If not enough high-scoring candidates, fill from same category
+  if (candidates.length < limit) {
+    const slugsUsed = new Set([currentSlug.toLowerCase(), ...candidates.map(c => c.game.slug.toLowerCase())]);
+    const fillers = games
+      .filter(g => g.category.toLowerCase() === category.toLowerCase() && !slugsUsed.has(g.slug.toLowerCase()))
+      .slice(0, limit - candidates.length);
+    return [...candidates.map(c => c.game), ...fillers];
+  }
+
+  return candidates.map(c => c.game);
 }
 
 export function getMoreCategoryGames(currentSlug, category, limit = 8) {

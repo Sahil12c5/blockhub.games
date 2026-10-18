@@ -15,7 +15,7 @@ function get5WordShingles(text) {
 }
 
 function computeJaccardSimilarity(setA, setB) {
-  if (!setA || !setB || setA.size === 0 || setB.size === 0) return 0;
+  if (!setA || !setB || !(setA instanceof Set) || !(setB instanceof Set) || setA.size === 0 || setB.size === 0) return 0;
   let intersection = 0;
   for (const s of setA) {
     if (setB.has(s)) intersection++;

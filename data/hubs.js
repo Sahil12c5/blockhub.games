@@ -240,7 +240,7 @@ Whether you have three minutes for a dramatic penalty shootout or an afternoon t
 Rather than sheer terror, browser Halloween games emphasize festive seasonal charm and engaging puzzles. Guide costumed trick-or-treaters through moonlit graveyards, match eerie potion ingredients in seasonal match-3 grids, race skeleton monster trucks across pumpkin-laced tracks, or escape haunted mazes before midnight strikes.
 
 Celebrate the spooky spirit year-round on BlockHub.games. Our Halloween games library is 100% free to play with zero downloads needed, offering wholesome spooky entertainment for players of all ages on desktop and mobile.`,
-    keywords: ["halloween", "spooky", "ghost", "witch"],
+    keywords: ["halloween", "spooky", "ghost", "witch", "pumpkin", "horror", "haunted", "graveyard", "skeleton", "vampire", "dracula", "frankenstein"],
     faq: [
       {
         q: "Are Halloween games on BlockHub.games family-friendly?",
@@ -294,16 +294,37 @@ export function getHubBySlug(slug) {
   return hubs.find((h) => h.slug.toLowerCase() === slug.toLowerCase());
 }
 
-export function getGamesForHub(hubSlug, gamesList = [], limit = 48) {
+export function getGamesForHub(hubSlug, gamesList = [], limit = 30) {
   const hub = getHubBySlug(hubSlug);
   if (!hub) return [];
-  const kws = hub.keywords.map((k) => k.toLowerCase());
+  const kws = hub.keywords.map((k) => k.toLowerCase().trim());
+
+  const strictHubs = new Set(["halloween", "christmas"]);
+  const isStrict = strictHubs.has(hubSlug);
+
+  const matchesWord = (text, keywordList) => {
+    if (!text) return false;
+    const lower = text.toLowerCase();
+    const words = lower.split(/[^a-z0-9]+/);
+    return keywordList.some((kw) => {
+      if (kw.includes(" ")) return lower.includes(kw);
+      return words.some((w) => w === kw || w === kw + "s" || w === kw + "es");
+    });
+  };
 
   return (gamesList || [])
     .filter((g) => {
-      const titleLower = g.title.toLowerCase();
-      const descLower = (g.description || "").toLowerCase();
-      return kws.some((kw) => titleLower.includes(kw) || descLower.includes(kw));
+      const title = g.title || "";
+      const tags = (g.tags || []).join(" ");
+
+      if (isStrict) {
+        // Strict: keyword must match whole words in title or tags only (not description)
+        return matchesWord(title, kws) || matchesWord(tags, kws);
+      }
+      
+      // Normal: title, tags, or description
+      const desc = g.description || "";
+      return matchesWord(title, kws) || matchesWord(tags, kws) || matchesWord(desc, kws);
     })
     .sort((a, b) => {
       if (a.content_ready && !b.content_ready) return -1;
@@ -313,21 +334,30 @@ export function getGamesForHub(hubSlug, gamesList = [], limit = 48) {
     .slice(0, limit);
 }
 
-
 export function getHubsForGame(game) {
   if (!game) return [];
-  const titleLower = (game.title || "").toLowerCase();
-  const descLower = (game.description || "").toLowerCase();
-  const catLower = (game.category || "").toLowerCase();
+  const title = game.title || "";
+  const desc = game.description || "";
+  const cat = game.category || "";
 
-  return hubs.filter((hub) =>
-    hub.keywords.some(
-      (kw) =>
-        titleLower.includes(kw.toLowerCase()) ||
-        descLower.includes(kw.toLowerCase()) ||
-        catLower.includes(kw.toLowerCase())
-    )
-  );
+  const matchesWord = (text, keywordList) => {
+    if (!text) return false;
+    const lower = text.toLowerCase();
+    const words = lower.split(/[^a-z0-9]+/);
+    return keywordList.some((kw) => {
+      if (kw.includes(" ")) return lower.includes(kw);
+      return words.some((w) => w === kw || w === kw + "s" || w === kw + "es");
+    });
+  };
+
+  return hubs.filter((hub) => {
+    const kws = hub.keywords.map((k) => k.toLowerCase().trim());
+    const isStrict = hub.slug === "halloween" || hub.slug === "christmas";
+    if (isStrict) {
+      return matchesWord(title, kws);
+    }
+    return matchesWord(title, kws) || matchesWord(desc, kws) || matchesWord(cat, kws);
+  });
 }
 
 

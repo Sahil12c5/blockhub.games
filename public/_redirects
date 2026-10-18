@@ -2,3 +2,20 @@
 https://www.blockhub.games/* https://blockhub.games/:splat 301!
 http://www.blockhub.games/* https://blockhub.games/:splat 301!
 http://blockhub.games/* https://blockhub.games/:splat 301!
+
+# 301 redirects for normalized game slugs
+/game/head-ball-championship_2 /game/head-ball-championship-2 301
+/game/best_buds /game/best-buds 301
+/game/bus-amp-subway-rush /game/bus-and-subway-rush 301
+/game/good-guys-amp-bad-boys-zombie-survival-gui /game/good-guys-and-bad-boys-zombie-survival-gui 301
+/game/snack-amp-warp /game/snack-and-warp 301
+/game/ship-amp-fish /game/ship-and-fish 301
+/game/balloon-pop-pop-amp-blast /game/balloon-pop-pop-and-blast 301
+/game/snake-run-eat-amp-grow /game/snake-run-eat-and-grow 301
+/game/win-magic-amp-devil /game/win-magic-and-devil 301
+/game/crazy-aunty-slap-amp-punch /game/crazy-aunty-slap-and-punch 301
+/game/giant-crusher-destroy-amp-grow /game/giant-crusher-destroy-and-grow 301
+/game/heaven-amp-hell-idle /game/heaven-and-hell-idle 301
+/game/catchfish-mdash-fishing-master /game/catchfish-fishing-master 301
+/game/merge-plants-ndash-defense-zombies /game/merge-plants-defense-zombies 301
+/game/ball-packing-master-puzzle-ndash-fill-box /game/ball-packing-master-puzzle-fill-box 301

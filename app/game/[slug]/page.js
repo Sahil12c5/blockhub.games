@@ -49,18 +49,17 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = game.meta_title
-    ? { absolute: game.meta_title }
-    : `${game.title} - Play Free Online`;
+  const baseTitle = game.meta_title || `${game.title} - Play Free Online`;
+  const finalTitle = baseTitle.includes("BlockHub.games") ? baseTitle : `${baseTitle} | BlockHub.games`;
   const description =
     game.meta_description ||
     `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
-  const plainTitle = typeof title === "object" ? title.absolute : title;
+  const plainTitle = finalTitle;
 
   return {
-    title,
+    title: { absolute: finalTitle },
     description,
-    robots: game.content_ready
+    robots: (game.content_ready && game.indexable)
       ? {
           index: true,
           follow: true,
@@ -87,7 +86,7 @@ export async function generateMetadata({ params }) {
       title: plainTitle,
       description,
       url: `https://blockhub.games/game/${game.slug}`,
-      type: "website",
+      type: "article",
       images: [
         {
           url: game.thumbnail,
@@ -283,100 +282,108 @@ export default async function GamePage({ params }) {
               {game.howToPlay}
             </p>
 
-            <div className="pt-2">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
-                <Keyboard className="h-4 w-4 text-emerald-400" />
-                Controls Guide (Keyboard, Mouse &amp; Touch)
-              </h3>
-              <div className="overflow-x-auto rounded-xl border border-slate-800">
-                <table className="w-full text-left text-xs">
-                  <thead className="bg-slate-950 text-slate-400 uppercase tracking-wider font-bold border-b border-slate-800">
-                    <tr>
-                      <th scope="col" className="px-4 py-3 w-1/3">
-                        Input / Key
-                      </th>
-                      <th scope="col" className="px-4 py-3">
-                        Action &amp; In-Game Function
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-slate-800/80 bg-slate-900/40">
-                    {game.controls.map((ctrl, index) => (
-                      <tr key={index} className="hover:bg-slate-800/40 transition-colors">
-                        <td className="px-4 py-2.5 font-mono font-bold text-emerald-400">
-                          <kbd className="px-2 py-1 rounded bg-slate-800 border border-slate-700 shadow-xs">
-                            {ctrl.key}
-                          </kbd>
-                        </td>
-                        <td className="px-4 py-2.5 text-slate-300">{ctrl.action}</td>
+            {game.controls && game.controls.length > 0 && (
+              <div className="pt-2">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-2">
+                  <Keyboard className="h-4 w-4 text-emerald-400" />
+                  Controls Guide (Keyboard, Mouse &amp; Touch)
+                </h3>
+                <div className="overflow-x-auto rounded-xl border border-slate-800">
+                  <table className="w-full text-left text-xs">
+                    <thead className="bg-slate-950 text-slate-400 uppercase tracking-wider font-bold border-b border-slate-800">
+                      <tr>
+                        <th scope="col" className="px-4 py-3 w-1/3">
+                          Input / Key
+                        </th>
+                        <th scope="col" className="px-4 py-3">
+                          Action &amp; In-Game Function
+                        </th>
                       </tr>
-                    ))}
-                  </tbody>
-                </table>
+                    </thead>
+                    <tbody className="divide-y divide-slate-800/80 bg-slate-900/40">
+                      {game.controls.map((ctrl, index) => (
+                        <tr key={index} className="hover:bg-slate-800/40 transition-colors">
+                          <td className="px-4 py-2.5 font-mono font-bold text-emerald-400">
+                            <kbd className="px-2 py-1 rounded bg-slate-800 border border-slate-700 shadow-xs">
+                              {ctrl.key}
+                            </kbd>
+                          </td>
+                          <td className="px-4 py-2.5 text-slate-300">{ctrl.action}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </div>
-            </div>
+            )}
           </section>
 
           {/* Official Video Walkthrough Guide */}
           <GameWalkthrough game={game} getAds="true" />
 
           {/* 6. Section "Tips and Tricks": 3-5 real tips */}
-          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
-            <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-4">
-              <Sparkles className="h-5 w-5 text-emerald-400" />
-              Tips and Tricks for {game.title}
-            </h2>
-            <ul className="space-y-3">
-              {game.tips.map((tip, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-300">
-                  <div className="h-5 w-5 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xs font-bold shrink-0 mt-0.5">
-                    {idx + 1}
-                  </div>
-                  <span className="leading-relaxed">{tip}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {game.tips && game.tips.length > 0 && (
+            <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+              <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-4">
+                <Sparkles className="h-5 w-5 text-emerald-400" />
+                Tips and Tricks for {game.title}
+              </h2>
+              <ul className="space-y-3">
+                {game.tips.map((tip, idx) => (
+                  <li key={idx} className="flex items-start gap-3 text-xs sm:text-sm text-slate-300">
+                    <div className="h-5 w-5 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xs font-bold shrink-0 mt-0.5">
+                      {idx + 1}
+                    </div>
+                    <span className="leading-relaxed">{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           {/* 7. Section "Frequently Asked Questions (FAQ)": 3 questions */}
-          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
-            <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-4">
-              <HelpCircle className="h-5 w-5 text-cyan-400" />
-              Frequently Asked Questions (FAQ)
-            </h2>
-            <div className="space-y-4">
-              {game.faq.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="rounded-xl border border-slate-800/80 bg-slate-950/60 p-4"
-                >
-                  <h3 className="text-sm font-bold text-white mb-1.5 flex items-start gap-2">
-                    <span className="text-emerald-400 font-mono">Q:</span>
-                    <span>{item.q}</span>
-                  </h3>
-                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed pl-5">
-                    {item.a}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
+          {game.faq && game.faq.length > 0 && (
+            <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+              <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-4">
+                <HelpCircle className="h-5 w-5 text-cyan-400" />
+                Frequently Asked Questions (FAQ)
+              </h2>
+              <div className="space-y-4">
+                {game.faq.map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="rounded-xl border border-slate-800/80 bg-slate-950/60 p-4"
+                  >
+                    <h3 className="text-sm font-bold text-white mb-1.5 flex items-start gap-2">
+                      <span className="text-emerald-400 font-mono">Q:</span>
+                      <span>{item.q}</span>
+                    </h3>
+                    <p className="text-xs sm:text-sm text-slate-300 leading-relaxed pl-5">
+                      {item.a}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
 
         {/* Right Column: Game Specifications & Features */}
         <div className="lg:col-span-4 space-y-6">
           {/* Key Game Features Card */}
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
-            <h3 className="text-base font-bold text-white mb-3">Key Features</h3>
-            <ul className="space-y-2.5">
-              {game.features.map((feat, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-xs text-slate-300">
-                  <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
-                  <span>{feat}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          {game.features && game.features.length > 0 && (
+            <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+              <h3 className="text-base font-bold text-white mb-3">Key Features</h3>
+              <ul className="space-y-2.5">
+                {game.features.map((feat, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-xs text-slate-300">
+                    <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0 mt-0.5" />
+                    <span>{feat}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Game Quick Info Specifications */}
           <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm space-y-3">

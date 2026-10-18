@@ -8,6 +8,12 @@ import AdSlot from "@/components/AdSlot";
 import { WebsiteJsonLd, OrganizationJsonLd } from "@/components/JsonLd";
 import { Sparkles, Gamepad2, Zap, ShieldCheck, Cpu } from "lucide-react";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://blockhub.games",
+  },
+};
+
 export default function HomePage() {
   const allGames = getAllGames();
   const featuredGames = getFeaturedGames().map((g) => ({

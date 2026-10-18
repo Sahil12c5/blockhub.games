@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-top-games-content.js && node scripts/generate-search-index.js && node scripts/generate-sitemap.js && next build",
+    "build": "node scripts/generate-search-index.js && node scripts/generate-sitemap.js && next build",
     "start": "next start",
     "lint": "eslint",
-    "batch:index-all": "node scripts/batch-index-all.js"
+    "batch:index-all": "node scripts/batch-index-all.js",
+    "audit:index": "node scripts/audit-indexing.js",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "lucide-react": "^1.57.0",
