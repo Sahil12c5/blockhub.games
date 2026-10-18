@@ -345,17 +345,69 @@ function main() {
     }
   }
 
-  // Generate CSV
-  const csvHeader = "slug,title,category,content_ready,indexable,status,issue_count,issues";
-  const csvRows = results.map(r => {
-    const status = r.issues.length === 0 ? "PASS" : (r.hasFatalIssue ? "NO_CONTENT" : "FAIL");
+  // 1. Generate Passed Games CSV
+  const passedHeader = "slug,title,category,content_ready,indexable,word_count,status";
+  const passedRows = passed.map(r => {
+    return `"${r.slug}","${(r.title || "").replace(/"/g, '""')}","${r.category}",${r.contentReady || false},${r.isIndexable || false},${r.wordCount || 0},PASS`;
+  });
+  const passedCsvContent = [passedHeader, ...passedRows].join("\n");
+  const passedCsvPath = path.join(REPORTS_DIR, "passed-games.csv");
+  fs.writeFileSync(passedCsvPath, passedCsvContent, "utf8");
+
+  // 2. Generate Not Passed Games CSV
+  const notPassedHeader = "slug,title,category,content_ready,indexable,status,issue_count,issues";
+  const notPassedRows = failed.map(r => {
+    const status = r.hasFatalIssue ? "NO_CONTENT" : "FAIL";
     const issueStr = r.issues.map(i => i.replace(/"/g, "'")).join("; ");
     return `"${r.slug}","${(r.title || "").replace(/"/g, '""')}","${r.category}",${r.contentReady || false},${r.isIndexable || false},${status},${r.issues.length},"${issueStr}"`;
   });
+  const notPassedCsvContent = [notPassedHeader, ...notPassedRows].join("\n");
+  const notPassedCsvPath = path.join(REPORTS_DIR, "not-passed-games.csv");
+  fs.writeFileSync(notPassedCsvPath, notPassedCsvContent, "utf8");
 
-  const csvContent = [csvHeader, ...csvRows].join("\n");
-  const csvPath = path.join(REPORTS_DIR, "indexing-audit.csv");
-  fs.writeFileSync(csvPath, csvContent, "utf8");
+  // 3. Generate Passed Games Markdown Report
+  const passedCategories = {};
+  for (const p of passed) {
+    passedCategories[p.category] = (passedCategories[p.category] || 0) + 1;
+  }
+  let passedMd = `# Passed Games Quality Report\n\n`;
+  passedMd += `**Total Verified Passing Games**: ${passed.length} / ${games.length}\n`;
+  passedMd += `**Date Generated**: ${new Date().toISOString().split("T")[0]}\n`;
+  passedMd += `**Quality Status**: 100% Passed Strict Quality Gates (0 Banned Phrases, 0 Duplicate Paragraphs, 150-300 Words, Curated Controls/Tips/FAQ/Meta)\n\n`;
+  passedMd += `## Category Breakdown\n\n`;
+  passedMd += `| Category | Passing Games Count |\n|---|---|\n`;
+  for (const [cat, cnt] of Object.entries(passedCategories).sort((a,b) => b[1] - a[1])) {
+    passedMd += `| ${cat} | ${cnt} |\n`;
+  }
+  passedMd += `\n## Sample Verified Passed Games\n\n`;
+  passedMd += `| Slug | Title | Category | Word Count | Status |\n|---|---|---|---|---|\n`;
+  for (const p of passed.slice(0, 30)) {
+    passedMd += `| \`${p.slug}\` | ${p.title} | ${p.category} | ${p.wordCount} | PASS |\n`;
+  }
+  passedMd += `\n*See \`reports/passed-games.csv\` for the full list of ${passed.length} games.*\n`;
+  fs.writeFileSync(path.join(REPORTS_DIR, "passed-games.md"), passedMd, "utf8");
+
+  // 4. Generate Not Passed Games Markdown Report
+  const notPassedCategories = {};
+  for (const f of failed) {
+    notPassedCategories[f.category] = (notPassedCategories[f.category] || 0) + 1;
+  }
+  let notPassedMd = `# Not Passed Games Audit Report\n\n`;
+  notPassedMd += `**Total Not Passed Games**: ${failed.length} / ${games.length}\n`;
+  notPassedMd += `**Date Generated**: ${new Date().toISOString().split("T")[0]}\n`;
+  notPassedMd += `**Status**: Handled safely with \`robots: noindex, follow\` and excluded from \`sitemap-games.xml\` until enriched.\n\n`;
+  notPassedMd += `## Breakdown by Category\n\n`;
+  notPassedMd += `| Category | Games Pending Enrichment |\n|---|---|\n`;
+  for (const [cat, cnt] of Object.entries(notPassedCategories).sort((a,b) => b[1] - a[1])) {
+    notPassedMd += `| ${cat} | ${cnt} |\n`;
+  }
+  notPassedMd += `\n## Sample Games Pending Enrichment\n\n`;
+  notPassedMd += `| Slug | Title | Category | Reason |\n|---|---|---|---|\n`;
+  for (const f of failed.slice(0, 30)) {
+    notPassedMd += `| \`${f.slug}\` | ${f.title} | ${f.category} | ${f.issues[0] || "NO_CONTENT"} |\n`;
+  }
+  notPassedMd += `\n*See \`reports/not-passed-games.csv\` for the complete list of ${failed.length} games pending enrichment.*\n`;
+  fs.writeFileSync(path.join(REPORTS_DIR, "not-passed-games.md"), notPassedMd, "utf8");
 
   // Print summary
   console.log("========================================");
@@ -446,7 +498,8 @@ function main() {
     }
   }
 
-  console.log(`\n✅ Full audit report saved to: ${csvPath}`);
+  console.log(`\n✅ Passed games report saved to: ${passedCsvPath}`);
+  console.log(`✅ Not passed games report saved to: ${notPassedCsvPath}`);
   
   return { passed, failed, noContent, hasContentButFailed, currentlyIndexable, results, sitemapAuditPassed };
 }
