@@ -1,7 +1,7 @@
 # Catalog Text Similarity & Variety Report
 
-> **Last updated**: 2026-10-20T20:12:07.610Z
-> **Scope**: All 830 Processed v2-prose Games (155 Live Indexable + 675 Scheduled / Protected)
+> **Last updated**: 2026-10-20T20:23:08.211Z
+> **Scope**: All 830 Processed v2-prose Games (797 Live Indexable + 33 Scheduled / Protected)
 > **Maximum Pairwise Similarity**: **23.55%** (`dream-head-soccer-game` vs `soccer-simulator`)
 > **Quality Gate Threshold**: **< 40.0%** (100% of indexable catalog passes)
 > **Opener Variety Rule**: No opener pattern > 15% | "The primary objective is to" <= 10%

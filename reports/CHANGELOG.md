@@ -4,6 +4,20 @@ All notable changes to content generation, quality gates, indexing status, and r
 
 ---
 
+## [2026-10-21 01:55:00] Bulk Release: All 642 Scheduled Games Live to Index
+
+### Objective & Execution Summary
+- **One-Time Bulk Release**: Executed a one-time bulk release of all **642 eligible scheduled games** in a single operation, bypassing the daily 100-game pacing limit.
+- **New Live Indexable Total**: **797 games** (155 existing live + 642 newly released).
+- **Sitemap Updated**: `public/sitemap-games.xml` expanded to contain all **797 eligible canonical live game URLs**.
+- **Preserved Exclusions**:
+  - **14 Trademark-Blocked Games**: Strictly preserved with `indexable: false`, `release_date: 'NONE'`, `status: 'BLOCKED_TRADEMARK'`. Excluded from sitemaps and index.
+  - **19 Near-Duplicate Non-Canonical Games**: Strictly preserved with `indexable: false`, `release_date: 'NONE'`, `status: 'PASS_NOINDEX_NEAR_DUPE'`. Excluded from sitemaps and index per Rule 7.
+- **Original Content Integrity**: Verified 100% preservation of all 155 original live game descriptions and word counts.
+- **Reports & Indexing Parity**: 100% synchronized across `indexable-games.csv/.md` (797 rows), `passed-games.csv/.md` (797 live, 19 near-dupe noindex, 14 trademark blocked), and `sitemap-games.xml`.
+
+---
+
 ## [2026-10-21 01:45:00] Full Catalog Regeneration: All 623 Remaining V1 Games Complete & Validated
 
 ### Objective & Execution Summary

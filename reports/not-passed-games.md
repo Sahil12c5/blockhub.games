@@ -1,6 +1,6 @@
 # Non-Passed & Pending Games Report
 
-> **Last updated**: 2026-10-20T20:12:07.610Z
+> **Last updated**: 2026-10-20T20:23:08.211Z
 > **Total Games Pending or Non-Indexable**: **34**
 > **V1 Combinatorial Games Awaiting Regeneration**: **0**
 > **Near-Duplicate Non-Canonicals (noindex)**: **19**

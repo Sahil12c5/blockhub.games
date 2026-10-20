@@ -211,7 +211,7 @@ const passedMdContent = `# Passed Games Audit Report
 > **Total Games in Content Store**: **${allTopSlugs.length}**
 > **Passed Quality Gates (v2-prose)**: **${totalV2}** (${liveIndexableCount} live indexable + ${scheduledV2Count} scheduled release + ${nearDupeNoindexCount} near-dupe noindex + ${blockedTmCount} trademark blocked)
 > **Awaiting Natural Prose Regeneration (v1-slot)**: **${needsRegenCount}** (Listed as \`needs_regeneration\`, pending sample review)
-> **Blocked Trademarks (noindex)**: **${blockedTmCount}** (\`halo-platformer\`, \`destroy-minecraft\`)
+> **Blocked Trademarks (noindex)**: **${blockedTmCount}**
 
 ## Verified Quality Passed Games (v2-prose: ${liveIndexableCount} Live, ${scheduledV2Count} Scheduled)
 
