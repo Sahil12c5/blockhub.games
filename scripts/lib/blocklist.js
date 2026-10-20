@@ -1,6 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
+const DYNAMIC_BLOCKLIST_FILE = path.join(__dirname, "dynamic-blocklist.json");
+
 const EXPLICIT_BLOCKLIST = [
   "standout free online racing game",
   "standout free online",
@@ -25,13 +27,59 @@ const EXPLICIT_BLOCKLIST = [
   "unparalleled gaming experience",
   "revolutionary gameplay",
   "seamless 60 fps action",
+  "participants take command of",
+  "gamers navigate an interactive",
+  "users confront escalating hurdles",
+  "delivering immediate arcade enjoyment on any display",
+  "engineered specifically for seamless cross-device play",
+  "yielding smooth frame rates and rapid stage loading",
+  "puzzle solutions",
+  "top of the leaderboard",
+  "claim your place at the top of the leaderboard",
+  "building intuitive muscle memory through deliberate practice is the surest route to high score domination",
+  "intuitive mechanics ensure newcomers grasp the rules instantly",
+  "clear visual cues and instant stage feedback help you adapt your strategy",
+  "clean physics and predictable trajectories remove frustrating guesswork",
+  "calibrated input bindings eliminate delay",
+  "cross-platform support ensures natural control response across chromebooks",
 ];
+
+function getDynamicBlocklist() {
+  if (fs.existsSync(DYNAMIC_BLOCKLIST_FILE)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(DYNAMIC_BLOCKLIST_FILE, "utf8"));
+      if (Array.isArray(data)) return data;
+    } catch (_) {}
+  }
+  return [];
+}
+
+function addDynamicBlocklistPhrases(phrases) {
+  const current = new Set(getDynamicBlocklist().map((p) => p.toLowerCase()));
+  let added = 0;
+  for (const p of phrases) {
+    const clean = p.trim().toLowerCase();
+    if (clean && !current.has(clean)) {
+      current.add(clean);
+      added++;
+    }
+  }
+  if (added > 0) {
+    fs.writeFileSync(DYNAMIC_BLOCKLIST_FILE, JSON.stringify(Array.from(current), null, 2), "utf8");
+    cachedBlocklist = null;
+  }
+  return added;
+}
 
 let cachedBlocklist = null;
 
 function getBlocklist() {
   if (cachedBlocklist) return cachedBlocklist;
-  cachedBlocklist = EXPLICIT_BLOCKLIST.map((p) => p.toLowerCase());
+  const combined = new Set([
+    ...EXPLICIT_BLOCKLIST.map((p) => p.toLowerCase()),
+    ...getDynamicBlocklist().map((p) => p.toLowerCase()),
+  ]);
+  cachedBlocklist = Array.from(combined);
   return cachedBlocklist;
 }
 
@@ -53,4 +101,6 @@ module.exports = {
   EXPLICIT_BLOCKLIST,
   getBlocklist,
   checkBlocklist,
+  addDynamicBlocklistPhrases,
+  getDynamicBlocklist,
 };

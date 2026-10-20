@@ -1,0 +1,602 @@
+[
+  {
+    "index": 126,
+    "slug": "vesper-survival-mod",
+    "title": "Vesper Survival Mod",
+    "category": "Adventure",
+    "subgenre": "fighter",
+    "raw_description": "Enter a mysterious block-based survival world filled with adventure, danger, and unexpected encounters! Gather resources, craft useful tools, build your shelter, and explore a vast environment as you fight to survive. But this world is not as peaceful as it seems. Strange creatures and terrifying events can appear at any moment. Explore dark areas, discover hidden secrets, and stay alert as you progress. Collect materials, improve your equipment, expand your base, and do everything you can to survive in this challenging adventure!",
+    "raw_how_to": "Move using the WASD keys Use Left Mouse Click to attack with your sword Press Space to jump The game is also fully playable on mobile devices with mobile-friendly controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 127,
+    "slug": "police-car-chase-prison-escape-game",
+    "title": "Police Car Chase Prison Escape Game",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Join the police force and protect the city in Police Car Chase Prison Escape Game! Play as a police officer, drive powerful police vehicles, chase dangerous criminals, stop prison escapees, and complete action-packed police missions.",
+    "raw_how_to": "Desktop AWSD Player Movement Space Break P Pause Ctrl Setting Shift Boost N Skip Level I Controls F Action Q Siren Mobile Left Button Move Left Right Button Move Right Race Race Break Break",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 128,
+    "slug": "blockcrafter",
+    "title": "BlockCrafter",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "An infinite sandbox world powered by hyper-realistic graphics and advanced physics. Explore lifelike biomes, gather resources, build without limits, and survive a harsh, dynamic environment. Key Features: Next-gen visuals: HD textures, dynamic weather, and real-time lighting. Survival & Crafting: Resource management, advanced crafting, and building. Total freedom: A fully destructible, infinite world to explore solo or with friends. Ready to experience the ultimate survival sandbox?",
+    "raw_how_to": "Movement WASD Sprint Shift Jump Space Actions Left Click Mine Attack Right Click Place Interact Inventory amp Hotbar E 1 ndash 9 Scroll Wheel",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 129,
+    "slug": "halo-platformer",
+    "title": "Halo: Platformer",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Deploy onto the ring in Halo: Platformer, a Flash-style HTML5 platformer. Save your mission, rescue a Marine, defend a moving elevator, and face a two-phase Hunter. Full-window play with controller support.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 130,
+    "slug": "verdant-wilds",
+    "title": "Verdant Wilds",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Explore an isometric survival voxel world. Gather wood, stone and ores, craft tools, build campfires and shelters, mine deep caves, and discover mysterious dimensions in Verdant Wilds!",
+    "raw_how_to": "WASD or Arrow keys to move Touch joystick on mobile Left Click or E to gather and attack C for Crafting I for Inventory M for Map Q to Eat Space to jump or swim up",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 131,
+    "slug": "rich-mom-family-simulator-luxury-life",
+    "title": "Rich Mom Family Simulator Luxury Life",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Experience the glamorous lifestyle of a billionaire mother in Rich Mom Family Simulator Luxury Life! Play as a successful businesswoman, manage your family life, complete exciting missions, and enjoy the luxuries of being part of a wealthy family.",
+    "raw_how_to": "Desktop WASD Player Movement Mouse Camera Move Left Shift Sprint Ctrl Settings N Skip Level P Pause F Action I Controls Mobile Joystick to move player",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 132,
+    "slug": "ashen-watch",
+    "title": "Ashen Watch",
+    "category": "Adventure",
+    "subgenre": "fighter",
+    "raw_description": "Princess Elira is sheltering inside the kingdom's last keep, surrounded by an endless siege. Control the guardian, defend the castle against waves of enemies, and survive for as long as you can. Fight eight enemy types and powerful bosses, then choose a roguelike perk after each wave: unleash arrow volleys, chain lightning, a flaming blade, or a dodge roll. Earn coins in battle to unlock permanent upgrades and new armor skins. The story unfolds across 20 waves, with a boss and a new cinematic chapter every five waves. How long can you hold the last line?",
+    "raw_how_to": "Move WASD or Arrow Keys You can also hold the mouse button on the battlefield to move in that direction On mobile drag on the screen The guardian attacks nearby enemies automatically Space Storm Strike After unlocking perks Q Flaming Blade Shif",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 133,
+    "slug": "gorbo-the-orc-crown-quest",
+    "title": "Gorbo the Orc: Crown Quest",
+    "category": "Adventure",
+    "subgenre": "runner",
+    "raw_description": "Gorbo the Orc is a bold, funny platform adventure. The Minotaur Warlord stole the golden crown of the Tusk Clan, and Gorbo is going to get it back, one monster at a time. New to platformers? The first levels teach you to run, jump, swing your cleaver, chain a 3-hit combo and throw your axe, one step at a time. 48 levels across 6 worlds, 6 boss fights and 144 hidden gems. From the Whispering Forest to the Volcano Fortress, every world brings new monsters and tricks: archers and wizards that shoot at you, shield bearers, charging bears, ghosts, storm clouds, icicles, fire jets, swinging blades, slippery ice, bounce mushrooms and locked gates. Fight your way. Knock arrows out of the air with your cleaver, stomp monsters and throw your axe like a boomerang. Drink potions when your hearts run low and spend your coins at the merchant. Your progress is saved, so you can come back and finish the quest anytime.",
+    "raw_how_to": "Keyboard arrows or A D to run Space W or up to jump hold to jump higher X or J to swing the cleaver tap fast for a combo C or L to throw the axe E to drink a potion Esc or P to pause Touch arrow buttons to run the jump sword and axe buttons",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 134,
+    "slug": "skibidi-vent-jumper",
+    "title": "Skibidi Vent Jumper",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Skibidi Vent Jumper is a chaotic, stealthy creature lurking in bathroom air ducts. It springs out from hidden vents when least expected, surprising unsuspecting targets before flushing out of sight. Fast, unpredictable, and always suspicious, it turns any ordinary restroom into an intense game of survival.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 135,
+    "slug": "daddy-mouse",
+    "title": "DADDY MOUSE",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Help a brave mouse collect cheese and return home to his family in this colorful 2D platform adventure. Explore forests, icy mountains, volcanic lands, the open sea, and dangerous castles. Jump over traps, discover hidden paths, collect golden stars, and defeat powerful bosses. Play with a keyboard on desktop or on-screen touch controls on mobile.",
+    "raw_how_to": "Desktop A D or Left Right arrows to move Space W or Up arrow to jump hold to jump higher E or X to interact or attack F to fire when a weapon is available Shift or J to dash once unlocked Mobile Use the on-screen arrows to move and jump and E to",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 136,
+    "slug": "barbee-fashion-influencer",
+    "title": "Barbee Fashion Influencer",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Barbee Fashion Influencer is a fun and stylish dress-up game where fashion, creativity, and social-media-inspired trends come together. Help Barbee build the perfect influencer wardrobe by creating fashionable outfits that are ready for photoshoots, events, and stylish everyday moments.",
+    "raw_how_to": "Left Mouse button Click or Tap to Play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 137,
+    "slug": "signal-survival-block-arena",
+    "title": "Signal Survival Block Arena",
+    "category": "Arcade",
+    "subgenre": "stickman",
+    "raw_description": "Enter a tense survival arena and race for the finish. Watch the sentinel, move only when it is safe, and avoid getting caught before time runs out. Choose from five stages, learn the timing, and guide your character through each obstacle-filled course. Includes animated characters, sound effects, keyboard controls, and an on-screen joystick for touch input.",
+    "raw_how_to": "Desktop W A S D or Arrow Keys to move Touch devices use the on-screen joystick",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 138,
+    "slug": "bug-crunch",
+    "title": "Bug Crunch",
+    "category": "Arcade",
+    "subgenre": "runner",
+    "raw_description": "Something is crawling across the picnic blanket, and you are the shoe. Drag to move your foot, tap for a quick stomp, hold for a ground-shaking SLAM. Squish fast to build a Splat Chain - the multiplier climbs to x50 and the music speeds up with it. Fill the Juice vial and unleash SPLAT FEVER: ten seconds of a giant golden boot that flattens everything it touches. 40 levels, 4 worlds, 10 bugs, 4 bosses and 6 shoes to unlock. No reading required, just tap.",
+    "raw_how_to": "press and release to charge attack click tap to stomp fast",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 139,
+    "slug": "zaruvane-the-amber-oasis",
+    "title": "ZARUVANE   THE AMBER OASIS",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Explore a vast desert and build your own oasis. Gather resources, manage food and water, welcome travelers to your taverns, and care for animal companions through changing days and sandstorms.",
+    "raw_how_to": "Desktop WASD or arrow keys to move Shift to run Space to jump Drag to look and use the mouse wheel to zoom E to interact F to drink G to eat C to sit P to pause Mobile play in landscape use the left joystick and right action wheel Drag the sc",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 140,
+    "slug": "midnight-taxi-hustle",
+    "title": "Midnight Taxi Hustle",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Navigate neon-lit streets in Midnight Taxi Hustle, a thrilling arcade driving game. Pick up eccentric passengers, beat the clock through heavy gridlock traffic, and upgrade your ride. Master the urban sprawl, dodge city chaos, and build your ultimate late-night taxi empire before dawn breaks.",
+    "raw_how_to": "arrow keys to drive space to brake click horn to call passagers to taxi",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 141,
+    "slug": "lumen-descent",
+    "title": "Lumen Descent",
+    "category": "Arcade",
+    "subgenre": "runner",
+    "raw_description": "Lumen Descent is a cinematic precision platformer set in a forgotten tower. Carry your light through 12 dangerous floors, master difficult jumps, dash past hazards, activate checkpoints and descend into the unknown. Navigate handcrafted obstacles, discover the towers secrets and conquer an atmospheric challenge that rewards precise timing and skill.",
+    "raw_how_to": "Move A D or Left Right Jump Space Dash Shift Drop down S Space Retry R Pause or resume P Mobile use the on-screen touch controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 142,
+    "slug": "swarmfront",
+    "title": "Swarmfront",
+    "category": "Arcade",
+    "subgenre": "moto",
+    "raw_description": "Lead an expanding medieval army through five changing biomes in Swarmfront. Steer your squad into recruitment gates, avoid dangerous obstacles, pick strategic upgrades and overcome increasingly formidable bosses. Every fifth level introduces a distinctive boss challenge. Grow your forces, unlock useful abilities, and survive the escalating crowd-runner campaign.",
+    "raw_how_to": "Desktop steer your army left and right using the mouse or directional controls shown in game Mobile swipe to steer Choose recruitment gates avoid hazards and select upgrades between encounters",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 143,
+    "slug": "scary-granny-horror-maze-escape",
+    "title": "Scary Granny: Horror Maze Escape",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Enter the terrifying maze and try to escape before Granny finds you! Scary Granny: Horror Maze Escape is a thrilling horror adventure where every corner can hide danger. Explore creepy corridors, search for the way out, avoid Granny, and use your skills to survive the haunted maze. Stay alert, move carefully, and dont let Granny catch you! The maze is full of twists, confusing paths, and scary surprises that will keep you on edge. Can you find the exit and escape the terrifying Granny? Features Scary Granny horror gameplay Creepy maze environment Find your way to escape Suspenseful chase moments Simple and smooth contr",
+    "raw_how_to": "W A S D or Arrow Keys Move Mouse Look around Shift Run",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 144,
+    "slug": "impostor-dominion",
+    "title": "Impostor Dominion",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Upgrade your towers, outsmart tricky enemies, and claim every stronghold on the battlefield! Strategy meets intense conquest in Impostor Dominion-deploy troops, capture rival outposts, and expand your territory until total victory is yours. Can you build the ultimate empire and dominate the map?",
+    "raw_how_to": "Click to interact",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 145,
+    "slug": "muscle-rush-3d",
+    "title": "Muscle Rush 3D",
+    "category": "Arcade",
+    "subgenre": "runner",
+    "raw_description": "Muscle Run is a fast-paced runner where every choice makes you stronger-or weaker! Race through colorful tracks, choose the best multiplier gates, collect protein and avoid junk food. Train at gym stations, lift weights, fight rivals and dodge dangerous obstacles. At the finish line, swing your hammer to send the puck up a towering high striker and win rewards. Unlock outfits, customize your hero, upgrade your strength, collect diamonds and conquer 100 challenging levels across five worlds!",
+    "raw_how_to": "Mobile touch hold and drag to steer Tap to punch during fights and to swing the hammer Desktop Mouse drag or Left Right arrow keys or A D to steer Click or press Space Enter to punch and to swing the hammer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 146,
+    "slug": "double-boy-jump",
+    "title": "Double Boy Jump",
+    "category": "Arcade",
+    "subgenre": "runner",
+    "raw_description": "Guide two rope-linked heroes across tricky platforms in Double Boy Jump Press and hold to jump then release at the right moment to land safely and switch between the partners. Keep both characters out of danger as you cross gaps collect coins and aim for a higher score. Unlock character skins and explore themed modes such as Snow Dash Face to Face Cloud Ride Monster Escape and Escort Quest. With simple one-touch controls and physics-based teamwork every jump is a fresh test of timing. Play with a mouse on desktop or touch controls on mobile.",
+    "raw_how_to": "Click or tap START Hold the left mouse button or touch the screen to jump release to descend and switch to the other character when available Time each jump to keep both rope-linked partners on the platforms Use the on-screen buttons to choose modes an",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 147,
+    "slug": "paint-quest-kiddo",
+    "title": "Paint Quest Kiddo",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Paint Quest: Kiddo! is a fun and colorful online coloring game for kids where creativity knows no limits! Pick your favorite colors, grab your virtual crayons, and bring adorable black-and-white drawings to life. Enjoy a relaxing coloring adventure filled with cool cartoon cars, cute animals, and other delightful pictures waiting for your artistic touch.",
+    "raw_how_to": "Mouse to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 148,
+    "slug": "mechaspider-cyber-strike",
+    "title": "MechaSpider: Cyber Strike",
+    "category": "Arcade",
+    "subgenre": "fps",
+    "raw_description": "MechaSpider: Cyber Strike drops players into futuristic urban warzones piloting a high-tech arachnid lethal weapon. Wall-crawl across skyscrapers, deploy energy webs, and unleash high-caliber artillery. Master agile maneuvers and devastating tech abilities to crush rogue machine legions and claim total battlefield dominance.",
+    "raw_how_to": "V to Lock Unlock Mouse 1-4 to choose weapons in robot form Click to shoot and LeftClick to Aim",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 149,
+    "slug": "cake-stack",
+    "title": "Cake Stack",
+    "category": "Arcade",
+    "subgenre": "runner",
+    "raw_description": "Cake Stack is a fun and addictive hyper-casual game! Guide your cute yellow character as it runs along the track and stacks delicious layers of cake. Tap or click to play: dodge obstacles, collect golden coins and build your cake tower higher and higher. The game features many exciting levels, unlockable characters and skins, and a shop where you can spend your coins. Run out of moves? Watch a video to revive and keep playing! Simple one-touch controls make it perfect for players of all ages. Easy to learn, hard to master - can you build the tallest cake and set a new high score? Play Cake Stack now!",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 150,
+    "slug": "apex-combat",
+    "title": "Apex Combat",
+    "category": "Arcade",
+    "subgenre": "fighter",
+    "raw_description": "Apex Combat is a fast-paced 2.5D arcade beat em up. Battle through hordes of cybernetic enemies in futuristic cyberpunk environments. Master devastating combos, unleash special abilities, and team up with friends in intense cooperative combat packed with classic arcade action.",
+    "raw_how_to": "z x c v to fight w a s d to move",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

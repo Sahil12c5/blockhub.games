@@ -1,0 +1,602 @@
+[
+  {
+    "index": 101,
+    "slug": "super-chop-forest-hero",
+    "title": "Super Chop: Forest Hero",
+    "category": "Multiplayer",
+    "subgenre": "truck",
+    "raw_description": "Pull the Hero Axe out of the old stump and become the mightiest lumberjack in the forest! Chop trees, fill your backpack with logs and fly them to the truck to sell for coins. Buy stronger tools, from Twin Axes and Power Gauntlets to the Hero Saw, Thunder Axe and Plasma Cutter, and upgrade your strength, backpack, speed and Hero Flight. Unlock six forest zones, from Oak Woods to the Redwood Giants, where every tree is worth more. Battle the giant Elder Trees, smash the rot rigs of Baron Blight, clear monster dens for rare materials and relics, rescue forest animals and rebuild the village to earn a beaver helper, a frost pup and a double jump. Plant rare seeds in your own grove, dig up buried treasure and collect new hero gloves. Play solo or online with up to 8 heroes!",
+    "raw_how_to": "Desktop WASD move mouse look hold left click to chop E use Q Hero Smash B shop H fly to the truck Shift run Space jump Mobile left thumb moves right thumb looks walk up to a tree to chop on-screen buttons for the rest",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 102,
+    "slug": "sniper-for-brainrot",
+    "title": "Sniper for Brainrot",
+    "category": "Multiplayer",
+    "subgenre": "sniper",
+    "raw_description": "Use your sniper rifle to hit the balloon above a Brainrot, instantly transform into it, and race to the Safe Zone before a massive tsunami catches you. The farther you shoot, the rarer the Brainrot you can collect but the faster the wave becomes. Build your collection, expand your Base, unlock powerful sniper rifles, customize your character, and compete with friends in this addictive Brainrot adventure featuring 87 unique collectibles!",
+    "raw_how_to": "Player 1 Move WASD Jump Space Sprint Shift Scope F or Right Mouse Button Zoom Mouse Wheel or Shift while scoped Shoot Left Mouse Button or Space while scoped Interact E Upgrade Brainrot Q Open Rebirth Menu T Player 2 Move Arrow Keys Jump L Spri",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 103,
+    "slug": "build-a-keycap-pyramid",
+    "title": "Build a Keycap Pyramid",
+    "category": "Multiplayer",
+    "subgenre": "multiplayer",
+    "raw_description": "Build a Keycap Pyramid is a satisfying 3D building game where every keycap counts. Scoop up keycaps by the hundreds, carry a wobbling tower of them on your head and watch your pyramid rise layer by layer. Every finished pyramid is saved to your plot with your name on top, and the next one is even bigger! Chain combos and hunt for gold (x10) and rainbow (x50) keycaps. Get stronger on benches and treadmills: type the letter that pops up for a perfect rep. Hatch 15 Keycap Pets that boost your keys, cash and training. Defend your pyramid from Glitch raiders by throwing keycaps, and type the word to break the shield of their boss. Make it yours with 5 pyramid shapes, 10 color palettes and your name in keycaps on top. Share a live world with up to 3 other builders and cheer with emotes. Builder bots keep earning while you are away, and there are daily challenges and a 7-day reward calendar.",
+    "raw_how_to": "Move WASD or arrow keys Look drag the mouse Jump Space Throw keycaps at raiders F or click Shop E Emotes 1-6 Train type the letter shown on a bench or treadmill Mobile joystick drag to look on-screen buttons Gamepad supported",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 104,
+    "slug": "collect-brainrot-arena",
+    "title": "Collect Brainrot Arena",
+    "category": "Multiplayer",
+    "subgenre": "puzzle",
+    "raw_description": "Collect Brainrot Arena is a chaotic multiplayer collecting and stealing game where luck, strategy, and timing are equally important. Enter the arena, gather valuable Lucky Blocks, unlock rare Brainrots, upgrade your collection, and protect your base from rival thieves. Every Lucky Block can contain a surprise, and every opponent is looking for an opportunity to steal your most valuable Brainrots.",
+    "raw_how_to": "Player 1 Move W A S D Jump Space Buy or Steal E Hit F or Left Mouse Button Sprint Left Shift Upgrade Brainrot Q Player 2 Move Arrow Keys Jump L Buy or Steal O Hit K Sprint J Upgrade Brainrot U Mobile Controls Touch",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 105,
+    "slug": "1-speed-superhero-obby",
+    "title": "+1 Speed Superhero Obby",
+    "category": "Multiplayer",
+    "subgenre": "soccer",
+    "raw_description": "+1 Speed Superhero Obby is a 3D obby where every step adds speed. Run the colorful towers, train on treadmills, smash speed gates and climb through five worlds. Every speed milestone unlocks a new superhero power that changes how you play the same course: wall run, water run, gravity flip, wrecking ball and a sonic boom. Hatch sidekick pets, suit up in hero costumes, race the ghosts of other players and join live servers with other heroes for shared server boosts and goals. Daily rewards, a daily tower and rebirths keep the speed climbing.",
+    "raw_how_to": "Desktop WASD or arrow keys to run Space to jump mouse drag to look B for Sonic Boom once unlocked P to pause Mobile left stick to run jump button drag on the right to look",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 106,
+    "slug": "bike-stunt-master-mini-rush",
+    "title": "Bike Stunt Master Mini Rush",
+    "category": "Multiplayer",
+    "subgenre": "moto",
+    "raw_description": "Get ready for an exciting motorcycle racing adventure in Rush to Crush! Race through challenging tracks, dodge obstacles, perform amazing stunts, crush fruits and boxes, and compete against rival riders. Choose from a wide range of bikes, upgrade your ride, collect power-ups, and master different racing modes. Explore dynamic environments including beaches, jungles, deserts, and night tracks. Complete challenging levels, earn rewards, unlock new bikes, and test your racing skills in exciting competitions. With fast-paced gameplay, thrilling challenges, and plenty of bikes to customize, Rush to Crush is ready for your next racing adventure!",
+    "raw_how_to": "Use the on-screen controls to steer accelerate brake and perform bike stunts",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 107,
+    "slug": "bolts-and-nuts-online",
+    "title": "Bolts and Nuts Online",
+    "category": "Multiplayer",
+    "subgenre": "sort",
+    "raw_description": "Bolts and nuts online is a challenging puzzle game where you must use logic and careful planning to solve tricky mechanical puzzles. Remove, arrange, and manage bolts and nuts to complete each level and overcome increasingly difficult challenges. Test your problem-solving skills with simple controls and addictive gameplay. Play Bolts & Nuts online for free on Gen30.online. Enjoy this fun HTML5 puzzle game on desktop, tablet, or mobile with no download required.",
+    "raw_how_to": "Mouse click",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 108,
+    "slug": "destroy-minecraft",
+    "title": "Destroy Minecraft",
+    "category": "Multiplayer",
+    "subgenre": "fighter",
+    "raw_description": "Drop into a chaotic battlefield where only the most destructive players survive. Destroy Minecraft is a competitive arena game where you shatter level blocks to build your advantage and eliminate rival players in fast-paced combat. Test your reflexes, upgrade your arsenal, and dominate the arena. Do you have the skills to outlast the competition, climb the global leaderboards, and claim the absolute number one spot?",
+    "raw_how_to": "WASD - Walk Right Mouse - Shoot Left Mouse - Zoom Shift - Run Z - Weapon Shop X - Skin Shop",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 109,
+    "slug": "1-cut-grass-adventure",
+    "title": "+1 Cut Grass Adventure",
+    "category": "Multiplayer",
+    "subgenre": "multiplayer",
+    "raw_description": "Control your lawn mower and clear the green fields as you progress! Earn money by mowing grass, upgrade your machine, and clean larger areas faster. Use your earnings to increase your capacity, speed, and mowing power, making your machine much more efficient. Unlock new areas, explore different environments, and mow as much grass as possible to grow your fortune. With simple controls, relaxing gameplay, and a rewarding progression system, this fun mowing adventure is perfect for enjoying even during short breaks. The more grass you mow, the faster you progress and the larger areas you can clear!",
+    "raw_how_to": "Move using WASD or the Arrow Keys Press Space to jump On mobile tap the screen to mow grass faster Mobile-friendly controls are available for a smooth gameplay experience on touch devices",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 110,
+    "slug": "geometry-vibes-3d",
+    "title": "Geometry Vibes 3D",
+    "category": "Multiplayer",
+    "subgenre": "multiplayer",
+    "raw_description": "Geometry Vibes 3D takes everything you loved about the original Geometry Vibes and brings it into a vibrant, dynamic 3D world. With fully reimagined levels and stunning new visuals, this version elevates your reflexes and rhythm-based skills to new dimensions.",
+    "raw_how_to": "Mouse click or tap to playPlayer 1 W Left Mouse Click or Spacebar Player 2 in 2 Player Mode Up Arrow Key Mobile Devices Tap anywhere on the screen to jump ndash touch controls are fully supported",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 111,
+    "slug": "noob-vs-pro-drift-tag",
+    "title": "Noob vs Pro : Drift Tag",
+    "category": "Multiplayer",
+    "subgenre": "drift",
+    "raw_description": "Noob vs Pro: Drift Tag - use your speed, drifting skills, and reflexes to pass the bomb to your opponents! The car holding the bomb must pass it to another player before the timer runs out. If you are caught with the bomb, your car explodes and you are eliminated. Drift through tight spaces, use ramps and obstacles, outsmart your rivals, and become the last driver standing! Race with different cars, compete with your friends, and rise from Noob to Pro!",
+    "raw_how_to": "Use WASD keys to move Press E to make your car jump The game can be played on both mobile and PC with touch controls available on mobile devices",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 112,
+    "slug": "hellgate-1993",
+    "title": "Hellgate 1993",
+    "category": "Multiplayer",
+    "subgenre": "fps",
+    "raw_description": "Hellgate 1993 is a fast, retro-inspired first-person shooter set inside a dying horror-sci-fi facility. Fight through eight hostile worlds, uncover secret routes, unlock sealed sectors, collect stronger weapons, and face a final boss at the end of every world. Every world contains three stages: two combat missions followed by a boss encounter. Manage health, armor, ammo, keys, and your arsenal as new enemy types appear throughout the campaign. Find hidden supplies, activate terminals, survive ambushes, and bring the light back to the last surviving human signal.",
+    "raw_how_to": "How to Play - Move WASD - Look Mouse - Fire Left Mouse Button - Use doors switches and terminals E - Switch weapons 1 ndash 5 or mouse wheel - Open automap M - Pause Esc - Fullscreen F On mobile use the left stick to move drag the right side o",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 113,
+    "slug": "geometry-vibes-monster",
+    "title": "Geometry Vibes Monster",
+    "category": "Multiplayer",
+    "subgenre": "multiplayer",
+    "raw_description": "Geometry Vibes Monster is a reaction-based arcade game where you must dodge incoming obstacles, spikes, and battle against a variety of unique monsters. Each monster features distinct attack patterns that you must skillfully avoid. Your main goal is to navigate your spaceship as far as possible while surviving the onslaught of attacks.",
+    "raw_how_to": "Keep your spaceship on course and avoid hitting obstacles Stay alert for the specific attack patterns of each monster Click and hold the MOUSE or press and hold the SPACEBAR to ascend Release the button to dive downward In 2 3 4 Player race mode UP A",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 114,
+    "slug": "yolk-ops-egg-arena",
+    "title": "Yolk Ops   Egg Arena",
+    "category": "Multiplayer",
+    "subgenre": "fps",
+    "raw_description": "Yolk Ops is a first-person arena shooter where egg fighters battle across eight unique 3D maps. Play Free for All, Team Scramble, or King of the Yolk against AI bots. Choose from seven primary weapons and a sidearm, use grenades and arena pickups, and compete for the most eliminations. Bot counts vary between matches. Supports desktop, gamepad, and touch controls. Single-player only; online multiplayer is not supported.",
+    "raw_how_to": "Desktop WASD or arrow keys to move mouse to look left-click to fire right-click to aim Space to jump Shift to sprint R to reload G to throw a grenade 1 2 to select primary sidearm E or mouse wheel to switch weapons hold Tab for the scoreboard",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 115,
+    "slug": "skyblock-3d",
+    "title": "Skyblock 3D",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Are you ready to survive on a small island floating high in the sky? Start your adventure with limited resources, collect blocks, create new areas, and gradually expand your island. Use your resources wisely, discover different materials, and build your own world. As you progress, unlock new opportunities, improve your island, and transform it into a massive floating home. An exciting adventure combining survival, exploration, and building awaits you!",
+    "raw_how_to": "Move using WASD and use the Mouse to break blocks The game is also playable on mobile devices with mobile-friendly controls available",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 116,
+    "slug": "mega-noob-sky-obby-50-stages",
+    "title": "Mega Noob Sky Obby: 50 Stages",
+    "category": "Adventure",
+    "subgenre": "runner",
+    "raw_description": "Dash, jump, and balance your way through a massive colorful sky parkour! In this 3D platformer adventure, your mission is to guide your Noob through 50 unique stages filled with moving obstacles, winding spirals, and giant balancing spheres. Touch the checkpoints along the path to save your progress, or use the special Skip Stage feature if you get stuck on a super hard level. Complete challenges to unlock the legendary Golden Noob Character and show off your skills. Play smoothly with perfect touch controls on mobile or responsive keyboard inputs on PC!",
+    "raw_how_to": "PC Controls WASD or Arrow Keys Move character Space Jump Mouse Rotate camera angle R Reset game progress Test shortcut Mobile Controls Left Side Joystick Move character Right Side Button Jump Swipe Right Side of Screen Rotate camera angle",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 117,
+    "slug": "goblox-grow-your-empire",
+    "title": "GOBLOX: Grow Your Empire",
+    "category": "Adventure",
+    "subgenre": "tower-defense",
+    "raw_description": "Welcome to Sunberry Valley! Restore a forgotten garden and grow it into the greatest farming empire in the land. Plant seeds, harvest crops and sell them for coins. Then reinvest in rarer seeds, bigger plots and new regions. Weather changes everything: rain, thunderstorms, rainbow rain, meteor showers and aurora nights can mutate your crops into Gilded, Frostbound, Starborn and other valuable variants. Features: 80+ crops, from humble carrots to mythic Galaxy Lotus 17 crop mutations triggered by 15 weather types Bloom Fusion: breed two plants into brand-new hybrids 48 collectible pets with real abilities, plus pet evolution 8 unique region",
+    "raw_how_to": "Desktop WASD move middot Mouse drag rotate camera middot Mouse wheel zoom Left click E plant harvest water interact 1 ndash 8 choose a seed or tool from the hotbar Space jump middot Shift run middot Tab inventory middot M map",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 118,
+    "slug": "noob-save-the-village",
+    "title": "Noob save the village",
+    "category": "Adventure",
+    "subgenre": "tower-defense",
+    "raw_description": "Upgrade your weapons, unlock powerful spells and abilities to stop the invasion of enemies. Build defenses, improve your skills and become the last hope of the village !",
+    "raw_how_to": "Moving around on the computer using the keyboard attacking by pressing the left mouse button Move around on mobile devices using joysticks and attack by clicking on the corresponding button",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 119,
+    "slug": "blockland-oneblock-skyblock",
+    "title": "Blockland Oneblock Skyblock",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Are you ready for an adventure that starts with a small island and a single block in the sky? In OneBlock Skyblock, use your resources wisely to expand your island, discover new resources, and build your own world. As you break the single block, different resources and surprises will appear. Expand your island, build structures, manage your resources, and become stronger as you progress. Start with a single block, build a huge island in the sky, and try to complete all the levels!",
+    "raw_how_to": "Move using the WASD keys Use Shift to prevent yourself from falling Press Space to jump Use the mouse to break or place blocks Mobile touch controls are also available",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 120,
+    "slug": "ironwake-tank-combat",
+    "title": "IRONWAKE: Tank Combat",
+    "category": "Adventure",
+    "subgenre": "fighter",
+    "raw_description": "Take command of a customizable battle tank in 10 action-packed missions. Ambush enemy convoys, capture uplinks, defend a relay, escort an evacuation vehicle, recover classified intel, and escape devastating artillery strikes. Battle two powerful bosses, including the three-phase Dreadnought. Use buildings as cover, track enemies and objectives on the minimap, and collect salvage to upgrade your armor, firepower, and mobility. Switch between four weapons and customize your tank's appearance.",
+    "raw_how_to": "CONTROLS bull WASD mdash Move bull Mouse mdash Aim the turret bull Left Mouse Button mdash Fire hold for continuous fire bull 1 ndash 4 mdash Switch unlocked weapons bull Space mdash Dash bull G mdash Open the garage for upgrades",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 121,
+    "slug": "terminal-nine",
+    "title": "Terminal Nine",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "Explore three industrial districts in a third-person stealth game. Avoid patrols, complete objectives and reach extraction across nine operations. Use crouching, physical cover and decoys to stay undetected. Earn credits for equipment upgrades, choose from three difficulty settings, and learn the controls in a separate practice yard. A three-district campaign links operations with checkpoints between missions.",
+    "raw_how_to": "WASD or arrow keys move Hold right mouse button and drag turn camera Shift sprint Hold C crouch Hold E interact or extract Q throw decoy Middle mouse button recenter camera Esc pause Touch controls drag on the left to move swipe on the r",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 122,
+    "slug": "block-ship-battle",
+    "title": "Block Ship Battle",
+    "category": "Adventure",
+    "subgenre": "fps",
+    "raw_description": "Raise the sails and fight for the richest hold on the reef! Block Ship Battle is a fast pirate brawler with real broadside combat: your cannons fire to the side, so every fight is a dance of turning, timing and reloading until your guns bear on the enemy - then KABOOM. Sink ships, scoop up floating treasure and carry your gold to a harbour - only banked gold counts, and a fat hold makes you the target everyone is hunting. Hunt the Treasure Galleon, sail into storms for the treasure they wash up, and level up during the match: every level fits your ship with a new upgrade you can see, up to your captains ultimate. Six ships and captains, each with two abilities and an ultimate. Five modes, from Plunder Brawl to Last Ship Afloat, a sixteen-ship battle royale inside a closing storm. Your progress is saved: unlock new ships, sails and paint as you play.",
+    "raw_how_to": "Keyboard and mouse W S raise and lower sail A D steer mouse to look Hold right mouse to aim your broadside left mouse to fire X switches broadside Shift E use abilities Q the ultimate from level 5 Tab scoreboard Esc pause Touch left stick to",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 123,
+    "slug": "bean-party-obby",
+    "title": "Bean Party Obby",
+    "category": "Adventure",
+    "subgenre": "runner",
+    "raw_description": "Bean Party Obby is a colorful 3D party game where you race, jump and survive against 14 computer-controlled beans. Pick one of 6 bean characters and a hat, then choose one of 5 modes. Three obby courses: Rainbow Road (easy), High Peaks (ramps, bridge, trampoline, spinning beams) and Turbo Galaxy (fast roads, big jumps, sliding platforms). Hexagon Survival: four layers of hexagons vanish under your feet, be the last bean standing. Color Block: run to the announced color before the other tiles fall, for 12 rounds. Double jump, speed boosts and checkpoints help you. Plays on desktop and mobile.",
+    "raw_how_to": "Desktop WASD or arrow keys to move Space to jump press again in the air to double jump mouse to look around R to return to the last checkpoint P to pause M to toggle music Mobile left joystick to move JUMP button to jump tap again in the air t",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 124,
+    "slug": "embercraft",
+    "title": "EmberCraft",
+    "category": "Adventure",
+    "subgenre": "adventure",
+    "raw_description": "EmberCraft is a colorful 3D sandbox adventure in a block world. Explore varied terrain, build your own creations, and shape your journey at your own pace. The game is designed for desktop, tablet, and mobile browsers. On a phone, rotate to landscape for the best view.",
+    "raw_how_to": "Desktop WASD to move and Space to jump Mobile and tablet use the on-screen touch controls Rotate your device to landscape for the best view",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 125,
+    "slug": "nutty-rush",
+    "title": "Nutty Rush",
+    "category": "Adventure",
+    "subgenre": "sort",
+    "raw_description": "Nutty Rush is a cozy 3D platformer starring P&ouml;f&uuml;rd&uuml;k, a brave little squirrel. The legendary giant nuts of the Great Forest are waking up, and the greedy eagle Grimtalon wants them all. Run, jump and spit nuts at grumpy foes across 5 colorful worlds: Nut Forest, Autumn Valley, Dark Cave, Snowy Mountains and City Rooftops. Team up with Sivri, a cheeky grey mouse, and ride on his back for extra speed. Zoom down twisty slides into ball pits, collect stars and giant nuts, and face big bosses: dodge their attacks, then hit them with nuts when they are open! Features: 25 handcrafted levels in 5 worlds, a boss fight at the end of every world, ride your mouse buddy Sivri, and your progress is saved automatically.",
+    "raw_how_to": "Move Arrow keys or WASD Jump Space press again in the air to double jump Throw a nut F Sprint Shift Gnaw E Ride or dismount Sivri Q Touch devices on-screen buttons",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

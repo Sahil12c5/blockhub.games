@@ -254,7 +254,7 @@ const rawGames = [
   },
   {
     "slug": "stickman-kombat-2d",
-    "title": "stickman kombat 2d",
+    "title": "Stickman Kombat 2D",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -303,7 +303,7 @@ const rawGames = [
   },
   {
     "slug": "shadow-fist-kung-fu",
-    "title": "Shadow Fist   Kung Fu",
+    "title": "Shadow Fist - Kung Fu",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -1528,7 +1528,7 @@ const rawGames = [
   },
   {
     "slug": "forest-dash",
-    "title": "forest dash",
+    "title": "Forest Dash",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -1920,7 +1920,7 @@ const rawGames = [
   },
   {
     "slug": "mutantblood",
-    "title": "mutantblood",
+    "title": "Mutantblood",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -2459,7 +2459,7 @@ const rawGames = [
   },
   {
     "slug": "stairs-races-for-2-players",
-    "title": "Stairs Races For 2 Players",
+    "title": "Stairs Races for 2 Players",
     "category": "Action",
     "featured": false,
     "rating": 4.6,
@@ -2949,7 +2949,7 @@ const rawGames = [
   },
   {
     "slug": "stickman-army-team-battle-3",
-    "title": "Stickman Army : Team Battle-3",
+    "title": "Stickman Army: Team Battle-3",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -3243,7 +3243,7 @@ const rawGames = [
   },
   {
     "slug": "basket-ball-for-two-player",
-    "title": "Basket Ball For Two Player",
+    "title": "Basket Ball for Two Player",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -3341,7 +3341,7 @@ const rawGames = [
   },
   {
     "slug": "count-master-3d",
-    "title": "count master 3d",
+    "title": "Count Master 3D",
     "category": "Action",
     "featured": false,
     "rating": 4.5,
@@ -3390,7 +3390,7 @@ const rawGames = [
   },
   {
     "slug": "rooftop-runner",
-    "title": "rooftop runner",
+    "title": "Rooftop Runner",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -3439,7 +3439,7 @@ const rawGames = [
   },
   {
     "slug": "dig-out-of-prison",
-    "title": "Dig out of Prison",
+    "title": "Dig Out of Prison",
     "category": "Action",
     "featured": false,
     "rating": 5,
@@ -3586,7 +3586,7 @@ const rawGames = [
   },
   {
     "slug": "running-from-a-hungry-tiger",
-    "title": "Running From A Hungry Tiger",
+    "title": "Running from a Hungry Tiger",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -3978,7 +3978,7 @@ const rawGames = [
   },
   {
     "slug": "catch-the-roober",
-    "title": "Catch the roober",
+    "title": "Catch the Roober",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -4468,7 +4468,7 @@ const rawGames = [
   },
   {
     "slug": "flappy-bacchan",
-    "title": "Flappy bacchan",
+    "title": "Flappy Bacchan",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -4909,7 +4909,7 @@ const rawGames = [
   },
   {
     "slug": "crazy-revolution-police-runner-hyper-casual",
-    "title": "Crazy Revolution   Police Runner : Hyper Casual",
+    "title": "Crazy Revolution - Police Runner: Hyper Casual",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -4958,7 +4958,7 @@ const rawGames = [
   },
   {
     "slug": "prince-of-demons-dark-flame",
-    "title": "Prince Of Demons : Dark Flame",
+    "title": "Prince of Demons: Dark Flame",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -5203,7 +5203,7 @@ const rawGames = [
   },
   {
     "slug": "annoying-uncle-punch-the-meme",
-    "title": "Annoying Uncle   Punch the Meme",
+    "title": "Annoying Uncle - Punch the Meme",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -5497,7 +5497,7 @@ const rawGames = [
   },
   {
     "slug": "ants-io",
-    "title": "Ants io",
+    "title": "Ants IO",
     "category": "Action",
     "featured": false,
     "rating": 4.9,
@@ -5693,7 +5693,7 @@ const rawGames = [
   },
   {
     "slug": "men-vs-gorillas",
-    "title": "Men Vs Gorillas",
+    "title": "Men vs Gorillas",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -6134,7 +6134,7 @@ const rawGames = [
   },
   {
     "slug": "stickman-sky-3d",
-    "title": "stickman sky 3D",
+    "title": "Stickman Sky 3D",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -6722,7 +6722,7 @@ const rawGames = [
   },
   {
     "slug": "noob-vs-pro-but-knife-hit-minecraft",
-    "title": "Noob vs Pro But Knife Hit Minecraft",
+    "title": "Noob vs Pro but Knife Hit Minecraft",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -7555,7 +7555,7 @@ const rawGames = [
   },
   {
     "slug": "sandbox-squid-game-create-a-challenge",
-    "title": "Sandbox Squid Game   Create a Challenge",
+    "title": "Sandbox Squid Game: Create a Challenge",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -7653,7 +7653,7 @@ const rawGames = [
   },
   {
     "slug": "tung-tung-tung-sahur-vs-bombardino-crocodilo",
-    "title": "Tung Tung Tung Sahur VS Bombardino Crocodilo",
+    "title": "Tung Tung Tung Sahur vs Bombardino Crocodilo",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -7849,7 +7849,7 @@ const rawGames = [
   },
   {
     "slug": "truck-driving-simulator-offroad",
-    "title": "Truck Driving Simulator offroad",
+    "title": "Truck Driving Simulator Offroad",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -8486,7 +8486,7 @@ const rawGames = [
   },
   {
     "slug": "cargo-truck-simulator-2025",
-    "title": "Cargo Truck simulator 2025",
+    "title": "Cargo Truck Simulator 2025",
     "category": "Action",
     "featured": false,
     "rating": 4.7,
@@ -9025,7 +9025,7 @@ const rawGames = [
   },
   {
     "slug": "smoke-man-runner-2d",
-    "title": "Smoke man runner 2d",
+    "title": "Smoke Man Runner 2D",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -9074,7 +9074,7 @@ const rawGames = [
   },
   {
     "slug": "fireboy-and-watergirl-online",
-    "title": "Fireboy And Watergirl Online",
+    "title": "Fireboy and Watergirl Online",
     "category": "Action",
     "featured": false,
     "rating": 4.8,
@@ -10250,7 +10250,7 @@ const rawGames = [
   },
   {
     "slug": "need-for-drift",
-    "title": "Need For Drift",
+    "title": "Need for Drift",
     "category": "Racing",
     "featured": false,
     "rating": 4.8,
@@ -14415,7 +14415,7 @@ const rawGames = [
   },
   {
     "slug": "bikkings-brothers-to-valhalla",
-    "title": "Bikkings: brothers to valhalla",
+    "title": "Bikkings: Brothers to Valhalla",
     "category": "Racing",
     "featured": false,
     "rating": 4.8,
@@ -14807,7 +14807,7 @@ const rawGames = [
   },
   {
     "slug": "car-evolution-pro-math-gates",
-    "title": "Car Evolution Pro : Math Gates",
+    "title": "Car Evolution Pro: Math Gates",
     "category": "Racing",
     "featured": false,
     "rating": 4.7,
@@ -14856,7 +14856,7 @@ const rawGames = [
   },
   {
     "slug": "mini-car-runner-meme-games",
-    "title": "Mini Car Runner   Meme Games",
+    "title": "Mini Car Runner - Meme Games",
     "category": "Racing",
     "featured": false,
     "rating": 4.6,
@@ -15052,7 +15052,7 @@ const rawGames = [
   },
   {
     "slug": "pony-my-little-race",
-    "title": "Pony : My Little Race",
+    "title": "Pony: My Little Race",
     "category": "Racing",
     "featured": false,
     "rating": 5,
@@ -15150,7 +15150,7 @@ const rawGames = [
   },
   {
     "slug": "draw-a-road",
-    "title": "Draw a road",
+    "title": "Draw a Road",
     "category": "Racing",
     "featured": false,
     "rating": 4.9,
@@ -15934,7 +15934,7 @@ const rawGames = [
   },
   {
     "slug": "hill-climb-racings-2",
-    "title": "HIll climb Racings 2",
+    "title": "Hill Climb Racings 2",
     "category": "Racing",
     "featured": false,
     "rating": 4.8,
@@ -16277,7 +16277,7 @@ const rawGames = [
   },
   {
     "slug": "escape-the-lava",
-    "title": "Escape the lava",
+    "title": "Escape the Lava",
     "category": "Racing",
     "featured": false,
     "rating": 4.9,
@@ -16375,7 +16375,7 @@ const rawGames = [
   },
   {
     "slug": "wrong-side-driving-car-game",
-    "title": "Wrong Side Driving   Car Game",
+    "title": "Wrong Side Driving - Car Game",
     "category": "Racing",
     "featured": false,
     "rating": 4.7,
@@ -17551,7 +17551,7 @@ const rawGames = [
   },
   {
     "slug": "racing-portal",
-    "title": "racing portal",
+    "title": "Racing Portal",
     "category": "Racing",
     "featured": false,
     "rating": 4.7,
@@ -18237,7 +18237,7 @@ const rawGames = [
   },
   {
     "slug": "retro-x-racer",
-    "title": "Retro x Racer",
+    "title": "Retro X Racer",
     "category": "Racing",
     "featured": false,
     "rating": 4.9,
@@ -20638,7 +20638,7 @@ const rawGames = [
   },
   {
     "slug": "minecraft-times-counter-strike-25d-fps",
-    "title": "Minecraft x Counter Strike: 2.5D FPS",
+    "title": "Minecraft X Counter Strike: 2.5D FPS",
     "category": "Shooting",
     "featured": false,
     "rating": 4.8,
@@ -21128,7 +21128,7 @@ const rawGames = [
   },
   {
     "slug": "gears-of-war-platformer",
-    "title": "Gears Of War Platformer",
+    "title": "Gears of War Platformer",
     "category": "Shooting",
     "featured": false,
     "rating": 5,
@@ -21226,7 +21226,7 @@ const rawGames = [
   },
   {
     "slug": "tiny-zomby-the-barricade",
-    "title": "Tiny Zomby The Barricade",
+    "title": "Tiny Zomby the Barricade",
     "category": "Shooting",
     "featured": false,
     "rating": 4.9,
@@ -21716,7 +21716,7 @@ const rawGames = [
   },
   {
     "slug": "woms-world-of-master-survivors",
-    "title": "WOMS   World of Master Survivors",
+    "title": "WOMS: World of Master Survivors",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -24166,7 +24166,7 @@ const rawGames = [
   },
   {
     "slug": "soldier-shooting",
-    "title": "Soldier shooting",
+    "title": "Soldier Shooting",
     "category": "Shooting",
     "featured": false,
     "rating": 4.9,
@@ -24999,7 +24999,7 @@ const rawGames = [
   },
   {
     "slug": "battle-for-kingdom",
-    "title": "Battle For Kingdom",
+    "title": "Battle for Kingdom",
     "category": "Shooting",
     "featured": false,
     "rating": 4.8,
@@ -25048,7 +25048,7 @@ const rawGames = [
   },
   {
     "slug": "billy-the-kid-2",
-    "title": "Billy The Kid-2",
+    "title": "Billy the Kid-2",
     "category": "Shooting",
     "featured": false,
     "rating": 4.9,
@@ -25538,7 +25538,7 @@ const rawGames = [
   },
   {
     "slug": "pubg-hack",
-    "title": "Pubg Hack",
+    "title": "PUBG Hack",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -26077,7 +26077,7 @@ const rawGames = [
   },
   {
     "slug": "zombie-survival-last-stand",
-    "title": "Zombie Survival : Last Stand",
+    "title": "Zombie Survival: Last Stand",
     "category": "Shooting",
     "featured": false,
     "rating": 4.8,
@@ -26959,7 +26959,7 @@ const rawGames = [
   },
   {
     "slug": "gas-station-survival",
-    "title": "Gas station survival",
+    "title": "Gas Station Survival",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -27645,7 +27645,7 @@ const rawGames = [
   },
   {
     "slug": "marnyl-silence-the-haters",
-    "title": "MARNYL Silence The Haters",
+    "title": "MARNYL Silence the Haters",
     "category": "Shooting",
     "featured": false,
     "rating": 4.9,
@@ -28233,7 +28233,7 @@ const rawGames = [
   },
   {
     "slug": "road-of-fury-4",
-    "title": "Road Of Fury 4",
+    "title": "Road of Fury 4",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -28821,7 +28821,7 @@ const rawGames = [
   },
   {
     "slug": "the-bunny-vs-the-gardener",
-    "title": "The Bunny vs The Gardener",
+    "title": "The Bunny vs the Gardener",
     "category": "Shooting",
     "featured": false,
     "rating": 4.6,
@@ -29360,7 +29360,7 @@ const rawGames = [
   },
   {
     "slug": "space-asteroids-war",
-    "title": "space asteroids war",
+    "title": "Space Asteroids War",
     "category": "Shooting",
     "featured": false,
     "rating": 4.8,
@@ -29605,7 +29605,7 @@ const rawGames = [
   },
   {
     "slug": "halloween-dentist-for-kids-2",
-    "title": "Halloween Dentist For Kids 2",
+    "title": "Halloween Dentist for Kids 2",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.7,
@@ -29948,7 +29948,7 @@ const rawGames = [
   },
   {
     "slug": "mahjong-master-tile-sort-and-match",
-    "title": "mahjong master tile sort and match",
+    "title": "Mahjong Master Tile Sort and Match",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.6,
@@ -30732,7 +30732,7 @@ const rawGames = [
   },
   {
     "slug": "find-the-key",
-    "title": "Find The Key",
+    "title": "Find the Key",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.9,
@@ -32006,7 +32006,7 @@ const rawGames = [
   },
   {
     "slug": "solitaire-the-collection",
-    "title": "Solitaire The Collection",
+    "title": "Solitaire the Collection",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.8,
@@ -32986,7 +32986,7 @@ const rawGames = [
   },
   {
     "slug": "sneaky-fits",
-    "title": "Sneaky fits",
+    "title": "Sneaky Fits",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.8,
@@ -33770,7 +33770,7 @@ const rawGames = [
   },
   {
     "slug": "ants-clear-all-color-block-puzzle",
-    "title": "Ants Clear All : Color Block Puzzle",
+    "title": "Ants Clear All: Color Block Puzzle",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.6,
@@ -35828,7 +35828,7 @@ const rawGames = [
   },
   {
     "slug": "box-it-up",
-    "title": "Box It Up",
+    "title": "Box It up",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.6,
@@ -37298,7 +37298,7 @@ const rawGames = [
   },
   {
     "slug": "save-the-capybara",
-    "title": "Save The Capybara",
+    "title": "Save the Capybara",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.7,
@@ -37347,7 +37347,7 @@ const rawGames = [
   },
   {
     "slug": "go-find-the-cake",
-    "title": "Go Find The Cake",
+    "title": "Go Find the Cake",
     "category": "Puzzle",
     "featured": false,
     "rating": 4.6,
@@ -41855,7 +41855,7 @@ const rawGames = [
   },
   {
     "slug": "line-to-goal-draw-the-path",
-    "title": "Line to Goal : Draw The Path",
+    "title": "Line to Goal: Draw the Path",
     "category": "Sports",
     "featured": false,
     "rating": 4.8,
@@ -42443,7 +42443,7 @@ const rawGames = [
   },
   {
     "slug": "basket-fill-ball-puzzle",
-    "title": "Basket Fill : Ball Puzzle",
+    "title": "Basket Fill: Ball Puzzle",
     "category": "Sports",
     "featured": false,
     "rating": 4.9,
@@ -42786,7 +42786,7 @@ const rawGames = [
   },
   {
     "slug": "whimsy-workshop-easy",
-    "title": "Whimsy Workshop   Easy",
+    "title": "Whimsy Workshop - Easy",
     "category": "Sports",
     "featured": false,
     "rating": 4.5,
@@ -43521,7 +43521,7 @@ const rawGames = [
   },
   {
     "slug": "archery-master-bow-and-arrow",
-    "title": "Archery Master   Bow and Arrow",
+    "title": "Archery Master - Bow and Arrow",
     "category": "Sports",
     "featured": false,
     "rating": 4.7,
@@ -44648,7 +44648,7 @@ const rawGames = [
   },
   {
     "slug": "santa-vs-zomby",
-    "title": "Santa Vs Zomby",
+    "title": "Santa vs Zomby",
     "category": "Sports",
     "featured": false,
     "rating": 4.5,
@@ -45922,7 +45922,7 @@ const rawGames = [
   },
   {
     "slug": "kick-pong-table-soccer",
-    "title": "Kick Pong   Table Soccer",
+    "title": "Kick Pong - Table Soccer",
     "category": "Sports",
     "featured": false,
     "rating": 4.8,
@@ -47343,7 +47343,7 @@ const rawGames = [
   },
   {
     "slug": "car-repair-and-wash",
-    "title": "Car Repair And Wash",
+    "title": "Car Repair and Wash",
     "category": "Sports",
     "featured": false,
     "rating": 4.9,
@@ -47490,7 +47490,7 @@ const rawGames = [
   },
   {
     "slug": "8-ball-shoot-it-all-3d-pool",
-    "title": "8 Ball Shoot It All   3D Pool",
+    "title": "8 Ball Shoot It All - 3D Pool",
     "category": "Sports",
     "featured": false,
     "rating": 4.9,
@@ -47539,7 +47539,7 @@ const rawGames = [
   },
   {
     "slug": "checkers-for-two",
-    "title": "Checkers for two",
+    "title": "Checkers for Two",
     "category": "Sports",
     "featured": false,
     "rating": 4.9,
@@ -47588,7 +47588,7 @@ const rawGames = [
   },
   {
     "slug": "sprunki-vs-pirates",
-    "title": "Sprunki VS Pirates",
+    "title": "Sprunki vs Pirates",
     "category": "Sports",
     "featured": false,
     "rating": 4.7,
@@ -48127,7 +48127,7 @@ const rawGames = [
   },
   {
     "slug": "whack-e-m-all",
-    "title": "Whack e m All",
+    "title": "Whack E M All",
     "category": "Sports",
     "featured": false,
     "rating": 4.6,
@@ -49744,7 +49744,7 @@ const rawGames = [
   },
   {
     "slug": "noob-vs-pro-drift-tag",
-    "title": "Noob vs Pro : Drift Tag",
+    "title": "Noob vs Pro: Drift Tag",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -49891,7 +49891,7 @@ const rawGames = [
   },
   {
     "slug": "yolk-ops-egg-arena",
-    "title": "Yolk Ops   Egg Arena",
+    "title": "Yolk Ops - Egg Arena",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -49940,7 +49940,7 @@ const rawGames = [
   },
   {
     "slug": "online-kitpvp-50vs50",
-    "title": "Online KitPvP : 50vs50",
+    "title": "Online KitPvP: 50vs50",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -50087,7 +50087,7 @@ const rawGames = [
   },
   {
     "slug": "gorilgo-fps-online-shooter",
-    "title": "GORILGO FPS : Online Shooter",
+    "title": "GORILGO FPS: Online Shooter",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.6,
@@ -50577,7 +50577,7 @@ const rawGames = [
   },
   {
     "slug": "steal-an-egg",
-    "title": "Steal An Egg",
+    "title": "Steal an Egg",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -51410,7 +51410,7 @@ const rawGames = [
   },
   {
     "slug": "motorcarvolleyball",
-    "title": "motorcarvolleyball",
+    "title": "Motorcarvolleyball",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -52145,7 +52145,7 @@ const rawGames = [
   },
   {
     "slug": "imposter-duck-online",
-    "title": "imposter Duck : Online",
+    "title": "Imposter Duck: Online",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -52341,7 +52341,7 @@ const rawGames = [
   },
   {
     "slug": "super-hero-survivor-io",
-    "title": "Super Hero Survivor Io",
+    "title": "Super Hero Survivor IO",
     "category": "Multiplayer",
     "featured": false,
     "rating": 5,
@@ -52586,7 +52586,7 @@ const rawGames = [
   },
   {
     "slug": "a-survival-legend",
-    "title": "a survival legend",
+    "title": "A Survival Legend",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.5,
@@ -52733,7 +52733,7 @@ const rawGames = [
   },
   {
     "slug": "spil-clash-3d-ultimate-arena",
-    "title": "spil clash 3D Ultimate Arena",
+    "title": "Spil Clash 3D Ultimate Arena",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -53272,7 +53272,7 @@ const rawGames = [
   },
   {
     "slug": "tsunami-for-escape-brainrots",
-    "title": "Tsunami For Escape Brainrots",
+    "title": "Tsunami for Escape Brainrots",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -53370,7 +53370,7 @@ const rawGames = [
   },
   {
     "slug": "zombie-swarm",
-    "title": "Zombie swarm",
+    "title": "Zombie Swarm",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -53664,7 +53664,7 @@ const rawGames = [
   },
   {
     "slug": "finger-soccer-footbal-game",
-    "title": "Finger Soccer : Footbal Game",
+    "title": "Finger Soccer: Footbal Game",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -53909,7 +53909,7 @@ const rawGames = [
   },
   {
     "slug": "pixel-gun-apocalypse-9",
-    "title": "Pixel gun apocalypse 9",
+    "title": "Pixel Gun Apocalypse 9",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -53958,7 +53958,7 @@ const rawGames = [
   },
   {
     "slug": "tanks-of-liberty-online",
-    "title": "Tanks Of Liberty   online",
+    "title": "Tanks of Liberty - Online",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -54105,7 +54105,7 @@ const rawGames = [
   },
   {
     "slug": "fill-line-one-line-puzzle-game",
-    "title": "Fill Line : one line puzzle game",
+    "title": "Fill Line: One Line Puzzle Game",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.6,
@@ -54791,7 +54791,7 @@ const rawGames = [
   },
   {
     "slug": "antistress-relaxation-toys-mini-games",
-    "title": "Antistress   relaxation toys Mini Games",
+    "title": "Antistress - Relaxation Toys Mini Games",
     "category": "Multiplayer",
     "featured": false,
     "rating": 5,
@@ -55281,7 +55281,7 @@ const rawGames = [
   },
   {
     "slug": "wheelie-bike-for-2-players",
-    "title": "Wheelie Bike For 2 Players",
+    "title": "Wheelie Bike for 2 Players",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -55575,7 +55575,7 @@ const rawGames = [
   },
   {
     "slug": "antistress-relaxation-toys",
-    "title": "Antistress   relaxation toys",
+    "title": "Antistress - Relaxation Toys",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -55722,7 +55722,7 @@ const rawGames = [
   },
   {
     "slug": "hard-neon-paccoman",
-    "title": "hard neon paccoman",
+    "title": "Hard Neon Paccoman",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -55869,7 +55869,7 @@ const rawGames = [
   },
   {
     "slug": "blockscapeio",
-    "title": "blockscape.io",
+    "title": "Blockscape.io",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -56065,7 +56065,7 @@ const rawGames = [
   },
   {
     "slug": "street-fight-beat-em-up",
-    "title": "Street Fight : Beat Em Up",
+    "title": "Street Fight: Beat Em up",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -56506,7 +56506,7 @@ const rawGames = [
   },
   {
     "slug": "dunkeon-dino",
-    "title": "Dunkeon dino",
+    "title": "Dunkeon Dino",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -56751,7 +56751,7 @@ const rawGames = [
   },
   {
     "slug": "sudoku-for-bro",
-    "title": "Sudoku for bro",
+    "title": "Sudoku for Bro",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -56947,7 +56947,7 @@ const rawGames = [
   },
   {
     "slug": "best-2048",
-    "title": "best 2048",
+    "title": "Best 2048",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -57094,7 +57094,7 @@ const rawGames = [
   },
   {
     "slug": "epicshooter3d",
-    "title": "epicshooter3d",
+    "title": "Epicshooter3d",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -57241,7 +57241,7 @@ const rawGames = [
   },
   {
     "slug": "space-io",
-    "title": "space io",
+    "title": "Space IO",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -57829,7 +57829,7 @@ const rawGames = [
   },
   {
     "slug": "obby-tsunami-1-speed",
-    "title": "Obby: Tsunami +1 speed",
+    "title": "Obby: Tsunami +1 Speed",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.8,
@@ -57976,7 +57976,7 @@ const rawGames = [
   },
   {
     "slug": "ocean-catcher-fun",
-    "title": "Ocean Catcher fun",
+    "title": "Ocean Catcher Fun",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.5,
@@ -58074,7 +58074,7 @@ const rawGames = [
   },
   {
     "slug": "magical-tic-tac-toe",
-    "title": "magical tic tac toe",
+    "title": "Magical Tic Tac Toe",
     "category": "Multiplayer",
     "featured": false,
     "rating": 5,
@@ -58172,7 +58172,7 @@ const rawGames = [
   },
   {
     "slug": "2048-neon-game",
-    "title": "2048 neon game",
+    "title": "2048 Neon Game",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.7,
@@ -58564,7 +58564,7 @@ const rawGames = [
   },
   {
     "slug": "survival-on-raft-multiplayer",
-    "title": "Survival On Raft Multiplayer",
+    "title": "Survival on Raft Multiplayer",
     "category": "Multiplayer",
     "featured": false,
     "rating": 4.9,
@@ -58956,7 +58956,7 @@ const rawGames = [
   },
   {
     "slug": "noob-save-the-village",
-    "title": "Noob save the village",
+    "title": "Noob Save the Village",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -59887,7 +59887,7 @@ const rawGames = [
   },
   {
     "slug": "tower-platformer-3d",
-    "title": "Tower platformer 3D",
+    "title": "Tower Platformer 3D",
     "category": "Adventure",
     "featured": false,
     "rating": 4.7,
@@ -61749,7 +61749,7 @@ const rawGames = [
   },
   {
     "slug": "repel-the-monster",
-    "title": "Repel The Monster",
+    "title": "Repel the Monster",
     "category": "Adventure",
     "featured": false,
     "rating": 4.6,
@@ -63072,7 +63072,7 @@ const rawGames = [
   },
   {
     "slug": "bad-cat-prankster-moms-return",
-    "title": "Bad Cat Prankster   Moms Return",
+    "title": "Bad Cat Prankster - Moms Return",
     "category": "Adventure",
     "featured": false,
     "rating": 5,
@@ -63758,7 +63758,7 @@ const rawGames = [
   },
   {
     "slug": "fill-the-glass-puzzle",
-    "title": "Fill The Glass Puzzle",
+    "title": "Fill the Glass Puzzle",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -63807,7 +63807,7 @@ const rawGames = [
   },
   {
     "slug": "skibidi-titans-hide-and-seek",
-    "title": "Skibidi Titans Hide And Seek",
+    "title": "Skibidi Titans Hide and Seek",
     "category": "Adventure",
     "featured": false,
     "rating": 5,
@@ -64199,7 +64199,7 @@ const rawGames = [
   },
   {
     "slug": "mini-guardians",
-    "title": "Mini guardians",
+    "title": "Mini Guardians",
     "category": "Adventure",
     "featured": false,
     "rating": 5,
@@ -64297,7 +64297,7 @@ const rawGames = [
   },
   {
     "slug": "jump-up-game",
-    "title": "Jump Up Game",
+    "title": "Jump up Game",
     "category": "Adventure",
     "featured": false,
     "rating": 4.7,
@@ -64640,7 +64640,7 @@ const rawGames = [
   },
   {
     "slug": "steal-a-fish",
-    "title": "Steal A Fish",
+    "title": "Steal a Fish",
     "category": "Adventure",
     "featured": false,
     "rating": 4.9,
@@ -64738,7 +64738,7 @@ const rawGames = [
   },
   {
     "slug": "fight-with-monster",
-    "title": "Fight With Monster",
+    "title": "Fight with Monster",
     "category": "Adventure",
     "featured": false,
     "rating": 4.6,
@@ -65375,7 +65375,7 @@ const rawGames = [
   },
   {
     "slug": "city-coach-driving-games-3d",
-    "title": "City Coach Driving Games 3d",
+    "title": "City Coach Driving Games 3D",
     "category": "Adventure",
     "featured": false,
     "rating": 4.7,
@@ -65571,7 +65571,7 @@ const rawGames = [
   },
   {
     "slug": "helicopter-rescue-games-3d",
-    "title": "Helicopter Rescue Games 3d",
+    "title": "Helicopter Rescue Games 3D",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -65963,7 +65963,7 @@ const rawGames = [
   },
   {
     "slug": "dracula-run",
-    "title": "Dracula run",
+    "title": "Dracula Run",
     "category": "Adventure",
     "featured": false,
     "rating": 4.5,
@@ -66600,7 +66600,7 @@ const rawGames = [
   },
   {
     "slug": "save-the-princess-1",
-    "title": "Save The Princess 1",
+    "title": "Save the Princess 1",
     "category": "Adventure",
     "featured": false,
     "rating": 4.6,
@@ -67041,7 +67041,7 @@ const rawGames = [
   },
   {
     "slug": "endless-idle-rpg",
-    "title": "Endless idle RPG",
+    "title": "Endless Idle RPG",
     "category": "Adventure",
     "featured": false,
     "rating": 4.7,
@@ -67629,7 +67629,7 @@ const rawGames = [
   },
   {
     "slug": "obby-fish-training",
-    "title": "Obby: Fish training",
+    "title": "Obby: Fish Training",
     "category": "Adventure",
     "featured": false,
     "rating": 4.9,
@@ -67727,7 +67727,7 @@ const rawGames = [
   },
   {
     "slug": "99-nights-in-the-forest",
-    "title": "99 Nights In The Forest",
+    "title": "99 Nights in the Forest",
     "category": "Adventure",
     "featured": false,
     "rating": 4.8,
@@ -68364,7 +68364,7 @@ const rawGames = [
   },
   {
     "slug": "jungle-mart-idle-game",
-    "title": "Jungle Mart idle game",
+    "title": "Jungle Mart Idle Game",
     "category": "Adventure",
     "featured": false,
     "rating": 4.9,
@@ -68854,7 +68854,7 @@ const rawGames = [
   },
   {
     "slug": "zaruvane-the-amber-oasis",
-    "title": "ZARUVANE   THE AMBER OASIS",
+    "title": "ZARUVANE - THE AMBER OASIS",
     "category": "Arcade",
     "featured": false,
     "rating": 4.9,
@@ -69932,7 +69932,7 @@ const rawGames = [
   },
   {
     "slug": "leaf-clean-up",
-    "title": "Leaf Clean Up",
+    "title": "Leaf Clean up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.5,
@@ -69981,7 +69981,7 @@ const rawGames = [
   },
   {
     "slug": "demon-hunter-beat-em-up",
-    "title": "Demon Hunter: Beat Em Up",
+    "title": "Demon Hunter: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 5,
@@ -70030,7 +70030,7 @@ const rawGames = [
   },
   {
     "slug": "dark-ages-beat-em-up",
-    "title": "Dark Ages: Beat Em Up",
+    "title": "Dark Ages: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -70814,7 +70814,7 @@ const rawGames = [
   },
   {
     "slug": "elden-ring-beat-em-up",
-    "title": "Elden Ring: Beat Em Up",
+    "title": "Elden Ring: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.5,
@@ -70961,7 +70961,7 @@ const rawGames = [
   },
   {
     "slug": "call-of-duty-modern-warfare-4-beat-em-up",
-    "title": "Call of Duty Modern Warfare 4: Beat Em Up",
+    "title": "Call of Duty Modern Warfare 4: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 5,
@@ -71255,7 +71255,7 @@ const rawGames = [
   },
   {
     "slug": "resident-evil-2-beat-em-up",
-    "title": "Resident Evil 2: Beat Em Up",
+    "title": "Resident Evil 2: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -71647,7 +71647,7 @@ const rawGames = [
   },
   {
     "slug": "gta-vi-beat-em-up",
-    "title": "GTA VI: Beat Em Up",
+    "title": "GTA VI: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -71794,7 +71794,7 @@ const rawGames = [
   },
   {
     "slug": "car-modding-contest",
-    "title": "Car modding contest",
+    "title": "Car Modding Contest",
     "category": "Arcade",
     "featured": false,
     "rating": 4.9,
@@ -71941,7 +71941,7 @@ const rawGames = [
   },
   {
     "slug": "half-life-2-beat-em-up",
-    "title": "Half Life 2: Beat Em Up",
+    "title": "Half Life 2: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -72382,7 +72382,7 @@ const rawGames = [
   },
   {
     "slug": "gears-of-war-beat-em-up",
-    "title": "Gears of War: Beat Em Up",
+    "title": "Gears of War: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -72431,7 +72431,7 @@ const rawGames = [
   },
   {
     "slug": "resident-evil-4-beat-em-up",
-    "title": "Resident Evil 4: Beat Em Up",
+    "title": "Resident Evil 4: Beat Em up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -73166,7 +73166,7 @@ const rawGames = [
   },
   {
     "slug": "little-dentist-for-kids-3",
-    "title": "Little Dentist For Kids 3",
+    "title": "Little Dentist for Kids 3",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -73264,7 +73264,7 @@ const rawGames = [
   },
   {
     "slug": "cafe-honey-heist",
-    "title": "Cafe honey heist",
+    "title": "Cafe Honey Heist",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -73460,7 +73460,7 @@ const rawGames = [
   },
   {
     "slug": "chips-bakery-simulator",
-    "title": "Chips bakery simulator",
+    "title": "Chips Bakery Simulator",
     "category": "Arcade",
     "featured": false,
     "rating": 4.9,
@@ -75518,7 +75518,7 @@ const rawGames = [
   },
   {
     "slug": "going-up-rooftop",
-    "title": "Going Up Rooftop",
+    "title": "Going up Rooftop",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -75861,7 +75861,7 @@ const rawGames = [
   },
   {
     "slug": "obby-tower-only-up",
-    "title": "Obby Tower: Only Up!",
+    "title": "Obby Tower: Only up!",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -75910,7 +75910,7 @@ const rawGames = [
   },
   {
     "slug": "barbie-unicorn-dress-up",
-    "title": "Barbie unicorn dress up",
+    "title": "Barbie Unicorn Dress up",
     "category": "Arcade",
     "featured": false,
     "rating": 4.6,
@@ -76302,7 +76302,7 @@ const rawGames = [
   },
   {
     "slug": "jumpninja",
-    "title": "jumpNinja",
+    "title": "JumpNinja",
     "category": "Arcade",
     "featured": false,
     "rating": 4.9,
@@ -78066,7 +78066,7 @@ const rawGames = [
   },
   {
     "slug": "charlotte-crossing-game",
-    "title": "Charlotte crossing Game",
+    "title": "Charlotte Crossing Game",
     "category": "Arcade",
     "featured": false,
     "rating": 4.8,
@@ -78416,6 +78416,8 @@ function enrichGame(game) {
     const { features, ...cleanGame } = game;
     return {
       ...cleanGame,
+      raw_description: game.description,
+      raw_how_to: game.howToPlay,
       ...enriched,
       content_ready: true,
       indexable: Boolean(enriched.indexable),
@@ -78424,12 +78426,19 @@ function enrichGame(game) {
   const { features, ...cleanGame } = game;
   return {
     ...cleanGame,
+    raw_description: game.description,
+    raw_how_to: game.howToPlay,
     content_ready: false,
     indexable: false,
   };
 }
 
 export const games = rawGames.map(enrichGame);
+export { rawGames };
+
+export function getRawGameBySlug(slug) {
+  return rawGames.find((g) => g.slug.toLowerCase() === slug.toLowerCase());
+}
 
 export function getAllGames() {
   return games;
@@ -78449,10 +78458,41 @@ export function getGamesByCategory(category) {
   );
 }
 
+function isNearDuplicateGame(gameA, gameB) {
+  if (!gameA || !gameB) return false;
+  const sA = (gameA.slug || "")
+    .toLowerCase()
+    .replace(/[-_]+/g, " ")
+    .replace(/\b(game|games|online|free|3d|2d|simulator|play|unblocked|webgl|html5|new|edition|2023|2024|2025|2026)\b/g, "")
+    .replace(/\s+/g, "")
+    .trim();
+  const sB = (gameB.slug || "")
+    .toLowerCase()
+    .replace(/[-_]+/g, " ")
+    .replace(/\b(game|games|online|free|3d|2d|simulator|play|unblocked|webgl|html5|new|edition|2023|2024|2025|2026)\b/g, "")
+    .replace(/\s+/g, "")
+    .trim();
+  if (sA && sB && sA === sB) return true;
+
+  const tA = (gameA.title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "")
+    .replace(/(game|games|online|free|3d|2d|simulator|play|edition|2023|2024|2025|2026)/g, "");
+  const tB = (gameB.title || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "")
+    .replace(/(game|games|online|free|3d|2d|simulator|play|edition|2023|2024|2025|2026)/g, "");
+  if (tA && tB && tA === tB) return true;
+
+  return false;
+}
+
 export function getRelatedGames(currentSlug, category, limit = 8) {
   const current = games.find(g => g.slug.toLowerCase() === currentSlug.toLowerCase());
   if (!current) {
-    return games.filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase()).slice(0, limit);
+    return games
+      .filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase())
+      .slice(0, limit);
   }
 
   // Extract meaningful keywords from the current game's title (3+ chars, skip stop words)
@@ -78460,46 +78500,57 @@ export function getRelatedGames(currentSlug, category, limit = 8) {
   const titleWords = (current.title || "").toLowerCase().split(/[\s\-_:]+/)
     .filter(w => w.length >= 3 && !stopWords.has(w));
 
-  // Score each candidate by relevance
-  const candidates = games
-    .filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase())
+  // Score each candidate by relevance (strictly excluding near-duplicates)
+  const candidates = [];
+  const candidatePool = games
+    .filter(g => g.slug.toLowerCase() !== currentSlug.toLowerCase() && !isNearDuplicateGame(current, g))
     .map(g => {
       let score = 0;
       const gTitle = (g.title || "").toLowerCase();
       const gDesc = (g.description || "").toLowerCase();
 
-      // +3 for each shared title keyword in the candidate's title
       for (const kw of titleWords) {
         if (gTitle.includes(kw)) score += 3;
       }
 
-      // +2 for same category
       if (g.category.toLowerCase() === category.toLowerCase()) score += 2;
 
-      // +1 for each shared title keyword in candidate's description
       for (const kw of titleWords) {
         if (gDesc.includes(kw)) score += 1;
       }
 
-      // +1 bonus for content_ready games (prefer indexable related)
       if (g.content_ready) score += 1;
 
       return { game: g, score };
     })
     .filter(c => c.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit);
+    .sort((a, b) => b.score - a.score);
+
+  for (const item of candidatePool) {
+    if (candidates.length >= limit) break;
+    // Ensure candidate is not a near duplicate of any already picked related game
+    if (!candidates.some(c => isNearDuplicateGame(c.game, item.game))) {
+      candidates.push(item);
+    }
+  }
 
   // If not enough high-scoring candidates, fill from same category
   if (candidates.length < limit) {
     const slugsUsed = new Set([currentSlug.toLowerCase(), ...candidates.map(c => c.game.slug.toLowerCase())]);
-    const fillers = games
-      .filter(g => g.category.toLowerCase() === category.toLowerCase() && !slugsUsed.has(g.slug.toLowerCase()))
-      .slice(0, limit - candidates.length);
-    return [...candidates.map(c => c.game), ...fillers];
+    const fillers = games.filter(
+      g =>
+        g.category.toLowerCase() === category.toLowerCase() &&
+        !slugsUsed.has(g.slug.toLowerCase()) &&
+        !isNearDuplicateGame(current, g) &&
+        !candidates.some(c => isNearDuplicateGame(c.game, g))
+    );
+    for (const f of fillers) {
+      if (candidates.length >= limit) break;
+      candidates.push({ game: f, score: 0 });
+    }
   }
 
-  return candidates.map(c => c.game);
+  return candidates.slice(0, limit).map(c => c.game);
 }
 
 export function getMoreCategoryGames(currentSlug, category, limit = 8) {

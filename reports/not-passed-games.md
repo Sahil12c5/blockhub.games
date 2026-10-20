@@ -1,55 +1,47 @@
-# Not Passed Games Audit Report
+# Non-Passed & Pending Games Report
 
-**Total Not Passed Games**: 770 / 1600
-**Date Generated**: 2026-10-18
-**Status**: Handled safely with `robots: noindex, follow` and excluded from `sitemap-games.xml` until enriched.
+> **Last updated**: 2026-10-20T20:12:07.610Z
+> **Total Games Pending or Non-Indexable**: **34**
+> **V1 Combinatorial Games Awaiting Regeneration**: **0**
+> **Near-Duplicate Non-Canonicals (noindex)**: **19**
+> **Blocked Trademarks**: **14**
 
-## Breakdown by Category
+## Games Pending Regeneration & Review
 
-| Category | Games Pending Enrichment |
-|---|---|
-| puzzle | 121 |
-| arcade | 115 |
-| adventure | 104 |
-| shooting | 94 |
-| multiplayer | 94 |
-| sports | 88 |
-| action | 87 |
-| racing | 67 |
+| Title | Slug | Category | Template Version | Release Date | Status / Reason |
+|---|---|---|---|---|---|
+| [3D Sniper Shooting Game](https://blockhub.games/game/3d-sniper-shooting-game) | `3d-sniper-shooting-game` | Action | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Call of Duty Modern Warfare 4: Beat Em up](https://blockhub.games/game/call-of-duty-modern-warfare-4-beat-em-up) | `call-of-duty-modern-warfare-4-beat-em-up` | Arcade | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Car Racing 3D: Extreme Dodge](https://blockhub.games/game/car-racing-3d-extreme-dodge) | `car-racing-3d-extreme-dodge` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Cargo Truck Simulator 2025](https://blockhub.games/game/cargo-truck-simulator-2025) | `cargo-truck-simulator-2025` | Action | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Dead Survival: Zombie Shooter](https://blockhub.games/game/dead-survival-zombie-shooter) | `dead-survival-zombie-shooter` | Action | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Destroy Minecraft](https://blockhub.games/game/destroy-minecraft) | `destroy-minecraft` | Multiplayer | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Doom Eternal Platformer](https://blockhub.games/game/doom-eternal-platformer) | `doom-eternal-platformer` | Shooting | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Elden Ring: Beat Em up](https://blockhub.games/game/elden-ring-beat-em-up) | `elden-ring-beat-em-up` | Arcade | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Euro Truck Parking Game](https://blockhub.games/game/euro-truck-parking-game) | `euro-truck-parking-game` | Adventure | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Extreme Highway Traffic Racer](https://blockhub.games/game/extreme-highway-traffic-racer) | `extreme-highway-traffic-racer` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [FNAF Shooter: Metro](https://blockhub.games/game/fnaf-shooter-metro) | `fnaf-shooter-metro` | Shooting | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [FNAF Strike Halloween](https://blockhub.games/game/fnaf-strike-halloween) | `fnaf-strike-halloween` | Shooting | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Gears of War: Beat Em up](https://blockhub.games/game/gears-of-war-beat-em-up) | `gears-of-war-beat-em-up` | Arcade | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Halo: Platformer](https://blockhub.games/game/halo-platformer) | `halo-platformer` | Adventure | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Head Football Game](https://blockhub.games/game/head-football-game) | `head-football-game` | Sports | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Highway Car Racer Game](https://blockhub.games/game/highway-car-racer-game) | `highway-car-racer-game` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Impossible Car Stunt Game](https://blockhub.games/game/impossible-car-stunt-game) | `impossible-car-stunt-game` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Keyboard Escape Block Speed +1](https://blockhub.games/game/keyboard-escape-block-speed-1) | `keyboard-escape-block-speed-1` | Arcade | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Mario Wheelie](https://blockhub.games/game/mario-wheelie) | `mario-wheelie` | Racing | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Mega Ramp Car Stunt Racing](https://blockhub.games/game/mega-ramp-car-stunt-racing) | `mega-ramp-car-stunt-racing` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Minecraft Pixel Gun Shooter](https://blockhub.games/game/minecraft-pixel-gun-shooter) | `minecraft-pixel-gun-shooter` | Shooting | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Monster Truck Offroad 2](https://blockhub.games/game/monster-truck-offroad-2) | `monster-truck-offroad-2` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Mud Offroad Monster Truck Game](https://blockhub.games/game/mud-offroad-monster-truck-game) | `mud-offroad-monster-truck-game` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Offroad Monster Truck Game](https://blockhub.games/game/offroad-monster-truck-game) | `offroad-monster-truck-game` | Adventure | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Offroad Truck Driving Game](https://blockhub.games/game/offroad-truck-driving-game) | `offroad-truck-driving-game` | Adventure | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Oil Tanker Game](https://blockhub.games/game/oil-tanker-game) | `oil-tanker-game` | Adventure | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Paper Minecraft](https://blockhub.games/game/paper-minecraft) | `paper-minecraft` | Adventure | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Police Car Parking 2026](https://blockhub.games/game/police-car-parking-2026) | `police-car-parking-2026` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Real Car Highway Racing Game](https://blockhub.games/game/real-car-highway-racing-game) | `real-car-highway-racing-game` | Racing | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Resident Evil 4: 2.5D FPS](https://blockhub.games/game/resident-evil-4-25d-fps) | `resident-evil-4-25d-fps` | Shooting | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Resident Evil 4: Beat Em up](https://blockhub.games/game/resident-evil-4-beat-em-up) | `resident-evil-4-beat-em-up` | Arcade | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Roblox World Builder](https://blockhub.games/game/roblox-world-builder) | `roblox-world-builder` | Adventure | `v2-prose` | NONE | TRADEMARK_INDEX_BLOCKED |
+| [Truck Driving Simulator Offroad](https://blockhub.games/game/truck-driving-simulator-offroad) | `truck-driving-simulator-offroad` | Action | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
+| [Vehicle Driving Master Game](https://blockhub.games/game/vehicle-driving-master-game) | `vehicle-driving-master-game` | Adventure | `v2-prose` | NONE | NEAR_DUPLICATE_NON_CANONICAL_NOINDEX |
 
-## Sample Games Pending Enrichment
-
-| Slug | Title | Category | Reason |
-|---|---|---|---|
-| `gun-strike-runner` | Gun Strike Runner | action | NO_CONTENT: game has no enriched content |
-| `age-evolution-run` | Age Evolution Run | action | NO_CONTENT: game has no enriched content |
-| `dungeonsquest` | DungeonsQuest | action | NO_CONTENT: game has no enriched content |
-| `meccha-chameleon-online` | Meccha Chameleon Online | action | NO_CONTENT: game has no enriched content |
-| `oil-tanker-simulator` | Oil Tanker Simulator | action | NO_CONTENT: game has no enriched content |
-| `mountain-bike-xtreme` | Mountain Bike Xtreme | action | NO_CONTENT: game has no enriched content |
-| `crowd-rush` | Crowd Rush | action | NO_CONTENT: game has no enriched content |
-| `dilivery-challenge` | Dilivery Challenge | action | NO_CONTENT: game has no enriched content |
-| `explore-hole` | EXPLORE HOLE | action | NO_CONTENT: game has no enriched content |
-| `popcorn-thief` | Popcorn Thief | action | NO_CONTENT: game has no enriched content |
-| `astro-chickens` | ASTRO CHICKENS | action | NO_CONTENT: game has no enriched content |
-| `stickboy-hook` | Stickboy Hook | action | NO_CONTENT: game has no enriched content |
-| `melon-sandbox-online` | Melon Sandbox Online | action | NO_CONTENT: game has no enriched content |
-| `slicestorm` | SliceStorm | action | NO_CONTENT: game has no enriched content |
-| `the-lost-labyrinth` | The Lost Labyrinth | action | NO_CONTENT: game has no enriched content |
-| `cowboy-dash-game` | Cowboy Dash Game | action | NO_CONTENT: game has no enriched content |
-| `the-lava-escape` | THE LAVA ESCAPE | action | NO_CONTENT: game has no enriched content |
-| `hydrasword` | HydraSword | action | NO_CONTENT: game has no enriched content |
-| `skyfury` | SkyFury | action | NO_CONTENT: game has no enriched content |
-| `toy-factory` | Toy Factory | action | NO_CONTENT: game has no enriched content |
-| `stickman-army-team-battle-3` | Stickman Army : Team Battle-3 | action | NO_CONTENT: game has no enriched content |
-| `count-master-3d` | count master 3d | action | NO_CONTENT: game has no enriched content |
-| `dig-out-of-prison` | Dig out of Prison | action | NO_CONTENT: game has no enriched content |
-| `running-from-a-hungry-tiger` | Running From A Hungry Tiger | action | NO_CONTENT: game has no enriched content |
-| `stickman-hooks` | Stickman: Hooks | action | NO_CONTENT: game has no enriched content |
-| `village-defense-battle` | Village Defense Battle | action | NO_CONTENT: game has no enriched content |
-| `dinosaur-city-hunting-destroy` | Dinosaur City Hunting Destroy | action | NO_CONTENT: game has no enriched content |
-| `catch-the-roober` | Catch the roober | action | NO_CONTENT: game has no enriched content |
-| `funny-crazy-watermelon` | Funny Crazy Watermelon | action | NO_CONTENT: game has no enriched content |
-| `hospital-doctor-emergency` | Hospital Doctor Emergency | action | NO_CONTENT: game has no enriched content |
-
-*See `reports/not-passed-games.csv` for the complete list of 770 games pending enrichment.*

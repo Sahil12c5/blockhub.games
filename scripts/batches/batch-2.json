@@ -1,0 +1,602 @@
+[
+  {
+    "index": 26,
+    "slug": "zombie-drift-steel-rage",
+    "title": "Zombie Drift: Steel Rage",
+    "category": "Racing",
+    "subgenre": "drift",
+    "raw_description": "Zombie Drift: Steel Rage is a post-apocalyptic 3D action game that mixes arcade drifting with arena survival. Drive an armored battle car into a ruined city arena full of zombie hordes and mutant giants. Speed and controlled slides are your weapons: the sharper the drift, the faster your nitro rage builds and the harder your spiked bumper hits - up to 2.5x ramming damage. Mow down walkers and runners, blow up barrels and collect scrap gears. Campaign of 100 levels in 10 chapters with 20 titan bosses, plus endless survival mode. Unlock the Iron Fang, the Dune Reaper buggy and the heavy War Titan, upgrade armor and turbo, and pick weapon modules between waves: miniguns, buzzsaws, flamethrowers and rocket mortars.",
+    "raw_how_to": "Keyboard W Up - throttle S Down - brake reverse A D - steer Space E - nitro Shift F - handbrake drift Esc P - pause Mouse menu upgrade cards drag to rotate the car in the garage Touch left side - floating stick DRIFT and NITRO b",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 27,
+    "slug": "last-garage-zombie-road",
+    "title": "Last Garage: Zombie Road",
+    "category": "Racing",
+    "subgenre": "zombie",
+    "raw_description": "Hit the road in Last Garage, a fast-paced 3D zombie survival driving game. Race through shifting districts-from city streets and suburbs to a forest highway-while dodging wrecks, fallen trees, barriers, and evacuation traffic. Fight walkers, armored brutes, and the towering Colossus with machine guns and rockets. Collect scrap, fuel, and ammo during each run, then use your haul to repair and upgrade your vehicle between runs. Choose from four vehicles and improve your armor, engine, weapons, and nitro. Complete challenges and achievements as you push deeper into the outbreak. One of three lanes is always open, but four crashes or an empty tan",
+    "raw_how_to": "Desktop Use A D or the Left Right Arrow keys to steer Press SPACE for nitro and Q for shockwave Weapons fire automatically when available Mobile Use the on-screen buttons to steer activate nitro and trigger the shockwave",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 28,
+    "slug": "neo-traffic-rider-championship",
+    "title": "Neo Traffic Rider Championship",
+    "category": "Racing",
+    "subgenre": "moto",
+    "raw_description": "Take the cockpit in Neo Traffic Rider Championship! Race seven rivals across six destinations, from coastal highways and rolling hills to city expressways and snowy mountain roads. Complete 18 championship events, tackle Rider Trials, and upgrade your sportbike's engine and tyres. Find your passing line, build slipstream for a slingshot, and unleash boost at the right moment. Photorealistic artwork, recorded sportbike audio, and winding roads bring every ride to life. Want to keep riding? Try Unlimited Run on any track. Navigate increasingly dense traffic, complete rotating contracts, replenish boost, and chase your personal distance record",
+    "raw_how_to": "Controls bull A D or Left Right Arrow Steer bull W or Up Arrow Accelerate when Auto Throttle is off bull S or Down Arrow Brake bull Space or Shift Activate boost bull Esc or P Pause or resume bull Mobile Use the on-screen contr",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 29,
+    "slug": "need-for-drift",
+    "title": "Need For Drift",
+    "category": "Racing",
+    "subgenre": "drift",
+    "raw_description": "Hit the streets and experience the thrill of high-speed street racing! Drift through sharp corners, escape intense police chases, and push your car to its limits. Earn rewards by completing races and dangerous challenges, then upgrade your vehicle to become faster and more powerful. Explore the city, master your driving skills, outrun the police, and prove that you are the ultimate street racer. Are you ready to burn rubber and dominate the streets?",
+    "raw_how_to": "Use the WASD keys to drive the car Press Shift to activate Nitro and gain a burst of speed Touch controls are available for playing on mobile devices",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 30,
+    "slug": "super-nitro-racing-3",
+    "title": "Super Nitro Racing 3",
+    "category": "Racing",
+    "subgenre": "racing",
+    "raw_description": "Super Nitro Racing 3 is a top down racer with 21 tracks and very little room to relax. The car accelerates on its own, so your job is steering, braking and finding the right line. Charge the nitro bar to full and it fires in one long burst, then you have to earn it again. Rain, snow and fog change how much grip you get, and the icy sections will spit you into the barriers if you get greedy. Damage never repairs by itself, grab the D pods on track to fix the car. Five modes to play: Time Attack, Race against three rivals, Ghost, Survival and Championship.",
+    "raw_how_to": "DESKTOP Left and right arrows or A and D to steer Space or down arrow to brake N shift or up arrow for nitro P or Esc to pause MOBILE Two arrow buttons on the bottom left to steer Red triangle on the bottom right to brake NITRO button just above it it",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 31,
+    "slug": "classic-car-driving-game",
+    "title": "Classic Car Driving Game",
+    "category": "Racing",
+    "subgenre": "parking",
+    "raw_description": "Get ready to experience the fun and challenge of classic car parking in **Classic Car Driving Game**! Take control of beautiful vintage cars and carefully navigate through busy parking areas, tight spaces, challenging turns, and tricky obstacles. Test your driving and parking skills as you steer, reverse, and position your car perfectly into the designated parking spot. With smooth controls, realistic car movement, detailed environments, and multiple challenging parking levels, every mission puts your precision and patience to the test. Avoid barriers, cones, and other obstacles while completing each parking challenge successfully.",
+    "raw_how_to": "W A S D or Arrow Keys ndash Drive and steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 32,
+    "slug": "monster-truck-offroad-2",
+    "title": "Monster Truck Offroad 2",
+    "category": "Racing",
+    "subgenre": "truck",
+    "raw_description": "Take control of powerful monster trucks and conquer rugged mountain trails. Choose a vehicle in the garage, climb steep slopes, cross rocky paths and obstacles, and reach the checkpoints before time runs out. Complete challenging off-road stages, manage your speed and damage, and aim for a clean finish.",
+    "raw_how_to": "Keyboard W or Up Arrow accelerate S or Down Arrow brake reverse A or Left Arrow steer left D or Right Arrow steer right Space handbrake Touch use the on-screen driving controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 33,
+    "slug": "impossible-jeep-driver",
+    "title": "Impossible Jeep Driver",
+    "category": "Racing",
+    "subgenre": "runner",
+    "raw_description": "Take the wheel of a 4x4 jeep and tackle rugged off-road courses. Drive through rocky climbs, narrow mountain paths and tricky obstacles, then reach each finish before time runs out. Choose your route, control your speed and keep the jeep steady across challenging stages. Play with keyboard or on-screen touch controls.",
+    "raw_how_to": "Keyboard W or Up Arrow accelerate S or Down Arrow brake reverse A or Left Arrow steer left D or Right Arrow steer right Space handbrake Touch use the on-screen driving controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 34,
+    "slug": "fat-duck-frenzy",
+    "title": "Fat Duck Frenzy",
+    "category": "Racing",
+    "subgenre": "runner",
+    "raw_description": "An endless candy road that folds through a dream. Weave between lanes of candy traffic, leap striped barricades and void gaps, and hold tight when reality flips into loop-the-loops and reality folds. Three hearts per run - grab shields to soak a hit, snatch glowing shards for combo bonus points, and squeeze past traffic for near-miss bonuses. The road only gets faster. How far can the fat duck dream?",
+    "raw_how_to": "Keyboard mdash or A D steer between lanes SPACE W jump press twice for a double jump P or the on-screen pause button to pause any time even mid-stunt Touch mdash on-screen steer and jump buttons drag to steer swipe up to jump Auto-paus",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 35,
+    "slug": "ultimate-car-parking-sim",
+    "title": "Ultimate Car Parking Sim",
+    "category": "Racing",
+    "subgenre": "parking",
+    "raw_description": "Ultimate Car Parking Sim is an exciting and realistic driving game designed for players who love cars, precision driving, and challenging parking missions. Take control of powerful sports cars and luxury vehicles, master tight parking spaces, navigate busy parking areas, and complete challenging driving courses. Can you park perfectly, master every challenge, and become the ultimate parking champion? Start your engine and find out!",
+    "raw_how_to": "W A S D or Arrow Keys ndash Drive and steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 36,
+    "slug": "city-bus-parking",
+    "title": "City Bus Parking",
+    "category": "Racing",
+    "subgenre": "parking",
+    "raw_description": "City Bus Parking is an exciting bus driving and parking simulator that puts you behind the wheel of powerful city and coach buses. Navigate busy roads, winding mountain routes, bridges, and challenging parking areas while mastering precise steering, braking, and parking skills. Explore beautiful city and countryside environments, carefully follow roads and traffic, avoid obstacles, and park your bus safely in designated spaces. With realistic bus controls, challenging levels, and stunning 3D environments, every journey puts your driving skills to the test.",
+    "raw_how_to": "W A S D or Arrow Keys ndash Drive and steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 37,
+    "slug": "limo-city-taxi-driver",
+    "title": "Limo City Taxi Driver",
+    "category": "Racing",
+    "subgenre": "racing",
+    "raw_description": "Get behind the wheel of a city limousine and take on taxi driving missions. Pick up passengers, follow the city route and drive them to their destinations. Complete each trip while navigating the streets in this 3D city driving game.",
+    "raw_how_to": "Use the on-screen driving controls to accelerate brake and steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 38,
+    "slug": "bus-and-subway-rush",
+    "title": "Bus & Subway Rush",
+    "category": "Racing",
+    "subgenre": "runner",
+    "raw_description": "Race through a busy city as you follow the bus and subway route. Dodge obstacles, switch lanes, collect rewards, and keep moving through the streets in this fast-paced runner.",
+    "raw_how_to": "Keyboard W A S D or arrow keys to move and steer Touch and swipe controls are supported on mobile devices",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 39,
+    "slug": "left-dead-last-convoy",
+    "title": "Left Dead: Last Convoy",
+    "category": "Shooting",
+    "subgenre": "sniper",
+    "raw_description": "Help medic Tess keep Omar and the convoy alive across 23 stages in five campaign routes. Fight through city streets, carnival grounds, bayou paths, a storm and the final bridge. Aim your rifle, reload between threats, shove infected away and use medical supplies wisely. Rescue survivors and secure fuel while checkpoints preserve the journey. Illustrated environments, varied infected and an original tense soundtrack support this 2D survival action game on desktop and mobile.",
+    "raw_how_to": "A D or arrows move Space W Up jump J mouse fire K shove R reload Q heal E interact Esc P pause Mobile use the on-screen controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 40,
+    "slug": "sniper-shooter-3d",
+    "title": "Sniper Shooter 3D",
+    "category": "Shooting",
+    "subgenre": "sniper",
+    "raw_description": "Step into the role of an elite marksman in Sniper Shooter 3D! Take position on rooftops, locate dangerous criminals, aim carefully, and complete challenging sniper missions across the city.",
+    "raw_how_to": "Desktop Mouse Scroll Camera zoom in or out Aim Mouse Left click Fire R Reload P Pause N Skip Level",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 41,
+    "slug": "octobeer",
+    "title": "Octobeer",
+    "category": "Shooting",
+    "subgenre": "runner",
+    "raw_description": "Welcome to Octobeer! Youre the festivals best server, and the sky is full of thirsty guests. Hold to charge, slide to aim and release to throw a beer - every guest you serve pays you coins. Each Run lasts five waves. Earn enough coins to pay the rent before its due, or the festival is over. Pick Run skills, unlock new shot styles, collect rare mugs and climb all 20 Runs of the festival. Watch your beer: every throw uses one, and when it runs dry the Run ends. Features: - Easy one-finger aiming with satisfying arcs and combos - 20 Runs with rising challenge and boss guests - Run skills, shot styles and a mug collection to complete - Hall",
+    "raw_how_to": "Hold the mouse button or your finger to charge slide left right to aim release to throw Serve the flying guests earn coins and pay the rent every 5 waves",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 42,
+    "slug": "shooter-outbreak-protocol",
+    "title": "Shooter: Outbreak Protocol",
+    "category": "Shooting",
+    "subgenre": "zombie",
+    "raw_description": "Shooter: Outbreak Protocol is a free online zombie shooting game featuring three maps and six weapons. Battle waves of undead across Raccoon City, a police station, and an Umbrella laboratory. Earn cash, unlock weapons, and upgrade your firepower to survive tougher waves. Play this first-person shooter directly in your browser.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 43,
+    "slug": "catchfish-fishing-master",
+    "title": "CatchFish - Fishing Master",
+    "category": "Shooting",
+    "subgenre": "fighter",
+    "raw_description": "CatchFish is a free arcade fishing game. Blast schools of fish with mighty cannons, hunt huge bosses, and upgrade your arsenal from a single barrel to devastating multi-shot weapons. Mode & Levels: &bull; Level campaign: 100 handcrafted levels with rising difficulty &bull; Epic boss fights with huge gold bonuses Cannons (characters): &bull; 10+ upgradeable cannons: Classic, Hexforce, Mech Storm, Frost Fang, Golden Dragon &bull; From single barrel to devastating 4-shot multi-fire Gameplay: &bull; Dozens of fish species with different rewards and combo streak bonuses &bull; Progress is saved automatically in your browser &bull; Plays great on both desktop and mobile, no insta",
+    "raw_how_to": "Tap or click anywhere to fire at that spot mdash keep holding to fire rapidly and drag to keep aiming Hit fish to earn gold spend it on cannon upgrades",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 44,
+    "slug": "pedro-double-cross",
+    "title": "Pedro: Double Cross",
+    "category": "Shooting",
+    "subgenre": "fps",
+    "raw_description": "Run the rooftops and expose a hidden manifest in Pedro: Double Cross, a 2D action shooter starring dual-pistol agent Noor. Explore forty connected scenes, clear each room to open its exit, and improvise with reflective rails, laser relays, breakable glass and cables. Split your aim, dodge attacks, reload behind cover and use Focus to slow the action during a risky crossing. Every shot needs a fresh press, rewarding timing and accuracy over blind spray. Detailed character animation, responsive combat effects, industrial ambience and an original electronic groove accompany the chase. Checkpoints save locally, with keyboard and mouse or touch controls available.",
+    "raw_how_to": "A D move Space or W jump double jump Mouse left click aim and fire one shot right click lock one pistol J assisted single shot Shift or L Focus K dodge R reload E kick or grab cable P or Escape pause M mute Mobile drag to aim and",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 45,
+    "slug": "fragbyte",
+    "title": "FRAGBYTE",
+    "category": "Shooting",
+    "subgenre": "sniper",
+    "raw_description": "FRAGBYTE is a fast-paced 3D first-person wave survival shooter that runs right in your browser. No downloads, 100% free. MODE: Offline single-player. Survive endless waves of enemies inside a hand-drawn ink arena. There is no final level - each wave hits harder than the last. How many waves can you survive? ENEMIES: Stickman soldiers, shield brutes, blade runners, laser snipers, and a brutal arena boss at the end of every run. ARSENAL: Assault rifle, pump shotgun, marksman sniper, katana, ink grenades, and a grapple hook. MOVEMENT: Wall-jumps, crouch-slides, and grapple-hook swings. Chain headshots to climb the score.",
+    "raw_how_to": "WASD Move Mouse Aim and shoot Right-click Aim down sight 1-4 Switch weapons G Ink grenade Q Grapple hook Space Jump double-jump Shift Sprint Ctrl C Crouch-slide Mobile Touch controls landscape",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 46,
+    "slug": "tactical-response-team",
+    "title": "Tactical Response Team",
+    "category": "Shooting",
+    "subgenre": "shooting",
+    "raw_description": "In Tactical Response Team, step into the boots of an elite marksman where every shot counts. Zoom in to neutralize high-value targets, provide long-range precision support, and suppress hostile forces before they eliminate your pinned teammates. Precision, patience, and timing dictate survival.",
+    "raw_how_to": "Mouse to look Mouse Scroll to zoom in or out Left Click to shoot Right Click to aim",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 47,
+    "slug": "witchy",
+    "title": "Witchy",
+    "category": "Shooting",
+    "subgenre": "shooting",
+    "raw_description": "Fly with Witchy and her black cat through four magical worlds! Defeat monster waves and powerful bosses, upgrade your spells and unleash magic bombs. Recover 10 stolen amulets and save Halloween!",
+    "raw_how_to": "Desktop Arrows to move WASD via Options Hold A Z Space to fire A fires only in Arrow mode B X bomb P Esc pause Mobile D-pad to move Hold A to fire B bomb Gamepad Stick D-pad move A fire B bomb Start pause",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 48,
+    "slug": "shooter-tactical-strike",
+    "title": "Shooter Tactical Strike",
+    "category": "Shooting",
+    "subgenre": "fps",
+    "raw_description": "Play Shooter: Tactical Strike, a free online 3D FPS game featuring intense tactical combat, realistic weapons, enemy battles, and fast-paced shooting action. Aim, shoot, upgrade your weapons, and survive challenging missions directly in your browser.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 49,
+    "slug": "sniper-silent-ridge",
+    "title": "Sniper: Silent Ridge",
+    "category": "Shooting",
+    "subgenre": "sniper",
+    "raw_description": "Eliminate every hostile. Aim for the head for a bonus. The small scope pip predicts wind and bullet drop at the displayed range. Space, click or tap Skip to shorten the bullet camera. Fuel drums damage nearby guards. Crouch and wait to reduce alert.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 50,
+    "slug": "grave-blast",
+    "title": "Grave Blast",
+    "category": "Shooting",
+    "subgenre": "zombie",
+    "raw_description": "Grave Blast is a fast-paced 3D twin-stick survival shooter set in a spooky Halloween world. Fight endless waves of simple voxel-style zombies in creepy locations full of pumpkins, graves, moonlight and eerie atmosphere. Move quickly, shoot in all directions and survive as long as possible while blasting enemies into chunky red pieces. With simple controls, arcade action and mobile-friendly gameplay, Grave Blast delivers fun zombie carnage in a colorful low-poly style. Perfect for players who love action, survival and Halloween games.",
+    "raw_how_to": "Desktop Use WASD or Arrow Keys to move Use Mouse to aim and Left Click to shoot Mobile Use the left virtual joystick to move and tap hold the right button to shoot",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

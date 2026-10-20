@@ -1,0 +1,602 @@
+[
+  {
+    "index": 1,
+    "slug": "ragdoll-survivor",
+    "title": "Ragdoll Survivor",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "A stick fighter is stuck in the middle of a war zone and has to fight to stay alive. Punch, kick, block, dash and grab your way past enemy soldiers, knife fighters, riot shields and tanks, while bombs, rockets, saw blades and lava fall from the sky. Play 100 missions across 10 chapters, each ending with a boss fight. Fill the SUPER bar to go into RAGE mode. Earn coins to unlock new fighters and gear, and try Boss Rush, Endless and daily missions. Plays on computer, phone and gamepad.",
+    "raw_how_to": "Desktop A D - move W - jump S - duck F - punch G - smash C - block Shift - dash E - grab R - SUPER Mobile On-screen buttons hold the phone sideways Gamepad supported Tip block when a soldier shows the red",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 2,
+    "slug": "stickman-bow-clash",
+    "title": "Stickman Bow Clash",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "Stickman Bow Clash is the action-packed sequel to Stickman Archery Ragdoll! Grab your bow, take aim, and face off against rival stickmen in intense archery battles. Master your shots, use precise timing, and knock your opponents off balance with powerful arrows and hilarious ragdoll physics. Each clash is a test of aim, strategy, and reflexes. Hit the right spot, send enemies flying, and become the ultimate stickman archer! Features: Fast-paced stickman archery battles Precise bow-and-arrow aiming Fun ragdoll physics and chaotic reactions Challenge enemy stickmen in exciting duels Use timing and strategy to win each clash",
+    "raw_how_to": "mouse only",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 3,
+    "slug": "funny-gummy-characters",
+    "title": "Funny Gummy Characters",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "Get ready for some crazy, wobbly fun in Funny Gummy Characters! Grab your favorite funny characters and stretch, pull, squash, and twist them into the most hilarious shapes imaginable! Watch their faces and bodies wobble, bounce, and jiggle like real jelly with funny gummy physics. There are no rules, no limits, and no wrong moves - just endless laughter and ridiculous transformations!",
+    "raw_how_to": "Mouse to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 4,
+    "slug": "egg-wars-battle-arena-3d",
+    "title": "Egg Wars Battle Arena 3D",
+    "category": "Action",
+    "subgenre": "tower-defense",
+    "raw_description": "Enter the ultimate egg battle arena! Protect your precious egg, collect resources, upgrade your equipment, and fight against rival teams in intense 3D battles. Destroy enemy eggs to prevent opponents from respawning and eliminate them from the arena. Gather materials, build defenses, improve your gear, and plan your attacks carefully. Whether you prefer defending your base or launching powerful attacks, every match offers a new challenge. Survive, conquer enemy islands, and become the last team standing!",
+    "raw_how_to": "Move using the WASD keys Use Left Mouse Click to attack with your sword Press Space to jump The game is also fully playable on mobile devices with mobile-friendly controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 5,
+    "slug": "dinos-rush",
+    "title": "Dinos Rush",
+    "category": "Action",
+    "subgenre": "runner",
+    "raw_description": "Dino Rush is a colorful and addictive platform adventure where every level brings a new challenge! Run, jump, and fight your way through exciting worlds filled with dangerous obstacles, tricky platforms, enemies, and hidden rewards. Collect coins, unlock new levels, and upgrade your dinosaur to become faster and stronger. Visit the in-game shop to purchase speed upgrades, jump improvements, and powerful boosters like Golden Magnet, Feather Wings, and Coin Fever. Enjoy unlimited levels with increasing difficulty, daily rewards, achievements, and exciting challenges. Test your skills, beat your best times, and see how far you can go!",
+    "raw_how_to": "Desktop Controls - Left Arrow Right Arrow Move your dinosaur - Use the on-screen Jump button to jump - Use the on-screen Attack button to attack enemies Mobile Controls - Tap the Left and Right buttons to move - Tap Jump to jump over gaps and obs",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 6,
+    "slug": "stickman-kombat-2d",
+    "title": "stickman kombat 2d",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "Stickman Kombat 2D is a fast-paced fighting game where you battle stickman warriors in intense 1v1 arena combat. Choose your fighter and master punch, kick, and special attack combos to knock out your opponent. Fight through multiple levels and game modes against tougher enemies, dodge incoming blows, and chain devastating combos to win the match. Simple mouse click or tap controls make it easy to jump into action, while timing and strategy keep the combat challenging. Test your skills across a variety of stickman characters and arenas, and become the ultimate champion!",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 7,
+    "slug": "shadow-fist-kung-fu",
+    "title": "Shadow Fist   Kung Fu",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "Shadow Fist is a fast-paced kung fu stickman beat 'em up. You play Kai, the last disciple of Master Lin, and you must take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss at the end, and a golden key that opens the exit door. Climb ladders and ride elevators between rooms, from living rooms and kitchens to dojos and basements. Features: 5000 levels: 8 story levels with unique bosses, then thousands of generated levels with new enemy mixes and bosses Punch combos, kicks, air attacks, a spinning special move, blocking and a dash with brief invincibility SixShadow Fist is a fast-paced kung fu stickman beat em up. Play Kai, last disciple of Master Lin, and take back the stolen Dragon Scroll from the Black Lotus clan. Fight through buildings floor by floor. Each level has waves of enemies, a boss, and a golden key that opens the exit door. Climb ladders and ride elevators from living rooms and kitchen",
+    "raw_how_to": "Move A D or Arrow keys the on-screen hints adapt to your keyboard layout Attack Space or Z press repeatedly to chain combos Special move X Block S or Down arrow Dash Shift Climb ladder or ride elevator W or Up arrow Exit door Enter Mobile us",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 8,
+    "slug": "people-blaster",
+    "title": "People Blaster",
+    "category": "Action",
+    "subgenre": "fps",
+    "raw_description": "Crowd Gun 3D is a fast-paced runner where you recruit stickmen along the track to transform them into powerful weapons. Pass through multipliers, dodge deadly city obstacles, and unleash a barrage of gunfire to blast through targets and reach the finish line!",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 9,
+    "slug": "stickninja-mission",
+    "title": "StickNinja Mission",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "Enter a fast-paced 2D platform adventure where every level is filled with danger! Control your ninja, defeat monsters in your path, collect the keys, and unlock mysterious doors to continue your mission. Jump across platforms, avoid deadly traps, fight dangerous enemies, and discover the right path through challenging levels. Improve your skills, master your attacks, and survive every encounter. Can you defeat every monster, find every key, and complete the StickNinja Mission?",
+    "raw_how_to": "Move using the WASD keys Double Jump is available Use the Mouse to attack enemies Touch controls are available for mobile devices",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 10,
+    "slug": "verity-block-survival",
+    "title": "Verity Block Survival",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "Enter a mysterious block-based world where survival is your only goal! Explore a dark and dangerous environment, gather resources, craft useful items, and build a safe place to survive. But be careful-strange creatures and unexpected dangers may appear when you least expect them. Explore abandoned areas, discover hidden secrets, and find a way to survive the night. Every decision matters as you search for resources and uncover the terrifying mystery surrounding this strange world. Are you brave enough to survive?",
+    "raw_how_to": "Move using the WASD keys Use Left Mouse Click to attack with your sword Press Space to jump The game is also fully playable on mobile devices with mobile-friendly controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 11,
+    "slug": "legiontide-army-runner",
+    "title": "Legiontide Army Runner",
+    "category": "Action",
+    "subgenre": "runner",
+    "raw_description": "Pick a gate, grow your army, smash whatever is in the way. Each run you steer a crowd of soldiers down a long road. Gates add or multiply troops, or turn soldiers into shield bearers, archers, giants or mages. The enemy groups ahead show what beats them, so you can plan before the clash: shields stop arrows, archers take down towers, giants break barriers and armor, mages clear swarms. Watch out for hammers, saws, holes and narrow bridges. Hold the button to squeeze your army into a tight line and get past them. Every fifth level ends with a boss. Each boss has a weak spot and a class that hits it harder. Between runs you can build up your island kingdom. Buildings make your troops stronger and farms make gold while you are away. Skeletons attack the kingdom from time to time, and you aim the tower arrows yourself to hold them off. 30 levels across 3 worlds (Green Meadows, Mushroom Forest, Frozen Peaks) with 6 bosses, plus extra levels after each world.",
+    "raw_how_to": "Mouse move left and right to steer Hold left mouse button or Shift squeeze the army into a line 1 2 3 4 class powers unlocked as you get each class Space Golden Army when the bar is full A D or arrow keys steer Esc pause Touch drag to steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 12,
+    "slug": "city-rescue-forklift-simulator",
+    "title": "City Rescue Forklift Simulator",
+    "category": "Action",
+    "subgenre": "parking",
+    "raw_description": "Drive a powerful city rescue forklift through challenging urban missions, transport damaged cars, answer emergency calls, and deliver vehicles safely before time expires. Navigate busy streets, master realistic steering, use helpful map guidance, and complete ten varied levels. City Rescue Forklift Simulator combines driving, parking, transport, and rescue action gameplay.",
+    "raw_how_to": "Drive with WASD or Arrow Keys Use S or Down Arrow to brake Space for handbrake Shift for boost and C to change camera Follow the map Touch controls remain available on mobile",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 13,
+    "slug": "archer-clash",
+    "title": "Archer Clash",
+    "category": "Action",
+    "subgenre": "fighter",
+    "raw_description": "Archer Clash is a fast-paced io game where you guide a lone hero racing across a rolling, hill-like battle arena. You'll recruit allies, adapt your tactics, and face shifting challenges as you fight for control. Every decision shapes your path to victory, blending quick reflexes with smart strategy in a thrilling clash of skill and growth. At the start of each match, enemy armies spawn randomly across the terrain, creating unpredictable combat encounters. As you traverse the battlefield, you can collect powerful boosters like speed bursts and protective shields to gain an edge. Scattered throughout the land are neutral wanderers-free-ro",
+    "raw_how_to": "Use WASD arrow keys mouse to move",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 14,
+    "slug": "call-of-tanks",
+    "title": "Call of Tanks",
+    "category": "Action",
+    "subgenre": "tower-defense",
+    "raw_description": "Call of Tanks is an action game to deploy tanks on the battlefield to defeat your opponent. Deploying the right units as a perfect combination is the key to winning the battle. Upgrade your defenses and tanks for a stronger attack and unlock powerful bases for a stronger defense.",
+    "raw_how_to": "Desktop Use the mouse to click on cards to deploy units on the battlefield Mobile Tap cards to deploy units on the battlefield",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 15,
+    "slug": "urban-jump",
+    "title": "URBAN JUMP",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "URBAN JUMP is a fast-paced, gritty, and unforgiving arcade platformer where only one thing matters - climbing higher than everyone else. Jump across rooftops, balconies, and crumbling platforms, collect coins, avoid falling, and try to beat your high score. Every meter you climb brings greater risk, faster action, and less room for mistakes. Unlock new characters, earn coins, and keep pushing higher through the concrete urban jungle. One bad jump and you're going all the way down.",
+    "raw_how_to": "A D mdash Move Left Right SPACE mdash Jump",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 16,
+    "slug": "lilliput-war",
+    "title": "Lilliput War",
+    "category": "Action",
+    "subgenre": "stickman",
+    "raw_description": "Lilliput War is a fun 3D stickman tower defense game! The tiny kingdom of Lilliput is under attack, and only you can defend it. Your soldiers stand firm and fight automatically - upgrade their power to stop endless waves of enemies. Features: - One-touch controls: click or tap to play - Cute 3D stickman characters and colorful battles - Upgrade soldiers to make them stronger - Challenging waves and levels - Fast hypercasual battles, mobile-friendly",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 17,
+    "slug": "warrior-clash",
+    "title": "Warrior Clash",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "Warrior Clash is a thrilling war strategy game where only the strongest prevail. Take command of fearless warriors, train elite units, and engage in high-stakes battles. Outsmart your opponents with clever tactics and assert your dominance on the battlefield. Every decision you make shapes your journey in this epic challenge of strength and strategy!",
+    "raw_how_to": "Use the left mouse button to play and interact with in-game UIs",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 18,
+    "slug": "drone-vs-tractor-challenge",
+    "title": "Drone vs Tractor Challenge",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "Pilot a nimble drone through an unusual countryside showdown against powerful tractors and tricky farm obstacles. Fly with precision, complete daring objectives, avoid collisions, and explore each colorful environment. Master responsive controls, adapt to surprising challenges, and prove modern flying skill can conquer the toughest machines working on the farm.",
+    "raw_how_to": "Use WASD or the Arrow Keys to move Use the on-screen controls or indicated keyboard keys to change altitude and perform actions",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 19,
+    "slug": "blade-merge",
+    "title": "Blade Merge",
+    "category": "Action",
+    "subgenre": "action",
+    "raw_description": "Blade Merge is a thrilling blend of merging strategy and intense blade battles. Combine your blades to forge mightier weapons and take down enemy bots in action-packed duels. These spinning, razor-sharp blades are your ultimate tools to slice through foes, reduce their health, and protect your own as you conquer levels in this epic showdown.",
+    "raw_how_to": "Use the left mouse button to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 20,
+    "slug": "euro-truck-parking",
+    "title": "Euro Truck Parking",
+    "category": "Racing",
+    "subgenre": "parking",
+    "raw_description": "Euro Truck Parking is an exciting truck-driving and parking simulation game where players take control of powerful heavy-duty trucks and put their driving skills to the test. Navigate challenging parking areas, tight spaces, busy roads, and realistic environments while carefully positioning your truck into designated parking zones. Master precise steering, reversing, braking, and trailer control as each level introduces new challenges. Avoid obstacles, follow road markings, and park accurately to earn higher scores and unlock new trucks, levels, and upgrades.",
+    "raw_how_to": "W A S D or Arrow Keys ndash Drive and steer",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 21,
+    "slug": "spooky-racing",
+    "title": "Spooky Racing",
+    "category": "Racing",
+    "subgenre": "drift",
+    "raw_description": "Spooky Racing is a Halloween kart race in full 3D! Pick one of 8 classic monsters like Dracula, the Mummy, the Witch or Jack Pumpkin, each with a kart of their own. Race through pumpkin patches, haunted swamps, a neon ghost town and a vampire castle. Grab item boxes, throw slime potions and homing ghosts, drift to charge blue, orange and purple boosts, and win gold trophies in the Grand Prix from 50cc to Mirror. Gamepad supported!",
+    "raw_how_to": "Desktop Arrows or A D steer Up W or Shift boost Down or S brake Space drift E or Enter use item P or Esc pause Mobile The kart speeds up by itself Tap the big arrows to steer T for boost the round button on the left to use your item Hold a tu",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 22,
+    "slug": "wall-rush-3d",
+    "title": "Wall Rush 3D",
+    "category": "Racing",
+    "subgenre": "runner",
+    "raw_description": "Run as fast as wind and race against all best runner in the world. Leap from buildings and vault over wall. Only the 1st winner can reach to the top of victory.",
+    "raw_how_to": "- Swipe left and right to control the runner - Avoid obstacles and dangerous gaps - Stay on the course You can jump onto rooftops and run along wall edges but don rsquo t fall - Collect coins while running - Beat your opponents by reaching the finis",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 23,
+    "slug": "deadshift-halloween-night",
+    "title": "Deadshift Halloween Night",
+    "category": "Racing",
+    "subgenre": "zombie",
+    "raw_description": "The dead own the night. Take back the streets. DEADSHIFT: Halloween is a 3D zombie-driving game with 20 missions in a quarantined arena. Smash through the horde, collect supplies, rescue survivors, and race to extraction. Powerful collisions send zombies tumbling into ragdolls, with green splatter and impact-driven limb separation. Choose your vehicle, customize its paint, and upgrade its engine, armor, and nitro. Claim daily rewards and fight to survive all 20 nights.",
+    "raw_how_to": "Complete the objectives shown on screen then stop inside the green extraction ring before time runs out Follow orange markers to mission locations Collect green supply crates to repair your car refill nitro and earn scrap WASD Arrow keys Drive r",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 24,
+    "slug": "warehouse-wobble-3d",
+    "title": "Warehouse Wobble 3D",
+    "category": "Racing",
+    "subgenre": "truck",
+    "raw_description": "Drive a forklift, balance wobbly loads and deliver them in one piece! In Warehouse Wobble 3D you pick up towering stacks of boxes, fragile TVs, rolling barrels, a very heavy safe - and yes, a piano - and drive them across busy warehouses to the green delivery zone. Brake too hard and the stack topples. Take a corner too fast and your cargo goes flying. - 20 levels across 4 warehouses: Loading Dock, Cold Storage, Night Shift and the Mega Depot - Real physics: every load sways, leans and can tip over - Dodge patrol robots, time the roller doors and slide across icy floors - Earn up to 3 stars per level and collect coins - Upgrade your forklift in the garage: stronger engine, grippier tyres, stabilizer and better brakes - Progress is saved automatically - Plays on desktop and mobile (touch controls)",
+    "raw_how_to": "Desktop W S or Up Down arrows - drive reverse A D or Left Right arrows - steer Space - lift lower forks Shift - brake H - horn Esc - pause Mobile on-screen stick to drive and steer LIFT and BRAKE buttons",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 25,
+    "slug": "taiga-expedition",
+    "title": "Taiga: Expedition",
+    "category": "Racing",
+    "subgenre": "truck",
+    "raw_description": "Taiga: Expedition is a cozy 3D physics offroad delivery simulator. Drive vintage trucks through mud, deep fords and forest forks of the wild taiga and deliver logs and cargo to the sawmill. Your truck bed carries living cargo: logs, fuel barrels, blocks, pipes, hay bales and fragile containers. They sway and fly off on bumps, so feather throttle, brake and steering to keep them on board. 5 trucks: Zubr-130 Veteran, Leshy-66 4x4, Kedr-255 6x6, Utes-4320 and Cayman-6522 Taiga Beast 6x6. Upgrade engine, mud tires, suspension, high sides and fuel tank, and paint the body in six colors. 50 handcrafted routes from dirt roads to the Great Swamp, with risky shortcuts and safe detours, fords, sticky mud and boulders. Earn up to 3 stars per level for cargo kept and time.",
+    "raw_how_to": "Keyboard W Up - throttle S Down - brake reverse A D or Left Right - steer Space - handbrake P - pause Mouse drag in the Garage to rotate the truck Touch touch anywhere to show a floating joystick - up throttle down brake left right st",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

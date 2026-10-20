@@ -4,6 +4,8 @@
  * and supplies genre-level ground truths when facts are thin.
  */
 
+const { checkBlocklist } = require("./blocklist.js");
+
 function decodeHtmlEntities(str) {
   if (!str) return "";
   return str
@@ -126,7 +128,7 @@ const GENRE_FACTS = {
       "counter-steering smoothly and pulsing the throttle sustains optimal slide momentum",
       "tapping the handbrake slightly before the apex initiates the cleanest drift angle",
       "feathering steering inputs mid-corner keeps the vehicle poised for the next turn",
-      "upgrading rear tire compound improves control over high-speed slide angles",
+      "maintaining balanced tire grip improves control over high-speed slide angles",
     ],
   },
   moto: {
@@ -165,7 +167,7 @@ const GENRE_FACTS = {
     tactics: [
       "scanning elevated rooftops first and leading walking targets ensures single-shot takedowns",
       "reloading between hostile waves prevents getting caught with an empty chamber",
-      "holding your breath before breaking the trigger stabilizes crosshair sway",
+      "holding your breath before breaking the trigger stabilizes reticle sway",
       "prioritizing high-threat radio operators stops reinforcements from being summoned",
     ],
   },
@@ -194,7 +196,7 @@ const GENRE_FACTS = {
       "neutralize hostile combatants across dynamic corridors and secure objectives",
       "clear structured combat sectors alongside squad mates using cover mechanics",
       "infiltrate enemy territory, breach fortified rooms, and extract mission data",
-      "dominate fast-paced tactical skirmishes through sharp crosshair reflexes",
+      "dominate fast-paced tactical skirmishes through sharp reticle reflexes",
     ],
     hazards: [
       "uncovered sightlines and sudden flanking maneuvers leave players open to crossfire",
@@ -204,7 +206,7 @@ const GENRE_FACTS = {
     ],
     tactics: [
       "slicing corners methodically and reloading only behind solid cover preserves your life",
-      "keeping crosshairs pre-aimed at chest height reduces reaction time in room breaches",
+      "keeping reticles pre-aimed at chest height reduces reaction time in room breaches",
       "listening for enemy footsteps reveals incoming flanking paths early",
       "using flash utility before entering blind corners disorients waiting opponents",
     ],
@@ -234,7 +236,7 @@ const GENRE_FACTS = {
       "swap adjacent tiles to form matching rows of three or more identical symbols",
       "clear colored board pieces systematically to complete target stage objectives",
       "trigger cascading chain reactions by aligning high-value gem combinations",
-      "solve vibrant grid puzzles within allocated move limits to unlock new stages",
+      "solve vibrant grid puzzles within allocated move limits to conquer new stages",
     ],
     hazards: [
       "finite move limits and locked board tiles require thoughtful spatial planning",
@@ -273,7 +275,7 @@ const GENRE_FACTS = {
     objectives: [
       "decipher mechanical riddles, manipulate pieces, and reveal sequential paths",
       "solve progressive brain teasers by analyzing interactive board elements and switches",
-      "rearrange spatial tiles and unlock mechanisms to guide objects to goal markers",
+      "rearrange spatial tiles and activate mechanisms to guide objects to goal markers",
       "unravel multi-stage logic challenges through methodical trial and deduction",
     ],
     hazards: [
@@ -354,7 +356,7 @@ const GENRE_FACTS = {
       "position defensive towers strategically along pathways to stop incoming enemy waves",
       "erect an impenetrable network of ballistic, energy, and slowing turrets",
       "safeguard core territorial bases against diverse waves of attacking military units",
-      "optimize tower upgrade trees to eliminate armored creep forces before exit portals",
+      "optimize defensive turret networks to eliminate armored creep forces before exit portals",
     ],
     hazards: [
       "armored creep types and fast scout swarms exploit weaknesses in defensive coverage",
@@ -365,19 +367,19 @@ const GENRE_FACTS = {
     tactics: [
       "combining slowing towers with heavy area-of-effect artillery creates deadly choke points",
       "clustering primary damage units around switchbacks exposes enemies to multiple volleys",
-      "upgrading high-tier towers yields far superior damage per coin than spamming weak turrets",
+      "investing in high-tier towers yields far superior damage per coin than spamming weak turrets",
       "checking upcoming wave previews allows proactive adjustments to tower damage types",
     ],
   },
   clicker: {
     objectives: [
       "tap to harvest resources and scale up compounding automated production facilities",
-      "generate exponential wealth by unlocking tiered multipliers and industrial generators",
+      "generate exponential wealth by scaling tiered multipliers and industrial generators",
       "click rapidly to build capital reserves and automate revenue across corporate branches",
-      "manage upgrade investments wisely to trigger compounding passive revenue surges",
+      "manage capital investments wisely to trigger compounding passive revenue surges",
     ],
     hazards: [
-      "escalating upgrade costs slow down progress unless passive revenue is balanced wisely",
+      "escalating development costs slow down progress unless passive revenue is balanced wisely",
       "over-focusing on manual tap power becomes inefficient as automated tiers scale",
       "inflationary milestones stall output if prestige multipliers are delayed too long",
       "misallocating capital into low-multiplier nodes delays key tier breakthroughs",
@@ -386,7 +388,7 @@ const GENRE_FACTS = {
       "reinvesting early profits directly into passive generators yields compounding exponential growth",
       "timing prestige resets when bonus multiplier thresholds double baseline earnings speeds progression",
       "triggering temporary frenzy boosts when all passive facilities run at peak multiplies rewards",
-      "targeting global achievement milestones grants valuable percentage-based passive bonuses",
+      "targeting major milestone markers grants valuable percentage-based passive bonuses",
     ],
   },
   fighter: {
@@ -433,12 +435,12 @@ const GENRE_FACTS = {
     objectives: [
       "navigate dynamic arcade stages, overcome obstacle courses, and rack up high scores",
       "guide colorful characters through inventive trials filled with collectible bonuses",
-      "react swiftly to shifting stage hazards while completing sequential level targets",
+      "react swiftly to shifting stage hazards while completing sequential challenge targets",
       "tackle energetic arcade missions that test your hand-eye coordination and timing",
     ],
     hazards: [
       "speeding hazards, shifting platforms, and reactive obstacles demand steady concentration",
-      "accelerating level timers push players into hasty, uncalculated errors",
+      "accelerating stage timers push players into hasty, uncalculated errors",
       "erratic bouncing hazards require split-second evasive adjustments",
       "deceptive platform placements test your spatial depth perception",
     ],
@@ -451,83 +453,180 @@ const GENRE_FACTS = {
   },
 };
 
-function parseControlsFromHowTo(howToPlay, subgenre, category) {
+function parseControlsFromHowTo(howToPlay, subgenre, category, rawDesc = "") {
   const cleaned = cleanText(howToPlay);
   const rows = [];
 
-  const hasWASD = /\bwasd\b/i.test(cleaned);
-  const hasArrows = /\barrows?|arrow keys?\b/i.test(cleaned);
-  const hasSpace = /\bspace(bar)?\b/i.test(cleaned);
-  const hasMouse = /\bmouse|left click|click|cursor\b/i.test(cleaned);
-  const hasShift = /\bshift\b/i.test(cleaned);
+  const catLower = (category || "").toLowerCase();
+  const subLower = (subgenre || "").toLowerCase();
+  const isVehicle = ["car", "parking", "truck", "drift", "racing", "moto"].some(
+    (k) => subLower.includes(k) || catLower.includes(k)
+  );
+  const isShooter =
+    ["fps", "sniper", "shooter", "zombie"].some((k) => subLower.includes(k)) ||
+    catLower === "shooting";
+  const isPuzzle =
+    ["puzzle", "match3", "sort", "merge"].some((k) => subLower.includes(k)) ||
+    catLower === "puzzle";
+  const isRunner = subLower.includes("runner") || subLower.includes("obby");
+  const isSports =
+    ["soccer", "football", "basketball"].some((k) => subLower.includes(k)) ||
+    catLower === "sports";
+  const isClicker = subLower.includes("clicker") || subLower.includes("idle");
+  const isFighter =
+    subLower.includes("fighter") ||
+    subLower.includes("combat") ||
+    subLower.includes("stickman");
 
-  const isVehicle = ["car", "parking", "truck", "drift", "racing"].some((k) => subgenre.includes(k) || (category && category.toLowerCase().includes(k)));
+  // Check explicit real inputs from instructions if present
+  const dashPairs = [
+    ...cleaned.matchAll(
+      /([A-Z0-9\s/]+)\s*[-:]\s*([a-zA-Z\s,]+)(?=[A-Z0-9\s/]+[-:]|$)/g
+    ),
+  ];
+  if (dashPairs.length >= 2 && !cleaned.toLowerCase().includes("to play")) {
+    for (const match of dashPairs.slice(0, 5)) {
+      const k = match[1].trim();
+      const a = match[2].trim();
+      if (k.length > 0 && k.length < 25 && a.length > 2 && a.length < 60) {
+        if (!isShooter && /\b(aim|shoot|target|fire)\b/i.test(a)) continue;
+        rows.push({
+          key: k.toUpperCase(),
+          action: a.charAt(0).toUpperCase() + a.slice(1).toLowerCase(),
+        });
+      }
+    }
+  }
 
-  if (hasWASD && hasArrows) {
-    rows.push({
-      key: "WASD / Arrow Keys",
-      action: isVehicle ? "Steer, accelerate, and reverse vehicle" : "Move character and navigate surroundings",
-    });
-  } else if (hasWASD) {
-    rows.push({
-      key: "W A S D",
-      action: isVehicle ? "Drive forward, brake, and steer left/right" : "Navigate character across the stage",
-    });
-  } else if (hasArrows) {
-    rows.push({
-      key: "Arrow Keys",
-      action: isVehicle ? "Accelerate, brake, and steer" : "Control directional movement and position",
-    });
+  // If real controls text explicitly specified valid rows, ensure mobile row and return
+  if (rows.length >= 3) {
+    if (
+      !rows.some(
+        (r) =>
+          r.key.toLowerCase().includes("touch") ||
+          r.key.toLowerCase().includes("mobile")
+      )
+    ) {
+      rows.push({
+        key: "Touch / Mobile",
+        action: isPuzzle
+          ? "Tap and drag pieces directly on screen"
+          : "On-screen virtual controls",
+      });
+    }
+    return rows;
+  }
+
+  // Generate game-type specific controls (NEVER generic rows!)
+  if (isVehicle) {
+    if (subLower === "parking") {
+      rows.push({ key: "WASD / Arrow Keys", action: "Steer, accelerate, and reverse vehicle" });
+      rows.push({ key: "Spacebar", action: "Engage handbrake for sharp maneuvering and full stops" });
+      rows.push({ key: "C Key", action: "Toggle camera perspective to inspect parking clearances" });
+      rows.push({ key: "Touch / Mobile", action: "Virtual steering wheel and accelerator/brake pedals" });
+    } else if (subLower === "drift") {
+      rows.push({ key: "WASD / Arrow Keys", action: "Accelerate, steer, and counter-steer through corners" });
+      rows.push({ key: "Spacebar", action: "Initiate handbrake drift and break rear tire traction" });
+      rows.push({ key: "Shift", action: "Activate nitro boost down straightaways" });
+      rows.push({ key: "Touch / Mobile", action: "On-screen steering buttons and handbrake tap icon" });
+    } else if (subLower === "truck") {
+      rows.push({ key: "WASD / Arrow Keys", action: "Drive forward, steer trailer, and brake" });
+      rows.push({ key: "Spacebar", action: "Apply emergency air brakes for heavy cargo momentum" });
+      rows.push({ key: "C Key", action: "Switch between cabin and third-person trailer views" });
+      rows.push({ key: "Touch / Mobile", action: "Virtual steering wheel and throttle pedals" });
+    } else if (subLower === "moto") {
+      rows.push({ key: "W / S or Up / Down", action: "Accelerate forward and apply brakes" });
+      rows.push({ key: "A / D or Left / Right", action: "Tilt rider forward and backward to maintain balance" });
+      rows.push({ key: "Spacebar", action: "Bunny hop over low hurdles and track gaps" });
+      rows.push({ key: "Touch / Mobile", action: "On-screen lean arrows and throttle buttons" });
+    } else {
+      rows.push({ key: "WASD / Arrow Keys", action: "Accelerate, brake, and steer along the track" });
+      rows.push({ key: "Spacebar", action: "Engage handbrake to initiate corner slides" });
+      rows.push({ key: "Shift", action: "Trigger nitro boost on straightaways" });
+      rows.push({ key: "Touch / Mobile", action: "Virtual steering and pedal controls" });
+    }
+  } else if (isShooter) {
+    rows.push({ key: "WASD / Arrow Keys", action: "Navigate character and strafe between cover" });
+    rows.push({ key: "Mouse Move", action: "Aim reticle and survey the surroundings" });
+    rows.push({ key: "Left Click", action: "Fire primary weapon" });
+    rows.push({ key: "Right Click / Spacebar", action: "Aim down sights (ADS) or jump over obstacles" });
+    rows.push({ key: "R Key", action: "Reload weapon ammunition magazine" });
+    rows.push({ key: "Touch / Mobile", action: "Virtual movement analog stick and on-screen fire buttons" });
+  } else if (isRunner) {
+    rows.push({ key: "A / D or Left / Right", action: "Switch running lanes to dodge oncoming barriers" });
+    rows.push({ key: "W / Up Arrow / Spacebar", action: "Leap over hurdles and track pits" });
+    rows.push({ key: "S / Down Arrow", action: "Slide beneath low-hanging obstacles" });
+    rows.push({ key: "Touch / Mobile", action: "Swipe left/right to change lanes; swipe up to jump and down to slide" });
+  } else if (isPuzzle) {
+    rows.push({ key: "Left Click / Mouse Drag", action: "Select, drag, and position puzzle elements" });
+    rows.push({ key: "R Key", action: "Reset the current stage layout to try an alternative route" });
+    rows.push({ key: "U / Spacebar", action: "Undo previous move or rotate selected piece" });
+    rows.push({ key: "Touch / Mobile", action: "Tap and drag items directly on touch displays" });
+  } else if (isSports) {
+    rows.push({ key: "WASD / Arrow Keys", action: "Position player and set run trajectory" });
+    rows.push({ key: "Spacebar / Action Key", action: "Charge shot power meter or pass to teammates" });
+    rows.push({ key: "Shift", action: "Sprint for quick bursts of speed" });
+    rows.push({ key: "Touch / Mobile", action: "Swipe toward goal or hoop to control shot arc and velocity" });
+  } else if (isClicker) {
+    rows.push({ key: "Left Click", action: "Click repeatedly to generate base currency and resources" });
+    rows.push({ key: "Mouse Cursor", action: "Navigate production menus and buy automated generators" });
+    rows.push({ key: "Touch / Mobile", action: "Tap screen rapidly to gather items and activate boosts" });
+  } else if (isFighter) {
+    rows.push({ key: "A / D or Left / Right", action: "Advance, retreat, and maintain combat spacing" });
+    rows.push({ key: "W / Spacebar", action: "Jump or evade low sweeping strikes" });
+    rows.push({ key: "J / Primary Attack", action: "Execute light strikes and combo openers" });
+    rows.push({ key: "K / Heavy Attack", action: "Unleash heavy attacks or special abilities" });
+    rows.push({ key: "Touch / Mobile", action: "Virtual movement pad and on-screen strike buttons" });
   } else {
-    // Default desktop movement
-    rows.push({
-      key: "WASD / Arrow Keys",
-      action: isVehicle ? "Steer, accelerate, and brake" : "Navigate character and adjust position",
-    });
+    rows.push({ key: "A / D or Left / Right", action: "Move character horizontally across the stage" });
+    rows.push({ key: "Spacebar / Up Arrow", action: "Jump across gaps and scale elevated platforms" });
+    rows.push({ key: "Shift / Action Key", action: "Sprint or trigger character ability" });
+    rows.push({ key: "Touch / Mobile", action: "On-screen directional arrows and jump button" });
   }
-
-  if (hasSpace || isVehicle || subgenre === "fps" || subgenre === "sniper" || category === "Action") {
-    let spaceAction = "Execute primary jump or activate action";
-    if (subgenre === "drift" || subgenre === "parking" || category === "Racing") {
-      spaceAction = "Engage handbrake for sharp turns or immediate stop";
-    } else if (subgenre === "fps" || subgenre === "sniper" || category === "Shooting") {
-      spaceAction = "Jump over obstacles or deploy tactical defense";
-    }
-    rows.push({ key: "Spacebar", action: spaceAction });
-  }
-
-  if (hasMouse || rows.length < 3) {
-    let mouseAction = "Aim, target, and interact with on-screen elements";
-    if (subgenre === "puzzle" || subgenre === "match3" || subgenre === "sort") {
-      mouseAction = "Select, drag, and drop puzzle pieces";
-    } else if (subgenre === "fps" || subgenre === "sniper") {
-      mouseAction = "Aim reticle and fire weapon with left click";
-    } else if (subgenre === "clicker") {
-      mouseAction = "Click repeatedly to collect resources and buy upgrades";
-    }
-    rows.push({ key: "Mouse / Left Click", action: mouseAction });
-  }
-
-  if (hasShift) {
-    rows.push({ key: "Shift Key", action: "Sprint, trigger nitro boost, or accelerate rapidly" });
-  }
-
-  // Always provide calibrated touch / mobile controls
-  rows.push({
-    key: "Touch / Mobile",
-    action: subgenre === "puzzle" || subgenre === "match3" || subgenre === "sort"
-      ? "Tap and swipe screen to manipulate tiles or items"
-      : "Virtual analog stick and responsive tap buttons",
-  });
 
   return rows;
+}
+
+function extractRealDetails(rawDesc, rawHowTo, title, category, subgenre) {
+  const desc = cleanText(rawDesc || "");
+  const howTo = cleanText(rawHowTo || "");
+
+  // Extract clean sentences from publisher text that describe actual gameplay
+  const sentences = desc
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter((s) => {
+      if (s.length < 20 || s.length > 180) return false;
+      const lower = s.toLowerCase();
+      if (
+        lower.includes("click to play") ||
+        lower.includes("subscribe") ||
+        lower.includes("visit our") ||
+        lower.includes("html5 game") ||
+        lower.includes("free online") ||
+        lower.includes("unblocked") ||
+        lower.includes("poki") ||
+        lower.includes("crazygames") ||
+        checkBlocklist(s).length > 0
+      ) {
+        return false;
+      }
+      return true;
+    });
+
+  return {
+    hasDetails: sentences.length > 0,
+    sentences,
+    howTo,
+    desc,
+  };
 }
 
 function extractGameFacts(game, offset = 0) {
   const rawTitle = game.title || "";
   const title = decodeHtmlEntities(rawTitle).trim();
-  const rawDesc = cleanText(game.description || "");
-  const rawHowTo = cleanText(game.howToPlay || "");
+  const rawDesc = cleanText(game.raw_description || game.description || "");
+  const rawHowTo = cleanText(game.raw_how_to || game.howToPlay || "");
   const category = (game.category || "Arcade").trim();
   const subgenre = detectSubgenre(title, category, rawDesc);
 
@@ -535,22 +634,34 @@ function extractGameFacts(game, offset = 0) {
   const isThinFacts = rawDesc.length < 60 || wordCount < 10;
 
   // Retrieve ground truth facts with hashing for massive subgenre diversity
-  const genreData = GENRE_FACTS[subgenre] || GENRE_FACTS[category.toLowerCase()] || GENRE_FACTS.arcade;
-  const hash = Math.abs((title.charCodeAt(0) || 1) * 31 + title.length * 7 + (game.slug.charCodeAt(1) || 3) * 13 + offset * 5);
+  const genreData =
+    GENRE_FACTS[subgenre] ||
+    GENRE_FACTS[category.toLowerCase()] ||
+    GENRE_FACTS.arcade;
+  const hash = Math.abs(
+    (title.charCodeAt(0) || 1) * 31 +
+      title.length * 7 +
+      (game.slug.charCodeAt(1) || 3) * 13 +
+      offset * 5
+  );
 
   const genreKnowledge = {
     objective: Array.isArray(genreData.objectives)
       ? genreData.objectives[hash % genreData.objectives.length]
-      : (genreData.objective || "navigate interactive stages and complete core objectives"),
+      : genreData.objective ||
+        "navigate interactive stages and complete core objectives",
     hazard: Array.isArray(genreData.hazards)
       ? genreData.hazards[(hash + 1) % genreData.hazards.length]
-      : (genreData.hazard || "dynamic obstacles and course constraints test your reflexes"),
+      : genreData.hazard ||
+        "dynamic obstacles and course constraints test your reflexes",
     tactics: Array.isArray(genreData.tactics)
       ? genreData.tactics[(hash + 2) % genreData.tactics.length]
-      : (genreData.tactic || "careful observation and disciplined timing preserve your momentum"),
+      : genreData.tactic ||
+        "careful observation and disciplined timing preserve your momentum",
   };
 
-  const controls = parseControlsFromHowTo(rawHowTo, subgenre, category);
+  const controls = parseControlsFromHowTo(rawHowTo, subgenre, category, rawDesc);
+  const realDetails = extractRealDetails(rawDesc, rawHowTo, title, category, subgenre);
 
   return {
     hasSufficientInfo: true,
@@ -564,6 +675,7 @@ function extractGameFacts(game, offset = 0) {
     rawHowTo,
     genreKnowledge,
     controls,
+    realDetails,
   };
 }
 
@@ -573,5 +685,6 @@ module.exports = {
   detectSubgenre,
   GENRE_FACTS,
   parseControlsFromHowTo,
+  extractRealDetails,
   extractGameFacts,
 };

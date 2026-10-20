@@ -38,9 +38,19 @@ export default function GameWalkthrough({ game, getAds = "true" }) {
                 Official Guide
               </span>
             </h2>
-            <p className="text-xs text-slate-400 mt-0.5">
-              Watch step-by-step gameplay instructions, puzzle solutions, and strategy tips.
-            </p>
+            {game.category?.toLowerCase() === "puzzle" ? (
+              <p className="text-xs text-slate-400 mt-0.5">
+                Watch step-by-step puzzle solutions and walkthrough instructions for {game.title}.
+              </p>
+            ) : game.category?.toLowerCase() === "strategy" || game.subgenre === "tower-defense" ? (
+              <p className="text-xs text-slate-400 mt-0.5">
+                Watch tactical maneuvers and complete walkthrough preview for {game.title}.
+              </p>
+            ) : (
+              <p className="text-xs text-slate-400 mt-0.5">
+                Watch a gameplay preview of {game.title} and see the action in real time.
+              </p>
+            )}
           </div>
         </div>
 

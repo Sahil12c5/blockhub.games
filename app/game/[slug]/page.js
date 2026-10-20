@@ -270,6 +270,10 @@ export default async function GamePage({ params }) {
             <div className="text-sm text-slate-300 leading-relaxed space-y-3 whitespace-pre-line">
               {game.description}
             </div>
+            <p className="mt-4 pt-3 border-t border-slate-800/80 text-xs text-slate-400 flex items-center gap-2">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+              <span>{game.title} runs directly in modern desktop and mobile web browsers with zero installation or downloads required.</span>
+            </p>
           </section>
 
           {/* 5. Section "How to Play": explicit controls (keyboard, mouse, touch) */}

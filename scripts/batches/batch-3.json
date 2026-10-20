@@ -1,0 +1,602 @@
+[
+  {
+    "index": 51,
+    "slug": "scrap-arms-neo",
+    "title": "SCRAP ARMS NEO",
+    "category": "Shooting",
+    "subgenre": "fps",
+    "raw_description": "This is my very first game, and I sincerely hope you all enjoy playing it! SCRAP ARMS NEO is a pixel-art action roguelite. Every weapon you pick up joins your stack and attacks automatically - until it breaks and explodes. Swap weapons on the fly, choose an upgrade at every level-up, unleash Full Burst, and survive waves of scrap monsters and bosses. - 60 weapons, from crowbars to legendary guns - 6 playable characters, each with a unique skill - 9 stages with boss fights, plus a harder Back side - Bring your surviving weapons home and spend your score on the weapon gacha - Plays on PC and mobile (portrait and landscape)",
+    "raw_how_to": "Move WASD arrow keys left click or drag on touch Switch weapon mouse wheel or tap a weapon slot Drop weapon X right click or drag its slot upward Full Burst skill SPACE or the bottom-right button Pause P",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 52,
+    "slug": "shooter-zombie-survival",
+    "title": "Shooter Zombie Survival",
+    "category": "Shooting",
+    "subgenre": "zombie",
+    "raw_description": "Play Shooter: Zombie Survival online. Fight zombie waves for cash, buy and upgrade weapons, then unlock the final wave by completing your arsenal.",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 53,
+    "slug": "hollow-pass",
+    "title": "HOLLOW PASS",
+    "category": "Shooting",
+    "subgenre": "sniper",
+    "raw_description": "HOLLOW PASS is a desktop first-person aim trainer that fights like a live firefight: ninety seconds, one P-12 pistol, and up to four bots that move, take cover and shoot back. Clear them all and a new life starts instantly; die and you respawn with the pistol while your rifle stays where you dropped it. Rifles are picked up off the floor - the KR-76, the suppressed C-5 CARBINE, the scoped B-50 BOLT - or end a bot outright with the knife from behind. Pick 1-4 hostiles and one of four tiers, RECRUIT to NIGHTMARE, set your sensitivity, and click in - no buy menu, no grind. Every session ends in the AIM LOG (K/D, accuracy, head-hit rate, time to",
+    "raw_how_to": "Keyboard and mouse only mdash WASD move mouse aim LMB fire RMB scope suppressor R reload Shift walk C hold to crouch Space jump Space then C crouch-jump onto cover E pick up a floor gun 1 2 3 switch rifle pistol knife T quick knife I invert",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 54,
+    "slug": "fear-silent-facility",
+    "title": "F.E.A.R.: Silent Facility",
+    "category": "Shooting",
+    "subgenre": "fps",
+    "raw_description": "Enter F.E.A.R.: Silent Facility as response officer Ada and cut off a transmission that predicts deaths before they happen. This 2D tactical horror shooter spans twelve intervals and 23 scenes through a troubled research complex. Move between cover and catwalks, read enemy aim warnings, fire precise single shots, and time your seven-round reloads. Spend focus energy to slow dangerous crossings, clear hostile rooms, operate terminals and confront the source of the signal. Detailed artwork, recorded weapon effects, industrial ambience and an original suspenseful soundtrack build the atmosphere. Local checkpoints and keyboard, mouse or touch con",
+    "raw_how_to": "A D or arrows move Space or W jump J or left click single shot S or Down cover Q or Shift focus slow motion R reload E or Enter interact S Space drop through catwalks Escape or P pause M mute Mobile use the on-screen controls",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 55,
+    "slug": "bottle-breakshot",
+    "title": "Bottle Breakshot",
+    "category": "Shooting",
+    "subgenre": "shooting",
+    "raw_description": "Test your aim and shooting skills in Bottle Shooting, a fun and challenging arcade game! Knock down bottles using 10 different balls, each offering a unique look and feel. Aim carefully, adjust your shot, and smash as many bottles as possible. Enjoy challenging levels, satisfying bottle-breaking action, smooth controls, and exciting gameplay. Improve your accuracy, master every shot, and try to complete each level with the best score. Can you become the ultimate bottle shooting champion? Pick your favorite ball, take aim, and start smashing bottles!",
+    "raw_how_to": "Aim Control ndash Smoothly move and adjust the aim to target bottles accurately Shot Power ndash Control the shooting power to determine the strength and distance of each throw Ball Selection ndash Choose from 10 different balls each with a uniqu",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 56,
+    "slug": "pirate-dodge",
+    "title": "Pirate Dodge",
+    "category": "Shooting",
+    "subgenre": "shooting",
+    "raw_description": "The river is narrow, your boat is tiny, and every pirate on the water wants it gone. Slip between lanes to dodge rocks and kraken tentacles, and keep an eye on the enemy ships: some shoot, some cut across your path. Fire back when you can. Sunk pirates drop coins and pieces of an old map, and coins buy you a faster, meaner ship.",
+    "raw_how_to": "PC Left Right arrows or A D to change lanes Space to fire P to pause Mobile tap the left or right side of the screen or swipe to change lanes tap Fire to shoot",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 57,
+    "slug": "alien-wreckage",
+    "title": "Alien Wreckage",
+    "category": "Shooting",
+    "subgenre": "fps",
+    "raw_description": "A lonely explorer travels across the outer space His goal is to gather the most ancient artifacts in the universe He is ready to face any kind of alien menace in order to do it He will explore abandoned alien wreckage, looking for precious treasures Not a single emotion, no empathy for the creatures living on those wrecks He just wants one thing: become the most famous explorer of the universe Alien Wreckage is a fast-paced 2D multidirectional shooter with a retro pixel-art style, where exploration, combat, and risk-taking go hand in hand.",
+    "raw_how_to": "Controls availables in-game",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 58,
+    "slug": "slingshot-shooting-game",
+    "title": "Slingshot Shooting Game",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Get ready for an exciting slingshot shooting adventure! Slingshot Shooting Game is a fun and challenging casual game where your aim, timing, and shooting skills are put to the test. Pull back the slingshot, adjust your angle, release at the perfect moment, and hit your targets with precision. Take control of the slingshot and carefully plan every shot. Each level brings new challenges and requires you to improve your accuracy and strategy. Try to hit targets, destroy obstacles, and complete objectives using as few shots as possible.",
+    "raw_how_to": "To Play Game Use Mouse",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 59,
+    "slug": "thief-puzzle-long-hand-game",
+    "title": "Thief Puzzle Long Hand Game",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Thief Puzzle Long Hand Game is a fun and challenging puzzle game where you control a thief with an incredibly long and flexible hand. Your mission is to carefully reach, grab, and steal the target objects while avoiding traps, obstacles, guards, and other dangers.",
+    "raw_how_to": "- To click any button use mouse",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 60,
+    "slug": "screw-nuts-snap-puzzle",
+    "title": "Screw Nuts Snap Puzzle",
+    "category": "Puzzle",
+    "subgenre": "sort",
+    "raw_description": "Screw Nuts Snap Puzzle is a colorful puzzle game about matching screws and choosing the right order. Remove accessible screws from layered glass shapes and collect them in boxes of the same color. Each box holds three screws, while spare slots give you room to plan your next move. Clear the layers without filling the spare slots. Explore Unscrew mode and unlock challenges and cat-rescue puzzles as you progress. Use extra slots, box swaps, and a hammer to help with tricky boards. Play with a mouse or touch controls. Progress is saved in the current browser.",
+    "raw_how_to": "Desktop Left-click screws and buttons Mobile Tap screws and buttons Match three screws of the same color to fill a collection box In Unscrew mode select a screw then an empty hole to move it Use Pause to restart or return home",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 61,
+    "slug": "cannon-shooter-game",
+    "title": "Cannon Shooter Game",
+    "category": "Puzzle",
+    "subgenre": "fps",
+    "raw_description": "Get ready for an exciting and addictive cannon shooting adventure in Cannon Strike Fest: Smash Ball Puzzle Games! Aim your cannon, launch powerful balls, smash obstacles, and complete challenging puzzle levels filled with fun action and satisfying destruction. Test your aiming skills and strategy as you shoot balls toward targets and objects. Every level brings new challenges, obstacles, and exciting opportunities to create the perfect cannon strike. Choose the right angle, control your shots, and smash everything in your way!",
+    "raw_how_to": "- To click any button use mouse",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 62,
+    "slug": "halloween-dentist-for-kids-2",
+    "title": "Halloween Dentist For Kids 2",
+    "category": "Puzzle",
+    "subgenre": "zombie",
+    "raw_description": "Even monsters need a trip to the dentist! Welcome to a Halloween clinic packed with vampires, zombies, witches and other unusual patients. Choose from 18 colorful characters and give their teeth a much-needed clean. Match each dental tool to the right problem, scrub away stains, rinse with water and use suction to clear the mouth. Need a closer look? Grab the magnifying glass! With playful cartoon artwork and simple mouse or touch controls, Halloween Dentist for Kids makes every appointment a little spooky and a lot of fun.",
+    "raw_how_to": "Use your mouse or touchscreen to select and use the dental tools Match each tool to the tooth problem rinse with water and use suction to clear the mouth Select the magnifying glass to zoom in",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 63,
+    "slug": "sky-hop-3d",
+    "title": "SKY HOP 3D",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Sky Jump - The Ultimate Sky Adventure! Get ready for an exciting 3D platformer adventure! Jump across floating islands, collect shiny coins, dodge tricky obstacles, and reach the top. Explore beautiful sky worlds, test your jumping skills, and challenge yourself with every level. Can you conquer every platform and become the ultimate Sky Jump champion? Jump. Collect. Explore. Conquer the Sky!",
+    "raw_how_to": "use WSAD to paly in pc Mouse click or tap to play in mobile",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 64,
+    "slug": "tank-push",
+    "title": "Tank Push",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Tank Push is a strategic puzzle adventure where you guide a brave frog through a dangerous battlefield. Push tanks into the correct positions, unlock gates, avoid traps, and overcome enemy defenses to escape. Every level brings new obstacles that test your logic, planning, and problem-solving skills. Think carefully, use the environment wisely, and help the little frog survive the battlefield!",
+    "raw_how_to": "Tank Push",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 65,
+    "slug": "bubble-rush",
+    "title": "Bubble Rush",
+    "category": "Puzzle",
+    "subgenre": "match3",
+    "raw_description": "Aim from the center and pop colorful bubbles in Bubble Rush. Match bubbles of the same color, plan each shot, and clear the board. Enjoy quick puzzle rounds with simple mouse and touch controls. Use bonus options to refill or continue after an ordinary ad.",
+    "raw_how_to": "Move the mouse to aim and click to shoot On mobile aim and shoot with touch controls Match bubbles of the same color to pop them",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 66,
+    "slug": "cake-sort",
+    "title": "Cake Sort",
+    "category": "Puzzle",
+    "subgenre": "sort",
+    "raw_description": "Sort colorful cake slices to assemble whole desserts on a 4x4 grid. Enjoy relaxing clay-style 3D visuals, expanding flavors, tricky boards, and daily rewards!",
+    "raw_how_to": "- Desktop Left Click Click and Drag Move plates confirm actions drag a tray onto an empty plate - Mobile Tap Touch and Drag Move plates confirm actions drag a tray onto an empty plate",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 67,
+    "slug": "boo-brew",
+    "title": "Boo Brew",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Run a magical Halloween potion caf&eacute; in manga style! Match ingredients, stir enchanted brews and serve charming monster customers before their patience runs out. Master 12 midnight shifts, build combos, trigger rainbow fever and upgrade your witch kitchen. Easy tap-and-drag controls and an animated world of Halloween magic.",
+    "raw_how_to": "- Mouse Touch Tap or drag ingredients into the cauldron Tap STIR or swirl the pot Tap the matching customer or drag the finished potion to them - DUMP Reset the mixture - 1 ndash 6 Add ingredients - Space Enter Stir - 1 ndash 3 Serve when a",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 68,
+    "slug": "category-match-puzzle",
+    "title": "Category Match Puzzle",
+    "category": "Puzzle",
+    "subgenre": "sort",
+    "raw_description": "Category Match Puzzle is a vibrant, fun sorting game for all ages. Observe scrambled picture tiles, match items into correct categories-like toys, food, and weather-and clear the board to sharpen your brain and relax!",
+    "raw_how_to": "bull Identify Categories Check theme labels Toys Food etc bull Find amp Match Scan picture tiles and drag them to the right categories bull Clear the Board Group all items correctly to win the level bull Use Boosters Activate hints",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 69,
+    "slug": "mahjong-master-tile-sort-and-match",
+    "title": "mahjong master tile sort and match",
+    "category": "Puzzle",
+    "subgenre": "sort",
+    "raw_description": "Mahjong Master is a classic tile-matching puzzle game. Match identical mahjong tiles in pairs to clear the board across hundreds of challenging levels. Enjoy beautiful Japanese-style scenery, soothing music, and smart power-ups like hints, shuffles, and undo. Relax your mind and become the ultimate Mahjong Master!",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 70,
+    "slug": "draw-to-help",
+    "title": "Draw to Help",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "What would you draw to help a hungry dog or a cat caught in the rain? Draw to Help is a fun puzzle game where every picture tells a little story. Figure out whats missing, draw the solution with your finger, and watch the characters react! GAME FEATURES: &bull; Fun drawing puzzles with simple controls. &bull; Cute characters and funny situations. &bull; Charming hand-drawn illustrations. &bull; Creative challenges that make you think. &bull; Helpful hints when you get stuck. No drawing skills required. Just think, draw, and have fun!",
+    "raw_how_to": "Click or Tap and drag to draw",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 71,
+    "slug": "pixel-jam-bus-puzzle",
+    "title": "Pixel Jam Bus Puzzle",
+    "category": "Puzzle",
+    "subgenre": "parking",
+    "raw_description": "Pixel Jam Bus Puzzle is a colorful sorting puzzle where tiny passengers form playful pixel pictures. Send vehicles into limited parking spaces, match their colors to waiting passengers, and clear each picture. Plan your moves around vehicle capacity and the colors needed next. Explore 1,000 puzzle levels with progressive difficulty and occasional easier stages. Use Clear and Shuffle helpers, pickup speed upgrades, and optional ad rewards. Play with a mouse or touch controls in portrait or landscape. Progress is saved in the current browser.",
+    "raw_how_to": "Click or tap a vehicle to collect passengers of the same color Full vehicles leave and free a parking space Clear the pixel picture without filling every space Use the on-screen buttons for helpers and upgrades",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 72,
+    "slug": "ricopop",
+    "title": "RICOPOP",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "RICOPOP is a neon ricochet arcade puzzle. Aim a volley, bounce balls off walls and shatter every crystal in as few shots as possible. Build chain reactions, charge the Pulse and chase three stars across 50 levels in 10 chapters. Unlock six ball styles and switch between 14 languages.",
+    "raw_how_to": "Drag with the mouse or your finger to aim then release to fire Balls return automatically Use wall bounces to hit crystals from different angles Press Escape or the pause button to pause Use the speed button to accelerate a volley",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 73,
+    "slug": "try-again",
+    "title": "Try Again",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Try Again is a tricky physics platformer. Roll your ball through 70 levels that fight back: floors that vanish, traps that wait for the perfect moment, and levels that behave differently on every attempt. Every death teaches you something. Remember where the traps hide, find the safe timing, and reach the portal. Every 10 levels a new zone and a new boss level wait for you, and new ball colors unlock as you go. Die, learn, and try again.",
+    "raw_how_to": "Keyboard Arrow keys or A D to roll Up W or Space to jump Esc or P to pause Touch hold the left button to roll tap the right button to jump",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 74,
+    "slug": "pushplush",
+    "title": "PushPlush",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Meet the fluffiest puzzle challenge! Slide entire rows and columns to match three or more creatures of the same color. Create bombs, unlock trapped fluffies, and discover giant 2x2 characters. Complete 50 levels, solve picture puzzles, or relax in endless Zen mode. Enjoy colorful creatures, lively animations, and simple mouse or touch controls.",
+    "raw_how_to": "Drag a fluffy with your mouse or finger to slide its entire row or column Release to match 3 or more of the same color In Puzzle mode slide rows and columns to recreate the target picture",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 75,
+    "slug": "open-rings",
+    "title": "Open Rings",
+    "category": "Puzzle",
+    "subgenre": "puzzle",
+    "raw_description": "Open Rings is a relaxing ring puzzle about freeing gems. Every level is a tangle of faceted rings, sliding bars and little locks. Turn a ring, pull a bar and slip each piece off the board without letting anything collide. Features: - 384 levels, from gentle warm-ups to tricky tangles. - Rings, sliding bars, locks that open when other pieces are gone, and bombs that blast everything around them. - Collect diamonds to earn gems, then spend them on boosters: Hammer, Hint and Firework. - A free daily gift: 5 of every booster, every day. - Plays in 12 languages, on phone and desktop.",
+    "raw_how_to": "Drag around a ring to turn it Double-tap a ring to put it back Hold still for 1 second to put every ring back Tap Hammer Hint or Firework in the bottom bar to use a booster Use the and - buttons to zoom",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

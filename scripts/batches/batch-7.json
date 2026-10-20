@@ -1,0 +1,170 @@
+[
+  {
+    "index": 151,
+    "slug": "final-fight-harbor-justice",
+    "title": "Final Fight: Harbor Justice",
+    "category": "Arcade",
+    "subgenre": "fighter",
+    "raw_description": "Take back the waterfront in Final Fight: Harbor Justice, an arcade-style 2D brawler with two playable fighters. Choose powerful Nessa or quick-footed Ivo, explore the docks and city blocks, and face patrols with readable attack warnings. Punch, jump, block, grab and throw enemies, pick up pipes, and smash crates for supplies. Fight through the scrolling campaign, demolition bonus rounds and boss encounters while local checkpoints keep your progress safe. Detailed character artwork, recorded impacts, waterfront ambience and an original arcade groove bring the uprising to life. Play with keyboard and mouse or on-screen touch controls.",
+    "raw_how_to": "WASD or arrows move J or click punch K or Space jump L or E grab pick up or carry J throws a held object Shift block Q rally burst Escape or P pause Use the on-screen directional and action buttons on mobile",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 152,
+    "slug": "holecraftio",
+    "title": "Holecraft.io",
+    "category": "Arcade",
+    "subgenre": "arcade",
+    "raw_description": "Enter a chaotic block-eating adventure where size is everything! Control a hungry black hole, move around the map, and swallow blocks, objects, and structures to grow larger. Start small and consume everything you can find to increase your size and power. As you grow, bigger blocks become available and you can clear the environment faster. Compete against the clock, collect as much as possible, and become the biggest hole on the map. How large can you grow?",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 153,
+    "slug": "galaxy-pop",
+    "title": "Galaxy Pop",
+    "category": "Puzzle",
+    "subgenre": "fps",
+    "raw_description": "Galaxy Pop is a cosmic bubble shooter in outer space. Aim your blaster and shoot colorful bubbles, match three or more of the same color to pop them, and watch the bubbles below fall. Shots are limited, so aim carefully and bounce off the walls to reach tricky spots. Play 1000 levels, some with special goals: rescue the aliens, collect the UFOs or collect the eggs. Stuck? Use boosters: Color Pop clears one color, Hook drops a bubble and everything below it, Blast destroys the bubbles around your tap. Complete daily quests, spin the lucky wheel and open the hourly reward chest.",
+    "raw_how_to": "Touch and drag or hold the mouse button to aim release to shoot",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 154,
+    "slug": "ranch-empire",
+    "title": "Ranch Empire",
+    "category": "Multiplayer",
+    "subgenre": "sniper",
+    "raw_description": "Ranch Empire - build a 3D ranch tycoon empire right in your browser. No download. Start with a bare patch and a dog. Plant fields, raise chickens and cows, breed horses, hire farmhands, and grow into a sprawling ranch with vehicles, a dock, and a marina. Then the wilds push back. Wolves circle the pen. Bears raid the henhouse. Blizzards roll in. Survive - or pay the price. FEATURES &bull; Open-world 3D ranch with tractors, ATVs, horses, and boats &bull; Live multiplayer boat racing - invite friends, climb the leaderboard &bull; Prone-sniper hunting mini-game (deer, stag, fox, hare) &bull; Wolf + bear attacks, blizzards, droughts, plague crisis",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 155,
+    "slug": "tanks-of-liberty-online",
+    "title": "Tanks Of Liberty   online",
+    "category": "Multiplayer",
+    "subgenre": "fps",
+    "raw_description": "Step into the cockpit of a high-tech war machine in Tanks Of Liberty - Online, a tactical top-down shooter that blends nostalgic retro vibes with modern gameplay depth. Inspired by the classic Battle City, this game takes armored combat to a whole new level. No two missions are the same thanks to our procedural map generation system. Engage in fierce battles across dynamic environments, from urban ruins to dense forests. Protect your Eagle base at all costs-if it falls, the mission is over! Key Features: * Deep Progression: Use points earned in battle to buy permanent upgrades for your tank's speed, bullet velocity, and",
+    "raw_how_to": "Player 1 WASD Move Tank Space Fire Cannon Player 2 Local Co-op Arrow Keys Move Tank Enter Fire Cannon",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 156,
+    "slug": "space-defense-guard-heroes",
+    "title": "Space Defense: Guard Heroes",
+    "category": "Adventure",
+    "subgenre": "fps",
+    "raw_description": "Alien invasion has begun. The galaxy is under attack and only your strategy can stop the enemy forces. Welcome to Space Defense Guard Heroes, an exciting tower defense strategy game where you command powerful heroes and build a strong defense base in deep space. Assemble your army, upgrade defensive towers, and create tactical strategies to defeat endless waves of alien enemies. Lead your heroes into battle and protect the galaxy from total destruction. Game Features Strategic Tower Defense Gameplay Build and upgrade powerful defense towers to stop incoming enemies. Plan your strategy carefully and create the perfect defense line. Comman",
+    "raw_how_to": "Mouse click or tap to play",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "index": 157,
+    "slug": "crime-wars-san-andreas",
+    "title": "Crime Wars San Andreas",
+    "category": "Action",
+    "subgenre": "sniper",
+    "raw_description": "You will need to play as a hero who fights urban crime. There will be many different vehicles in the city to move around. You will be able to find and shoot different weapons, such as a pistol, a submachine gun, a shotgun, a sniper rifle and a bazooka. On the mini map of the city you can find first-aid kits and armor for your hero. You have to eliminate various criminal gangs. You can shoot them or hit them with a car, the choice is yours. The game has 6 levels. At the sixth level, you can fight the big boss. You can go through the levels calmly, slowly, or you can enter the store and speed up your passage with ready-made ammunition and trans",
+    "raw_how_to": "PC control WASD ndash character movement Mouse ndash camera control The left mouse button is an attack The right mouse button is aiming F ndash get in the car SPACE ndash jump Q ndash previous weapon E ndash next weapon TAB ndash pause sett",
+    "controls": [
+      {
+        "key": "Mouse / Touch",
+        "action": "Navigate, aim and select in-game actions"
+      },
+      {
+        "key": "W A S D / Arrow Keys",
+        "action": "Move character or steer vehicle"
+      },
+      {
+        "key": "Spacebar",
+        "action": "Jump, shoot, or activate secondary skill"
+      }
+    ],
+    "tags": []
+  }
+]

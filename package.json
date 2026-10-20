@@ -9,6 +9,10 @@
     "lint": "eslint",
     "batch:index-all": "node scripts/batch-index-all.js",
     "audit:index": "node scripts/audit-indexing.js",
+    "reports": "node scripts/generate-reports.js",
+    "reports:all": "node scripts/regenerate-all-reports.js",
+    "reports:sync": "node scripts/verify-reports-sync.js",
+    "release:daily": "node scripts/release-daily.js",
     "sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
