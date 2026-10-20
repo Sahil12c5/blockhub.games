@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T02:35:00.000Z",
-  "total_batches": 1,
-  "total_recommended_urls": 10,
+  "updated_at": "2026-10-20T21:07:58.473Z",
+  "total_batches": 2,
+  "total_recommended_urls": 18,
   "all_recommended_urls": [
     "https://blockhub.games/game/ragdoll-survivor",
     "https://blockhub.games/game/euro-truck-parking",
@@ -12,7 +12,15 @@
     "https://blockhub.games/game/skibidi-vent-jumper",
     "https://blockhub.games/game/storm-dash",
     "https://blockhub.games/game/stickman-archery-ragdoll",
-    "https://blockhub.games/game/counter-craft-sniper"
+    "https://blockhub.games/game/counter-craft-sniper",
+    "https://blockhub.games/game/destroy-the-ragdoll-sandbox",
+    "https://blockhub.games/game/car-parkour-challenge",
+    "https://blockhub.games/game/zombie-highway-car-game",
+    "https://blockhub.games/game/car-obby-3d",
+    "https://blockhub.games/game/obby-rocket-shopping-cart",
+    "https://blockhub.games/game/cartoon-football",
+    "https://blockhub.games/game/sniper-silent-ridge",
+    "https://blockhub.games/game/bus-mania-parking-puzzle"
   ],
   "batches": [
     {
@@ -150,7 +158,7 @@
           "in_sitemap": true,
           "indexability": "index, follow",
           "word_count": 196,
-          "rating": 5.0,
+          "rating": 5,
           "plays": "215.3K",
           "status": "Not submitted",
           "selection_reason": "Flawless 5.0 user rating across 215.3K plays; capitalizes on high volume 'stickman archery' and ragdoll physics search intent with 196 words."
@@ -169,6 +177,133 @@
           "plays": "140.1K",
           "status": "Not submitted",
           "selection_reason": "Block-aesthetic tactical sniper game with 140.1K plays, 4.8 rating, 204 words of precision ballistic prose, targeting voxel FPS search queries."
+        }
+      ]
+    },
+    {
+      "batch_number": 2,
+      "date_selected": "2026-10-21",
+      "urls_count": 8,
+      "items": [
+        {
+          "rank": 1,
+          "slug": "destroy-the-ragdoll-sandbox",
+          "title": "Destroy the Ragdoll Sandbox",
+          "category": "Action",
+          "canonical_url": "https://blockhub.games/game/destroy-the-ragdoll-sandbox",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 204,
+          "rating": 5,
+          "plays": "417.2K",
+          "status": "Not submitted",
+          "selection_reason": "Top-rated action game with 417.2K plays, flawless 5.0 rating, 204 words of physics destruction prose, targeting high-volume 'ragdoll sandbox' search queries."
+        },
+        {
+          "rank": 2,
+          "slug": "car-parkour-challenge",
+          "title": "Car Parkour Challenge",
+          "category": "Multiplayer",
+          "canonical_url": "https://blockhub.games/game/car-parkour-challenge",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 211,
+          "rating": 5,
+          "plays": "103.4K",
+          "status": "Not submitted",
+          "selection_reason": "High search intent 'car parkour' multiplayer stunt trial with 103.4K plays, perfect 5.0 rating, and 211 words of aerial ramp and checkpoint navigation strategy."
+        },
+        {
+          "rank": 3,
+          "slug": "zombie-highway-car-game",
+          "title": "Zombie Highway Car Game",
+          "category": "Adventure",
+          "canonical_url": "https://blockhub.games/game/zombie-highway-car-game",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 206,
+          "rating": 4.9,
+          "plays": "241.1K",
+          "status": "Not submitted",
+          "selection_reason": "Classic arcade survival concept targeting 'zombie highway' search volume with 241.1K plays, 4.9 rating, and 206 words of vehicular barricade defense."
+        },
+        {
+          "rank": 4,
+          "slug": "car-obby-3d",
+          "title": "Car Obby 3D",
+          "category": "Racing",
+          "canonical_url": "https://blockhub.games/game/car-obby-3d",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 215,
+          "rating": 5,
+          "plays": "81.6K",
+          "status": "Not submitted",
+          "selection_reason": "Surging 'car obby' niche search keyword with 5.0 rating, 215 words describing narrow sky beam navigation, and full keyboard/touch support."
+        },
+        {
+          "rank": 5,
+          "slug": "obby-rocket-shopping-cart",
+          "title": "Obby: Rocket Shopping Cart",
+          "category": "Arcade",
+          "canonical_url": "https://blockhub.games/game/obby-rocket-shopping-cart",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 213,
+          "rating": 4.7,
+          "plays": "288.6K",
+          "status": "Not submitted",
+          "selection_reason": "Highly engaging viral obby subgenre with 288.6K plays, 4.7 rating, 213 words explaining rocket booster physics and gap jumps."
+        },
+        {
+          "rank": 6,
+          "slug": "cartoon-football",
+          "title": "Cartoon Football",
+          "category": "Sports",
+          "canonical_url": "https://blockhub.games/game/cartoon-football",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 215,
+          "rating": 4.8,
+          "plays": "350.0K",
+          "status": "Not submitted",
+          "selection_reason": "Top-played arcade soccer title with 350.0K plays, 4.8 rating, 215 words of pass-and-shoot penalty kick tactics, and strong sports category authority."
+        },
+        {
+          "rank": 7,
+          "slug": "sniper-silent-ridge",
+          "title": "Sniper: Silent Ridge",
+          "category": "Shooting",
+          "canonical_url": "https://blockhub.games/game/sniper-silent-ridge",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 212,
+          "rating": 5,
+          "plays": "390.8K",
+          "status": "Not submitted",
+          "selection_reason": "Heavyweight tactical shooter with 390.8K plays, perfect 5.0 rating, 212 words of ballistic trajectory guidance, targeting 'sniper online' search intent."
+        },
+        {
+          "rank": 8,
+          "slug": "bus-mania-parking-puzzle",
+          "title": "Bus Mania: Parking Puzzle",
+          "category": "Puzzle",
+          "canonical_url": "https://blockhub.games/game/bus-mania-parking-puzzle",
+          "canonical_verified": true,
+          "in_sitemap": true,
+          "indexability": "index, follow",
+          "word_count": 212,
+          "rating": 4.9,
+          "plays": "315.5K",
+          "status": "Not submitted",
+          "selection_reason": "Trending 'bus parking jam' puzzle search query with 315.5K plays, 4.9 rating, 212 words of grid unblocking logic, and high mobile user retention."
         }
       ]
     }
