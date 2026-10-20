@@ -22,10 +22,9 @@
 /search-index.json
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
-# HTML pages: 1-hour browser cache, 1-day edge cache (s-maxage), with stale-while-revalidate
-# Plus HSTS (Strict-Transport-Security) to eliminate the 184ms HTTP-to-HTTPS redirect hop!
+# HTML pages: always revalidate so new deployments never serve stale CSS/JS references
 /*
-  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+  Cache-Control: public, max-age=0, must-revalidate
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN

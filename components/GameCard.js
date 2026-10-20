@@ -1,8 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Play, Sparkles } from "lucide-react";
+import { Play, Sparkles, Gamepad2 } from "lucide-react";
 
 export default function GameCard({ game }) {
+  const [imgError, setImgError] = useState(false);
+
   const categoryColors = {
     action: "bg-red-500/20 text-red-400 border-red-500/30",
     racing: "bg-amber-500/20 text-amber-400 border-amber-500/30",
@@ -26,16 +31,27 @@ export default function GameCard({ game }) {
     >
       {/* Thumbnail Aspect Ratio Container */}
       <div className="relative aspect-16-9 w-full overflow-hidden bg-slate-950">
-        <Image
-          src={game.thumbnail}
-          alt={`Play ${game.title} online`}
-          width={320}
-          height={180}
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="w-full h-full object-cover transition-transform duration-300 ease-out group-hover:scale-105"
-          loading="lazy"
-          decoding="async"
-        />
+        {!imgError ? (
+          <Image
+            src={game.thumbnail}
+            alt={`Play ${game.title} online`}
+            width={320}
+            height={180}
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+            className="w-full h-full object-cover transition-transform duration-300 ease-out group-hover:scale-105"
+            loading="lazy"
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-850 to-slate-950 p-3 text-center">
+            <Gamepad2 className="h-8 w-8 text-emerald-400 mb-1.5 opacity-75" />
+            <span className="text-[11px] font-bold text-slate-300 line-clamp-2 px-1 leading-tight">
+              {game.title}
+            </span>
+          </div>
+        )}
 
         {/* Dark Vignette Gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
