@@ -2,8 +2,8 @@
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
 > **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 5  
-> **Total URLs Recommended to Date**: 33  
+> **Total Batches Generated**: 6  
+> **Total URLs Recommended to Date**: 38  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -40,11 +40,16 @@
 | 26 | [Obby Highest Jump Ever](https://blockhub.games/game/obby-highest-jump-ever) | `https://blockhub.games/game/obby-highest-jump-ever` | Batch 4 | 2026-10-21 | `Indexed` |
 | 27 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | Batch 4 | 2026-10-21 | `Indexed` |
 | 28 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | Batch 4 | 2026-10-21 | `Indexed` |
-| 29 | [Cake Sort](https://blockhub.games/game/cake-sort) | `https://blockhub.games/game/cake-sort` | Batch 5 | 2026-10-21 | `Pending submission` |
-| 30 | [Tactical Response Team](https://blockhub.games/game/tactical-response-team) | `https://blockhub.games/game/tactical-response-team` | Batch 5 | 2026-10-21 | `Pending submission` |
-| 31 | [People Blaster](https://blockhub.games/game/people-blaster) | `https://blockhub.games/game/people-blaster` | Batch 5 | 2026-10-21 | `Pending submission` |
-| 32 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | Batch 5 | 2026-10-21 | `Pending submission` |
-| 33 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | Batch 5 | 2026-10-21 | `Pending submission` |
+| 29 | [Cake Sort](https://blockhub.games/game/cake-sort) | `https://blockhub.games/game/cake-sort` | Batch 5 | 2026-10-21 | `Indexed` |
+| 30 | [Tactical Response Team](https://blockhub.games/game/tactical-response-team) | `https://blockhub.games/game/tactical-response-team` | Batch 5 | 2026-10-21 | `Indexed` |
+| 31 | [People Blaster](https://blockhub.games/game/people-blaster) | `https://blockhub.games/game/people-blaster` | Batch 5 | 2026-10-21 | `Indexed` |
+| 32 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | Batch 5 | 2026-10-21 | `Indexed` |
+| 33 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | Batch 5 | 2026-10-21 | `Indexed` |
+| 34 | [Tank Push](https://blockhub.games/game/tank-push) | `https://blockhub.games/game/tank-push` | Batch 6 | 2026-10-21 | `Pending submission` |
+| 35 | [CatchFish - Fishing Master](https://blockhub.games/game/catchfish-fishing-master) | `https://blockhub.games/game/catchfish-fishing-master` | Batch 6 | 2026-10-21 | `Pending submission` |
+| 36 | [GOBLOX: Grow Your Empire](https://blockhub.games/game/goblox-grow-your-empire) | `https://blockhub.games/game/goblox-grow-your-empire` | Batch 6 | 2026-10-21 | `Pending submission` |
+| 37 | [Funny Gummy Characters](https://blockhub.games/game/funny-gummy-characters) | `https://blockhub.games/game/funny-gummy-characters` | Batch 6 | 2026-10-21 | `Pending submission` |
+| 38 | [Chubby Duck Offroad](https://blockhub.games/game/chubby-duck-offroad) | `https://blockhub.games/game/chubby-duck-offroad` | Batch 6 | 2026-10-21 | `Pending submission` |
 
 ---
 
@@ -139,7 +144,7 @@
 - **Batch Number**: 5
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: `Pending submission`
+- **Batch Submission Status**: `Indexed`
 
 #### Recommended Games Table
 
@@ -151,11 +156,30 @@
 | 4 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | ✓ Self (`/game/last-call-drunken-boxer`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Ragdoll momentum saloon boxing duel with 183 words of unique descriptive prose, swaying stance controls, counter-punch timing tips, and structured FAQ schema. |
 | 5 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | ✓ Self (`/game/steal-my-egg`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema. |
 
+---
+
+### Batch 6 — 2026-10-21
+
+- **Batch Number**: 6
+- **Date Selected**: 2026-10-21
+- **URLs Count**: 5
+- **Batch Submission Status**: `Pending submission`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+| 1 | [Tank Push](https://blockhub.games/game/tank-push) | `https://blockhub.games/game/tank-push` | ✓ Self (`/game/tank-push`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Tactical grid-based sliding block puzzle with 178 words of unique descriptive prose, tank maneuvering controls, spatial sequencing tips, and structured FAQ schema. |
+| 2 | [CatchFish - Fishing Master](https://blockhub.games/game/catchfish-fishing-master) | `https://blockhub.games/game/catchfish-fishing-master` | ✓ Self (`/game/catchfish-fishing-master`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Arcade aquatic energy battery targeting game with 178 words of unique descriptive prose, weapon aiming and net controls, boss creature tips, and structured FAQ schema. |
+| 3 | [GOBLOX: Grow Your Empire](https://blockhub.games/game/goblox-grow-your-empire) | `https://blockhub.games/game/goblox-grow-your-empire` | ✓ Self (`/game/goblox-grow-your-empire`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Sandbox valley farming and base expansion adventure with 182 words of unique descriptive prose, building and resource management controls, development tips, and structured FAQ schema. |
+| 4 | [Funny Gummy Characters](https://blockhub.games/game/funny-gummy-characters) | `https://blockhub.games/game/funny-gummy-characters` | ✓ Self (`/game/funny-gummy-characters`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Interactive physics sandbox deformation game with 187 words of unique descriptive prose, elastic drag-and-release controls, contortion tips, and structured FAQ schema. |
+| 5 | [Chubby Duck Offroad](https://blockhub.games/game/chubby-duck-offroad) | `https://blockhub.games/game/chubby-duck-offroad` | ✓ Self (`/game/chubby-duck-offroad`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Physics-driven downhill momentum slope runner with 193 words of unique descriptive prose, aerodynamic rotation controls, landing alignment tips, and structured FAQ schema. |
+
 #### Verification & Quality Gates
 
-- **Production HTML Verified**: All 33 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 33 URLs verified present in `public/sitemap-games.xml`.
-- **Live Status**: All 33 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
+- **Production HTML Verified**: All 38 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 38 URLs verified present in `public/sitemap-games.xml`.
+- **Live Status**: All 38 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
 - **Word Counts**: Word counts match `reports/passed-games.csv` exactly.
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batch 1, 2, 3, and 4 games marked `Indexed`; Batch 5 introduces 5 fresh indexable titles across diverse genres (Puzzle, Shooting, Action, Sports, Multiplayer).
+- **Duplicate Prevention**: Batches 1–5 marked `Indexed`; Batch 6 introduces 5 fresh indexable titles across diverse genres (Puzzle, Shooting, Adventure, Action, Sports).

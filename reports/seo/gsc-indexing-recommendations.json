@@ -2,8 +2,8 @@
   "metadata": {
     "site": "https://blockhub.games",
     "lastUpdated": "2026-10-21",
-    "totalBatches": 5,
-    "totalUrlsRecommended": 33,
+    "totalBatches": 6,
+    "totalUrlsRecommended": 38,
     "policy": "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   "cumulativeUrls": [
@@ -237,7 +237,7 @@
       "url": "https://blockhub.games/game/cake-sort",
       "batch": 5,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "tactical-response-team",
@@ -245,7 +245,7 @@
       "url": "https://blockhub.games/game/tactical-response-team",
       "batch": 5,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "people-blaster",
@@ -253,7 +253,7 @@
       "url": "https://blockhub.games/game/people-blaster",
       "batch": 5,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "last-call-drunken-boxer",
@@ -261,13 +261,53 @@
       "url": "https://blockhub.games/game/last-call-drunken-boxer",
       "batch": 5,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "steal-my-egg",
       "title": "Steal My Egg",
       "url": "https://blockhub.games/game/steal-my-egg",
       "batch": 5,
+      "dateRecommended": "2026-10-21",
+      "status": "Indexed"
+    },
+    {
+      "slug": "tank-push",
+      "title": "Tank Push",
+      "url": "https://blockhub.games/game/tank-push",
+      "batch": 6,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "catchfish-fishing-master",
+      "title": "CatchFish - Fishing Master",
+      "url": "https://blockhub.games/game/catchfish-fishing-master",
+      "batch": 6,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "goblox-grow-your-empire",
+      "title": "GOBLOX: Grow Your Empire",
+      "url": "https://blockhub.games/game/goblox-grow-your-empire",
+      "batch": 6,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "funny-gummy-characters",
+      "title": "Funny Gummy Characters",
+      "url": "https://blockhub.games/game/funny-gummy-characters",
+      "batch": 6,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "chubby-duck-offroad",
+      "title": "Chubby Duck Offroad",
+      "url": "https://blockhub.games/game/chubby-duck-offroad",
+      "batch": 6,
       "dateRecommended": "2026-10-21",
       "status": "Pending submission"
     }
@@ -617,7 +657,7 @@
       "batchNumber": 5,
       "dateSelected": "2026-10-21",
       "urlsCount": 5,
-      "batchSubmissionStatus": "Pending submission",
+      "batchSubmissionStatus": "Indexed",
       "recommendations": [
         {
           "rank": 1,
@@ -673,6 +713,69 @@
           "robotsMeta": "index, follow",
           "wordCount": 187,
           "selectionReason": "Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema."
+        }
+      ]
+    },
+    {
+      "batchNumber": 6,
+      "dateSelected": "2026-10-21",
+      "urlsCount": 5,
+      "batchSubmissionStatus": "Pending submission",
+      "recommendations": [
+        {
+          "rank": 1,
+          "slug": "tank-push",
+          "title": "Tank Push",
+          "url": "https://blockhub.games/game/tank-push",
+          "canonical": "https://blockhub.games/game/tank-push",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 178,
+          "selectionReason": "Tactical grid-based sliding block puzzle with 178 words of unique descriptive prose, tank maneuvering controls, spatial sequencing tips, and structured FAQ schema."
+        },
+        {
+          "rank": 2,
+          "slug": "catchfish-fishing-master",
+          "title": "CatchFish - Fishing Master",
+          "url": "https://blockhub.games/game/catchfish-fishing-master",
+          "canonical": "https://blockhub.games/game/catchfish-fishing-master",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 178,
+          "selectionReason": "Arcade aquatic energy battery targeting game with 178 words of unique descriptive prose, weapon aiming and net controls, boss creature tips, and structured FAQ schema."
+        },
+        {
+          "rank": 3,
+          "slug": "goblox-grow-your-empire",
+          "title": "GOBLOX: Grow Your Empire",
+          "url": "https://blockhub.games/game/goblox-grow-your-empire",
+          "canonical": "https://blockhub.games/game/goblox-grow-your-empire",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 182,
+          "selectionReason": "Sandbox valley farming and base expansion adventure with 182 words of unique descriptive prose, building and resource management controls, development tips, and structured FAQ schema."
+        },
+        {
+          "rank": 4,
+          "slug": "funny-gummy-characters",
+          "title": "Funny Gummy Characters",
+          "url": "https://blockhub.games/game/funny-gummy-characters",
+          "canonical": "https://blockhub.games/game/funny-gummy-characters",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 187,
+          "selectionReason": "Interactive physics sandbox deformation game with 187 words of unique descriptive prose, elastic drag-and-release controls, contortion tips, and structured FAQ schema."
+        },
+        {
+          "rank": 5,
+          "slug": "chubby-duck-offroad",
+          "title": "Chubby Duck Offroad",
+          "url": "https://blockhub.games/game/chubby-duck-offroad",
+          "canonical": "https://blockhub.games/game/chubby-duck-offroad",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 193,
+          "selectionReason": "Physics-driven downhill momentum slope runner with 193 words of unique descriptive prose, aerodynamic rotation controls, landing alignment tips, and structured FAQ schema."
         }
       ]
     }
