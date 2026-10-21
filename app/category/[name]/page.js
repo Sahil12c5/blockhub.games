@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
   }
 
   const title = `Free ${category.name} Games Online`;
-  const description = `Play the best free ${category.name} games unblocked in your browser. Fast 60 FPS HTML5 web games with zero downloads.`;
+  const description = `Play the best free ${category.name} games unblocked in your browser. Fast HTML5 web games with zero downloads.`;
 
   return {
     title,

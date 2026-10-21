@@ -39,6 +39,46 @@ export function generateStaticParams() {
   }));
 }
 
+function formatGameTitle(game) {
+  const cleanName = (game.title || "").trim();
+  let base = (game.meta_title || "").trim();
+
+  // Strip any existing brand suffixes
+  base = base
+    .replace(/\s*[|–-]\s*BlockHub(\.games)?\s*$/i, "")
+    .replace(/\s*[|–-]\s*BlockHub\s*$/i, "")
+    .trim();
+
+  if (!base) {
+    base = `${cleanName} - Play Free Online`;
+  }
+
+  const brand = " | BlockHub.games";
+  const maxLen = 60;
+
+  if (base.length + brand.length <= maxLen) {
+    return `${base}${brand}`;
+  }
+
+  // Shorten cleanly at word boundary to fit brand
+  const targetBaseLen = maxLen - brand.length; // 43 chars
+  let shortened = base.slice(0, targetBaseLen);
+  if (shortened.includes(" ")) {
+    shortened = shortened.slice(0, shortened.lastIndexOf(" ")).trim();
+  }
+  shortened = shortened.replace(/[–\-:,|]+$/, "").trim();
+
+  if (!shortened) {
+    shortened = cleanName.slice(0, targetBaseLen);
+    if (shortened.includes(" ")) {
+      shortened = shortened.slice(0, shortened.lastIndexOf(" ")).trim();
+    }
+    shortened = shortened.replace(/[–\-:,|]+$/, "").trim();
+  }
+
+  return `${shortened}${brand}`;
+}
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const game = getGameBySlug(slug);
@@ -49,8 +89,7 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const baseTitle = game.meta_title || `${game.title} - Play Free Online`;
-  const finalTitle = baseTitle.includes("BlockHub.games") ? baseTitle : `${baseTitle} | BlockHub.games`;
+  const finalTitle = formatGameTitle(game);
   const description =
     game.meta_description ||
     `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
@@ -267,8 +306,14 @@ export default async function GamePage({ params }) {
               <Gamepad2 className="h-5 w-5 text-emerald-400" />
               About {game.title}
             </h2>
-            <div className="text-sm text-slate-300 leading-relaxed space-y-3 whitespace-pre-line">
-              {game.description}
+            <div className="text-sm text-slate-300 leading-relaxed space-y-3">
+              {game.description
+                ? game.description
+                    .split(/\n\s*\n/)
+                    .map((p) => p.trim())
+                    .filter(Boolean)
+                    .map((para, idx) => <p key={idx}>{para}</p>)
+                : null}
             </div>
             <p className="mt-4 pt-3 border-t border-slate-800/80 text-xs text-slate-400 flex items-center gap-2">
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
@@ -410,9 +455,7 @@ export default async function GamePage({ params }) {
             </div>
             <div className="flex justify-between items-center py-1.5 border-b border-slate-800 text-xs">
               <span className="text-slate-400">Status</span>
-              <span className="font-bold text-emerald-400">
-                {game.content_ready ? "Verified & Ready" : "Catalog Release"}
-              </span>
+              <span className="font-bold text-emerald-400">Available Online</span>
             </div>
             <div className="flex justify-between items-center py-1.5 border-b border-slate-800 text-xs">
               <span className="text-slate-400">Distributor</span>

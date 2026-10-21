@@ -46,7 +46,7 @@ export default function HeroFeatured({ featuredGames = [] }) {
                 🎮 {current.category}
               </span>
               <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md bg-slate-800 text-slate-300 font-medium">
-                ⚡ 60 FPS WebGL
+                ⚡ Instant WebGL
               </span>
               <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-md bg-slate-800 text-slate-300 font-medium">
                 🚀 Instant Play

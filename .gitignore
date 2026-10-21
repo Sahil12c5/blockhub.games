@@ -43,3 +43,14 @@ next-env.d.ts
 # scratch & checkpoints
 scratch/
 .batch-index-checkpoint.json
+
+# agent & ide tooling
+.agent/
+.agents/
+.gemini/
+.gsd/
+adapters/
+GSD-STYLE.md
+PROJECT_RULES.md
+VERSION
+model_capabilities.yaml

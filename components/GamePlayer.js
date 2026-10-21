@@ -187,7 +187,7 @@ export default function GamePlayer({ game }) {
 
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 mb-2 backdrop-blur-md">
                 <Sparkles className="h-3 w-3" />
-                Ready to Play • 60 FPS HTML5
+                Ready to Play • Instant Browser Play
               </span>
 
               <h3 className="text-xl sm:text-2xl font-black text-white max-w-lg mb-2 drop-shadow-md">
@@ -278,7 +278,7 @@ export default function GamePlayer({ game }) {
               {game.title}
             </span>
             <span className="text-[10px] text-slate-400 hidden md:inline shrink-0">
-              • 1080p WebGL
+              • Instant WebGL
             </span>
           </div>
 

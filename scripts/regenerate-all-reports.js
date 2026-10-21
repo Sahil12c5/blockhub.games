@@ -3,6 +3,7 @@ const path = require('path');
 
 const TOP_JSON = path.join(__dirname, '../data/top-games-content.json');
 const topContent = JSON.parse(fs.readFileSync(TOP_JSON, 'utf8'));
+const { rawGames } = require('../data/games.js');
 
 const {
   validateQualityGates,
@@ -257,15 +258,30 @@ for (const slug of allTopSlugs) {
   }
 }
 
+let noContentCount = 0;
+const seenRawSlugs = new Set();
+for (const g of rawGames) {
+  if (seenRawSlugs.has(g.slug)) continue;
+  seenRawSlugs.add(g.slug);
+  if (!topContent[g.slug]) {
+    noContentCount++;
+    notPassedCsvRows.push(`${escapeCsv(g.slug)},${escapeCsv(g.title)},${escapeCsv(g.category)},"NONE","NONE","NO_CONTENT: game has no enriched content"`);
+    if (notPassedMdRows.length < 35) {
+      notPassedMdRows.push(`| [${g.title}](https://blockhub.games/game/${g.slug}) | \`${g.slug}\` | ${g.category} | \`NONE\` | NONE | NO_CONTENT: game has no enriched content |`);
+    }
+  }
+}
+
 fs.writeFileSync(path.join(REPORTS_DIR, 'not-passed-games.csv'), notPassedCsvHeader + notPassedCsvRows.join('\n') + '\n', 'utf8');
 
 const notPassedMdContent = `# Non-Passed & Pending Games Report
 
 > **Last updated**: ${REPORT_TIMESTAMP}
 > **Total Games Pending or Non-Indexable**: **${notPassedCsvRows.length}**
-> **V1 Combinatorial Games Awaiting Regeneration**: **${needsRegenCount}**
+> **Games Awaiting Initial Content Enrichment (NO_CONTENT)**: **${noContentCount}**
 > **Near-Duplicate Non-Canonicals (noindex)**: **${nearDupeNoindexCount}**
 > **Blocked Trademarks**: **${blockedTmCount}**
+> **Total Catalog Games Accounted For**: **${allTopSlugs.length + noContentCount}** (830 in store + 770 awaiting enrichment = 1,600 total catalog)
 
 ## Games Pending Regeneration & Review
 

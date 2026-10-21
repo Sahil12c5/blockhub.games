@@ -143,9 +143,9 @@ export default function HomePage() {
               <Cpu className="h-4 w-4" />
             </div>
             <div>
-              <h3 className="text-xs font-bold text-white mb-0.5">Optimized 60 FPS WebGL</h3>
+              <h3 className="text-xs font-bold text-white mb-0.5">Optimized WebGL Gaming</h3>
               <p className="text-[11px] text-slate-400 leading-normal">
-                Engineered for silky-smooth framerates across laptops, Macs, PCs, and school Chromebooks.
+                Engineered for responsive performance across laptops, Macs, PCs, and school Chromebooks.
               </p>
             </div>
           </div>

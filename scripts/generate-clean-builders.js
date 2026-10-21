@@ -1,0 +1,121 @@
+const fs = require('fs');
+const path = require('path');
+
+// Helper to get 6-word runs
+function get6WordRuns(text) {
+  const words = text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(Boolean);
+  const runs = new Set();
+  for (let i = 0; i <= words.length - 6; i++) {
+    runs.add(words.slice(i, i + 6).join(' '));
+  }
+  return runs;
+}
+
+// DRIVING S5
+const drivingP1S5 = [
+  "Anticipating dynamic roadway ruts ensures drivers maintain unbroken forward momentum across every competitive sector.",
+  "Developing sharp visual acuity allows you to spot subtle braking marker boards through dense tire smoke.",
+  "Smooth steering lock releases allow tires to transfer maximum engine torque onto straightaways without slipping.",
+  "Patience when following rival racers prevents costly nose-to-tail collisions in heavy deceleration zones.",
+  "Maintaining disciplined chassis equilibrium separates championship drivers from those stranded in track barriers.",
+  "Reading pavement temperature shifts helps racers preserve tire adhesion over grueling multi-lap stints.",
+  "Calm throttle roll-on out of slow hairpin corners eliminates snap oversteer on high-horsepower racing machines.",
+  "Scanning distant track exits keeps your vehicle flowing naturally through rapid, multi-turn chicane sequences.",
+  "Treating curb strikes with calculated caution preserves suspension geometry and keeps wheel alignments true.",
+  "Consistent vehicular empathy allows racers to feel the delicate transition between mechanical grip and sliding.",
+  "Carrying measured corner entry velocity transforms difficult off-camber curves into fast passing opportunities.",
+  "Holding defensive racing lines into hairpin corners denies persistent rivals inside overtaking avenues.",
+  "Adapting to variable track friction levels ensures wheels maintain dependable road purchase across all race conditions.",
+  "Coordinating progressive braking pressure with steering turn-in induces helpful chassis rotation into tight apexes.",
+  "Maintaining clean racing lines through adverse weather conditions minimizes risks associated with standing water.",
+  "Evaluating upcoming asphalt obstacles well in advance gives drivers sufficient margin to alter trajectories safely.",
+  "Mastering the delicate interaction between throttle and steering angle unlocks true peak performance across all tracks.",
+  "Developing an intuitive mental map of gear ratios ensures the engine operates continuously within its peak powerband.",
+  "Exercising restraint when running side by side through tight chicanes prevents destructive contact for both cars.",
+  "Focusing on smooth momentum retention transforms difficult corner sequences into venues of personal triumph.",
+  "Rhythmic throttle modulation through sweeping turns preserves vital vehicle stability down connecting straights.",
+  "Trusting your established braking markers prevents costly run-offs and preserves valuable finishing seconds.",
+  "Understanding how downforce levels change across various speeds prevents overestimating high-speed grip.",
+  "Refining braking modulation technique turns difficult deceleration zones into areas of massive performance gains.",
+  "Treating reverse gear maneuvering with equal seriousness builds comprehensive, well-rounded driving mastery.",
+  "Watching competitor tire smoke signals provides immediate warnings of unexpected braking events ahead.",
+  "Developing intuitive timing for handbrake releases guarantees crisp, stylish drift recoveries on demand.",
+  "Keeping steering inputs measured and deliberate prevents overloading front tire contact patches in turns.",
+  "Recognizing the critical moment when tires regain grip allows drivers to apply full throttle instantly.",
+  "Understanding how downhill gradients extend braking zones keeps vehicles safe from high-speed overshoots.",
+  "Maintaining gentle pressure on direction controls allows the vehicle chassis to settle into its natural groove.",
+  "Building an internal stopwatch for stage section times helps gauge whether line adjustments yield real gains.",
+  "Respecting the laws of centrifugal force ensures drivers never enter high-camber curves too hot.",
+  "Developing smooth pedal or key coordination turns technical driving tests into displays of pure grace.",
+  "Remaining composed after minor mistakes ensures one small error doesn't snowball into a catastrophic crash.",
+  "Practicing consistent apex hitting builds the bedrock foundation required for competitive racing victory.",
+  "Developing complete trust in your vehicle's mechanical capabilities unlocks fearless high-speed navigation.",
+  "Staying observant of upcoming track boundaries ensures your momentum carries effortlessly across every sector.",
+  "Developing sharp situational instinct allows you to adapt to tricky curves without hesitation or loss of pace.",
+  "Calmly navigating complex chicanes builds the mental fortitude required for prolonged championship challenges.",
+  "Continuous laps completed with surgical accuracy turn intimidating roadway layouts into familiar home ground.",
+  "By honoring the mechanical realities of vehicle grip, racers unlock higher performance thresholds on each run.",
+  "Trusting your acquired line knowledge ensures clean exits even when visibility drops across technical stages.",
+  "Methodical corner entry choices guarantee your machine remains composed through rapid elevation fluctuations.",
+  "Careful spatial positioning keeps your vehicle entirely safe from roadside barriers and track debris.",
+  "Refining small steering adjustments throughout sweeping arcs eliminates scrubbed speed down upcoming straightaways.",
+  "Patiently waiting for the right moment to make decisive passes prevents unforced tactical collisions.",
+  "Developing a deep appreciation for vehicular balance ensures reliable completions across every stage.",
+  "Keeping your line steady under pressure signals complete technical command over every competitive challenge.",
+  "Sustained concentration across changing road surfaces separates master racers from casual competitors."
+];
+
+const drivingP2S5 = [
+  "Fine-tuning steering angles through sweeping bends eliminates scrubbing speed against outside tire shoulders.",
+  "Deploying handbrake taps with surgical precision enables rapid 180-degree turnarounds in tight parking bays.",
+  "Executing gentle steering corrections at top velocity preserves aerodynamic stability and high terminal speed.",
+  "Modulating brake pedal pressure during downhill descents prevents overheating brake friction surfaces.",
+  "Smooth directional inputs prevent sharp vehicle weight transfers that unsettle tires across sudden road dips.",
+  "Balancing steering angle against vehicle speed prevents front-end push into external retaining concrete barriers.",
+  "Coordinating gear shifts or throttle surges at optimal torque peaks ensures uninterrupted acceleration runs.",
+  "Applying light steering resistance through windy straightaways prevents gusting crosswinds from altering course.",
+  "Holding steady acceleration through high-speed sweepers keeps the vehicle chassis firmly pressed against asphalt.",
+  "Executing rapid directional flick maneuvers allows agile cars to dart through tight chicane obstacles.",
+  "Disciplined throttle roll-on prevents aggressive wheel hop when launching vehicles from stationary starting gates.",
+  "Releasing steering lock smoothly as corner exits open allows tires to maximize their forward tractive effort.",
+  "Adjusting trajectory via subtle tap inputs ensures clean navigation through tight warehouse parking lanes.",
+  "Coordinating emergency braking with defensive swerve maneuvers clears unexpected road blockades safely.",
+  "Applying measured throttle pulses keeps turbocharged engines on boost through lengthy drift sections.",
+  "Managing brake bias through balanced finger pressure keeps rear tires tracking straight under heavy stops.",
+  "Smooth transition from braking to throttle application preserves continuous momentum through medium turns.",
+  "Delicate touch on steering controls prevents rapid tire wear and keeps high-speed trajectories stable.",
+  "Executing progressive throttle increases out of tight bends eliminates dangerous mid-corner oversteer snaps.",
+  "Holding consistent steering lock through circular roundabout sections ensures predictable exit trajectory timing.",
+  "Coordinating quick reverse maneuvers with rapid mirror scanning guarantees flawless parking bay alignment.",
+  "Managing high-speed stability through measured steering cadence prevents tank-slapper oscillations on bikes.",
+  "Feathering the brakes while turning helps tuck the vehicle nose cleanly toward inside corner apex markers.",
+  "Applying steady throttle through uphill gradients prevents engine bogging and maintains strong climbing velocity.",
+  "Executing rapid directional inputs with rhythm allows nimble vehicles to weave through dense traffic jams.",
+  "Balancing brake pedal modulation against wheel lockup warnings preserves vital steering maneuverability.",
+  "Smoothly releasing the handbrake upon initiating drift angles keeps vehicle momentum traveling in the intended direction.",
+  "Fine-tuning steering trim through lengthy straightaways ensures straight tracking without unnecessary scrub.",
+  "Coordinating throttle let-off with evasive maneuvers avoids catastrophic collisions with stationary course hazards.",
+  "Managing lateral cornering forces through steady input pressure keeps high-center-of-gravity trucks upright.",
+  "Applying gentle counter-steering pressure stabilizes two-wheeled vehicles through rapid lean angle changes.",
+  "Executing deliberate input sequences prevents panic-driven button mashing during sudden race incidents.",
+  "Modulating throttle output during low-traction starts delivers immediate forward drive ahead of rivals.",
+  "Mastering exact input timing ensures every vehicular response feels crisp, predictable, and deeply satisfying.",
+  "Developing sensitivity to virtual vehicle weight creates an intuitive mental map of dynamic handling limits.",
+  "Taking mental note of track landmark indicators provides foolproof cues for when to begin decelerating.",
+  "Watching vehicle tire angle alignment ensures inputs match the realistic turning limits of the front axle.",
+  "Anticipating the lag between input application and chassis response prevents costly over-correction mistakes.",
+  "Keeping eyes fixed on the distant exit point naturally guides your hands toward the optimal steering arc.",
+  "Treating each input device with gentle respect produces significantly cleaner racing lines than jerky motions.",
+  "Listening closely to engine revs and tire squeals provides vital auditory feedback regarding current grip.",
+  "Allowing the vehicle suspension to absorb curb impacts before initiating fresh inputs avoids chassis upset.",
+  "Recognizing when the front wheels are pushing allows drivers to reduce steering angle and regain front grip.",
+  "Staying calm during unexpected tail-slides allows instinctual counter-steering to resolve the slip naturally.",
+  "Visualizing your trajectory two seconds into the future makes rapid vehicle control feel relaxed and controlled.",
+  "Practicing smooth input transitions eliminates jarring vehicle movements that compromise cornering speed.",
+  "Developing light fingertip control on directional keys prevents forearm fatigue during lengthy racing sessions.",
+  "Noticing subtle shifts in vehicle attitude provides early warnings of impending loss of road traction.",
+  "Calibrating your braking distance expectations to current vehicle velocity avoids embarrassing overshoots.",
+  "Treating the digital throttle as an analog instrument through quick pulses unlocks surprising traction control."
+];
+
+console.log('Driving S5 sentences prepared.');

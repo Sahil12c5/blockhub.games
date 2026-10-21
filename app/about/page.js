@@ -38,7 +38,7 @@ export default function AboutPage() {
             BlockHub.games was established by an independent collective of passionate gamers and web engineers. We observed that finding fast-loading, virus-free, and high-framerate web games without intrusive paywalls or redirects was unnecessarily difficult.
           </p>
           <p>
-            We created BlockHub to solve that problem: a clean, lightning-fast game portal featuring the finest 3D car racing, tactical shooters, puzzle challenges, sports showdowns, and multiplayer arenas—optimized for 60 FPS in modern browsers and completely free to play on PC, Mac, and Chromebooks.
+            We created BlockHub to solve that problem: a clean, lightning-fast game portal featuring the finest 3D car racing, tactical shooters, puzzle challenges, sports showdowns, and multiplayer arenas—optimized for smooth performance in modern browsers and completely free to play on PC, Mac, and Chromebooks.
           </p>
         </section>
 
@@ -81,7 +81,7 @@ export default function AboutPage() {
           </p>
           <ul className="list-disc pl-5 space-y-2 text-slate-300">
             <li>
-              <strong>Smooth 60 FPS:</strong> Verified performance on standard laptops and educational Chromebooks.
+              <strong>Smooth Performance:</strong> Verified compatibility on standard laptops and educational Chromebooks.
             </li>
             <li>
               <strong>Keyboard Precision:</strong> Responsive WASD controls and accurate first-person mouse look aiming.

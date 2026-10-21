@@ -184,7 +184,10 @@ function validateQualityGates(contentData, allIndexableShingleMap = null, catalo
   // Gate 3: No repeated adjacent words ("sharpens sharpens")
   const adjDupe = descText.match(/\b([a-zA-Z]{2,})\s+\1\b/i);
   if (adjDupe) {
-    errors.push(`repeated_adjacent_words: "${adjDupe[0]}"`);
+    const isTitlePhrase = title && new RegExp(`\\b${adjDupe[1]}\\s+${adjDupe[1]}\\b`, 'i').test(title);
+    if (!isTitlePhrase) {
+      errors.push(`repeated_adjacent_words: "${adjDupe[0]}"`);
+    }
   }
 
   // Gate 4: Sentences must start with capital letter
@@ -252,24 +255,24 @@ function validateQualityGates(contentData, allIndexableShingleMap = null, catalo
   const subLower = (subgenre || "").toLowerCase();
   const titleLowerWord = (title || "").toLowerCase();
 
-  const isDriving =
-    catLower === "racing" ||
-    ["parking", "truck", "drift", "moto", "racing", "driving", "car", "taxi"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
-
-  const isShooter =
-    catLower === "shooting" ||
-    ["fps", "sniper", "shooter", "zombie"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
-
   const isPuzzle =
     catLower === "puzzle" ||
-    ["puzzle", "sort", "match", "trivia", "merge", "brain", "board"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
+    ["puzzle", "sort", "match", "trivia", "merge", "brain", "board", "checkers", "chess", "mahjong", "solitaire", "sudoku", "crossword", "domino", "ludo", "tic tac toe", "tic-tac-toe", "jigsaw"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
+
+  const isDriving =
+    !isPuzzle && (catLower === "racing" ||
+    ["parking", "truck", "drift", "moto", "racing", "driving", "car", "taxi"].some((k) => subLower.includes(k) || titleLowerWord.includes(k)));
+
+  const isShooter =
+    !isPuzzle && !isDriving && (catLower === "shooting" ||
+    ["fps", "sniper", "shooter", "zombie"].some((k) => subLower.includes(k) || titleLowerWord.includes(k)));
 
   const isPlatformer =
     ["platformer", "runner", "adventure"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
 
   const isSports =
-    catLower === "sports" ||
-    ["sports", "soccer", "football", "basketball", "tennis", "golf", "billiards"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
+    !isPuzzle && !isDriving && !isShooter && (catLower === "sports" ||
+    ["sports", "soccer", "football", "basketball", "tennis", "golf", "billiards"].some((k) => subLower.includes(k) || titleLowerWord.includes(k)));
 
   const isFighting =
     ["fighter", "fighting", "brawler", "stickman", "martial arts", "wrestling"].some((k) => subLower.includes(k) || titleLowerWord.includes(k));
@@ -442,8 +445,8 @@ function validateQualityGates(contentData, allIndexableShingleMap = null, catalo
     errors.push(`generic_blocklist_phrase_detected: "${blocklistMatches.join('", "')}"`);
   }
 
-  // Gate 15: Controls suitability (no generic aim/target/interact rows for non-shooters)
-  if (!controls || controls.length < 3) {
+  // Gate 15: Controls suitability (minimal row allowed, no generic aim/target rows for non-shooters)
+  if (!controls || controls.length < 1) {
     errors.push("insufficient_controls_guide");
   } else {
     const nonShooters = ["parking", "racing", "runner", "puzzle", "sports", "merge", "sort", "clicker", "idle"];

@@ -15,7 +15,7 @@ export const hubs = [
 
 From classic parallel parking trials to modern parking jam puzzle challenges, these games simulate real-world vehicular physics including vehicle weight distribution, turning radius, blind spots, and reverse mirror navigation. Whether you are maneuvering a luxury supercar between tight pylons, positioning a police cruiser in a busy precinct, or clearing gridlocked traffic in a puzzle-based parking grid, every level presents an escalating test of patience and finesse.
 
-All car parking games on BlockHub.games feature responsive keyboard and touch controls, multiple camera perspectives (including interior cockpit and top-down overhead angles), and smooth 60 FPS browser rendering without requiring downloads or installations.`,
+All car parking games on BlockHub.games feature responsive keyboard and touch controls, multiple camera perspectives (including interior cockpit and top-down overhead angles), and smooth browser rendering without requiring downloads or installations.`,
     keywords: ["parking", "park", "valet"],
     faq: [
       {
@@ -99,7 +99,7 @@ Explore our curated collection of free stickman titles on BlockHub.games. Enjoy 
 
 The true strategic depth of bubble shooters lies in creating cascading drops: by targeting and severing the root connection of an entire cluster, clever players can drop dozens of hanging bubbles with a single well-aimed shot. As the board gradually descends with each missed cluster, tension mounts, demanding forward planning, bank shots off sidewalls, and efficient color management.
 
-BlockHub.games features an array of classic arcade bubble shooters, modern adventure variants with power-ups and explosive bomb orbs, and relaxing puzzle themes. Enjoy smooth 60 FPS trajectory physics on your browser across mobile and PC devices completely free.`,
+BlockHub.games features an array of classic arcade bubble shooters, modern adventure variants with power-ups and explosive bomb orbs, and relaxing puzzle themes. Enjoy smooth trajectory physics on your browser across mobile and PC devices completely free.`,
     keywords: ["bubble", "bubbles"],
     faq: [
       {
@@ -183,7 +183,7 @@ Jump into the thrill of 3D and 2D obby obstacle courses on BlockHub.games. Featu
 
 From tactical first-person shooters and sniper defense towers to top-down twin-stick survival arenas and post-apocalyptic car demolition runs, the zombie genre offers endless gameplay variety. Fortify barricades, scavenge for ammunition, upgrade high-caliber weaponry, and rescue stranded survivors while fending off fast-moving infected sprinters and hulking mutant bosses.
 
-Experience high-octane zombie survival on BlockHub.games. With fast 60 FPS 3D graphics, atmospheric audio design, and zero downloads required, you can jump straight into the apocalypse on desktop, Chromebook, or mobile.`,
+Experience high-octane zombie survival on BlockHub.games. With responsive 3D graphics, atmospheric audio design, and zero downloads required, you can jump straight into the apocalypse on desktop, Chromebook, or mobile.`,
     keywords: ["zombie", "undead"],
     faq: [
       {
