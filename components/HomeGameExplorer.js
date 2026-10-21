@@ -52,7 +52,7 @@ function SearchParamsWatcher({ onPageChange }) {
 export default function HomeGameExplorer({
   initialGames = [],
   categoryCounts = {},
-  totalGamesCount = 1600,
+  totalGamesCount = 400,
 }) {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searchFilter, setSearchFilter] = useState("");
@@ -189,7 +189,7 @@ export default function HomeGameExplorer({
             const isSelected = selectedCategory === cat.id;
             const count =
               categoryCounts[cat.id] ??
-              (cat.id === "all" ? totalGamesCount : 200);
+              (cat.id === "all" ? totalGamesCount : 50);
 
             return (
               <button

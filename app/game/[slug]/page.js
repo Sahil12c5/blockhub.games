@@ -153,10 +153,10 @@ export default async function GamePage({ params }) {
   }
 
   // 8 Related Games + 8 More Category Games for deep contextual internal linking
-  const relatedGames =
-    game.related && game.related.length === 8
-      ? game.related.map((s) => getGameBySlug(s)).filter(Boolean)
-      : getRelatedGames(game.slug, game.category, 8);
+  const candidateRelated = (game.related || []).map((s) => getGameBySlug(s)).filter(Boolean);
+  const relatedGames = candidateRelated.length >= 8
+    ? candidateRelated.slice(0, 8)
+    : getRelatedGames(game.slug, game.category, 8);
   const moreCategoryGames = getMoreCategoryGames(game.slug, game.category, 8);
   const matchedHubs = getHubsForGame(game);
   const displayHubs = matchedHubs.length > 0 ? matchedHubs : hubs.slice(0, 3);

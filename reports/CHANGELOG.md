@@ -3,6 +3,55 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-22 00:50:00] Completion of Phase 3 & 4: Full 400 Catalog Bespoke Authoring & Indexing Release
+
+### Objective & Execution Summary
+- **Full Catalog Scope**: Successfully transitioned `blockhub.games` to exactly **400 high-quality indexable games** (153 vetted live + 247 bespoke authored new games).
+- **Phase 3 Bespoke Authoring**:
+  - Authored bespoke editorial content for all 247 newly selected games across 10 sequential batches of 25 (final batch of 22).
+  - 100% of newly authored games utilize verified facts exclusively extracted from raw catalog feeds with **0% slot, pool, or template generator text**.
+  - Verified every batch against strict quality gates:
+    - Word counts: strictly 90–160 words (mean: 96 words).
+    - Meta titles: $\le$ 60 characters, ending in ` | BlockHub.games`.
+    - Meta descriptions: strictly 120–160 characters.
+    - 5-word shingle Jaccard similarity: maximum pairwise similarity across all 400 games is **7.28%** (far below the 40% threshold).
+    - Sentence reuse: 0 repeated sentences across more than 2 pages.
+- **Catalog Category Balance**:
+  - Exactly 50 games per category across all 8 core categories (Action, Adventure, Casual, Driving, Puzzle, Shooting, Sports, 2 Player).
+  - Exactly 9 high-performing topic hubs preserved (8 to 52 games each); underperforming Christmas hub pruned and 410-redirected.
+- **Sitemap & Search Infrastructure**:
+  - Regenerated `public/sitemap-games.xml` with exactly 400 game URLs and image tags.
+  - Regenerated `public/sitemap.xml`, `public/sitemap-categories.xml`, and `public/sitemap-hubs.xml`.
+  - Regenerated `public/search-index.json` with exactly 400 games.
+  - Updated `reports/indexable-games.csv` and `reports/indexable-games.md` to reflect all 400 live indexable games.
+- **Zero Git Commits**:
+  - No Git commits or pushes executed.
+
+---
+
+## [2026-10-21 23:05:00] Catalog Reduction to Exactly 400 High-Quality Indexable Games (Phase 2)
+
+### Objective & Execution Summary
+- **Catalog Scope**: Reduced `blockhub.games` from 1,600 games to exactly **400 high-quality indexable games** (153 vetted live games + 247 selected candidates).
+- **Archiving of Removed Games**:
+  - Moved all 1,200 removed games to `data/archive/removed-games.json` with full data, metadata, feed facts, and removal reasons intact (zero permanent deletions).
+  - Categorized all removals in `/reports/removal-list.csv`.
+- **Category & Hub Balancing**:
+  - Balanced all 8 core categories to exactly **50 games each (12.5%)**, far below the 25% (100 games) cap.
+  - Retained all 9 viable topic hubs (each having ≥ 8 games, ranging from 9 to 52 games).
+  - Pruned the Christmas hub (only 4 games in catalog, < 8 minimum threshold per quality rules).
+- **URL Handling & Redirects**:
+  - Configured `public/_redirects`:
+    - 23 HTTP 301 redirects for removed near-duplicates with clear equivalents in the 400 catalog.
+    - 1,184 HTTP 410 Gone directives for removed game URLs without catalog equivalents.
+    - Added HTTP 410 for the pruned `/tag/christmas` hub.
+- **Internal Links, Sitemaps & Search**:
+  - Cleaned up internal linking components: `components/Header.js` (POPULAR_RANDOM_SLUGS), `components/HomeGameExplorer.js` (eliminated fake 200 counts), and `app/game/[slug]/page.js` (dynamic 8 related games fallback).
+  - Regenerated `public/search-index.json` containing only the 400 selected games.
+  - Regenerated `public/sitemap-games.xml` listing exactly 400 game URLs, plus regenerated `sitemap-hubs.xml`, `sitemap-categories.xml`, and `sitemap.xml`.
+  - Zero git commits or pushes performed.
+
+---
 
 ## [2026-10-21 13:51:05] Release of 635 Verified Games to Indexable
 

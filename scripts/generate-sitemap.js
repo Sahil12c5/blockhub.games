@@ -29,8 +29,8 @@ function escapeXml(unsafe) {
 
 const publicDir = path.join(__dirname, "../public");
 
-// Filter only indexable games with unique enriched content (content_ready: true AND indexable: true)
-const indexableGames = games.filter((g) => g.content_ready && g.indexable);
+// Curated 400 catalog games
+const indexableGames = games;
 
 // 5,000 URL limit per sitemap file (per sitemap protocol & requirements)
 const MAX_URLS_PER_SITEMAP = 5000;

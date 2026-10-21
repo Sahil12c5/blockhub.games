@@ -256,34 +256,6 @@ Celebrate the spooky spirit year-round on BlockHub.games. Our Halloween games li
       },
     ],
   },
-  {
-    slug: "christmas",
-    name: "Christmas",
-    icon: "Sparkles",
-    headline: "Free Christmas Games Online - Holiday Puzzles, Santa Runs & Winter Fun",
-    metaDescription:
-      "Celebrate the festive season with free online Christmas games on BlockHub.games. Help Santa deliver gifts, build snowy puzzles, and enjoy winter arcade cheer.",
-    intro: `Step into a cheerful winter wonderland filled with falling snowflakes, twinkling holiday lights, and festive holiday cheer. Christmas games deliver heartwarming, family-friendly browser entertainment centered around Santa Claus, cheerful elves, flying reindeer, and snowy alpine slopes.
-
-From helping Santa deliver presents down snow-covered chimneys against a ticking clock to solving intricate Christmas jigsaw puzzles and decorating holiday gingerbread houses, these games offer relaxing and joyful escapism. Slide down snowy hills on bobsleds, match sparkling festive ornaments, or test your reflexes in holiday runner challenges.
-
-Wrap yourself in holiday spirit anytime on BlockHub.games. Every Christmas title is completely free, runs seamlessly on mobile devices and computers, and requires no downloads or installations to enjoy.`,
-    keywords: ["christmas", "xmas", "santa"],
-    faq: [
-      {
-        q: "What are the most popular types of Christmas games on BlockHub.games?",
-        a: "Top festive favorites include Santa gift delivery runners, winter snowball defense arenas, Christmas tree match-3 puzzles, and cozy holiday spot-the-difference games.",
-      },
-      {
-        q: "Do Christmas games run on school Chromebooks and mobile phones?",
-        a: "Yes! All festive titles on BlockHub.games are built with lightweight HTML5 technology and run smoothly on Chromebooks, iPads, iPhones, and Android devices without downloads.",
-      },
-      {
-        q: "Are these holiday games free for kids and families?",
-        a: "Every holiday game on BlockHub.games is completely free to access with zero subscriptions, paywalls, or registrations.",
-      },
-    ],
-  },
 ];
 
 export function getAllHubs() {

@@ -29,10 +29,10 @@ const POPULAR_RANDOM_SLUGS = [
   "screw-nuts-snap-puzzle",
   "stickman-bow-clash",
   "funny-gummy-characters",
-  "block-craft-survival",
-  "drift-boss",
-  "highway-traffic-racer-pro",
-  "subway-surfers",
+  "egg-wars-battle-arena-3d",
+  "dinos-rush",
+  "shooter-zombie-survival",
+  "highway-traffic-racer-3d",
 ];
 
 let cachedSearchIndex = null;
