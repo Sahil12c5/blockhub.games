@@ -2,8 +2,8 @@
   "metadata": {
     "site": "https://blockhub.games",
     "lastUpdated": "2026-10-21",
-    "totalBatches": 4,
-    "totalUrlsRecommended": 28,
+    "totalBatches": 5,
+    "totalUrlsRecommended": 33,
     "policy": "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   "cumulativeUrls": [
@@ -197,7 +197,7 @@
       "url": "https://blockhub.games/game/9-ball-pool-3d",
       "batch": 4,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "shooter-outbreak-protocol",
@@ -205,7 +205,7 @@
       "url": "https://blockhub.games/game/shooter-outbreak-protocol",
       "batch": 4,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "obby-highest-jump-ever",
@@ -213,7 +213,7 @@
       "url": "https://blockhub.games/game/obby-highest-jump-ever",
       "batch": 4,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "noob-save-the-village",
@@ -221,13 +221,53 @@
       "url": "https://blockhub.games/game/noob-save-the-village",
       "batch": 4,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "bubble-rush",
       "title": "Bubble Rush",
       "url": "https://blockhub.games/game/bubble-rush",
       "batch": 4,
+      "dateRecommended": "2026-10-21",
+      "status": "Indexed"
+    },
+    {
+      "slug": "cake-sort",
+      "title": "Cake Sort",
+      "url": "https://blockhub.games/game/cake-sort",
+      "batch": 5,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "tactical-response-team",
+      "title": "Tactical Response Team",
+      "url": "https://blockhub.games/game/tactical-response-team",
+      "batch": 5,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "people-blaster",
+      "title": "People Blaster",
+      "url": "https://blockhub.games/game/people-blaster",
+      "batch": 5,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "last-call-drunken-boxer",
+      "title": "Last Call: Drunken Boxer",
+      "url": "https://blockhub.games/game/last-call-drunken-boxer",
+      "batch": 5,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "steal-my-egg",
+      "title": "Steal My Egg",
+      "url": "https://blockhub.games/game/steal-my-egg",
+      "batch": 5,
       "dateRecommended": "2026-10-21",
       "status": "Pending submission"
     }
@@ -514,7 +554,7 @@
       "batchNumber": 4,
       "dateSelected": "2026-10-21",
       "urlsCount": 5,
-      "batchSubmissionStatus": "Pending submission",
+      "batchSubmissionStatus": "Indexed",
       "recommendations": [
         {
           "rank": 1,
@@ -570,6 +610,69 @@
           "robotsMeta": "index, follow",
           "wordCount": 179,
           "selectionReason": "Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema."
+        }
+      ]
+    },
+    {
+      "batchNumber": 5,
+      "dateSelected": "2026-10-21",
+      "urlsCount": 5,
+      "batchSubmissionStatus": "Pending submission",
+      "recommendations": [
+        {
+          "rank": 1,
+          "slug": "cake-sort",
+          "title": "Cake Sort",
+          "url": "https://blockhub.games/game/cake-sort",
+          "canonical": "https://blockhub.games/game/cake-sort",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 178,
+          "selectionReason": "3D color cake sorting puzzle with 178 words of unique descriptive prose, slice arrangement controls, multi-plate sequencing tips, and structured FAQ schema."
+        },
+        {
+          "rank": 2,
+          "slug": "tactical-response-team",
+          "title": "Tactical Response Team",
+          "url": "https://blockhub.games/game/tactical-response-team",
+          "canonical": "https://blockhub.games/game/tactical-response-team",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 175,
+          "selectionReason": "Urban tactical marksman hostage intervention game with 175 words of unique descriptive prose, precision scope controls, target priority tips, and structured FAQ schema."
+        },
+        {
+          "rank": 3,
+          "slug": "people-blaster",
+          "title": "People Blaster",
+          "url": "https://blockhub.games/game/people-blaster",
+          "canonical": "https://blockhub.games/game/people-blaster",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 182,
+          "selectionReason": "Multiplication arcade corridor runner with 182 words of unique descriptive prose, squad steering controls, gate calculation tips, and structured FAQ schema."
+        },
+        {
+          "rank": 4,
+          "slug": "last-call-drunken-boxer",
+          "title": "Last Call: Drunken Boxer",
+          "url": "https://blockhub.games/game/last-call-drunken-boxer",
+          "canonical": "https://blockhub.games/game/last-call-drunken-boxer",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 183,
+          "selectionReason": "Ragdoll momentum saloon boxing duel with 183 words of unique descriptive prose, swaying stance controls, counter-punch timing tips, and structured FAQ schema."
+        },
+        {
+          "rank": 5,
+          "slug": "steal-my-egg",
+          "title": "Steal My Egg",
+          "url": "https://blockhub.games/game/steal-my-egg",
+          "canonical": "https://blockhub.games/game/steal-my-egg",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 187,
+          "selectionReason": "Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema."
         }
       ]
     }

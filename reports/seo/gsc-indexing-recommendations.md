@@ -2,8 +2,8 @@
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
 > **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 4  
-> **Total URLs Recommended to Date**: 28  
+> **Total Batches Generated**: 5  
+> **Total URLs Recommended to Date**: 33  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -35,11 +35,16 @@
 | 21 | [Thief Puzzle Long Hand Game](https://blockhub.games/game/thief-puzzle-long-hand-game) | `https://blockhub.games/game/thief-puzzle-long-hand-game` | Batch 3 | 2026-10-21 | `Indexed` |
 | 22 | [Wall Rush 3D](https://blockhub.games/game/wall-rush-3d) | `https://blockhub.games/game/wall-rush-3d` | Batch 3 | 2026-10-21 | `Indexed` |
 | 23 | [Soccer Rebound](https://blockhub.games/game/soccer-rebound) | `https://blockhub.games/game/soccer-rebound` | Batch 3 | 2026-10-21 | `Indexed` |
-| 24 | [9 Ball Pool 3D](https://blockhub.games/game/9-ball-pool-3d) | `https://blockhub.games/game/9-ball-pool-3d` | Batch 4 | 2026-10-21 | `Pending submission` |
-| 25 | [Shooter: Outbreak Protocol](https://blockhub.games/game/shooter-outbreak-protocol) | `https://blockhub.games/game/shooter-outbreak-protocol` | Batch 4 | 2026-10-21 | `Pending submission` |
-| 26 | [Obby Highest Jump Ever](https://blockhub.games/game/obby-highest-jump-ever) | `https://blockhub.games/game/obby-highest-jump-ever` | Batch 4 | 2026-10-21 | `Pending submission` |
-| 27 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | Batch 4 | 2026-10-21 | `Pending submission` |
-| 28 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | Batch 4 | 2026-10-21 | `Pending submission` |
+| 24 | [9 Ball Pool 3D](https://blockhub.games/game/9-ball-pool-3d) | `https://blockhub.games/game/9-ball-pool-3d` | Batch 4 | 2026-10-21 | `Indexed` |
+| 25 | [Shooter: Outbreak Protocol](https://blockhub.games/game/shooter-outbreak-protocol) | `https://blockhub.games/game/shooter-outbreak-protocol` | Batch 4 | 2026-10-21 | `Indexed` |
+| 26 | [Obby Highest Jump Ever](https://blockhub.games/game/obby-highest-jump-ever) | `https://blockhub.games/game/obby-highest-jump-ever` | Batch 4 | 2026-10-21 | `Indexed` |
+| 27 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | Batch 4 | 2026-10-21 | `Indexed` |
+| 28 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | Batch 4 | 2026-10-21 | `Indexed` |
+| 29 | [Cake Sort](https://blockhub.games/game/cake-sort) | `https://blockhub.games/game/cake-sort` | Batch 5 | 2026-10-21 | `Pending submission` |
+| 30 | [Tactical Response Team](https://blockhub.games/game/tactical-response-team) | `https://blockhub.games/game/tactical-response-team` | Batch 5 | 2026-10-21 | `Pending submission` |
+| 31 | [People Blaster](https://blockhub.games/game/people-blaster) | `https://blockhub.games/game/people-blaster` | Batch 5 | 2026-10-21 | `Pending submission` |
+| 32 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | Batch 5 | 2026-10-21 | `Pending submission` |
+| 33 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | Batch 5 | 2026-10-21 | `Pending submission` |
 
 ---
 
@@ -115,7 +120,7 @@
 - **Batch Number**: 4
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: `Pending submission`
+- **Batch Submission Status**: `Indexed`
 
 #### Recommended Games Table
 
@@ -127,11 +132,30 @@
 | 4 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | ✓ Self (`/game/noob-save-the-village`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Strategic base defense village siege adventure with 192 words of unique descriptive prose, watchtower deployment controls, perimeter defense tips, and structured FAQ schema. |
 | 5 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | ✓ Self (`/game/bubble-rush`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema. |
 
+---
+
+### Batch 5 — 2026-10-21
+
+- **Batch Number**: 5
+- **Date Selected**: 2026-10-21
+- **URLs Count**: 5
+- **Batch Submission Status**: `Pending submission`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+| 1 | [Cake Sort](https://blockhub.games/game/cake-sort) | `https://blockhub.games/game/cake-sort` | ✓ Self (`/game/cake-sort`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | 3D color cake sorting puzzle with 178 words of unique descriptive prose, slice arrangement controls, multi-plate sequencing tips, and structured FAQ schema. |
+| 2 | [Tactical Response Team](https://blockhub.games/game/tactical-response-team) | `https://blockhub.games/game/tactical-response-team` | ✓ Self (`/game/tactical-response-team`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Urban tactical marksman hostage intervention game with 175 words of unique descriptive prose, precision scope controls, target priority tips, and structured FAQ schema. |
+| 3 | [People Blaster](https://blockhub.games/game/people-blaster) | `https://blockhub.games/game/people-blaster` | ✓ Self (`/game/people-blaster`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Multiplication arcade corridor runner with 182 words of unique descriptive prose, squad steering controls, gate calculation tips, and structured FAQ schema. |
+| 4 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | ✓ Self (`/game/last-call-drunken-boxer`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Ragdoll momentum saloon boxing duel with 183 words of unique descriptive prose, swaying stance controls, counter-punch timing tips, and structured FAQ schema. |
+| 5 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | ✓ Self (`/game/steal-my-egg`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema. |
+
 #### Verification & Quality Gates
 
-- **Production HTML Verified**: All 28 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 28 URLs verified present in `public/sitemap-games.xml`.
-- **Live Status**: All 28 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
+- **Production HTML Verified**: All 33 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 33 URLs verified present in `public/sitemap-games.xml`.
+- **Live Status**: All 33 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
 - **Word Counts**: Word counts match `reports/passed-games.csv` exactly.
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batch 1, 2, and 3 games marked `Indexed`; Batch 4 introduces 5 fresh indexable titles across diverse genres (Sports, Shooting, Multiplayer, Adventure, Puzzle).
+- **Duplicate Prevention**: Batch 1, 2, 3, and 4 games marked `Indexed`; Batch 5 introduces 5 fresh indexable titles across diverse genres (Puzzle, Shooting, Action, Sports, Multiplayer).

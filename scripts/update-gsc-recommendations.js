@@ -1,8 +1,8 @@
 /**
  * UPDATE GSC INDEXING RECOMMENDATIONS REPORT & JSON
- * - Updates Batch 1 (10 games), Batch 2 (8 games), and Batch 3 (5 games) to "Indexed" status as confirmed by user.
- * - Adds Batch 4 with the top 5 NEW indexable games from the recently released catalog.
- * - Enforces permanent duplicate exclusion across all 28 historical URLs.
+ * - Updates Batch 1 (10 games), Batch 2 (8 games), Batch 3 (5 games), and Batch 4 (5 games) to "Indexed" status as confirmed by user.
+ * - Adds Batch 5 with the top 5 NEW indexable games from the recently released catalog.
+ * - Enforces permanent duplicate exclusion across all 33 historical URLs.
  * - Generates synchronized reports/seo/gsc-indexing-recommendations.json and .md.
  */
 
@@ -235,6 +235,44 @@ const batch4 = [
   }
 ];
 
+const batch5 = [
+  {
+    rank: 1,
+    slug: "cake-sort",
+    title: "Cake Sort",
+    category: "Puzzle",
+    reason: "3D color cake sorting puzzle with 178 words of unique descriptive prose, slice arrangement controls, multi-plate sequencing tips, and structured FAQ schema."
+  },
+  {
+    rank: 2,
+    slug: "tactical-response-team",
+    title: "Tactical Response Team",
+    category: "Shooting",
+    reason: "Urban tactical marksman hostage intervention game with 175 words of unique descriptive prose, precision scope controls, target priority tips, and structured FAQ schema."
+  },
+  {
+    rank: 3,
+    slug: "people-blaster",
+    title: "People Blaster",
+    category: "Action",
+    reason: "Multiplication arcade corridor runner with 182 words of unique descriptive prose, squad steering controls, gate calculation tips, and structured FAQ schema."
+  },
+  {
+    rank: 4,
+    slug: "last-call-drunken-boxer",
+    title: "Last Call: Drunken Boxer",
+    category: "Sports",
+    reason: "Ragdoll momentum saloon boxing duel with 183 words of unique descriptive prose, swaying stance controls, counter-punch timing tips, and structured FAQ schema."
+  },
+  {
+    rank: 5,
+    slug: "steal-my-egg",
+    title: "Steal My Egg",
+    category: "Multiplayer",
+    reason: "Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema."
+  }
+];
+
 // Helper to prepare item objects
 function enrichBatch(list, batchNum, status) {
   return list.map(item => {
@@ -261,7 +299,8 @@ function enrichBatch(list, batchNum, status) {
 const enrichedBatch1 = enrichBatch(batch1, 1, "Indexed");
 const enrichedBatch2 = enrichBatch(batch2, 2, "Indexed");
 const enrichedBatch3 = enrichBatch(batch3, 3, "Indexed");
-const enrichedBatch4 = enrichBatch(batch4, 4, "Pending submission");
+const enrichedBatch4 = enrichBatch(batch4, 4, "Indexed");
+const enrichedBatch5 = enrichBatch(batch5, 5, "Pending submission");
 
 const allCumulative = [
   ...enrichedBatch1.map(i => ({
@@ -294,6 +333,14 @@ const allCumulative = [
     url: i.url,
     batch: 4,
     dateRecommended: "2026-10-21",
+    status: "Indexed"
+  })),
+  ...enrichedBatch5.map(i => ({
+    slug: i.slug,
+    title: i.title,
+    url: i.url,
+    batch: 5,
+    dateRecommended: "2026-10-21",
     status: "Pending submission"
   }))
 ];
@@ -303,8 +350,8 @@ let md = `# Google Search Console (GSC) Indexing Recommendations History
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
 > **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 4  
-> **Total URLs Recommended to Date**: 28  
+> **Total Batches Generated**: 5  
+> **Total URLs Recommended to Date**: 33  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -379,7 +426,7 @@ md += `\n---\n\n### Batch 4 — 2026-10-21
 - **Batch Number**: 4
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: \`Pending submission\`
+- **Batch Submission Status**: \`Indexed\`
 
 #### Recommended Games Table
 
@@ -390,14 +437,31 @@ enrichedBatch4.forEach(item => {
   md += `| ${item.rank} | [${item.title}](${item.url}) | \`${item.url}\` | ✓ Self (\`/game/${item.slug}\`) | ✓ Yes (\`sitemap-games.xml\`) | \`index, follow\` | ${item.selectionReason} |\n`;
 });
 
+// Batch 5 Section
+md += `\n---\n\n### Batch 5 — 2026-10-21
+
+- **Batch Number**: 5
+- **Date Selected**: 2026-10-21
+- **URLs Count**: 5
+- **Batch Submission Status**: \`Pending submission\`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+`;
+enrichedBatch5.forEach(item => {
+  md += `| ${item.rank} | [${item.title}](${item.url}) | \`${item.url}\` | ✓ Self (\`/game/${item.slug}\`) | ✓ Yes (\`sitemap-games.xml\`) | \`index, follow\` | ${item.selectionReason} |\n`;
+});
+
 md += `\n#### Verification & Quality Gates
 
-- **Production HTML Verified**: All 28 URLs confirmed \`index, follow\` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 28 URLs verified present in \`public/sitemap-games.xml\`.
-- **Live Status**: All 28 URLs confirmed in \`PASS_LIVE\` status (0 scheduled or noindex games).
+- **Production HTML Verified**: All 33 URLs confirmed \`index, follow\` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 33 URLs verified present in \`public/sitemap-games.xml\`.
+- **Live Status**: All 33 URLs confirmed in \`PASS_LIVE\` status (0 scheduled or noindex games).
 - **Word Counts**: Word counts match \`reports/passed-games.csv\` exactly.
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batch 1, 2, and 3 games marked \`Indexed\`; Batch 4 introduces 5 fresh indexable titles across diverse genres (Sports, Shooting, Multiplayer, Adventure, Puzzle).
+- **Duplicate Prevention**: Batch 1, 2, 3, and 4 games marked \`Indexed\`; Batch 5 introduces 5 fresh indexable titles across diverse genres (Puzzle, Shooting, Action, Sports, Multiplayer).
 `;
 
 fs.writeFileSync(GSC_MD, md, 'utf8');
@@ -407,8 +471,8 @@ const jsonObj = {
   metadata: {
     site: "https://blockhub.games",
     lastUpdated: "2026-10-21",
-    totalBatches: 4,
-    totalUrlsRecommended: 28,
+    totalBatches: 5,
+    totalUrlsRecommended: 33,
     policy: "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   cumulativeUrls: allCumulative,
@@ -444,8 +508,17 @@ const jsonObj = {
       batchNumber: 4,
       dateSelected: "2026-10-21",
       urlsCount: 5,
-      batchSubmissionStatus: "Pending submission",
+      batchSubmissionStatus: "Indexed",
       recommendations: enrichedBatch4.map(({ rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason }) => ({
+        rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason
+      }))
+    },
+    {
+      batchNumber: 5,
+      dateSelected: "2026-10-21",
+      urlsCount: 5,
+      batchSubmissionStatus: "Pending submission",
+      recommendations: enrichedBatch5.map(({ rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason }) => ({
         rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason
       }))
     }
@@ -453,4 +526,4 @@ const jsonObj = {
 };
 
 fs.writeFileSync(GSC_JSON, JSON.stringify(jsonObj, null, 2), 'utf8');
-console.log('Successfully updated reports/seo/gsc-indexing-recommendations.md and .json with 4 batches (28 total URLs)!');
+console.log('Successfully updated reports/seo/gsc-indexing-recommendations.md and .json with 5 batches (33 total URLs)!');
