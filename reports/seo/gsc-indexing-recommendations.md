@@ -2,8 +2,8 @@
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
 > **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 3  
-> **Total URLs Recommended to Date**: 23  
+> **Total Batches Generated**: 4  
+> **Total URLs Recommended to Date**: 28  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -30,11 +30,16 @@
 | 16 | [Mega Noob Sky Obby: 50 Stages](https://blockhub.games/game/mega-noob-sky-obby-50-stages) | `https://blockhub.games/game/mega-noob-sky-obby-50-stages` | Batch 2 | 2026-10-21 | `Indexed` |
 | 17 | [Signal Survival Block Arena](https://blockhub.games/game/signal-survival-block-arena) | `https://blockhub.games/game/signal-survival-block-arena` | Batch 2 | 2026-10-21 | `Indexed` |
 | 18 | [Stickman Bow Clash](https://blockhub.games/game/stickman-bow-clash) | `https://blockhub.games/game/stickman-bow-clash` | Batch 2 | 2026-10-21 | `Indexed` |
-| 19 | [Blockland Oneblock Skyblock](https://blockhub.games/game/blockland-oneblock-skyblock) | `https://blockhub.games/game/blockland-oneblock-skyblock` | Batch 3 | 2026-10-21 | `Pending submission` |
-| 20 | [Egg Wars Battle Arena 3D](https://blockhub.games/game/egg-wars-battle-arena-3d) | `https://blockhub.games/game/egg-wars-battle-arena-3d` | Batch 3 | 2026-10-21 | `Pending submission` |
-| 21 | [Thief Puzzle Long Hand Game](https://blockhub.games/game/thief-puzzle-long-hand-game) | `https://blockhub.games/game/thief-puzzle-long-hand-game` | Batch 3 | 2026-10-21 | `Pending submission` |
-| 22 | [Wall Rush 3D](https://blockhub.games/game/wall-rush-3d) | `https://blockhub.games/game/wall-rush-3d` | Batch 3 | 2026-10-21 | `Pending submission` |
-| 23 | [Soccer Rebound](https://blockhub.games/game/soccer-rebound) | `https://blockhub.games/game/soccer-rebound` | Batch 3 | 2026-10-21 | `Pending submission` |
+| 19 | [Blockland Oneblock Skyblock](https://blockhub.games/game/blockland-oneblock-skyblock) | `https://blockhub.games/game/blockland-oneblock-skyblock` | Batch 3 | 2026-10-21 | `Indexed` |
+| 20 | [Egg Wars Battle Arena 3D](https://blockhub.games/game/egg-wars-battle-arena-3d) | `https://blockhub.games/game/egg-wars-battle-arena-3d` | Batch 3 | 2026-10-21 | `Indexed` |
+| 21 | [Thief Puzzle Long Hand Game](https://blockhub.games/game/thief-puzzle-long-hand-game) | `https://blockhub.games/game/thief-puzzle-long-hand-game` | Batch 3 | 2026-10-21 | `Indexed` |
+| 22 | [Wall Rush 3D](https://blockhub.games/game/wall-rush-3d) | `https://blockhub.games/game/wall-rush-3d` | Batch 3 | 2026-10-21 | `Indexed` |
+| 23 | [Soccer Rebound](https://blockhub.games/game/soccer-rebound) | `https://blockhub.games/game/soccer-rebound` | Batch 3 | 2026-10-21 | `Indexed` |
+| 24 | [9 Ball Pool 3D](https://blockhub.games/game/9-ball-pool-3d) | `https://blockhub.games/game/9-ball-pool-3d` | Batch 4 | 2026-10-21 | `Pending submission` |
+| 25 | [Shooter: Outbreak Protocol](https://blockhub.games/game/shooter-outbreak-protocol) | `https://blockhub.games/game/shooter-outbreak-protocol` | Batch 4 | 2026-10-21 | `Pending submission` |
+| 26 | [Obby Highest Jump Ever](https://blockhub.games/game/obby-highest-jump-ever) | `https://blockhub.games/game/obby-highest-jump-ever` | Batch 4 | 2026-10-21 | `Pending submission` |
+| 27 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | Batch 4 | 2026-10-21 | `Pending submission` |
+| 28 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | Batch 4 | 2026-10-21 | `Pending submission` |
 
 ---
 
@@ -91,7 +96,7 @@
 - **Batch Number**: 3
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: `Pending submission`
+- **Batch Submission Status**: `Indexed`
 
 #### Recommended Games Table
 
@@ -103,11 +108,30 @@
 | 4 | [Wall Rush 3D](https://blockhub.games/game/wall-rush-3d) | `https://blockhub.games/game/wall-rush-3d` | ✓ Self (`/game/wall-rush-3d`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Futuristic high-velocity corridor reflex runner with 176 words of unique descriptive prose, high-speed tunnel steering controls, portal alignment tips, and structured FAQ schema. |
 | 5 | [Soccer Rebound](https://blockhub.games/game/soccer-rebound) | `https://blockhub.games/game/soccer-rebound` | ✓ Self (`/game/soccer-rebound`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Arcade soccer pinball pitch defense challenge with 186 words of unique descriptive prose, precision flipper deflection controls, multi-ball scoring tips, and structured FAQ schema. |
 
+---
+
+### Batch 4 — 2026-10-21
+
+- **Batch Number**: 4
+- **Date Selected**: 2026-10-21
+- **URLs Count**: 5
+- **Batch Submission Status**: `Pending submission`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+| 1 | [9 Ball Pool 3D](https://blockhub.games/game/9-ball-pool-3d) | `https://blockhub.games/game/9-ball-pool-3d` | ✓ Self (`/game/9-ball-pool-3d`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Rotational cue sports billiards game with 186 words of unique descriptive prose, cue elevation and spin controls, collision trajectory tips, and structured FAQ schema. |
+| 2 | [Shooter: Outbreak Protocol](https://blockhub.games/game/shooter-outbreak-protocol) | `https://blockhub.games/game/shooter-outbreak-protocol` | ✓ Self (`/game/shooter-outbreak-protocol`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Tactical first-person zombie horror survival game with 178 words of unique descriptive prose, weapon aiming and reload controls, horde containment tips, and structured FAQ schema. |
+| 3 | [Obby Highest Jump Ever](https://blockhub.games/game/obby-highest-jump-ever) | `https://blockhub.games/game/obby-highest-jump-ever` | ✓ Self (`/game/obby-highest-jump-ever`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Vertical ascent parkour obby platformer with 180 words of unique descriptive prose, jump charge mechanics, celestial staging tips, and structured FAQ schema. |
+| 4 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | ✓ Self (`/game/noob-save-the-village`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Strategic base defense village siege adventure with 192 words of unique descriptive prose, watchtower deployment controls, perimeter defense tips, and structured FAQ schema. |
+| 5 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | ✓ Self (`/game/bubble-rush`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema. |
+
 #### Verification & Quality Gates
 
-- **Production HTML Verified**: All 23 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 23 URLs verified present in `public/sitemap-games.xml`.
-- **Live Status**: All 23 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
+- **Production HTML Verified**: All 28 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 28 URLs verified present in `public/sitemap-games.xml`.
+- **Live Status**: All 28 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
 - **Word Counts**: Word counts match `reports/passed-games.csv` exactly.
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batch 1 & 2 games marked `Indexed`; Batch 3 introduces 5 novel indexable titles across diverse genres (Adventure, Action, Puzzle, Racing, Sports).
+- **Duplicate Prevention**: Batch 1, 2, and 3 games marked `Indexed`; Batch 4 introduces 5 fresh indexable titles across diverse genres (Sports, Shooting, Multiplayer, Adventure, Puzzle).

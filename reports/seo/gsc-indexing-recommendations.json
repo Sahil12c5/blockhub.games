@@ -2,8 +2,8 @@
   "metadata": {
     "site": "https://blockhub.games",
     "lastUpdated": "2026-10-21",
-    "totalBatches": 3,
-    "totalUrlsRecommended": 23,
+    "totalBatches": 4,
+    "totalUrlsRecommended": 28,
     "policy": "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   "cumulativeUrls": [
@@ -157,7 +157,7 @@
       "url": "https://blockhub.games/game/blockland-oneblock-skyblock",
       "batch": 3,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "egg-wars-battle-arena-3d",
@@ -165,7 +165,7 @@
       "url": "https://blockhub.games/game/egg-wars-battle-arena-3d",
       "batch": 3,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "thief-puzzle-long-hand-game",
@@ -173,7 +173,7 @@
       "url": "https://blockhub.games/game/thief-puzzle-long-hand-game",
       "batch": 3,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "wall-rush-3d",
@@ -181,13 +181,53 @@
       "url": "https://blockhub.games/game/wall-rush-3d",
       "batch": 3,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "soccer-rebound",
       "title": "Soccer Rebound",
       "url": "https://blockhub.games/game/soccer-rebound",
       "batch": 3,
+      "dateRecommended": "2026-10-21",
+      "status": "Indexed"
+    },
+    {
+      "slug": "9-ball-pool-3d",
+      "title": "9 Ball Pool 3D",
+      "url": "https://blockhub.games/game/9-ball-pool-3d",
+      "batch": 4,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "shooter-outbreak-protocol",
+      "title": "Shooter: Outbreak Protocol",
+      "url": "https://blockhub.games/game/shooter-outbreak-protocol",
+      "batch": 4,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "obby-highest-jump-ever",
+      "title": "Obby Highest Jump Ever",
+      "url": "https://blockhub.games/game/obby-highest-jump-ever",
+      "batch": 4,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "noob-save-the-village",
+      "title": "Noob Save the Village",
+      "url": "https://blockhub.games/game/noob-save-the-village",
+      "batch": 4,
+      "dateRecommended": "2026-10-21",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "bubble-rush",
+      "title": "Bubble Rush",
+      "url": "https://blockhub.games/game/bubble-rush",
+      "batch": 4,
       "dateRecommended": "2026-10-21",
       "status": "Pending submission"
     }
@@ -411,7 +451,7 @@
       "batchNumber": 3,
       "dateSelected": "2026-10-21",
       "urlsCount": 5,
-      "batchSubmissionStatus": "Pending submission",
+      "batchSubmissionStatus": "Indexed",
       "recommendations": [
         {
           "rank": 1,
@@ -467,6 +507,69 @@
           "robotsMeta": "index, follow",
           "wordCount": 186,
           "selectionReason": "Arcade soccer pinball pitch defense challenge with 186 words of unique descriptive prose, precision flipper deflection controls, multi-ball scoring tips, and structured FAQ schema."
+        }
+      ]
+    },
+    {
+      "batchNumber": 4,
+      "dateSelected": "2026-10-21",
+      "urlsCount": 5,
+      "batchSubmissionStatus": "Pending submission",
+      "recommendations": [
+        {
+          "rank": 1,
+          "slug": "9-ball-pool-3d",
+          "title": "9 Ball Pool 3D",
+          "url": "https://blockhub.games/game/9-ball-pool-3d",
+          "canonical": "https://blockhub.games/game/9-ball-pool-3d",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 186,
+          "selectionReason": "Rotational cue sports billiards game with 186 words of unique descriptive prose, cue elevation and spin controls, collision trajectory tips, and structured FAQ schema."
+        },
+        {
+          "rank": 2,
+          "slug": "shooter-outbreak-protocol",
+          "title": "Shooter: Outbreak Protocol",
+          "url": "https://blockhub.games/game/shooter-outbreak-protocol",
+          "canonical": "https://blockhub.games/game/shooter-outbreak-protocol",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 178,
+          "selectionReason": "Tactical first-person zombie horror survival game with 178 words of unique descriptive prose, weapon aiming and reload controls, horde containment tips, and structured FAQ schema."
+        },
+        {
+          "rank": 3,
+          "slug": "obby-highest-jump-ever",
+          "title": "Obby Highest Jump Ever",
+          "url": "https://blockhub.games/game/obby-highest-jump-ever",
+          "canonical": "https://blockhub.games/game/obby-highest-jump-ever",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 180,
+          "selectionReason": "Vertical ascent parkour obby platformer with 180 words of unique descriptive prose, jump charge mechanics, celestial staging tips, and structured FAQ schema."
+        },
+        {
+          "rank": 4,
+          "slug": "noob-save-the-village",
+          "title": "Noob Save the Village",
+          "url": "https://blockhub.games/game/noob-save-the-village",
+          "canonical": "https://blockhub.games/game/noob-save-the-village",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 192,
+          "selectionReason": "Strategic base defense village siege adventure with 192 words of unique descriptive prose, watchtower deployment controls, perimeter defense tips, and structured FAQ schema."
+        },
+        {
+          "rank": 5,
+          "slug": "bubble-rush",
+          "title": "Bubble Rush",
+          "url": "https://blockhub.games/game/bubble-rush",
+          "canonical": "https://blockhub.games/game/bubble-rush",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 179,
+          "selectionReason": "Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema."
         }
       ]
     }

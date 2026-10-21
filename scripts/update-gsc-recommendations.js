@@ -1,8 +1,8 @@
 /**
  * UPDATE GSC INDEXING RECOMMENDATIONS REPORT & JSON
- * - Updates Batch 1 (10 games) and Batch 2 (8 games) to "Indexed" status as confirmed by user.
- * - Adds Batch 3 with the top 5 NEW indexable games from the recently released catalog.
- * - Enforces permanent duplicate exclusion across all 23 historical URLs.
+ * - Updates Batch 1 (10 games), Batch 2 (8 games), and Batch 3 (5 games) to "Indexed" status as confirmed by user.
+ * - Adds Batch 4 with the top 5 NEW indexable games from the recently released catalog.
+ * - Enforces permanent duplicate exclusion across all 28 historical URLs.
  * - Generates synchronized reports/seo/gsc-indexing-recommendations.json and .md.
  */
 
@@ -197,6 +197,44 @@ const batch3 = [
   }
 ];
 
+const batch4 = [
+  {
+    rank: 1,
+    slug: "9-ball-pool-3d",
+    title: "9 Ball Pool 3D",
+    category: "Sports",
+    reason: "Rotational cue sports billiards game with 186 words of unique descriptive prose, cue elevation and spin controls, collision trajectory tips, and structured FAQ schema."
+  },
+  {
+    rank: 2,
+    slug: "shooter-outbreak-protocol",
+    title: "Shooter: Outbreak Protocol",
+    category: "Shooting",
+    reason: "Tactical first-person zombie horror survival game with 178 words of unique descriptive prose, weapon aiming and reload controls, horde containment tips, and structured FAQ schema."
+  },
+  {
+    rank: 3,
+    slug: "obby-highest-jump-ever",
+    title: "Obby Highest Jump Ever",
+    category: "Multiplayer",
+    reason: "Vertical ascent parkour obby platformer with 180 words of unique descriptive prose, jump charge mechanics, celestial staging tips, and structured FAQ schema."
+  },
+  {
+    rank: 4,
+    slug: "noob-save-the-village",
+    title: "Noob Save the Village",
+    category: "Adventure",
+    reason: "Strategic base defense village siege adventure with 192 words of unique descriptive prose, watchtower deployment controls, perimeter defense tips, and structured FAQ schema."
+  },
+  {
+    rank: 5,
+    slug: "bubble-rush",
+    title: "Bubble Rush",
+    category: "Puzzle",
+    reason: "Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema."
+  }
+];
+
 // Helper to prepare item objects
 function enrichBatch(list, batchNum, status) {
   return list.map(item => {
@@ -222,7 +260,8 @@ function enrichBatch(list, batchNum, status) {
 
 const enrichedBatch1 = enrichBatch(batch1, 1, "Indexed");
 const enrichedBatch2 = enrichBatch(batch2, 2, "Indexed");
-const enrichedBatch3 = enrichBatch(batch3, 3, "Pending submission");
+const enrichedBatch3 = enrichBatch(batch3, 3, "Indexed");
+const enrichedBatch4 = enrichBatch(batch4, 4, "Pending submission");
 
 const allCumulative = [
   ...enrichedBatch1.map(i => ({
@@ -247,6 +286,14 @@ const allCumulative = [
     url: i.url,
     batch: 3,
     dateRecommended: "2026-10-21",
+    status: "Indexed"
+  })),
+  ...enrichedBatch4.map(i => ({
+    slug: i.slug,
+    title: i.title,
+    url: i.url,
+    batch: 4,
+    dateRecommended: "2026-10-21",
     status: "Pending submission"
   }))
 ];
@@ -256,8 +303,8 @@ let md = `# Google Search Console (GSC) Indexing Recommendations History
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
 > **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 3  
-> **Total URLs Recommended to Date**: 23  
+> **Total Batches Generated**: 4  
+> **Total URLs Recommended to Date**: 28  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -315,7 +362,7 @@ md += `\n---\n\n### Batch 3 — 2026-10-21
 - **Batch Number**: 3
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: \`Pending submission\`
+- **Batch Submission Status**: \`Indexed\`
 
 #### Recommended Games Table
 
@@ -326,14 +373,31 @@ enrichedBatch3.forEach(item => {
   md += `| ${item.rank} | [${item.title}](${item.url}) | \`${item.url}\` | ✓ Self (\`/game/${item.slug}\`) | ✓ Yes (\`sitemap-games.xml\`) | \`index, follow\` | ${item.selectionReason} |\n`;
 });
 
+// Batch 4 Section
+md += `\n---\n\n### Batch 4 — 2026-10-21
+
+- **Batch Number**: 4
+- **Date Selected**: 2026-10-21
+- **URLs Count**: 5
+- **Batch Submission Status**: \`Pending submission\`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+`;
+enrichedBatch4.forEach(item => {
+  md += `| ${item.rank} | [${item.title}](${item.url}) | \`${item.url}\` | ✓ Self (\`/game/${item.slug}\`) | ✓ Yes (\`sitemap-games.xml\`) | \`index, follow\` | ${item.selectionReason} |\n`;
+});
+
 md += `\n#### Verification & Quality Gates
 
-- **Production HTML Verified**: All 23 URLs confirmed \`index, follow\` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 23 URLs verified present in \`public/sitemap-games.xml\`.
-- **Live Status**: All 23 URLs confirmed in \`PASS_LIVE\` status (0 scheduled or noindex games).
+- **Production HTML Verified**: All 28 URLs confirmed \`index, follow\` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 28 URLs verified present in \`public/sitemap-games.xml\`.
+- **Live Status**: All 28 URLs confirmed in \`PASS_LIVE\` status (0 scheduled or noindex games).
 - **Word Counts**: Word counts match \`reports/passed-games.csv\` exactly.
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batch 1 & 2 games marked \`Indexed\`; Batch 3 introduces 5 novel indexable titles across diverse genres (Adventure, Action, Puzzle, Racing, Sports).
+- **Duplicate Prevention**: Batch 1, 2, and 3 games marked \`Indexed\`; Batch 4 introduces 5 fresh indexable titles across diverse genres (Sports, Shooting, Multiplayer, Adventure, Puzzle).
 `;
 
 fs.writeFileSync(GSC_MD, md, 'utf8');
@@ -343,8 +407,8 @@ const jsonObj = {
   metadata: {
     site: "https://blockhub.games",
     lastUpdated: "2026-10-21",
-    totalBatches: 3,
-    totalUrlsRecommended: 23,
+    totalBatches: 4,
+    totalUrlsRecommended: 28,
     policy: "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   cumulativeUrls: allCumulative,
@@ -371,8 +435,17 @@ const jsonObj = {
       batchNumber: 3,
       dateSelected: "2026-10-21",
       urlsCount: 5,
-      batchSubmissionStatus: "Pending submission",
+      batchSubmissionStatus: "Indexed",
       recommendations: enrichedBatch3.map(({ rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason }) => ({
+        rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason
+      }))
+    },
+    {
+      batchNumber: 4,
+      dateSelected: "2026-10-21",
+      urlsCount: 5,
+      batchSubmissionStatus: "Pending submission",
+      recommendations: enrichedBatch4.map(({ rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason }) => ({
         rank, slug, title, url, canonical, inSitemap, robotsMeta, wordCount, selectionReason
       }))
     }
@@ -380,4 +453,4 @@ const jsonObj = {
 };
 
 fs.writeFileSync(GSC_JSON, JSON.stringify(jsonObj, null, 2), 'utf8');
-console.log('Successfully updated reports/seo/gsc-indexing-recommendations.md and .json with 3 batches (23 total URLs)!');
+console.log('Successfully updated reports/seo/gsc-indexing-recommendations.md and .json with 4 batches (28 total URLs)!');
