@@ -40,6 +40,11 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
+    keywords: category.keywords || [
+      `${category.name.toLowerCase()} games`,
+      `free ${category.name.toLowerCase()} games`,
+      `play ${category.name.toLowerCase()} games online`,
+    ],
     alternates: {
       canonical: `https://blockhub.games/category/${category.slug}`,
     },

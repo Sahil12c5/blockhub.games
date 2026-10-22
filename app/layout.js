@@ -14,6 +14,23 @@ export const metadata = {
   },
   description:
     "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
+  keywords: [
+    "free online games",
+    "browser games",
+    "unblocked games",
+    "play games online",
+    "car games",
+    "action games",
+    "blockhub games",
+    "free online games",
+    "online games",
+    "browser games",
+    "play games online",
+    "free games online",
+    "HTML5 games",
+    "instant games",
+    "online arcade games"
+  ],
   authors: [{ name: "BlockHub Games" }],
   creator: "BlockHub Games",
   publisher: "BlockHub Games",

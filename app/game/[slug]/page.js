@@ -7,6 +7,7 @@ import {
   getRelatedGames,
   getMoreCategoryGames,
 } from "@/data/games";
+import { getCategoryBySlug } from "@/data/categories";
 import { getHubsForGame, hubs } from "@/data/hubs";
 import GamePlayer from "@/components/GamePlayer";
 
@@ -95,9 +96,36 @@ export async function generateMetadata({ params }) {
     `Play ${game.title} online for free on BlockHub.games. Enjoy instant ${game.category.toLowerCase()} browser gaming directly in your web browser with zero downloads.`;
   const plainTitle = finalTitle;
 
+  const titleLower = (game.title || "").toLowerCase().trim();
+  const categoryLower = (game.category || "").toLowerCase().trim();
+  const categoryData = getCategoryBySlug(categoryLower);
+  const categoryKeywords = categoryData?.keywords?.slice(0, 4) || [];
+
+  const keywords = Array.from(
+    new Set(
+      [
+        ...(game.keywords || []),
+        titleLower,
+        `play ${titleLower} online`,
+        `${titleLower} unblocked`,
+        `${titleLower} free`,
+        `${titleLower} game`,
+        `${titleLower} no download`,
+        `${categoryLower} games`,
+        `free ${categoryLower} games`,
+        `${categoryLower} games unblocked`,
+        ...categoryKeywords,
+        "free online games",
+        "browser games",
+        "blockhub games",
+      ].filter(Boolean)
+    )
+  );
+
   return {
     title: { absolute: finalTitle },
     description,
+    keywords,
     robots: (game.content_ready && game.indexable)
       ? {
           index: true,
