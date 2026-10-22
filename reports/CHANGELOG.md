@@ -3,6 +3,25 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-22 21:16:00] Complete Catalog-Wide SEO Overhaul Across All 8 Categories & Global Layout
+
+### Summary of Changes
+- **All 8 Categories Enriched with Google Trends Search Data (`data/categories.js`)**:
+  - Ingested and filtered real-world search volume, breakout growth rates, and high-intent keyword queries across all 8 game categories (170+ total queries):
+    - **Racing (22 keywords)**: `online racing car games`, `car racing online`, `racing car games online`, `car games online free`, `best racing games` (+90%), `best online racing games` (+90%), `multiplayer racing games online`, `drag racing games`, `bike racing games`, `drifting games`, `unblocked car games`, `car simulator online`.
+    - **Action (21 keywords)**: `best action games`, `action games online free`, `free online action games`, `online action games free`, `free action games online`, `play action games online`, `action games for pc`, `online action games for pc`, `action rpg games`, `action games unblocked`, `action games no download`, `combat games`.
+    - **Shooting (23 keywords)**: `shooting games for free online`, `online shooting games for free`, `shooting games online for free`, `free online shooting games no download` (+250%), `best shooting games` (+70%), `best online shooting games` (+70%), `online multiplayer shooting games`, `online shooting games pc free`, `free online shooting games for pc`, `gun games online free`, `fps games online`, `sniper games`, `tactical shooter`.
+    - **Puzzle (21 keywords)**: `puzzle games online for free` (100 interest), `puzzle games for free` (94 interest), `free online puzzle games no download` (+170%), `free online puzzle games for adults` (+150%), `word puzzle games online`, `word games online free`, `jigsaw puzzle games online`, `jigsaw puzzle online free`, `block puzzle`, `brain puzzle games`.
+    - **Sports (21 keywords)**: `football games online for free` (100 interest), `sports video games` (76 interest), `football games online free`, `world cup games` (+600%), `soccer games online free`, `football games online for school` (+60%), `football games for pc`, `free pool games` (+80%), `basketball games online free`, `american football games online free`.
+    - **Multiplayer (21 keywords)**: `online multiplayer games for free` (100 interest), `multiplayer games online for free` (99 interest), `best free multiplayer games` (+150%), `best online multiplayer games` (+150%), `online multiplayer games with friends free`, `free online multiplayer games no download` (+180%), `2 player games online`, `io games`, `co-op games`.
+    - **Adventure (20 keywords)**: `adventure game` (100 interest), `adventure games online for free` (96 interest), `free adventure games online`, `classic adventure games`, `platform games online`, `choose your own adventure games online`, `free online hidden object adventure games`, `adventure games unblocked`, `rpg games online`, `sandbox games`.
+    - **Arcade (22 keywords)**: `play arcade games online` (100 interest), `arcade game` (60 interest), `free arcade games to play online` (+60%), `classic arcade games online free`, `old arcade games`, `retro arcade games`, `retro games online`, `free web arcade`, `arcade space`, `endless runner games`, `platformer games online`.
+- **Global Layout Metadata Optimization (`app/layout.js`)**:
+  - Added breakout long-tail queries: `games online free no download` (+850%), `free online games no download` (+750%), `play free games online without downloading`, `best online games` (100 interest), `online games for free` (97 interest), `free games to play`, `games free to play`.
+  - Added PC & desktop-targeted queries: `free games for pc`, `pc games free online`, `browser games for pc`, `online pc games free`.
+  - Expanded primary genre lineup: `car games`, `shooting games`, `action games`, `adventure games`, `platform games online`, `play arcade games online`, `free online arcade games`.
+
+---
 ## [2026-10-22 19:20:00] Google Trends Keyword Optimization in Global Layout Metadata
 
 ### Summary of Changes
