@@ -3,6 +3,18 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-23 01:50:00] Expanded Multi-Language & Broad-Intent Keywords in Global Layout Metadata
+
+### Summary of Changes
+- **Global Metadata Keywords (`app/layout.js`)**:
+  - Expanded root metadata keywords to include high-volume global terms and cross-language localized queries:
+    - Broad generic terms: `game`, `games`, `online games`.
+    - Spanish localized queries: `juegos`, `juegos gratis`.
+    - Turkish localized queries: `oyunlar`, `oyun`, `1001 oyun`, `araba oyunları`, `poki oyun`.
+    - Arabic and Ukrainian queries: `العاب مجانية`, `ігри онлайн`.
+    - Trending / competitor queries: `1v1`, `endacopia`.
+
+---
 ## [2026-10-22 21:16:00] Complete Catalog-Wide SEO Overhaul Across All 8 Categories & Global Layout
 
 ### Summary of Changes
