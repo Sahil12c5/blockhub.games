@@ -10,10 +10,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Operational & Workflow Rules
 
-### 1. Mandatory Branch Isolation
-- **NEVER work, commit, or push directly on `main`**.
-- All tasks, changes, and experiments MUST be executed on a dedicated working/feature branch (e.g. `feat/...`, `fix/...`, `content/...`).
-- Only the human user reviews, approves, and merges branches into `main`. This guarantees nothing is auto-deployed without human sign-off.
+### 1. Direct Deployment on `main`
+- When the user asks to commit and push changes, **commit and push directly to `main`** so Cloudflare Pages automatically deploys the live production build.
+- Do not create intermediate feature branches unless specifically requested by the user.
 
 ### 2. Explicit Approval Before Committing or Pushing
 - **NEVER execute `git commit` or `git push` without explicit human confirmation in the conversation.**
