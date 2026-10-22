@@ -14,7 +14,8 @@
     "reports:sync": "node scripts/verify-reports-sync.js",
     "release:daily": "node scripts/release-daily.js",
     "release:636": "node scripts/release-636.js",
-    "sitemap": "node scripts/generate-sitemap.js"
+    "sitemap": "node scripts/generate-sitemap.js",
+    "indexnow": "node scripts/submit-indexnow.js"
   },
   "dependencies": {
     "lucide-react": "^1.57.0",

@@ -1,9 +1,9 @@
 # Google Search Console (GSC) Indexing Recommendations History
 
 > **Target Site**: [BlockHub.games](https://blockhub.games)  
-> **Last Updated**: 2026-10-21  
-> **Total Batches Generated**: 6  
-> **Total URLs Recommended to Date**: 38  
+> **Last Updated**: 2026-10-22  
+> **Total Batches Generated**: 7  
+> **Total URLs Recommended to Date**: 43  
 > **Policy**: Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations unless explicitly requested. All URLs are sourced strictly from vetted PASS_LIVE games verified in sitemap and built HTML.
 
 ---
@@ -45,11 +45,16 @@
 | 31 | [People Blaster](https://blockhub.games/game/people-blaster) | `https://blockhub.games/game/people-blaster` | Batch 5 | 2026-10-21 | `Indexed` |
 | 32 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | Batch 5 | 2026-10-21 | `Indexed` |
 | 33 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | Batch 5 | 2026-10-21 | `Indexed` |
-| 34 | [Tank Push](https://blockhub.games/game/tank-push) | `https://blockhub.games/game/tank-push` | Batch 6 | 2026-10-21 | `Pending submission` |
-| 35 | [CatchFish - Fishing Master](https://blockhub.games/game/catchfish-fishing-master) | `https://blockhub.games/game/catchfish-fishing-master` | Batch 6 | 2026-10-21 | `Pending submission` |
-| 36 | [GOBLOX: Grow Your Empire](https://blockhub.games/game/goblox-grow-your-empire) | `https://blockhub.games/game/goblox-grow-your-empire` | Batch 6 | 2026-10-21 | `Pending submission` |
-| 37 | [Funny Gummy Characters](https://blockhub.games/game/funny-gummy-characters) | `https://blockhub.games/game/funny-gummy-characters` | Batch 6 | 2026-10-21 | `Pending submission` |
-| 38 | [Chubby Duck Offroad](https://blockhub.games/game/chubby-duck-offroad) | `https://blockhub.games/game/chubby-duck-offroad` | Batch 6 | 2026-10-21 | `Pending submission` |
+| 34 | [Tank Push](https://blockhub.games/game/tank-push) | `https://blockhub.games/game/tank-push` | Batch 6 | 2026-10-21 | `Indexed` |
+| 35 | [CatchFish - Fishing Master](https://blockhub.games/game/catchfish-fishing-master) | `https://blockhub.games/game/catchfish-fishing-master` | Batch 6 | 2026-10-21 | `Indexed` |
+| 36 | [GOBLOX: Grow Your Empire](https://blockhub.games/game/goblox-grow-your-empire) | `https://blockhub.games/game/goblox-grow-your-empire` | Batch 6 | 2026-10-21 | `Indexed` |
+| 37 | [Funny Gummy Characters](https://blockhub.games/game/funny-gummy-characters) | `https://blockhub.games/game/funny-gummy-characters` | Batch 6 | 2026-10-21 | `Indexed` |
+| 38 | [Chubby Duck Offroad](https://blockhub.games/game/chubby-duck-offroad) | `https://blockhub.games/game/chubby-duck-offroad` | Batch 6 | 2026-10-21 | `Indexed` |
+| 39 | [Curve Master Football](https://blockhub.games/game/curve-master-football) | `https://blockhub.games/game/curve-master-football` | Batch 7 | 2026-10-22 | `Pending submission` |
+| 40 | [Last Garage: Zombie Road](https://blockhub.games/game/last-garage-zombie-road) | `https://blockhub.games/game/last-garage-zombie-road` | Batch 7 | 2026-10-22 | `Pending submission` |
+| 41 | [URBAN JUMP](https://blockhub.games/game/urban-jump) | `https://blockhub.games/game/urban-jump` | Batch 7 | 2026-10-22 | `Pending submission` |
+| 42 | [Mahjong Master Tile Sort and Match](https://blockhub.games/game/mahjong-master-tile-sort-and-match) | `https://blockhub.games/game/mahjong-master-tile-sort-and-match` | Batch 7 | 2026-10-22 | `Pending submission` |
+| 43 | [Stairs Races for 2 Players](https://blockhub.games/game/stairs-races-for-2-players) | `https://blockhub.games/game/stairs-races-for-2-players` | Batch 7 | 2026-10-22 | `Pending submission` |
 
 ---
 
@@ -77,8 +82,6 @@
 | 9 | [Sniper: Silent Ridge](https://blockhub.games/game/sniper-silent-ridge) | `https://blockhub.games/game/sniper-silent-ridge` | ✓ Self (`/game/sniper-silent-ridge`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Long-range mountain marksmanship shooter with 180 words of unique descriptive prose, scope magnification controls, ballistic tips, and structured FAQ schema. |
 | 10 | [Shadow Fist - Kung Fu](https://blockhub.games/game/shadow-fist-kung-fu) | `https://blockhub.games/game/shadow-fist-kung-fu` | ✓ Self (`/game/shadow-fist-kung-fu`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Martial arts side-scrolling action brawler with 195 words of unique descriptive prose, combo execution controls, defense tips, and structured FAQ schema. |
 
----
-
 ### Batch 2 — 2026-10-21
 
 - **Batch Number**: 2
@@ -99,8 +102,6 @@
 | 7 | [Signal Survival Block Arena](https://blockhub.games/game/signal-survival-block-arena) | `https://blockhub.games/game/signal-survival-block-arena` | ✓ Self (`/game/signal-survival-block-arena`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Isometric grid arena arcade survival game with 180 words of unique descriptive prose, evasive movement controls, hazard avoidance tips, and structured FAQ schema. |
 | 8 | [Stickman Bow Clash](https://blockhub.games/game/stickman-bow-clash) | `https://blockhub.games/game/stickman-bow-clash` | ✓ Self (`/game/stickman-bow-clash`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Physics-driven archery duel game with 186 words of unique descriptive prose, angle and draw tension controls, wind compensation tips, and structured FAQ schema. |
 
----
-
 ### Batch 3 — 2026-10-21
 
 - **Batch Number**: 3
@@ -117,8 +118,6 @@
 | 3 | [Thief Puzzle Long Hand Game](https://blockhub.games/game/thief-puzzle-long-hand-game) | `https://blockhub.games/game/thief-puzzle-long-hand-game` | ✓ Self (`/game/thief-puzzle-long-hand-game`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Comical elastic trajectory logic puzzle with 178 words of unique descriptive prose, flexible arm navigation controls, obstacle avoidance tips, and structured FAQ schema. |
 | 4 | [Wall Rush 3D](https://blockhub.games/game/wall-rush-3d) | `https://blockhub.games/game/wall-rush-3d` | ✓ Self (`/game/wall-rush-3d`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Futuristic high-velocity corridor reflex runner with 176 words of unique descriptive prose, high-speed tunnel steering controls, portal alignment tips, and structured FAQ schema. |
 | 5 | [Soccer Rebound](https://blockhub.games/game/soccer-rebound) | `https://blockhub.games/game/soccer-rebound` | ✓ Self (`/game/soccer-rebound`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Arcade soccer pinball pitch defense challenge with 186 words of unique descriptive prose, precision flipper deflection controls, multi-ball scoring tips, and structured FAQ schema. |
-
----
 
 ### Batch 4 — 2026-10-21
 
@@ -137,8 +136,6 @@
 | 4 | [Noob Save the Village](https://blockhub.games/game/noob-save-the-village) | `https://blockhub.games/game/noob-save-the-village` | ✓ Self (`/game/noob-save-the-village`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Strategic base defense village siege adventure with 192 words of unique descriptive prose, watchtower deployment controls, perimeter defense tips, and structured FAQ schema. |
 | 5 | [Bubble Rush](https://blockhub.games/game/bubble-rush) | `https://blockhub.games/game/bubble-rush` | ✓ Self (`/game/bubble-rush`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Orbital circular bubble matching puzzle with 179 words of unique descriptive prose, rotary aiming controls, cascade detachment tips, and structured FAQ schema. |
 
----
-
 ### Batch 5 — 2026-10-21
 
 - **Batch Number**: 5
@@ -156,14 +153,12 @@
 | 4 | [Last Call: Drunken Boxer](https://blockhub.games/game/last-call-drunken-boxer) | `https://blockhub.games/game/last-call-drunken-boxer` | ✓ Self (`/game/last-call-drunken-boxer`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Ragdoll momentum saloon boxing duel with 183 words of unique descriptive prose, swaying stance controls, counter-punch timing tips, and structured FAQ schema. |
 | 5 | [Steal My Egg](https://blockhub.games/game/steal-my-egg) | `https://blockhub.games/game/steal-my-egg` | ✓ Self (`/game/steal-my-egg`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Prehistoric stealth egg heist escape runner with 187 words of unique descriptive prose, agile vaulting controls, beast evasion tips, and structured FAQ schema. |
 
----
-
 ### Batch 6 — 2026-10-21
 
 - **Batch Number**: 6
 - **Date Selected**: 2026-10-21
 - **URLs Count**: 5
-- **Batch Submission Status**: `Pending submission`
+- **Batch Submission Status**: `Indexed`
 
 #### Recommended Games Table
 
@@ -175,11 +170,29 @@
 | 4 | [Funny Gummy Characters](https://blockhub.games/game/funny-gummy-characters) | `https://blockhub.games/game/funny-gummy-characters` | ✓ Self (`/game/funny-gummy-characters`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Interactive physics sandbox deformation game with 187 words of unique descriptive prose, elastic drag-and-release controls, contortion tips, and structured FAQ schema. |
 | 5 | [Chubby Duck Offroad](https://blockhub.games/game/chubby-duck-offroad) | `https://blockhub.games/game/chubby-duck-offroad` | ✓ Self (`/game/chubby-duck-offroad`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Physics-driven downhill momentum slope runner with 193 words of unique descriptive prose, aerodynamic rotation controls, landing alignment tips, and structured FAQ schema. |
 
+### Batch 7 — 2026-10-22
+
+- **Batch Number**: 7
+- **Date Selected**: 2026-10-22
+- **URLs Count**: 5
+- **Batch Submission Status**: `Pending submission`
+
+#### Recommended Games Table
+
+| Rank | Game Name | Full Production URL | Canonical Verified | In Sitemap | Indexability | Selection Reason |
+|---|---|---|---|---|---|---|
+| 1 | [Curve Master Football](https://blockhub.games/game/curve-master-football) | `https://blockhub.games/game/curve-master-football` | ✓ Self (`/game/curve-master-football`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Swerving free kick physics simulator with draw-trajectory controls, slow-motion replays, 300+ stages, and structured FAQ schema to directly clear GSC noindex exclusion. |
+| 2 | [Last Garage: Zombie Road](https://blockhub.games/game/last-garage-zombie-road) | `https://blockhub.games/game/last-garage-zombie-road` | ✓ Self (`/game/last-garage-zombie-road`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Vehicular survival escape runner with 200 words of bespoke narrative prose, garage upgrade mechanics, and explicit controls to clear Crawled - currently not indexed warning. |
+| 3 | [URBAN JUMP](https://blockhub.games/game/urban-jump) | `https://blockhub.games/game/urban-jump` | ✓ Self (`/game/urban-jump`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Precision vertical rooftop platformer with dynamic wall-kick momentum, obstacle avoidance tips, and structured FAQ schema to validate newly upgraded editorial content. |
+| 4 | [Mahjong Master Tile Sort and Match](https://blockhub.games/game/mahjong-master-tile-sort-and-match) | `https://blockhub.games/game/mahjong-master-tile-sort-and-match` | ✓ Self (`/game/mahjong-master-tile-sort-and-match`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Traditional multi-layer pyramid solitaire puzzle with unobstructed edge-pairing rules, strategic planning tips, and complete schema to clear pre-overhaul crawl status. |
+| 5 | [Stairs Races for 2 Players](https://blockhub.games/game/stairs-races-for-2-players) | `https://blockhub.games/game/stairs-races-for-2-players` | ✓ Self (`/game/stairs-races-for-2-players`) | ✓ Yes (`sitemap-games.xml`) | `index, follow` | Head-to-head 1v1 same-screen staircase builder with dual WASD and arrow key split controls, verified feed facts, and zero duplicate text risks. |
+
+---
+
 #### Verification & Quality Gates
 
-- **Production HTML Verified**: All 38 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
-- **Sitemap Verified**: All 38 URLs verified present in `public/sitemap-games.xml`.
-- **Live Status**: All 38 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
-- **Word Counts**: Word counts match `reports/passed-games.csv` exactly.
+- **Production HTML Verified**: All 43 URLs confirmed `index, follow` in static builds with self-referencing canonical tags.
+- **Sitemap Verified**: All 43 URLs verified present in `public/sitemap-games.xml`.
+- **Live Status**: All 43 URLs confirmed in `PASS_LIVE` status (0 scheduled or noindex games).
 - **Factual Integrity**: Selection reasons describe concrete game mechanics with 0 references to unverifiable plays, ratings, search volume, or competition claims.
-- **Duplicate Prevention**: Batches 1–5 marked `Indexed`; Batch 6 introduces 5 fresh indexable titles across diverse genres (Puzzle, Shooting, Adventure, Action, Sports).
+- **Duplicate Prevention**: Batches 1–6 marked `Indexed`; Batch 7 introduces 5 fresh indexable titles specifically targeting GSC un-indexed warnings.

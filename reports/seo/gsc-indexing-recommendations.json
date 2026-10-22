@@ -1,9 +1,9 @@
 {
   "metadata": {
     "site": "https://blockhub.games",
-    "lastUpdated": "2026-10-21",
-    "totalBatches": 6,
-    "totalUrlsRecommended": 38,
+    "lastUpdated": "2026-10-22",
+    "totalBatches": 7,
+    "totalUrlsRecommended": 43,
     "policy": "Permanent duplicate prevention. URLs recommended in any historical batch are permanently excluded from future recommendations. Only indexable PASS_LIVE games verified against built HTML and sitemap are included."
   },
   "cumulativeUrls": [
@@ -277,7 +277,7 @@
       "url": "https://blockhub.games/game/tank-push",
       "batch": 6,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "catchfish-fishing-master",
@@ -285,7 +285,7 @@
       "url": "https://blockhub.games/game/catchfish-fishing-master",
       "batch": 6,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "goblox-grow-your-empire",
@@ -293,7 +293,7 @@
       "url": "https://blockhub.games/game/goblox-grow-your-empire",
       "batch": 6,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "funny-gummy-characters",
@@ -301,7 +301,7 @@
       "url": "https://blockhub.games/game/funny-gummy-characters",
       "batch": 6,
       "dateRecommended": "2026-10-21",
-      "status": "Pending submission"
+      "status": "Indexed"
     },
     {
       "slug": "chubby-duck-offroad",
@@ -309,6 +309,46 @@
       "url": "https://blockhub.games/game/chubby-duck-offroad",
       "batch": 6,
       "dateRecommended": "2026-10-21",
+      "status": "Indexed"
+    },
+    {
+      "slug": "curve-master-football",
+      "title": "Curve Master Football",
+      "url": "https://blockhub.games/game/curve-master-football",
+      "batch": 7,
+      "dateRecommended": "2026-10-22",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "last-garage-zombie-road",
+      "title": "Last Garage: Zombie Road",
+      "url": "https://blockhub.games/game/last-garage-zombie-road",
+      "batch": 7,
+      "dateRecommended": "2026-10-22",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "urban-jump",
+      "title": "URBAN JUMP",
+      "url": "https://blockhub.games/game/urban-jump",
+      "batch": 7,
+      "dateRecommended": "2026-10-22",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "mahjong-master-tile-sort-and-match",
+      "title": "Mahjong Master Tile Sort and Match",
+      "url": "https://blockhub.games/game/mahjong-master-tile-sort-and-match",
+      "batch": 7,
+      "dateRecommended": "2026-10-22",
+      "status": "Pending submission"
+    },
+    {
+      "slug": "stairs-races-for-2-players",
+      "title": "Stairs Races for 2 Players",
+      "url": "https://blockhub.games/game/stairs-races-for-2-players",
+      "batch": 7,
+      "dateRecommended": "2026-10-22",
       "status": "Pending submission"
     }
   ],
@@ -720,7 +760,7 @@
       "batchNumber": 6,
       "dateSelected": "2026-10-21",
       "urlsCount": 5,
-      "batchSubmissionStatus": "Pending submission",
+      "batchSubmissionStatus": "Indexed",
       "recommendations": [
         {
           "rank": 1,
@@ -776,6 +816,69 @@
           "robotsMeta": "index, follow",
           "wordCount": 193,
           "selectionReason": "Physics-driven downhill momentum slope runner with 193 words of unique descriptive prose, aerodynamic rotation controls, landing alignment tips, and structured FAQ schema."
+        }
+      ]
+    },
+    {
+      "batchNumber": 7,
+      "dateSelected": "2026-10-22",
+      "urlsCount": 5,
+      "batchSubmissionStatus": "Pending submission",
+      "recommendations": [
+        {
+          "rank": 1,
+          "slug": "curve-master-football",
+          "title": "Curve Master Football",
+          "url": "https://blockhub.games/game/curve-master-football",
+          "canonical": "https://blockhub.games/game/curve-master-football",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 114,
+          "selectionReason": "Swerving free kick physics simulator with draw-trajectory controls, slow-motion replays, 300+ stages, and structured FAQ schema to directly clear GSC noindex exclusion."
+        },
+        {
+          "rank": 2,
+          "slug": "last-garage-zombie-road",
+          "title": "Last Garage: Zombie Road",
+          "url": "https://blockhub.games/game/last-garage-zombie-road",
+          "canonical": "https://blockhub.games/game/last-garage-zombie-road",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 200,
+          "selectionReason": "Vehicular survival escape runner with 200 words of bespoke narrative prose, garage upgrade mechanics, and explicit controls to clear Crawled - currently not indexed warning."
+        },
+        {
+          "rank": 3,
+          "slug": "urban-jump",
+          "title": "URBAN JUMP",
+          "url": "https://blockhub.games/game/urban-jump",
+          "canonical": "https://blockhub.games/game/urban-jump",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 178,
+          "selectionReason": "Precision vertical rooftop platformer with dynamic wall-kick momentum, obstacle avoidance tips, and structured FAQ schema to validate newly upgraded editorial content."
+        },
+        {
+          "rank": 4,
+          "slug": "mahjong-master-tile-sort-and-match",
+          "title": "Mahjong Master Tile Sort and Match",
+          "url": "https://blockhub.games/game/mahjong-master-tile-sort-and-match",
+          "canonical": "https://blockhub.games/game/mahjong-master-tile-sort-and-match",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 184,
+          "selectionReason": "Traditional multi-layer pyramid solitaire puzzle with unobstructed edge-pairing rules, strategic planning tips, and complete schema to clear pre-overhaul crawl status."
+        },
+        {
+          "rank": 5,
+          "slug": "stairs-races-for-2-players",
+          "title": "Stairs Races for 2 Players",
+          "url": "https://blockhub.games/game/stairs-races-for-2-players",
+          "canonical": "https://blockhub.games/game/stairs-races-for-2-players",
+          "inSitemap": true,
+          "robotsMeta": "index, follow",
+          "wordCount": 123,
+          "selectionReason": "Head-to-head 1v1 same-screen staircase builder with dual WASD and arrow key split controls, verified feed facts, and zero duplicate text risks."
         }
       ]
     }
