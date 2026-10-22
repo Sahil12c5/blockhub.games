@@ -3,6 +3,18 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-22 19:20:00] Google Trends Keyword Optimization in Global Layout Metadata
+
+### Summary of Changes
+- **Google Trends Data Integration (`app/layout.js`)**:
+  - Filtered and ingested high-volume search queries and breakout search interests from Google Trends data.
+  - Eliminated duplicates and replaced generic terms with top-performing search queries:
+    - High-volume global keywords (`games in browser`, `best browser games`, `best free online games`, `best free browser games`, `play free online games`, `play games online free`).
+    - Device & intent-targeted keywords (`browser games for pc`, `free online games for pc`, `online pc games free`, `web browser games`).
+    - Social & multiplayer intent (`browser multiplayer games`, `free multiplayer games`, `games to play with friends online`).
+    - Core genre & accessibility keywords (`unblocked games`, `car games`, `action games`, `HTML5 games`, `instant games`, `online arcade games`, `blockhub games`).
+
+---
 ## [2026-10-22 19:05:00] Deployment of Dynamic SEO Keywords for Global, Category, and Game Pages
 
 ### Summary of Changes
