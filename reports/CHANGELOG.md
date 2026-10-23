@@ -3,6 +3,31 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-24 00:46:00] Ingested Low-Competition, High-Volume Google Trends Keywords into Global Metadata
+
+### Summary of Changes
+- **Low-Competition & High-Volume SEO Keywords Added (`app/layout.js`)**:
+  - Ingested 17 vetted high-volume, low-difficulty search queries identified via Google Trends:
+    - Retro & arcade growth queries: `play retro games online` (+70% breakout growth), `retro games online` (+20% growth).
+    - Long-tail intent queries: `free games to play online`, `free online games to play`, `games to play online` (+3% growth), `online pc games`.
+    - Genre-specific long-tail queries: `online car racing games` (+4% growth), `car games online`, `online car games`, `multiplayer games online`.
+    - Classroom / school intent queries: `classroom games online` (+5% growth).
+    - Alternative portal & nostalgia queries: `crazy games online`, `poki games online` (+20% growth), `poki online games` (+20% growth), `poki games` (+20% growth), `friv games` (+20% growth), `y8 games` (+7% growth).
+  - AdSense Safety Check: Filtered out all casino/betting queries (`stake.com`, `online casino`, etc.) to protect monetization.
+  - Catalog Grounding: Confirmed all keywords reflect available genres and categories on BlockHub.games.
+
+---
+## [2026-10-24 00:26:00] Audited & Pruned Non-Catalog Game-Specific Keywords from Global Metadata
+
+### Summary of Changes
+- **Factual Grounding & SEO Integrity Audit (`app/layout.js`)**:
+  - Audited all keywords against the active 400-game catalog in `data/games.js`.
+  - Removed 13 game-specific keywords for games not currently available on the platform:
+    - `1v1`, `endacopia`, `level devil unblocked 76`, `drive mad unblocked`, `smash karts unblocked`, `blocky blast puzzle no download`, `retro bowl unblocked 76`, `voxiom io unblocked`, `bloxd io unblocked`, `block blast unblocked games`, `polytrack unblocked`, `cookie clicker unblocked`, `iron snout unblocked`.
+  - Retained all high-intent broad genre, multiplayer/2-player, social, and unblocked portal search terms (`action games online`, `github io unblocked games`, `unblocked games premium`, etc.).
+  - Note: Available games automatically receive accurate, dynamic game-specific keywords on their respective individual `/game/[slug]` pages.
+
+---
 ## [2026-10-24 00:17:00] Expanded Unblocked & Multiplayer SEO Keywords in Global Layout Metadata
 
 ### Summary of Changes
