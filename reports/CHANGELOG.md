@@ -3,6 +3,19 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-24 00:17:00] Expanded Unblocked & Multiplayer SEO Keywords in Global Layout Metadata
+
+### Summary of Changes
+- **Global Metadata Keywords (`app/layout.js`)**:
+  - Added high-intent unblocked game search queries:
+    - Competitor & unblocked portal queries: `poki games unblocked`, `poki unblocked games`, `github io unblocked games`, `unblocked games premium`.
+    - Specific high-volume unblocked game queries: `level devil unblocked 76`, `drive mad unblocked`, `smash karts unblocked`, `blocky blast puzzle no download`, `retro bowl unblocked 76`, `voxiom io unblocked`, `bloxd io unblocked`, `block blast unblocked games`, `polytrack unblocked`, `cookie clicker unblocked`, `iron snout unblocked`, `action games online`.
+  - Added high-volume multiplayer, 2-player, and social browser game search queries:
+    - 2-Player queries: `online 2 player games free`, `2 player games free`, `free two player games online`, `free two player games`, `best 2 player games online`, `fun 2 player games online`.
+    - Multiplayer & friends queries: `multiplayer games fun`, `best online games to play with friends`, `fun online multiplayer games`, `best games to play with friends online`, `best free games to play with friends`, `fun free multiplayer games`, `best online games with friends`, `fun browser games to play with friends`, `fun free games to play with friends`, `best browser games to play with friends`, `best free online games to play with friends`.
+    - Single-player & general browser gameplay queries: `funnest browser games`, `fun websites with games`, `fun flash games`, `single player games free`, `single player game online`, `good games to play online`, `best online games for adults`, `fun internet games`.
+
+---
 ## [2026-10-23 01:50:00] Expanded Multi-Language & Broad-Intent Keywords in Global Layout Metadata
 
 ### Summary of Changes
