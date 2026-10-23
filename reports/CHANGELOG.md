@@ -3,6 +3,22 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-24 00:54:00] Distributed Targeted SEO Keywords to Categories and Hub Pages
+
+### Summary of Changes
+- **Category Keywords Enriched (`data/categories.js`)**:
+  - **Racing**: Added high-intent search terms (`car games online`, `online car games`, `car game online`, `free car games online`).
+  - **Multiplayer**: Ingested high-volume 2-player and co-op keywords (`multiplayer games online`, `multiplayer games fun`, `online 2 player games free`, `2 player games free`, `free two player games online`, `free two player games`, `best 2 player games online`, `fun 2 player games online`, `best online games to play with friends`, `fun online multiplayer games`, `best games to play with friends online`, `best free games to play with friends`, `fun free multiplayer games`).
+  - **Arcade**: Added breakout retro search terms (`play retro games online`, `fun flash games`).
+- **Hub Pages SEO Keyword Infrastructure (`data/hubs.js` & `app/tag/[tag]/page.js`)**:
+  - Added dedicated `seoKeywords` arrays across all 9 topic hubs in `data/hubs.js`:
+    - `car-parking`: `car parking games`, `free car parking games online`, `car games online`, `online car games`, `car simulator online`, `parking jam games`, `unblocked car parking games`, `precision driving games`.
+    - `truck-driving`: `truck driving games`, `heavy cargo simulator`, `free truck games online`, `semi truck games`, `truck simulator online`, `driving games online`.
+    - `2-player`: `2 player games free`, `online 2 player games free`, `free two player games online`, `best 2 player games online`, `fun 2 player games online`, `2 player games unblocked`, `multiplayer games fun`.
+    - `stickman`, `bubble-shooter`, `obby`, `zombie`, `football-soccer`, `halloween`: Full targeted query arrays matching player intent.
+  - Updated `generateMetadata` in `app/tag/[tag]/page.js` to dynamically inject `hub.seoKeywords` into the HTML `<head>`.
+
+---
 ## [2026-10-24 00:46:00] Ingested Low-Competition, High-Volume Google Trends Keywords into Global Metadata
 
 ### Summary of Changes

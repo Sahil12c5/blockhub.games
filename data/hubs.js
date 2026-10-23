@@ -17,6 +17,16 @@ From classic parallel parking trials to modern parking jam puzzle challenges, th
 
 All car parking games on BlockHub.games feature responsive keyboard and touch controls, multiple camera perspectives (including interior cockpit and top-down overhead angles), and smooth browser rendering without requiring downloads or installations.`,
     keywords: ["parking", "park", "valet"],
+    seoKeywords: [
+      "car parking games",
+      "free car parking games online",
+      "car games online",
+      "online car games",
+      "car simulator online",
+      "parking jam games",
+      "unblocked car parking games",
+      "precision driving games",
+    ],
     faq: [
       {
         q: "What makes car parking games different from standard racing games?",
@@ -45,6 +55,15 @@ Across diverse highway landscapes, treacherous mountain switchbacks, and crowded
 
 BlockHub.games offers a wide variety of free truck driving simulations featuring detailed vehicle interiors, authentic diesel engine acoustics, dynamic day-night cycles, and realistic suspension physics. Enjoy instant browser play on computer or mobile devices without installing any software.`,
     keywords: ["truck", "cargo", "tanker", "trailer", "semi", "lorry", "hauler"],
+    seoKeywords: [
+      "truck driving games",
+      "heavy cargo simulator",
+      "free truck games online",
+      "semi truck games",
+      "truck simulator online",
+      "driving games online",
+      "18 wheeler games",
+    ],
     faq: [
       {
         q: "How does handling an 18-wheeler truck differ from driving a standard car?",
@@ -73,6 +92,15 @@ Whether you are engaging in high-stakes stickman archery showdowns, brawling thr
 
 Explore our curated collection of free stickman titles on BlockHub.games. Enjoy fast loading times, zero barrier to entry, smooth frame rates across desktop and mobile browsers, and hours of entertaining combat.`,
     keywords: ["stickman", "stick "],
+    seoKeywords: [
+      "stickman games online",
+      "free stickman games",
+      "stickman games unblocked",
+      "best stickman games",
+      "stickman archery games",
+      "stickman fighting games",
+      "ragdoll stickman games",
+    ],
     faq: [
       {
         q: "Why are stickman games so popular on web portals?",
@@ -101,6 +129,14 @@ The true strategic depth of bubble shooters lies in creating cascading drops: by
 
 BlockHub.games features an array of classic arcade bubble shooters, modern adventure variants with power-ups and explosive bomb orbs, and relaxing puzzle themes. Enjoy smooth trajectory physics on your browser across mobile and PC devices completely free.`,
     keywords: ["bubble", "bubbles"],
+    seoKeywords: [
+      "bubble shooter online",
+      "free bubble shooter games",
+      "classic bubble shooter",
+      "bubble pop games",
+      "bubble games free no download",
+      "bubble shooter unblocked",
+    ],
     faq: [
       {
         q: "What is the best strategy to get a high score in bubble shooter games?",
@@ -129,6 +165,19 @@ From hilarious ragdoll football matches and split-screen kart racing to tactical
 
 Explore dozens of unblocked two-player titles on BlockHub.games. Every title is 100% free to play directly in your web browser with no downloads, accounts, or controller setups required.`,
     keywords: ["2-player", "2 player", "two player", "for two"],
+    seoKeywords: [
+      "2 player games free",
+      "online 2 player games free",
+      "free two player games online",
+      "free two player games",
+      "best 2 player games online",
+      "fun 2 player games online",
+      "2 player games unblocked",
+      "two player games",
+      "shared keyboard games",
+      "multiplayer games fun",
+      "best games to play with friends online",
+    ],
     faq: [
       {
         q: "How do 2-player games work on a single computer?",
@@ -157,6 +206,15 @@ Success in obby games rewards spatial precision, rhythmic jumping, momentum cont
 
 Jump into the thrill of 3D and 2D obby obstacle courses on BlockHub.games. Featuring lightweight WebGL graphics, instantaneous respawns upon falling, and full compatibility across computer keyboards and mobile touchscreens.`,
     keywords: ["obby", "parkour"],
+    seoKeywords: [
+      "obby games online",
+      "parkour games online",
+      "free obby games",
+      "obstacle course games",
+      "tower jump games",
+      "obby games unblocked",
+      "3D obby browser games",
+    ],
     faq: [
       {
         q: "What does the term 'Obby' mean in gaming?",
@@ -185,6 +243,14 @@ From tactical first-person shooters and sniper defense towers to top-down twin-s
 
 Experience high-octane zombie survival on BlockHub.games. With responsive 3D graphics, atmospheric audio design, and zero downloads required, you can jump straight into the apocalypse on desktop, Chromebook, or mobile.`,
     keywords: ["zombie", "undead"],
+    seoKeywords: [
+      "zombie games online",
+      "free zombie games",
+      "zombie survival games",
+      "zombie shooter online",
+      "undead defense games",
+      "zombie games unblocked",
+    ],
     faq: [
       {
         q: "What is the key to surviving wave-based zombie defense games?",
@@ -213,6 +279,15 @@ Mastering the beautiful game online challenges your timing, curve trajectory, an
 
 Whether you have three minutes for a dramatic penalty shootout or an afternoon to conquer a multi-round world cup bracket, BlockHub.games has you covered with instant, responsive free football games on all modern devices.`,
     keywords: ["football", "soccer", "penalty"],
+    seoKeywords: [
+      "football games online for free",
+      "soccer games online free",
+      "free online soccer games",
+      "penalty shootout online",
+      "world cup games online",
+      "free kick simulator",
+      "sports games online",
+    ],
     faq: [
       {
         q: "How do I curve free kicks in online soccer games?",
@@ -241,6 +316,14 @@ Rather than sheer terror, browser Halloween games emphasize festive seasonal cha
 
 Celebrate the spooky spirit year-round on BlockHub.games. Our Halloween games library is 100% free to play with zero downloads needed, offering wholesome spooky entertainment for players of all ages on desktop and mobile.`,
     keywords: ["halloween", "spooky", "ghost", "witch", "pumpkin", "horror", "haunted", "graveyard", "skeleton", "vampire", "dracula", "frankenstein"],
+    seoKeywords: [
+      "halloween games online",
+      "spooky games free",
+      "horror games browser",
+      "scary games unblocked",
+      "haunted house games",
+      "pumpkin games online",
+    ],
     faq: [
       {
         q: "Are Halloween games on BlockHub.games family-friendly?",

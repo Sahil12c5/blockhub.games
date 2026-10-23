@@ -42,6 +42,11 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
+    keywords: hub.seoKeywords || [
+      `${hub.name.toLowerCase()} games`,
+      `free ${hub.name.toLowerCase()} games`,
+      `play ${hub.name.toLowerCase()} games online`,
+    ],
     alternates: {
       canonical: `https://blockhub.games/tag/${hub.slug}`,
     },
