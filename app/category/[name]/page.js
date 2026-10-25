@@ -35,16 +35,11 @@ export async function generateMetadata({ params }) {
   }
 
   const title = `Free ${category.name} Games Online`;
-  const description = `Play the best free ${category.name} games unblocked in your browser. Fast HTML5 web games with zero downloads.`;
+  const description = category.metaDescription || `Play the best free ${category.name} games online in your browser. Fast HTML5 web games with zero downloads.`;
 
   return {
     title,
     description,
-    keywords: category.keywords || [
-      `${category.name.toLowerCase()} games`,
-      `free ${category.name.toLowerCase()} games`,
-      `play ${category.name.toLowerCase()} games online`,
-    ],
     alternates: {
       canonical: `https://blockhub.games/category/${category.slug}`,
     },
@@ -138,6 +133,11 @@ export default async function CategoryPage({ params }) {
 
       {/* Games Grid for This Category with Crawlable Pagination */}
       <section className="space-y-4">
+        {category.introParagraph && (
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-900/40 p-4 rounded-xl border border-slate-800/80">
+            {category.introParagraph}
+          </p>
+        )}
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-black text-white">
             All {category.name} Games

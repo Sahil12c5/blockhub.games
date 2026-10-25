@@ -87,6 +87,11 @@ export default function HomePage() {
       </div>
 
 
+      {/* Visible Curated SEO Keyword Intro */}
+      <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-900/40 p-4 rounded-xl border border-slate-800/80">
+        Welcome to our gaming catalog where you can discover hundreds of free online games across racing, shooting, puzzle, and sports genres. Our lightweight browser games load directly on your desktop or mobile screen with no download required, ensuring seamless entertainment anytime you want a quick play session. Browse our curated library and jump straight into your next favorite title.
+      </p>
+
       {/* Category Chips & Filterable Paginated Game Grid */}
       <HomeGameExplorer
         initialGames={initialCards}

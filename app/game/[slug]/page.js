@@ -125,7 +125,6 @@ export async function generateMetadata({ params }) {
   return {
     title: { absolute: finalTitle },
     description,
-    keywords,
     robots: (game.content_ready && game.indexable)
       ? {
           index: true,
@@ -172,6 +171,70 @@ export async function generateMetadata({ params }) {
   };
 }
 
+
+function getBestFitHub(game) {
+  if (!game) return "cat:action";
+  const title = (game.title || "").toLowerCase();
+  const subgenre = (game.subgenre || "").toLowerCase();
+  const desc = (game.description || "").toLowerCase();
+
+  if (/\b(2\s*player|2\s*players|two\s*player|two\s*players|for\s*2\s*players|for\s*two\s*players|2-player)\b/i.test(title)) return "2-player";
+  if (/\b(tanker|tankers|truck|trucks|hauler|haulers|semi|18\s*wheeler)\b/i.test(title)) return "truck-driving";
+  if (/\b(parking|park\b)/i.test(title)) return "car-parking";
+  if (/\b(stickman|stickmen|stick\s+)\b/i.test(title)) return "stickman";
+  if (/\b(bubble|bubbles)\b/i.test(title)) return "bubble-shooter";
+  if (/\b(obby|parkour)\b/i.test(title)) return "obby";
+  if (/\b(zombie|zombies|undead)\b/i.test(title)) return "zombie";
+  if (/\b(soccer|football|penalty|free\s*kick)\b/i.test(title)) return "football-soccer";
+  if (/\b(halloween|spooky|pumpkin|pumpkins)\b/i.test(title)) return "halloween";
+
+  if (["2-player", "truck-driving", "car-parking", "stickman", "bubble-shooter", "obby", "zombie", "football-soccer", "halloween"].includes(subgenre)) {
+    return subgenre;
+  }
+
+  if (/\b(2\s*player|two\s*player|shared\s*keyboard)\b/i.test(desc)) return "2-player";
+  if (/\b(tanker|truck|hauler|semi\s*truck)\b/i.test(desc)) return "truck-driving";
+  if (/\b(parking|park\s+car)\b/i.test(desc)) return "car-parking";
+  if (/\b(stickman|stickmen)\b/i.test(desc)) return "stickman";
+  if (/\b(bubble\s*shooter)\b/i.test(desc)) return "bubble-shooter";
+  if (/\b(parkour|obstacle\s*course|obby)\b/i.test(desc)) return "obby";
+  if (/\b(zombie|undead)\b/i.test(desc)) return "zombie";
+  if (/\b(soccer|football|penalty)\b/i.test(desc)) return "football-soccer";
+  if (/\b(halloween|spooky)\b/i.test(desc)) return "halloween";
+
+  return "cat:" + (game.category || "").toLowerCase();
+}
+
+function getRelatedGamesHeading(game, relatedGames = []) {
+  const hub = getBestFitHub(game);
+  const total = relatedGames.length || 1;
+  const matchCount = relatedGames.filter((r) => getBestFitHub(r) === hub).length;
+  const ratio = matchCount / total;
+
+  if (ratio >= 0.6) {
+    switch (hub) {
+      case "car-parking": return "More free car games online";
+      case "truck-driving": return "More free truck driving games online";
+      case "stickman": return "More free stickman games online";
+      case "bubble-shooter": return "More free bubble shooter games online";
+      case "2-player": return "More free 2 player games online";
+      case "obby": return "More free obby games online";
+      case "zombie": return "More free zombie games online";
+      case "football-soccer": return "More free soccer games online";
+      case "halloween": return "More free Halloween games online";
+      case "cat:action": return "More free action games online";
+      case "cat:racing": return "More free car games online";
+      case "cat:shooting": return "More free shooting games online";
+      case "cat:puzzle": return "More free puzzle games online";
+      case "cat:sports": return "More free sports games online";
+      case "cat:multiplayer": return "More free multiplayer games online";
+      case "cat:adventure": return "More free adventure games online";
+      case "cat:arcade": return "More free arcade games online";
+    }
+  }
+
+  return `More ${game.category} games`;
+}
 export default async function GamePage({ params }) {
   const { slug } = await params;
   const game = getGameBySlug(slug);
@@ -521,7 +584,7 @@ export default async function GamePage({ params }) {
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-black text-white flex items-center gap-2">
             <Gamepad2 className="h-5 w-5 text-emerald-400" />
-            Related {game.category} Games
+            {getRelatedGamesHeading(game, relatedGames)}
           </h2>
           <Link
             href={`/category/${game.category.toLowerCase()}`}

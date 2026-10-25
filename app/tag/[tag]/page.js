@@ -39,14 +39,22 @@ export async function generateMetadata({ params }) {
   const title = `${hub.name} Games - Play Free Online`;
   const description = hub.metaDescription;
 
+  const is2Player = hub.slug === "2-player";
+  const robots = is2Player
+    ? {
+        index: false,
+        follow: true,
+        googleBot: {
+          index: false,
+          follow: true,
+        },
+      }
+    : undefined;
+
   return {
     title,
     description,
-    keywords: hub.seoKeywords || [
-      `${hub.name.toLowerCase()} games`,
-      `free ${hub.name.toLowerCase()} games`,
-      `play ${hub.name.toLowerCase()} games online`,
-    ],
+    ...(robots ? { robots } : {}),
     alternates: {
       canonical: `https://blockhub.games/tag/${hub.slug}`,
     },
@@ -190,6 +198,11 @@ export default async function TagHubPage({ params }) {
 
       {/* Games Grid for This Topic Hub */}
       <section className="space-y-4">
+        {hub.introParagraph && (
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-900/40 p-4 rounded-xl border border-slate-800/80">
+            {hub.introParagraph}
+          </p>
+        )}
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-black text-white">
             All {hub.name} Games ({hubGames.length})

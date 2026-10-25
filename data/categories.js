@@ -1,13 +1,14 @@
 export const categories = [
   {
-    slug: "action",
-    name: "Action",
-    headline: "Fast-Paced Action & Combat Games",
-    description:
-      "Dive into heart-pounding combat, frantic arena battles, and adrenaline-fueled challenges. Our action game collection brings together top browser-based arcade shooters, fighting games, and reflex challenges. Test your timing, master weapon combos, and overcome intense waves of enemies with zero lag and instant loading straight in your browser.",
-    badgeColor: "bg-red-500/20 text-red-400 border-red-500/30",
-    iconName: "Swords",
-    keywords: [
+    "slug": "action",
+    "name": "Action",
+    "headline": "Fast-Paced Action & Combat Games",
+    "description": "Dive into heart-pounding combat",
+    "metaDescription": "Play 50 top action games online free at BlockHub.games. Master martial arts brawlers, arena battles, and reflex challenges with zero installations.",
+    "introParagraph": "Unleash rapid hand strikes and tactical moves across our roster of 50 action games online free on BlockHub.games. From one-on-one martial arts brawls to crowded stickman runs, these combat games demand sharp reflex timing and keen spacing. Dodge incoming hazards, execute fluid attack combinations, and clear hostile arenas in fast arcade action games that launch instantly in your web browser.",
+    "badgeColor": "bg-red-500/20 text-red-400 border-red-500/30",
+    "iconName": "Swords",
+    "keywords": [
       "best action games",
       "action games online free",
       "free online action games",
@@ -28,18 +29,19 @@ export const categories = [
       "action games no download",
       "combat games",
       "fighting games online",
-      "arcade action games",
-    ],
+      "arcade action games"
+    ]
   },
   {
-    slug: "racing",
-    name: "Racing",
-    headline: "High-Speed 3D Car Racing & Drift Games",
-    description:
-      "Hit full throttle across dynamic city tracks, extreme stunt ramps, and off-road dirt courses. From realistic supercar simulators to arcade drift challenges, our racing category puts your steering precision and nitrous timing to the ultimate test. Customize your ride, burn rubber, and dominate global leaderboards directly in your web browser.",
-    badgeColor: "bg-amber-500/20 text-amber-400 border-amber-500/30",
-    iconName: "Car",
-    keywords: [
+    "slug": "racing",
+    "name": "Racing",
+    "headline": "High-Speed 3D Car Racing & Drift Games",
+    "description": "Hit full throttle across dynamic city tracks",
+    "metaDescription": "Race full throttle across 49 car games online on BlockHub.games. Master high-speed corners, highway tracks, and obstacle courses with zero downloads.",
+    "introParagraph": "Hit full throttle across our diverse lineup of 49 car games online. Whether steering sedans around sharp corners or guiding heavy trucks over rough mountain roads, these driving games online test your vehicle control. Overtake rivals, dodge roadside barriers, and post fast lap times in competitive online car racing games built for instant browser play.",
+    "badgeColor": "bg-amber-500/20 text-amber-400 border-amber-500/30",
+    "iconName": "Car",
+    "keywords": [
       "online racing car games",
       "car racing online",
       "racing car games online",
@@ -65,18 +67,19 @@ export const categories = [
       "drag racing games",
       "3D car games",
       "unblocked car games",
-      "car simulator online",
-    ],
+      "car simulator online"
+    ]
   },
   {
-    slug: "shooting",
-    name: "Shooting",
-    headline: "First-Person Shooters, Sniper & Gun Games",
-    description:
-      "Lock and load in competitive tactical shooters, sniper battlefields, and survival firearm arenas. Whether executing precision long-range headshots or clearing tactical corridors with shotguns, our FPS and shooting titles deliver crisp hit detection, realistic ballistics, and responsive mouse aiming on any device.",
-    badgeColor: "bg-orange-500/20 text-orange-400 border-orange-500/30",
-    iconName: "Target",
-    keywords: [
+    "slug": "shooting",
+    "name": "Shooting",
+    "headline": "First-Person Shooters, Sniper & Gun Games",
+    "description": "Lock and load in competitive tactical shooters",
+    "metaDescription": "Engage hostile targets in 50 shooting games online for free on BlockHub.games. Master tactical crosshairs, sniper rifles, and combat arenas free.",
+    "introParagraph": "Test your aim and crosshair discipline across 50 shooting games online for free. Whether lining up long-distance targets in fps games online or clearing indoor hallways with shotguns, steady mouse control is crucial. Manage ammunition, take cover from return fire, and defeat advancing enemies in tactical gun games online that stream smoothly without extra files.",
+    "badgeColor": "bg-orange-500/20 text-orange-400 border-orange-500/30",
+    "iconName": "Target",
+    "keywords": [
       "shooting games for free online",
       "online shooting games for free",
       "shooting games online for free",
@@ -99,18 +102,19 @@ export const categories = [
       "shooting games unblocked",
       "first person shooter browser",
       "free shooting games",
-      "online gun battle",
-    ],
+      "online gun battle"
+    ]
   },
   {
-    slug: "puzzle",
-    name: "Puzzle",
-    headline: "Brain-Teasers, Logic & Strategy Puzzle Games",
-    description:
-      "Stimulate your mind with clever logic puzzles, physics-based contraptions, escape rooms, and strategic grid challenges. Our puzzle games are designed to provide relaxing yet deeply satisfying mental workouts for players of all ages, with progressive difficulty curves and hundreds of unique levels.",
-    badgeColor: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-    iconName: "Brain",
-    keywords: [
+    "slug": "puzzle",
+    "name": "Puzzle",
+    "headline": "Brain-Teasers, Logic & Strategy Puzzle Games",
+    "description": "Stimulate your mind with clever logic puzzles",
+    "metaDescription": "Exercise your mind with 50 puzzle games online for free at BlockHub.games. Solve mechanical brain-teasers, tile matches, and spatial logic challenges.",
+    "introParagraph": "Exercise your analytical thinking across 50 puzzle games online for free on BlockHub.games. From calculating projectile trajectories in physics games to matching colored liquids in test tubes, these challenges reward strategic planning. Connect matching tiles, untangle complex mechanical grids, and solve tricky logic brain teasers without any time pressure or downloads.",
+    "badgeColor": "bg-purple-500/20 text-purple-400 border-purple-500/30",
+    "iconName": "Brain",
+    "keywords": [
       "puzzle games online for free",
       "puzzle games for free",
       "free online puzzle games no download",
@@ -131,18 +135,19 @@ export const categories = [
       "puzzle games unblocked",
       "logic puzzles",
       "mind games online",
-      "escape games online",
-    ],
+      "escape games online"
+    ]
   },
   {
-    slug: "sports",
-    name: "Sports",
-    headline: "Soccer, Basketball & Competitive Sports Games",
-    description:
-      "Take the court, pitch, and field in high-energy sports showdowns. From soccer penalty kick duels and 3-point basketball shootouts to tennis, golf, and extreme skateboarding, our sports games deliver arcade fun and responsive physics-based competition for every sports fanatic.",
-    badgeColor: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    iconName: "Trophy",
-    keywords: [
+    "slug": "sports",
+    "name": "Sports",
+    "headline": "Soccer, Basketball & Competitive Sports Games",
+    "description": "Take the court",
+    "metaDescription": "Compete in 50 free sports games online at BlockHub.games. Score goals, sink basketball jump shots, and master realistic athletics with zero downloads.",
+    "introParagraph": "Step into competitive athletic showdowns across 50 sports games online free to play. Sink jump shots from downtown, bend curling soccer free kicks past defenders, and balance bicycles on their rear tires. Master responsive timing and intuitive flick controls in free sports games online that bring field and court excitement directly to your screen.",
+    "badgeColor": "bg-blue-500/20 text-blue-400 border-blue-500/30",
+    "iconName": "Trophy",
+    "keywords": [
       "football games online for free",
       "sports video games",
       "football games online free",
@@ -163,18 +168,19 @@ export const categories = [
       "free sports games",
       "penalty shootout games",
       "baseball games",
-      "tennis games online",
-    ],
+      "tennis games online"
+    ]
   },
   {
-    slug: "multiplayer",
-    name: "Multiplayer",
-    headline: "Real-Time Online Multiplayer & .io Games",
-    description:
-      "Team up or compete against players worldwide in real-time browser multiplayer games, .io arenas, and cooperative survival lobbies. Jump into instant matchmaking without downloads or installations. Coordinate tactics with friends and battle your way to the top of the global player leaderboards.",
-    badgeColor: "bg-violet-500/20 text-violet-400 border-violet-500/30",
-    iconName: "Users",
-    keywords: [
+    "slug": "multiplayer",
+    "name": "Multiplayer",
+    "headline": "Real-Time Online Multiplayer & .io Games",
+    "description": "Team up or compete against players worldwide in real-time browser multiplayer games",
+    "metaDescription": "Challenge friends across 50 free multiplayer games online at BlockHub.games. Play shared-keyboard matches, split-screen races, and party challenges free.",
+    "introParagraph": "Team up or go head-to-head with friends across 50 multiplayer games online on BlockHub.games. Share a single keyboard for local two-player showdowns featuring obstacle staircase races, reflex slapping bouts, and aerial basketball matches. Enjoy fast-loading matches and seamless split-screen action in free multiplayer games that require no software installation.",
+    "badgeColor": "bg-violet-500/20 text-violet-400 border-violet-500/30",
+    "iconName": "Users",
+    "keywords": [
       "online multiplayer games for free",
       "multiplayer games online for free",
       "multiplayer games for free",
@@ -208,18 +214,19 @@ export const categories = [
       "io games",
       "free io games",
       "co-op games",
-      "multiplayer games unblocked",
-    ],
+      "multiplayer games unblocked"
+    ]
   },
   {
-    slug: "adventure",
-    name: "Adventure",
-    headline: "Exploration, Story & Sandbox Adventure Games",
-    description:
-      "Embark on unforgettable journeys across vast fantasy realms, mysterious dungeons, and futuristic worlds. Gather loot, solve ancient environmental quests, upgrade character abilities, and chart your own path in rich browser adventure and survival sandbox titles.",
-    badgeColor: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
-    iconName: "Compass",
-    keywords: [
+    "slug": "adventure",
+    "name": "Adventure",
+    "headline": "Exploration, Story & Sandbox Adventure Games",
+    "description": "Embark on unforgettable journeys across vast fantasy realms",
+    "metaDescription": "Embark on epic quests across 50 free adventure games online at BlockHub.games. Explore mysterious ruins, navigate platform worlds, and survive perils free.",
+    "introParagraph": "Embark on sweeping quests and perilous journeys across our collection of 50 adventure games online. Explore trap-filled dungeons, traverse floating sky islands, and scavenge survival resources in post-apocalyptic frontiers. Guide brave heroes through environmental hazards in thrilling story and exploration games that stream instantly in your browser.",
+    "badgeColor": "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
+    "iconName": "Compass",
+    "keywords": [
       "adventure game",
       "adventure games online for free",
       "free adventure games online",
@@ -239,18 +246,19 @@ export const categories = [
       "dungeon crawler browser",
       "survival adventure games",
       "point and click adventure",
-      "open world browser games",
-    ],
+      "open world browser games"
+    ]
   },
   {
-    slug: "arcade",
-    name: "Arcade",
-    headline: "Classic Arcade & Casual Skill Games",
-    description:
-      "Quick to learn, impossible to put down. Relive retro arcade nostalgia or enjoy modern casual hit titles with endless runners, hyper-casual tap games, and rhythm platformers. Perfect for quick five-minute gameplay breaks or dedicated high-score marathons.",
-    badgeColor: "bg-pink-500/20 text-pink-400 border-pink-500/30",
-    iconName: "Gamepad2",
-    keywords: [
+    "slug": "arcade",
+    "name": "Arcade",
+    "headline": "Classic Arcade & Casual Skill Games",
+    "description": "Quick to learn",
+    "metaDescription": "Relive classic fun across 51 arcade games online free at BlockHub.games. Enjoy fast reflex trials, retro coin-op challenges, and high-score runs today.",
+    "introParagraph": "Relive classic coin-op excitement with our vibrant roster of 51 arcade games online free to play. Dodge sudden hazards at high velocity, pop descending bubble clusters, and slice flying targets in reflex-testing trials. Experience responsive mouse and keyboard controls in lightweight retro and modern arcade games ready for instant play on any device.",
+    "badgeColor": "bg-pink-500/20 text-pink-400 border-pink-500/30",
+    "iconName": "Gamepad2",
+    "keywords": [
       "play arcade games online",
       "play retro games online",
       "arcade game",
@@ -274,11 +282,12 @@ export const categories = [
       "pixel art games",
       "mini games online",
       "casual games",
-      "skill games",
-    ],
-  },
+      "skill games"
+    ]
+  }
 ];
 
 export function getCategoryBySlug(slug) {
   return categories.find((cat) => cat.slug.toLowerCase() === slug.toLowerCase());
 }
+
