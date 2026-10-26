@@ -22,6 +22,10 @@
 /search-index.json
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+# Service Worker: never cache so updates register immediately
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
 # HTML pages: always revalidate so new deployments never serve stale CSS/JS references
 /*
   Cache-Control: public, max-age=0, must-revalidate

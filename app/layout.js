@@ -196,15 +196,14 @@ export default function RootLayout({ children }) {
           />
         )}
 
-        {/* Monetag MultiTag Ad Script */}
-        <script
-          src="https://quge5.com/88/tag.min.js"
-          data-zone="302449"
-          async
-          data-cfasync="false"
-        />
       </head>
       <body className="min-h-full flex flex-col bg-[#090d16] text-slate-100 selection:bg-emerald-500 selection:text-slate-950 font-sans">
+        {/* Monetag Vignette Ad Script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(s){s.dataset.zone='12130207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`
+          }}
+        />
         <Header />
         <main className="flex-1 w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6">
           {children}
