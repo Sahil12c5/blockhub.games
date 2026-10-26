@@ -63,6 +63,20 @@ export default function GamePlayer({ game }) {
     document.body.classList.add("game-fullscreen-active");
 
     const suppressAds = () => {
+      // 1. Hide any direct element injected into body that is not standard layout
+      if (document.body && document.body.children) {
+        Array.from(document.body.children).forEach((child) => {
+          const tag = child.tagName.toLowerCase();
+          if (tag !== "header" && tag !== "main" && tag !== "footer" && tag !== "script" && !child.hasAttribute("hidden")) {
+            child.style.setProperty("display", "none", "important");
+            child.style.setProperty("visibility", "hidden", "important");
+            child.style.setProperty("opacity", "0", "important");
+            child.style.setProperty("pointer-events", "none", "important");
+          }
+        });
+      }
+
+      // 2. Query specific ad and floating selectors
       const selectors = [
         '[class*="monetag"]',
         '[id*="monetag"]',
@@ -88,17 +102,19 @@ export default function GamePlayer({ game }) {
     suppressAds();
 
     const observer = new MutationObserver((mutations) => {
-      let shouldSuppress = false;
       for (const mutation of mutations) {
         mutation.addedNodes.forEach((node) => {
           if (node.nodeType === Node.ELEMENT_NODE) {
             if (containerRef.current && containerRef.current.contains(node)) return;
-            shouldSuppress = true;
+            const tag = node.tagName.toLowerCase();
+            if (tag !== "header" && tag !== "main" && tag !== "footer" && tag !== "script" && !node.hasAttribute("hidden")) {
+              node.style.setProperty("display", "none", "important");
+              node.style.setProperty("visibility", "hidden", "important");
+              node.style.setProperty("opacity", "0", "important");
+              node.style.setProperty("pointer-events", "none", "important");
+            }
           }
         });
-      }
-      if (shouldSuppress) {
-        suppressAds();
       }
     });
 
