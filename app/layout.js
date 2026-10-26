@@ -198,10 +198,10 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className="min-h-full flex flex-col bg-[#090d16] text-slate-100 selection:bg-emerald-500 selection:text-slate-950 font-sans">
-        {/* Monetag Vignette Ad Script */}
+        {/* Monetag In-Page Push Ad Script */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(s){s.dataset.zone='12130207',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`
+            __html: `(function(s){s.dataset.zone='12130257',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`
           }}
         />
         <Header />
