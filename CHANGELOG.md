@@ -2,6 +2,20 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Targeted SEO & Brand Optimization] - 2026-10-26
+
+### Added
+- **Targeted Category & Hub Keywords**: Appended high-intent keywords to `data/categories.js` (`racing`, `shooting`, `multiplayer`) and `data/hubs.js` (`obby`, `car-parking`, `zombie`, `bubble-shooter`), wired through `generateMetadata` in `app/tag/[tag]/page.js` and `app/category/[name]/page.js` to render `<meta name="keywords">`.
+- **Visible Intro Paragraphs with Internal Links**: Added 7 unique, factual visible introductory paragraphs (40–70 words each) in `data/hubs.js` and `data/categories.js` linking directly to 3 top playable games per hub/category using Next.js `<Link>`.
+- **Targeted Game Keywords Override**: Added `gameSeoOverrides` mapping in `data/games.js` for 8 catalog games (`referee-simulator-3d`, `slingshot-shooting-game`, `cake-sort`, `9-ball-pool-3d`, `godzilla-runner-game`, `embercraft`, `blade-merge`, `collect-brainrot-arena`) and 3 CTR targets (`knightbit-far-lands`, `storm-dash`, `the-zombie-house`), exposing `keywords` in `app/game/[slug]/page.js`.
+- **Global Layout Keywords**: Appended 14 non-duplicate broad search keywords to `metadata.keywords` in `app/layout.js`.
+- **Off-Page SEO & Brand Strategy Plan**: Created `reports/seo/offpage-plan.md` covering brand consistency, Bing/IndexNow verification, platform rosters (YouTube, Pinterest, X, Reddit, Quora), 10 copy templates, anchor distribution, risk policies, and outreach tracking.
+
+### Changed
+- **Hub & Category Titles & Meta Descriptions**: Rewrote `<title>` (<= 60 chars) and meta descriptions (<= 155 chars) for target hubs and categories to naturally integrate primary keywords without hype or unverifiable claims.
+- **Game Titles & Meta Descriptions**: Adjusted meta titles and descriptions for 8 targeted games and 3 CTR targets in `data/games.js` to naturally feature primary keywords.
+- **Brand Schema alternateNames**: Added `alternateName` array `["Block Hub", "BlockHub Games"]` to `WebsiteJsonLd` and `OrganizationJsonLd` in `components/JsonLd.js`.
+
 ## [Unreleased] - 2026-10-26
 
 ### Added

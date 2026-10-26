@@ -60,8 +60,8 @@ export function WebsiteJsonLd({ baseUrl = "https://blockhub.games" }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "BlockHub Games",
-    alternateName: "BlockHub.games",
+    name: "BlockHub",
+    alternateName: ["Block Hub", "BlockHub Games", "BlockHub.games"],
     url: baseUrl,
     potentialAction: {
       "@type": "SearchAction",
@@ -82,7 +82,8 @@ export function OrganizationJsonLd({ baseUrl = "https://blockhub.games" }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "BlockHub Games",
+    name: "BlockHub",
+    alternateName: ["Block Hub", "BlockHub Games"],
     url: baseUrl,
     logo: `${baseUrl}/logo.svg`,
     sameAs: [],

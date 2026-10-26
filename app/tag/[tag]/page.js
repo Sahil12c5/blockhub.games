@@ -36,8 +36,9 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `${hub.name} Games - Play Free Online`;
+  const title = hub.metaTitle || `${hub.name} Games - Play Free Online`;
   const description = hub.metaDescription;
+  const keywords = hub.seoKeywords || hub.keywords;
 
   const is2Player = hub.slug === "2-player";
   const robots = is2Player
@@ -52,8 +53,9 @@ export async function generateMetadata({ params }) {
     : undefined;
 
   return {
-    title,
+    title: { absolute: title },
     description,
+    keywords,
     ...(robots ? { robots } : {}),
     alternates: {
       canonical: `https://blockhub.games/tag/${hub.slug}`,
@@ -70,6 +72,33 @@ export async function generateMetadata({ params }) {
       description,
     },
   };
+}
+
+function renderIntroWithLinks(text) {
+  if (!text) return null;
+  const parts = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(
+      <Link
+        key={match.index}
+        href={match[2]}
+        className="text-emerald-400 hover:text-emerald-300 underline font-medium transition-colors"
+      >
+        {match[1]}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
 }
 
 export default async function TagHubPage({ params }) {
@@ -200,7 +229,7 @@ export default async function TagHubPage({ params }) {
       <section className="space-y-4">
         {hub.introParagraph && (
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-900/40 p-4 rounded-xl border border-slate-800/80">
-            {hub.introParagraph}
+            {renderIntroWithLinks(hub.introParagraph)}
           </p>
         )}
         <div className="flex items-center justify-between">

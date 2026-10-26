@@ -125,6 +125,7 @@ export async function generateMetadata({ params }) {
   return {
     title: { absolute: finalTitle },
     description,
+    keywords,
     robots: (game.content_ready && game.indexable)
       ? {
           index: true,

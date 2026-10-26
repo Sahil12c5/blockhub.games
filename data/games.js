@@ -19609,9 +19609,68 @@ const rawGames = [
   }
 ];
 
+const gameSeoOverrides = {
+  "referee-simulator-3d": {
+    keywords: ["referee simulator online", "referee simulator free", "referee simulator browser"],
+    meta_title: "Referee Simulator Online 3D | BlockHub.games",
+    meta_description: "Take the whistle in referee simulator online. Make pitch calls, check VAR replays, and officiate matches in your browser on BlockHub.games.",
+  },
+  "slingshot-shooting-game": {
+    keywords: ["slingshot game online"],
+    meta_title: "Slingshot Game Online - Target Arcade | BlockHub.games",
+    meta_description: "Pull back and aim in this slingshot game online. Calculate elastic tension, topple stacked target cans, and beat stages on BlockHub.games.",
+  },
+  "cake-sort": {
+    keywords: ["cake sort online"],
+    meta_title: "Cake Sort Online - 3D Color Slice Puzzle | BlockHub.games",
+    meta_description: "Play cake sort online on BlockHub.games. Organize dessert slices by flavor, assemble complete six-slice cakes, and clear the bakery board.",
+  },
+  "9-ball-pool-3d": {
+    keywords: ["9 ball pool unblocked"],
+    meta_title: "9 Ball Pool Unblocked - 3D Billiards | BlockHub.games",
+    meta_description: "Play 9 ball pool unblocked at BlockHub.games. Line up cue sticks, calculate bank angles, and sink numbered billiard balls in order on 3D tables.",
+  },
+  "godzilla-runner-game": {
+    keywords: ["godzilla runner game"],
+    meta_title: "Godzilla Runner Game - City Rampage Run | BlockHub.games",
+    meta_description: "Play Godzilla Runner Game on BlockHub.games. Smash through city streets, leap over hazards, slide under barriers, and survive endless urban runs.",
+  },
+  "embercraft": {
+    keywords: ["embercraft game"],
+    meta_title: "EmberCraft Game - Fiery Mining & Craft | BlockHub.games",
+    meta_description: "Explore the embercraft game on BlockHub.games. Forge gear, build shelters, and mine glowing resources deep inside fiery underworld caverns.",
+  },
+  "blade-merge": {
+    keywords: ["blade merge"],
+    meta_title: "Blade Merge - Combine & Slice Arcade | BlockHub.games",
+    meta_description: "Play blade merge on BlockHub.games. Combine identical swords to forge stronger blades, slice flying targets, and beat fast arcade stages.",
+  },
+  "collect-brainrot-arena": {
+    keywords: ["collect brainrot arena"],
+    meta_title: "Collect Brainrot Arena - Party Action | BlockHub.games",
+    meta_description: "Play collect brainrot arena on BlockHub.games. Gather viral collectible characters, dodge rivals, and out-score opponents in fast party rounds.",
+  },
+  "knightbit-far-lands": {
+    keywords: ["knightbit far lands"],
+    meta_title: "KnightBit: Far Lands - Medieval Combat | BlockHub.games",
+    meta_description: "Play KnightBit: Far Lands free online. Choose Knights or Vikings, capture battle flags, and fight across massive medieval battlefields.",
+  },
+  "storm-dash": {
+    keywords: ["storm dash"],
+    meta_title: "Storm Dash - Fast Tempest Runner Arcade | BlockHub.games",
+    meta_description: "Play Storm Dash free in your browser. Dash through raging windstorms, dodge lightning obstacles, and outrun tempest gusts on BlockHub.games.",
+  },
+  "the-zombie-house": {
+    keywords: ["the zombie house"],
+    meta_title: "The Zombie House - Barricade Defense | BlockHub.games",
+    meta_description: "Play The Zombie House free online. Defend your home against invading undead waves, collect coins, and upgrade survivor barricades.",
+  },
+};
+
 function enrichGame(game) {
   if (!game) return null;
   const enriched = topGamesContent[game.slug];
+  const override = gameSeoOverrides[game.slug] || {};
   if (enriched) {
     const { features, ...cleanGame } = game;
     return {
@@ -19619,6 +19678,8 @@ function enrichGame(game) {
       raw_description: game.description,
       raw_how_to: game.howToPlay,
       ...enriched,
+      ...override,
+      keywords: Array.from(new Set([...(enriched.keywords || []), ...(game.keywords || []), ...(override.keywords || [])])),
       content_ready: true,
       indexable: Boolean(enriched.indexable),
     };
@@ -19628,6 +19689,8 @@ function enrichGame(game) {
     ...cleanGame,
     raw_description: game.description,
     raw_how_to: game.howToPlay,
+    ...override,
+    keywords: Array.from(new Set([...(game.keywords || []), ...(override.keywords || [])])),
     content_ready: false,
     indexable: false,
   };

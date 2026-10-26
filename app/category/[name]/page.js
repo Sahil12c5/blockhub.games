@@ -34,12 +34,14 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const title = `Free ${category.name} Games Online`;
+  const title = category.metaTitle || `Free ${category.name} Games Online`;
   const description = category.metaDescription || `Play the best free ${category.name} games online in your browser. Fast HTML5 web games with zero downloads.`;
+  const keywords = category.keywords;
 
   return {
-    title,
+    title: { absolute: title },
     description,
+    keywords,
     alternates: {
       canonical: `https://blockhub.games/category/${category.slug}`,
     },
@@ -50,6 +52,33 @@ export async function generateMetadata({ params }) {
       type: "website",
     },
   };
+}
+
+function renderIntroWithLinks(text) {
+  if (!text) return null;
+  const parts = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(
+      <Link
+        key={match.index}
+        href={match[2]}
+        className="text-emerald-400 hover:text-emerald-300 underline font-medium transition-colors"
+      >
+        {match[1]}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts.length > 0 ? parts : text;
 }
 
 export default async function CategoryPage({ params }) {
@@ -135,7 +164,7 @@ export default async function CategoryPage({ params }) {
       <section className="space-y-4">
         {category.introParagraph && (
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed bg-slate-900/40 p-4 rounded-xl border border-slate-800/80">
-            {category.introParagraph}
+            {renderIntroWithLinks(category.introParagraph)}
           </p>
         )}
         <div className="flex items-center justify-between">
