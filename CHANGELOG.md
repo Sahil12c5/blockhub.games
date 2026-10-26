@@ -2,6 +2,23 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Keyword Surfer Metadata & Family-Aligned Optimization] - 2026-10-26
+
+### Added
+- **Surfer Keyword Mapping Report**: Created `reports/seo/keyword-mapping.csv` mapping 42 search keywords across 29 approved pages (5 hubs, 3 categories, 21 long-tail catalog games) with monthly search volume between 100 and 3,000, zero keyword family cannibalization, and strict title/mechanics intent matching.
+- **Targeted Keywords Array Expansions**: Appended non-duplicate verified keywords to `data/hubs.js` (`seoKeywords`), `data/categories.js` (`keywords`), and `data/games.js` (`gameSeoOverrides.keywords`).
+
+### Changed
+- **Hub & Category Titles & Meta Descriptions (8 pages)**: Updated `<title>` (<= 60 chars) and meta descriptions (120–155 chars) across 5 topic hubs (`car-parking`, `zombie`, `bubble-shooter`, `2-player`, `obby`) and 3 categories (`racing`, `shooting`, `multiplayer`) with natural primary keyword integration and site brand endings.
+- **Long-Tail Game Titles & Meta Descriptions (21 games)**: Updated `<title>` (<= 60 chars) and meta descriptions (140–149 chars) in `data/games.js` (`gameSeoOverrides`) for 21 catalog games strictly matching verified gameplay mechanics and titles with 0 superlatives and 0 unverifiable claims.
+
+### Verification & Metrics
+- **Production Build**: Passed with 426 static pages generated in 8.6s.
+- **Internal Link Audit**: 0 broken links across 423 routes; page count unchanged.
+- **Quality Gates**: `scripts/check-onpage-keywords.js` passed 100%.
+- **Title Lengths**: 100% of titles across all 426 pages are <= 60 characters.
+- **Primary Keyword Uniqueness**: 29 unique primary keywords, 0 cross-page duplicates.
+
 ## [Targeted SEO & Brand Optimization] - 2026-10-26
 
 ### Added

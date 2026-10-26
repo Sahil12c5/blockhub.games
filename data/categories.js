@@ -37,9 +37,9 @@ export const categories = [
     "slug": "racing",
     "name": "Racing",
     "headline": "High-Speed 3D Car Racing & Drift Games",
-    "metaTitle": "Unblocked Racing Games - Play Free Online | BlockHub",
+    "metaTitle": "Car Racing Games Online - Free 3D Speed | BlockHub",
     "description": "Hit full throttle across dynamic city tracks",
-    "metaDescription": "Play unblocked racing games at BlockHub.games. Race high-speed tracks, master tight drift corners, and test obstacle courses with zero downloads.",
+    "metaDescription": "Play car racing games online at BlockHub.games. Race high-speed tracks, master tight drift corners, and test obstacle courses with zero downloads.",
     "introParagraph": "Hit full throttle across fast [unblocked racing games](/category/racing) ready to play instantly. Slide through hairpin asphalt turns in [Zombie Drift: Steel Rage](/game/zombie-drift-steel-rage), pilot heavy haulers across highway tracks in [American Truck Racing Simulator](/game/american-truck-racing-simulator), or conquer high-altitude aerial platforms in [Car Obby 3D](/game/car-obby-3d). Enjoy cool car games unblocked and competitive 3d car racing games online with smooth browser handling.",
     "badgeColor": "bg-amber-500/20 text-amber-400 border-amber-500/30",
     "iconName": "Car",
@@ -73,16 +73,17 @@ export const categories = [
       "unblocked racing games",
       "racing car games unblocked",
       "cool car games unblocked",
-      "3d car racing games online"
+      "3d car racing games online",
+      "race car online game"
     ]
   },
   {
     "slug": "shooting",
     "name": "Shooting",
     "headline": "First-Person Shooters, Sniper & Gun Games",
-    "metaTitle": "Shooting Games Online Unblocked - Free FPS | BlockHub",
+    "metaTitle": "Gun Games for Free - Online FPS Shooters | BlockHub",
     "description": "Lock and load in competitive tactical shooters",
-    "metaDescription": "Play shooting games online unblocked on BlockHub.games. Master tactical crosshairs, sniper rifles, and combat arenas free in your browser.",
+    "metaDescription": "Play gun games for free on BlockHub.games. Master tactical crosshairs, sniper rifles, and combat arena shooting games online with zero downloads.",
     "introParagraph": "Test your aim and crosshair discipline across top [shooting games online unblocked](/category/shooting) with zero download delay. Eliminate hostile waves in [Outbreak Ops](/game/outbreak-ops), defend fortified outpost perimeters in [Zombie Siege](/game/zombie-siege), or pick off voxel targets in [Blocky Zombie Shooting](/game/blocky-zombie-shooting). These browser gun titles deliver instant tactical fun, whether you prefer modern weapon shootouts or an arcade block shooting game.",
     "badgeColor": "bg-orange-500/20 text-orange-400 border-orange-500/30",
     "iconName": "Target",
@@ -111,7 +112,10 @@ export const categories = [
       "free shooting games",
       "online gun battle",
       "shooting games online unblocked",
-      "block shooting game"
+      "block shooting game",
+      "gun games for free",
+      "free first person shooter games",
+      "shooting game online"
     ]
   },
   {
@@ -184,9 +188,9 @@ export const categories = [
     "slug": "multiplayer",
     "name": "Multiplayer",
     "headline": "Real-Time Online Multiplayer & .io Games",
-    "metaTitle": "Multiplayer Games Online Free - Play Together | BlockHub",
+    "metaTitle": "Online Games with Friends - Free Play | BlockHub",
     "description": "Team up or compete against players worldwide in real-time browser multiplayer games",
-    "metaDescription": "Play multiplayer games online free at BlockHub.games. Challenge friends in shared-keyboard duels, fast party battles, and split-screen races.",
+    "metaDescription": "Play online games with friends at BlockHub.games. Challenge rivals in shared-keyboard duels, fast party battles, and multiplayer online games.",
     "introParagraph": "Team up or challenge your friends with exciting [multiplayer games online free](/category/multiplayer) to play right in your web browser. Sprint to gather blocks on a shared screen in [Stairs Races for 2 Players](/game/stairs-races-for-2-players), trade martial arts strikes in [Stickman Fighter 3D](/game/stickman-fighter-3d), or net clutch goals in [Toy Soccer Cup](/game/toy-soccer-cup). Jump into head-to-head competition without requiring logins or installations.",
     "badgeColor": "bg-violet-500/20 text-violet-400 border-violet-500/30",
     "iconName": "Users",
@@ -225,7 +229,9 @@ export const categories = [
       "free io games",
       "co-op games",
       "multiplayer games unblocked",
-      "multiplayer games online free"
+      "multiplayer games online free",
+      "online games with friends",
+      "multiplayer online game"
     ]
   },
   {

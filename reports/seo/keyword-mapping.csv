@@ -1,0 +1,698 @@
+keyword,volume,target_url,role,reason
+racing in a car 2,14800,unmapped,unmapped,Volume above 3000 threshold
+parkour online games,4400,unmapped,unmapped,Volume above 3000 threshold
+bubble shooter free,3600,unmapped,unmapped,Volume above 3000 threshold
+car driving game online,3600,unmapped,unmapped,Volume above 3000 threshold
+car racing games unblocked,3600,unmapped,unmapped,Volume above 3000 threshold
+car simulator games,3600,unmapped,unmapped,Volume above 3000 threshold
+drive game online,3600,unmapped,unmapped,Volume above 3000 threshold
+driving game,3600,unmapped,unmapped,Volume above 3000 threshold
+driving game online,3600,unmapped,unmapped,Volume above 3000 threshold
+driving games online,3600,unmapped,unmapped,Volume above 3000 threshold
+first person shooter game,3600,unmapped,unmapped,Volume above 3000 threshold
+first person shooter games,3600,unmapped,unmapped,Volume above 3000 threshold
+first person shooter games online,3600,unmapped,unmapped,Volume above 3000 threshold
+first person shooter games pc,3600,unmapped,unmapped,Volume above 3000 threshold
+first-person shooter games,3600,unmapped,unmapped,Volume above 3000 threshold
+first-person shooter games online,3600,unmapped,unmapped,Volume above 3000 threshold
+fps game,3600,unmapped,unmapped,Volume above 3000 threshold
+fps game online,3600,unmapped,unmapped,Volume above 3000 threshold
+fps games,3600,unmapped,unmapped,Volume above 3000 threshold
+fps games for pc,3600,unmapped,unmapped,Volume above 3000 threshold
+fps games online,3600,unmapped,unmapped,Volume above 3000 threshold
+fps games pc,3600,unmapped,unmapped,Volume above 3000 threshold
+fps online games,3600,unmapped,unmapped,Volume above 3000 threshold
+fps shooting games,3600,unmapped,unmapped,Volume above 3000 threshold
+free driving games,3600,unmapped,unmapped,Volume above 3000 threshold
+free guns games,3600,unmapped,unmapped,Volume above 3000 threshold
+gun games free,3600,unmapped,unmapped,Volume above 3000 threshold
+multiplayer games mobile,3600,unmapped,unmapped,Volume above 3000 threshold
+online fps games,3600,unmapped,unmapped,Volume above 3000 threshold
+online shooters free,3600,unmapped,unmapped,Volume above 3000 threshold
+park car game,3600,unmapped,unmapped,Volume above 3000 threshold
+parking car games,3600,unmapped,unmapped,Volume above 3000 threshold
+parkour games,3600,unmapped,unmapped,Volume above 3000 threshold
+racing game free,3600,unmapped,unmapped,Volume above 3000 threshold
+shooter games online free,3600,unmapped,unmapped,Volume above 3000 threshold
+shooting game online play free,3600,unmapped,unmapped,Volume above 3000 threshold
+steampowered,3600,unmapped,unmapped,Volume above 3000 threshold
+zombie pc games,3600,unmapped,unmapped,Volume above 3000 threshold
+zombie video games,3600,unmapped,unmapped,Volume above 3000 threshold
+browser multiplayer games,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+bubble game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+bubble games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+bubble shooter free online,2900,https://blockhub.games/tag/bubble-shooter,primary,Primary broad head term for classic match-3 bubble shooter and orb pop collection.
+bubble shooter game free,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+bubble shooter online game free,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+bubbles game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking game,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/car-parking (unmapped to prevent cannibalization)
+car parking games,2900,https://blockhub.games/tag/car-parking,primary,Primary broad head term for browser car parking simulator collection.
+car race car race,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car race game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car race game online,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/racing (unmapped to prevent cannibalization)
+car racing car racing,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing game online,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/racing (unmapped to prevent cannibalization)
+car racing games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing games online,2900,https://blockhub.games/category/racing,primary,"Primary broad category term for 3D asphalt tracks, drift racing, and high-speed driving."
+cars race game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving games free,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+easyfun gg roblox,2900,unmapped,unmapped,Competitor portal name excluded
+easyfun.gg roblox,2900,unmapped,unmapped,Competitor portal name excluded
+enjoy for fun,2900,unmapped,unmapped,Vague or low search intent phrase
+free games bubble shooter,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free zombie games,2900,https://blockhub.games/tag/zombie,primary,Primary broad head term for zombie survival and undead defense games collection.
+friends game online,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game browser multiplayer,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+good multiplayer games pc,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+gun game download,2900,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+gun games download,2900,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer browser games,2900,https://blockhub.games/tag/2-player,primary,Primary broad head term for shared-screen and 2-player local browser games collection.
+multiplayer games android,2900,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer games for pc,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer online game,2900,https://blockhub.games/category/multiplayer,secondary,Primary broad category term for real-time party and web multiplayer games.
+multiplayer pc games,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer video game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online games with friends,2900,https://blockhub.games/category/multiplayer,primary,Primary broad category term for real-time party and web multiplayer games.
+parking game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+play bubble shooter free online,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+skribbl io game,2900,unmapped,unmapped,Third-party game brand or platform excluded
+skribbl io games,2900,unmapped,unmapped,Third-party game brand or platform excluded
+skribbl.io game,2900,unmapped,unmapped,Third-party game brand or platform excluded
+skribbl.io games,2900,unmapped,unmapped,Third-party game brand or platform excluded
+super car games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super games car,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie computer games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie free games,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+zombie game online,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+zombie game pc,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie games for pc,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games pc,2900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie online games,2900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+zombies game,2900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d car game,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d car games free,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d car games free download,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+bubble shooter games online,2400,https://blockhub.games/tag/bubble-shooter,secondary,Primary broad head term for classic match-3 bubble shooter and orb pop collection.
+car games 3d free,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking driving game,2400,https://blockhub.games/game/car-parking-driving-game,primary,Exact title and mechanics match for precision steering and parking lot maneuvers.
+car racing,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing games online free,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car simulator games online,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+cars racing,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+download shooting game,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+download shooting games,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+driving simulator games online,2400,https://blockhub.games/game/offroad-truck-driving-simulator,primary,Exact title and mechanics match for heavy 4x4 all-terrain driving simulation.
+free first person shooter games,2400,https://blockhub.games/category/shooting,secondary,"Primary broad category term for first-person shooters, tactical sniper, and gun games."
+free first-person shooter games,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free fps games,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free multiplayer games for pc,2400,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free multiplayer games pc,2400,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+game car race 2,2400,unmapped,unmapped,Named third-party specific game title excluded
+games racing online,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+gun games for free,2400,https://blockhub.games/category/shooting,primary,"Primary broad category term for first-person shooters, tactical sniper, and gun games."
+multiplayer games pc free,2400,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer games with friends,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online games to play with friends on phone,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+online zombie games,2400,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+pc multiplayer games,2400,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+race car online game,2400,https://blockhub.games/category/racing,secondary,"Primary broad category term for 3D asphalt tracks, drift racing, and high-speed driving."
+race of cars,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+race online game,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing car games online,2400,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/racing (unmapped to prevent cannibalization)
+racing in car 2,2400,unmapped,unmapped,Named third-party specific game title excluded
+racing online game,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing online games,2400,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shoot game download,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+shooter game download,2400,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+steam app,2400,unmapped,unmapped,Third-party game brand or platform excluded
+steam online,2400,unmapped,unmapped,Third-party game brand or platform excluded
+steam shop,2400,unmapped,unmapped,Third-party game brand or platform excluded
+steam store,2400,unmapped,unmapped,Third-party game brand or platform excluded
+store steam,2400,unmapped,unmapped,Third-party game brand or platform excluded
+to play game,2400,unmapped,unmapped,Vague or low search intent phrase
+zombie games free,2400,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+zombie games online,2400,https://blockhub.games/tag/zombie,secondary,Primary broad head term for zombie survival and undead defense games collection.
+zombie shooter game,2400,https://blockhub.games/game/super-zombie-shooter-2,primary,Exact title and mechanics match for twin-stick arcade zombie shooting action.
+zombie shooter games,2400,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/super-zombie-shooter-2 (unmapped to prevent cannibalization)
+zombies game free,2400,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+3d car games,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car game unblocked,1900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car online game,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car online games,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking game online,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking multiplayer download,1900,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car parking online game,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+cars game unblocked,1900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free multiplayer games online,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+free online games multiplayer,1900,https://blockhub.games/tag/2-player,secondary,Primary broad head term for shared-screen and 2-player local browser games collection.
+free online multiplayer games,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+free to play online multiplayer games,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game the cars online,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games crazy games,1900,unmapped,unmapped,Competitor portal name excluded
+multiplayer games free online,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+multiplayer games free pc,1900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer games online browser,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer games pc,1900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer online games free,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+multiplayer video games,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online free games multiplayer,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+online multiplayer games browser,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online multiplayer games free,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+phone games to play with friends,1900,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+race car games unblocked,1900,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+racing games free online,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+skribble.io game,1900,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+steam community,1900,unmapped,unmapped,Third-party game brand or platform excluded
+zombies game online,1900,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+3d car game download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+3d car game online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+auto game online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best multiplayer free games,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best multiplayer mobile games,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car game online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games 3d car racing games,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games 3d download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car games 3d: car racing games,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games parking download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car online play game,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking games online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing super car games,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car simulator parking,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+cars game online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+cars games online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving games online free,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving simulator unblocked,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free games for pc multiplayer,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free multiplayer games on pc,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free pc multiplayer games,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free racing game online,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game car parking download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+killing zombies game,1600,https://blockhub.games/game/angry-zombies-war-game,primary,Exact mechanics match for launching physics projectiles to destroy zombie forts.
+killing zombies games,1600,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/angry-zombies-war-game (unmapped to prevent cannibalization)
+mobile games to play with friends,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer game pc free,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer games for pc for free,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer games to play with friends,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online car games 3d,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online games multiplayer,1600,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/multiplayer (unmapped to prevent cannibalization)
+online games zombie,1600,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+parking car game download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+pc games free multiplayer,1600,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+play zombie games,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing games online for free,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie game download,1600,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie kill game,1600,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie killer game,1600,https://blockhub.games/game/rise-zombies,primary,Exact mechanics match for combat against rising undead hordes.
+zombie killing game,1600,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/angry-zombies-war-game (unmapped to prevent cannibalization)
+ഗെയിംസ്,1600,unmapped,unmapped,Non-English character script excluded
+3d car games online,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+ball shooter game,1300,https://blockhub.games/game/slingshot-shooting-game,primary,Exact mechanics match for aiming elastic slingshots to knock down pyramid targets.
+best online multiplayer games,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best zombie games,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block shooter,1300,https://blockhub.games/game/signal-survival-block-arena,primary,Exact mechanics match for arena combat collecting signals and shooting voxel blocks.
+car park game,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking game download,1300,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car racing games car games 3d,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing games: car games 3d,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free multiplayer games,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free shooter games pc,1300,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free shooting games pc,1300,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+games to play with friends online free,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+gaming games,1300,unmapped,unmapped,Vague or low search intent phrase
+multiplayer free games pc,1300,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+obby,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+obby games,1300,https://blockhub.games/tag/obby,primary,Primary broad head term for obstacle courses and sky parkour tower collection.
+play cars game,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+scribble.io game,1300,unmapped,unmapped,Third-party game brand or platform excluded
+shooter games pc free,1300,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+shooter multiplayer games,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting game online,1300,https://blockhub.games/category/shooting,secondary,"Primary broad category term for first-person shooters, tactical sniper, and gun games."
+shooting games download,1300,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+supercar games,1300,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+bubble shooter game unblocked,1000,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car games parking 3d,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+free car driving games,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game crazy game,1000,unmapped,unmapped,Competitor portal name excluded
+games of car parking 3d,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games parking car 3d,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+offline shooting games,1000,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+online parking games,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/car-parking (unmapped to prevent cannibalization)
+parking car 3d games,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+parking game online,1000,https://blockhub.games/tag/car-parking,secondary,Primary broad head term for browser car parking simulator collection.
+parking games online,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/car-parking (unmapped to prevent cannibalization)
+race car games,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+race cars game,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+race cars games,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing car game,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing game online,1000,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting game offline,1000,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+steam website,1000,unmapped,unmapped,Third-party game brand or platform excluded
+zombie online game,1000,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/zombie (unmapped to prevent cannibalization)
+zombie survival games,1000,https://blockhub.games/game/zombie-survival-last-stand,primary,Exact title and mechanics match for wave survival in post-apocalyptic bunker.
+1234 player games,880,https://blockhub.games/game/tank-soccer-battle-1-2-3-4-player,primary,"Exact title and party gameplay match for 1, 2, 3, or 4 players on one screen."
+best zombie game pc,880,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+best zombie games pc,880,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car driving games online,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+drive car game,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+fps games online free,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games car driver,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+gun game offline,880,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer games mobile with friends,880,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+obby game,880,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/obby (unmapped to prevent cannibalization)
+parkour games online,880,https://blockhub.games/tag/obby,secondary,Primary broad head term for obstacle courses and sky parkour tower collection.
+racing car 2,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing cars games,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting game,880,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+unblocked zombie games,880,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie unblocked games,880,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombies games unblocked,880,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+3d car parking game,720,https://blockhub.games/game/3d-police-car-parking,primary,Exact mechanics match for emergency cruiser 3D garage obstacle parking.
+blocky cars game,720,unmapped,unmapped,Named third-party specific game title excluded
+blocky cars online,720,unmapped,unmapped,Named third-party specific game title excluded
+browser games multiplayer,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+car block game,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car driving game,720,https://blockhub.games/game/classic-car-driving-game,primary,Exact title and vehicle match for classic automobile city driving simulation.
+car driving games,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/classic-car-driving-game (unmapped to prevent cannibalization)
+car parking 3d game,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+car parking game 3d,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+car parking games 3d,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+cars driving game,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/classic-car-driving-game (unmapped to prevent cannibalization)
+drive a car game,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+drive the car game,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving a car game,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving car game,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/classic-car-driving-game (unmapped to prevent cannibalization)
+first person shooter online,720,https://blockhub.games/game/anti-terrorist-shooting-game,primary,Exact genre and mechanics match for tactical anti-terrorist FPS missions.
+free games shooting,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free shooter games,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game car parking 3d,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+games 3d car parking,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+games download shooting,720,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+gams games,720,unmapped,unmapped,Vague or low search intent phrase
+good pc zombie games,720,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+multiplayer browser,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer browser games to play with friends,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer games browser,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/2-player (unmapped to prevent cannibalization)
+multiplayer games to play with friends mobile,720,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer online games shooting,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer online shooter games,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer online shooting games,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer shooter games online,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer shooting games online,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+new 3d car games,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online multiplayer games shooter,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking game 3d,720,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/euro-truck-parking (unmapped to prevent cannibalization)
+parking jam 3d,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooter free games,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooter games free,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting game multiplayer online,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting games online multiplayer,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting online games multiplayer,720,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+unblocked g,720,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblocked game,720,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+best free multiplayer games for pc,590,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+best free multiplayer games pc,590,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+best multiplayer pc games free,590,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+blocky road,590,unmapped,unmapped,Named third-party specific game title excluded
+car 3d games free,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking download,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car parking game offline,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car parking games offline,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car puzzle game,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car race 2,590,unmapped,unmapped,Named third-party specific game title excluded
+car racing 2,590,unmapped,unmapped,Named third-party specific game title excluded
+car racing games 3d online,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car racing games to download,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+cars 3d games free,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+download games racing car,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+game car 3d free,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games car,590,unmapped,unmapped,Vague or low search intent phrase
+games download car racing,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+games download racing car,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+i play game,590,unmapped,unmapped,Vague or low search intent phrase
+obby games on roblox,590,unmapped,unmapped,Third-party game brand or platform excluded
+obby games roblox,590,unmapped,unmapped,Third-party game brand or platform excluded
+obby roblox games,590,unmapped,unmapped,Third-party game brand or platform excluded
+park the car game,590,https://blockhub.games/game/drive-and-park-master,primary,Exact mechanics match for timing drift turns into parallel street parking slots.
+parking car game,590,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/car-parking (unmapped to prevent cannibalization)
+parking cars games,590,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/tag/car-parking (unmapped to prevent cannibalization)
+race car games download,590,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+race car race car,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing car racing car,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing in car 2 downloadable content,590,unmapped,unmapped,Named third-party specific game title excluded
+roblox game obby,590,unmapped,unmapped,Third-party game brand or platform excluded
+roblox games obby,590,unmapped,unmapped,Third-party game brand or platform excluded
+roblox obby,590,unmapped,unmapped,Third-party game brand or platform excluded
+roblox obby game,590,unmapped,unmapped,Third-party game brand or platform excluded
+roblox obby games,590,unmapped,unmapped,Third-party game brand or platform excluded
+skribbl online,590,unmapped,unmapped,Third-party game brand or platform excluded
+unblocked games premium,590,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie defense,590,https://blockhub.games/game/zombie-defense-last-stand,primary,Exact title and mechanics match for barricade fortification against undead waves.
+zombie games for free,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie kill,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie killing,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombies defense games,590,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best offline shooting games,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+best shooting game offline,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+best shooting games offline,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car games unblocked,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car games unblocked games,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car parking 3d,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking offline game,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car unblocked games,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+defense zombie,480,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/zombie-defense-last-stand (unmapped to prevent cannibalization)
+games car unblocked,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+games drive online,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+gunshot games download,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer games android with friends,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+online multiplayer games mobile,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+online racing games,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking jam game,480,https://blockhub.games/game/car-parking-game-parking-jam,secondary,Exact mechanics match for car unblocking puzzle grid and parking jam levels.
+races online games,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing in car game online,480,unmapped,unmapped,Named third-party specific game title excluded
+shooting game download,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+they are coming zombie defense,480,unmapped,unmapped,Named third-party specific game title excluded
+unblock car game,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblocked car games,480,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie defence games,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie defense games,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie game download apk,480,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie games defense,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie killer,480,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombies defense,480,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/zombie-defense-last-stand (unmapped to prevent cannibalization)
+car 3d parking game,390,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/3d-police-car-parking (unmapped to prevent cannibalization)
+car parking games play online,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking jam,390,https://blockhub.games/game/car-parking-game-parking-jam,primary,Exact mechanics match for car unblocking puzzle grid and parking jam levels.
+drive game unblocked,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free online zombie game,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+free racing games,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+game 3d car,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking games unblocked,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+parking games unblocked games,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+parking jam,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking jam games,390,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/car-parking-game-parking-jam (unmapped to prevent cannibalization)
+parking play,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking unblocked games,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+race car game online,390,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/racing (unmapped to prevent cannibalization)
+race car games online,390,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/category/racing (unmapped to prevent cannibalization)
+race game online,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+race games online,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+race games unblocked,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+racing games online,390,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+racing games unblocked,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+racing in car 2 download,390,unmapped,unmapped,Named third-party specific game title excluded
+shooting games pc,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+they are coming game,390,unmapped,unmapped,Named third-party specific game title excluded
+unblocked driving games,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblocked games car,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblocked parking games,390,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie killer games,390,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/rise-zombies (unmapped to prevent cannibalization)
+2 player zombie games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d racing games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d zombie game,320,https://blockhub.games/game/the-zombie-house,primary,Exact mechanics match for defending home barricades in full 3D from undead walkers.
+3d zombie games,320,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/the-zombie-house (unmapped to prevent cannibalization)
+best car parking games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car driving parking car games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car driving parking: car games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games 3d online,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car jam game online,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking games download apk,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car parking games free,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking games parking jam,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+download zombie shooting games,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+fire game offline,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+free zombie games for pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free zombie games pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+game zombie download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+gun shooter game download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+kill zombie game,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer zombie games online,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online car 3d games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+pc zombie games free,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+racing game to download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+racing games to download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+racing in car 2 apk,320,unmapped,unmapped,Named third-party specific game title excluded
+scribble and guess: io game downloadable content,320,unmapped,unmapped,Third-party game brand or platform excluded
+shooting games for pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+shooting games offline free,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+shooting zombie games online,320,https://blockhub.games/game/super-zombie-shooter-2,secondary,Exact title and mechanics match for twin-stick arcade zombie shooting action.
+super car race game,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super car racing 3d: car games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super car racing game,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super race : car game,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super race car game,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+super race car games,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie 3d game,320,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/the-zombie-house (unmapped to prevent cannibalization)
+zombie 3d games,320,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/the-zombie-house (unmapped to prevent cannibalization)
+zombie game 3d,320,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/the-zombie-house (unmapped to prevent cannibalization)
+zombie games 3d,320,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/the-zombie-house (unmapped to prevent cannibalization)
+zombie games download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie games download pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games for pc free,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games free for pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games on pc free,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie games online multiplayer,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie games pc free,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie online games multiplayer,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie shooting games download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie survival game pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie survival games pc,320,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie zombie game download,320,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombies games online multiplayer,320,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d games of car,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d zombie games download,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+as gaming new car,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+auto games 3d,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best multiplayer games for android with friends,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+block shooter game,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block shooter games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block shooting games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocks shooting game,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocky racing,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocky shooter game,260,https://blockhub.games/game/blocky-zombie-shooting,primary,Exact title and visual aesthetic match for voxel cubic zombie first-person shooter.
+blocky shooting games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car 3d free games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car 3d game,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car 3d games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car game 3d,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games 3d,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games 3d games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car jam game,260,https://blockhub.games/game/bus-mania-parking-puzzle,secondary,Exact mechanics match for passenger color matching and bus parking grid jam.
+car parking game download apk,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car parking puzzle,260,https://blockhub.games/game/parking-puzzle-game,primary,Exact title and mechanics match for vehicle grid logic puzzles.
+car parking puzzle game,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car unblock,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+download zombie game,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+download zombie games,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+free online zombie games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games 3d car,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+gun game download offline,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+gun games download offline,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+https games,260,unmapped,unmapped,Vague or low search intent phrase
+multiplayer games websites,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer web games,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+offline car parking games,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+online games unblocked,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+parking game download,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+parking games download,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+racer car 2,260,unmapped,unmapped,Named third-party specific game title excluded
+unblock car,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblock game online,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblock the car,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+unblocked online games,260,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+web games to play with friends,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie game apk,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie game online free,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie game to download,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie games online free,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie games to download,260,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie shooter games online,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie shooting games online,260,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/super-zombie-shooter-2 (unmapped to prevent cannibalization)
+zombie survival games online,260,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d car online games,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d games car online,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d online car games,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+best car parking game,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block car game,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block cars games,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocked car game,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocky car game,210,unmapped,unmapped,Named third-party specific game title excluded
+blocky car games,210,unmapped,unmapped,Named third-party specific game title excluded
+car games try now,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car park puzzle,210,https://blockhub.games/game/bus-mania-parking-puzzle,primary,Exact mechanics match for passenger color matching and bus parking grid jam.
+car parking 3d game car drive,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking 3d game: car drive,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking games: parking jam,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+driving games unblocked,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free pc games zombie,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free pc zombie games,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free zombie game for pc,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free zombie game pc,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free zombie games on pc,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+free zombie pc games,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+games online car 3d,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+games unblocked,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+how to play skribbl,210,unmapped,unmapped,Third-party game brand or platform excluded
+obby roblox,210,unmapped,unmapped,Third-party game brand or platform excluded
+online 3d car games,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking car online,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+phone games to play with friends online,210,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+racing in car 2 play online,210,unmapped,unmapped,Named third-party specific game title excluded
+shooting zombies games online,210,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/super-zombie-shooter-2 (unmapped to prevent cannibalization)
+speed car race 3d car games,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+top 10 multiplayer games for android,210,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie 3d game download,210,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie 3d games download,210,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+zombie game download for pc,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie game download pc,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie game for pc free,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie game pc free,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie pc game free,210,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie survival online,210,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+advance car parking car games,170,https://blockhub.games/game/advance-car-game-parking,primary,Exact title match for modern multi-stage precision car parking simulation.
+advance car parking: car games,170,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/advance-car-game-parking (unmapped to prevent cannibalization)
+car games free download 3d,170,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car games online free,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car games parking unblocked,170,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+car parking games unblocked,170,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+game parking valet,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking games for pc,170,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+parking games valet,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking jam game online,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking puzzle,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking puzzle games,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking puzzler game,170,https://blockhub.games/game/parking-puzzle-game,secondary,Exact title and mechanics match for vehicle grid logic puzzles.
+parking valet game,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+unblocked car parking games,170,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+valet game,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+valet games,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+valet parking game,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+valet parking games,170,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombies game download,170,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+car game try now,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking unblocked,140,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+download parking car,140,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+free racing games pc,140,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+miniclip games zombie,140,unmapped,unmapped,Competitor portal name excluded
+multiplayer mobile games with friends,140,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+multiplayer online zombie games,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer shooter games,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer zombie game online,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+new car games 3d,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online multiplayer games zombies,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+online zombie game multiplayer,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+park your car game,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+parking car download,140,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+parking jam online,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting block game,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting block games,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting games block,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+shooting games blocks,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+unblocked zombie shooting games,140,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombie game online multiplayer,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie multiplayer game online,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombie shooting games unblocked,140,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombies game online multiplayer,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+zombies online game multiplayer,140,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d car parking,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+3d parking game,110,https://blockhub.games/game/euro-truck-parking,primary,Exact mechanics match for maneuvering and docking commercial cargo haulers in 3D.
+block car online,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+block cars game,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+blocky highway,110,unmapped,unmapped,Named third-party specific game title excluded
+car 3d parking,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+car parking puzzle games,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+crazy cars poki,110,unmapped,unmapped,Competitor portal name excluded
+multiplayer browser game with friends,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+multiplayer games mobile with friends free,110,unmapped,unmapped,Platform mismatch (mobile app/offline/download)
+parking 3d game,110,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/euro-truck-parking (unmapped to prevent cannibalization)
+parking 3d games,110,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/euro-truck-parking (unmapped to prevent cannibalization)
+parking games 3d,110,unmapped,unmapped,Family variant of mapped keyword on https://blockhub.games/game/euro-truck-parking (unmapped to prevent cannibalization)
+parking games in 3d,110,unmapped,unmapped,No genuine catalog match for title/mechanics or genre intent
+they're coming game,110,unmapped,unmapped,Named third-party specific game title excluded
+zombie game unblocked,110,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+zombies game unblocked,110,unmapped,unmapped,Excluded vocabulary (unblocked/pc/casino/non-English)
+download free games zombie,90,unmapped,unmapped,Volume below 100 threshold
+highway traffic unblocked games,90,unmapped,unmapped,Volume below 100 threshold
+play zombie games for free,90,unmapped,unmapped,Volume below 100 threshold
+racing in car 2 game,90,unmapped,unmapped,Volume below 100 threshold
+shooting offline games free,90,unmapped,unmapped,Volume below 100 threshold
+unblocked zombie,90,unmapped,unmapped,Volume below 100 threshold
+unblocked zombies,90,unmapped,unmapped,Volume below 100 threshold
+zombie defence agency,90,unmapped,unmapped,Volume below 100 threshold
+zombie defence flash game,90,unmapped,unmapped,Volume below 100 threshold
+zombie defense agency,90,unmapped,unmapped,Volume below 100 threshold
+zombie game free download,90,unmapped,unmapped,Volume below 100 threshold
+zombie games free download,90,unmapped,unmapped,Volume below 100 threshold
+car racing super games,70,unmapped,unmapped,Volume below 100 threshold
+race car 2 game,70,unmapped,unmapped,Volume below 100 threshold
+racing car 2 game,70,unmapped,unmapped,Volume below 100 threshold
+shooting games online free multiplayer,70,unmapped,unmapped,Volume below 100 threshold
+super racing car game,70,unmapped,unmapped,Volume below 100 threshold
+the are coming,70,unmapped,unmapped,Volume below 100 threshold
+there are coming,70,unmapped,unmapped,Volume below 100 threshold
+zombie survival games online free,70,unmapped,unmapped,Volume below 100 threshold
+zombocalypse,70,unmapped,unmapped,Volume below 100 threshold
+3d car race game online,50,unmapped,unmapped,Volume below 100 threshold
+3d games online car racing,50,unmapped,unmapped,Volume below 100 threshold
+3d racing game online,50,unmapped,unmapped,Volume below 100 threshold
+3d racing games online,50,unmapped,unmapped,Volume below 100 threshold
+blocky highway traffic racing,50,unmapped,unmapped,Volume below 100 threshold
+car 2 games download,50,unmapped,unmapped,Volume below 100 threshold
+free mobile games to play with friends,50,unmapped,unmapped,Volume below 100 threshold
+games online 3d racing,50,unmapped,unmapped,Volume below 100 threshold
+gun games download free,50,unmapped,unmapped,Volume below 100 threshold
+online 3d car racing game,50,unmapped,unmapped,Volume below 100 threshold
+online 3d car racing games,50,unmapped,unmapped,Volume below 100 threshold
+online 3d racing games,50,unmapped,unmapped,Volume below 100 threshold
+online racing games 3d,50,unmapped,unmapped,Volume below 100 threshold
+skribbl drawing,50,unmapped,unmapped,Volume below 100 threshold
+they are coming zombie,50,unmapped,unmapped,Volume below 100 threshold
+they are coming zombie game,50,unmapped,unmapped,Volume below 100 threshold
+they are coming: zombie,50,unmapped,unmapped,Volume below 100 threshold
+they are coming: zombie game,50,unmapped,unmapped,Volume below 100 threshold
+what is scribble.io,50,unmapped,unmapped,Volume below 100 threshold
+zombie defense game,50,unmapped,unmapped,Volume below 100 threshold
+1 2 3 4 player games online,40,unmapped,unmapped,Volume below 100 threshold
+blocky car racer,40,unmapped,unmapped,Volume below 100 threshold
+blocky car racing,40,unmapped,unmapped,Volume below 100 threshold
+blocky cars shooting games,40,unmapped,unmapped,Volume below 100 threshold
+blocky highway: traffic racing,40,unmapped,unmapped,Volume below 100 threshold
+car game car game 3d,40,unmapped,unmapped,Volume below 100 threshold
+car games car games 3d,40,unmapped,unmapped,Volume below 100 threshold
+they are coming zombies,40,unmapped,unmapped,Volume below 100 threshold
+zombie defense: building clearance,40,unmapped,unmapped,Volume below 100 threshold
+block shooter game online,30,unmapped,unmapped,Volume below 100 threshold
+block shooter games online,30,unmapped,unmapped,Volume below 100 threshold
+block shooting game online,30,unmapped,unmapped,Volume below 100 threshold
+block shooting games online,30,unmapped,unmapped,Volume below 100 threshold
+blockly cars,30,unmapped,unmapped,Volume below 100 threshold
+blocky cars on poki,30,unmapped,unmapped,Volume below 100 threshold
+blocky shooting games online,30,unmapped,unmapped,Volume below 100 threshold
+game zombies free download,30,unmapped,unmapped,Volume below 100 threshold
+multiplayer games on phone with friends,30,unmapped,unmapped,Volume below 100 threshold
+multiplayer games to play with friends on phone,30,unmapped,unmapped,Volume below 100 threshold
+online block shooting games,30,unmapped,unmapped,Volume below 100 threshold
+online zombie defence games,30,unmapped,unmapped,Volume below 100 threshold
+online zombie strategy games,30,unmapped,unmapped,Volume below 100 threshold
+skribbl 10,30,unmapped,unmapped,Volume below 100 threshold
+zombie defence games online,30,unmapped,unmapped,Volume below 100 threshold
+zombie defense game online,30,unmapped,unmapped,Volume below 100 threshold
+zombie defense online,30,unmapped,unmapped,Volume below 100 threshold
+zombie defense online game,30,unmapped,unmapped,Volume below 100 threshold
+zombie defense online games,30,unmapped,unmapped,Volume below 100 threshold
+zombie game download free,30,unmapped,unmapped,Volume below 100 threshold
+zombie strategy games online,30,unmapped,unmapped,Volume below 100 threshold
+zombie unblocked,30,unmapped,unmapped,Volume below 100 threshold
+zombies game download free,30,unmapped,unmapped,Volume below 100 threshold
+free online games zombie killing,20,unmapped,unmapped,Volume below 100 threshold
+miniclip zombie defense agency,20,unmapped,unmapped,Volume below 100 threshold
+multiplayer phone games with friends,20,unmapped,unmapped,Volume below 100 threshold
+zombie defense agency miniclip,20,unmapped,unmapped,Volume below 100 threshold
+zombie defense games free,20,unmapped,unmapped,Volume below 100 threshold
+zombie shooter free,20,unmapped,unmapped,Volume below 100 threshold
+game racing car 2,10,unmapped,unmapped,Volume below 100 threshold
+zombie defense agency game,10,unmapped,unmapped,Volume below 100 threshold
+zombocalypse game,10,unmapped,unmapped,Volume below 100 threshold

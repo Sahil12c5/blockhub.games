@@ -9,8 +9,8 @@ export const hubs = [
     "name": "Car Parking",
     "icon": "Car",
     "headline": "Free Car Parking Games Online - Precision Driving & Parking Jams",
-    "metaTitle": "Car Parking Games Unblocked - Play Free Online | BlockHub",
-    "metaDescription": "Play car parking games unblocked at BlockHub.games. Master tight garage maneuvers, reverse steering, and parking jam puzzles with zero downloads.",
+    "metaTitle": "Car Parking Games - Free Online Driving | BlockHub",
+    "metaDescription": "Play car parking games at BlockHub.games. Master tight garage maneuvers, reverse steering, and parking jam puzzles online with zero downloads.",
     "introParagraph": "Master tight steering maneuvers across our curated [car parking games unblocked](/tag/car-parking) collection. Practice precision garage docking in [Car Parking Simulator 3](/game/car-parking-simulator-3), navigate long commercial vehicles in [Bus Parking Unblocked](/game/bus-parking-unblocked), or untangle crowded gridlocks in [Car Parking Game: Parking Jam](/game/car-parking-game-parking-jam). Enjoy free online parking games and challenging parking simulator unblocked levels directly in your browser with zero downloads.",
     "intro": "Car parking games are among the most popular and satisfying driving sub-genres in browser gaming. Unlike high-speed drag racing where raw acceleration rules, parking simulators demand surgical steering precision, spatial awareness, and throttle discipline. Players navigate complex three-dimensional obstacle courses, multi-story parking garages, congested city plazas, and narrow alleyways without scratching their paintwork.\n\nFrom classic parallel parking trials to modern parking jam puzzle challenges, these games simulate real-world vehicular physics including vehicle weight distribution, turning radius, blind spots, and reverse mirror navigation. Whether you are maneuvering a luxury supercar between tight pylons, positioning a police cruiser in a busy precinct, or clearing gridlocked traffic in a puzzle-based parking grid, every level presents an escalating test of patience and finesse.\n\nAll car parking games on BlockHub.games feature responsive keyboard and touch controls, multiple camera perspectives (including interior cockpit and top-down overhead angles), and smooth browser rendering without requiring downloads or installations.",
     "keywords": [
@@ -31,7 +31,8 @@ export const hubs = [
       "car parking unblocked",
       "free online parking games",
       "parking simulator unblocked",
-      "parking puzzle game online"
+      "parking puzzle game online",
+      "parking game online"
     ],
     "faq": [
       {
@@ -131,8 +132,8 @@ export const hubs = [
     "name": "Bubble Shooter",
     "icon": "CircleDot",
     "headline": "Free Bubble Shooter Games Online - Classic Pop, Match-3 & Puzzle Fun",
-    "metaTitle": "Bubble Shooter Games Unblocked - Play Free | BlockHub",
-    "metaDescription": "Play bubble shooter games unblocked on BlockHub.games. Aim colorful spheres, trigger cascading combos, and clear puzzle boards free online.",
+    "metaTitle": "Bubble Shooter Free Online - Play Puzzles | BlockHub",
+    "metaDescription": "Play bubble shooter free online on BlockHub.games. Aim colorful spheres, trigger cascading combos, and clear puzzle boards with zero downloads.",
     "introParagraph": "Line up colorful match-3 combinations with [bubble shooter games unblocked](/tag/bubble-shooter) on BlockHub.games. Clear descending orb ceilings in [Raccoon Bubble Shooter](/game/raccoon-bubble-shooter), trigger magical color combos in [Spellbound Orbs](/game/spellbound-orbs), or drop hanging clusters in [Block Tower Smash](/game/block-tower-smash). Enjoy relaxing puzzle mechanics and crisp trajectory bouncing directly in your web browser with zero download requirements.",
     "intro": "Bubble shooter games have captured the hearts of puzzle enthusiasts worldwide since the early days of arcade gaming. Blending match-3 color coordination with precise geometric ballistics, these games task players with aiming a cannon and firing colored bubbles toward a descending ceiling of vibrant spheres. Matching three or more identical bubbles causes them to burst in a satisfying chain reaction.\n\nThe true strategic depth of bubble shooters lies in creating cascading drops: by targeting and severing the root connection of an entire cluster, clever players can drop dozens of hanging bubbles with a single well-aimed shot. As the board gradually descends with each missed cluster, tension mounts, demanding forward planning, bank shots off sidewalls, and efficient color management.\n\nBlockHub.games features an array of classic arcade bubble shooters, modern adventure variants with power-ups and explosive bomb orbs, and relaxing puzzle themes. Enjoy smooth trajectory physics on your browser across mobile and PC devices completely free.",
     "keywords": [
@@ -146,7 +147,9 @@ export const hubs = [
       "bubble pop games",
       "bubble games free no download",
       "bubble shooter unblocked",
-      "bubble shooter games unblocked"
+      "bubble shooter games unblocked",
+      "bubble shooter free online",
+      "bubble shooter games online"
     ],
     "faq": [
       {
@@ -168,7 +171,8 @@ export const hubs = [
     "name": "2 Player",
     "icon": "Gamepad2",
     "headline": "Free 2 Player Games Online - Shared Keyboard Head-to-Head Fun",
-    "metaDescription": "Challenge friends across five two-player games on BlockHub.games. Compete on a shared keyboard in 1v1 racing and athletic duels with no setup.",
+    "metaTitle": "Multiplayer Browser Games - Free 2-Player | BlockHub",
+    "metaDescription": "Enjoy top multiplayer browser games on BlockHub.games. Challenge friends in shared-keyboard 1v1 duels and head-to-head races with no downloads.",
     "introParagraph": "Challenge a friend to head-to-head competition across our collection of five two-player games. Built for shared-screen competition, these titles let you race up staircases with colored blocks, contest one-button basketball shots, and test your reaction reflexes in hand-slap challenges. Whether jumping across rainbow parkour platforms together or balancing a bicycle on its rear wheel, these head-to-head games deliver quick browser competition on a single device.",
     "intro": "Nothing matches the exhilarating laughter and friendly rivalry of playing games side-by-side with a friend on the same device. Our 2 player games collection is specifically designed for local multiplayer fun, letting two players share a single keyboard or touch screen to compete in head-to-head duels or cooperate to overcome challenging stages together.\n\nFrom hilarious ragdoll football matches and split-screen kart racing to tactical tank warfare and cooperative obstacle platformers, 2 player games eliminate the hassle of online matchmaking, server lobbies, and latency issues. Player 1 typically commands using WASD controls while Player 2 takes the Arrow Keys, ensuring instant, accessible party gaming for siblings, classmates, and friends.\n\nExplore dozens of unblocked two-player titles on BlockHub.games. Every title is 100% free to play directly in your web browser with no downloads, accounts, or controller setups required.",
     "keywords": [
@@ -188,7 +192,9 @@ export const hubs = [
       "two player games",
       "shared keyboard games",
       "multiplayer games fun",
-      "best games to play with friends online"
+      "best games to play with friends online",
+      "multiplayer browser games",
+      "free online games multiplayer"
     ],
     "faq": [
       {
@@ -210,8 +216,8 @@ export const hubs = [
     "name": "Obby",
     "icon": "Compass",
     "headline": "Free Obby Games Online - Obstacle Courses, Parkour & Sky Platforms",
-    "metaTitle": "Obby Games Online - Play Free Parkour Courses | BlockHub",
-    "metaDescription": "Play free obby games online at BlockHub.games. Leap across floating platforms, master sky parkour courses, and dodge moving traps with zero downloads.",
+    "metaTitle": "Obby Games Online - Play Free Parkour | BlockHub",
+    "metaDescription": "Play obby games online at BlockHub.games. Leap across floating platforms, master sky parkour courses, and dodge moving traps with zero downloads.",
     "introParagraph": "Test your aerial parkour precision with [obby games online](/tag/obby) built for quick browser play. Jump across neon ledges in [Mega Noob Sky Obby 50 Stages](/game/mega-noob-sky-obby-50-stages), time vertical sprints in [Obby Climb and Jump Tower](/game/obby-climb-and-jump-tower), or conquer floating tracks in [Car Obby 3D](/game/car-obby-3d). Enjoy free obby games and unblocked obby games with seamless checkpoint respawns on every stage.",
     "intro": "Short for 'Obstacle Course', Obby games have exploded into a worldwide gaming phenomenon. Inspired by classic platformer roots and sandbox community creations, obby games challenge players to guide their avatars through floating aerial gauntlets composed of disappearing platforms, deadly lava floors, spinning hazard bars, balance beams, and gravity-defying leaps.\n\nSuccess in obby games rewards spatial precision, rhythmic jumping, momentum control, and camera management. Players must quickly memorize obstacle patterns, time their sprints, and navigate through checkpoints to reach the triumphant top tier of each level. From beginner-friendly parkour stages to ultra-difficult 'rage-run' towers, the genre delivers continuous satisfaction with every checkpoint reached.\n\nJump into the thrill of 3D and 2D obby obstacle courses on BlockHub.games. Featuring lightweight WebGL graphics, instantaneous respawns upon falling, and full compatibility across computer keyboards and mobile touchscreens.",
     "keywords": [
@@ -229,7 +235,8 @@ export const hubs = [
       "unblocked obby games",
       "obby unblocked games",
       "online obby games",
-      "car obby games"
+      "car obby games",
+      "obby games"
     ],
     "faq": [
       {
@@ -251,8 +258,8 @@ export const hubs = [
     "name": "Zombie",
     "icon": "Target",
     "headline": "Free Zombie Games Online - Undead Survival, FPS Shooters & Defense",
-    "metaTitle": "Zombie Games Free Online - Play Undead Defense | BlockHub",
-    "metaDescription": "Play zombie games free online at BlockHub.games. Fortify defensive barricades, manage ammo, and survive relentless undead waves with zero downloads.",
+    "metaTitle": "Free Zombie Games - Play Undead Defense | BlockHub",
+    "metaDescription": "Play free zombie games at BlockHub.games. Fortify defensive barricades, manage ammo, and survive relentless undead waves with zero downloads.",
     "introParagraph": "Survive endless undead assaults with [zombie games free online](/tag/zombie) directly in your browser. Hold defensive barricades in [Zombie Defense: Last Stand](/game/zombie-defense-last-stand), eliminate charging walkers in [Dead Rails](/game/dead-rails), and launch tactical artillery strikes in [Angry Zombies War Game](/game/angry-zombies-war-game). Jump into thrilling zombie games unblocked and zombie shoot game online challenges featuring instant loading and responsive action controls.",
     "intro": "The undead have overrun civilization, and survival depends entirely on your reflexes, tactical resource management, and marksmanship. Zombie games provide some of the most intense, heart-pounding survival gameplay available in the browser, testing whether you have what it takes to withstand relentless waves of flesh-eating ghouls.\n\nFrom tactical first-person shooters and sniper defense towers to top-down twin-stick survival arenas and post-apocalyptic car demolition runs, the zombie genre offers endless gameplay variety. Fortify barricades, scavenge for ammunition, upgrade high-caliber weaponry, and rescue stranded survivors while fending off fast-moving infected sprinters and hulking mutant bosses.\n\nExperience high-octane zombie survival on BlockHub.games. With responsive 3D graphics, atmospheric audio design, and zero downloads required, you can jump straight into the apocalypse on desktop, Chromebook, or mobile.",
     "keywords": [
