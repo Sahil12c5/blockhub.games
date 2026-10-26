@@ -195,6 +195,14 @@ export default function RootLayout({ children }) {
             strategy="lazyOnload"
           />
         )}
+
+        {/* Monetag MultiTag Ad Script */}
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="302449"
+          async
+          data-cfasync="false"
+        />
       </head>
       <body className="min-h-full flex flex-col bg-[#090d16] text-slate-100 selection:bg-emerald-500 selection:text-slate-950 font-sans">
         <Header />
