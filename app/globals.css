@@ -122,8 +122,8 @@ iframe#gamemonetize-game {
   user-select: none;
 }
 
-/* Suppress Monetag and third-party ad overlays when game is in fullscreen */
-html.game-fullscreen-active body > *:not(header):not(main):not(footer):not(script):not([hidden]),
+/* Suppress Monetag and third-party floating ad overlays when playing a game or in fullscreen */
+body:has(.game-player-fullscreen) > *:not(header):not(main):not(footer):not(script):not([hidden]),
 body.game-fullscreen-active > *:not(header):not(main):not(footer):not(script):not([hidden]),
 html.game-fullscreen-active > *:not(body):not(head),
 html.game-fullscreen-active [class*="monetag"],

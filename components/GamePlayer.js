@@ -51,32 +51,48 @@ export default function GamePlayer({ game }) {
     };
   }, []);
 
-  // Suppress Monetag and floating third-party ad overlays while in Fullscreen mode
+  // Suppress Monetag and floating third-party ad overlays while playing or in Fullscreen mode
   useEffect(() => {
-    if (!isFullscreen) {
+    if (isFullscreen) {
+      document.documentElement.classList.add("game-fullscreen-active");
+      document.body.classList.add("game-fullscreen-active");
+    } else {
       document.documentElement.classList.remove("game-fullscreen-active");
       document.body.classList.remove("game-fullscreen-active");
-      return;
     }
 
-    document.documentElement.classList.add("game-fullscreen-active");
-    document.body.classList.add("game-fullscreen-active");
-
-    const suppressAds = () => {
-      // 1. Hide any direct element injected into body that is not standard layout
-      if (document.body && document.body.children) {
+    const removeFloatingAds = () => {
+      // 1. Remove any direct element injected into body that is not standard layout
+      if (typeof document !== "undefined" && document.body && document.body.children) {
         Array.from(document.body.children).forEach((child) => {
           const tag = child.tagName.toLowerCase();
-          if (tag !== "header" && tag !== "main" && tag !== "footer" && tag !== "script" && !child.hasAttribute("hidden")) {
-            child.style.setProperty("display", "none", "important");
-            child.style.setProperty("visibility", "hidden", "important");
-            child.style.setProperty("opacity", "0", "important");
-            child.style.setProperty("pointer-events", "none", "important");
+          if (
+            tag !== "header" &&
+            tag !== "main" &&
+            tag !== "footer" &&
+            tag !== "script" &&
+            !child.hasAttribute("hidden")
+          ) {
+            child.remove();
           }
         });
       }
 
-      // 2. Query specific ad and floating selectors
+      // 2. Remove any direct element injected into html (documentElement)
+      if (
+        typeof document !== "undefined" &&
+        document.documentElement &&
+        document.documentElement.children
+      ) {
+        Array.from(document.documentElement.children).forEach((child) => {
+          const tag = child.tagName.toLowerCase();
+          if (tag !== "head" && tag !== "body") {
+            child.remove();
+          }
+        });
+      }
+
+      // 3. Query specific ad and floating selectors
       const selectors = [
         '[class*="monetag"]',
         '[id*="monetag"]',
@@ -86,47 +102,45 @@ export default function GamePlayer({ game }) {
         '[id*="ipp-"]',
         '[class*="zone-"]',
         '[data-zone]',
-        'div[style*="position: fixed"]',
-        'div[style*="position:fixed"]',
       ];
 
       document.querySelectorAll(selectors.join(",")).forEach((el) => {
         if (containerRef.current && containerRef.current.contains(el)) return;
-        el.style.setProperty("display", "none", "important");
-        el.style.setProperty("visibility", "hidden", "important");
-        el.style.setProperty("opacity", "0", "important");
-        el.style.setProperty("pointer-events", "none", "important");
+        el.remove();
       });
     };
 
-    suppressAds();
+    if (isPlaying || isFullscreen) {
+      removeFloatingAds();
 
-    const observer = new MutationObserver((mutations) => {
-      for (const mutation of mutations) {
-        mutation.addedNodes.forEach((node) => {
-          if (node.nodeType === Node.ELEMENT_NODE) {
-            if (containerRef.current && containerRef.current.contains(node)) return;
-            const tag = node.tagName.toLowerCase();
-            if (tag !== "header" && tag !== "main" && tag !== "footer" && tag !== "script" && !node.hasAttribute("hidden")) {
-              node.style.setProperty("display", "none", "important");
-              node.style.setProperty("visibility", "hidden", "important");
-              node.style.setProperty("opacity", "0", "important");
-              node.style.setProperty("pointer-events", "none", "important");
+      const observer = new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+              if (containerRef.current && containerRef.current.contains(node)) return;
+              const tag = node.tagName.toLowerCase();
+              if (
+                tag !== "header" &&
+                tag !== "main" &&
+                tag !== "footer" &&
+                tag !== "script" &&
+                !node.hasAttribute("hidden")
+              ) {
+                node.remove();
+              }
             }
-          }
-        });
-      }
-    });
+          });
+        }
+      });
 
-    observer.observe(document.body, { childList: true, subtree: true });
-    observer.observe(document.documentElement, { childList: true });
+      observer.observe(document.body, { childList: true, subtree: true });
+      observer.observe(document.documentElement, { childList: true });
 
-    return () => {
-      observer.disconnect();
-      document.documentElement.classList.remove("game-fullscreen-active");
-      document.body.classList.remove("game-fullscreen-active");
-    };
-  }, [isFullscreen]);
+      return () => {
+        observer.disconnect();
+      };
+    }
+  }, [isPlaying, isFullscreen]);
 
   const handleToggleFullscreen = async () => {
     const el = containerRef.current;
