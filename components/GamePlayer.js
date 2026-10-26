@@ -26,16 +26,91 @@ export default function GamePlayer({ game }) {
     game.iframeUrl === "PASTE_GAMEMONETIZE_EMBED_URL_HERE" ||
     game.iframeUrl.includes("PASTE_");
 
-  // Track fullscreen state change
+  // Track fullscreen state change across standard & vendor-prefixed APIs
   useEffect(() => {
     const handleFullscreenChange = () => {
-      setIsFullscreen(!!document.fullscreenElement);
+      const isFs = !!(
+        document.fullscreenElement ||
+        document.webkitFullscreenElement ||
+        document.mozFullScreenElement ||
+        document.msFullscreenElement
+      );
+      setIsFullscreen(isFs);
     };
+
     document.addEventListener("fullscreenchange", handleFullscreenChange);
+    document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+    document.addEventListener("mozfullscreenchange", handleFullscreenChange);
+    document.addEventListener("MSFullscreenChange", handleFullscreenChange);
+
     return () => {
       document.removeEventListener("fullscreenchange", handleFullscreenChange);
+      document.removeEventListener("webkitfullscreenchange", handleFullscreenChange);
+      document.removeEventListener("mozfullscreenchange", handleFullscreenChange);
+      document.removeEventListener("MSFullscreenChange", handleFullscreenChange);
     };
   }, []);
+
+  // Suppress Monetag and floating third-party ad overlays while in Fullscreen mode
+  useEffect(() => {
+    if (!isFullscreen) {
+      document.documentElement.classList.remove("game-fullscreen-active");
+      document.body.classList.remove("game-fullscreen-active");
+      return;
+    }
+
+    document.documentElement.classList.add("game-fullscreen-active");
+    document.body.classList.add("game-fullscreen-active");
+
+    const suppressAds = () => {
+      const selectors = [
+        '[class*="monetag"]',
+        '[id*="monetag"]',
+        '[class*="inpage"]',
+        '[id*="inpage"]',
+        '[class*="ipp-"]',
+        '[id*="ipp-"]',
+        '[class*="zone-"]',
+        '[data-zone]',
+        'div[style*="position: fixed"]',
+        'div[style*="position:fixed"]',
+      ];
+
+      document.querySelectorAll(selectors.join(",")).forEach((el) => {
+        if (containerRef.current && containerRef.current.contains(el)) return;
+        el.style.setProperty("display", "none", "important");
+        el.style.setProperty("visibility", "hidden", "important");
+        el.style.setProperty("opacity", "0", "important");
+        el.style.setProperty("pointer-events", "none", "important");
+      });
+    };
+
+    suppressAds();
+
+    const observer = new MutationObserver((mutations) => {
+      let shouldSuppress = false;
+      for (const mutation of mutations) {
+        mutation.addedNodes.forEach((node) => {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            if (containerRef.current && containerRef.current.contains(node)) return;
+            shouldSuppress = true;
+          }
+        });
+      }
+      if (shouldSuppress) {
+        suppressAds();
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+    observer.observe(document.documentElement, { childList: true });
+
+    return () => {
+      observer.disconnect();
+      document.documentElement.classList.remove("game-fullscreen-active");
+      document.body.classList.remove("game-fullscreen-active");
+    };
+  }, [isFullscreen]);
 
   const handleToggleFullscreen = async () => {
     const el = containerRef.current;
@@ -57,6 +132,9 @@ export default function GamePlayer({ game }) {
           await el.webkitRequestFullscreen();
         } else if (el.msRequestFullscreen) {
           await el.msRequestFullscreen();
+        } else {
+          // Fallback for browsers/devices without requestFullscreen on div
+          setIsFullscreen(true);
         }
 
         // On mobile devices, attempt to lock to landscape for horizontal games if supported
@@ -76,6 +154,7 @@ export default function GamePlayer({ game }) {
         } else if (document.msExitFullscreen) {
           await document.msExitFullscreen();
         }
+        setIsFullscreen(false);
         if (
           typeof screen !== "undefined" &&
           screen.orientation &&
@@ -86,6 +165,8 @@ export default function GamePlayer({ game }) {
       }
     } catch (err) {
       console.error("Fullscreen API error:", err);
+      // Fallback toggle if native call throws
+      setIsFullscreen(!isFullscreen);
     }
   };
 
@@ -128,7 +209,9 @@ export default function GamePlayer({ game }) {
     <div
       ref={containerRef}
       className={`game-player-fullscreen relative w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-2xl transition-all duration-300 ${
-        isTheater
+        isFullscreen && typeof document !== "undefined" && !document.fullscreenElement
+          ? "fixed inset-0 z-[99999] rounded-none border-0 w-screen h-screen"
+          : isTheater
           ? "max-w-6xl mx-auto"
           : aspectMode === "portrait"
           ? "max-w-md mx-auto"

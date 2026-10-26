@@ -122,4 +122,24 @@ iframe#gamemonetize-game {
   user-select: none;
 }
 
+/* Suppress Monetag and third-party ad overlays when game is in fullscreen */
+html.game-fullscreen-active body > div[style*="fixed"]:not(#portal-root),
+html.game-fullscreen-active body > div[style*="z-index"]:not(.game-player-fullscreen),
+html.game-fullscreen-active body > iframe:not(#gamemonetize-game),
+html.game-fullscreen-active [class*="monetag"],
+html.game-fullscreen-active [id*="monetag"],
+html.game-fullscreen-active [class*="inpage"],
+html.game-fullscreen-active [id*="inpage"],
+html.game-fullscreen-active [class*="ipp-"],
+html.game-fullscreen-active [id*="ipp-"],
+html.game-fullscreen-active [class*="zone-"],
+html.game-fullscreen-active [data-zone],
+html.game-fullscreen-active > div:not(body),
+html.game-fullscreen-active > iframe {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 
