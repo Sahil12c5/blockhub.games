@@ -176,3 +176,51 @@ Maintain a live log of all published content and outreach efforts:
 | *2026-10-29* | *Reddit (r/WebGames)* | *Casual browser game recommendation*| `https://blockhub.games/game/cake-sort` | *Cake Sort on BlockHub*| *—* | *Organic response to thread* |
 | *2026-10-30* | *Quora* | *What are good online pool simulators?* | `https://blockhub.games/game/9-ball-pool-3d` | *BlockHub* | *—* | *Detailed physics guide* |
 | *2026-10-31* | *X (Twitter)* | *Halloween / Zombie Survival Spotlight* | `https://blockhub.games/tag/zombie` | *BlockHub* | *—* | *Gameplay GIF clip* |
+
+---
+
+## 8. Keyword Optimization Batch - October 27, 2026
+
+### 1. Original Social Post & Caption Templates
+
+* **YouTube Shorts (Target: Car Parking Simulator):**
+  > *"Threading the needle between concrete pillars! Tested my steering precision in [car parking driving game](https://blockhub.games/game/car-parking-driving-game) on BlockHub. Zero paint scratched. Play instant browser games at blockhub.games."*
+
+* **Pinterest (Target: Bubble Shooter Collection):**
+  > *"Unwind with classic match-3 trajectory physics. Bank spheres off sidewalls and drop massive clusters in [bubble shooter free online](https://blockhub.games/tag/bubble-shooter) on BlockHub. Fast, responsive, and 100% free with no install."*
+
+* **X / Twitter (Target: 3D Racing Category):**
+  > *"Full throttle drifting across asphalt city tracks! Jump straight into high-speed [car racing games online](https://blockhub.games/category/racing) on BlockHub. Play directly in your web browser with zero downloads: blockhub.games"*
+
+* **Reddit (r/WebGames - Genuine Community Participation):**
+  > *"If you're hunting for lightweight obstacle courses with responsive aerial jumping physics that run directly in Chrome or Firefox, try out the [obby games](https://blockhub.games/tag/obby) library on BlockHub. No client downloads or account signups required."*
+
+* **Quora (Q&A: Best browser games for zombie defense):**
+  > *"If you want quick wave-defense and barricade survival without bloated load times or desktop installations, the curated [free zombie games](https://blockhub.games/tag/zombie) hub on BlockHub has solid retro and 3D defense titles that stream instantly in HTML5."*
+
+### 2. Anchor Text Suggestions per Target URL
+
+| Target URL | Primary Brand Anchor (60–70%) | Partial-Match Anchor (20–25%) | Natural / URL Anchor (10–15%) |
+| :--- | :--- | :--- | :--- |
+| `https://blockhub.games/tag/bubble-shooter` | `BlockHub`, `blockhub.games` | `play bubble shooter on BlockHub` | `view collection`, `blockhub.games/tag/bubble-shooter` |
+| `https://blockhub.games/tag/car-parking` | `BlockHub`, `BlockHub Games` | `car parking games at BlockHub` | `play parking simulators`, `blockhub.games` |
+| `https://blockhub.games/category/racing` | `BlockHub`, `blockhub.games` | `online car racing on BlockHub` | `start racing`, `blockhub.games/category/racing` |
+| `https://blockhub.games/tag/zombie` | `BlockHub`, `BlockHub Games` | `zombie survival defense on BlockHub` | `play here`, `blockhub.games/tag/zombie` |
+| `https://blockhub.games/tag/2-player` | `BlockHub`, `blockhub.games` | `2 player browser games on BlockHub` | `try with friends`, `blockhub.games` |
+| `https://blockhub.games/category/multiplayer` | `BlockHub`, `BlockHub Games` | `multiplayer games on BlockHub` | `join match`, `blockhub.games/category/multiplayer` |
+| `https://blockhub.games/category/shooting` | `BlockHub`, `blockhub.games` | `tactical gun games on BlockHub` | `explore shooters`, `blockhub.games` |
+| `https://blockhub.games/tag/obby` | `BlockHub`, `BlockHub Games` | `parkour obby games at BlockHub` | `jump in`, `blockhub.games/tag/obby` |
+| `https://blockhub.games/game/car-parking-driving-game` | `BlockHub`, `blockhub.games` | `Car Parking Driving Game on BlockHub` | `test parking`, `blockhub.games` |
+| `https://blockhub.games/game/super-zombie-shooter-2` | `BlockHub`, `blockhub.games` | `Super Zombie Shooter on BlockHub` | `play shooter`, `blockhub.games` |
+| `https://blockhub.games/game/car-parking-game-parking-jam` | `BlockHub`, `blockhub.games` | `Car Parking Jam puzzle on BlockHub` | `solve jam`, `blockhub.games` |
+| `https://blockhub.games/game/euro-truck-parking` | `BlockHub`, `blockhub.games` | `Euro Truck 3D parking on BlockHub` | `steer trucks`, `blockhub.games` |
+
+### 3. Risk Prevention & Compliance Reminders
+
+* **NO Paid Links or PBNs:** Zero paid backlinks, link networks, or un-flagged sponsored placements.
+* **NO Reciprocal Link Schemes:** Never engage in reciprocal link wheels or automated link exchange rings.
+* **NO Automated / Comment Spam:** Never blast comments or forum threads with unsolicited promotional links.
+* **NO Fake Ratings or Unverifiable Claims:** Never advertise fabricated player numbers, fake star ratings, or prize claims.
+* **NO Self-Clicking Ads or Bot Traffic:** Strictly prohibit automated traffic generation, click exchanges, or forced ad interactions.
+* **Manual Execution Only:** All external postings, social sharing, and community engagement must be performed manually by the site operator.
+

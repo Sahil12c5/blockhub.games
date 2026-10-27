@@ -2,6 +2,17 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Surfer Keyword Batch Audit & Metatags Expansion] - 2026-10-27
+
+### Added
+- **Metatags Keyword Arrays Expansion**: Appended 444 clean, verified search keywords (monthly search volume 100–3,000) across `app/layout.js` (global browser gaming terms), `data/categories.js` (`racing`, `shooting`, `multiplayer`), `data/hubs.js` (`car-parking`, `zombie`, `bubble-shooter`, `obby`, `2-player`), and `data/games.js` (`gameSeoOverrides`), maintaining 100% case-insensitive deduplication and zero corruption of existing metadata.
+- **Off-Page Keyword Promotion & Outreach Plan**: Appended Section 8 to `reports/seo/offpage-plan.md` featuring 5 platform-tailored post/caption templates (YouTube Shorts, Pinterest, X/Twitter, Reddit r/WebGames, and Quora), anchor text suggestions (branded, partial match, natural URL), and zero-tolerance risk prevention reminders.
+- **Batch Keyword Audit Verification**: Verified complete mapping of 697 keywords, confirming 42 primary/secondary keywords mapped across 29 priority pages with 0 cannibalization, all within 100–3,000 monthly search volume.
+
+### Verified
+- **Quality Gates**: `scripts/check-onpage-keywords.js` passed 100% with 0 violations.
+- **Production Build & Route Parity**: Passed `npm run build` with 426 static pages generated; internal link audit reports 0 broken links and page count unchanged.
+
 ## [Keyword Surfer Metadata & Family-Aligned Optimization] - 2026-10-26
 
 ### Added
