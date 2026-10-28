@@ -192,12 +192,10 @@ export default function RootLayout({ children }) {
 
         {/* Google AdSense Script (lazy-loaded after page is fully interactive) */}
         {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
-          <Script
-            id="adsense-init"
+          <script
             async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9415893623013266"
             crossOrigin="anonymous"
-            strategy="lazyOnload"
           />
         )}
 

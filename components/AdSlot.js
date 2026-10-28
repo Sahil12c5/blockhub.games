@@ -11,9 +11,11 @@ export default function AdSlot({
 }) {
   const adRef = useRef(null);
   // Check if live AdSense is configured
+  const clientId =
+    process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-9415893623013266";
+
   const hasRealClientId =
-    Boolean(process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID) &&
-    process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX";
+    Boolean(clientId) && clientId !== "ca-pub-XXXXXXXXXXXXXXXX";
 
   const isDevOrPlaceholder = !hasRealClientId;
 
@@ -38,8 +40,7 @@ export default function AdSlot({
     return null;
   }
 
-  const clientId =
-    process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXXXX";
+  // clientId defined above
 
   const heightConfig = {
     horizontal: {
