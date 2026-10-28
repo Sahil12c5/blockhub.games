@@ -1,10 +1,6 @@
-import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
-
-const ADSENSE_CLIENT_ID =
-  process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-9415893623013266";
 
 export const metadata = {
   metadataBase: new URL("https://blockhub.games"),
@@ -190,14 +186,12 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://img.gamemonetize.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://img.gamemonetize.com" />
 
-        {/* Google AdSense Script (lazy-loaded after page is fully interactive) */}
-        {ADSENSE_CLIENT_ID && ADSENSE_CLIENT_ID !== "ca-pub-XXXXXXXXXXXXXXXX" && (
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9415893623013266"
-            crossOrigin="anonymous"
-          />
-        )}
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9415893623013266"
+          crossOrigin="anonymous"
+        />
 
       </head>
       <body className="min-h-full flex flex-col bg-[#090d16] text-slate-100 selection:bg-emerald-500 selection:text-slate-950 font-sans">
