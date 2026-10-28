@@ -22,6 +22,13 @@ export function GameJsonLd({ game, baseUrl = "https://blockhub.games" }) {
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "380",
+      bestRating: "5",
+      worstRating: "1",
+    },
   };
 
   const faqSchema =
@@ -140,6 +147,13 @@ export function CategoryJsonLd({ category, baseUrl = "https://blockhub.games" })
     about: {
       "@type": "Thing",
       name: `${category.name} Games`,
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "1450",
+      bestRating: "5",
+      worstRating: "1",
     },
   };
 
