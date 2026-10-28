@@ -1,6 +1,14 @@
-self.options = {
-    "domain": "3nbf4.com",
-    "zoneId": 12130101
-}
-self.lary = ""
-importScripts('https://3nbf4.com/act/files/service-worker.min.js?r=sw')
+// Monetag ads removed - unregister existing service worker
+self.addEventListener('install', () => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    self.registration.unregister().then(() => {
+      return self.clients.matchAll();
+    }).then((clients) => {
+      clients.forEach(client => client.navigate(client.url));
+    })
+  );
+});

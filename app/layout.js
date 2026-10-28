@@ -201,12 +201,6 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className="min-h-full flex flex-col bg-[#090d16] text-slate-100 selection:bg-emerald-500 selection:text-slate-950 font-sans">
-        {/* Monetag In-Page Push Ad Script (Active across catalog; skipped during game play) */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(s){if(window.location&&window.location.pathname&&window.location.pathname.indexOf('/game/')===0)return;s.dataset.zone='12130257',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`
-          }}
-        />
         <Header />
         <main className="flex-1 w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6">
           {children}
