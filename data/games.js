@@ -19612,280 +19612,348 @@ const rawGames = [
 function enrichGame(game) {
   if (!game) return null;
     const gameSeoOverrides = {
-      "referee-simulator-3d": {
-          "keywords": [
-              "referee simulator online",
-              "referee simulator free",
-              "referee simulator browser"
-          ],
-          "meta_title": "Referee Simulator Online 3D | BlockHub.games",
-          "meta_description": "Take the whistle in referee simulator online. Make pitch calls, check VAR replays, and officiate matches in your browser on BlockHub.games."
-      },
-      "cake-sort": {
-          "keywords": [
-              "cake sort online"
-          ],
-          "meta_title": "Cake Sort Online - 3D Color Slice Puzzle | BlockHub.games",
-          "meta_description": "Play cake sort online on BlockHub.games. Organize dessert slices by flavor, assemble complete six-slice cakes, and clear the bakery board."
-      },
-      "9-ball-pool-3d": {
-          "keywords": [
-              "9 ball pool unblocked"
-          ],
-          "meta_title": "9 Ball Pool Unblocked - 3D Billiards | BlockHub.games",
-          "meta_description": "Play 9 ball pool unblocked at BlockHub.games. Line up cue sticks, calculate bank angles, and sink numbered billiard balls in order on 3D tables."
-      },
-      "godzilla-runner-game": {
-          "keywords": [
-              "godzilla runner game"
-          ],
-          "meta_title": "Godzilla Runner Game - City Rampage Run | BlockHub.games",
-          "meta_description": "Play Godzilla Runner Game on BlockHub.games. Smash through city streets, leap over hazards, slide under barriers, and survive endless urban runs."
-      },
-      "embercraft": {
-          "keywords": [
-              "embercraft game"
-          ],
-          "meta_title": "EmberCraft Game - Fiery Mining & Craft | BlockHub.games",
-          "meta_description": "Explore the embercraft game on BlockHub.games. Forge gear, build shelters, and mine glowing resources deep inside fiery underworld caverns."
-      },
-      "blade-merge": {
-          "keywords": [
-              "blade merge"
-          ],
-          "meta_title": "Blade Merge - Combine & Slice Arcade | BlockHub.games",
-          "meta_description": "Play blade merge on BlockHub.games. Combine identical swords to forge stronger blades, slice flying targets, and beat fast arcade stages."
-      },
-      "collect-brainrot-arena": {
-          "keywords": [
-              "collect brainrot arena"
-          ],
-          "meta_title": "Collect Brainrot Arena - Party Action | BlockHub.games",
-          "meta_description": "Play collect brainrot arena on BlockHub.games. Gather viral collectible characters, dodge rivals, and out-score opponents in fast party rounds."
-      },
-      "knightbit-far-lands": {
-          "keywords": [
-              "knightbit far lands"
-          ],
-          "meta_title": "KnightBit: Far Lands - Medieval Combat | BlockHub.games",
-          "meta_description": "Play KnightBit: Far Lands free online. Choose Knights or Vikings, capture battle flags, and fight across massive medieval battlefields."
-      },
-      "storm-dash": {
-          "keywords": [
-              "storm dash"
-          ],
-          "meta_title": "Storm Dash - Fast Tempest Runner Arcade | BlockHub.games",
-          "meta_description": "Play Storm Dash free in your browser. Dash through raging windstorms, dodge lightning obstacles, and outrun tempest gusts on BlockHub.games."
-      },
-      "car-parking-game-parking-jam": {
-          "keywords": [
-              "car parking jam",
-              "parking jam game",
-              "parking jam 3d",
-              "parking jam",
-              "parking jam games",
-              "car parking games parking jam",
-              "car parking games: parking jam",
-              "parking jam game online",
-              "parking jam online"
-            ],
-          "meta_title": "Car Parking Jam - Unblock Puzzle | BlockHub.games",
-          "meta_description": "Play car parking jam on BlockHub.games. Solve congested parking lot puzzles, untangle gridlocked traffic, and guide cars safely to open exits."
-      },
-      "car-parking-driving-game": {
-          "keywords": [
-              "car parking driving game"
-          ],
-          "meta_title": "Car Parking Driving Game - 3D Lot | BlockHub.games",
-          "meta_description": "Play car parking driving game on BlockHub.games. Steer through narrow garage corridors, avoid orange cones, and park vehicles smoothly online."
-      },
-      "3d-police-car-parking": {
-          "keywords": [
-              "3d car parking game",
-              "games of car parking 3d",
-              "games parking car 3d",
-              "parking car 3d games",
-              "car parking 3d game",
-              "game car parking 3d",
-              "games 3d car parking",
-              "car parking 3d",
-              "car parking 3d game car drive",
-              "car parking 3d game: car drive",
-              "3d car parking"
-            ],
-          "meta_title": "3D Car Parking Game - Police Cruiser | BlockHub.games",
-          "meta_description": "Master this 3D car parking game on BlockHub.games. Navigate emergency police cruisers through narrow multi-story bays with precise steering."
-      },
-      "parking-puzzle-game": {
-          "keywords": [
-              "car parking puzzle",
-              "parking puzzler game",
-              "car parking puzzle game",
-              "parking puzzle",
-              "parking puzzle games",
-              "car parking puzzle games"
-            ],
-          "meta_title": "Car Parking Puzzle - Traffic Grid | BlockHub.games",
-          "meta_description": "Solve each car parking puzzle on BlockHub.games. Slide trapped vehicles out of gridlock, plan your move order, and clear crowded parking lots."
-      },
-      "bus-mania-parking-puzzle": {
-          "keywords": [
-              "car park puzzle",
-              "car jam game",
-              "car jam game online"
-            ],
-          "meta_title": "Car Park Puzzle - Bus Mania Jam | BlockHub.games",
-          "meta_description": "Tackle the car park puzzle in Bus Mania on BlockHub.games. Match passenger colors, navigate tight bus bays, and resolve crowded traffic jams."
-      },
-      "drive-and-park-master": {
-          "keywords": [
-              "park the car game",
-              "park your car game"
-            ],
-          "meta_title": "Park the Car Game - Drift Master | BlockHub.games",
-          "meta_description": "Play park the car game on BlockHub.games. Time your drift turns to slide cleanly into parallel curbside parking spots along crowded city roads."
-      },
-      "euro-truck-parking": {
-          "keywords": [
-              "3d parking game"
-          ],
-          "meta_title": "3D Parking Game - Euro Truck Docks | BlockHub.games",
-          "meta_description": "Challenge your precision in this 3D parking game on BlockHub.games. Reverse heavy commercial Euro trucks safely into tight warehouse loading bays."
-      },
-      "advance-car-game-parking": {
-          "keywords": [
-              "advance car parking car games",
-              "advance car parking: car games"
-            ],
-          "meta_title": "Advance Car Parking Car Games - 3D | BlockHub.games",
-          "meta_description": "Experience advance car parking car games on BlockHub.games. Master realistic reverse maneuvers, narrow barrier roads, and multi-level garage docking."
-      },
-      "classic-car-driving-game": {
-          "keywords": [
-              "car driving game",
-              "cars driving game",
-              "driving car game"
-            ],
-          "meta_title": "Car Driving Game - Classic Streets | BlockHub.games",
-          "meta_description": "Cruise vintage streets in this car driving game on BlockHub.games. Handle authentic classic automobile physics across realistic city routes."
-      },
-      "offroad-truck-driving-simulator": {
-          "keywords": [
-              "driving simulator games online",
-              "driving simulator unblocked"
-            ],
-          "meta_title": "Driving Simulator Games Online - Mud | BlockHub.games",
-          "meta_description": "Enjoy driving simulator games online with offroad trucks on BlockHub.games. Power heavy 4x4 haulers through deep mud tracks and forest ruts."
-      },
-      "zombie-defense-last-stand": {
-          "keywords": [
-              "zombie defense",
-              "zombies defense games",
-              "defense zombie",
-              "zombie defence games",
-              "zombie defense games",
-              "zombies defense"
-            ],
-          "meta_title": "Zombie Defense: Last Stand - Bunker | BlockHub.games",
-          "meta_description": "Take command in zombie defense on BlockHub.games. Fortify bunker barricades, deploy tactical turrets, and hold out against endless undead waves."
-      },
-      "super-zombie-shooter-2": {
-          "keywords": [
-              "zombie shooter game",
-              "shooting zombie games online",
-              "zombie shooter games",
-              "zombie shooter games online",
-              "shooting zombies games online"
-            ],
-          "meta_title": "Zombie Shooter Game - Undead Blast | BlockHub.games",
-          "meta_description": "Jump into this zombie shooter game on BlockHub.games. Eliminate advancing mutant hordes, scavenge ammunition, and survive dark city streets."
-      },
-      "blocky-zombie-shooting": {
-          "keywords": [
-              "blocky shooter game",
-              "blocky shooting games"
-            ],
-          "meta_title": "Blocky Shooter Game - Voxel Undead | BlockHub.games",
-          "meta_description": "Play this blocky shooter game on BlockHub.games. Aim down pixel crosshairs, defeat cubic walking dead waves, and clear retro voxel arenas online."
-      },
-      "angry-zombies-war-game": {
-          "keywords": [
-              "killing zombies game",
-              "killing zombies games",
-              "zombie killing game",
-              "zombie killing"
-            ],
-          "meta_title": "Killing Zombies Game - Angry War | BlockHub.games",
-          "meta_description": "Take aim in this killing zombies game on BlockHub.games. Launch physics artillery shells to topple barricades and eliminate sheltering undead."
-      },
-      "rise-zombies": {
-          "keywords": [
-              "zombie killer game",
-              "zombie killer",
-              "zombie killer games"
-            ],
-          "meta_title": "Zombie Killer Game - Rise of Undead | BlockHub.games",
-          "meta_description": "Step into this zombie killer game on BlockHub.games. Hold off rising undead hordes, upgrade weapons, and protect survivors at every checkpoint."
-      },
-      "zombie-survival-last-stand": {
-          "keywords": [
-              "zombie survival games",
-              "zombie survival game pc",
-              "zombie survival games pc",
-              "zombie survival games online",
-              "zombie survival online"
-            ],
-          "meta_title": "Zombie Survival Games - Last Stand | BlockHub.games",
-          "meta_description": "Experience top zombie survival games on BlockHub.games. Scavenge resources, reinforce perimeter defenses, and outlast relentless infected waves."
-      },
-      "the-zombie-house": {
-          "keywords": [
-              "the zombie house",
-              "3d zombie game",
-              "3d zombie games",
-              "zombie 3d game",
-              "zombie 3d games",
-              "zombie games 3d"
-            ],
-          "meta_title": "3D Zombie Game - House Defense | BlockHub.games",
-          "meta_description": "Survive in this 3D zombie game on BlockHub.games. Barricade broken doors, conserve ammunition, and defend your safehouse against night walkers."
-      },
-      "signal-survival-block-arena": {
-          "keywords": [
-              "block shooter",
-              "block shooter game",
-              "block shooter games",
-              "block shooting games",
-              "blocks shooting game",
-              "shooting block game",
-              "shooting block games"
-            ],
-          "meta_title": "Block Shooter - Signal Survival | BlockHub.games",
-          "meta_description": "Enter the arena in block shooter on BlockHub.games. Gather broadcast signal nodes, dodge enemy crossfire, and blast voxel combat targets online."
-      },
-      "slingshot-shooting-game": {
-          "keywords": [
-              "slingshot game online",
-              "ball shooter game"
-          ],
-          "meta_title": "Ball Shooter Game - Slingshot Knock | BlockHub.games",
-          "meta_description": "Aim carefully in this ball shooter game on BlockHub.games. Pull back elastic slingshots to topple stacked cans and clear tricky puzzle platforms."
-      },
-      "anti-terrorist-shooting-game": {
-          "keywords": [
-              "first person shooter online"
-          ],
-          "meta_title": "First Person Shooter Online - Strike | BlockHub.games",
-          "meta_description": "Jump into tactical first person shooter online combat on BlockHub.games. Complete counter-terrorist room clearance missions and disarm threats."
-      },
-      "tank-soccer-battle-1-2-3-4-player": {
-          "keywords": [
-              "1234 player games"
-          ],
-          "meta_title": "1234 Player Games - Tank Soccer | BlockHub.games",
-          "meta_description": "Compete in 1234 player games on BlockHub.games. Steer mini tanks around indoor soccer arenas and score goals in hilarious local party matches."
-      }
-  };
+    "referee-simulator-3d": {
+        "keywords": [
+            "referee simulator online",
+            "referee simulator free",
+            "referee simulator browser"
+        ],
+        "meta_title": "Referee Simulator Online 3D | BlockHub.games",
+        "meta_description": "Take the whistle in referee simulator online. Make pitch calls, check VAR replays, and officiate matches in your browser on BlockHub.games.",
+        "h1": "Referee Simulator 3D - Referee Simulator Online",
+        "description": "Experience authentic referee simulator online action in Referee Simulator 3D as you take the whistle directly in your hands across immersive environments. Running along the pitch alongside professional athletes, you must keep up with fast-paced soccer plays and render impartial judgments on contested tackles. To clear each stage, you must position yourself near active plays, assess sliding challenges and handball appeals, award rightful free kicks or penalties, and issue disciplinary cards to maintain match control. Your decisions determine the fairness of championship games and the respect you command on the pitch.\n\nKeep a sharp eye on spacing and positioning to ensure you stay ahead while demonstrating sharp visual perception, stamina management, and calm authority under player dissent. As attacking squads counter-attack down the wings, you must sprint into position to obtain clear lines of sight without obstructing passing lanes or colliding with midfielders. Players must distinguish between clean ball-winning tackles and dangerous studs-up fouls, blowing the whistle promptly to prevent on-pitch scuffles. Managing aggressive team captains and maintaining consistency across ninety minutes of competitive action earns high match ratings from league evaluators. Consulting with touchline assistant referees helps resolve tight offside calls when players dispute penalty box infractions."
+    },
+    "cake-sort": {
+        "keywords": [
+            "cake sort online"
+        ],
+        "meta_title": "Cake Sort Online - 3D Color Slice Puzzle | BlockHub.games",
+        "meta_description": "Play cake sort online on BlockHub.games. Organize dessert slices by flavor, assemble complete six-slice cakes, and clear the bakery board."
+    },
+    "9-ball-pool-3d": {
+        "keywords": [
+            "9 ball pool unblocked",
+            "9 ball pool online free"
+        ],
+        "meta_title": "9 Ball Pool Online Free - 3D Billiards | BlockHub",
+        "meta_description": "Play 9 ball pool online free at BlockHub.games. Line up cue sticks, calculate bank angles, and sink numbered billiard balls in order on 3D tables.",
+        "h1": "9 Ball Pool 3D - 9 Ball Pool Online Free",
+        "description": "Enjoy authentic cue sports in 9 ball pool online free with 9 Ball Pool 3D, featuring authentic rotational rules and table physics. Challenging competitive computer opponents or taking on practice drills, players step up to green baize tables to contest standard nine-ball rotations. Every stage tasks you with managing to strike the lowest-numbered ball on the table first, pocket balls in numerical sequence, and sink the nine-ball cleanly to win the frame. Precise cue ball positioning is the mark of a true pool master.\n\nMaintaining steady forward momentum keeps your run alive during tense moments that demand delicate cue power control, accurate aiming lines, and spin manipulation. Lining up cue strikes allows players to visualize collision trajectories and secondary cue ball rollouts after contact. Applying top-spin, back-spin, or lateral english to the cue ball controls where it stops, setting up comfortable angles for your next numbered target. Sinking the nine-ball early through combination shots or caroms off the lowest ball delivers instant frame victories, rewarding creative shot planning across challenging frames. Feathering cue power on short straight-in pots ensures the cue ball stays centered for simple follow-up combinations."
+    },
+    "godzilla-runner-game": {
+        "keywords": [
+            "godzilla runner game"
+        ],
+        "meta_title": "Godzilla Runner Game - City Rampage | BlockHub.games",
+        "meta_description": "Play Godzilla Runner Game on BlockHub.games. Smash through city streets, leap over hazards, slide under barriers, and survive endless urban runs.",
+        "h1": "Godzilla Runner Game - City Rampage Runner",
+        "description": "Godzilla Runner Game unleashes the legendary King of the Monsters on a rampage through a densely packed metropolitan city. As Godzilla charges automatically down broad urban avenues, you must time your inputs to smash through crumbling skyscrapers, leap across gaping fissures, and slide beneath low-hanging elevated railway tracks. The running tempo accelerates steadily over time, requiring split-second reflexes to dodge military barricades, electrical pylons, and artillery strikes deployed to slow your monster's advance. Gathering destructive energy points lets you build up your rampage meter, triggering devastating atomic breath blasts that clear obstacles across all lanes. Master the rhythm of colossal destruction and see how far your behemoth can charge."
+    },
+    "embercraft": {
+        "keywords": [
+            "embercraft game"
+        ],
+        "meta_title": "EmberCraft Game - Fiery Mining & Craft | BlockHub",
+        "meta_description": "Explore the embercraft game on BlockHub.games. Forge gear, build shelters, and mine glowing resources deep inside fiery underworld caverns.",
+        "h1": "EmberCraft Game - Sandbox Voxel Building",
+        "description": "Experience the embercraft game in EmberCraft, an open-world 3D sandbox building and exploration adventure set across diverse natural biomes. Stepping onto procedural landscapes rich with rolling green hills, dense pine forests, and towering mountain ranges, players gather raw materials to construct their dream homesteads. Players aim to explore varied terrain, harvest timber and stone, craft useful tools, and build architectural wonders block by block. Unrestricted creative freedom and peaceful exploration define the sandbox experience across endless voxel frontiers.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for systematic resource gathering and creative spatial design. Players use hand-crafted picks and axes to quarry stone from mountain faces, chop timber from ancient woodlands, and excavate decorative marble blocks from deep caverns. Combining materials at your crafting table produces furniture, glass windows, and architectural roof tiles to personalize cozy cabins and grand castles alike. Scouting scenic ridge locations provides breathtaking panoramic views for your settlement, giving you an inspiring backdrop as you construct sprawling estates across the block world. Establishing clear torchlit paths between outposts helps you navigate back to your main base during stormy weather."
+    },
+    "blade-merge": {
+        "keywords": [
+            "blade merge"
+        ],
+        "meta_title": "Blade Merge - Combine & Slice Arcade | BlockHub.games",
+        "meta_description": "Play blade merge on BlockHub.games. Combine identical swords to forge stronger blades, slice flying targets, and beat fast arcade stages."
+    },
+    "collect-brainrot-arena": {
+        "keywords": [
+            "collect brainrot arena"
+        ],
+        "meta_title": "Collect Brainrot Arena - Party Action | BlockHub.games",
+        "meta_description": "Play collect brainrot arena on BlockHub.games. Gather viral collectible characters, dodge rivals, and out-score opponents in fast party rounds."
+    },
+    "knightbit-far-lands": {
+        "keywords": [
+            "knightbit far lands",
+            "knightbit"
+        ],
+        "meta_title": "KnightBit: Far Lands - Play Free | BlockHub.games",
+        "meta_description": "Play KnightBit: Far Lands online at BlockHub.games. Join medieval battles as knights or vikings, conquer battlegrounds, and capture flags.",
+        "h1": "KnightBit: Far Lands - Medieval Combat Game",
+        "description": "KnightBit: Far Lands drops warriors into sprawling 3D battlegrounds where royal knights clash against hardened Viking invaders. Spanning rugged environments from frozen northern fjords to contested border fortifications, each match challenges your faction to capture strategic flags and eliminate opposing fighters to rack up team victory points. Combat blends tactical melee skirmishes with ranged weapon exchanges. As you tally kills and conquer territories, the comprehensive rank progression system elevates your standing from raw recruit all the way to king, unlocking superior weapon armaments, shields, and passive soldier perks. Coordinate team maneuvers, contest contested capture circles, and hold choke points to dominate the realm."
+    },
+    "storm-dash": {
+        "keywords": [
+            "storm dash"
+        ],
+        "meta_title": "Storm Dash - Fast Tempest Runner Arcade | BlockHub.games",
+        "meta_description": "Play Storm Dash free in your browser. Dash through raging windstorms, dodge lightning obstacles, and outrun tempest gusts on BlockHub.games.",
+        "h1": "Storm Dash - High-Speed Runner Game",
+        "description": "Storm Dash is an exhilarating high-speed multiplayer escape runner where speed and reflexes decide survival. As a lethal vortex closes in from behind, players must dash across collapsing aerial pathways, leap across widening fissures, and slide beneath falling debris. Victory demands that you maintain breakneck running speed, navigate dynamic obstacle corridors, collect glowing energy orbs, and reach safe storm shelters alongside fellow online runners. Dynamic course destruction ensures no two escape sprints feel identical across volatile landscapes.\n\nLater challenges introduce tighter margins and heavier resistance, meaning you must consistently apply rapid route recognition, agile maneuvers, and keen spatial awareness. The pursuing storm consumes the pathway behind you in real time, punishing hesitation with instant elimination. Players must execute quick lane changes to avoid crumbling floor tiles and swing across wide chasm gaps using energy grapple points. Teaming up with fellow runners creates slipstream speed boosts that help you pull away from the encroaching storm wall, ensuring your entire squad reaches safety before the landscape is swallowed completely. Staying close to team runners through winding canyon sections lets everyone benefit from collective speed surges."
+    },
+    "car-parking-game-parking-jam": {
+        "keywords": [
+            "car parking jam",
+            "parking jam game",
+            "parking jam 3d",
+            "parking jam",
+            "parking jam games",
+            "car parking games parking jam",
+            "car parking games: parking jam",
+            "parking jam game online",
+            "parking jam online"
+        ],
+        "meta_title": "Car Parking Jam - Unblock Puzzle | BlockHub.games",
+        "meta_description": "Play car parking jam on BlockHub.games. Solve congested parking lot puzzles, untangle gridlocked traffic, and guide cars safely to open exits."
+    },
+    "car-parking-driving-game": {
+        "keywords": [
+            "car parking driving game"
+        ],
+        "meta_title": "Car Parking Driving Game - 3D Lot | BlockHub.games",
+        "meta_description": "Play car parking driving game on BlockHub.games. Steer through narrow garage corridors, avoid orange cones, and park vehicles smoothly online."
+    },
+    "3d-police-car-parking": {
+        "keywords": [
+            "3d car parking game",
+            "games of car parking 3d",
+            "games parking car 3d",
+            "parking car 3d games",
+            "car parking 3d game",
+            "game car parking 3d",
+            "games 3d car parking",
+            "car parking 3d",
+            "car parking 3d game car drive",
+            "car parking 3d game: car drive",
+            "3d car parking"
+        ],
+        "meta_title": "3D Car Parking Game - Police Cruiser | BlockHub.games",
+        "meta_description": "Master this 3D car parking game on BlockHub.games. Navigate emergency police cruisers through narrow multi-story bays with precise steering."
+    },
+    "parking-puzzle-game": {
+        "keywords": [
+            "car parking puzzle",
+            "parking puzzler game",
+            "car parking puzzle game",
+            "parking puzzle",
+            "parking puzzle games",
+            "car parking puzzle games"
+        ],
+        "meta_title": "Car Parking Puzzle - Traffic Grid | BlockHub.games",
+        "meta_description": "Solve each car parking puzzle on BlockHub.games. Slide trapped vehicles out of gridlock, plan your move order, and clear crowded parking lots."
+    },
+    "bus-mania-parking-puzzle": {
+        "keywords": [
+            "car park puzzle",
+            "car jam game",
+            "car jam game online"
+        ],
+        "meta_title": "Car Park Puzzle - Bus Mania Jam | BlockHub.games",
+        "meta_description": "Tackle the car park puzzle in Bus Mania on BlockHub.games. Match passenger colors, navigate tight bus bays, and resolve crowded traffic jams."
+    },
+    "drive-and-park-master": {
+        "keywords": [
+            "park the car game",
+            "park your car game"
+        ],
+        "meta_title": "Park the Car Game - Drift Master | BlockHub.games",
+        "meta_description": "Play park the car game on BlockHub.games. Time your drift turns to slide cleanly into parallel curbside parking spots along crowded city roads."
+    },
+    "euro-truck-parking": {
+        "keywords": [
+            "3d parking game"
+        ],
+        "meta_title": "3D Parking Game - Euro Truck Docks | BlockHub.games",
+        "meta_description": "Challenge your precision in this 3D parking game on BlockHub.games. Reverse heavy commercial Euro trucks safely into tight warehouse loading bays."
+    },
+    "advance-car-game-parking": {
+        "keywords": [
+            "advance car parking car games",
+            "advance car parking: car games"
+        ],
+        "meta_title": "Advance Car Parking Car Games - 3D | BlockHub.games",
+        "meta_description": "Experience advance car parking car games on BlockHub.games. Master realistic reverse maneuvers, narrow barrier roads, and multi-level garage docking."
+    },
+    "classic-car-driving-game": {
+        "keywords": [
+            "car driving game",
+            "cars driving game",
+            "driving car game"
+        ],
+        "meta_title": "Car Driving Game - Classic Streets | BlockHub.games",
+        "meta_description": "Cruise vintage streets in this car driving game on BlockHub.games. Handle authentic classic automobile physics across realistic city routes."
+    },
+    "offroad-truck-driving-simulator": {
+        "keywords": [
+            "driving simulator games online",
+            "driving simulator unblocked"
+        ],
+        "meta_title": "Driving Simulator Games Online - Mud | BlockHub.games",
+        "meta_description": "Enjoy driving simulator games online with offroad trucks on BlockHub.games. Power heavy 4x4 haulers through deep mud tracks and forest ruts."
+    },
+    "zombie-defense-last-stand": {
+        "keywords": [
+            "zombie defense",
+            "zombies defense games",
+            "defense zombie",
+            "zombie defence games",
+            "zombie defense games",
+            "zombies defense"
+        ],
+        "meta_title": "Zombie Defense: Last Stand - Bunker | BlockHub.games",
+        "meta_description": "Take command in zombie defense on BlockHub.games. Fortify bunker barricades, deploy tactical turrets, and hold out against endless undead waves."
+    },
+    "super-zombie-shooter-2": {
+        "keywords": [
+            "zombie shooter game",
+            "shooting zombie games online",
+            "zombie shooter games",
+            "zombie shooter games online",
+            "shooting zombies games online"
+        ],
+        "meta_title": "Zombie Shooter Game - Undead Blast | BlockHub.games",
+        "meta_description": "Jump into this zombie shooter game on BlockHub.games. Eliminate advancing mutant hordes, scavenge ammunition, and survive dark city streets."
+    },
+    "blocky-zombie-shooting": {
+        "keywords": [
+            "blocky shooter game",
+            "blocky shooting games",
+            "block zombie game"
+        ],
+        "meta_title": "Blocky Shooter Game - Voxel Undead | BlockHub.games",
+        "meta_description": "Play this block zombie game and blocky shooter game on BlockHub.games. Aim down crosshairs, defeat cubic undead waves, and clear retro arenas.",
+        "h1": "Blocky Zombie Shooting - Blocky Shooter Game",
+        "description": "Blocky Zombie Shooting drops you into a chaotic blocky shooter game where hordes of blocky undead swarm every alleyway and corridor across voxel warzones. Armed with an array of quirky firearms ranging from rapid-fire submachine guns to heavy block-busting shotguns, you must kite relentless mobs through tight urban corners to survive. Erect quick wooden barricades to funnel oncoming zombies into narrow choke points, manage your ammunition supplies, and chain together satisfying headshot combos to rack up arcade high scores. Compete across fast-paced Arcade challenges and endless Survival mode, unlocking custom blocky character skins and enjoying crunchy retro sound effects and ragdoll physics."
+    },
+    "angry-zombies-war-game": {
+        "keywords": [
+            "killing zombies game",
+            "killing zombies games",
+            "zombie killing game",
+            "zombie killing"
+        ],
+        "meta_title": "Killing Zombies Game - Angry War | BlockHub.games",
+        "meta_description": "Take aim in this killing zombies game on BlockHub.games. Launch physics artillery shells to topple barricades and eliminate sheltering undead."
+    },
+    "rise-zombies": {
+        "keywords": [
+            "zombie killer game",
+            "zombie killer",
+            "zombie killer games"
+        ],
+        "meta_title": "Zombie Killer Game - Rise of Undead | BlockHub.games",
+        "meta_description": "Step into this zombie killer game on BlockHub.games. Hold off rising undead hordes, upgrade weapons, and protect survivors at every checkpoint."
+    },
+    "zombie-survival-last-stand": {
+        "keywords": [
+            "zombie survival games",
+            "zombie survival game pc",
+            "zombie survival games pc",
+            "zombie survival games online",
+            "zombie survival online"
+        ],
+        "meta_title": "Zombie Survival Games - Last Stand | BlockHub.games",
+        "meta_description": "Experience top zombie survival games on BlockHub.games. Scavenge resources, reinforce perimeter defenses, and outlast relentless infected waves."
+    },
+    "the-zombie-house": {
+        "keywords": [
+            "the zombie house",
+            "3d zombie game",
+            "3d zombie games",
+            "zombie 3d game",
+            "zombie 3d games",
+            "zombie games 3d",
+            "zombie house game"
+        ],
+        "meta_title": "3D Zombie Game - The Zombie House | BlockHub.games",
+        "meta_description": "Survive the zombie house game in 3D on BlockHub.games. Barricade doors, conserve ammunition, and defend your safehouse against night walkers.",
+        "h1": "The Zombie House - 3D Zombie Game Online",
+        "description": "The Zombie House delivers intense 3D zombie game action as you defend a suburban safehouse against relentless waves of the living dead. Armed with firearms, you patrol the perimeter of your residence as swarms of aggressive zombies advance across the front yard. Eliminating zombies drops shiny coins and temporary ability pick-ups that grant rapid fire and damage boosts. Between waves, spend your hard-earned bounty to upgrade both your character—improving personal health, firing velocity, and movement speed—and your house itself, boarding up windows and reinforcing exterior doors. As each subsequent round introduces stronger, faster undead variants, strategic resource allocation ensures your household survives the night."
+    },
+    "signal-survival-block-arena": {
+        "keywords": [
+            "block shooter",
+            "block shooter game",
+            "block shooter games",
+            "block shooting games",
+            "blocks shooting game",
+            "shooting block game",
+            "shooting block games"
+        ],
+        "meta_title": "Block Shooter - Signal Survival | BlockHub.games",
+        "meta_description": "Enter the arena in block shooter on BlockHub.games. Gather broadcast signal nodes, dodge enemy crossfire, and blast voxel combat targets online."
+    },
+    "slingshot-shooting-game": {
+        "keywords": [
+            "slingshot game online",
+            "ball shooter game"
+        ],
+        "meta_title": "Ball Shooter Game - Slingshot Knock | BlockHub.games",
+        "meta_description": "Play this slingshot game online and ball shooter game at BlockHub.games. Pull elastic bands to topple stacked cans and clear puzzle platforms.",
+        "h1": "Slingshot Shooting Game - Ball Shooter Game",
+        "description": "Slingshot Shooting Game delivers fast-paced ball shooter game excitement across a vibrant casual puzzle game centered on trajectory calculations. Armed with an elastic slingshot loaded with heavy stone balls, players face intricate structures built from wooden blocks, glass panes, and tin cans. Mastering the game means knowing how to pull back on the elastic band, aim at structural weak points, and topple all targets using the fewest possible shots. Achieving high scores demands analyzing balance points and triggering efficient collapses across dozens of stages.\n\nMaintaining steady forward momentum keeps your run alive during tense moments that demand delicate tension control and spatial visualization. Pulling back further on the band increases launch velocity, while tilting the launch arc adjusts the loft angle over intervening barriers. Players must examine target towers to identify supporting beams whose removal causes the entire structure to tumble downward onto secondary targets. Utilizing special bouncy projectiles allows you to rebound shots off stone walls, striking hidden targets tucked behind heavy wooden barricades. Aiming for the bottom corners of stacked wooden crates destabilizes upper platforms and causes dramatic cascading collapses with minimal shot expenditure."
+    },
+    "anti-terrorist-shooting-game": {
+        "keywords": [
+            "first person shooter online"
+        ],
+        "meta_title": "First Person Shooter Online - Strike | BlockHub.games",
+        "meta_description": "Jump into tactical first person shooter online combat on BlockHub.games. Complete counter-terrorist room clearance missions and disarm threats."
+    },
+    "tank-soccer-battle-1-2-3-4-player": {
+        "keywords": [
+            "1234 player games"
+        ],
+        "meta_title": "1234 Player Games - Tank Soccer | BlockHub.games",
+        "meta_description": "Compete in 1234 player games on BlockHub.games. Steer mini tanks around indoor soccer arenas and score goals in hilarious local party matches."
+    },
+    "need-for-drift": {
+        "keywords": [
+            "car drift games",
+            "online drift games"
+        ],
+        "h1": "Need for Drift - Car Drift Games Online",
+        "meta_title": "Need for Drift - Car Drift Games | BlockHub.games",
+        "meta_description": "Play Need for Drift, one of our top car drift games on BlockHub.games. Master power slides, feather the handbrake, and score big online.",
+        "description": "Experience high-speed action in car drift games with Need for Drift, an arcade street racing title focused on sharp cornering techniques. Drivers take the wheel of tuned sport coupes to compete across winding asphalt circuits set in bustling industrial docks and illuminated downtown streets. Players must focus their efforts to link continuous drift angles around sharp hairpins, accumulate massive drift score multipliers, and finish ahead of aggressive street racers. Setting track records requires combining fearless corner entry speeds with disciplined counter-steering.\n\nHazards throughout each stage penalize careless moves, making it vital to maintain delicate balance between throttle feathering and counter-steering inputs. Snapping the handbrake as you enter corners initiates lateral slides, transferring vehicle weight to the outside tires while maintaining forward momentum. Drivers must balance steering angle to keep the car sliding without over-rotating into roadside guardrails or spinning out in mid-turn. Sustaining controlled drifts through alternating chicane complexes fills your boost reservoir, letting you fire nitro out of corner exits and pull away from rivals along straightaways. Feathering the accelerator during long sustained drifts preserves rear tire traction and prevents the back end from snapping loose."
+    },
+    "ashen-watch": {
+        "keywords": [
+            "ashen watch"
+        ],
+        "h1": "Ashen Watch - Fantasy Defense Combat Game",
+        "meta_title": "Ashen Watch - Play Free Online | BlockHub.games",
+        "meta_description": "Play Ashen Watch online on BlockHub.games. Defend royal castle gates against relentless enemy waves in this fantasy defense battle.",
+        "description": "Ashen Watch is a tactical fantasy combat defense game where courage stands against an endless siege. Stationed within the last royal stronghold, players protect Princess Elira from relentless waves of dark invaders assaulting castle gates. Mastering the game means knowing how to command royal defenders, repel invading barbarian hordes, cast defensive spells, and ensure the royal sanctum never falls to enemy invaders. Imposing medieval fortifications and heroic combat mechanics deliver high-stakes fantasy drama across desperate defensive stands.\n\nLater challenges introduce tighter margins and heavier resistance, meaning you must consistently apply tactical positioning, disciplined melee strikes, and timely defensive interventions. Armored enemy foot soldiers swarm courtyard gates while siege archers launch flaming arrows from distant trenches, requiring players to move swiftly between breach points to reinforce wavering guards. Wielding enchanted broadswords and throwing daggers allows you to cut down enemy champions before they batter through inner doors. Activating divine royal wards clears the courtyard in emergencies, giving defenders precious time to mend barricades and prepare for subsequent assault waves. Positioning archers on flanking battlements creates deadly crossfires that decimate incoming siege ram crews before they reach main gates."
+    },
+    "fragbyte": {
+        "keywords": [
+            "fragbyte"
+        ],
+        "h1": "FRAGBYTE - Fast Sci-Fi Arena Shooter Game",
+        "meta_title": "FRAGBYTE - Sci-Fi Arena Shooter | BlockHub.games",
+        "meta_description": "Play FRAGBYTE free in your browser on BlockHub.games. Battle hostile robotic programs in fast-paced neon arena shooter combat today.",
+        "description": "FRAGBYTE challenges players to withstand relentless waves of hostile robotic programs in a fast-paced arena shooter. Armed with high-energy plasma rifles and sidearms, you stand as the last digital defense line against waves of hostile robotic programs. The primary objective is to navigate angular arena platforms, eliminate attacking robotic constructs, scavenge power cores, and survive escalating combat waves across neon-soaked virtual sectors. Quick situational reading and persistent arena mobility are paramount for digital survival.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for relentless footwork, crisp mouse aiming, and continuous ammunition management. Robotic enemies charge from multiple spawn vectors, with agile drone units darting through the air while heavily armored sentinel mechs unleash rapid plasma volleys. Players must strafe continuously across platform perimeters, scoring clean headshots on approaching ground units while dodging incoming laser salvos. Reloading behind modular cover barriers between waves prevents you from running dry when heavy boss constructs materialize in the arena center. Circling around elevated outer catwalks keeps ground-based automatons grouped together for easy multi-target elimination."
+    },
+    "car-obby-3d": {
+        "keywords": [
+            "car obby games"
+        ],
+        "h1": "Car Obby 3D - Car Obby Games Sky Obstacles",
+        "meta_title": "Car Obby 3D - Car Obby Games Online | BlockHub",
+        "meta_description": "Play Car Obby 3D, one of the most exciting car obby games on BlockHub.games. Navigate floating obstacle courses with agile stunt cars.",
+        "description": "Experience thrilling car obby games in Car Obby 3D, taking vehicular platforming into the stratosphere across 12 perilous obstacle courses suspended high above the clouds. Steering a compact miniature car, you must negotiate narrow sky bridges, leap across gaping chasms, and weave through moving hazards like giant swinging hammers, rotating spike beams, and shifting balance platforms. Reaching cloud checkpoints ensures you never lose course progress if your wheels slip over the edge. Collect gold coins along the tracks to unlock eight custom car models and equip powerful consumable power-ups: 3-second Ghost invulnerability, 5-second Nitro surges, Super Jump launches, and 5-second Flight glides."
+    },
+    "curve-free-kick": {
+        "keywords": [
+            "free kick game online"
+        ],
+        "h1": "Curve Free Kick - Free Kick Game Online",
+        "meta_title": "Curve Free Kick - Free Kick Game Online | BlockHub",
+        "meta_description": "Play Curve Free Kick, a 3D free kick game online on BlockHub.games. Curve soccer balls around defensive walls and score in top corners.",
+        "description": "Commanding the action in Curve Free Kick, you experience a dynamic free kick game online featuring realistic ball physics and intense set pieces. Standing over set-piece opportunities outside the penalty area, players face disciplined defensive walls and agile goalkeepers. Your core mission centers on working to adjust your approach angle, strike the ball with precision curve, bend shots around defensive walls, and find the top corners of the net. Scoring consistently demands analyzing wind direction, defensive wall positioning, and goalkeeper reach across varied distances and angles.\n\nBending shots past elite goalkeepers requires delicate swipe mechanics and spin calibration. Drawing an arched trajectory on the screen applies lateral spin to the ball, causing it to swerve dramatically through the air after clearing the defensive wall. Players must gauge the gap between defender heads and the crossbar, dipping shots quickly into the side netting where keepers cannot reach. Higher stages introduce shifting crosswinds, moving wall defenders, and target bullseyes in the upper corners that multiply your match score when struck cleanly. Striking the lower third of the ball provides the upward lift needed to clear tall defensive walls before dipping beneath the crossbar."
+    }
+};
   const enriched = topGamesContent[game.slug];
   const override = gameSeoOverrides[game.slug] || {};
   if (enriched) {

@@ -224,3 +224,52 @@ Maintain a live log of all published content and outreach efforts:
 * **NO Self-Clicking Ads or Bot Traffic:** Strictly prohibit automated traffic generation, click exchanges, or forced ad interactions.
 * **Manual Execution Only:** All external postings, social sharing, and community engagement must be performed manually by the site operator.
 
+## 9. Campaign Roster & Outreach Plan (Batch 2026-10-29)
+
+**Target Pages**: Homepage (`/`), Action Hub (`/category/action`), and 14 Curated Catalog Games.  
+**Execution Mode**: 100% manual webmaster distribution (no automated blasting or paid backlinks).
+
+### 1. Social Copy & Community Discussion Templates
+
+* **YouTube Shorts / Video Pins (Target: Need for Drift):**
+  > *"Hit sustained power slides and conquer winding downtown tracks! Jump into [car drift games](https://blockhub.games/game/need-for-drift) with Need for Drift on BlockHub. Direct in-browser action with zero downloads: https://blockhub.games/game/need-for-drift"*
+
+* **Pinterest (Pin Graphic - Target: Curve Free Kick):**
+  > *"Master realistic soccer set-piece physics! Curl precision strikes past defensive walls in this 3D [free kick game online](https://blockhub.games/game/curve-free-kick) on BlockHub Games. Free HTML5 sports play with no lag: https://blockhub.games/game/curve-free-kick"*
+
+* **X / Twitter (Target: Action Category):**
+  > *"Martial arts brawlers, reflex challenges, and fast stickman combat! Explore our dedicated [action games hub](https://blockhub.games/category/action) on BlockHub Games. Zero installs, instant WebGL action: https://blockhub.games/category/action"*
+
+* **Reddit (r/WebGames - Genuine Community Contribution):**
+  > *"If you enjoy physics-based cue sports with authentic 9-ball rotational rules and clean table angles, check out [9 ball pool online free](https://blockhub.games/game/9-ball-pool-3d) directly in your browser. Runs smoothly with no signups or software installers: https://blockhub.games/game/9-ball-pool-3d"*
+
+* **Quora (Q&A: Where can I play fun sports referee and arcade simulation games?):**
+  > *"For a unique perspective on pitch officiating, [referee simulator online](https://blockhub.games/game/referee-simulator-3d) in Referee Simulator 3D lets you make the calls, review VAR moments, and manage fouls directly in browser without downloading heavy software."*
+
+### 2. Anchor Text Distribution Strategy
+
+| Target URL | Primary Brand Anchor (60–70%) | Partial-Match Anchor (20–25%) | Natural / URL Anchor (10–15%) |
+| :--- | :--- | :--- | :--- |
+| `https://blockhub.games` | `BlockHub Games`, `blockhub.games` | `free online games hub at BlockHub` | `visit portal`, `https://blockhub.games` |
+| `https://blockhub.games/category/action` | `BlockHub`, `blockhub.games` | `action games hub on BlockHub` | `play combat games`, `blockhub.games/category/action` |
+| `https://blockhub.games/game/need-for-drift` | `BlockHub`, `BlockHub Games` | `Need for Drift car drift games` | `play Need for Drift`, `blockhub.games` |
+| `https://blockhub.games/game/referee-simulator-3d` | `BlockHub`, `blockhub.games` | `referee simulator online at BlockHub` | `play referee 3D`, `blockhub.games` |
+| `https://blockhub.games/game/curve-free-kick` | `BlockHub`, `BlockHub Games` | `free kick game online on BlockHub` | `curve free kick`, `blockhub.games` |
+| `https://blockhub.games/game/9-ball-pool-3d` | `BlockHub`, `blockhub.games` | `9 ball pool online free at BlockHub` | `play 9 ball pool`, `blockhub.games` |
+| `https://blockhub.games/game/car-obby-3d` | `BlockHub`, `blockhub.games` | `car obby games on BlockHub` | `play Car Obby 3D`, `blockhub.games` |
+| `https://blockhub.games/game/knightbit-far-lands` | `BlockHub`, `BlockHub Games` | `KnightBit medieval combat` | `play KnightBit`, `blockhub.games` |
+| `https://blockhub.games/game/storm-dash` | `BlockHub`, `blockhub.games` | `Storm Dash runner on BlockHub` | `outrun storm`, `blockhub.games` |
+| `https://blockhub.games/game/ashen-watch` | `BlockHub`, `blockhub.games` | `Ashen Watch fantasy defense` | `play Ashen Watch`, `blockhub.games` |
+| `https://blockhub.games/game/fragbyte` | `BlockHub`, `blockhub.games` | `FRAGBYTE arena shooter` | `play FRAGBYTE`, `blockhub.games` |
+| `https://blockhub.games/game/godzilla-runner-game` | `BlockHub`, `blockhub.games` | `Godzilla Runner Game rampage` | `smash city`, `blockhub.games` |
+| `https://blockhub.games/game/embercraft` | `BlockHub`, `blockhub.games` | `EmberCraft voxel game` | `play EmberCraft`, `blockhub.games` |
+| `https://blockhub.games/game/the-zombie-house` | `BlockHub`, `blockhub.games` | `the zombie house game defense` | `defend safehouse`, `blockhub.games` |
+| `https://blockhub.games/game/slingshot-shooting-game` | `BlockHub`, `blockhub.games` | `slingshot game online knock` | `play slingshot`, `blockhub.games` |
+| `https://blockhub.games/game/blocky-zombie-shooting` | `BlockHub`, `blockhub.games` | `block zombie game on BlockHub` | `voxel shooter`, `blockhub.games` |
+
+### 3. Compliance & Risk Mitigation Reminders
+
+* **Zero Link Schemes:** Absolutely no paid links, PBN rentals, or reciprocal exchange rings.
+* **No Deceptive Tactics:** Anchor texts must strictly represent actual page destinations.
+* **No Comment Spam:** Genuine, context-rich manual participation only.
+* **No Bot Traffic:** Strictly organic, direct human referral traffic.

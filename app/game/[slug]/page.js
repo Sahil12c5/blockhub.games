@@ -322,7 +322,7 @@ export default async function GamePage({ params }) {
           </div>
 
           <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-            {game.title} - Play Free Online
+            {game.h1 || `${game.title} - Play Free Online`}
           </h1>
         </div>
 

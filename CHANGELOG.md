@@ -2,6 +2,26 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Verified On-Page & Off-Page Keyword Batch Optimization] - 2026-10-29
+
+### Added
+- **On-Page SEO Optimization (16 Pages)**: Applied targeted, factual keywords across Homepage (`/`), Action category (`/category/action`), and 14 catalog games (`referee-simulator-3d`, `need-for-drift`, `knightbit-far-lands`, `storm-dash`, `ashen-watch`, `fragbyte`, `godzilla-runner-game`, `embercraft`, `car-obby-3d`, `curve-free-kick`, `9-ball-pool-3d`, `the-zombie-house`, `slingshot-shooting-game`, `blocky-zombie-shooting`).
+- **Custom H1 Support on Game Pages**: Implemented dynamic `{game.h1 || ...}` resolution in `app/game/[slug]/page.js`, ensuring unique H1 tags containing primary keywords distinct from title tags.
+- **On-Page History Tracking**: Initialized `reports/seo/onpage-text-history.csv` logging complete before/after text across title tags, meta descriptions, H1 headings, and opening paragraphs for full auditability.
+- **Off-Page Outreach Strategy**: Appended Section 9 to `reports/seo/offpage-plan.md` with 5 platform-tailored post templates, diversified anchor text guidelines (60–70% brand), and compliance safeguards.
+
+### Changed
+- **Metadata Title & Description Standards**: All updated titles verified at <= 60 characters with site brand suffix; all meta descriptions verified within 120–155 characters without superlatives or ungrounded claims.
+- **First Paragraph Grounding**: Ensured primary keyword integration within the first 100 words of each target page's opening paragraph without altering pre-existing factual sentences.
+
+### Verified
+- **Quality Gates**: `scripts/check-onpage-keywords.js` passed 100% with 0 violations across excluded terms and banned claims.
+- **Zero Cannibalization**: Primary keywords mapped to strictly one unique URL across the entire catalog history.
+
+# Changelog
+
+All notable changes to the BlockHub.games platform are documented in this file.
+
 ## [Surfer Keyword Batch Audit & Metatags Expansion] - 2026-10-27
 
 ### Added

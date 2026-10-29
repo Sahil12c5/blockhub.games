@@ -696,3 +696,57 @@ zombie shooter free,20,unmapped,unmapped,Volume below 100 threshold
 game racing car 2,10,unmapped,unmapped,Volume below 100 threshold
 zombie defense agency game,10,unmapped,unmapped,Volume below 100 threshold
 zombocalypse game,10,unmapped,unmapped,Volume below 100 threshold
+drift games blocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (blocked/unblocked filter intent)",2026-10-29
+online drift games,unverified,unverified,https://blockhub.games/game/need-for-drift,secondary,"Arcade street racing with sharp drift cornering mechanics",2026-10-29
+car drift games,unverified,unverified,https://blockhub.games/game/need-for-drift,primary,"Arcade street racing with high-speed cornering and power slides",2026-10-29
+unblocked drift games,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+referee simulator online,unverified,unverified,https://blockhub.games/game/referee-simulator-3d,primary,"Exact match for 3D soccer referee match officiating simulation",2026-10-29
+referee simulator game online,unverified,unverified,https://blockhub.games/game/referee-simulator-3d,backlog,"Family variant of primary mapped keyword referee simulator online",2026-10-29
+referee simulator free,unverified,unverified,https://blockhub.games/game/referee-simulator-3d,secondary,"Exact match for free browser soccer officiating simulation",2026-10-29
+referee simulator browser,unverified,unverified,https://blockhub.games/game/referee-simulator-3d,secondary,"Exact match for web browser soccer referee simulation",2026-10-29
+referee simulator 3d online,unverified,unverified,https://blockhub.games/game/referee-simulator-3d,backlog,"Long-tail variant of referee simulator online; exceeds 2 secondary limit",2026-10-29
+bmw m4 games online,unverified,unverified,unmapped,unmapped,"Third-party trademark (BMW) with zero catalog presence",2026-10-29
+bmw m4 drift game online free,unverified,unverified,unmapped,unmapped,"Third-party trademark (BMW) with zero catalog presence",2026-10-29
+bmw drift game online,unverified,unverified,unmapped,unmapped,"Third-party trademark (BMW) with zero catalog presence",2026-10-29
+knightbit,unverified,unverified,https://blockhub.games/game/knightbit-far-lands,primary,"Exact title match for KnightBit: Far Lands medieval combat",2026-10-29
+storm dash,unverified,unverified,https://blockhub.games/game/storm-dash,primary,"Exact title match for Storm Dash multiplayer escape runner",2026-10-29
+wizard .io,unverified,unverified,unmapped,unmapped,"Third-party game brand with no catalog match",2026-10-29
+zombie house game,unverified,unverified,https://blockhub.games/game/the-zombie-house,secondary,"Exact title and safehouse defense theme for The Zombie House",2026-10-29
+ashen watch,unverified,unverified,https://blockhub.games/game/ashen-watch,primary,"Exact title match for Ashen Watch fantasy defense battle",2026-10-29
+scrap magnet game,unverified,unverified,unmapped,unmapped,"No genuine catalog match for title/mechanics",2026-10-29
+slingshot game online,unverified,unverified,https://blockhub.games/game/slingshot-shooting-game,secondary,"Exact slingshot ball firing mechanics for Slingshot Shooting Game",2026-10-29
+fragbyte,unverified,unverified,https://blockhub.games/game/fragbyte,primary,"Exact title match for FRAGBYTE sci-fi arena shooter",2026-10-29
+godzilla runner game,unverified,unverified,https://blockhub.games/game/godzilla-runner-game,primary,"Exact title match for Godzilla Runner Game urban runner",2026-10-29
+embercraft game,unverified,unverified,https://blockhub.games/game/embercraft,primary,"Exact title match for EmberCraft 3D voxel sandbox adventure",2026-10-29
+free obby games,unverified,unverified,https://blockhub.games/tag/obby,backlog,"Family variant of mapped primary obby games on tag/obby",2026-10-29
+online obby games,unverified,unverified,https://blockhub.games/tag/obby,backlog,"Family variant of mapped primary obby games on tag/obby",2026-10-29
+obby games online free,unverified,unverified,https://blockhub.games/tag/obby,backlog,"Family variant of mapped primary obby games on tag/obby",2026-10-29
+unblocked obby games,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+car obby games,unverified,unverified,https://blockhub.games/game/car-obby-3d,primary,"Exact match for vehicular platforming and obstacle course in Car Obby 3D",2026-10-29
+car parking games unblocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+free online parking games,unverified,unverified,https://blockhub.games/tag/car-parking,backlog,"Family variant of mapped secondary free parking games on tag/car-parking",2026-10-29
+parking puzzle game online,unverified,unverified,https://blockhub.games/game/parking-puzzle-game,backlog,"Family variant of mapped primary car parking puzzle",2026-10-29
+parking simulator unblocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+parking car games online,unverified,unverified,https://blockhub.games/tag/car-parking,backlog,"Family variant of mapped primary car parking games on tag/car-parking",2026-10-29
+zombie games free online,unverified,unverified,https://blockhub.games/tag/zombie,backlog,"Family variant of mapped primary free zombie games on tag/zombie",2026-10-29
+play zombie games online,unverified,unverified,https://blockhub.games/tag/zombie,backlog,"Family variant of mapped secondary zombie games online on tag/zombie",2026-10-29
+zombie shoot game online,unverified,unverified,https://blockhub.games/game/super-zombie-shooter-2,backlog,"Family variant of mapped primary zombie shooter game on super-zombie-shooter-2",2026-10-29
+zombie defense unblocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+block zombie game,unverified,unverified,https://blockhub.games/game/blocky-zombie-shooting,secondary,"Exact voxel undead shooter match for Blocky Zombie Shooting",2026-10-29
+melon sandbox unblocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked) and third-party game title with no catalog match",2026-10-29
+melon sandbox free play,unverified,unverified,unmapped,unmapped,"Third-party trademark/title with zero catalog presence",2026-10-29
+melon sandbox no download,unverified,unverified,unmapped,unmapped,"Third-party trademark/title with zero catalog presence",2026-10-29
+melon sandbox browser,unverified,unverified,unmapped,unmapped,"Third-party trademark/title with zero catalog presence",2026-10-29
+melon sandbox online,unverified,unverified,unmapped,unmapped,"Third-party trademark/title with zero catalog presence",2026-10-29
+block football game,unverified,unverified,unmapped,unmapped,"No genuine catalog match for title/mechanics",2026-10-29
+soccer clicker game,unverified,unverified,unmapped,unmapped,"No genuine catalog match for title/mechanics",2026-10-29
+free kick game online,unverified,unverified,https://blockhub.games/game/curve-free-kick,primary,"Exact soccer free kick and curve penalty mechanics in Curve Free Kick",2026-10-29
+9 ball pool unblocked,unverified,unverified,unmapped,unmapped,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+9 ball pool online free,unverified,unverified,https://blockhub.games/game/9-ball-pool-3d,primary,"Exact match for 3D 9-ball billiard physics and rotation pool rules",2026-10-29
+blockhub games,unverified,unverified,https://blockhub.games,primary,"Primary branded navigational query for the entire portal",2026-10-29
+block hub games online,unverified,unverified,https://blockhub.games,secondary,"Branded query variant for web portal",2026-10-29
+blockhub.games,unverified,unverified,https://blockhub.games,backlog,"Exact domain brand query variant",2026-10-29
+free online games hub,unverified,unverified,https://blockhub.games,secondary,"General portal descriptor for free browser gaming hub",2026-10-29
+multiplayer games online free,unverified,unverified,https://blockhub.games/category/multiplayer,backlog,"Family variant of mapped keyword on category/multiplayer and tag/2-player",2026-10-29
+action games hub,unverified,unverified,https://blockhub.games/category/action,primary,"Broad category head term for the Action games section",2026-10-29
+multiplayer hub,unverified,unverified,https://blockhub.games/category/multiplayer,backlog,"Category already mapped with primary and secondary keywords",2026-10-29
