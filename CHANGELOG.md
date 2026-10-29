@@ -2,6 +2,26 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Low-Difficulty Keyword Batch Optimization & Overlap Clustering] - 2026-10-29
+
+### Added
+- **On-Page SEO Optimization (5 Game Pages)**: Implemented overlap clustering and mapped low-difficulty keywords to 5 dedicated game pages:
+  - `ragdoll-survivor` (`CL-RAGDOLL-01`): Primary `ragdoll game online`, secondaries `ragdoll game`, `free ragdoll games`, and keywords-array extras (`ultimate ragdoll game`, `ragdoll games`, `ragdoll games free`).
+  - `obby-rainbow-parkour-two-player` (`CL-OBBY-01`): Primary `rainbow obby game`.
+  - `real-car-parking-game` (`CL-PARK-01`): Primary `real car parking 3d`, secondaries `parallel parking game`, `car parking 3d`.
+  - `city-bus-parking` (`CL-BUS-01`): Primary `bus parking games online`.
+  - `oil-tanker-truck-parking-game` (`CL-TRUCK-01`): Primary `truck parking games`.
+- **Search Intent Overlap Clustering**: Clustered 60 incoming keyword variants into 5 high/low overlap clusters; routed broad hub and category head terms (`obby games`, `parking games`, `parkour games`) to backlog to prevent keyword cannibalization against tag and hub pages.
+- **On-Page Text History Tracking**: Logged complete before and after records across title tags, meta descriptions, H1 headings, and opening paragraphs to `reports/seo/onpage-text-history.csv`.
+- **Off-Page Outreach Strategy**: Appended Section 10 to `reports/seo/offpage-plan.md` featuring 5 platform-tailored post templates, diversified anchor text guidelines, and compliance safeguards.
+
+### Changed
+- **Keyword Density & Mention Constraints**: Enforced `MAX_BODY_MENTIONS_PER_KEYWORD = 2` and `MAX_SECONDARY_PER_PAGE = 2` across all target pages.
+- **Metadata Character Counts**: Titles strictly formatted within 50–56 characters (<=60); meta descriptions within 126–145 characters (120–155); H1 headings within 38–51 characters (<=70); first paragraphs within 58–73 words (<=100).
+
+### Verified
+- **Automated Quality Gate**: Passed `scripts/check-onpage-keywords.js` with 0 violations across 418 audited pages (0 excluded words, 0 banned claims, 0 mid-sentence truncations).
+
 ## [Verified On-Page & Off-Page Keyword Batch Optimization] - 2026-10-29
 
 ### Added

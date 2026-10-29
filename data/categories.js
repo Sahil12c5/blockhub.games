@@ -31,7 +31,10 @@ export const categories = [
       "action games no download",
       "combat games",
       "fighting games online",
-      "arcade action games"
+      "arcade action games",
+      "ragdoll game online",
+      "ragdoll game",
+      "free ragdoll games"
     ]
   },
   {
@@ -526,7 +529,10 @@ export const categories = [
       "pixel art games",
       "mini games online",
       "casual games",
-      "skill games"
+      "skill games",
+      "rainbow obby game",
+      "obby game",
+      "obby games for free"
     ]
   }
 ];

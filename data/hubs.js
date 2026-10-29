@@ -149,7 +149,8 @@ export const hubs = [
       "semi truck games",
       "truck simulator online",
       "driving games online",
-      "18 wheeler games"
+      "18 wheeler games",
+      "truck parking games"
     ],
     "faq": [
       {
@@ -379,7 +380,13 @@ export const hubs = [
       "car obby games",
       "obby games",
       "obby",
-      "obby game"
+      "obby game",
+      "obby games for free",
+      "parkour games",
+      "free parkour games",
+      "best parkour games",
+      "parkour games free",
+      "online parkour games"
     ],
     "faq": [
       {

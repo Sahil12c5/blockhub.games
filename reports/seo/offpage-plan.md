@@ -273,3 +273,42 @@ Maintain a live log of all published content and outreach efforts:
 * **No Deceptive Tactics:** Anchor texts must strictly represent actual page destinations.
 * **No Comment Spam:** Genuine, context-rich manual participation only.
 * **No Bot Traffic:** Strictly organic, direct human referral traffic.
+
+---
+
+## 10. Verified Low-Difficulty Batch Outreach Plan - 2026-10-29
+
+### 1. Contextual Outreach Post Templates
+
+* **Reddit (r/WebGames - Target: Ragdoll Survivor):**
+  > *"If you're a fan of physics-based stickman brawlers, check out [ragdoll game online](https://blockhub.games/game/ragdoll-survivor) in Ragdoll Survivor directly in your web browser. Chain rapid kicks, grab throws, and fury mode attacks across 10 distinct combat chapters with zero downloads: https://blockhub.games/game/ragdoll-survivor"*
+
+* **Pinterest (Pin Graphic - Target: Obby Rainbow Parkour Two Player):**
+  > *"Vibrant floating sky tracks and 2-player platforming! Challenge friends in this colorful [rainbow obby game](https://blockhub.games/game/obby-rainbow-parkour-two-player) on BlockHub Games. Jump across spinning color wheels and floating walkways on a shared keyboard: https://blockhub.games/game/obby-rainbow-parkour-two-player"*
+
+* **X / Twitter (Target: Real Car Parking Game):**
+  > *"Test your spatial accuracy and street steering in tight curb spots! Play [real car parking 3d](https://blockhub.games/game/real-car-parking-game) on BlockHub Games. Navigate sedans into parallel and perpendicular bays with zero lag: https://blockhub.games/game/real-car-parking-game"*
+
+* **Quora (Q&A: What are good browser simulators for heavy commercial vehicles and buses?):**
+  > *"For authentic depot maneuvers, [bus parking games online](https://blockhub.games/game/city-bus-parking) in City Bus Parking accurately simulates passenger coach overhangs, wide turns, and mirror checks. If you prefer heavy rigs, try [truck parking games](https://blockhub.games/game/oil-tanker-truck-parking-game) in Oil Tanker Truck Parking Game on BlockHub Games."*
+
+* **Gaming Forum / Discord Showcase (Web Simulators):**
+  > *"Command heavy articulated rigs and practice tricky reverse docking without installing apps. Oil Tanker Truck Parking Game offers realistic trailer pivot physics on BlockHub Games: https://blockhub.games/game/oil-tanker-truck-parking-game"*
+
+### 2. Anchor Text Distribution Strategy
+
+| Target URL | Primary Brand Anchor (60–70%) | Partial-Match Anchor (20–25%) | Natural / URL Anchor (10–15%) |
+| :--- | :--- | :--- | :--- |
+| `https://blockhub.games/game/ragdoll-survivor` | `BlockHub`, `BlockHub Games` | `ragdoll game online on BlockHub`, `free ragdoll games` | `play Ragdoll Survivor`, `blockhub.games` |
+| `https://blockhub.games/game/obby-rainbow-parkour-two-player` | `BlockHub`, `blockhub.games` | `rainbow obby game at BlockHub` | `play rainbow obby`, `blockhub.games` |
+| `https://blockhub.games/game/real-car-parking-game` | `BlockHub`, `BlockHub Games` | `real car parking 3d on BlockHub`, `parallel parking game` | `drive sedans`, `blockhub.games` |
+| `https://blockhub.games/game/city-bus-parking` | `BlockHub`, `blockhub.games` | `bus parking games online at BlockHub` | `play bus parking`, `blockhub.games` |
+| `https://blockhub.games/game/oil-tanker-truck-parking-game` | `BlockHub`, `BlockHub Games` | `truck parking games on BlockHub` | `steer oil tanker`, `blockhub.games` |
+
+### 3. Compliance & Risk Mitigation Reminders
+
+* **Zero Link Schemes:** Absolutely no paid links, PBN rentals, or automated submission rings.
+* **No Deceptive Tactics:** Anchor texts must strictly reflect genuine destination content.
+* **No Comment Spam:** Genuine, context-rich manual participation only.
+* **No Bot Traffic:** Strictly organic, direct human referral traffic.
+

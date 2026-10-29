@@ -19612,6 +19612,59 @@ const rawGames = [
 function enrichGame(game) {
   if (!game) return null;
     const gameSeoOverrides = {
+    "ragdoll-survivor": {
+            "keywords": [
+                    "ragdoll game online",
+                    "ragdoll game",
+                    "free ragdoll games",
+                    "ultimate ragdoll game",
+                    "ragdoll games",
+                    "ragdoll games free"
+            ],
+            "h1": "Ragdoll Survivor - Ragdoll Game Online",
+            "meta_title": "Ragdoll Game Online - Play Ragdoll Survivor | BlockHub",
+            "meta_description": "Play this ragdoll game online at BlockHub.games. Master physics brawling in Ragdoll Survivor, one of our top free ragdoll games.",
+            "description": "Ragdoll Survivor delivers intense stickman combat in this dynamic ragdoll game online, placing you directly into the action of an active conflict zone. Players command a martial survivor enduring relentless assaults from enemy soldiers, knife-wielding attackers, and armored riot squads. In this exciting ragdoll game, your primary objective is eliminating attacking infantry, surviving ten distinct chapters, and unleashing destructive fury mode strikes.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for sharp reflexes, fluid mobility, and disciplined defensive timing. Chain rapid punches, flying kicks, and evasive dashes to toss foot soldiers across the battlefield in this fast-paced ragdoll game. Combatants must stay alert for hazards raining down from above, including falling bombs, explosive rockets, spinning saw blades, and bubbling pools of molten lava. Standing out among free ragdoll games, reading enemy attack animations and ducking under munitions preserves your health through extended skirmishes. Picking up dropped health packs and timing your evasive rolls between enemy strike animations allows you to maintain continuous combos and clear hostile arenas without suffering fatal damage."
+    },
+    "obby-rainbow-parkour-two-player": {
+            "keywords": [
+                    "rainbow obby game"
+            ],
+            "h1": "Obby Rainbow Parkour Two Player - Rainbow Obby Game",
+            "meta_title": "Rainbow Obby Game - Obby Rainbow Parkour | BlockHub",
+            "meta_description": "Play this rainbow obby game on BlockHub.games. Leap across floating platforms, dodge hazards, and race through colorful courses solo or in pairs.",
+            "description": "Obby Rainbow Parkour Two Player brings vibrant color aesthetics to platforming in this thrilling rainbow obby game, built for solo runners or two players sharing a keyboard. Navigating through kaleidoscopic stages suspended in the sky, runners leap across spinning color wheels, avoid disappearing blocks, and coordinate timing on narrow floating walkways. The game includes playful shove mechanics where players can nudge rivals off platforms while racing to the finish line.\n\nWith progressively tighter jumps and multi-stage sky tracks, this rainbow obby game delivers pure platforming entertainment. Players coordinate carefully to ensure both runners survive perilous drops and floating hazard zones. Mastering agility, spatial timing, and precise jumps lets you conquer challenging sky courses and reach the finish platform safely."
+    },
+    "real-car-parking-game": {
+            "keywords": [
+                    "real car parking 3d",
+                    "parallel parking game",
+                    "car parking 3d"
+            ],
+            "h1": "Real Car Parking Game - Real Car Parking 3D",
+            "meta_title": "Real Car Parking 3D - City Driver | BlockHub.games",
+            "meta_description": "Experience real car parking 3d on BlockHub.games. Test your skills in this realistic parallel parking game navigating narrow city curb spaces.",
+            "description": "Real Car Parking Game tests your street driving finesse and spatial accuracy in this realistic real car parking 3d experience. Sliding behind the wheel of sleek modern sedans, your objective is navigating urban streets lined with concrete curbs, parallel parked vehicles, and strict barrier markers. Squeezing into narrow parallel and perpendicular parking spaces demands steady throttle moderation, disciplined wheel alignment, and keen observational awareness.\n\nAny collision with surrounding obstacles results in costly penalty points. Mastering each challenging parallel parking game scenario calls for delicate steering inputs and low-speed vehicle handling across dozens of designed stages. Show off your precision driving in this car parking 3d simulator by avoiding curb collisions and penalty markers. Conquer increasingly difficult urban parking layouts, polish your vehicle handling, and prove your technical mastery as an urban driving specialist across meticulously crafted challenge stages."
+    },
+    "city-bus-parking": {
+            "keywords": [
+                    "bus parking games online"
+            ],
+            "h1": "City Bus Parking - Bus Parking Games Online",
+            "meta_title": "Bus Parking Games Online - City Bus Parking | BlockHub",
+            "meta_description": "Play bus parking games online with City Bus Parking at BlockHub.games. Maneuver long transit coaches through depot bays and narrow terminal lanes.",
+            "description": "City Bus Parking delivers an authentic depot maneuver simulator among top bus parking games online. Navigating through congested transit terminals, narrow depot bays, and cone-lined lanes, drivers face demanding dimensional challenges behind the wheel of lengthy passenger coaches. Players aim to steer public transit buses through complex obstacle corridors, avoid scraping parked vehicles, and align cleanly within passenger loading bays.\n\nFew bus parking games online match this level of dimensional realism, requiring wide front swings and cautious crawl speeds to clear terminal obstacles. Turning into narrow terminal bays requires swinging the front end wide to prevent rear tires from mounting curbs or striking safety stanchions. Drivers must rely on side mirrors to judge clearance when backing long chassis into tight depot bays between concrete pillars. Moving at cautious crawl speeds and aligning wheels before final bay approaches prevents costly accidents and guarantees smooth docking. Watching rear mirror sightlines ensures your bus clears adjacent parked coaches during sharp depot turns."
+    },
+    "oil-tanker-truck-parking-game": {
+            "keywords": [
+                    "truck parking games"
+            ],
+            "h1": "Oil Tanker Truck Parking Game - Truck Parking Games",
+            "meta_title": "Truck Parking Games - Oil Tanker Parking | BlockHub",
+            "meta_description": "Take the wheel in truck parking games on BlockHub.games. Steer heavy articulated oil tankers and park reverse trailers cleanly into terminal bays.",
+            "description": "Oil Tanker Truck Parking Game puts your heavy-hauler handling skills to the test in one of the most challenging truck parking games available. Commanding a massive articulated oil tanker and cargo trailer demands strict adherence to commercial transport standards, including judging trailer swing arcs, managing extended stopping distances, and accounting for severe blind spots.\n\nSetting a high bar for truck parking games, aligning your extended commercial rig inside designated loading markings requires patient throttle adjustments and smooth reverse steering. Players steer their heavy-duty rig through off-road dirt tracks and paved transport depots, maneuvering around concrete barriers, traffic cones, and steep embankments. Avoid clipping roadside obstacles to protect your commercial cargo and complete technical heavy-truck parking trials."
+    },
+
     "referee-simulator-3d": {
         "keywords": [
             "referee simulator online",
