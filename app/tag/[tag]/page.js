@@ -40,23 +40,10 @@ export async function generateMetadata({ params }) {
   const description = hub.metaDescription;
   const keywords = hub.seoKeywords || hub.keywords;
 
-  const is2Player = hub.slug === "2-player";
-  const robots = is2Player
-    ? {
-        index: false,
-        follow: true,
-        googleBot: {
-          index: false,
-          follow: true,
-        },
-      }
-    : undefined;
-
   return {
     title: { absolute: title },
     description,
     keywords,
-    ...(robots ? { robots } : {}),
     alternates: {
       canonical: `https://blockhub.games/tag/${hub.slug}`,
     },

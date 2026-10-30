@@ -5,6 +5,9 @@ export const metadata = {
   title: "Terms of Service",
   description:
     "Terms of Service governing the use of the BlockHub.games web portal and free online browser game library.",
+  alternates: {
+    canonical: "https://blockhub.games/terms",
+  },
 };
 
 export default function TermsPage() {

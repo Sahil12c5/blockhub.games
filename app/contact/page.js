@@ -80,6 +80,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           {/* Left Info Column */}
           <div className="md:col-span-5 space-y-6">
+            <h2 className="text-base font-bold text-white mb-2">Support & Developer Contacts</h2>
             <div className="p-4 rounded-xl bg-slate-950/60 border border-slate-800 space-y-3">
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <Mail className="h-4 w-4 text-emerald-400" />
@@ -119,6 +120,7 @@ export default function ContactPage() {
 
           {/* Right Contact Form Column */}
           <div className="md:col-span-7">
+            <h2 className="text-base font-bold text-white mb-2">Send Us a Direct Message</h2>
             {submitted ? (
               <div className="p-8 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-center space-y-3">
                 <div className="h-12 w-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
@@ -223,6 +225,19 @@ export default function ContactPage() {
             )}
           </div>
         </div>
+
+        {/* Submission & Support Guidelines - 130 words */}
+        <section className="pt-6 border-t border-slate-800 space-y-3 text-xs sm:text-sm text-slate-300 leading-relaxed">
+          <h2 className="text-base font-bold text-white">
+            Submission & Support Guidelines
+          </h2>
+          <p>
+            BlockHub.games welcomes inquiries from players, game developers, and distribution partners across the globe. When submitting a bug report for an action, racing, or puzzle game, please include your device type, browser version, and specific game URL so our engineering team can test and reproduce the issue rapidly.
+          </p>
+          <p>
+            HTML5 and WebGL game creators looking to showcase their titles on our free online games hub can provide their embed links along with primary gameplay features and control mappings. We verify performance across standard desktop PCs and Chromebooks before catalog inclusion to ensure smooth framerates with zero download delays.
+          </p>
+        </section>
       </div>
     </div>
   );

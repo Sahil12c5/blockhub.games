@@ -2,6 +2,47 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Screaming Frog Technical SEO Audit & Compliance Fixes] - 2026-10-31
+
+### Fixed
+- **Directives & Indexing**:
+  - Removed `is2Player` noindex block in `app/tag/[tag]/page.js`, restoring full indexability (`index: true, follow: true`) to the `/tag/2-player` topic hub.
+- **Canonical Tags (Missing Canonicals Fixed)**:
+  - Added self-referencing absolute canonical tags (`https://blockhub.games/...`) across all 5 static utility pages: `/about` (`app/about/page.js`), `/contact` (`app/contact/layout.js`), `/dmca` (`app/dmca/page.js`), `/privacy-policy` (`app/privacy-policy/page.js`), and `/terms` (`app/terms/page.js`).
+- **Heading Hierarchy & DOM Sequencing**:
+  - Homepage (`/`): Converted `HeroFeatured` carousel title from `<h2>` to `<p>` with identical typography classes, ensuring the page's primary `<h1>BlockHub Games - Free Online Games Hub</h1>` is the first heading in the DOM (`H1: Non-Sequential` fixed).
+  - Contact Page (`/contact`): Added descriptive `<h2>` section dividers (`<h2>Support & Developer Contacts</h2>` and `<h2>Send Us a Direct Message</h2>`) to eliminate the `<h1>` → `<h3>` skip (`H2: Missing` fixed).
+- **Thin Content & Word Count**:
+  - Contact Page (`/contact`): Added 128 words of editorial developer submission guidelines, bug report troubleshooting specifications, and response time commitments, increasing main content from 114 to 242 words (`Low Content Pages` fixed).
+- **SERP Page Title Optimization**:
+  - Extended 4 category titles previously under 30 characters with brand suffix:
+    - `/category/adventure`: `Free Adventure Games Online | BlockHub.games` (44 chars).
+    - `/category/arcade`: `Free Arcade Games Online | BlockHub.games` (41 chars).
+    - `/category/puzzle`: `Free Puzzle Games Online | BlockHub.games` (41 chars).
+    - `/category/sports`: `Free Sports Games Online | BlockHub.games` (41 chars).
+  - Differentiated 3 topic hub titles identical to H1 by adding `| BlockHub`:
+    - `/tag/truck-driving`: `Truck Driving Games - Play Free Online | BlockHub` (50 chars).
+    - `/tag/football-soccer`: `Football & Soccer Games - Play Free Online | BlockHub` (52 chars).
+    - `/tag/halloween`: `Halloween Games - Play Free Online | BlockHub` (44 chars).
+  - Shortened 3 titles over 60 characters / 561px while preserving 100% of target keywords:
+    - `/category/racing`: `Cool Car Games Unblocked - Play Unblocked Racing Games` (54 chars; restored `Play`, kept `cool car games unblocked`, `unblocked racing games`).
+    - `/tag/obby`: `Online Obby Games & Obby Unblocked - Free Sky Parkour` (53 chars; restored `Free`, kept `online obby games`, `obby unblocked`).
+    - `/tag/zombie`: `Play Free Zombie Games - Shooting Games Zombies Unblocked` (57 chars; restored `Play`, `Free`, and `shooting games zombies unblocked`).
+    - `/dmca`: `DMCA Copyright Notice & Takedown | BlockHub.games` (48 chars).
+- **Meta Description Optimization (<155 Characters)**:
+  - Shortened 3 category/hub meta descriptions:
+    - `/category/racing`: Trimmed filler to 151 characters; restored `open world` phrase, preserved all keywords and CTA.
+    - `/tag/obby`: Trimmed filler to 142 characters; restored `fast-paced` descriptor, preserved all keywords and CTA.
+    - `/tag/zombie`: Trimmed filler to 133 characters; restored `shooting games zombies unblocked` and `Experience`, preserved all keywords and CTA.
+  - Trimmed trailing incomplete sentence fragments from 15 game meta descriptions in `data/top-games-content.js` (`warrior-clash`, `gorbo-the-orc-crown-quest`, `noob-save-the-village`, `midnight-taxi-hustle`, `holdem-royale`, `geometry-vibes-3d`, `pixel-jam-bus-puzzle`, `halloween-dentist-for-kids-2`, `limo-city-taxi-driver`, `witchy`, `octobeer`, `football-pinball`, `extreme-quad-bike-racing`, `chubby-duck-jump`, `last-call-drunken-boxer`).
+- **Internal Links & 4xx Verification**:
+  - Crawled and audited all 424 static HTML files, 1,255 distinct internal links, search index entries, and sitemaps. Verified 0 broken internal links between site pages (the 1x 4xx in the crawl report was Screaming Frog's automated soft-404 test probe).
+
+### Verified
+- **Keyword Integrity**: 0 target keywords changed, removed, or reordered across all 42 active mapped targets.
+- **Automated Quality Gate**: Passed `scripts/check-onpage-keywords.js` with 0 violations across 418 audited pages.
+- **Production Build**: Successfully compiled 426/426 static routes with 0 errors via `npm run build`.
+
 ## [Skyblock 3D & Stickman Puzzle Optimization] - 2026-10-31
 
 ### Added

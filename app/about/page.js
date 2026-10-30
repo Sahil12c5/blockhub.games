@@ -6,6 +6,9 @@ export const metadata = {
   title: "About Us - Free Online Browser Games",
   description:
     "Learn about BlockHub.games, our mission, curation standards, and dedication to providing fast, safe, and free HTML5 browser entertainment.",
+  alternates: {
+    canonical: "https://blockhub.games/about",
+  },
 };
 
 export default function AboutPage() {

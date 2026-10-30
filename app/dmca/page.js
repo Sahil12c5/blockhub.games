@@ -2,9 +2,12 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { ShieldAlert, Mail, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "DMCA Copyright Notice & Takedown Procedure",
+  title: "DMCA Copyright Notice & Takedown",
   description:
     "Digital Millennium Copyright Act (DMCA) policy, copyright claim guidelines, and designated takedown agent contact information for BlockHub.games.",
+  alternates: {
+    canonical: "https://blockhub.games/dmca",
+  },
 };
 
 export default function DmcaPage() {

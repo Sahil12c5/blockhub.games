@@ -32,9 +32,9 @@ export default function HeroFeatured({ featuredGames = [] }) {
               </span>
             </div>
 
-            <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
+            <p className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">
               {current.title}
-            </h2>
+            </p>
 
             <p className="mt-2 sm:mt-3 text-xs sm:text-sm text-slate-300 leading-relaxed line-clamp-2 sm:line-clamp-3 max-w-xl">
               {current.description}

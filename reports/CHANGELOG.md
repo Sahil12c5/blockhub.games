@@ -3,6 +3,21 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-31 01:25:00] Screaming Frog Technical SEO Audit & Compliance Fixes
+
+### Summary of Changes
+- **Directives & Robots**: Removed `is2Player` noindex override in `app/tag/[tag]/page.js`, re-enabling indexation for `/tag/2-player`.
+- **Canonicals Added**: Added self-referencing absolute canonical tags across 5 utility pages: `/about`, `/contact`, `/dmca`, `/privacy-policy`, `/terms`.
+- **DOM Hierarchy**: Fixed homepage H1 sequencing by replacing carousel `<h2>` in `components/HeroFeatured.js` with a styled `<p>` element, making `<h1>` the first heading. Added `<h2>` dividers to `/contact` to eliminate H1→H3 skips.
+- **Content Expansion**: Added 128 words of editorial guidelines and bug-reporting instructions to `/contact`, bringing total words to 242 (resolving Low Content Pages).
+- **Titles & Descriptions Optimized**:
+  - Category titles extended: `/category/adventure`, `/category/arcade`, `/category/puzzle`, `/category/sports` (now 41–44 chars).
+  - Hub titles differentiated from H1: `/tag/truck-driving`, `/tag/football-soccer`, `/tag/halloween` (now 44–52 chars).
+  - Titles shortened to <60 chars: `/category/racing` (54 chars, restored `Play`), `/tag/obby` (53 chars, restored `Free`), `/tag/zombie` (57 chars, restored `Play Free` and `shooting games zombies unblocked`), `/dmca` (48 chars).
+  - Meta descriptions shortened to <155 chars: `/category/racing` (151 chars, restored `open world`), `/tag/obby` (142 chars, restored `fast-paced`), `/tag/zombie` (133 chars, restored `shooting games zombies unblocked` and `Experience`), and 15 game descriptions in `data/top-games-content.js`.
+- **Quality Verification**: Passed `scripts/check-onpage-keywords.js` with 0 violations and compiled 426/426 static routes with 0 errors via `npm run build`.
+
+---
 ## [2026-10-24 00:54:00] Distributed Targeted SEO Keywords to Categories and Hub Pages
 
 ### Summary of Changes

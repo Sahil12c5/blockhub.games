@@ -5,6 +5,9 @@ export const metadata = {
   title: "Privacy Policy & Cookies Disclosure",
   description:
     "Privacy Policy for BlockHub.games, detailing data collection, cookie usage, and Google AdSense advertising compliance disclosures.",
+  alternates: {
+    canonical: "https://blockhub.games/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {
