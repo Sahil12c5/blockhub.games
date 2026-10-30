@@ -187,7 +187,8 @@ export const hubs = [
       "best stickman games",
       "stickman archery games",
       "stickman fighting games",
-      "ragdoll stickman games"
+      "ragdoll stickman games",
+      "stickman puzzle games"
     ],
     "faq": [
       {

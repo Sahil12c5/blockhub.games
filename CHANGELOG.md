@@ -2,6 +2,27 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Skyblock 3D & Stickman Puzzle Optimization] - 2026-10-31
+
+### Added
+- **On-Page SEO Optimization (2 Game Pages)**:
+  - `skyblock-3d` (`CL-SKYBLOCK-01`): Primary `skyblock game`, secondaries `sky block`, `how to play skyblock`, and keywords-array extra `sky block game`.
+  - `draw-line-stickman` (`CL-STICKPUZ-01`): Primary `stickman puzzle games`.
+- **Category & Hub Keywords Accretion**:
+  - `data/categories.js` (`adventure`): Appended `skyblock game`, `sky block`.
+  - `data/hubs.js` (`stickman`): Appended `stickman puzzle games` to `seoKeywords`.
+  - `app/layout.js`: Appended `skyblock game`, `stickman puzzle games` to site-wide metadata keywords.
+- **Search Intent Overlap Clustering**: Clustered 10 incoming queries into 2 dedicated game clusters; routed 6 download and multiplayer/bedrock platform mismatches to unmapped.
+- **On-Page Text History Tracking**: Logged complete before/after text records across title tags, meta descriptions, H1 headings, and opening paragraphs to `reports/seo/onpage-text-history.csv`.
+- **Off-Page Outreach Strategy**: Appended Section 12 to `reports/seo/offpage-plan.md` featuring 5 platform-tailored post templates, diversified anchor text guidelines (60–70% brand), and compliance safeguards.
+
+### Changed
+- **Keyword Density & Mention Constraints**: Enforced `MAX_BODY_MENTIONS_PER_KEYWORD = 2` and `MAX_SECONDARY_PER_PAGE = 2` across all target pages.
+- **Metadata Character Counts**: Titles strictly formatted within 47–53 characters (<=60); meta descriptions within 147–154 characters (120–155); H1 headings within 33–42 characters (<=70); first paragraphs within 70–73 words (<=100).
+
+### Verified
+- **Automated Quality Gate**: Passed `scripts/check-onpage-keywords.js` with 0 violations across 418 audited pages (0 excluded words, 0 banned claims, 0 mid-sentence truncations).
+
 ## [Traffic Racer, Highway Car & Sniper Optimization] - 2026-10-30
 
 ### Added

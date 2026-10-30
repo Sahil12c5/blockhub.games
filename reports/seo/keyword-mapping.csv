@@ -834,3 +834,13 @@ sniper games for pc,unverified,unverified,unmapped,unmapped,none,"Excluded vocab
 best sniper games for pc,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary and platform mismatch (for pc per quality gate)",2026-10-30
 best sniper games,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,keywords-array-only,CL-SNIPER-01,"High overlap superlative variant; assigned to keywords array only",2026-10-30
 offline sniper games,unverified,unverified,unmapped,unmapped,none,"Offline intent contrary to online browser web gaming portal",2026-10-30
+how to play skyblock,unverified,unverified,https://blockhub.games/game/skyblock-3d,secondary,CL-SKYBLOCK-01,"High overlap gameplay guide intent matching Skyblock 3D mechanics and survival rules",2026-10-31
+how to play skyblock with friends,unverified,unverified,unmapped,unmapped,none,"Multiplayer server intent; Skyblock 3D is a single-player browser survival game",2026-10-31
+how to play skyblock on bedrock,unverified,unverified,unmapped,unmapped,none,"Third-party platform edition intent (Minecraft Bedrock)",2026-10-31
+skyblock game,unverified,unverified,https://blockhub.games/game/skyblock-3d,primary,CL-SKYBLOCK-01,"Exact match for 3D floating island voxel survival adventure Skyblock 3D",2026-10-31
+download skyblock,unverified,unverified,unmapped,unmapped,none,"Download intent contrary to instant browser games without download",2026-10-31
+how to download skyblock,unverified,unverified,unmapped,unmapped,none,"Download intent contrary to instant browser games without download",2026-10-31
+sky block,unverified,unverified,https://blockhub.games/game/skyblock-3d,secondary,CL-SKYBLOCK-01,"High overlap space-separated head term for floating island survival",2026-10-31
+sky block map,unverified,unverified,unmapped,unmapped,none,"External Minecraft custom world download intent",2026-10-31
+sky block game,unverified,unverified,https://blockhub.games/game/skyblock-3d,keywords-array-only,CL-SKYBLOCK-01,"High overlap space-separated variant; assigned to keywords array only",2026-10-31
+stickman puzzle games,unverified,unverified,https://blockhub.games/game/draw-line-stickman,primary,CL-STICKPUZ-01,"Exact match for physics drawing puzzle game Draw Line Stickman",2026-10-31

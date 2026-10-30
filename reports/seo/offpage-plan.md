@@ -347,3 +347,38 @@ Maintain a live log of all published content and outreach efforts:
 * **No Deceptive Tactics:** Anchor texts must strictly reflect genuine destination content.
 * **No Comment Spam:** Genuine, context-rich manual participation only.
 * **No Bot Traffic:** Strictly organic, direct human referral traffic.
+
+---
+
+## 12. Verified Skyblock & Stickman Puzzle Optimization Plan - 2026-10-31
+
+### 1. Contextual Outreach Post Templates
+
+* **Reddit (r/WebGames - Target: Skyblock 3D):**
+  > *"If you enjoy sandbox aerial survival and cobblestone generator automation, check out this [skyblock game](https://blockhub.games/game/skyblock-3d) directly in your browser. Spawn on a floating sky island with scarce provisions, manage resources, and survive without downloads: https://blockhub.games/game/skyblock-3d"*
+
+* **Pinterest (Pin Graphic - Target: Draw Line Stickman):**
+  > *"Clever physics drawing puzzles! Draw custom barriers and protect your hero from swinging hazards in one of the smartest [stickman puzzle games](https://blockhub.games/game/draw-line-stickman) on BlockHub Games: https://blockhub.games/game/draw-line-stickman"*
+
+* **X / Twitter (Target: Skyblock 3D):**
+  > *"Want to learn [how to play skyblock](https://blockhub.games/game/skyblock-3d) in full 3D right in your web browser? Craft tools, build aerial paths, and conquer floating biomes with zero lag: https://blockhub.games/game/skyblock-3d"*
+
+* **Quora (Q&A: What are fun browser physics and drawing puzzle games?):**
+  > *"For interactive physics challenges, [stickman puzzle games](https://blockhub.games/game/draw-line-stickman) like Draw Line Stickman let you sketch lines that immediately turn into physical barriers against falling boulders and obstacles without downloading apps."*
+
+* **Gaming Forum / Discord Showcase (Sandbox & Survival):**
+  > *"Classic floating sky island survival is available in lightweight HTML5. Explore Skyblock 3D on BlockHub Games: https://blockhub.games/game/skyblock-3d"*
+
+### 2. Anchor Text Distribution Strategy
+
+| Target URL | Primary Brand Anchor (60–70%) | Partial-Match Anchor (20–25%) | Natural / URL Anchor (10–15%) |
+| :--- | :--- | :--- | :--- |
+| `https://blockhub.games/game/skyblock-3d` | `BlockHub`, `BlockHub Games` | `skyblock game on BlockHub`, `how to play skyblock` | `play Skyblock 3D`, `blockhub.games` |
+| `https://blockhub.games/game/draw-line-stickman` | `BlockHub`, `BlockHub Games` | `stickman puzzle games on BlockHub` | `draw stickman lines`, `blockhub.games` |
+
+### 3. Compliance & Risk Mitigation Reminders
+
+* **Zero Link Schemes:** Absolutely no paid links, PBN rentals, or automated submission rings.
+* **No Deceptive Tactics:** Anchor texts must strictly reflect genuine destination content.
+* **No Comment Spam:** Genuine, context-rich manual participation only.
+* **No Bot Traffic:** Strictly organic, direct human referral traffic.

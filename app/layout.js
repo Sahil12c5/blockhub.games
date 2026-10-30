@@ -130,6 +130,8 @@ export const metadata = {
     "traffic racer 3d",
     "highway car game",
     "sniper game online",
+    "skyblock game",
+    "stickman puzzle games",
   ],
   authors: [{ name: "BlockHub Games" }],
   creator: "BlockHub Games",

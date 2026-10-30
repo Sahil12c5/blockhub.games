@@ -495,7 +495,9 @@ export const categories = [
       "dungeon crawler browser",
       "survival adventure games",
       "point and click adventure",
-      "open world browser games"
+      "open world browser games",
+      "skyblock game",
+      "sky block"
     ]
   },
   {

@@ -19612,6 +19612,28 @@ const rawGames = [
 function enrichGame(game) {
   if (!game) return null;
     const gameSeoOverrides = {
+    "skyblock-3d": {
+            "keywords": [
+                    "skyblock game",
+                    "sky block",
+                    "how to play skyblock",
+                    "sky block game"
+            ],
+            "h1": "Skyblock 3D - Voxel Skyblock Game",
+            "meta_title": "Skyblock Game 3D - Island Survival | BlockHub",
+            "meta_description": "Play this 3D skyblock game on BlockHub.games. Learn how to play skyblock, expand your sky block island, and craft generators with zero downloads.",
+            "description": "Skyblock 3D drops players into a challenging skyblock game set high in the endless heavens, tasking you to build a flourishing kingdom from minimal starting provisions. Spawning atop a floating sky block patch of dirt with a single oak tree and a supply chest, players must expand their island footprint, plant crops, and survive without falling into the void. Ingenuity and resource efficiency are the keys to lasting aerial survival.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for meticulous resource conservation and spatial planning. Mastering how to play skyblock means creating an infinite water source by melting ice blocks and pairing it with flowing lava to harvest limitless cobblestone blocks for expansive aerial walkways. Players must carefully catch saplings as tree leaves decay, ensuring you can replant timber stands to secure ongoing wood supplies for crafting tables, tools, and storage chests. Building defensive safety railings around expanding platforms prevents accidental slips, giving you secure staging grounds for multi-tiered sky homesteads. Establishing light sources around your dirt platforms prevents nocturnal monsters from spawning near your vulnerable crops."
+    },
+    "draw-line-stickman": {
+            "keywords": [
+                    "stickman puzzle games"
+            ],
+            "h1": "Draw Line Stickman - Stickman Puzzle Games",
+            "meta_title": "Draw Line Stickman - Stickman Puzzle Games | BlockHub",
+            "meta_description": "Play Draw Line Stickman, a standout in stickman puzzle games on BlockHub.games. Sketch physics barriers and protect your stick hero from falling hazards.",
+            "description": "Draw Line Stickman turns your creative sketching into physical shields in one of the most clever stickman puzzle games available online. In each level, a defenseless stickman hero finds himself in perilous danger from falling boulders, swinging spike pendulums, and charging monster enemies. Using an interactive pencil tool, you draw freeform lines and structures directly onto the canvas to deflect falling debris, bridge chasms, and protect your hero.\n\nThe moment you release your mouse or finger, gravity takes effect: your drawn lines transform into solid physical objects that deflect falling debris or pin hazards away from your hero. Solving each level in these physics-based stickman puzzle games rewards creative experimentation with unique geometries to discover the most efficient defensive blueprints."
+    },
+
     "highway-traffic-racer-3d": {
             "keywords": [
                     "traffic racer 3d",
