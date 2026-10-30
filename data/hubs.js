@@ -512,7 +512,8 @@ export const hubs = [
       "zombies game online multiplayer",
       "zombies online game multiplayer",
       "zombie game unblocked",
-      "zombies game unblocked"
+      "zombies game unblocked",
+      "highway car game"
     ],
     "faq": [
       {

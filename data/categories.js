@@ -248,6 +248,8 @@ export const categories = [
       "gun games online",
       "fps games online",
       "sniper games",
+      "sniper shooting games",
+      "sniper game online",
       "tactical shooter",
       "shooting games unblocked",
       "first person shooter browser",

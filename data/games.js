@@ -19612,6 +19612,42 @@ const rawGames = [
 function enrichGame(game) {
   if (!game) return null;
     const gameSeoOverrides = {
+    "highway-traffic-racer-3d": {
+            "keywords": [
+                    "traffic racer 3d",
+                    "highway traffic game 3d",
+                    "highway traffic game online",
+                    "highway traffic game",
+                    "highway traffic game free"
+            ],
+            "h1": "Highway Traffic Racer 3D - Traffic Racer 3D",
+            "meta_title": "Traffic Racer 3D - Highway Speed Racing | BlockHub",
+            "meta_description": "Play traffic racer 3d on BlockHub.games. Speed down expressways, dodge commuter cars, and master this highway traffic game 3d with zero downloads.",
+            "description": "Highway Traffic Racer 3D delivers high-speed adrenaline in this fast-paced traffic racer 3d challenge, dropping riders into intense highway lane weaving. Straddling powerful sport motorbikes, riders rocket down congested multi-lane freeways cutting through desert canyons, suburban highways, and city bypasses. In this exciting highway traffic game online, your primary objective is to weave through dense civilian traffic, maintain breakneck velocity, achieve close overtakes, and rack up distance scores without crashing.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for continuous forward scanning and split-second steering adjustments. Squeezing the throttle pushes your motorcycle past two hundred kilometers per hour, requiring riders to slip between adjacent commuter sedans and commercial freight haulers with inches to spare. Demonstrating precision steering in this highway traffic game 3d, slipping between adjacent commuter sedans and commercial freight haulers rewards riders with substantial near-miss bonuses. Tapping brakes momentarily when traffic bottlenecks appear prevents rear-end collisions, giving you room to find open escape lanes between slow-moving trucks. Spotting brake lights on vehicles ahead gives you the warning needed to duck into adjacent open lanes safely."
+    },
+    "zombie-highway-car-game": {
+            "keywords": [
+                    "highway car game"
+            ],
+            "h1": "Zombie Highway Car Game - Highway Car Game",
+            "meta_title": "Highway Car Game - Zombie Highway Action | BlockHub",
+            "meta_description": "Play Zombie Highway Car Game, an intense highway car game on BlockHub.games. Blast past undead hordes, avoid road hazards, and escape in armored vehicles.",
+            "description": "Zombie Highway Car Game delivers post-apocalyptic vehicular combat in this action-packed highway car game, blending express racing with survival thrills. Strapped into an armored vehicle, you blast down desolate expressways overrun by swarms of the undead and abandoned civilian wreckage. Accessible one-hand controls let you steer smoothly across lanes, clipping zombies and side-swiping ghouls that attempt to leap onto your vehicle chassis.\n\nMastering this highway car game requires balanced decision-making: maintain speed to escape collapsing zones while carefully dodging concrete barricades and abandoned cars that can wreck your engine. Upgrade your vehicle between runs with reinforced cowcatchers, enhanced armor plating, and mounted firepower to penetrate deeper into the infected highway corridor."
+    },
+    "sniper-shooter-3d": {
+            "keywords": [
+                    "sniper game online",
+                    "sniper shooting games",
+                    "online sniper game",
+                    "best sniper game",
+                    "best sniper games"
+            ],
+            "h1": "Sniper Shooter 3D - Tactical Sniper Game Online",
+            "meta_title": "Sniper Game Online - 3D Marksman | BlockHub.games",
+            "meta_description": "Play this tactical sniper game online on BlockHub.games. Line up crosshairs, survey urban plazas, and eliminate targets in 3D sniper shooting games.",
+            "description": "Sniper Shooter 3D delivers high-stakes marksman action in this immersive sniper game online, casting players as an elite rooftop operative executing tactical contracts. Perched atop skyscrapers overlooking metropolitan plazas and industrial yards, you receive mission briefings detailing specific criminal syndicates. Standing out among 3D sniper shooting games, every contract tasks you with surveying crowded urban environments through your optic scope, identifying designated targets, and delivering clean rifle shots to neutralize threats without collateral harm.\n\nRelying on steady hand coordination and calm observation in this tactical sniper game online, zooming with your telescopic sight reveals subtle character behaviors before you squeeze the trigger. Players must account for target movement speed, leading strolling suspects slightly to ensure the fired round connects squarely with vital zones. Firing prematurely or missing your mark alarms bodyguards and causes targets to flee into crowds, making single-shot precision the hallmark of professional contract completion. Watching for armed accomplices stepping away from hostages ensures you take clean shots without endangering innocent civilians."
+    },
+
     "ragdoll-survivor": {
             "keywords": [
                     "ragdoll game online",

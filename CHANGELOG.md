@@ -2,6 +2,27 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Traffic Racer, Highway Car & Sniper Optimization] - 2026-10-30
+
+### Added
+- **On-Page SEO Optimization (3 Game Pages)**:
+  - `highway-traffic-racer-3d` (`CL-TRAFFIC-01`): Primary `traffic racer 3d`, secondaries `highway traffic game 3d`, `highway traffic game online`, and keywords-array extras (`highway traffic game`, `highway traffic game free`).
+  - `zombie-highway-car-game` (`CL-HWYCAR-01`): Primary `highway car game`.
+  - `sniper-shooter-3d` (`CL-SNIPER-01`): Primary `sniper game online`, secondary `sniper shooting games`, and keywords-array extras (`online sniper game`, `best sniper game`, `best sniper games`).
+- **Category Keyword Accretion**:
+  - `data/categories.js` (`shooting`): Appended `sniper shooting games`, `sniper game online`.
+  - `data/categories.js` (`racing`): Appended `traffic racer 3d`, `highway traffic game`.
+- **Search Intent Overlap Clustering**: Mapped 24 incoming queries into 3 targeted intent clusters; routed 16 non-matching, mobile, platform-mismatched, and excluded queries to unmapped/backlog.
+- **On-Page Text History Tracking**: Logged complete before/after text records across title tags, meta descriptions, H1 headings, and opening paragraphs to `reports/seo/onpage-text-history.csv`.
+- **Off-Page Outreach Strategy**: Appended Section 11 to `reports/seo/offpage-plan.md` featuring 5 platform-tailored post templates, diversified anchor text guidelines (60–70% brand), and compliance safeguards.
+
+### Changed
+- **Keyword Density & Mention Constraints**: Enforced `MAX_BODY_MENTIONS_PER_KEYWORD = 2` and `MAX_SECONDARY_PER_PAGE = 2` across all target pages.
+- **Metadata Character Counts**: Titles strictly formatted within 49–51 characters (<=60); meta descriptions within 147–154 characters (120–155); H1 headings within 41–47 characters (<=70); first paragraphs within 65–71 words (<=100).
+
+### Verified
+- **Automated Quality Gate**: Passed `scripts/check-onpage-keywords.js` with 0 violations across 418 audited pages (0 excluded words, 0 banned claims, 0 mid-sentence truncations).
+
 ## [Low-Difficulty Keyword Batch Optimization & Overlap Clustering] - 2026-10-29
 
 ### Added

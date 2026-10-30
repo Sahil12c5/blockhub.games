@@ -810,3 +810,27 @@ ragdoll sandbox,unverified,unverified,unmapped,unmapped,none,"Low overlap with c
 last play ragdoll sandbox,unverified,unverified,unmapped,unmapped,none,"Third-party game trademark (Last Play) without catalog presence",2026-10-29
 last play: ragdoll sandbox,unverified,unverified,unmapped,unmapped,none,"Third-party game trademark (Last Play) without catalog presence",2026-10-29
 ragdoll sandbox unblocked,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-29
+highway traffic racer unblocked,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-30
+traffic racer 3d,unverified,unverified,https://blockhub.games/game/highway-traffic-racer-3d,primary,CL-TRAFFIC-01,"Exact match for high-speed highway lane weaving and near-miss traffic racing",2026-10-30
+highway car games unblocked,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-30
+highway car game,unverified,unverified,https://blockhub.games/game/zombie-highway-car-game,primary,CL-HWYCAR-01,"Exact match for post-apocalyptic vehicular highway racing and survival",2026-10-30
+highway car game unblocked,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-30
+highway traffic game,unverified,unverified,https://blockhub.games/game/highway-traffic-racer-3d,keywords-array-only,CL-TRAFFIC-01,"High overlap cluster member; assigned to keywords array only (max 2 secondaries reached)",2026-10-30
+highway traffic game unblocked,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary (unblocked in visible/meta per quality gate)",2026-10-30
+highway traffic game online,unverified,unverified,https://blockhub.games/game/highway-traffic-racer-3d,secondary,CL-TRAFFIC-01,"High overlap secondary modifier capturing online browser traffic weaving",2026-10-30
+highway traffic game free,unverified,unverified,https://blockhub.games/game/highway-traffic-racer-3d,keywords-array-only,CL-TRAFFIC-01,"High overlap cluster member; assigned to keywords array only",2026-10-30
+highway traffic game 3d,unverified,unverified,https://blockhub.games/game/highway-traffic-racer-3d,secondary,CL-TRAFFIC-01,"High overlap secondary modifier matching 3D highway perspective and physics",2026-10-30
+free sniper games for pc,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary and platform mismatch (for pc per quality gate)",2026-10-30
+sniper shooting games,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,secondary,CL-SNIPER-01,"High overlap secondary modifier matching rooftop tactical marksmanship mechanics",2026-10-30
+sniper game online,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,primary,CL-SNIPER-01,"Exact match for browser-based long-range contract marksman gameplay",2026-10-30
+stickman sniper game,unverified,unverified,unmapped,unmapped,none,"No genuine catalog match for stickman sniper mechanics (catalog stickmen are brawlers/runners/archers)",2026-10-30
+best sniper game,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,keywords-array-only,CL-SNIPER-01,"High overlap superlative variant; assigned to keywords array only (banned claims in visible text)",2026-10-30
+stick figure sniper game,unverified,unverified,unmapped,unmapped,none,"No genuine catalog match for stick figure sniper mechanics",2026-10-30
+sniper game app,unverified,unverified,unmapped,unmapped,none,"Mobile app intent contrary to browser web gaming portal",2026-10-30
+best sniper game iPhone,unverified,unverified,unmapped,unmapped,none,"Mobile iOS / iPhone intent contrary to browser web gaming portal",2026-10-30
+best sniper game for android,unverified,unverified,unmapped,unmapped,none,"Mobile Android intent contrary to browser web gaming portal",2026-10-30
+online sniper game,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,keywords-array-only,CL-SNIPER-01,"Word-order variant of primary sniper game online; assigned to keywords array only",2026-10-30
+sniper games for pc,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary and platform mismatch (for pc per quality gate)",2026-10-30
+best sniper games for pc,unverified,unverified,unmapped,unmapped,none,"Excluded vocabulary and platform mismatch (for pc per quality gate)",2026-10-30
+best sniper games,unverified,unverified,https://blockhub.games/game/sniper-shooter-3d,keywords-array-only,CL-SNIPER-01,"High overlap superlative variant; assigned to keywords array only",2026-10-30
+offline sniper games,unverified,unverified,unmapped,unmapped,none,"Offline intent contrary to online browser web gaming portal",2026-10-30

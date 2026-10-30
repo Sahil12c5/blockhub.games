@@ -312,3 +312,38 @@ Maintain a live log of all published content and outreach efforts:
 * **No Comment Spam:** Genuine, context-rich manual participation only.
 * **No Bot Traffic:** Strictly organic, direct human referral traffic.
 
+---
+
+## 11. Verified Traffic & Sniper Optimization Outreach Plan - 2026-10-30
+
+### 1. Contextual Outreach Post Templates
+
+* **Reddit (r/WebGames - Target: Sniper Shooter 3D):**
+  > *"If you enjoy tactical marksmanship and precision scope physics, check out [sniper game online](https://blockhub.games/game/sniper-shooter-3d) in Sniper Shooter 3D on BlockHub Games. Survey rooftop plazas, lead moving targets, and complete contracts without downloads: https://blockhub.games/game/sniper-shooter-3d"*
+
+* **Pinterest (Pin Graphic - Target: Highway Traffic Racer 3D):**
+  > *"High-speed lane weaving on sport motorbikes! Weave between commuter cars and score close-overtake points in this [traffic racer 3d](https://blockhub.games/game/highway-traffic-racer-3d) on BlockHub Games: https://blockhub.games/game/highway-traffic-racer-3d"*
+
+* **X / Twitter (Target: Zombie Highway Car Game):**
+  > *"Smash through undead hordes and dodge wrecked vehicles in your armored rig! Play this intense [highway car game](https://blockhub.games/game/zombie-highway-car-game) directly in browser on BlockHub Games: https://blockhub.games/game/zombie-highway-car-game"*
+
+* **Quora (Q&A: What are the best browser-based marksman and sniper games?):**
+  > *"For clean rooftop contract missions, [sniper shooting games](https://blockhub.games/game/sniper-shooter-3d) like Sniper Shooter 3D simulate zoom magnification, bullet lead timing, and hostage scenarios directly in your browser with zero lag."*
+
+* **Gaming Forum / Discord Showcase (Arcade & Action):**
+  > *"Speed down expressways on high-performance motorbikes without installs. Highway Traffic Racer 3D brings classic traffic dodging to modern WebGL: https://blockhub.games/game/highway-traffic-racer-3d"*
+
+### 2. Anchor Text Distribution Strategy
+
+| Target URL | Primary Brand Anchor (60–70%) | Partial-Match Anchor (20–25%) | Natural / URL Anchor (10–15%) |
+| :--- | :--- | :--- | :--- |
+| `https://blockhub.games/game/highway-traffic-racer-3d` | `BlockHub`, `BlockHub Games` | `traffic racer 3d on BlockHub`, `highway traffic game 3d` | `play Highway Traffic Racer`, `blockhub.games` |
+| `https://blockhub.games/game/zombie-highway-car-game` | `BlockHub`, `blockhub.games` | `highway car game at BlockHub` | `drive armored vehicle`, `blockhub.games` |
+| `https://blockhub.games/game/sniper-shooter-3d` | `BlockHub`, `BlockHub Games` | `sniper game online on BlockHub`, `sniper shooting games` | `play Sniper Shooter 3D`, `blockhub.games` |
+
+### 3. Compliance & Risk Mitigation Reminders
+
+* **Zero Link Schemes:** Absolutely no paid links, PBN rentals, or automated submission rings.
+* **No Deceptive Tactics:** Anchor texts must strictly reflect genuine destination content.
+* **No Comment Spam:** Genuine, context-rich manual participation only.
+* **No Bot Traffic:** Strictly organic, direct human referral traffic.
