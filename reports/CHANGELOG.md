@@ -3,6 +3,20 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-11-01 01:50:00] DataFast Analytics & Monetag Re-Enablement
+
+### Summary of Changes
+- **DataFast Analytics Integration**:
+  - Integrated DataFast privacy-friendly analytics script in `<head>` of `app/layout.js`.
+- **Monetag Monetization Re-Enabled**:
+  - Restored Monetag In-Page Push tag in `app/layout.js` with active-gameplay path bypass check (`window.location.pathname.indexOf('/game/')===0`).
+  - Restored service worker script (`public/sw.js` and `sw.js`) configured for Monetag push service (`zoneId: 12130101`, `domain: "3nbf4.com"`).
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (25/25 verified).
+  - Passed `scripts/check-onpage-keywords.js` (0 violations).
+  - Production build compiled and generated all 426 static routes with 0 errors (`npm run build`).
+
+---
 ## [2026-10-31 23:45:00] Banned Brand Terms Removal & Low KD Keyword Expansion
 
 ### Summary of Changes

@@ -2,6 +2,18 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [DataFast Analytics & Monetag Re-Enablement] - 2026-11-01
+
+### Added
+- **DataFast Analytics**: Added defer script integration to `<head>` in `app/layout.js` (`data-website-id="dfid_s0xULp8evlT6u8UJ8pIQn"`, `data-domain="blockhub.games"`).
+- **Monetag Monetization**:
+  - Re-enabled Monetag In-Page Push script in `app/layout.js` with active-gameplay suppression (`/game/*` route safeguard).
+  - Restored Monetag push notification service worker (`zoneId: 12130101`, `domain: "3nbf4.com"`) in `public/sw.js` and root `sw.js`.
+
+### Verified
+- **SEO & Quality Gates**: `node scripts/check-mapped-keywords.js` (25/25 passed) and `node scripts/check-onpage-keywords.js` (passed with 0 errors).
+- **Production Build**: 426/426 static routes built successfully with 0 errors via `npm run build`.
+
 ## [Banned Brand Terms Removal & Low KD Keyword Expansion] - 2026-10-31
 
 ### Removed
