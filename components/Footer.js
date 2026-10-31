@@ -9,12 +9,12 @@ export default function Footer() {
 
   return (
     <footer className="mt-auto border-t border-slate-800/80 bg-slate-950/90 text-slate-400">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:py-12 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8">
 
           {/* Brand Info */}
           <div className="md:col-span-1 space-y-3">
-            <Link href="/" className="flex items-center gap-2 group">
+            <Link href="/" className="flex items-center gap-2 group min-h-[44px]">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-500 text-slate-950 font-black text-sm">
                 B
               </div>
@@ -27,7 +27,7 @@ export default function Footer() {
               The premier online destination for instant action, car racing, shooting, sports, and puzzle browser games. Play directly in your browser with zero downloads.
             </p>
             <div className="flex items-center gap-2 text-[11px] text-emerald-400/90 font-medium pt-1">
-              <ShieldCheck className="h-4 w-4 text-emerald-500" />
+              <ShieldCheck className="h-4 w-4 text-emerald-500 shrink-0" />
               <span>100% Free & Safe Web Games</span>
             </div>
           </div>
@@ -38,34 +38,34 @@ export default function Footer() {
               <Sparkles className="h-3.5 w-3.5 text-emerald-400" />
               Game Categories
             </h3>
-            <ul className="space-y-2 text-xs">
+            <ul className="space-y-1 sm:space-y-2 text-xs">
               <li>
-                <Link href="/category/action" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/action" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Action & Combat Games
                 </Link>
               </li>
               <li>
-                <Link href="/category/racing" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/racing" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   3D Car Racing & Drifting
                 </Link>
               </li>
               <li>
-                <Link href="/category/shooting" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/shooting" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Tactical FPS & Shooting
                 </Link>
               </li>
               <li>
-                <Link href="/category/puzzle" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/puzzle" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Brain-Teasers & Logic Puzzles
                 </Link>
               </li>
               <li>
-                <Link href="/category/sports" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/sports" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Soccer, Basketball & Sports
                 </Link>
               </li>
               <li>
-                <Link href="/category/multiplayer" className="hover:text-emerald-400 transition-colors">
+                <Link href="/category/multiplayer" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Online Multiplayer & .io
                 </Link>
               </li>
@@ -78,12 +78,12 @@ export default function Footer() {
               <Gamepad2 className="h-3.5 w-3.5 text-emerald-400" />
               Popular Game Hubs
             </h3>
-            <ul className="space-y-2 text-xs">
+            <ul className="space-y-1 sm:space-y-2 text-xs">
               {hubs.map((hub) => (
                 <li key={hub.slug}>
                   <Link
                     href={`/tag/${hub.slug}`}
-                    className="hover:text-emerald-400 transition-colors flex items-center gap-1"
+                    className="py-1.5 sm:py-0.5 hover:text-emerald-400 transition-colors flex items-center gap-1"
                   >
                     <span>{hub.name} Games</span>
                   </Link>
@@ -98,29 +98,29 @@ export default function Footer() {
             <h3 className="text-xs font-bold uppercase tracking-wider text-white mb-3">
               Legal & Trust
             </h3>
-            <ul className="space-y-2 text-xs">
+            <ul className="space-y-1 sm:space-y-2 text-xs">
               <li>
-                <Link href="/privacy-policy" className="hover:text-emerald-400 transition-colors">
+                <Link href="/privacy-policy" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Privacy Policy & Cookies
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-emerald-400 transition-colors">
+                <Link href="/terms" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="/dmca" className="hover:text-emerald-400 transition-colors">
+                <Link href="/dmca" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   DMCA Copyright Notice
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-emerald-400 transition-colors">
+                <Link href="/about" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   About BlockHub
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-emerald-400 transition-colors">
+                <Link href="/contact" className="py-1.5 sm:py-0.5 inline-block hover:text-emerald-400 transition-colors">
                   Contact & Support
                 </Link>
               </li>

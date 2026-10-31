@@ -72,7 +72,7 @@ export default function CategoryGameExplorer({ categoryGames = [], categorySlug 
           Showing <strong className="text-white">{(validPage - 1) * GAMES_PER_PAGE + 1}–{Math.min(validPage * GAMES_PER_PAGE, totalCount)}</strong> of <strong className="text-white">{totalCount}</strong> {categoryName} games
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 min-h-[44px]">
           <SlidersHorizontal className="h-3.5 w-3.5 text-slate-400" />
           <span className="text-slate-400">Sort by:</span>
           <select
@@ -81,7 +81,7 @@ export default function CategoryGameExplorer({ categoryGames = [], categorySlug 
               setSortBy(e.target.value);
               setCurrentPage(1);
             }}
-            className="px-2.5 py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-200 text-xs font-medium focus:outline-hidden focus:border-emerald-500"
+            className="px-3 py-2 sm:py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-200 text-xs font-medium min-h-[44px] sm:min-h-0 focus:outline-hidden focus:border-emerald-500 cursor-pointer"
           >
             <option value="popular">Popularity</option>
             <option value="rating">Top Rated</option>
@@ -99,21 +99,21 @@ export default function CategoryGameExplorer({ categoryGames = [], categorySlug 
 
       {/* Crawlable Pagination Bar with real <a href> links */}
       {totalPages > 1 && (
-        <nav aria-label={`${categoryName} games pagination`} className="flex items-center justify-center gap-2 pt-6 pb-2">
+        <nav aria-label={`${categoryName} games pagination`} className="flex items-center justify-center gap-1.5 sm:gap-2 pt-6 pb-2">
           {validPage > 1 ? (
             <Link
               href={validPage === 2 ? `/category/${categorySlug}` : `/category/${categorySlug}?page=${validPage - 1}`}
               onClick={() => setCurrentPage(validPage - 1)}
-              className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
+              className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors min-h-[44px] min-w-[44px]"
               aria-label="Previous page"
             >
               <ChevronLeft className="h-4 w-4" />
-              <span>Prev</span>
+              <span className="hidden xs:inline sm:inline">Prev</span>
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
+            <span className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed min-h-[44px] min-w-[44px]">
               <ChevronLeft className="h-4 w-4" />
-              <span>Prev</span>
+              <span className="hidden xs:inline sm:inline">Prev</span>
             </span>
           )}
 
@@ -125,7 +125,7 @@ export default function CategoryGameExplorer({ categoryGames = [], categorySlug 
                   key={num}
                   href={num === 1 ? `/category/${categorySlug}` : `/category/${categorySlug}?page=${num}`}
                   onClick={() => setCurrentPage(num)}
-                  className={`flex h-9 w-9 items-center justify-center rounded-xl text-xs font-bold transition-all border ${
+                  className={`flex h-11 w-11 sm:h-9 sm:w-9 items-center justify-center rounded-xl text-xs font-bold transition-all border min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0 ${
                     isCurrent
                       ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20"
                       : "bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700"
@@ -142,15 +142,15 @@ export default function CategoryGameExplorer({ categoryGames = [], categorySlug 
             <Link
               href={`/category/${categorySlug}?page=${validPage + 1}`}
               onClick={() => setCurrentPage(validPage + 1)}
-              className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
+              className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors min-h-[44px] min-w-[44px]"
               aria-label="Next page"
             >
-              <span>Next</span>
+              <span className="hidden xs:inline sm:inline">Next</span>
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
-              <span>Next</span>
+            <span className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed min-h-[44px] min-w-[44px]">
+              <span className="hidden xs:inline sm:inline">Next</span>
               <ChevronRight className="h-4 w-4" />
             </span>
           )}

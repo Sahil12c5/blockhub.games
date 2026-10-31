@@ -254,8 +254,8 @@ export default function GamePlayer({ game }) {
           isFullscreen
             ? "w-full h-full"
             : aspectMode === "portrait"
-            ? "h-[540px] xs:h-[580px] sm:h-[620px] max-h-[82vh]"
-            : "w-full aspect-16-9 min-h-[220px] xs:min-h-[260px] sm:min-h-[420px] max-h-[85vh]"
+            ? "h-[540px] sm:h-[620px] max-h-[82vh]"
+            : "w-full aspect-16-9 sm:min-h-[420px] max-h-[85vh]"
         }`}
         style={
           !isFullscreen && isHorizontalGame && deviceOrientation === "landscape"
@@ -384,7 +384,7 @@ export default function GamePlayer({ game }) {
 
       {/* Control Bar Below Game Window (Hidden completely in Fullscreen mode) */}
       {!isFullscreen && (
-        <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-slate-900 border-t border-slate-800">
+        <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-slate-900 border-t border-slate-800 min-h-[52px]">
           <div className="flex items-center gap-2 min-w-0 pr-2">
             <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
             <span className="text-xs font-bold text-slate-300 truncate">
@@ -401,7 +401,7 @@ export default function GamePlayer({ game }) {
               onClick={() =>
                 setAspectMode(aspectMode === "portrait" ? "standard" : "portrait")
               }
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
+              className="flex items-center justify-center gap-1 px-3 py-2 sm:py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none min-h-[44px] min-w-[44px]"
               title={
                 aspectMode === "portrait"
                   ? "Switch to Wide / 16:9 Screen"
@@ -415,19 +415,19 @@ export default function GamePlayer({ game }) {
             {/* Reload Game Button */}
             <button
               onClick={handleReloadGame}
-              className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none"
+              className="flex items-center justify-center gap-1 sm:gap-1.5 px-3 py-2 sm:py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none min-h-[44px] min-w-[44px]"
               title="Reload game iframe"
               id="reload-game-button"
               aria-label="Reload Game"
             >
               <RotateCcw className="h-3.5 w-3.5 text-slate-400" />
-              <span className="hidden xs:inline sm:inline">Reload</span>
+              <span className="hidden sm:inline">Reload</span>
             </button>
 
             {/* Theater Mode Toggle (Desktop only) */}
             <button
               onClick={() => setIsTheater(!isTheater)}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none hidden md:flex"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold transition-colors focus:outline-none hidden md:flex min-h-[44px]"
               title="Toggle Theater Mode"
             >
               <Tv className="h-3.5 w-3.5 text-slate-400" />
@@ -437,7 +437,7 @@ export default function GamePlayer({ game }) {
             {/* Fullscreen Button */}
             <button
               onClick={handleToggleFullscreen}
-              className="flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 text-xs font-bold transition-all shadow-md shadow-emerald-500/20 focus:outline-none"
+              className="flex items-center justify-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 active:scale-95 text-slate-950 text-xs font-bold transition-all shadow-md shadow-emerald-500/20 focus:outline-none min-h-[44px]"
               title="Enter Fullscreen"
               id="fullscreen-game-button"
               aria-label="Fullscreen"

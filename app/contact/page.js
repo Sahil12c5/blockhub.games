@@ -61,7 +61,7 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto space-y-6">
       <Breadcrumbs items={[{ label: "Contact Us" }]} />
 
-      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 sm:p-10 backdrop-blur-sm space-y-8">
+      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 md:p-10 backdrop-blur-sm space-y-6 sm:space-y-8">
         <div className="border-b border-slate-800 pb-6">
           <div className="flex items-center gap-2 mb-2">
             <Mail className="h-5 w-5 text-emerald-400" />
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     placeholder="Steve Miner"
-                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
+                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-3 sm:py-2.5 text-base sm:text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
                   />
                 </div>
 
@@ -163,7 +163,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     placeholder="steve@example.com"
-                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
+                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-3 sm:py-2.5 text-base sm:text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
                   />
                 </div>
 
@@ -174,7 +174,7 @@ export default function ContactPage() {
                   <select
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-emerald-500 transition-colors cursor-pointer"
+                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-3 sm:py-2.5 text-base sm:text-xs text-white focus:outline-none focus:border-emerald-500 transition-colors cursor-pointer min-h-[44px]"
                   >
                     <option value="General Inquiry">General Question</option>
                     <option value="Game Bug Report">Game Bug / Broken Embed Report</option>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder="Provide details about your question, game recommendation, or bug..."
-                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
+                    className="w-full rounded-xl bg-slate-950 border border-slate-800 px-3.5 py-3 sm:py-2.5 text-base sm:text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 transition-colors"
                   />
                 </div>
 

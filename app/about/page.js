@@ -16,7 +16,7 @@ export default function AboutPage() {
     <div className="max-w-4xl mx-auto space-y-6">
       <Breadcrumbs items={[{ label: "About Us" }]} />
 
-      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 sm:p-10 backdrop-blur-sm space-y-8">
+      <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 md:p-10 backdrop-blur-sm space-y-8">
         <div className="border-b border-slate-800 pb-6">
           <div className="flex items-center gap-2 mb-2">
             <Sparkles className="h-5 w-5 text-emerald-400" />

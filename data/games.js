@@ -19620,7 +19620,7 @@ function enrichGame(game) {
                     "sky block game"
             ],
             "h1": "Skyblock 3D - Voxel Skyblock Game",
-            "meta_title": "Skyblock Game 3D - Island Survival | BlockHub",
+            "meta_title": "Zombie House Game - 3D Zombie Defense",
             "meta_description": "Play this 3D skyblock game on BlockHub.games. Learn how to play skyblock, expand your sky block island, and craft generators with zero downloads.",
             "description": "Skyblock 3D drops players into a challenging skyblock game set high in the endless heavens, tasking you to build a flourishing kingdom from minimal starting provisions. Spawning atop a floating sky block patch of dirt with a single oak tree and a supply chest, players must expand their island footprint, plant crops, and survive without falling into the void. Ingenuity and resource efficiency are the keys to lasting aerial survival.\n\nPrecision timing and disciplined execution keep you ahead of challenges, calling for meticulous resource conservation and spatial planning. Mastering how to play skyblock means creating an infinite water source by melting ice blocks and pairing it with flowing lava to harvest limitless cobblestone blocks for expansive aerial walkways. Players must carefully catch saplings as tree leaves decay, ensuring you can replant timber stands to secure ongoing wood supplies for crafting tables, tools, and storage chests. Building defensive safety railings around expanding platforms prevents accidental slips, giving you secure staging grounds for multi-tiered sky homesteads. Establishing light sources around your dirt platforms prevents nocturnal monsters from spawning near your vulnerable crops."
     },
@@ -19788,8 +19788,8 @@ function enrichGame(game) {
             "knightbit far lands",
             "knightbit"
         ],
-        "meta_title": "KnightBit: Far Lands - Play Free | BlockHub.games",
-        "meta_description": "Play KnightBit: Far Lands online at BlockHub.games. Join medieval battles as knights or vikings, conquer battlegrounds, and capture flags.",
+        "meta_title": "KnightBit Online - Free Browser Game",
+        "meta_description": "Play KnightBit: Far Lands free in your browser on BlockHub.games! Lead knights or vikings in 3D medieval battles, capture flags, and conquer enemy lands.",
         "h1": "KnightBit: Far Lands - Medieval Combat Game",
         "description": "KnightBit: Far Lands drops warriors into sprawling 3D battlegrounds where royal knights clash against hardened Viking invaders. Spanning rugged environments from frozen northern fjords to contested border fortifications, each match challenges your faction to capture strategic flags and eliminate opposing fighters to rack up team victory points. Combat blends tactical melee skirmishes with ranged weapon exchanges. As you tally kills and conquer territories, the comprehensive rank progression system elevates your standing from raw recruit all the way to king, unlocking superior weapon armaments, shields, and passive soldier perks. Coordinate team maneuvers, contest contested capture circles, and hold choke points to dominate the realm."
     },
@@ -19797,10 +19797,10 @@ function enrichGame(game) {
         "keywords": [
             "storm dash"
         ],
-        "meta_title": "Storm Dash - Fast Tempest Runner Arcade | BlockHub.games",
-        "meta_description": "Play Storm Dash free in your browser. Dash through raging windstorms, dodge lightning obstacles, and outrun tempest gusts on BlockHub.games.",
+        "meta_title": "Storm Dash - High-Speed Escape Runner",
+        "meta_description": "Outrun a lethal vortex in Storm Dash on BlockHub.games! Sprint across collapsing aerial paths, dodge lightning strikes, and test your reflexes free online.",
         "h1": "Storm Dash - High-Speed Runner Game",
-        "description": "Storm Dash is an exhilarating high-speed multiplayer escape runner where speed and reflexes decide survival. As a lethal vortex closes in from behind, players must dash across collapsing aerial pathways, leap across widening fissures, and slide beneath falling debris. Victory demands that you maintain breakneck running speed, navigate dynamic obstacle corridors, collect glowing energy orbs, and reach safe storm shelters alongside fellow online runners. Dynamic course destruction ensures no two escape sprints feel identical across volatile landscapes.\n\nLater challenges introduce tighter margins and heavier resistance, meaning you must consistently apply rapid route recognition, agile maneuvers, and keen spatial awareness. The pursuing storm consumes the pathway behind you in real time, punishing hesitation with instant elimination. Players must execute quick lane changes to avoid crumbling floor tiles and swing across wide chasm gaps using energy grapple points. Teaming up with fellow runners creates slipstream speed boosts that help you pull away from the encroaching storm wall, ensuring your entire squad reaches safety before the landscape is swallowed completely. Staying close to team runners through winding canyon sections lets everyone benefit from collective speed surges."
+        "description": "Storm Dash delivers breathtaking high-speed parkour where runners sprint along precarious sky runways ahead of an apocalyptic vortex storm. Racing along fractured concrete freeways suspended in turbulent storm clouds, you must maintain lightning-fast pace while dodging falling debris, jumping over broken highway sections, and sliding beneath collapsed girders. The escape trial challenges you to collect magnetic speed tokens, slide through glowing boost rings, time wall-runs along vertical bill-boards, and outrun the crackling vortex wall nipping at your heels. Thundering storm audio and dazzling lightning effects keep tension sky-high.\n\nSprint across collapsing sky freeways, timing leaps across fractured highway asphalt while crackling lightning bolts illuminate the crumbling path ahead. The howling vortex storm steadily increases its pursuit velocity, rewarding runners who hit glowing acceleration pads and maintain tight cornering lines along curved overpasses. Sliding under collapsed steel girders and wall-running across suspended billboards provides vital clearance when the main roadway drops away into stormy oblivion."
     },
     "car-parking-game-parking-jam": {
         "keywords": [
@@ -19976,8 +19976,8 @@ function enrichGame(game) {
             "zombie games 3d",
             "zombie house game"
         ],
-        "meta_title": "3D Zombie Game - The Zombie House | BlockHub.games",
-        "meta_description": "Survive the zombie house game in 3D on BlockHub.games. Barricade doors, conserve ammunition, and defend your safehouse against night walkers.",
+        "meta_title": "Zombie House Game - 3D Zombie Defense",
+        "meta_description": "Play the ultimate zombie house game on BlockHub.games! Fortify safehouse doors, manage scarce ammo, and survive this intense 3D zombie game free online.",
         "h1": "The Zombie House - 3D Zombie Game Online",
         "description": "The Zombie House delivers intense 3D zombie game action as you defend a suburban safehouse against relentless waves of the living dead. Armed with firearms, you patrol the perimeter of your residence as swarms of aggressive zombies advance across the front yard. Eliminating zombies drops shiny coins and temporary ability pick-ups that grant rapid fire and damage boosts. Between waves, spend your hard-earned bounty to upgrade both your character—improving personal health, firing velocity, and movement speed—and your house itself, boarding up windows and reinforcing exterior doors. As each subsequent round introduces stronger, faster undead variants, strategic resource allocation ensures your household survives the night."
     },
@@ -19992,7 +19992,7 @@ function enrichGame(game) {
             "shooting block games"
         ],
         "meta_title": "Block Shooter - Signal Survival | BlockHub.games",
-        "meta_description": "Enter the arena in block shooter on BlockHub.games. Gather broadcast signal nodes, dodge enemy crossfire, and blast voxel combat targets online."
+        "meta_description": "Outlast rivals in block shooter arena trials on BlockHub.games! Sprint on green light signals, halt before red warnings, and claim survival victory."
     },
     "slingshot-shooting-game": {
         "keywords": [

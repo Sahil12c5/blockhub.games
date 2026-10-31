@@ -2,6 +2,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+  themeColor: "#090d16",
+};
+
 export const metadata = {
   metadataBase: new URL("https://blockhub.games"),
   title: {

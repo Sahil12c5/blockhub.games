@@ -7,13 +7,44 @@ import { Play, Flame, Star, Trophy, Sparkles, ChevronRight } from "lucide-react"
 
 export default function HeroFeatured({ featuredGames = [] }) {
   const [activeTab, setActiveTab] = useState(0);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
 
   if (!featuredGames || featuredGames.length === 0) return null;
 
   const current = featuredGames[activeTab] || featuredGames[0];
+  const maxTabs = Math.min(featuredGames.length, 4);
+
+  const minSwipeDistance = 50;
+
+  const handleTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe) {
+      setActiveTab((prev) => (prev + 1) % maxTabs);
+    } else if (isRightSwipe) {
+      setActiveTab((prev) => (prev - 1 + maxTabs) % maxTabs);
+    }
+  };
 
   return (
-    <section className="relative w-full overflow-hidden rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 p-4 sm:p-6 lg:p-8 shadow-2xl">
+    <section
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      className="relative w-full overflow-hidden rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 p-4 sm:p-6 lg:p-8 shadow-2xl"
+    >
       {/* Background Ambient Glow */}
       <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
       <div className="absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-emerald-600/10 blur-3xl pointer-events-none" />
@@ -58,7 +89,7 @@ export default function HeroFeatured({ featuredGames = [] }) {
           <div className="mt-4 sm:mt-6 flex flex-wrap items-center gap-2.5 sm:gap-4">
             <Link
               href={`/game/${current.slug}`}
-              className="w-full xs:w-auto inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs sm:text-sm transition-all transform active:scale-95 shadow-lg shadow-emerald-500/25 emerald-glow-hover"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs sm:text-sm min-h-[44px] transition-all transform active:scale-95 shadow-lg shadow-emerald-500/25 emerald-glow-hover"
             >
               <Play className="h-4 w-4 fill-current ml-0.5" />
               PLAY NOW FOR FREE
@@ -66,7 +97,7 @@ export default function HeroFeatured({ featuredGames = [] }) {
 
             <Link
               href={`/category/${current.category.toLowerCase()}`}
-              className="w-full xs:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-slate-200 text-xs font-bold border border-slate-700/80 transition-colors"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-slate-200 text-xs font-bold min-h-[44px] border border-slate-700/80 transition-colors"
             >
               Explore {current.category}
               <ChevronRight className="h-3.5 w-3.5" />
@@ -97,7 +128,7 @@ export default function HeroFeatured({ featuredGames = [] }) {
               </span>
               <Link
                 href={`/game/${current.slug}`}
-                className="flex items-center gap-1.5 text-xs font-extrabold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-md hover:bg-emerald-500/20 transition-colors"
+                className="flex items-center gap-1.5 text-xs font-extrabold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1.5 rounded-md hover:bg-emerald-500/20 transition-colors min-h-[36px]"
               >
                 Launch Game <Play className="h-3 w-3 fill-current" />
               </Link>
@@ -110,7 +141,7 @@ export default function HeroFeatured({ featuredGames = [] }) {
               <button
                 key={game.slug}
                 onClick={() => setActiveTab(idx)}
-                className={`flex flex-col items-center p-1.5 rounded-lg border text-left transition-all ${
+                className={`flex flex-col items-center justify-center p-1.5 rounded-lg border text-left transition-all min-h-[48px] ${
                   activeTab === idx
                     ? "border-emerald-500 bg-emerald-500/10 text-white"
                     : "border-slate-800 bg-slate-900/70 text-slate-400 hover:border-slate-700 hover:text-slate-200"

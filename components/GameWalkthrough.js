@@ -25,7 +25,7 @@ export default function GameWalkthrough({ game, getAds = "true" }) {
   )}&game=${encodedGame}&getads=${encodeURIComponent(getAds)}&color=${encodedColor}`;
 
   return (
-    <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+    <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 backdrop-blur-sm">
       <div className="flex items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2.5">
           <div className="p-2 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400">
@@ -56,7 +56,7 @@ export default function GameWalkthrough({ game, getAds = "true" }) {
 
         <button
           onClick={() => setIsOpen((prev) => !prev)}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700/60 transition-colors"
+          className="inline-flex items-center justify-center gap-1.5 px-3 py-2 sm:py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-xs font-semibold text-slate-300 hover:text-white border border-slate-700/60 transition-colors min-h-[44px]"
           aria-expanded={isOpen}
           aria-label={isOpen ? "Collapse walkthrough video" : "Expand walkthrough video"}
         >

@@ -321,7 +321,7 @@ export default async function GamePage({ params }) {
             <span className="text-xs text-slate-400">• Free HTML5 Browser Game</span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
+          <h1 className="text-xl sm:text-3xl font-black text-white tracking-tight">
             {game.h1 || `${game.title} - Play Free Online`}
           </h1>
         </div>
@@ -393,7 +393,7 @@ export default async function GamePage({ params }) {
         {/* Left Column: Core Editorial Sections */}
         <div className="lg:col-span-8 space-y-8">
           {/* 4. Section "About {Game Name}": 150-300 words of unique content */}
-          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 backdrop-blur-sm">
             <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-3">
               <Gamepad2 className="h-5 w-5 text-emerald-400" />
               About {game.title}
@@ -414,7 +414,7 @@ export default async function GamePage({ params }) {
           </section>
 
           {/* 5. Section "How to Play": explicit controls (keyboard, mouse, touch) */}
-          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm space-y-4">
+          <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 backdrop-blur-sm space-y-4">
             <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-2">
               <Lightbulb className="h-5 w-5 text-amber-400" />
               How to Play {game.title}
@@ -464,7 +464,7 @@ export default async function GamePage({ params }) {
 
           {/* 6. Section "Tips and Tricks": 3-5 real tips */}
           {game.tips && game.tips.length > 0 && (
-            <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm">
+            <section className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 backdrop-blur-sm">
               <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2 mb-4">
                 <Sparkles className="h-5 w-5 text-emerald-400" />
                 Tips and Tricks for {game.title}
@@ -527,7 +527,7 @@ export default async function GamePage({ params }) {
           )}
 
           {/* Game Quick Info Specifications */}
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-sm space-y-3">
+          <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 sm:p-6 backdrop-blur-sm space-y-3">
             <h3 className="text-base font-bold text-white mb-2">Game Specifications</h3>
             <div className="flex justify-between items-center py-1.5 border-b border-slate-800 text-xs">
               <span className="text-slate-400">Category</span>
@@ -595,7 +595,7 @@ export default async function GamePage({ params }) {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
           {relatedGames.map((related) => (
             <GameCard key={related.slug} game={related} />
           ))}
@@ -618,7 +618,7 @@ export default async function GamePage({ params }) {
             </Link>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4">
             {moreCategoryGames.map((more) => (
               <GameCard key={more.slug} game={more} />
             ))}

@@ -75,11 +75,11 @@ export default function GameCard({ game }) {
 
       {/* Card Body */}
       <div className="flex flex-1 flex-col p-2.5 sm:p-3.5">
-        <h3 className="text-xs sm:text-sm font-bold text-white tracking-tight line-clamp-1 group-hover:text-emerald-400 transition-colors">
+        <h3 className="text-xs sm:text-sm font-bold text-white tracking-tight line-clamp-2 min-h-[2rem] sm:min-h-[2.25rem] leading-tight group-hover:text-emerald-400 transition-colors">
           {game.title}
         </h3>
 
-        <div className="mt-1.5 sm:mt-2 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400">
+        <div className="mt-auto pt-2 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400">
           <span className="text-slate-400 text-[10px] uppercase font-semibold tracking-wider">
             Free Game
           </span>

@@ -196,7 +196,7 @@ export default function HomeGameExplorer({
                 key={cat.id}
                 onClick={() => handleCategoryChange(cat.id)}
                 onMouseEnter={loadCatalogIfNeeded}
-                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all border ${
+                className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all border min-h-[44px] ${
                   isSelected
                     ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20"
                     : "bg-slate-900/80 text-slate-300 border-slate-800 hover:border-slate-700 hover:text-white"
@@ -225,18 +225,18 @@ export default function HomeGameExplorer({
         {/* Sorting Dropdown & In-Grid Search */}
         <div className="flex items-center gap-2 w-full md:w-auto justify-between md:justify-end">
           <div className="relative flex-1 md:flex-initial">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-slate-400" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-slate-400 pointer-events-none" />
             <input
               type="text"
               value={searchFilter}
               onChange={(e) => handleSearchChange(e.target.value)}
               onFocus={loadCatalogIfNeeded}
               placeholder="Filter by title..."
-              className="w-full md:w-48 rounded-lg bg-slate-900 border border-slate-800 pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500"
+              className="w-full md:w-48 rounded-lg bg-slate-900 border border-slate-800 pl-8 pr-3 py-2 sm:py-1.5 text-base sm:text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500"
             />
           </div>
 
-          <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-1.5 shrink-0">
+          <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-2 sm:py-1.5 shrink-0 min-h-[44px]">
             <SlidersHorizontal className="h-3.5 w-3.5 text-slate-400" />
             <select
               value={sortBy}
@@ -300,7 +300,7 @@ export default function HomeGameExplorer({
 
       {/* Crawlable Pagination Bar with real <a> tags */}
       {totalPages > 1 && (
-        <nav aria-label="Game catalog pagination" className="flex items-center justify-center gap-2 pt-6 pb-2">
+        <nav aria-label="Game catalog pagination" className="flex items-center justify-center gap-1.5 sm:gap-2 pt-6 pb-2">
           {validPage > 1 ? (
             <Link
               href={validPage === 2 ? "/" : `/?page=${validPage - 1}`}
@@ -308,16 +308,16 @@ export default function HomeGameExplorer({
                 loadCatalogIfNeeded();
                 setCurrentPage(validPage - 1);
               }}
-              className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
+              className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors min-h-[44px] min-w-[44px]"
               aria-label="Previous page"
             >
               <ChevronLeft className="h-4 w-4" />
-              <span>Prev</span>
+              <span className="hidden xs:inline sm:inline">Prev</span>
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
+            <span className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed min-h-[44px] min-w-[44px]">
               <ChevronLeft className="h-4 w-4" />
-              <span>Prev</span>
+              <span className="hidden xs:inline sm:inline">Prev</span>
             </span>
           )}
 
@@ -332,7 +332,7 @@ export default function HomeGameExplorer({
                     loadCatalogIfNeeded();
                     setCurrentPage(num);
                   }}
-                  className={`flex h-9 w-9 items-center justify-center rounded-xl text-xs font-bold transition-all border ${
+                  className={`flex h-11 w-11 sm:h-9 sm:w-9 items-center justify-center rounded-xl text-xs font-bold transition-all border min-h-[44px] min-w-[44px] sm:min-h-0 sm:min-w-0 ${
                     isCurrent
                       ? "bg-emerald-500 text-slate-950 border-emerald-400 shadow-md shadow-emerald-500/20"
                       : "bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700"
@@ -352,15 +352,15 @@ export default function HomeGameExplorer({
                 loadCatalogIfNeeded();
                 setCurrentPage(validPage + 1);
               }}
-              className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
+              className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors min-h-[44px] min-w-[44px]"
               aria-label="Next page"
             >
-              <span>Next</span>
+              <span className="hidden xs:inline sm:inline">Next</span>
               <ChevronRight className="h-4 w-4" />
             </Link>
           ) : (
-            <span className="flex items-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed">
-              <span>Next</span>
+            <span className="flex items-center justify-center gap-1 px-3 py-2 rounded-xl bg-slate-900/40 border border-slate-800/40 text-xs font-semibold text-slate-600 cursor-not-allowed min-h-[44px] min-w-[44px]">
+              <span className="hidden xs:inline sm:inline">Next</span>
               <ChevronRight className="h-4 w-4" />
             </span>
           )}

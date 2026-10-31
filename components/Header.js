@@ -197,8 +197,8 @@ export default function Header() {
 
         {/* Search Bar & Actions */}
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Search Box - Expands smoothly on mobile */}
-          <div className="relative w-36 xs:w-44 sm:w-64 md:w-72">
+          {/* Search Box - Expands smoothly on mobile without overflowing */}
+          <div className="relative flex-1 max-w-[175px] sm:max-w-none sm:w-64 md:w-72">
             <div className="relative">
               <Search className="absolute left-2.5 sm:left-3 top-1/2 -translate-y-1/2 h-3.5 sm:h-4 w-3.5 sm:w-4 text-slate-400 pointer-events-none" />
               <input
@@ -207,13 +207,13 @@ export default function Header() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onFocus={fetchSearchIndex}
                 placeholder="Search games..."
-                className="w-full rounded-full bg-slate-900 border border-slate-700/80 pl-8 sm:pl-9 pr-7 sm:pr-8 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
+                className="w-full rounded-full bg-slate-900 border border-slate-700/80 pl-8 sm:pl-9 pr-8 py-2 sm:py-1.5 text-base sm:text-xs text-white placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                 aria-label="Search games"
               />
               {searchQuery && (
                 <button
                   onClick={() => setSearchQuery("")}
-                  className="absolute right-2 sm:right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-1"
+                  className="absolute right-1 sm:right-2 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white min-h-[40px] min-w-[40px] flex items-center justify-center p-1"
                   aria-label="Clear search"
                 >
                   <X className="h-3.5 w-3.5" />
@@ -228,7 +228,7 @@ export default function Header() {
                   <span className="font-semibold text-slate-200">Results ({searchResults.length})</span>
                   <button
                     onClick={() => setShowSearchDropdown(false)}
-                    className="text-xs text-emerald-400 font-bold hover:underline"
+                    className="text-xs text-emerald-400 font-bold hover:underline min-h-[36px] min-w-[44px] flex items-center justify-end"
                   >
                     Close
                   </button>
@@ -240,7 +240,7 @@ export default function Header() {
                         key={game.slug}
                         href={`/game/${game.slug}`}
                         onClick={() => setShowSearchDropdown(false)}
-                        className="flex items-center gap-3 p-2.5 hover:bg-slate-800/80 transition-colors group"
+                        className="flex items-center gap-3 p-2.5 hover:bg-slate-800/80 transition-colors group min-h-[44px]"
                       >
                         <div className="h-10 w-14 rounded-md overflow-hidden bg-slate-800 flex-shrink-0 border border-slate-700">
                           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -286,7 +286,7 @@ export default function Header() {
                 router.push(`/game/${POPULAR_RANDOM_SLUGS[randomIndex]}`);
               }
             }}
-            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 hover:text-emerald-300 text-xs font-semibold transition-all shadow-xs"
+            className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 hover:text-emerald-300 text-xs font-semibold transition-all shadow-xs min-h-[40px]"
             title="Play a Random Game"
           >
             <Gamepad2 className="h-3.5 w-3.5" />
@@ -296,7 +296,7 @@ export default function Header() {
           {/* Mobile Menu Toggle Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="xl:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none"
+            className="xl:hidden min-h-[44px] min-w-[44px] flex items-center justify-center p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none"
             aria-label="Toggle navigation menu"
           >
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -304,14 +304,14 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Drawer Navigation */}
+      {/* Mobile Drawer Navigation with Scroll & Safe Tap Targets */}
       {mobileMenuOpen && (
-        <div className="xl:hidden border-t border-slate-800 bg-slate-950 px-4 py-4 space-y-3">
+        <div className="xl:hidden border-t border-slate-800 bg-slate-950 px-4 py-4 space-y-4 max-h-[calc(100vh-4rem)] max-h-[calc(100dvh-4rem)] overflow-y-auto overscroll-contain pb-6">
           <div className="grid grid-cols-2 gap-2">
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-2 p-2.5 rounded-lg text-xs font-bold text-slate-200 bg-slate-900 border border-slate-800 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors"
+              className="flex items-center gap-2 p-3 rounded-lg text-xs font-bold text-slate-200 bg-slate-900 border border-slate-800 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors min-h-[44px]"
             >
               <Gamepad2 className="h-4 w-4 text-emerald-400" />
               All Games
@@ -323,7 +323,7 @@ export default function Header() {
                   key={cat.slug}
                   href={`/category/${cat.slug}`}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center gap-2 p-2.5 rounded-lg text-xs font-semibold text-slate-300 bg-slate-900 border border-slate-800 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors"
+                  className="flex items-center gap-2 p-3 rounded-lg text-xs font-semibold text-slate-300 bg-slate-900 border border-slate-800 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors min-h-[44px]"
                 >
                   <Icon className="h-4 w-4 text-slate-400" />
                   {cat.name}
@@ -344,7 +344,7 @@ export default function Header() {
                   key={hub.slug}
                   href={`/tag/${hub.slug}`}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-slate-900/60 border border-slate-800/80 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors"
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium text-slate-300 bg-slate-900/60 border border-slate-800/80 hover:border-emerald-500/40 hover:text-emerald-400 transition-colors min-h-[40px]"
                 >
                   <span className="text-emerald-400 font-bold">•</span>
                   <span>{hub.name}</span>
@@ -354,17 +354,16 @@ export default function Header() {
           </div>
 
           <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
-
-            <Link href="/about" className="hover:text-emerald-400 transition-colors">
+            <Link href="/about" className="py-2.5 px-2 hover:text-emerald-400 transition-colors min-h-[44px] flex items-center">
               About
             </Link>
-            <Link href="/privacy-policy" className="hover:text-emerald-400 transition-colors">
+            <Link href="/privacy-policy" className="py-2.5 px-2 hover:text-emerald-400 transition-colors min-h-[44px] flex items-center">
               Privacy
             </Link>
-            <Link href="/terms" className="hover:text-emerald-400 transition-colors">
+            <Link href="/terms" className="py-2.5 px-2 hover:text-emerald-400 transition-colors min-h-[44px] flex items-center">
               Terms
             </Link>
-            <Link href="/contact" className="hover:text-emerald-400 transition-colors">
+            <Link href="/contact" className="py-2.5 px-2 hover:text-emerald-400 transition-colors min-h-[44px] flex items-center">
               Contact
             </Link>
           </div>
