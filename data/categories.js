@@ -34,7 +34,17 @@ export const categories = [
       "arcade action games",
       "ragdoll game online",
       "ragdoll game",
-      "free ragdoll games"
+      "free ragdoll games",
+      "first person shooter browser",
+      "online gun battle",
+      "slingshot shooting game",
+      "sniper shooter 3d",
+      "sniper game online",
+      "shooting games unblocked",
+      "shooting games online unblocked",
+      "unblocked shooting games",
+      "free online shooting games no download",
+      "tactical response team"
     ]
   },
   {
@@ -42,7 +52,7 @@ export const categories = [
     "name": "Racing",
     "headline": "Cool Car Games Unblocked - High-Speed Racing, Drifting & Stunts",
     "metaTitle": "Cool Car Games Unblocked - Play Unblocked Racing Games",
-    "description": "Hit full throttle across our curated collection of cool car games unblocked and unblocked racing games ready for instant browser play. From high-octane asphalt circuits to expansive open world driving sandboxes, these browser based racing games deliver blistering acceleration directly to your screen with zero download or installation required.\n\nWhether you love technical drift racing reminiscent of Drift Hunters, chaotic multiplayer kart battles inspired by Smash Karts, or soaring high-speed ramps akin to Madalin Stunt Cars, our games offer responsive handling using standard WASD or arrow keys. Compete across precision time trials, dodge rush-hour highway traffic, conquer 2D racing game tracks, and fine-tune your dream supercars in fast-paced driving games that can be played on desktop, Chromebook, and mobile devices.",
+    "description": "Hit full throttle across our curated collection of cool car games unblocked and unblocked racing games ready for instant browser play. From high-octane asphalt circuits to expansive open world driving sandboxes, these browser based racing games deliver blistering acceleration directly to your screen with zero download or installation required.\n\nWhether you love technical drift racing, chaotic multiplayer kart battles inspired by Smash Karts, or soaring high-speed ramps akin to Madalin Stunt Cars, our games offer responsive handling using standard WASD or arrow keys. Compete across precision time trials, dodge rush-hour highway traffic, conquer 2D racing game tracks, and fine-tune your dream supercars in fast-paced driving games that can be played on desktop, Chromebook, and mobile devices.\n\nExplore scenic highways in open world driving adventures, test your parking finesse in precision driving trials, or claim checkered flags across competitive open world racing circuits. Accelerate through neon highways in a night city car driving simulator, outrun sirens in high speed police pursuit encounters, and thread dense traffic during highway lane splitting runs.",
     "metaDescription": "Play cool car games unblocked, unblocked racing games, and car racing games online. Master drift racing and stunt circuits with zero downloads.",
     "introParagraph": "Hit full throttle across fast [unblocked racing games](/category/racing) ready to play instantly. Slide through hairpin asphalt turns in [Zombie Drift: Steel Rage](/game/zombie-drift-steel-rage), pilot heavy haulers across highway tracks in [American Truck Racing Simulator](/game/american-truck-racing-simulator), or conquer high-altitude aerial platforms in [Car Obby 3D](/game/car-obby-3d). Enjoy cool car games unblocked and competitive 3d car racing games online with smooth browser handling.",
     "badgeColor": "bg-amber-500/20 text-amber-400 border-amber-500/30",
@@ -216,7 +226,22 @@ export const categories = [
       "free racing games pc",
       "new car games 3d",
       "block car online",
-      "block cars game"
+      "block cars game",
+      "open world driving",
+      "open world racing",
+      "precision driving",
+      "precision driving games",
+      "highway traffic game online",
+      "highway traffic game free",
+      "highway traffic game 3d",
+      "classic car driving game",
+      "police chase car simulator",
+      "manual transmission driving simulator browser",
+      "night city car driving simulator online",
+      "high speed police pursuit car game 3d",
+      "highway lane splitting car game 3d",
+      "near miss traffic racing game online",
+      "custom drift car tuning browser game"
     ]
   },
   {
@@ -295,7 +320,13 @@ export const categories = [
       "shooting block game",
       "shooting block games",
       "shooting games block",
-      "shooting games blocks"
+      "shooting games blocks",
+      "action games no download",
+      "action games unblocked",
+      "slingshot shooting game",
+      "sniper shooter 3d",
+      "unblocked shooting games",
+      "tactical response team"
     ]
   },
   {
@@ -303,7 +334,7 @@ export const categories = [
     "name": "Puzzle",
     "headline": "Brain-Teasers, Logic & Strategy Puzzle Games",
     "metaTitle": "Free Puzzle Games Online | BlockHub.games",
-    "description": "Stimulate your mind with clever logic puzzles",
+    "description": "Stimulate your mind with clever logic puzzles. Tackle physics puzzle challenges, work through sorting puzzle sequences, and crack spatial puzzle layouts directly in your browser.",
     "metaDescription": "Exercise your mind with 50 puzzle games online for free at BlockHub.games. Solve mechanical brain-teasers, tile matches, and spatial logic challenges.",
     "introParagraph": "Exercise your analytical thinking across 50 puzzle games online for free on BlockHub.games. From calculating projectile trajectories in physics games to matching colored liquids in test tubes, these challenges reward strategic planning. Connect matching tiles, untangle complex mechanical grids, and solve tricky logic brain teasers without any time pressure or downloads.",
     "badgeColor": "bg-purple-500/20 text-purple-400 border-purple-500/30",
@@ -329,7 +360,17 @@ export const categories = [
       "puzzle games unblocked",
       "logic puzzles",
       "mind games online",
-      "escape games online"
+      "escape games online",
+      "physics puzzle",
+      "physics puzzles",
+      "sorting puzzle",
+      "spatial puzzle",
+      "puzzle shooter",
+      "number puzzle",
+      "daily puzzle",
+      "classic puzzle",
+      "unblocked puzzle games",
+      "daily 5 minute logic puzzle browser"
     ]
   },
   {
@@ -363,7 +404,17 @@ export const categories = [
       "free sports games",
       "penalty shootout games",
       "baseball games",
-      "tennis games online"
+      "tennis games online",
+      "9 ball pool online free",
+      "9 ball pool unblocked",
+      "penalty kick",
+      "penalty shootout",
+      "penalty shootouts",
+      "free kick 3d",
+      "college football games online",
+      "unblocked sports games",
+      "2 player 8 ball billiards browser game",
+      "goalkeeper penalty save simulator online"
     ]
   },
   {
@@ -464,7 +515,9 @@ export const categories = [
       "top 10 multiplayer games for android",
       "multiplayer mobile games with friends",
       "multiplayer browser game with friends",
-      "multiplayer games mobile with friends free"
+      "multiplayer games mobile with friends free",
+      "couch coop browser games no download",
+      "1v1 local multiplayer games unblocked"
     ]
   },
   {

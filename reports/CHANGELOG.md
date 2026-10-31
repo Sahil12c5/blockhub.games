@@ -3,6 +3,22 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-31 23:45:00] Banned Brand Terms Removal & Low KD Keyword Expansion
+
+### Summary of Changes
+- **Competitor & Banned Brand Keyword Stripping**:
+  - Completely purged competitor portal terms and non-owned trademark keywords (`poki games`, `poki games online`, `poki online games`, `friv games`, `y8 games`, `crazy games`, `crazy games online`, `drift hunters`, `github io unblocked games`, `1001 oyun`, `araba oyunları`, `minecraft`, `roblox`) across all metadata arrays, category descriptions, game editorial descriptions, and content configurations.
+  - Sanitized `app/layout.js`, `data/categories.js`, `data/games.js`, `data/top-games-content.js`, and `data/top-games-content.json`.
+- **Low KD SEO Keyword Expansion (KD 15–29)**:
+  - Appended target long-tail keywords to `<meta name="keywords">` tags across Homepage (`app/layout.js`), Categories (`racing`, `shooting`, `action`, `sports`, `puzzle`, `multiplayer`), Topic Hubs (`car-parking`, `2-player`, `zombie`, `obby`, `stickman`, `truck-driving`, `bubble-shooter`, `football-soccer`), and relevant Game pages (`referee-simulator-3d`, `gun-thief-auto`, `car-obby-3d`, `blocky-zombie-shooting`, `verity-block-survival`, `highway-traffic-racer-3d`, `need-for-drift`, `oil-tanker-truck-parking-game`, `impossible-jeep-driver`, `tank-soccer-battle-1-2-3-4-player`, `last-call-drunken-boxer`, `collect-brainrot-arena`, `embercraft`, `skyblock-3d`, `hellgate-1993`, `dead-rails`, `last-garage-zombie-road`, `zombie-drift-steel-rage`, `screw-nuts-snap-puzzle`, `pixel-jam-bus-puzzle`).
+- **Natural On-Page Editorial Additions**:
+  - Added single, natural sentences featuring relevant long-tail search terms to 8 hub and category editorial intros without breaking grammar or repeating existing phrases.
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (0 violations).
+  - Passed `scripts/check-onpage-keywords.js` (0 errors).
+  - Compiled and prerendered all 426 routes cleanly via `npm run build`.
+
+---
 ## [2026-10-31 22:12:00] Meta Description SERP Pixel Width Optimization (<985px)
 
 ### Summary of Changes

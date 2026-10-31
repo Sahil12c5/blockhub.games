@@ -3351,7 +3351,7 @@ const rawGames = [
     "width": 800,
     "height": 600,
     "orientation": "landscape",
-    "description": "Voxel Frontier is a Minecraft parody that is VoxelWork Games very first project. There are mobs and other tools in the game you can use to survive. You can join your friends by using a websocket server running on your computer. Dimensions: The Fungi Dimension - It can be retrieved by going to a village and entering a fungi portal Mobs: - Orc (basically a zombie) - Spider - Chicken",
+    "description": "Voxel Frontier is VoxelWork Games very first project. There are mobs and other tools in the game you can use to survive. You can join your friends by using a websocket server running on your computer. Dimensions: The Fungi Dimension - It can be retrieved by going to a village and entering a fungi portal Mobs: - Orc (basically a zombie) - Spider - Chicken",
     "howToPlay": "WASD Click to break block Right click to place E to open inventory Esc to leave F5 to go into 3rd person",
     "controls": [
       {
@@ -16140,7 +16140,7 @@ const rawGames = [
     "width": 960,
     "height": 600,
     "orientation": "landscape",
-    "description": "Counter Craft Sniper is a first-person shooter where you step into the boots of an elite sniper sent to protect a city invaded by Minecraft mobs. Creepers, skeletons, and zombies have appeared in the middle of downtown, and only your precision and quick reflexes can stop them before the chaos spreads. Armed with your trusty sniper rifle, you must take position on rooftops and high vantage points to eliminate every hostile target that threatens the civilians below.",
+    "description": "Counter Craft Sniper is a first-person shooter where you step into the boots of an elite sniper sent to protect a city invaded by mobs. Creepers, skeletons, and zombies have appeared in the middle of downtown, and only your precision and quick reflexes can stop them before the chaos spreads. Armed with your trusty sniper rifle, you must take position on rooftops and high vantage points to eliminate every hostile target that threatens the civilians below.",
     "howToPlay": "WASD - Move LMB - Shoot RMB - Aim Flashlight R - Reload F - Use G - Grenade H - Melee C - Crouch M - Mute Space - Jump Shift - Run 1-9 - Select Weapon TAB - Pause",
     "controls": [
       {
@@ -19617,7 +19617,8 @@ function enrichGame(game) {
                     "skyblock game",
                     "sky block",
                     "how to play skyblock",
-                    "sky block game"
+                    "sky block game",
+            "skyblock island survival browser game"
             ],
             "h1": "Skyblock 3D - Voxel Skyblock Game",
             "meta_title": "Skyblock 3D - Skyblock Game | BlockHub.games",
@@ -19640,7 +19641,9 @@ function enrichGame(game) {
                     "highway traffic game 3d",
                     "highway traffic game online",
                     "highway traffic game",
-                    "highway traffic game free"
+                    "highway traffic game free",
+            "highway lane splitting car game 3d",
+            "near miss traffic racing game online"
             ],
             "h1": "Highway Traffic Racer 3D - Traffic Racer 3D",
             "meta_title": "Traffic Racer 3D - Highway Speed Racing | BlockHub",
@@ -19715,7 +19718,8 @@ function enrichGame(game) {
     },
     "oil-tanker-truck-parking-game": {
             "keywords": [
-                    "truck parking games"
+                    "truck parking games",
+            "fuel tanker delivery simulator 3d"
             ],
             "h1": "Oil Tanker Truck Parking Game - Truck Parking Games",
             "meta_title": "Truck Parking Games - Oil Tanker Parking | BlockHub",
@@ -19727,7 +19731,14 @@ function enrichGame(game) {
         "keywords": [
             "referee simulator online",
             "referee simulator free",
-            "referee simulator browser"
+            "referee simulator browser",
+            "referee game",
+            "referee simulator",
+            "referee simulator 3d online",
+            "referee simulator game online",
+            "referee",
+            "soccer referee red card simulator online",
+            "var check football referee game 3d"
         ],
         "meta_title": "Referee Simulator Online 3D | BlockHub.games",
         "meta_description": "Take the whistle in referee simulator online. Make pitch calls, check VAR replays, and officiate matches in your browser on BlockHub.games.",
@@ -19762,7 +19773,8 @@ function enrichGame(game) {
     },
     "embercraft": {
         "keywords": [
-            "embercraft game"
+            "embercraft game",
+            "voxel block crafting survival online"
         ],
         "meta_title": "EmberCraft Game - Fiery Mining & Craft | BlockHub",
         "meta_description": "Explore the embercraft game on BlockHub.games. Forge gear, build shelters, and mine glowing resources deep inside fiery underworld caverns.",
@@ -19778,7 +19790,9 @@ function enrichGame(game) {
     },
     "collect-brainrot-arena": {
         "keywords": [
-            "collect brainrot arena"
+            "collect brainrot arena",
+            "italian brainrot games online free",
+            "brainrot meme arena browser game"
         ],
         "meta_title": "Collect Brainrot Arena - Party Action | BlockHub.games",
         "meta_description": "Play collect brainrot arena on BlockHub.games. Gather viral collectible characters, dodge rivals, and out-score opponents in fast party rounds."
@@ -19929,7 +19943,9 @@ function enrichGame(game) {
         "keywords": [
             "blocky shooter game",
             "blocky shooting games",
-            "block zombie game"
+            "block zombie game",
+            "shooting block game",
+            "shooting block games"
         ],
         "meta_title": "Blocky Shooter Game - Voxel Undead | BlockHub.games",
         "meta_description": "Play this block zombie game and blocky shooter game on BlockHub.games. Aim down crosshairs, defeat cubic undead waves, and clear retro arenas.",
@@ -20013,7 +20029,8 @@ function enrichGame(game) {
     },
     "tank-soccer-battle-1-2-3-4-player": {
         "keywords": [
-            "1234 player games"
+            "1234 player games",
+            "234 player mini games on one keyboard"
         ],
         "meta_title": "1234 Player Games - Tank Soccer | BlockHub.games",
         "meta_description": "Compete in 1234 player games on BlockHub.games. Steer mini tanks around indoor soccer arenas and score goals in hilarious local party matches."
@@ -20021,7 +20038,8 @@ function enrichGame(game) {
     "need-for-drift": {
         "keywords": [
             "car drift games",
-            "online drift games"
+            "online drift games",
+            "custom drift car tuning browser game"
         ],
         "h1": "Need for Drift - Car Drift Games Online",
         "meta_title": "Need for Drift - Car Drift Games | BlockHub.games",
@@ -20048,7 +20066,10 @@ function enrichGame(game) {
     },
     "car-obby-3d": {
         "keywords": [
-            "car obby games"
+            "car obby games",
+            "block car game",
+            "block cars game",
+            "block cars games"
         ],
         "h1": "Car Obby 3D - Car Obby Games Sky Obstacles",
         "meta_title": "Car Obby 3D - Car Obby Games Online | BlockHub",
@@ -20063,6 +20084,61 @@ function enrichGame(game) {
         "meta_title": "Curve Free Kick - Free Kick Game Online | BlockHub",
         "meta_description": "Play Curve Free Kick, a 3D free kick game online on BlockHub.games. Curve soccer balls around defensive walls and score in top corners.",
         "description": "Commanding the action in Curve Free Kick, you experience a dynamic free kick game online featuring realistic ball physics and intense set pieces. Standing over set-piece opportunities outside the penalty area, players face disciplined defensive walls and agile goalkeepers. Your core mission centers on working to adjust your approach angle, strike the ball with precision curve, bend shots around defensive walls, and find the top corners of the net. Scoring consistently demands analyzing wind direction, defensive wall positioning, and goalkeeper reach across varied distances and angles.\n\nBending shots past elite goalkeepers requires delicate swipe mechanics and spin calibration. Drawing an arched trajectory on the screen applies lateral spin to the ball, causing it to swerve dramatically through the air after clearing the defensive wall. Players must gauge the gap between defender heads and the crossbar, dipping shots quickly into the side netting where keepers cannot reach. Higher stages introduce shifting crosswinds, moving wall defenders, and target bullseyes in the upper corners that multiply your match score when struck cleanly. Striking the lower third of the ball provides the upward lift needed to clear tall defensive walls before dipping beneath the crossbar."
+    },
+    "gun-thief-auto": {
+        "keywords": [
+            "block car game",
+            "block cars game",
+            "block cars games"
+        ]
+    },
+    "verity-block-survival": {
+        "keywords": [
+            "block zombie game"
+        ]
+    },
+    "impossible-jeep-driver": {
+        "keywords": [
+            "muddy offroad 4x4 hill climb browser"
+        ]
+    },
+    "last-call-drunken-boxer": {
+        "keywords": [
+            "2 player physics duel games online"
+        ]
+    },
+    "hellgate-1993": {
+        "keywords": [
+            "retro doom style fps browser game",
+            "boomer shooter web game no download"
+        ]
+    },
+    "dead-rails": {
+        "keywords": [
+            "post apocalyptic road survival game online"
+        ]
+    },
+    "last-garage-zombie-road": {
+        "keywords": [
+            "drive and crush zombies car game",
+            "post apocalyptic road survival game online"
+        ]
+    },
+    "zombie-drift-steel-rage": {
+        "keywords": [
+            "drive and crush zombies car game"
+        ]
+    },
+    "screw-nuts-snap-puzzle": {
+        "keywords": [
+            "unscrew bolts and nuts puzzle online",
+            "wood nut and bolt screw pin puzzle"
+        ]
+    },
+    "pixel-jam-bus-puzzle": {
+        "keywords": [
+            "bus stop color match traffic jam puzzle"
+        ]
     }
 };
   const enriched = topGamesContent[game.slug];
