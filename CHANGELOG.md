@@ -2,6 +2,36 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [SEO Targeted Meta Optimizations & Description Rewrites] - 2026-10-31
+
+### Added
+- **Permanent Keyword Compliance Quality Gate (`scripts/check-mapped-keywords.js`)**:
+  - Validates that every mapped keyword from `reports/seo/keyword-mapping.csv` appears verbatim on its target page.
+  - Enforces 0 keyword regressions across all production builds and content updates.
+
+### Changed
+- **Targeted SEO Meta & Keyword Enhancements (5 Routes)**:
+  - `skyblock-3d` (`/game/skyblock-3d`): Corrected `meta_title` to feature primary keyword `"skyblock game"` (`Skyblock 3D - Skyblock Game | BlockHub.games`, 45 chars).
+  - `the-zombie-house` (`/game/the-zombie-house`): Updated `meta_title` to integrate primary keyword `"3d zombie game"` while retaining `"zombie house game"` (`Zombie House Game - 3D Zombie Game | BlockHub`, 46 chars).
+  - `racing` category (`/category/racing`): Enriched `metaDescription` with mapped keyword `"car racing games online"` (2,900 vol) while preserving `"cool car games unblocked"` and `"unblocked racing games"` (143 chars).
+  - `2-player` topic hub (`/tag/2-player`): Updated `metaTitle` to `"Multiplayer Browser Games - 2 Player Games | BlockHub"` (52 chars) and `headline` to prominently feature primary head term `"multiplayer browser games"`.
+  - `shooting` category (`/category/shooting`): Integrated mapped keyword `"shooting game online"` (1,300 vol) into `metaDescription` (146 chars), preserving primary `"gun games for free"` (2,400 vol).
+- **SEO Description Rewrites (Batches 3–8 Complete)**:
+  - Rewrote 144 game descriptions and meta descriptions across `data/top-games-content.js`, `data/top-games-content.json`, and `data/games.js`.
+  - Replaced repetitive boilerplate phrases with unique, factually grounded mechanics (controls, objectives, obstacles, and upgrades).
+  - Maintained 0 duplicate 6-grams across all 400 catalog games.
+  - Kept all meta descriptions within 120–155 characters ending in complete sentences.
+- **Mobile UI & Responsive Design Audit**:
+  - Optimized responsive styling across mobile viewports (360px–768px) for `Header`, `HeroFeatured`, `GameCard`, `CategoryGameExplorer`, and `GamePlayer` without altering desktop layouts or DOM heading hierarchies.
+- **Search Engine Discovery & Link Architecture**:
+  - Strengthened internal linking to resolve indexing delays for the 67 "Discovered, not indexed" pages.
+  - Cleaned up removed game URL handling in `public/_redirects` to return real 404s/410s while eliminating internal links to inactive slugs.
+
+### Verified
+- **Keyword Compliance**: Passed `node scripts/check-mapped-keywords.js` (0 violations across all 21 mapped targets).
+- **On-Page Integrity**: Passed `node scripts/check-onpage-keywords.js` (0 banned claims, 0 mid-sentence truncations, 0 keyword stuffing).
+- **Production Build**: Successfully compiled 426/426 static routes with 0 errors via `npm run build`.
+
 ## [Screaming Frog Technical SEO Audit & Compliance Fixes] - 2026-10-31
 
 ### Fixed

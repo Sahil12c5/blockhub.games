@@ -5213,7 +5213,7 @@ export const topGamesContent = {
         "a": "Stay observant of stage layouts, practice timing your inputs carefully, and maintain steady composure to conquer tougher challenges."
       }
     ],
-    "meta_title": "Skyblock 3D - Play Free Online | BlockHub.games",
+    "meta_title": "Skyblock 3D - Skyblock Game | BlockHub.games",
     "meta_description": "Survive on a tiny floating sky island, manage scarce resources, and build bridges to distant floating biomes on BlockHub.games.",
     "related": [
       "blockland-oneblock-skyblock",
@@ -18032,7 +18032,7 @@ export const topGamesContent = {
     "status": "PASS_LIVE",
     "content_ready": true,
     "indexable": true,
-    "meta_title": "Zombie House Game - 3D Zombie Defense",
+    "meta_title": "Zombie House Game - 3D Zombie Game | BlockHub",
     "meta_description": "Play the ultimate zombie house game on BlockHub.games! Fortify safehouse doors, manage scarce ammo, and survive this intense 3D zombie game free online.",
     "about": "The Zombie House tasks you with defending a suburban homestead against relentless waves of the living dead. Armed with firearms, you patrol the perimeter of your residence as swarms of aggressive zombies advance across the front yard. Eliminating zombies drops shiny coins and temporary ability pick-ups that grant rapid fire and damage boosts. Between waves, spend your hard-earned bounty to upgrade both your character—improving personal health, firing velocity, and movement speed—and your house itself, boarding up windows and reinforcing exterior doors. As each subsequent round introduces stronger, faster undead variants, strategic resource allocation ensures your household survives the night.",
     "controls": [

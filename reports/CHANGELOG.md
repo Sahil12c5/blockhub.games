@@ -3,6 +3,31 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-31 16:10:00] Targeted SEO Meta Optimizations & Description Rewrites (Batches 3–8)
+
+### Summary of Changes
+- **Targeted SEO Meta & Keyword Fixes (5 Routes)**:
+  - **Skyblock 3D (`/game/skyblock-3d`)**: Fixed `meta_title` to feature primary keyword `"skyblock game"` (`Skyblock 3D - Skyblock Game | BlockHub.games`, 45 chars).
+  - **The Zombie House (`/game/the-zombie-house`)**: Updated `meta_title` to include primary `"3d zombie game"` alongside `"zombie house game"` (`Zombie House Game - 3D Zombie Game | BlockHub`, 46 chars).
+  - **Racing Category (`/category/racing`)**: Added mapped keyword `"car racing games online"` (2,900 searches/mo) to `metaDescription` (143 chars), preserving existing keywords `"cool car games unblocked"` and `"unblocked racing games"`.
+  - **2-Player Hub (`/tag/2-player`)**: Updated `metaTitle` to `"Multiplayer Browser Games - 2 Player Games | BlockHub"` (52 chars) and `headline` to prominently feature primary keyword `"multiplayer browser games"`.
+  - **Shooting Category (`/category/shooting`)**: Added mapped keyword `"shooting game online"` (1,300 searches/mo) to `metaDescription` (146 chars), keeping primary `"gun games for free"` (2,400 searches/mo) intact.
+- **Unique Game Description Rewrites (Batches 3–8 Complete)**:
+  - Audited and updated 144 games in `data/top-games-content.js`, `data/top-games-content.json`, and `data/games.js` to eliminate template filler.
+  - Factually grounded all text strictly in verified controls, objectives, obstacles, and upgrades.
+  - Achieved 0 duplicate 6-grams across the entire 400-game catalog.
+  - Maintained 100% preservation of all 21 mapped games (25 keyword instances) from `reports/seo/keyword-mapping.csv`.
+- **Mobile UI & Responsive Viewport Optimizations**:
+  - Enhanced layout responsiveness across 360px, 390px, 412px, and 768px viewports for homepage hero carousel, game player, navigation, and category grids without impacting desktop layouts.
+- **Search Engine Discovery & Link Architecture**:
+  - Strengthened internal link architecture to address indexing for 67 "Discovered, not indexed" pages.
+  - Fixed removed game URL handling in `public/_redirects` to ensure real 404/410 responses.
+- **Automated Quality Verification**:
+  - Added permanent gate `scripts/check-mapped-keywords.js` (0 violations).
+  - Verified `scripts/check-onpage-keywords.js` (0 errors).
+  - Prerendered all 426 routes cleanly via `npm run build`.
+
+---
 ## [2026-10-31 01:25:00] Screaming Frog Technical SEO Audit & Compliance Fixes
 
 ### Summary of Changes
