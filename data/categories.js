@@ -473,7 +473,7 @@ export const categories = [
     "headline": "Exploration, Story & Sandbox Adventure Games",
     "metaTitle": "Free Adventure Games Online | BlockHub.games",
     "description": "Embark on unforgettable journeys across vast fantasy realms",
-    "metaDescription": "Embark on epic quests across 50 free adventure games online at BlockHub.games. Explore mysterious ruins, navigate platform worlds, and survive perils free.",
+    "metaDescription": "Embark on quests in 50 adventure games online at BlockHub.games. Explore lost ruins, leap dangerous platforms, and discover hidden lands.",
     "introParagraph": "Embark on sweeping quests and perilous journeys across our collection of 50 adventure games online. Explore trap-filled dungeons, traverse floating sky islands, and scavenge survival resources in post-apocalyptic frontiers. Guide brave heroes through environmental hazards in thrilling story and exploration games that stream instantly in your browser.",
     "badgeColor": "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
     "iconName": "Compass",

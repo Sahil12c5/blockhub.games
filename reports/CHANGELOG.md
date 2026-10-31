@@ -3,6 +3,20 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-10-31 22:12:00] Meta Description SERP Pixel Width Optimization (<985px)
+
+### Summary of Changes
+- **Screaming Frog SERP Pixel Width Optimization (37 Routes)**:
+  - Shortened 37 meta descriptions exceeding 985px to 129–142 characters (estimated width 839px–923px), avoiding Google SERP mobile/desktop truncation.
+  - Replaced wide vocabulary (*Conquer, Fortify, Weave, Command, Intercept, Neutralize, Simulator, Championship*) and uppercase strings with concise synonyms.
+  - Strictly retained 100% of mapped keywords from `reports/seo/keyword-mapping.csv` verbatim.
+  - Verified complete sentence terminations and `BlockHub.games` brand consistency across all 37 updated targets (21 High priority, 16 Medium priority).
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (0 violations).
+  - Passed `scripts/check-onpage-keywords.js` (0 errors).
+  - Compiled and prerendered all 426 routes cleanly via `npm run build`.
+
+---
 ## [2026-10-31 16:10:00] Targeted SEO Meta Optimizations & Description Rewrites (Batches 3–8)
 
 ### Summary of Changes

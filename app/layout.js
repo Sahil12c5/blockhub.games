@@ -17,7 +17,7 @@ export const metadata = {
     template: "%s | BlockHub.games",
   },
   description:
-    "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
+    "Play free games at BlockHub Games, your free online games hub! Enjoy fast action, 3D car racing, FPS shooting, and puzzles with no downloads.",
   keywords: [
     "best online games",
     "online games for free",
@@ -162,7 +162,7 @@ export const metadata = {
     siteName: "BlockHub.games",
     title: "BlockHub.games - Play Free Online Browser Games",
     description:
-      "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
+      "Play free games at BlockHub Games, your free online games hub! Enjoy fast action, 3D car racing, FPS shooting, and puzzles with no downloads.",
     images: [
       {
         url: "/logo.svg",
@@ -176,7 +176,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "BlockHub.games - Play Free Online Browser Games",
     description:
-      "Play thousands of free online browser games at BlockHub.games. Enjoy instant action, 3D car racing, tactical FPS shooting, and puzzles with zero downloads.",
+      "Play free games at BlockHub Games, your free online games hub! Enjoy fast action, 3D car racing, FPS shooting, and puzzles with no downloads.",
     images: ["/logo.svg"],
   },
   manifest: "/manifest.json",

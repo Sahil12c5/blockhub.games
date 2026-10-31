@@ -2,6 +2,21 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Meta Description SERP Pixel Width Optimization (<985px)] - 2026-10-31
+
+### Changed
+- **SERP Pixel Width Optimization Across 37 Pages (<985px)**:
+  - Shortened meta descriptions exceeding 985px in Screaming Frog to 129–142 characters (estimated width 839px–923px), preventing Google truncation.
+  - Replaced wide vocabulary (*Conquer, Fortify, Weave, Command, Intercept, Neutralize, Simulator, Championship*) with concise synonyms.
+  - Retained 100% of mapped keywords from `reports/seo/keyword-mapping.csv` verbatim (*e.g., `highway car game`, `3d zombie game`, `zombie house game`, `stickman puzzle games`, `blockhub games`, `free online games hub`*).
+  - Maintained complete sentence endings and `BlockHub.games` brand formatting across all 37 updated routes:
+    - **High Priority (21 pages)**: `/game/scrap-arms-neo`, `/game/zombie-highway-car-game`, `/game/last-garage-zombie-road`, `/game/dead-rails`, `/game/spellbound-orbs`, `/game/stickman-legion`, `/game/impossible-jeep-driver`, `/game/hollow-pass`, `/game/the-zombie-house`, `/tag/halloween`, `/game/stickboy-hook`, `/game/grave-blast`, `/game/spooky-racing`, `/game/halloween-football-championship`, `/game/witchy`, `/game/tactical-response-team`, `/game/police-chase-car-simulator`, `/game/pirate-dodge`, `/game/shooter-zombie-survival`, `/game/blaze-ball-showdown`, `/category/adventure`.
+    - **Medium Priority (16 pages)**: `/game/american-truck-racing-simulator`, `/game/rich-mom-family-simulator-luxury-life`, `/game/1-speed-superhero-obby`, `/game/scary-granny-horror-maze-escape`, `/game/extreme-monster-truck`, `/tag/truck-driving`, `/game/zombie-drift-steel-rage`, `/game/monster-truck-offroad-2`, `/game/draw-line-stickman`, `/game/extreme-motorcycle-simulator`, `/game/ultimate-car-parking-sim`, `/game/prado-parking-game`, `/` (homepage), `/game/stickman-army-pusher`, `/game/us-coach-bus-simulator-game`, `/game/gun-mob-stickman-run`.
+
+### Verified
+- **Quality Gates**: Passed `node scripts/check-mapped-keywords.js` (0 violations) and `node scripts/check-onpage-keywords.js` (0 violations).
+- **Production Build**: 426/426 static routes prerendered with exit code 0 via `npm run build`.
+
 ## [SEO Targeted Meta Optimizations & Description Rewrites] - 2026-10-31
 
 ### Added

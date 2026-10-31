@@ -19630,7 +19630,7 @@ function enrichGame(game) {
             ],
             "h1": "Draw Line Stickman - Stickman Puzzle Games",
             "meta_title": "Draw Line Stickman - Stickman Puzzle Games | BlockHub",
-            "meta_description": "Play Draw Line Stickman, a standout in stickman puzzle games on BlockHub.games. Sketch physics barriers and protect your stick hero from falling hazards.",
+            "meta_description": "Play Draw Line Stickman in stickman puzzle games on BlockHub.games! Sketch physics lines to shield your stick hero from falling hazards.",
             "description": "Draw Line Stickman turns your creative sketching into physical shields in one of the most clever stickman puzzle games available online. In each level, a defenseless stickman hero finds himself in perilous danger from falling boulders, swinging spike pendulums, and charging monster enemies. Using an interactive pencil tool, you draw freeform lines and structures directly onto the canvas to deflect falling debris, bridge chasms, and protect your hero.\n\nThe moment you release your mouse or finger, gravity takes effect: your drawn lines transform into solid physical objects that deflect falling debris or pin hazards away from your hero. Solving each level in these physics-based stickman puzzle games rewards creative experimentation with unique geometries to discover the most efficient defensive blueprints."
     },
 
@@ -19653,7 +19653,7 @@ function enrichGame(game) {
             ],
             "h1": "Zombie Highway Car Game - Highway Car Game",
             "meta_title": "Highway Car Game - Zombie Highway Action | BlockHub",
-            "meta_description": "Play Zombie Highway Car Game, an intense highway car game on BlockHub.games. Blast past undead hordes, avoid road hazards, and escape in armored vehicles.",
+            "meta_description": "Play Zombie Highway Car Game, an intense highway car game on BlockHub.games! Blast past undead hordes, dodge road traps, and escape.",
             "description": "Zombie Highway Car Game delivers post-apocalyptic vehicular combat in this action-packed highway car game, blending express racing with survival thrills. Strapped into an armored vehicle, you blast down desolate expressways overrun by swarms of the undead and abandoned civilian wreckage. Accessible one-hand controls let you steer smoothly across lanes, clipping zombies and side-swiping ghouls that attempt to leap onto your vehicle chassis.\n\nMastering this highway car game requires balanced decision-making: maintain speed to escape collapsing zones while carefully dodging concrete barricades and abandoned cars that can wreck your engine. Upgrade your vehicle between runs with reinforced cowcatchers, enhanced armor plating, and mounted firepower to penetrate deeper into the infected highway corridor."
     },
     "sniper-shooter-3d": {
@@ -19977,7 +19977,7 @@ function enrichGame(game) {
             "zombie house game"
         ],
         "meta_title": "Zombie House Game - 3D Zombie Game | BlockHub",
-        "meta_description": "Play the ultimate zombie house game on BlockHub.games! Fortify safehouse doors, manage scarce ammo, and survive this intense 3D zombie game free online.",
+        "meta_description": "Play this zombie house game on BlockHub.games! Board up safehouse doors, save scarce ammo, and survive a tense 3D zombie game online.",
         "h1": "The Zombie House - 3D Zombie Game Online",
         "description": "The Zombie House delivers intense 3D zombie game action as you defend a suburban safehouse against relentless waves of the living dead. Armed with firearms, you patrol the perimeter of your residence as swarms of aggressive zombies advance across the front yard. Eliminating zombies drops shiny coins and temporary ability pick-ups that grant rapid fire and damage boosts. Between waves, spend your hard-earned bounty to upgrade both your character—improving personal health, firing velocity, and movement speed—and your house itself, boarding up windows and reinforcing exterior doors. As each subsequent round introduces stronger, faster undead variants, strategic resource allocation ensures your household survives the night."
     },
