@@ -2,6 +2,16 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Purge Non-English & Competitor Keywords from Layout] - 2026-11-01
+
+### Removed
+- **Non-English & Competitor Brand Terms in Global Layout**:
+  - Removed foreign-language entries (`العاب مجانية`, `ігри онлайн`, `juegos`, `oyunlar`, `juegos gratis`, `oyun`) and competitor brand terms (`poki oyun`, `poki unblocked games`) from the `keywords` array in `app/layout.js`.
+
+### Verified
+- **Production Build**: 426/426 static routes built successfully with 0 errors via `npm run build`.
+- **Quality Gates**: `node scripts/check-mapped-keywords.js` (25/25 verified) and `node scripts/check-onpage-keywords.js` (0 errors).
+
 ## [DataFast Analytics & Monetag Re-Enablement] - 2026-11-01
 
 ### Added

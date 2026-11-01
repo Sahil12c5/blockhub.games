@@ -3,6 +3,18 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-11-01 22:40:00] Purge Non-English & Competitor Keywords from Layout
+
+### Summary of Changes
+- **Metadata Sanitization in `app/layout.js`**:
+  - Removed non-English keywords (`العاب مجانية`, `ігри онлайн`, `juegos`, `oyunlar`, `juegos gratis`, `oyun`).
+  - Removed competitor terms (`poki oyun`, `poki unblocked games`).
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (25/25 verified).
+  - Passed `scripts/check-onpage-keywords.js` (0 violations).
+  - Static production build prerendered 426/426 routes cleanly with exit code 0 (`npm run build`).
+
+---
 ## [2026-11-01 01:50:00] DataFast Analytics & Monetag Re-Enablement
 
 ### Summary of Changes
