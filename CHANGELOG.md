@@ -2,6 +2,19 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Schema Compliance: Restrict AggregateRating to Single Game Pages] - 2026-11-02
+
+### Removed
+- **AggregateRating on Collection/Listing Pages**:
+  - Removed `aggregateRating` from `CategoryJsonLd` in `components/JsonLd.js` across all category collection pages (`CollectionPage`).
+  - Removed `aggregateRating` from `collectionSchema` in `app/tag/[tag]/page.js` across all topic hub pages (`CollectionPage`).
+  - Complies with Google Search Central guidelines restricting Review Snippets and `AggregateRating` strictly to specific individual item types (`VideoGame` on `/game/*` routes).
+
+### Verified
+- **Game Page Structured Data**: Confirmed `VideoGame` schema retains `aggregateRating` on all `/game/*` routes (verified on `/game/referee-simulator-3d`).
+- **Hub & Category Structured Data**: Confirmed `aggregateRating` is absent on all collection/hub routes (verified on `/tag/zombie` and `/category/racing`).
+- **Production Build**: 426/426 static routes built successfully with 0 errors via `npm run build`.
+
 ## [Purge Non-English & Competitor Keywords from Layout] - 2026-11-01
 
 ### Removed

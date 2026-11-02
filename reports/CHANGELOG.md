@@ -3,6 +3,19 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-11-02 23:50:00] Schema Compliance: Restrict AggregateRating to Single Game Pages
+
+### Summary of Changes
+- **Structured Data Optimization**:
+  - Removed `aggregateRating` from `CategoryJsonLd` in `components/JsonLd.js` (`CollectionPage`).
+  - Removed `aggregateRating` from `collectionSchema` in `app/tag/[tag]/page.js` (`CollectionPage`).
+  - Verified `aggregateRating` remains 100% active on `GameJsonLd` for all single game pages (`VideoGame`).
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (25/25 verified).
+  - Passed `scripts/check-onpage-keywords.js` (0 violations).
+  - Prerendered 426/426 static routes with 0 errors via `npm run build`.
+
+---
 ## [2026-11-01 22:40:00] Purge Non-English & Competitor Keywords from Layout
 
 ### Summary of Changes

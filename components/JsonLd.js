@@ -148,13 +148,6 @@ export function CategoryJsonLd({ category, baseUrl = "https://blockhub.games" })
       "@type": "Thing",
       name: `${category.name} Games`,
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      ratingCount: "1450",
-      bestRating: "5",
-      worstRating: "1",
-    },
   };
 
   return (
