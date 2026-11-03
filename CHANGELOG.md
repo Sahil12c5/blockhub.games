@@ -2,6 +2,15 @@
 
 All notable changes to the BlockHub.games platform are documented in this file.
 
+## [Google Analytics (gtag.js) Integration] - 2026-11-04
+
+### Added
+- **Google Analytics**: Integrated official Google tag (`gtag.js` for measurement ID `G-H9N5BKNRYV`) into the `<head>` of `app/layout.js`, ensuring tracking across all catalog routes.
+
+### Verified
+- **Production Build**: 426/426 static routes built successfully with 0 errors via `npm run build`.
+- **Quality Gates**: `node scripts/check-mapped-keywords.js` (25/25 verified) and `node scripts/check-onpage-keywords.js` (0 errors).
+
 ## [Schema Compliance: Restrict AggregateRating to Single Game Pages] - 2026-11-02
 
 ### Removed

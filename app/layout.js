@@ -208,6 +208,22 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
 
+        {/* Google Analytics - Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-H9N5BKNRYV"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-H9N5BKNRYV');
+            `,
+          }}
+        />
+
         {/* DataFast Analytics */}
         <script
           defer
