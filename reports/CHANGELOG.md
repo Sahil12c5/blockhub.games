@@ -3,6 +3,23 @@
 All notable changes to content generation, quality gates, indexing status, and reports are documented in this file.
 
 ---
+## [2026-11-13 14:20:00] SERP Snippet Intent Alignments & Bing IndexNow Key Setup
+
+### Summary of Changes
+- **Targeted SERP Snippet Optimization**:
+  - `knightbit-far-lands` (`/game/knightbit-far-lands`): Updated `meta_title` to `"KnightBit: Far Lands — Play Free Online | BlockHub.games"` to align with exact query intent.
+  - `storm-dash` (`/game/storm-dash`): Updated `meta_title` to `"Storm Dash — Play Free Online | BlockHub.games"` for direct intent matching.
+  - `multiplayer` (`/category/multiplayer`): Front-loaded high-impression query in `metaTitle` to `"Multiplayer Hub — Free Online Games with Friends | BlockHub"`.
+  - Shortened `multiplayer` `metaDescription` to 142 characters (~872px) to eliminate SERP truncation while keeping mapped keywords verbatim.
+- **Bing IndexNow Key Integration**:
+  - Added IndexNow key verification file at `public/bf7a3c9d14e25f8b06c47d1a93e82f05.txt`.
+  - Updated `scripts/submit-indexnow.js` with key `bf7a3c9d14e25f8b06c47d1a93e82f05` and automated sitemap ping.
+- **Quality Gates & Build**:
+  - Passed `scripts/check-mapped-keywords.js` (25/25 verified).
+  - Passed `scripts/check-onpage-keywords.js` (0 violations).
+  - Static production build prerendered 426/426 routes cleanly with exit code 0 (`npm run build`).
+
+---
 ## [2026-11-04 02:05:00] Google Analytics (gtag.js) Integration
 
 ### Summary of Changes

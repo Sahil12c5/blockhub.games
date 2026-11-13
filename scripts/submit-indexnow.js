@@ -2,9 +2,10 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = '0ac409287eac4b93803799e34fc39b43';
+const API_KEY = 'bf7a3c9d14e25f8b06c47d1a93e82f05';
 const HOST = 'blockhub.games';
 const KEY_LOCATION = `https://${HOST}/${API_KEY}.txt`;
+const BING_PING_URL = `https://www.bing.com/indexnow?url=https://${HOST}/sitemap.xml&key=${API_KEY}`;
 
 // Gather all canonical indexable URLs for the site
 function getAllLiveUrls() {
@@ -51,6 +52,24 @@ function getAllLiveUrls() {
   }
 
   return Array.from(new Set(urls));
+}
+
+// Ping Bing IndexNow with Sitemap URL
+function pingBingIndexNow() {
+  return new Promise((resolve) => {
+    console.log(`Pinging Bing IndexNow: ${BING_PING_URL}`);
+    https.get(BING_PING_URL, (res) => {
+      let data = '';
+      res.on('data', chunk => { data += chunk; });
+      res.on('end', () => {
+        console.log(`Bing IndexNow Ping Status: HTTP ${res.statusCode} ${res.statusMessage}`);
+        resolve({ status: res.statusCode, body: data });
+      });
+    }).on('error', (err) => {
+      console.warn(`Bing IndexNow Ping Warning: ${err.message}`);
+      resolve({ status: 500, error: err.message });
+    });
+  });
 }
 
 function submitToIndexNow(urlList) {
@@ -113,6 +132,7 @@ async function run() {
   console.log(`Verification key location: ${KEY_LOCATION}`);
 
   try {
+    await pingBingIndexNow();
     const result = await submitToIndexNow(urls);
     console.log('IndexNow submission finished with status:', result.status);
   } catch (err) {
@@ -121,4 +141,8 @@ async function run() {
   }
 }
 
-run();
+if (require.main === module) {
+  run();
+}
+
+module.exports = { pingBingIndexNow, submitToIndexNow, getAllLiveUrls, API_KEY };

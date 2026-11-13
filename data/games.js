@@ -19802,7 +19802,7 @@ function enrichGame(game) {
             "knightbit far lands",
             "knightbit"
         ],
-        "meta_title": "KnightBit Online - Free Browser Game",
+        "meta_title": "KnightBit: Far Lands — Play Free Online | BlockHub.games",
         "meta_description": "Play KnightBit: Far Lands free in your browser on BlockHub.games! Lead knights or vikings in 3D medieval battles, capture flags, and conquer enemy lands.",
         "h1": "KnightBit: Far Lands - Medieval Combat Game",
         "description": "KnightBit: Far Lands drops warriors into sprawling 3D battlegrounds where royal knights clash against hardened Viking invaders. Spanning rugged environments from frozen northern fjords to contested border fortifications, each match challenges your faction to capture strategic flags and eliminate opposing fighters to rack up team victory points. Combat blends tactical melee skirmishes with ranged weapon exchanges. As you tally kills and conquer territories, the comprehensive rank progression system elevates your standing from raw recruit all the way to king, unlocking superior weapon armaments, shields, and passive soldier perks. Coordinate team maneuvers, contest contested capture circles, and hold choke points to dominate the realm."
@@ -19811,7 +19811,7 @@ function enrichGame(game) {
         "keywords": [
             "storm dash"
         ],
-        "meta_title": "Storm Dash - High-Speed Escape Runner",
+        "meta_title": "Storm Dash — Play Free Online | BlockHub.games",
         "meta_description": "Outrun a lethal vortex in Storm Dash on BlockHub.games! Sprint across collapsing aerial paths, dodge lightning strikes, and test your reflexes free online.",
         "h1": "Storm Dash - High-Speed Runner Game",
         "description": "Storm Dash delivers breathtaking high-speed parkour where runners sprint along precarious sky runways ahead of an apocalyptic vortex storm. Racing along fractured concrete freeways suspended in turbulent storm clouds, you must maintain lightning-fast pace while dodging falling debris, jumping over broken highway sections, and sliding beneath collapsed girders. The escape trial challenges you to collect magnetic speed tokens, slide through glowing boost rings, time wall-runs along vertical bill-boards, and outrun the crackling vortex wall nipping at your heels. Thundering storm audio and dazzling lightning effects keep tension sky-high.\n\nSprint across collapsing sky freeways, timing leaps across fractured highway asphalt while crackling lightning bolts illuminate the crumbling path ahead. The howling vortex storm steadily increases its pursuit velocity, rewarding runners who hit glowing acceleration pads and maintain tight cornering lines along curved overpasses. Sliding under collapsed steel girders and wall-running across suspended billboards provides vital clearance when the main roadway drops away into stormy oblivion."
